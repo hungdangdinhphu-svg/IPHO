@@ -28,7 +28,7 @@ Dạng bài : ...
 
 **Ta có luận điểm sau : Thay vì học sinh cố gắng "giỏi" lên bằng cách làm nhiều bài hơn và chăm chỉ hơn (thực tế là "pattern recognition" nhưng tệ hơn algorithm), thì chỉ cần chuẩn bị trước như sau :**
 
-1. Chứng minh CHẶT CHẼ rằng có tồn tại một cách làm đóng khung (vạn bài như một, biến tấu trong tầm kiểm soát) cho một dạng bài mà tôi đã nói ở trên, và nghiên cứu/phát hiện ra nó;
+1. Tự phát minh(Tuy nhiên vẫn phải chứng minh được chặt chẽ thông qua những kiến thức có sẵn, và đặc biệt là phải đảm bảo nó không bị cấm)/hoặc tìm ra, và sau đó CHỨNG MINH CHẶT CHẼ rằng đó là cách làm đóng khung (vạn bài như một, biến tấu trong tầm kiểm soát) cho một dạng bài mà tôi đã nói ở trên, và nghiên cứu/phát hiện ra nó; (Có rất nhiều problems tưởng như cần sáng tạo, như phần mạch Điện tuyến tính ở Kỳ thi tuyển sinh học sinh lớp 9 lên lớp 10, nhưng hóa ra Nodal Analysis chính là thứ triệt tiêu sự sáng tạo đó, tuy nhiên mặc dù Nodal Analysis được cho phép ở Chuyên vào 10, nhưng nó đến tận đại học mới được giảng dạy, hay gần như không ai biết ở độ tuổi đó)
 
 2. Tuân thủ tuyệt đối nó; Như vậy thì 1 hs trung bình với trực giác vật lý cũng trung bình có thể giải được các bài lý phức tạp cỡ học sinh giỏi (đòi hỏi thêm trực giác tầm trung của con người, tuy nhiên không dựa vào nó hoàn toàn như bình thường).
 
@@ -46,7 +46,7 @@ Algorithm mà tôi mong muốn :
 
 1. Mất khoảng vài chục giây để : lấy được toàn bộ thông tin CẦN THIẾT từ đề bằng algorithm, thấy đc các thông tin BẮT BUỘC phải dùng để giải (đủ)
 
-2. Áp dụng pattern/"algorithm" giải toán đã chuẩn bị ở nhà để giải (**Có thể xài kiến thức tối đa là ở lớp 12, cơ bản lẫn nâng cao hay HSG**)
+2. Áp dụng pattern/"algorithm" giải toán đã chuẩn bị ở nhà để giải 
 
 
 Có thể thấy rằng Algorithm sẽ khiến cho bước giải toán và lý không còn heuristic (hoặc cực kỳ ít, và không khó);
@@ -60,7 +60,7 @@ Requirements : Học sinh tầm trung, trực giác vật lý tầm trung, nhưn
 
 VÀ
 
-Mọi dạng bài toán nêu trên đều phải giải được. Áp dụng "algorithm" để đạt được điều đó, bây giờ ta cần nghiên cứu; (**Có thể xài kiến thức tối đa là ở lớp 12, cơ bản lẫn nâng cao hay HSG**)
+Mọi dạng bài toán nêu trên đều phải giải được. Áp dụng "algorithm" để đạt được điều đó, bây giờ ta cần nghiên cứu; 
 Requirements : Học sinh tầm trung, trực giác vật lý tầm trung, nhưng kỷ luật và tuân thủ;
 
 
