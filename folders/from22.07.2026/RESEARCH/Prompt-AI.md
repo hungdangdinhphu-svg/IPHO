@@ -2,7 +2,7 @@
 
 # Definition & References :
 
-"Algorithm" : An algorithm is a step-by-step set of instructions or rules designed to solve a problem or accomplish a specific task. Think of it like a recipe: if you follow the exact sequence of steps in the correct order, you will successfully get your desired result. (1 số ví dụ thực tế : Sử dụng Nodal Analysis trong Kỳ Thi Tuyển Sinh Học Sinh Lớp 9 Vào Lớp 10 Môn Chuyên Vật Lý; Tuy nhiên ví dụ nêu trên là ví dụ đã quá phổ biến, rất nhiều lúc ta không thể có những thứ có sẵn tốt như vậy, mà phải tự research ra)
+"Algorithm" : An algorithm is a step-by-step set of instructions or rules designed to solve a problem or accomplish a specific task. Think of it like a recipe: if you follow the exact sequence of steps in the correct order, you will successfully get your desired result. (1 số ví dụ thực tế : Sử dụng Nodal Analysis trong lớp bài toán mạch điện tuyến tính (trừ mạch đối xứng, hoặc mạch vô hạn, những kiểu quá mức quái dị, nhưng mạch cầu thì dư sức,.v.v.) Kỳ Thi Tuyển Sinh Học Sinh Lớp 9 Vào Lớp 10 Môn Chuyên Vật Lý; Tuy nhiên ví dụ nêu trên là ví dụ đã quá phổ biến, rất nhiều lúc ta không thể có những thứ có sẵn tốt như vậy, mà phải tự research ra)
 
 "..." : ...
 
