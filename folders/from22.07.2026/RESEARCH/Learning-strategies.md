@@ -8,4 +8,6 @@ B5 : Tạo "General Algorithm" cho các problems đó và dạng đó
 
 B6 : Học "General Algorithm", cải thiện (if any) "General Algorithm"
 
-B7 : Làm problems ở Jaan Kalda & Irodov Problems in General Physics
+B7 : Làm problems ở Jaan Kalda & Irodov Problems in General Physics, và cải thiện B6 (if any)
+
+B8 : Học idea của Jaan Kalda nếu "General Algorithm" không hiệu quả dù đã cố cải thiện
