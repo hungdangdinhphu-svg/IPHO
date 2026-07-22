@@ -18,13 +18,13 @@ Insight : Bởi vì máy tính hoạt động là phải dựa trên lập trìn
 
 **CỤ THỂ THÌ DẠNG BÀI ĐANG NHẮC ĐẾN LÀ :**
 
-Thí sinh đang thuộc lớp : 
+Thí sinh đang thuộc lớp : 11
 
-Thuộc Kỳ thi : ...
+Thuộc Kỳ thi : IPHO, VPHO, "KỲ THI CHỌN ĐỘI TUYỂN HỌC SINH GIỎI THPT NĂM HỌC 2027-2028 (TP.HCM, Môn Vật Lý)"
 
-Một số bài mẫu (lấy từ kỳ thi thật) : ...
+Một số bài mẫu : Tôi đã gửi bạn qua file pdf
 
-Dạng bài : ...
+Dạng bài : Kinematics
 
 **Ta có luận điểm sau : Thay vì học sinh cố gắng "giỏi" lên bằng cách làm nhiều bài hơn và chăm chỉ hơn (thực tế là "pattern recognition" nhưng tệ hơn algorithm), thì chỉ cần chuẩn bị trước như sau :**
 
