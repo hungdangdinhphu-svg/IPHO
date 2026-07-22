@@ -105,13 +105,7 @@ Because :
 2. Although solving a system of equations may seem difficult, it is actually very formulaic, as follows:
 
 
-https://github.com/nahhididwin/Toan/blob/main/Lop10/Physics/NodalAnalysis-L9/Screenshot%202026-06-24%20202113.png
-
-https://github.com/nahhididwin/Toan/blob/main/Lop10/Physics/NodalAnalysis-L9/Screenshot%202026-06-24%20202124.png
-
-https://github.com/nahhididwin/Toan/blob/main/Lop10/Physics/NodalAnalysis-L9/Screenshot%202026-06-24%20202138.png
-
-
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/RESEARCH/NodalAnalysis/Screenshot%202026-06-24%20202113.png
 
 
 
