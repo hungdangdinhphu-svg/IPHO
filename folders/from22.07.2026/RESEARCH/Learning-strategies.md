@@ -1,4 +1,4 @@
-B1 : Đọc formulas.pdf & FUNDAMENTALS OF PHYSICS ở phần liên quan đến chủ đề đang muốn học, để có nền tảng cơ bản
+B1 : Đọc formulas.pdf & FUNDAMENTALS OF PHYSICS & Youtube/Google ở phần liên quan đến chủ đề đang muốn học, để có nền tảng cơ bản
 
 B3 : Đọc phần lý thuyết đầu ở chủ đề đó của Jaan Kalda
 
