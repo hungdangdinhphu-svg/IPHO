@@ -1,6 +1,6 @@
 # Khi RESEARCH/STUDY ở một chủ đề nào đó :
 
-B1 : Đọc formulas.pdf & FUNDAMENTALS OF PHYSICS & Youtube/Google ở phần liên quan đến chủ đề đang muốn học, để có nền tảng cơ bản
+B1 : Đọc **Jaan Kalda** & formulas.pdf trước, sau đó thì : & FUNDAMENTALS OF PHYSICS & Youtube/Google ở phần liên quan đến chủ đề đang muốn học, để có nền tảng cơ bản
 
 B3 : Đọc phần lý thuyết đầu ở chủ đề đó của Jaan Kalda
 
@@ -12,7 +12,7 @@ B6 : Học "General Algorithm", cải thiện (if any) "General Algorithm"
 
 B7 : Làm problems ở Jaan Kalda & Irodov Problems in General Physics, và cải thiện B6 (if any)
 
-B8 : Học idea của Jaan Kalda nếu "General Algorithm" không hiệu quả ở phần cần idea dù đã cố cải thiện
+B8 : Học thuộc, cố gắng thẩm thấu idea của Jaan Kalda nếu "General Algorithm" không hiệu quả ở phần cần idea dù đã cố cải thiện (dự phòng)
 
 # Quy trình tổng quát :
 
