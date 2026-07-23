@@ -4,7 +4,7 @@
 
 1. Biến "bài Vật lý" về "bài Toán", sử dụng một meta-Algorithm cực kỳ mạnh, không phải case-by-case, nó khủng khiếp đến mức có thể hình dung như sau :
 
-+ Giả sử bạn là kỹ sư máy bay thương mại hoặc vũ khí quân sự tuyệt mật, hoặc kỹ sư ở vị trí cực kỳ cao cấp. Một kỹ sư giỏi thực thụ họ giống như một máy tính nhưng được lập trình cực kỳ mạnh vậy, sẽ không bao giờ tốn cả chục phút để giải bài đó thủ công, các bài toán VPHO/IPHO họ có thể dùng một phương pháp (có thể chỉ một mình họ biết, có thể nó dựa trên phần lớn những gì đã có sẵn hiện nay) duy nhất (general - tổng quát) để giải cho cả một phần Vật Lý rộng lớn (như : Mechanics, Optics,..v.v) chứ không phải case-by-case.
++ "Giả sử bạn là kỹ sư máy bay thương mại hoặc vũ khí quân sự tuyệt mật, hoặc kỹ sư ở vị trí cực kỳ cao cấp. Một kỹ sư giỏi thực thụ họ giống như một máy tính nhưng được lập trình cực kỳ mạnh vậy, sẽ không bao giờ tốn cả chục phút để giải bài đó thủ công, các bài toán VPHO/IPHO họ có thể dùng một phương pháp (có thể chỉ một mình họ biết, có thể nó dựa trên phần lớn những gì đã có sẵn hiện nay) duy nhất (general - tổng quát) để giải cho cả một phần Vật Lý rộng lớn (như : Mechanics, Optics,..v.v) chứ không phải case-by-case"; Mặc dù nghe như viễn tưởng, tuy nhiên tôi vẫn có niềm tin là có thể, vậy nên mới nói để tìm ra nó có thể phải research. Còn nếu không tạo/tìm ra được, thì chỉ còn nước dùng trực giác để giải, và điều đấy rất căng thẳng.
 
 + Họ có thể dùng GENERAL Algorithm để xử đẹp đó.
 
