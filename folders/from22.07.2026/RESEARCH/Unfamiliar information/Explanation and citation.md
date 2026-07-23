@@ -59,7 +59,7 @@ Khi đối mặt với một đề bài VPhO (dù là cơ học phức tạp hay
 └────────────────────────────────────────┘
             │
             ▼
-[ Hệ phương trình toán học thuần túy ──► Đáp án ]
+| Hệ phương trình toán học thuần túy ──► Đáp án |
 
 
 
