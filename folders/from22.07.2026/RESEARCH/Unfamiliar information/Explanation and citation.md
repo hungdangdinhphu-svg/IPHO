@@ -61,6 +61,18 @@ Khi đối mặt với một đề bài VPhO (dù là cơ học phức tạp hay
             ▼
 | Hệ phương trình toán học thuần túy ──► Đáp án |
 
+**Bước 1: Khai phá Không gian Trạng thái & Đối xứng (Noether Extraction)**
+
+Mục tiêu: Không cần hình dung vật thể chuyển động ra sao. Chỉ cần đếm bậc tự do và tìm hằng số chuyển động.
+
+Đếm số bậc tự do ($f$): Xác định tối thiểu bao nhiêu tọa độ tổng quát $q_1, q_2, \dots, q_f$ để mô tả hoàn toàn trạng thái hệ.
+
+Quét đối xứng (Symmetry Scan):
+
+Hệ có biến đổi theo thời gian không? $\to$ Không $\Rightarrow$ Năng lượng $E$ bảo toàn.
+
+Hệ có biến đổi khi tịnh tiến theo trục $x$ không? $\to$ Không $\Rightarrow$ Xung lượng $p_x$ bảo toàn.
+
 
 
 
