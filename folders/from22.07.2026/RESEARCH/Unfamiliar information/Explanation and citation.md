@@ -14,7 +14,7 @@
 
 
 
-
+**Bổ sung :** Thực tế thì tôi công nhận rằng bản thân mình vẫn còn dính phải những "ẩn ý" trong câu nói mà người đọc phải ngầm hiểu. Không hẳn là tôi không nhận ra, mà là tôi không muốn nói vì đơn giản là "lười". Kiểu như "Kỹ sư làm gì làm được chuyện đó?", yep tôi biết chứ, nhưng tôi cứ gọi là "Kỹ sư" đấy thì sao, bạn làm gì tôi? Thực tế mặc dù tôi rất logic, tuy nhiên các "từ" mà tôi sử dụng thực tế không bao giờ gặp lỗi logic nếu tôi chỉ tự nói chuyện với chính mình, còn khi nói chuyện với người khác thì có thể bị bắt bẻ, tôi thực tế hoàn toàn khắc phục được điều này nhưng đơn giản là tôi "lười", ez.
 
 
 
