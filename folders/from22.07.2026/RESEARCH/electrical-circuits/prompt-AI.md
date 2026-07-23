@@ -24,7 +24,7 @@ Thuộc Kỳ thi : IPHO, VPHO, "KỲ THI CHỌN ĐỘI TUYỂN HỌC SINH GIỎI
 
 Một số bài mẫu : Tôi đã gửi bạn qua file pdf
 
-Dạng bài : Kinematics
+Dạng bài : ELECTRICAL CIRCUITS
 
 **Ta có luận điểm sau : Thay vì học sinh cố gắng "giỏi" lên bằng cách làm nhiều bài hơn và chăm chỉ hơn (thực tế là "pattern recognition" nhưng tệ hơn algorithm), thì chỉ cần chuẩn bị trước như sau :**
 
