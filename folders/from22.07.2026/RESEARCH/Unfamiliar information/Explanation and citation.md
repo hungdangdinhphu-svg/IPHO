@@ -1,3 +1,11 @@
+---
+
+Attempt 1 :
+
+Liệu có thể tìm khắp trái đất, khắp internet để tìm ra kỹ thuật cực mạnh, khi mà chỉ cần học được những kiến thức nền tảng đủ để giải bài toán (Vật lý) và sau đó dù bài vật lý có khó cỡ VPHO, thì ko cần trực giác, ta vẫn có thể giải đc mượt mà như Algorithm ko?
+
+Kiểu như này :
+
 **Vấn đề :** Bài vật lý có thể tồn tại kiến thức mới không nằm trong IPHO Syllabus (https://www.ipho-new.org/statutes-syllabus/). Tuy nhiên, vẫn sẽ giải được dựa trên nền tảng từ các phần cũ. Hoặc thậm chí cho dù không liên quan gì đến những gì đã học, chúng ta vẫn phải dùng toán và các phương pháp cực kỳ cao cấp, mạnh mẽ để giải được nó. Chúng ta cần nghiên cứu cách xử lý tình huống này, mà vẫn được cho phép trong phòng thi, không vi phạm quy chế, được phép sử dụng phương pháp đó,..v.v
 
 2 Bước chính :
@@ -15,6 +23,32 @@
 
 
 **Bổ sung :** Thực tế thì tôi công nhận rằng bản thân mình vẫn còn dính phải những "ẩn ý" trong câu nói mà người đọc phải ngầm hiểu. Không hẳn là tôi không nhận ra, mà là tôi không muốn nói vì đơn giản là "lười". Kiểu như "Kỹ sư làm gì làm được chuyện đó?", yep tôi biết chứ, nhưng tôi cứ gọi là "Kỹ sư" đấy thì sao, bạn làm gì tôi? Thực tế mặc dù tôi rất logic, tuy nhiên các "từ" mà tôi sử dụng thực tế không bao giờ gặp lỗi logic nếu tôi chỉ tự nói chuyện với chính mình, còn khi nói chuyện với người khác thì có thể bị bắt bẻ, tôi thực tế hoàn toàn khắc phục được điều này nhưng đơn giản là tôi "lười", ez. Thực ra nếu tôi nghiêm túc tôi có thể tự định nghĩa hoàn toàn từ đầu cũng được, nhưng mất thời gian nên tôi "lười".
+
+
+
+À, thật ra cũng không quá "extreme" đâu, vì chúng ta vẫn được phép dùng trực giác con người trong việc đọc-hiểu đề, viết bài,.v..v (Nhưng phải đảm bảo là trực giác trung bình con người cũng làm được nhé, còn mấy cái kiểu eureka hay gì đó thì ko)
+
+---
+
+Attempt 2 :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
