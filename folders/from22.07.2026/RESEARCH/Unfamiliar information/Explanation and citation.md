@@ -153,7 +153,13 @@ Tóm tắt hành động: Nếu bạn theo con đường này, hãy ngừng vi�
 
 
 
+===
 
+Attempt 3 : Cải tiến Attempt 2, cụ thể là :
+
+1. Đảm bảo việc giải toán dù phức tạp không còn là vấn đề, dùng General Algorithm thiết kế riêng cho giải toán.
+
+2. Hoàn thiện toàn bộ Bước Physic -> Math
 
 
 
