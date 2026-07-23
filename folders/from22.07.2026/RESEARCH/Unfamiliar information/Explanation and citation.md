@@ -32,48 +32,6 @@ Kiểu như này :
 
 Attempt 2 :
 
-# Meta-Algorithm: 4 Bước giải mọi bài toán VPhO không cần "Eureka"
-
-Khi đối mặt với một đề bài VPhO (dù là cơ học phức tạp hay một hiện tượng hoàn toàn mới ngoài Syllabus), thuật toán này sẽ ép bài toán đi qua 4 phễu lọc bắt buộc:
-
-| Đề bài VPhO / Hiện tượng lạ |
-            │
-            ▼
-┌────────────────────────────────────────┐
-│  Bước 1: Canonical State & Symmetry    │ ──► Tìm biến tự do q_i & Đối xứng (Noether)
-└────────────────────────────────────────┘
-            │
-            ▼
-┌────────────────────────────────────────┐
-│  Bước 2: Universal Action Injection    │ ──► Nạp Lagrangian / Fermat / Entropy
-└────────────────────────────────────────┘
-            │
-            ▼
-┌────────────────────────────────────────┐
-│  Bước 3: Nondimensionalization          │ ──► Khử thứ nguyên & Bắt đại lượng bé ε
-└────────────────────────────────────────┘
-            │
-            ▼
-┌────────────────────────────────────────┐
-│  Bước 4: Perturbation & Linearization  │ ──► Tuyến tính hóa / Khai triển Taylor
-└────────────────────────────────────────┘
-            │
-            ▼
-| Hệ phương trình toán học thuần túy ──► Đáp án |
-
-**Bước 1: Khai phá Không gian Trạng thái & Đối xứng (Noether Extraction)**
-
-Mục tiêu: Không cần hình dung vật thể chuyển động ra sao. Chỉ cần đếm bậc tự do và tìm hằng số chuyển động.
-
-Đếm số bậc tự do ($f$): Xác định tối thiểu bao nhiêu tọa độ tổng quát $q_1, q_2, \dots, q_f$ để mô tả hoàn toàn trạng thái hệ.
-
-Quét đối xứng (Symmetry Scan):
-
-Hệ có biến đổi theo thời gian không? $\to$ Không $\Rightarrow$ Năng lượng $E$ bảo toàn.
-
-Hệ có biến đổi khi tịnh tiến theo trục $x$ không? $\to$ Không $\Rightarrow$ Xung lượng $p_x$ bảo toàn.
-
-
 
 
 
