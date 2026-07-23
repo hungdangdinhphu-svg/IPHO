@@ -1,4 +1,5 @@
 ===
+
 Attempt 1 :
 
 Liệu có thể tìm khắp trái đất, khắp internet để tìm ra kỹ thuật cực mạnh, khi mà chỉ cần học được những kiến thức nền tảng đủ để giải bài toán (Vật lý) và sau đó dù bài vật lý có khó cỡ VPHO, thì ko cần trực giác, ta vẫn có thể giải đc mượt mà như Algorithm ko?
