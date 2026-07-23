@@ -1,1 +1,1 @@
-
+**Vấn đề :** Bài vật lý có thể tồn tại kiến thức mới không nằm trong IPHO Syllabus (https://www.ipho-new.org/statutes-syllabus/). Tuy nhiên, vẫn sẽ giải được dựa trên nền tảng từ các phần cũ. Chúng ta cần nghiên cứu cách xử lý tình huống này.
