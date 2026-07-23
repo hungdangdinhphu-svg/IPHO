@@ -1,6 +1,6 @@
 # Khi RESEARCH/STUDY ở một chủ đề nào đó :
 
-B1 : Đọc **Jaan Kalda** (Không hẳn lúc nào author của tài liệu cũng là Kalda, mà là trong link này nè : https://ioc.ee/~kalda/ipho/; tuy nhiên tôi vẫn sẽ gọi là Kalda cho tiện) & formulas.pdf trước, sau đó thì : & FUNDAMENTALS OF PHYSICS & Youtube/Google ở phần liên quan đến chủ đề đang muốn học, để có nền tảng cơ bản
+B1 : Đọc **Jaan Kalda** (Không hẳn lúc nào author của tài liệu cũng là Kalda, ý tôi muốn nói là tài liệu nằm trong link này nè : https://ioc.ee/~kalda/ipho/; tuy nhiên tôi vẫn sẽ gọi là Kalda cho tiện) & formulas.pdf trước, sau đó thì : & FUNDAMENTALS OF PHYSICS & Youtube/Google ở phần liên quan đến chủ đề đang muốn học, để có nền tảng cơ bản
 
 B3 : Đọc phần lý thuyết đầu ở chủ đề đó của Jaan Kalda
 
