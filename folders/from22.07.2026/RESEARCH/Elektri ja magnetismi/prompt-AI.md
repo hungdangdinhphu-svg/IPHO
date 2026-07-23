@@ -1,6 +1,6 @@
 (Vietnamese & English)
 
-Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh chuẩn bị tham gia kỳ thi cực kỳ quan trọng. Tôi có đưa ra rất nhiều thông tin bên dưới, bạn hãy giúp tôi thực hiện nó, viết ra một file ".md" hãy thật chi tiết và đảm bảo thực hiện chính xác những gì tôi nói.
+Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh chuẩn bị tham gia kỳ thi cực kỳ quan trọng. Tôi có đưa ra rất nhiều thông tin bên dưới, bạn hãy giúp tôi thực hiện nó, viết ra một file ".md" hãy thật chi tiết và đảm bảo thực hiện chính xác những gì tôi nói. Hãy đảm bảo nó ĐẦY ĐỦ (không sót thông tin) và "completness", ngôn ngữ tiếng việt;
 
 # Definition & References :
 
@@ -24,7 +24,7 @@ Thuộc Kỳ thi : IPHO, VPHO, "KỲ THI CHỌN ĐỘI TUYỂN HỌC SINH GIỎI
 
 Một số bài mẫu : Tôi đã gửi bạn qua file pdf
 
-Dạng bài : MECHANICS
+Dạng bài : Điện và Từ (Elektri ja magnetismi)
 
 **Ta có luận điểm sau : Thay vì học sinh cố gắng "giỏi" lên bằng cách làm nhiều bài hơn và chăm chỉ hơn (thực tế là "pattern recognition" nhưng tệ hơn algorithm), thì chỉ cần chuẩn bị trước như sau :**
 
