@@ -36,7 +36,7 @@ Attempt 2 :
 
 Khi đối mặt với một đề bài VPhO (dù là cơ học phức tạp hay một hiện tượng hoàn toàn mới ngoài Syllabus), thuật toán này sẽ ép bài toán đi qua 4 phễu lọc bắt buộc:
 
-[ Đề bài VPhO / Hiện tượng lạ ]
+| Đề bài VPhO / Hiện tượng lạ |
             │
             ▼
 ┌────────────────────────────────────────┐
