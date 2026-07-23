@@ -1,4 +1,4 @@
-**Vấn đề :** Bài vật lý có thể tồn tại kiến thức mới không nằm trong IPHO Syllabus (https://www.ipho-new.org/statutes-syllabus/). Tuy nhiên, vẫn sẽ giải được dựa trên nền tảng từ các phần cũ. Hoặc thậm chí cho dù không liên quan gì đến những gì đã học, chúng ta vẫn phải dùng toán và các phương pháp cực kỳ cao cấp, mạnh mẽ để giải được nó. Chúng ta cần nghiên cứu cách xử lý tình huống này.
+**Vấn đề :** Bài vật lý có thể tồn tại kiến thức mới không nằm trong IPHO Syllabus (https://www.ipho-new.org/statutes-syllabus/). Tuy nhiên, vẫn sẽ giải được dựa trên nền tảng từ các phần cũ. Hoặc thậm chí cho dù không liên quan gì đến những gì đã học, chúng ta vẫn phải dùng toán và các phương pháp cực kỳ cao cấp, mạnh mẽ để giải được nó. Chúng ta cần nghiên cứu cách xử lý tình huống này, mà vẫn được cho phép trong phòng thi, không vi phạm quy chế, được phép sử dụng phương pháp đó,..v.v
 
 2 Bước chính :
 
