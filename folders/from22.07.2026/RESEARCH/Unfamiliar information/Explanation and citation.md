@@ -32,6 +32,36 @@ Kiểu như này :
 
 Attempt 2 :
 
+# Meta-Algorithm: 4 Bước giải mọi bài toán VPhO không cần "Eureka"
+
+Khi đối mặt với một đề bài VPhO (dù là cơ học phức tạp hay một hiện tượng hoàn toàn mới ngoài Syllabus), thuật toán này sẽ ép bài toán đi qua 4 phễu lọc bắt buộc:
+
+[ Đề bài VPhO / Hiện tượng lạ ]
+            │
+            ▼
+┌────────────────────────────────────────┐
+│  Bước 1: Canonical State & Symmetry    │ ──► Tìm biến tự do q_i & Đối xứng (Noether)
+└────────────────────────────────────────┘
+            │
+            ▼
+┌────────────────────────────────────────┐
+│  Bước 2: Universal Action Injection    │ ──► Nạp Lagrangian / Fermat / Entropy
+└────────────────────────────────────────┘
+            │
+            ▼
+┌────────────────────────────────────────┐
+│  Bước 3: Nondimensionalization          │ ──► Khử thứ nguyên & Bắt đại lượng bé ε
+└────────────────────────────────────────┘
+            │
+            ▼
+┌────────────────────────────────────────┐
+│  Bước 4: Perturbation & Linearization  │ ──► Tuyến tính hóa / Khai triển Taylor
+└────────────────────────────────────────┘
+            │
+            ▼
+[ Hệ phương trình toán học thuần túy ──► Đáp án ]
+
+
 
 
 
