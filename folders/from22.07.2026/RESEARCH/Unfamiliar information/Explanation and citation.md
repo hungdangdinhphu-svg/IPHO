@@ -162,7 +162,9 @@ Attempt 3 : Cải tiến Attempt 2, cụ thể là :
 2. Hoàn thiện toàn bộ Bước Physic -> Math
 
 
+Lưu ý quan trọng :
 
+Không phải là trade-off theo kiểu "bản thân phải giải toán nhanh như máy tính" để đạt giải VPHO/IPHO; Mà là dùng toán một cách mạnh mẽ hơn nữa, không phải "brute-force", mà là GENERAL ALGORITHM quá mạnh, khiến cho một học sinh trung bình (mọi thứ trung bình hết) với trực giác tầm trung khả thi để đạt giải IPHO/VPHO;
 
 
 
