@@ -1,5 +1,4 @@
----
-
+===
 Attempt 1 :
 
 Liệu có thể tìm khắp trái đất, khắp internet để tìm ra kỹ thuật cực mạnh, khi mà chỉ cần học được những kiến thức nền tảng đủ để giải bài toán (Vật lý) và sau đó dù bài vật lý có khó cỡ VPHO, thì ko cần trực giác, ta vẫn có thể giải đc mượt mà như Algorithm ko?
@@ -28,7 +27,7 @@ Kiểu như này :
 
 À, thật ra cũng không quá "extreme" đâu, vì chúng ta vẫn được phép dùng trực giác con người trong việc đọc-hiểu đề, viết bài,.v..v (Nhưng phải đảm bảo là trực giác trung bình con người cũng làm được nhé, còn mấy cái kiểu eureka hay gì đó thì ko)
 
----
+===
 
 Attempt 2 :
 
