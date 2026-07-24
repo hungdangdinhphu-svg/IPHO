@@ -1,0 +1,22 @@
+(Vietnamese & English)
+
+Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh chuẩn bị tham gia kỳ thi cực kỳ quan trọng. Tôi có đưa ra rất nhiều thông tin bên dưới, bạn hãy giúp tôi thực hiện nó, viết ra một file ".md" hãy thật chi tiết và đầy đủ và đảm bảo thực hiện chính xác những gì tôi nói.
+
+
+# Information & References :
+
+**I. Những tài liệu tôi đã gửi cho bạn :**
+
+Đây là các tài liệu/link về kiến thức/lý thuyết/ý tưởng và có thể có cả bài tập (hay còn gọi là "Kiến thức đã có") :
+
+1.
+
+2.
+
+...
+
+**II. Thông tin về thí sinh tôi đang giảng dạy, và các thông tin bổ sung :**
+
+Thí sinh đang thuộc lớp :
+
+Thuộc Kỳ thi : ...
