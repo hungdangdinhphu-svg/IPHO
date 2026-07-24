@@ -61,7 +61,7 @@ B3: Giải được phần Toán còn lại, mà không đòi hỏi TRỰC GIÁC
 
 **Quan sát quan trọng :** Đề thi thuộc kỳ thi tôi đã nhắc ở trên, dù có nhét thêm "hiện tượng lạ", thì về bản chất toán học, chúng không bao giờ thoát khỏi cấu trúc của Vật lý Cổ điển và Bán cổ điển. Với một học sinh có "trực giác trung bình" nhưng sở hữu khả năng **TỔNG QUÁT** thì sẽ đạt giải cao.
 
-**Mục tiêu:** Cung cấp một "Pre-trained model" dạng nguyên lý để loại bỏ hoàn toàn sự phụ thuộc vào "trực giác ngẫu nhiên" khi chuyển đổi một bài toán Vật lý phức tạp (VPHO, IPhO, Chuyên) thành một bài toán Toán học tất định, cũng như giải được phần Toán học tất định đó, để ra được đáp án, và trình bày vào được bài thi hợp lệ,...
+**Mục tiêu:** Cung cấp một "Pre-trained model" cho thí sinh của tôi, dạng nguyên lý để loại bỏ hoàn toàn sự phụ thuộc vào "trực giác ngẫu nhiên" khi chuyển đổi một bài toán Vật lý phức tạp (VPHO, IPhO, Chuyên) thành một bài toán Toán học tất định, cũng như giải được phần Toán học tất định đó, để ra được đáp án, và trình bày vào được bài thi hợp lệ,...
 
 
 
