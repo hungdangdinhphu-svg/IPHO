@@ -9,9 +9,11 @@ Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh c
 
 Đây là các tài liệu/link về kiến thức/lý thuyết/ý tưởng và có thể có cả bài tập (hay còn gọi là "Kiến thức đã có") :
 
-1.
+1. Tài liệu từ Kalda và những người khác : https://ioc.ee/~kalda/ipho/
 
-2.
+2. IPHO Syllabus https://www.ipho-new.org/statutes-syllabus/
+
+3. .pdf ,...
 
 ...
 
