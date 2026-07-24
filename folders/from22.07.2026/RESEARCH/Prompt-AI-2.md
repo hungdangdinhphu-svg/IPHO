@@ -64,6 +64,7 @@ B3: Giải được phần Toán còn lại, mà không đòi hỏi TRỰC GIÁC
 **Mục tiêu:** Cung cấp một "Pre-trained model" cực kỳ tổng quát cho thí sinh của tôi, dạng nguyên lý để có thể loại bỏ gần như toàn bộ sự phụ thuộc vào "trực giác ngẫu nhiên" trong việc chuyển đổi bài toán Vật lý phức tạp (VPHO, IPhO, Chuyên) thành bài toán Toán học tất định, cũng như giải được phần Toán học tất định đó, để ra được đáp án, và trình bày vào được bài thi hợp lệ,...
 
 
+Các đề thi vật lý phân loại cao thực chất không tạo ra "hiện tượng vật lý mới". Mọi bài toán đều bị ràng buộc chặt chẽ bởi các định luật và cấu trúc hình học của không gian.
 
 
 
