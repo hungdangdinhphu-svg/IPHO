@@ -22,3 +22,29 @@ Thí sinh đang thuộc lớp :
 Thuộc Kỳ thi : ...
 
 
+# The relationship between the information given in the problem and the solution (ans).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
