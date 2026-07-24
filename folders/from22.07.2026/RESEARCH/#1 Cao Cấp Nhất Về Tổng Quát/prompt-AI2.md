@@ -32,7 +32,7 @@ Tức là, ta cần một cách để học sinh với trực giác trung bình 
 
 Tuy nhiên cách đấy phải **Tổng quát** cho mọi bài nằm trong độ khó tôi đã nêu, và vì là **Tổng quát** nên sẽ không phải case-by-case.
 
-
+**Lưu ý :** Để đảm bảo không xảy ra mất mát thông tin, thì phải biết rằng mọi từ, mọi chữ trong đề bài đều cực kỳ quan trọng, không được bỏ qua. Nếu là hình ảnh thì phải nhìn đủ mọi chi tiết, liếc mắt chậm rãi từ trái sang phải và trên xuống dưới để "quét" toàn bộ hình.
 
 
 
