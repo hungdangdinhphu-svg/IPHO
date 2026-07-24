@@ -37,6 +37,14 @@ B3: Sau đó lại dùng TRỰC GIÁC (lần này là trực giác toán học) 
 
 Nếu như chỉ là một học sinh với trực giác trung bình, dù có học hiểu được sâu sắc bản chất Vật Lý, cũng không thể đạt được thành tích cao, và dễ bị loại.
 
+**Quan sát cốt lõi :**
+
+Khi mà lần đầu học một thứ gì đó mới, dù là ở Lớp 1 hay Lớp 12, hay Đại học, ta đều thấy nó khó. Nhưng giờ giả định đến tương lai, khi ta đã thuần thục và giỏi nó. Sự khác biệt là gì ?
+
+**Đó chính là pre-trained data**; Dù có cố gắng phản biện lại bằng "trực giác" hoặc "sáng tạo" đi chăng nữa, ta cũng phải thừa nhận rằng nó thực tế vẫn gần như tất cả đều là do **pre-trained data** nhưng do ta chưa thực sự nhận ra, điều này không thể chối cãi; Chứ đừng nói đến việc liên tục phải nảy ra **insight** trong đầu tại các kỳ thi lớn như IPHO hay IMO.
+
+Điều đặc biệt quan trọng là pre-trained data trên lý thuyết có thể truyền cho người khác được mà không đòi hỏi TRỰC GIÁC hơn người của họ.
+
 
 
 
