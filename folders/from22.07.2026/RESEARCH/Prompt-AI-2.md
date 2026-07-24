@@ -46,7 +46,7 @@ Khi mà lần đầu học một thứ gì đó mới, dù là ở Lớp 1 hay L
 Điều đặc biệt quan trọng là pre-trained data trên lý thuyết có thể truyền cho người khác được mà không đòi hỏi TRỰC GIÁC hơn người của họ.
 
 
-# What I want ?
+# What I want ? & Vision
 
 Cốt lõi điều tôi muốn là : Tạo/tìm ra một tài liệu, không phải case-by-case (vì case-by-case thì sẽ chỉ tương đương với tài liệu IPHO của Jaan Kalda), mà chỉ cần học tài liệu đó, thì sẽ thực sự **TỔNG QUÁT** ở trong các bài ở độ khó tôi đã nêu ở trên trong việc này :
 
@@ -57,10 +57,9 @@ B2: Chuyển bài Vật Lý -> Bài Toán, mà không đòi hỏi TRỰC GIÁC h
 B3: Giải được phần Toán còn lại, mà không đòi hỏi TRỰC GIÁC hơn người
 
 
-
 "
 
-
+**Quan sát quan trọng :** Đề thi thuộc kỳ thi tôi đã nhắc ở trên, dù có nhét thêm "hiện tượng lạ", thì về bản chất toán học, chúng không bao giờ thoát khỏi cấu trúc của Vật lý Cổ điển và Bán cổ điển. Với một học sinh có "trực giác trung bình" nhưng sở hữu khả năng **TỔNG QUÁT** thì sẽ đạt giải cao.
 
 
 
