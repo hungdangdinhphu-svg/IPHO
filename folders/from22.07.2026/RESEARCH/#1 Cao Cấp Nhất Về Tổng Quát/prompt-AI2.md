@@ -28,7 +28,9 @@ Thuộc Kỳ thi : ...
 
 Nếu ta có thể **giải mã** được đầy đủ nó, **chắc chắn** ta sẽ giải được toàn bộ bài đấy dựa trên các "Kiến thức đã có" (KTĐC) về Toán.
 
+Tức là, ta cần một cách để học sinh với trực giác trung bình có thể nhìn hình ảnh/văn bản từ đề, và có thể **giải mã** đầy đủ được.
 
+Tuy nhiên cách đấy phải **Tổng quát** cho mọi bài nằm trong độ khó tôi đã nêu, và vì là **Tổng quát** nên sẽ không phải case-by-case.
 
 
 
