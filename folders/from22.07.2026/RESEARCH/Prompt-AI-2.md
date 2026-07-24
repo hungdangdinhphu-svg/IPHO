@@ -46,7 +46,9 @@ Khi mà lần đầu học một thứ gì đó mới, dù là ở Lớp 1 hay L
 Điều đặc biệt quan trọng là pre-trained data trên lý thuyết có thể truyền cho người khác được mà không đòi hỏi TRỰC GIÁC hơn người của họ.
 
 
-# 
+# What I want ?
+
+Cốt lõi điều tôi muốn là : Tạo/tìm ra một tài liệu, không phải case-by-case, mà là thực sự **TỔNG QUÁT** 
 
 
 
