@@ -24,7 +24,7 @@ Thuộc Kỳ thi : ...
 
 # The relationship between the information given in the problem and the solution (ans).
 
-
+**Quan sát quan trọng :** Theo lý thuyết thông tin & Về mặt toán học, Không gian (3D) thì : Một đề bài Vật lý không hẳn là một chuỗi văn bản và hình ảnh để miêu tả thông thường, mà nó là một bản mã hóa chứa đầy đủ các điều kiện biên và ràng buộc.
 
 
 
