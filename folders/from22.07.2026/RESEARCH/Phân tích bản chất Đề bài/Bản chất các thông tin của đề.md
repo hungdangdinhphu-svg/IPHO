@@ -4,4 +4,27 @@ I. Trước hết, để đảm bảo không xảy ra mất mát thông tin, th�
 
 2. Nếu là hình ảnh thì có thể duyệt theo kiểu "pixel" từ dưới lên và trái phải
 
-II. 
+II. Theo lý thuyết thông tin & Về mặt toán học, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
