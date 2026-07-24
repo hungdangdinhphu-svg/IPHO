@@ -40,8 +40,7 @@ Và cho dù đề thi có khỡ cỡ IPHO, có cố gắng "xáo trộn", "giấ
 
 Đây là quy trình **bắt buộc** :
 
-$$\text{Hiện tượng Vật lý} \xrightarrow{\text{Mô hình hóa / Xấp xỉ}} \text{Hệ Phương trình \& Điều kiện biên} \xrightarrow{\text{Công cụ Toán}} \text{Đáp số}$$ 
-
+$$\text{Hiện tượng Vật lý} \xrightarrow{\text{Mô hình hóa / Xấp xỉ}} \text{Hệ Phương trình \và Điều kiện biên} \xrightarrow{\text{Công cụ Toán}} \text{Đáp số}$$
 
 
 
