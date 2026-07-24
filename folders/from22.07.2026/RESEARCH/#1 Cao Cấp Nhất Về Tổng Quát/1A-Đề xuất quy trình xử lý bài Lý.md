@@ -1,3 +1,9 @@
+# general :
+
+$$\text{Hiện tượng Vật lý} \xrightarrow{\text{Mô hình hóa / Xấp xỉ}} \text{Hệ Phương trình \& Điều kiện biên} \xrightarrow{\text{Công cụ Toán}} \text{Đáp số}$$
+
+# detail :
+
 # Bước đọc đề
 
 I. Trước hết, để đảm bảo không xảy ra mất mát thông tin, thì ta có cảnh báo : 
