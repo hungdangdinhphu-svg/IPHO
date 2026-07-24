@@ -50,6 +50,8 @@ Khi mà lần đầu học một thứ gì đó mới, dù là ở Lớp 1 hay L
 
 # What I want ? & Vision
 
+**Lý do không thể là case-by-case hoặc "Algorithm" cho từng case : Tại vì gần như chắc chắn IPHO/VPHO/... sẽ ra những bài mới/dạng bài mới mà nó là sự kết hợp của các kiến thức đã có để giải được. Họ đều là những người hàng đầu trong việc ra đề.
+
 Cốt lõi điều tôi muốn là : Tạo/tìm ra một tài liệu, không phải case-by-case (vì case-by-case thì sẽ chỉ tương đương với tài liệu IPHO của Jaan Kalda), mà chỉ cần học tài liệu đó, thì sẽ thực sự **TỔNG QUÁT** ở trong các bài ở độ khó tôi đã nêu ở trên trong việc này :
 
 "
