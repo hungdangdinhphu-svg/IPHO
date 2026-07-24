@@ -13,9 +13,9 @@ Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh c
 
 2. IPHO Syllabus https://www.ipho-new.org/statutes-syllabus/
 
-3. .pdf ,...
+3. Elekter.pdf ; meh_ENG2.pdf ;
 
-...
+Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nhiên hiện tại bạn chỉ cần làm mỗi dạng này thôi nhé) : Mechanics & Elektri ja magnetismi (Điện và Từ, lưu ý : Tài liệu này không đầy đủ về ELECTRICAL CIRCUITS)
 
 **II. Thông tin về thí sinh tôi đang giảng dạy, và các thông tin bổ sung :**
 
