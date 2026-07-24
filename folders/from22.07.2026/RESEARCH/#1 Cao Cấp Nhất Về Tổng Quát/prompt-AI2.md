@@ -9,17 +9,22 @@ Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh c
 
 Đây là các tài liệu/link về kiến thức/lý thuyết/ý tưởng và có thể có cả bài tập (hay còn gọi là "Kiến thức đã có", KTĐC) :
 
-1.
+1. Tài liệu từ Kalda và những người khác : https://ioc.ee/~kalda/ipho/
 
-2.
 
-...
+2. IPHO Syllabus : https://www.ipho-new.org/statutes-syllabus/
+
+3. Elekter.pdf ; meh_ENG2.pdf ;
+
+Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nhiên hiện tại bạn chỉ cần làm mỗi dạng này thôi nhé) : Mechanics & Elektri ja magnetismi (Điện và Từ, lưu ý : Tài liệu này không đầy đủ về ELECTRICAL CIRCUITS)
+
+
 
 **II. Thông tin về thí sinh tôi đang giảng dạy, và các thông tin bổ sung :**
 
-Thí sinh đang thuộc lớp :
+Thí sinh đang thuộc lớp : 11
 
-Thuộc Kỳ thi : ...
+Thuộc Kỳ thi : IPHO, VPHO, "KỲ THI CHỌN ĐỘI TUYỂN HỌC SINH GIỎI THPT NĂM HỌC 2027-2028 (TP.HCM, Môn Vật Lý)"
 
 
 # The relationship between the information given in the problem and the solution (ans) :
