@@ -61,6 +61,29 @@ B3: Giải được phần Toán còn lại, mà không đòi hỏi TRỰC GIÁC
 
 **Quan sát quan trọng :** Đề thi thuộc kỳ thi tôi đã nhắc ở trên, dù có nhét thêm "hiện tượng lạ", thì về bản chất toán học, chúng không bao giờ thoát khỏi cấu trúc của Vật lý Cổ điển và Bán cổ điển. Với một học sinh có "trực giác trung bình" nhưng sở hữu khả năng **TỔNG QUÁT** thì sẽ đạt giải cao.
 
+**Quan sát quan trọng :** 
+
+Thực tế, khi suy nghĩ kỹ lại bản chất về B2 và B1, ta có thể nhận ra được rằng :
+
+B1 & B2 (Đọc đề và xử lý thông tin để từ bài Vật Lý sang bài Toán) :
+
+I. Trước hết, để đảm bảo không xảy ra mất mát thông tin, thì ta có cảnh báo : 
+
+1. Mọi từ, mọi chữ trong đề bài đều cực kỳ quan trọng, không được bỏ qua.
+
+2. Nếu là hình ảnh thì có thể duyệt theo kiểu "pixel" từ dưới lên và trái phải
+
+II. Theo lý thuyết thông tin & Về mặt toán học, Không gian (3D) thì : một đề bài Vật lý không hẳn là một chuỗi văn bản và hình ảnh để miêu tả thông thường, mà nó là một bản mã hóa chứa đầy đủ các điều kiện biên và ràng buộc.
+
+Và đề thi Vật Lý dù có cố gắng "xáo trộn", "ẩn giấu" thông tin cỡ IPHO/VPHO, nó chắc chắn chứa đủ thông tin để ta giải.
+
+Nếu ta có thể **giải mã** được đầy đủ, **chắc chắn** ta sẽ giải được toàn bộ bài đấy dựa trên các "Kiến thức đã có" (KTĐC) về Toán.
+
+Tức là, ta cần một cách để học sinh với trực giác trung bình có thể nhìn hình ảnh/văn bản từ đề, và có thể **giải mã** đầy đủ được.
+
+
+
+
 **Mục tiêu:** Cung cấp một "Pre-trained model" cực kỳ tổng quát cho thí sinh của tôi, dạng nguyên lý để có thể loại bỏ gần như toàn bộ sự phụ thuộc vào "trực giác ngẫu nhiên" trong việc chuyển đổi bài toán Vật lý phức tạp (VPHO, IPhO, Chuyên) thành bài toán Toán học tất định, cũng như giải được phần Toán học tất định đó, để ra được đáp án, và trình bày vào được bài thi hợp lệ,...
 
 
