@@ -22,7 +22,7 @@ Thí sinh đang thuộc lớp :
 Thuộc Kỳ thi : ...
 
 
-# The relationship between the information given in the problem and the solution (ans).
+# The relationship between the information given in the problem and the solution (ans) :
 
 **Quan sát quan trọng :** Theo lý thuyết thông tin & Về mặt toán học, Không gian (3D) thì : Một đề bài Vật lý không hẳn là một chuỗi văn bản và hình ảnh để miêu tả thông thường, mà nó là một bản **mã hóa** chứa đầy đủ các điều kiện biên và ràng buộc.
 
@@ -36,7 +36,11 @@ Và cho dù đề thi có khỡ cỡ IPHO, có cố gắng "xáo trộn", "giấ
 
 **Lưu ý :** Để đảm bảo không xảy ra mất mát thông tin, thì phải biết rằng mọi từ, mọi chữ trong đề bài đều cực kỳ quan trọng, không được bỏ qua. Nếu là hình ảnh thì phải nhìn đủ mọi chi tiết, liếc mắt chậm rãi từ trái sang phải và trên xuống dưới để "quét" toàn bộ hình.
 
+# In-depth analysis and problem-solving process
 
+Đây là quy trình **bắt buộc** :
+
+$$\text{Hiện tượng Vật lý} \xrightarrow{\text{Mô hình hóa / Xấp xỉ}} \text{Hệ Phương trình \& Điều kiện biên} \xrightarrow{\text{Công cụ Toán}} \text{Đáp số}$$ 
 
 
 
