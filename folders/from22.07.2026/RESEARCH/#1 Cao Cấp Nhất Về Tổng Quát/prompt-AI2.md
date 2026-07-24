@@ -49,11 +49,22 @@ $$\text{Hiện tượng Vật lý} \xrightarrow{\text{Mô hình hóa / Xấp x�
 
 Target của ta : Phải làm cho mọi bước đều trở nên khả thi cho học sinh có trực giác trung bình làm được. Đảm bảo tính **Tổng quát** và khả thi để đạt giải cao tại IPHO/VPHO,...
 
+Một số thứ quan trọng :
+
+Degrees of Freedom
+
+Ràng buộc Hình học & Điều kiện Biên (Boundary & Constraints)
+
+Noether's theorem : Mọi tính đối xứng của tự nhiên đều dẫn đến một đại lượng bảo toàn.
+
+Ban ra đề IPhO tập hợp những bộ óc Vật lý hàng đầu thế giới. Mục tiêu cốt lõi của họ khi sáng tác đề thi là: Anti-Algorithmic Design; Tuy nhiên tôi có góc nhìn này :
+
+Anti-Algorithmic Design, Anti-Anti-Algorithmic Design, Anti-Anti-Anti-Algorithmic Design, Anti-Anti-Anti-Anti-Algorithmic Design,...
+
+Anti-Virus, Anti-Anti-Virus, Anti-Anti-Anti-Virus,...
 
 
-
-
-
+Người ra đề có thể đổi cách hỏi, nhưng họ KHÔNG THỂ đổi luật của Vũ trụ. 
 
 
 
