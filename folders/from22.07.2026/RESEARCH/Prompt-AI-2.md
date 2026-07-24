@@ -7,7 +7,7 @@ Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh c
 
 **I. Những tài liệu tôi đã gửi cho bạn :**
 
-Đây là các tài liệu/link về kiến thức/lý thuyết/ý tưởng và có thể có cả bài tập :
+Đây là các tài liệu/link về kiến thức/lý thuyết/ý tưởng và có thể có cả bài tập (hay còn gọi là "Kiến thức đã có") :
 
 1.
 
@@ -28,7 +28,7 @@ Thuộc Kỳ thi : ...
 
 B1: Đọc đề (chắc chắn phải dùng trực giác của con người để "hiểu đọc được đề" trong phòng thi, ta không thể dùng máy tính hay AI để làm điều này trong phòng thi được, tuy nhiên điều này thật ra chỉ cần là một người bình thường thì sẽ làm được)
 
-B2: Họ sẽ dùng kiến thức đã có (Tức là lượng kiến thức thuần túy, chất lượng nhất trong đầu họ chỉ có thể là những tài liệu tôi đã gửi cho bạn lúc đầu .pdf ấy) và TRỰC GIÁC (đây là điều tạo nên sự khác biệt giữa các thí sinh); Theo nguyên lý và lý thuyết cơ bản hay lý thuyết thông tin, ta biết rằng chắc chắn đề luôn cung cấp đủ thông tin, dù là thông tin "bị giấu" hay "trắng trợn", chủ yếu thì họ sẽ dùng TRỰC GIÁC (Kiểu như trực giác vật lý) để biết cần kết hợp các kiến thức đã có nào để chuyển bài Vật Lý về bài Toán, nó cũng giống sáng tạo dựa trên những nền tảng có sẵn, tuy nhiên nó không đến mức sáng tạo, nên tôi gọi là TRỰC GIÁC.
+B2: Họ sẽ dùng "Kiến thức đã có" (Tức là lượng kiến thức thuần túy, chất lượng nhất trong đầu họ chỉ có thể là những tài liệu tôi đã gửi cho bạn lúc đầu .pdf ấy) và TRỰC GIÁC (đây là điều tạo nên sự khác biệt giữa các thí sinh); Theo nguyên lý và lý thuyết cơ bản hay lý thuyết thông tin, ta biết rằng chắc chắn đề luôn cung cấp đủ thông tin, dù là thông tin "bị giấu" hay "trắng trợn", chủ yếu thì họ sẽ dùng TRỰC GIÁC (Kiểu như trực giác vật lý) để biết cần kết hợp các kiến thức đã có nào để chuyển bài Vật Lý về bài Toán, nó cũng giống sáng tạo dựa trên những nền tảng có sẵn, tuy nhiên nó không đến mức sáng tạo, nên tôi gọi là TRỰC GIÁC.
 
 B3: Sau đó lại dùng TRỰC GIÁC (lần này là trực giác toán học) & Kiến thức đã có để giải phần toán
 
