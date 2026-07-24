@@ -48,7 +48,7 @@ Khi mà lần đầu học một thứ gì đó mới, dù là ở Lớp 1 hay L
 
 # What I want ?
 
-Cốt lõi điều tôi muốn là : Tạo/tìm ra một tài liệu, không phải case-by-case, mà chỉ cần học tài liệu đó, thì sẽ thực sự **TỔNG QUÁT** ở trong các bài ở độ khó tôi đã nêu ở trên trong việc này :
+Cốt lõi điều tôi muốn là : Tạo/tìm ra một tài liệu, không phải case-by-case (vì case-by-case thì sẽ chỉ tương đương với tài liệu IPHO của Jaan Kalda), mà chỉ cần học tài liệu đó, thì sẽ thực sự **TỔNG QUÁT** ở trong các bài ở độ khó tôi đã nêu ở trên trong việc này :
 
 "
 
