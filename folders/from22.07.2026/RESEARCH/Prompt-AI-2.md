@@ -22,7 +22,7 @@ Thí sinh đang thuộc lớp :
 Thuộc Kỳ thi : ...
 
 
-# Problem-solving process
+# Problem-solving process & Vision
 
 **Thí sinh thông thường :**
 
@@ -46,7 +46,7 @@ Khi mà lần đầu học một thứ gì đó mới, dù là ở Lớp 1 hay L
 Điều đặc biệt quan trọng là pre-trained data trên lý thuyết có thể truyền cho người khác được mà không đòi hỏi TRỰC GIÁC hơn người của họ.
 
 
-
+# 
 
 
 
