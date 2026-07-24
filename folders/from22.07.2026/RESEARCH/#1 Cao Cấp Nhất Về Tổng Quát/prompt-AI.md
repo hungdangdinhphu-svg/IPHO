@@ -15,6 +15,8 @@ Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh c
 
 ...
 
+Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nhiên hiện tại bạn chỉ cần làm mỗi dạng này thôi nhé) : 
+
 **II. Thông tin về thí sinh tôi đang giảng dạy, và các thông tin bổ sung :**
 
 Thí sinh đang thuộc lớp :
