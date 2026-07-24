@@ -30,7 +30,9 @@ Nếu ta có thể **giải mã** được đầy đủ nó, **chắc chắn** t
 
 Tức là, ta cần một cách để học sinh với trực giác trung bình có thể nhìn hình ảnh/văn bản từ đề, và có thể **giải mã** đầy đủ được, và nó phải **Tổng quát** cho độ khó của kỳ thi tôi đã nêu trên.
 
-Tuy nhiên cách đấy phải **Tổng quát** cho mọi bài nằm trong độ khó tôi đã nêu, và vì là **Tổng quát** nên sẽ không phải case-by-case.
+Tuy nhiên cách đấy phải **Tổng quát** cho mọi bài nằm trong độ khó tôi đã nêu, và vì là **Tổng quát** nên sẽ không phải case-by-case. Vì nếu là case-by-case mà không **Tổng quát** thực sự thì đề thi chỉ cần thay đổi cấu trúc thì sẽ đánh bại được thí sinh.
+
+Và cho dù đề thi có khỡ cỡ IPHO, có cố gắng "xáo trộn", "giấu diếm" thì đề thi đó vẫn buộc phải luôn luôn mang đủ thông tin cho ta giải được nó, hay nó khả thi để giải được.
 
 **Lưu ý :** Để đảm bảo không xảy ra mất mát thông tin, thì phải biết rằng mọi từ, mọi chữ trong đề bài đều cực kỳ quan trọng, không được bỏ qua. Nếu là hình ảnh thì phải nhìn đủ mọi chi tiết, liếc mắt chậm rãi từ trái sang phải và trên xuống dưới để "quét" toàn bộ hình.
 
