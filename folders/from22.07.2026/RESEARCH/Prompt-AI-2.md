@@ -7,7 +7,7 @@ Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh c
 
 **I. Những tài liệu tôi đã gửi cho bạn :**
 
-Đây là các tài liệu về kiến thức/lý thuyết/ý tưởng và có thể có cả bài tập :
+Đây là các tài liệu/link về kiến thức/lý thuyết/ý tưởng và có thể có cả bài tập :
 
 1.
 
