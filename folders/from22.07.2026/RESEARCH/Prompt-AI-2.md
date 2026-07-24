@@ -19,9 +19,9 @@ Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nh
 
 **II. Thông tin về thí sinh tôi đang giảng dạy, và các thông tin bổ sung :**
 
-Thí sinh đang thuộc lớp :
+Thí sinh đang thuộc lớp : 11
 
-Thuộc Kỳ thi : ...
+Thuộc Kỳ thi : IPHO, VPHO, "KỲ THI CHỌN ĐỘI TUYỂN HỌC SINH GIỎI THPT NĂM HỌC 2027-2028 (TP.HCM, Môn Vật Lý)"
 
 
 # Problem-solving process & Vision
