@@ -42,7 +42,7 @@ Và cho dù đề thi có khỡ cỡ IPHO, có cố gắng "xáo trộn", "giấ
 
 $$\text{Hiện tượng Vật lý} \xrightarrow{\text{Mô hình hóa / Xấp xỉ}} \text{Hệ Phương trình \& Điều kiện biên} \xrightarrow{\text{Công cụ Toán}} \text{Đáp số}$$
 
-
+Target của ta : Phải làm cho mọi bước đều trở nên khả thi cho học sinh có trực giác trung bình làm được. Đảm bảo tính **Tổng quát** và khả thi để đạt giải cao tại IPHO/VPHO,...
 
 
 
