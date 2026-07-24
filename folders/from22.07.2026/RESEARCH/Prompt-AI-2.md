@@ -48,11 +48,17 @@ Khi mà lần đầu học một thứ gì đó mới, dù là ở Lớp 1 hay L
 
 # What I want ?
 
-Cốt lõi điều tôi muốn là : Tạo/tìm ra một tài liệu, không phải case-by-case, mà là thực sự **TỔNG QUÁT** 
+Cốt lõi điều tôi muốn là : Tạo/tìm ra một tài liệu, không phải case-by-case, mà chỉ cần học tài liệu đó, thì sẽ thực sự **TỔNG QUÁT** trong việc này :
+
+"
+
+B2: Chuyển bài Vật Lý -> Bài Toán, mà không đòi hỏi TRỰC GIÁC hơn người
+
+B3: Giải được phần Toán còn lại, mà không đòi hỏi TRỰC GIÁC hơn người
 
 
 
-
+"
 
 
 
