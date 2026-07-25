@@ -1,0 +1,650 @@
+# PHƯƠNG PHÁP MÔ HÌNH HÓA
+## THUẬT TOÁN GIẢI MÃ TỔNG QUÁT (TGMTQ)
+### Từ Hiện Tượng Vật Lý Đến Hệ Phương Trình — Khung Mô Hình Hóa cho Cơ Học & Điện–Từ Học
+
+**Dùng cho:** Học sinh lớp 11, Đội tuyển HSG Vật Lý TP.HCM 2027–2028, ôn luyện VPHO/IPHO
+**Nguồn nền tảng:** J. Kalda — *Problems on Mechanics* (meh_ENG2.pdf); V. Kiisk — *Elektri ja magnetismi ülesandeid* (Elekter.pdf); IPhO Syllabus
+**Phiên bản:** 1.0
+
+---
+
+## LỜI NÓI ĐẦU — TẠI SAO CẦN MỘT "THUẬT TOÁN", KHÔNG PHẢI MỘT "TẬP MẸO"
+
+Một đề bài Vật lý, dù được viết bằng văn xuôi, hình vẽ hay đồ thị, **không phải là một câu chuyện** — nó là một **bản mã hóa** của một tình huống hình học – vật lý duy nhất, chịu một tập ràng buộc xác định. Nếu tình huống đó là xác định (well-posed), thì về nguyên tắc nó luôn có thể được "giải nén" thành:
+
+> **Một tập tọa độ tối thiểu (DOF) + một hệ phương trình liên kết các tọa độ đó (ràng buộc, định luật bảo toàn, định luật vật lý) + điều kiện biên/đầu.**
+
+Một khi đã "giải nén" xong, phần còn lại **chỉ là Toán** — đại số, giải tích, phương trình vi phân — những thứ học sinh giỏi đã có sẵn (KTĐC).
+
+**Vấn đề thật sự** không phải là "không biết định luật Newton/Gauss/Kirchhoff", mà là **không biết dịch một đoạn văn bản/hình vẽ cụ thể thành hệ phương trình cụ thể**. Đây là bước "giải mã" (decoding), và đây chính là bước mà đề thi cấp IPhO cố tình làm cho khó bằng cách:
+
+- Giấu ràng buộc trong một tính từ nhỏ ("nhẹ", "lý tưởng", "chuẩn tĩnh"…);
+- Đặt câu hỏi ở dạng không quen thuộc (hỏi công thay vì lực, hỏi tỉ số thay vì giá trị tuyệt đối);
+- Vẽ hình theo góc nhìn lạ, phá vỡ tính đối xứng thị giác dù đối xứng vật lý vẫn còn;
+- Trộn hai phân môn (cơ + điện) trong cùng một bài.
+
+Nhưng có một sự thật bất biến: **người ra đề có thể đổi cách hỏi, nhưng không thể đổi luật của Vũ trụ.** Số bậc tự do, số ràng buộc độc lập, các định luật bảo toàn sinh ra từ đối xứng — đây là những đại lượng **bất biến cấu trúc** (structural invariants), không phụ thuộc vào cách hành văn. Một thuật toán nhắm vào các bất biến này — chứ không nhắm vào "từ khóa quen mắt" — sẽ **tự động tổng quát hóa**, vì nó không dựa vào việc nhận diện lại một khuôn mẫu (pattern) đã học.
+
+Tài liệu này xây dựng một quy trình **10 bước cố định (B0 → B10)**, xoay quanh **4 trụ cột bất biến**:
+
+| Trụ cột | Câu hỏi trung tâm | Vai trò |
+|---|---|---|
+| **A. Bậc tự do (DOF)** | Cần bao nhiêu số để mô tả trạng thái hệ? | Xác định "kích thước" bài toán |
+| **B. Ràng buộc & Biên** | Cái gì bị giữ cố định/liên kết? | Giảm DOF, cung cấp phương trình |
+| **C. Đối xứng & Bảo toàn (Noether)** | Phép biến đổi nào để hiện tượng "trông y hệt"? | Giảm DOF hiệu dụng, cho tích phân đầu |
+| **D. Xấp xỉ & Thang đo** | Cái gì "rất lớn/rất nhỏ/rất chậm" so với cái gì? | Tuyến tính hóa, đơn giản hóa |
+
+Quy tắc vàng xuyên suốt tài liệu — trích lại đúng tinh thần **Fact 18** của Kalda:
+
+> *"Số phương trình độc lập tối đa (từ cân bằng lực + mô-men, hoặc từ KCL+KVL, hoặc từ bất kỳ hệ ràng buộc nào) luôn đúng bằng số bậc tự do của hệ."*
+
+Đây là **thước đo kiểm tra phổ quát**: nếu số ẩn ≠ số phương trình bạn viết ra được, bạn **chưa giải mã xong đề bài** — còn sót ràng buộc ẩn, hoặc đã đếm sai DOF, hoặc bài toán thật sự "siêu tĩnh định" (cần thêm giả thiết vật lý, xem mục B3.6).
+
+---
+
+## PHẦN I — SƠ ĐỒ TỔNG QUÁT: QUY TRÌNH 10 BƯỚC (B0 → B10)
+
+```
+B0  Quét toàn văn — trích xuất 100% dữ kiện, không diễn giải
+B1  Định nghĩa Hệ & lựa chọn hệ quy chiếu
+B2  Đếm Bậc Tự Do thô (f_raw)                         [Trụ cột A]
+B3  Liệt kê Ràng buộc — Từ điển giải mã từ khóa       [Trụ cột B]
+B4  Săn Đối xứng / Định luật bảo toàn (Noether)       [Trụ cột C]
+B5  Chọn Tọa độ suy rộng tối thiểu (f_eff)
+B6  Xấp xỉ hóa & Phân tích thang đo                   [Trụ cột D]
+B7  Chọn "ngôn ngữ chi phối" đúng (lực/năng lượng/mạch)
+B8  Điều kiện biên & điều kiện đầu (nguồn tin ẩn thứ 2)
+B9  Giải hệ (đại số / vi phân / đồ thị / số)
+B10 Kiểm tra ngược — Verification Protocol
+```
+
+Đây **không phải** một danh sách gợi ý — đây là **checklist bắt buộc chạy tuần tự** mỗi lần đọc đề, kể cả khi bài "trông quen". Học sinh trung bình về trực giác nhưng kỷ luật cao sẽ **luôn thắng** trực giác thiên phú nhưng thiếu quy trình, vì đề IPhO được thiết kế để đánh bại trực giác/phản xạ, chứ không đánh bại được một quy trình đầy đủ chạy đúng.
+
+---
+
+## B0 — QUÉT TOÀN VĂN (Full Scan Protocol)
+
+**Nguyên tắc:** Đề bài là dữ liệu nén — mỗi tính từ, mỗi con số, mỗi đường nét trong hình đều mang thông tin. Bỏ sót = mất một ràng buộc = hệ phương trình thiếu phương trình.
+
+**Thủ tục bắt buộc:**
+
+1. Đọc chậm **toàn bộ** đề một lượt, không giải, chỉ **gạch chân**:
+   - Mọi đại lượng đã cho (kèm đơn vị, và **dấu** nếu có: đại số hóa mọi đại lượng ngay từ đầu — dòng điện, điện tích, công đều là đại lượng có dấu);
+   - Mọi tính từ mô tả (nhẹ, lý tưởng, không ma sát, rất dài, mảnh, đồng chất, chuẩn tĩnh, đủ lâu, ban đầu, tức thời…);
+   - Động từ chỉ hành động/biến cố (thả ra, đóng khóa K, đảo cực, cắt dây, va chạm…);
+   - Câu hỏi thật sự (đại lượng cần tìm — đây là "biến mục tiêu", định hướng bạn chọn phương pháp ở B7).
+2. Nếu có hình: quét **trái→phải, trên→dưới**, liệt kê **từng** phần tử (điện trở, tụ, cuộn, ròng rọc, bản lề, mặt tiếp xúc…) và **từng** ký hiệu góc/khoảng cách/chiều mũi tên dòng điện — dấu mũi tên = quy ước dấu, không phải chiều thật.
+3. Lập **Bảng biến số**: | Đã cho | Ký hiệu | Ẩn cần tìm | — việc lập bảng buộc não bộ tường minh hóa từng dữ kiện thay vì "cảm giác đã hiểu".
+4. **Tự vẽ lại hình** (kể cả khi đề đã có hình) — thao tác vẽ lại chính là bước đầu tiên của B1/B2, và nó lộ ra ràng buộc mà mắt "lướt qua" khi chỉ nhìn hình có sẵn.
+5. Đặc biệt với hình: **không giả định gì không được vẽ hoặc không được nói** (ví dụ không tự thêm ma sát nếu đề không nói có; nhưng cũng không tự loại bỏ ma sát nếu đề không nói "không ma sát" — xem Từ điển B3).
+
+> **Bẫy kinh điển:** Đề chỉ đổi 1 từ ("cố định" → "có thể trượt tự do") giữa hai bài rất giống nhau ⇒ DOF đổi từ 0 lên 1 ⇒ toàn bộ phương pháp giải đổi. B0 chạy đúng là lưới an toàn duy nhất chống bẫy này.
+
+---
+
+## B1 — ĐỊNH NGHĨA HỆ & HỆ QUY CHIẾU
+
+- **Hệ là gì?** Liệt kê từng vật thể/mỗi phần tử mạch là một "hệ con". Áp dụng **idea 4** (Kalda): đôi khi coi *toàn bộ* nhiều vật là **một hệ** (loại bỏ nội lực chưa biết) lợi hơn xét từng vật; đôi khi phải **tách** ra (idea 47: vật "nhẹ" ⇒ hợp lực & hợp mô-men trên nó luôn bằng 0, dùng để tách ẩn).
+- **Chuyển động hay tĩnh học?** idea 13: nếu vật chuyển động với **vận tốc không đổi**, bài toán *là* bài toán tĩnh học (∑F=0) — một phép "hạ cấp" bài toán cực kỳ hay bị bỏ qua.
+- **Chọn hệ quy chiếu thông minh** (idea 7, idea K-7, idea 73): chuyển sang hệ quy chiếu phi quán tính gắn với vật đang chuyển động (nêm, giá đỡ, sóng...) thường biến bài toán động lực học phức tạp thành bài toán tĩnh học/động học đơn giản trong hệ mới, với lực quán tính −ma⃗ hoặc lực li tâm/Coriolis (idea 8, 9). Với mạch dao động, "hệ quy chiếu" tương đương là **chọn gốc pha/gốc thời gian** hợp lý.
+- **Với bài Điện:** hệ có thể là *một nút*, *một vòng*, *một miền không gian tưởng tượng* (mặt Gauss/đường Ampère) — việc "vẽ ranh giới hệ" ở đây quan trọng ngang việc cô lập vật thể trong Cơ học.
+
+---
+
+## B2 — ĐẾM BẬC TỰ DO THÔ (f_raw) — [Trụ cột A]
+
+| Loại đối tượng | DOF thô |
+|---|---|
+| Chất điểm tự do trong mặt phẳng | 2 (x, y) |
+| Chất điểm tự do trong không gian | 3 |
+| Vật rắn phẳng tự do (2D) | 3 (x, y, θ) |
+| Vật rắn tự do trong 3D | 6 (3 tịnh tiến + 3 quay) |
+| Hệ N vật rắn 2D rời rạc, chưa nối | 3N |
+| Lò xo/dây có thể co giãn thêm | +1 mỗi phần tử đàn hồi nội tại |
+| Tụ điện (điện tích) | +1 (Q hoặc U) |
+| Cuộn cảm (dòng điện/từ thông) | +1 (I hoặc Φ) |
+| Mạch b nhánh, n nút | b dòng nhánh (thô) |
+| Trường liên tục (thế điện, mật độ điện tích mặt…) | **∞** DOF — bắt buộc phải dùng đối xứng (B4) hoặc điều kiện biên (B8) để rút về hữu hạn |
+
+**Quy tắc kiểm tra (Fact 18 tổng quát hóa):**
+$$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm được ở B3}) - (\text{số bảo toàn/đối xứng tìm được ở B4})$$
+
+Nếu cuối B5 mà $f_{\text{eff}} \neq$ số phương trình bạn có thể viết độc lập ⇒ dừng lại, quay về B0/B3 — **đây chính là cách tự-debug** khi "bí đề": không phải vì thiếu công thức, mà vì đếm lệch bậc tự do.
+
+**Trường hợp đặc biệt — Siêu tĩnh định (idea 30):** nếu số ràng buộc "cứng" > DOF (ví dụ vật treo bởi 4 dây trong khi 3 dây đã đủ định vị), hệ *không giải được* nếu coi mọi phần tử là cứng tuyệt đối — phải coi ràng buộc dư là **đàn hồi** (Hooke, fact 13 Kalda) để hạ về hệ xác định. Đây là dấu hiệu **bắt buộc** phải đọc lại đề tìm từ "dây/thanh *nhẹ*" xem có ẩn ý "có thể coi là hơi đàn hồi" hay không.
+
+---
+
+## B3 — RÀNG BUỘC & TỪ ĐIỂN GIẢI MÃ TỪ KHÓA — [Trụ cột B]
+
+### 3.1. Nguyên lý chung
+
+> Mỗi ràng buộc hình học/vật lý = **1 phương trình liên hệ giữa các DOF**, làm $f_{eff}$ giảm đi đúng **1**.
+
+**Phép kiểm tra gốc (khi từ khóa không rõ / bị "giấu"):** dùng **phép dịch chuyển ảo (virtual displacement)** — tưởng tượng hệ nhích một lượng vi phân $\delta$, hỏi "đại lượng nào **buộc phải không đổi**?" (chiều dài dây, thông lượng qua vòng siêu dẫn, điện tích trên vật cô lập…). Đây là cách tái tạo ràng buộc **từ nguyên lý đầu tiên**, không phụ thuộc từ khóa có xuất hiện hay không — đây là "lưới an toàn" chống lại việc đề bài dùng cách diễn đạt lạ để né từ khóa quen thuộc.
+
+### 3.2. Từ điển Cơ học
+
+| Từ khóa / hiện tượng | Giải mã thành ràng buộc | Tham chiếu Kalda |
+|---|---|---|
+| "không ma sát", "trơn", "trượt tự do" | Lực tiếp tuyến tại tiếp điểm = 0 | — |
+| "nhám", cho hệ số ma sát μ | \|F_ma sát\| ≤ μN (chưa trượt) hoặc = μN (đang trượt), luôn ngược chiều vận tốc tương đối (Fact 21) | fact 16, 17, 21 |
+| "trên bờ vực trượt" | Hợp lực ma sát+phản lực lệch pháp tuyến một góc arctan μ | idea 6, fact 19 |
+| "dây/thanh nhẹ", "ròng rọc nhẹ, lý tưởng" | Hợp lực & hợp mô-men trên vật = 0 (dùng để loại ẩn nội lực) | idea 33, 47 |
+| "dây không giãn" | Tổng chiều dài các đoạn dây = hằng số → liên hệ tuyến tính giữa các dịch chuyển (đạo hàm 1–2 lần theo t để ra liên hệ vận tốc/gia tốc) | idea 32 |
+| "thanh/dây chỉ chịu kéo dọc trục, hai đầu tự do xoay (khớp/tì tự do)" | Lực căng dọc theo thanh | fact 20 |
+| "lăn không trượt" | v_tâm = ωR (điểm tiếp xúc có vận tốc = 0 tức thời) | idea K-33, K-34 |
+| "va chạm đàn hồi tuyệt đối" | Bảo toàn động lượng **và** động năng đồng thời | fact 25, idea 52 |
+| "va chạm mềm/dính" | Bảo toàn động lượng, **không** bảo toàn động năng | idea 58 |
+| "vật rất nhẹ so với..." | Bỏ qua quán tính của nó: hợp lực/mô-men = 0 tức thời | idea 47 |
+| "hệ được giữ yên rồi thả ra" | Điều kiện đầu: v=0 mọi nơi ⇒ ngay sau đó, phương gia tốc = phương hợp lực (idea 31) | idea 31 |
+| "chuyển động với vận tốc không đổi" | Đó là bài toán **tĩnh học** (∑F=0, ∑τ=0) | idea 13 |
+| "…nhúng vào chất lỏng", "nổi", "chìm một phần" | Lực đẩy Ácsimét đặt tại trọng tâm phần **thể tích chất lỏng bị chiếm chỗ** | idea 22 |
+| "bắt đầu rò rỉ / tách khỏi mặt" | Phản lực pháp tuyến N → 0 tại thời điểm đó (đẳng thức biên) | idea 23, 40 |
+| "giữ cố định trục quay" | Bỏ toàn bộ DOF tịnh tiến của trục đó | — |
+| "khớp bản lề trơn" | Cho phép quay tự do, không truyền mô-men, nhưng lực tại khớp là 2 ẩn (Fx,Fy) chưa biết | — |
+| "3 lực đồng quy" (thấy 3 lực tại 3 điểm khác nhau giữ 1 vật cân bằng) | 3 đường tác dụng phải cắt nhau tại **1 điểm** | idea 14 |
+
+### 3.3. Từ điển Tĩnh điện & Từ tĩnh
+
+| Từ khóa / hiện tượng | Giải mã thành ràng buộc / kỹ thuật | Tham chiếu Elekter.pdf |
+|---|---|---|
+| "vật dẫn" (juht) ở trạng thái cân bằng tĩnh điện | E = 0 bên trong; toàn bộ điện tích dư nằm trên **mặt**; mặt là mặt đẳng thế; E ⊥ mặt ngay ngoài mặt | jaotis 3.6 |
+| "nối đất" (maandatud) | φ = 0 tại vật đó; **điện tích** trên vật đó là ẩn, được xác định bởi điều kiện φ=0 | jaotis 3.7 |
+| "cô lập, mang điện tích Q" (isoleeritud) | Q = const (đã cho hoặc bảo toàn); φ là ẩn | jaotis 3.7 |
+| "đối xứng cầu / trụ / phẳng vô hạn" | Ngay lập tức dùng **Định lý Gauss** với mặt Gauss cùng dạng đối xứng thay vì tích phân Coulomb trực tiếp | jaotis 3.2 |
+| "điện môi", cho ε | D liên tục theo pháp tuyến qua mặt phân cách; E liên tục theo tiếp tuyến | jaotis 3.8 |
+| "khoang rỗng bên trong vật mang điện đồng nhất" | Dùng **nguyên lý chồng chập với điện tích ảo**: khoang = (+ρ toàn khối) + (−ρ đúng hình dạng khoang) | jaotis 3.3, idea 11 (Cơ học) |
+| "tại khoảng cách lớn so với kích thước hệ" | Khai triển đa cực — chỉ giữ số hạng thấp nhất khác 0 (đơn cực → lưỡng cực…) | jaotis 3.4 |
+| Bài có mặt dẫn phẳng/cầu + điện tích điểm gần đó | **Phương pháp ảnh điện** — thay điện tích mặt (DOF vô hạn, chưa biết) bằng vài điện tích ảo hữu hạn sao cho thỏa mãn điều kiện biên φ=const trên mặt dẫn | jaotis 3.7 |
+| "lực trên vật/điện môi trong trường không đều, có hiệu ứng biên" | Dùng **phương pháp dịch chuyển ảo** (virtual work): F = −∂Π/∂x, không cần biết chi tiết trường tại biên | jaotis 2.3, 3.10 |
+| "…quay quanh trục", cho từ trường đều B | Dùng Ampère + đối xứng trụ; hoặc tương tự lưỡng cực từ (jaotis 4.5) | jaotis 4.1–4.5 |
+| "siêu dẫn" (ülijuht) | B = 0 bên trong tuyệt đối (kể cả tĩnh); dòng chỉ tồn tại trên mặt; Φ qua mạch siêu dẫn kín = const | jaotis 4.8, 5.1 |
+| Cặp bài Điện ↔ bài Từ "giống hệt cấu trúc" | Dùng **phép tương tự** E↔H, D↔B, ε↔μ để dịch trực tiếp lời giải | jaotis 4.6 |
+
+### 3.4. Từ điển Mạch điện (bổ sung — xem Phần III để có hệ thống đầy đủ)
+
+| Từ khóa / hiện tượng | Giải mã | Ghi chú |
+|---|---|---|
+| Ampe kế **lý tưởng** | R → 0 (ngắn mạch về mặt điện trở, nhưng vẫn "đo" dòng qua nó) | jaotis 1.4 |
+| Vôn kế **lý tưởng** | R → ∞ (hở mạch về dòng, nhưng "đo" hiệu thế) | jaotis 1.4 |
+| "nguồn dòng lý tưởng" | I = const, bất kể tải ngoài | jaotis 1.3 |
+| "nguồn thế/EMF lý tưởng" | U = const tại 2 cực, bất kể dòng rút ra | jaotis 1.1 |
+| "tụ đã nạp đầy" / "ổn định lâu" (ở mạch DC) | Dòng qua nhánh chứa tụ = 0 (dU/dt=0) | jaotis 2.4 |
+| "cuộn cảm ổn định lâu" (ở mạch DC) | Điện áp trên cuộn = 0 (dI/dt=0), cuộn ≈ dây dẫn thường | jaotis 5.2 |
+| "ngay sau khi đóng/mở khóa K" | Điện tích trên tụ **liên tục** (Q không nhảy bậc); dòng qua cuộn **liên tục** (I không nhảy bậc) | jaotis 2.1, 5.2 |
+| "diode lý tưởng" | Thuận: R=0 (như dây); Ngược: R=∞ (như hở mạch) — phải **giả định chiều** rồi kiểm tra lại dấu | jaotis 1.5 |
+| Bài cho đồ thị I–U phi tuyến (bóng đèn sợi đốt, diode thực) | Dùng **phương pháp đồ thị**: giao điểm đường tải (IR=E−U) với đường đặc trưng | jaotis 1.5 |
+| "…lặp lại vô hạn" (mạng điện trở tuần hoàn/phân dạng) | Tự đồng dạng: thêm 1 mắt không đổi R_tổng ⇒ phương trình đại số cho R | jaotis 1.2 (ý tưởng), tương tự idea 29–30 Cơ học |
+
+---
+
+## B4 — SĂN ĐỐI XỨNG: ĐỊNH LÝ NOETHER NHƯ MÁY GIẢM BẬC TỰ DO — [Trụ cột C]
+
+> **Định lý Noether (diễn giải thực dụng):** *Nếu tồn tại một phép biến đổi liên tục làm cho toàn cảnh vật lý "trông y hệt như trước", thì tồn tại một đại lượng bảo toàn tương ứng.*
+
+Đây là công cụ **mạnh nhất** để giảm bậc tự do *hiệu dụng* mà không cần giải phương trình vi phân — mỗi đối xứng tìm được cho ta **một tích phân đầu** (first integral), tức hạ bậc của hệ phương trình vi phân đi 1.
+
+### 4.1. Bảng tra cứu Đối xứng ↔ Bảo toàn
+
+| Phép biến đổi bất biến | Đại lượng bảo toàn | Ví dụ trong tài liệu |
+|---|---|---|
+| Tịnh tiến không gian theo trục x (không có ngoại lực dọc x, hoặc F_x=0 & v_Cx=0) | Động lượng theo x, p_x | idea 34, 43, 50 |
+| Quay quanh 1 trục (không có mô-men ngoại lực quanh trục đó) | Mô-men động lượng L quanh trục đó | fact 7, idea 64 (bảo toàn quanh điểm va chạm vì lực va chạm có cánh tay đòn = 0) |
+| Tịnh tiến thời gian (lực thế, không tiêu tán, không có ngoại lực biến thiên theo t) | Cơ năng E = K + Π | fact 8, idea 39 |
+| Phản xạ gương / hoán đổi nhãn hai phần đối xứng | Các đại lượng tương ứng ở hai bên bằng nhau; điểm nút trên trục đối xứng có thể "ngắn mạch" hoặc "cắt" mà không đổi bản chất bài toán | idea 11, 12 (Cơ học); jaotis 1.4 "Sümmeetria" (Mạch điện) |
+| Đảo cực nguồn (chỉ với hệ tuyến tính thuần trở/tụ/cuộn) | Mọi dòng/áp đổi dấu, cấu trúc bài toán bất biến | jaotis 1.4 (bài 34 — dùng đối xứng đảo cực để rút gọn) |
+| Tự đồng dạng khi thêm 1 "mắt" vào mạng/dây vô hạn | R_tổng (hoặc lực căng phân bố) không đổi | idea 29, 30 (Cơ học); "Lõpmatud perioodilised ahelad" (Điện) |
+| Tính tuần hoàn theo thời gian, tần số ω cố định (hệ tuyến tính, kích thích điều hòa) | Nghiệm cũng tuần hoàn tần số ω ⇒ toàn bộ hàm số theo t sụp thành **2 số thực** (biên độ + pha), tức **phương pháp phức** | jaotis 6.3 (Kompleksmeetod) |
+| Bảo toàn điện tích tại một nút cô lập / một miền kín | ∑I_vào = ∑I_ra (Kirchhoff I) — đây **chính là** Định lý Noether ứng với đối xứng chuẩn (gauge symmetry) của điện tích | jaotis 1.2 (fact Kirchhoff I) |
+| Trường thế tĩnh điện là trường xoáy-tự-do (∮E·dl=0) | Tổng đại số các độ giảm thế quanh 1 vòng kín = 0 (Kirchhoff II) | jaotis 1.2 |
+| Không có thành phần điện trường dọc trục x (E_x=0) trong chuyển động hạt tích điện | Động lượng suy rộng p'_x = p_x − qyB = const | jaotis 7.1 — **đối chiếu trực tiếp với idea 34 Cơ học!** |
+| Đối xứng đổi thang thời gian rất chậm so với chu kỳ dao động riêng | Bất biến đoạn nhiệt (adiabatic invariant) I = diện tích quỹ đạo pha, gần như bảo toàn | idea 74 |
+
+### 4.2. Thủ tục "săn" đối xứng
+
+Với mỗi bài, **chủ động thử** từng phép biến đổi sau, hỏi "hiện tượng có trông y hệt không?":
+
+1. **Tịnh tiến** hệ theo mỗi trục — còn ngoại lực dọc trục đó không?
+2. **Quay** hệ quanh mỗi trục khả dĩ — còn ngoại mô-men không?
+3. **Dịch thời gian** — các lực có phụ thuộc t một cách "ngoại lai" không (ví dụ mặt phẳng nghiêng đang được kéo di chuyển)? Nếu **không** ⇒ năng lượng bảo toàn.
+4. **Phản xạ gương / hoán vị nhãn** hai bộ phận — bài có "trông giống" sau khi lật không?
+5. **Co giãn tỉ lệ** (đổi thang đo) — cấu trúc bài có lặp lại chính nó không (mạng vô hạn, phân dạng)?
+6. **Đảo dấu một biến** (đảo cực nguồn, đảo chiều vận tốc ban đầu) — hệ có đối xứng gì?
+
+> **Cảnh báo (idea 42, idea 58):** Một định luật bảo toàn *chỉ đúng trong một khoảng thời gian/không gian nhất định* — kiểm tra lại điều kiện áp dụng mỗi khi có va chạm, ma sát xuất hiện, hoặc ngoại lực thay đổi bản chất. **Không thể** đồng thời có cả bảo toàn động lượng *và* bảo toàn động năng một cách "miễn phí" trừ khi được chứng minh (va chạm đàn hồi) — nếu bài yêu cầu dùng cả hai mà không nói rõ, ít nhất một trong hai **không** thật sự bảo toàn (idea 58) — đây là bẫy hay gặp.
+
+---
+
+## B5 — CHỌN TỌA ĐỘ SUY RỘNG TỐI THIỂU (f_eff)
+
+Sau B3+B4, số ẩn thật sự cần theo dõi là $f_{eff}$. Nguyên tắc chọn:
+
+- **Chọn tọa độ sao cho các ràng buộc tự động thỏa mãn.** Ví dụ: dùng "dòng mắt lưới" (mesh current) thì KCL tự động đúng ở mọi nút bên trong mắt lưới; dùng góc quay của nêm ξ thì ràng buộc "khối trên nêm di chuyển cùng nêm theo phương ngang" tự động đúng.
+- **f_eff = 1 → dùng ngay Phương pháp Năng lượng suy rộng (Method 6 của Kalda):**
+$$\Pi(\xi),\quad K = \tfrac{1}{2}\mathcal{M}(\xi)\dot\xi^2 \quad\Rightarrow\quad \ddot\xi = -\Pi'(\xi)/\mathcal{M}$$
+  Đây là kỹ thuật **trung tâm** của toàn bộ Cơ học nâng cao trong tài liệu Kalda (idea/method 6), và có **bản sao y hệt** trong mạch RLC: chọn ξ = điện tích Q (hoặc từ thông Φ), Π(Q) = Q²/2C (năng lượng tụ), K(İ) = ½Lİ² (năng lượng cuộn) → chính là bài toán dao động điều hòa cơ-điện đẳng cấu (xem Phần III.3).
+- **f_eff ≥ 2:** hoặc dùng đủ f_eff phương trình Newton/Kirchhoff thành phần (Method 4/5), hoặc tách bảo toàn theo từng trục độc lập trước khi hạ xuống 1 biến còn lại.
+- **Lưu ý tối quan trọng (bẫy Lagrangian idea 6 phần cuối booklet Kalda):** không dùng định luật bảo toàn có chứa đạo hàm bậc 1 (động lượng, mô-men động lượng) để **giảm số tọa độ suy rộng** rồi áp trực tiếp phương trình năng lượng — điều này có thể cho kết quả **sai dấu**. Cách an toàn: nếu còn nghi ngờ, giữ nguyên số tọa độ gốc, viết đủ phương trình, rồi mới rút gọn bằng đại số.
+
+---
+
+## B6 — XẤP XỈ HÓA & PHÂN TÍCH THANG ĐO — [Trụ cột D]
+
+Rất nhiều bài IPhO **không có nghiệm dạng đóng chính xác** — thí sinh **buộc phải** nhận diện một tham số nhỏ ε và tuyến tính hóa. Đây là kỹ năng bị đánh giá thấp nhất nhưng lại là **điểm phân loại** giữa thí sinh đạt HCV và thí sinh chỉ đạt trung bình.
+
+### 6.1. Từ điển "cụm từ mô tả quy mô" → phép xấp xỉ
+
+| Cụm từ trong đề | Ý nghĩa toán học | Kỹ thuật áp dụng |
+|---|---|---|
+| "rất dài", "vô hạn" | Bỏ hiệu ứng biên/đầu mút; hệ có đối xứng tịnh tiến/trụ dọc theo phương đó | Gauss/Ampère phẳng-trụ (B3.3), hoặc bỏ số hạng biên trong tổng |
+| "rất nhỏ", "một nhiễu loạn nhỏ", "gần cân bằng" | Khai triển Taylor bậc 1 (lực) hoặc bậc 2 (năng lượng) quanh điểm cân bằng | idea 20; kiểm tra cực trị bằng dấu đạo hàm bậc 2 (idea 21) |
+| "biến thiên chậm", "chuẩn tĩnh" (quasi-static) | Hệ luôn ở trạng thái cân bằng tức thời với tham số đang đổi; hoặc: bất biến đoạn nhiệt được bảo toàn nếu T_thay đổi ≫ T_dao động riêng | idea 74; jaotis 2.4 (τ ≪ T hay τ ≫ T) |
+| "khối lượng/điện trở không đáng kể" | DOF/quán tính của phần tử đó biến mất — hợp lực/áp trên nó = 0 tức thời | idea 47 |
+| "biến đổi rất nhanh" (tần số cao) | Dùng giá trị **trung bình theo thời gian** ⟨X⟩, tách thành phần dao động nhanh nhỏ ra khỏi phần chậm | idea 24; ⟨sin²⟩=⟨cos²⟩=½ |
+| "hai quá trình có quy mô thời gian rất khác nhau" (va chạm đàn hồi nhanh xen giữa dao động chậm) | Tách bài toán thành 2 giai đoạn độc lập, giải lần lượt | idea 67 |
+| So sánh τ = RC (hoặc L/R) với chu kỳ T của tín hiệu | τ≪T: mạch bám theo tức thời (tụ ≈ hở mạch tại tần thấp / cuộn ≈ hở tại tần cao, tùy cấu hình); τ≫T: mạch "lọc trung bình", biến thiên nhỏ quanh giá trị trung bình | jaotis 2.4, 6.4 |
+| "gần đúng có thể bỏ qua ma sát/điện trở dây nối/nội trở" | Đơn giản hóa mô hình — nhưng LUÔN kiểm tra bài có hỏi "tổn hao"/"nhiệt lượng" hay không, vì khi đó chính đại lượng bị "bỏ qua" lại có thể là ẩn số | — |
+
+### 6.2. Kỹ thuật phân tích thứ nguyên nhanh (order-of-magnitude check)
+Trước khi tin một kết quả trung gian, luôn tự hỏi: "Nếu tham số X → 0 hoặc X → ∞, kết quả có tiến về giới hạn vật lý hiển nhiên không?" — đây vừa là công cụ xấp xỉ (B6) vừa là công cụ kiểm tra ngược (B10).
+
+---
+
+## B7 — CHỌN "NGÔN NGỮ CHI PHỐI" ĐÚNG
+
+Đây là bước **chọn phương pháp giải** dựa trên tất cả thông tin đã "giải mã" ở B1–B6. Sơ đồ quyết định:
+
+```
+Hỏi vận tốc/lực tại 1 thời điểm cụ thể, hệ có f_eff nhỏ, có Π(ξ) dễ viết?
+   → CÓ: dùng Method 6 (năng lượng suy rộng) / Kirchhoff năng lượng (LC, RLC)
+
+Hỏi phản lực/lực căng/mô-men cụ thể (không phải gia tốc)?
+   → Newton từng vật theo trục CHỌN LỌC để triệt tiêu ẩn không cần
+     (chiếu vuông góc với lực/phản lực không biết — idea 1, 2, 38)
+
+Có va chạm / biến cố tức thời (đóng khóa, cắt dây)?
+   → Bảo toàn động lượng/mô-men động lượng NGAY TẠI thời điểm biến cố
+     (lực hữu hạn × thời gian vô cùng nhỏ = xung lượng hữu hạn;
+      lực "thường" bị bỏ qua so với lực va chạm — idea 64, 67)
+
+Hệ có đối xứng cầu/trụ/phẳng rõ ràng (điện/từ trường)?
+   → Gauss / Ampère trực tiếp, KHÔNG tích phân Coulomb/Biot-Savart brute-force
+
+Mạch điện, hỏi trạng thái xác lập / quá độ?
+   → Kirchhoff (nút + vòng) hoặc Thevenin/Millman thu gọn (Phần III)
+
+Mạch điện xoay chiều, hệ tuyến tính, 1 tần số ω?
+   → Phương pháp phức (Z̃ = R + iωL + 1/iωC), giải đại số rồi lấy môđun+argument
+
+Hỏi lực trên vật/điện môi trong trường có hiệu ứng biên phức tạp?
+   → Nguyên lý dịch chuyển ảo: F = −∂Π/∂ξ (không cần biết chi tiết trường tại biên)
+
+Bài không thể giải "closed-form" (phương trình siêu việt / đồ thị I-U phi tuyến)?
+   → Phương pháp đồ thị: vẽ 2 đường, tìm giao điểm; hoặc phương pháp số
+```
+
+**Nguyên tắc phổ quát khi viết phương trình Newton/Kirchhoff-thành-phần:** luôn **chiếu lên trục vuông góc với đại lượng bạn không biết và không cần biết** (phản lực pháp tuyến, lực căng dây không hỏi tới, dòng nhánh không liên quan) — đây là tổng quát hóa của idea 1/2/3/38 Kalda, áp dụng y hệt cho việc chọn nút/vòng trong mạch điện (chọn vòng Kirchhoff sao cho nó "né" nhánh chứa ẩn không cần).
+
+---
+
+## B8 — ĐIỀU KIỆN BIÊN & ĐIỀU KIỆN ĐẦU (nguồn thông tin "ẩn" thứ hai)
+
+Ngoài từ khóa tường minh, đề bài **luôn** mang theo các điều kiện biên **ngầm định**, theo quy ước vật lý chuẩn. Đây là bảng tra cứu bắt buộc thuộc lòng:
+
+| Tình huống | Điều kiện biên/đầu ngầm định |
+|---|---|
+| Thế tại vô cực (không có gì đặc biệt ở đó) | φ(∞) = 0 |
+| Vật/khối bắt đầu **được thả ra**, "ban đầu đứng yên" | v(0) = 0; gia tốc ban đầu ∥ hợp lực ban đầu (idea 31) |
+| "vừa mới…", "ngay sau khi", "tức thời" | Đại lượng có quán tính (vị trí, Q trên tụ, I qua cuộn, động lượng góc ngoài xung lực) **liên tục**; đại lượng không có quán tính (vận tốc khi có xung tức thời, dòng qua điện trở/tụ, U trên cuộn) có thể **nhảy bậc** |
+| "sau một thời gian dài", "ổn định", "trạng thái dừng" | Đạo hàm theo t của mọi đại lượng chậm → 0 (dI/dt=0 trên cuộn, dU/dt=0 trên tụ, dv/dt=0 khi đạt vận tốc giới hạn) |
+| Vật **tách khỏi** bề mặt / dây **chùng** | N = 0 hoặc T = 0 tại đó (bất đẳng thức chuyển thành đẳng thức biên — idea 40) |
+| "…bắt đầu trượt", "trên bờ vực…" | \|F_masat\| = μN (dấu bằng, biên giữa tĩnh và động) |
+| Ampe kế/Vôn kế lý tưởng | R→0 / R→∞ tương ứng (xem B3.4) |
+| Vật dẫn nối đất | φ = 0 |
+| Vật dẫn cô lập | Q = const (giá trị ban đầu hoặc 0 nếu "chưa tích điện") |
+| Bề mặt chất lỏng tự do gần tường/áp suất khí quyển | p = p_khí quyển tại đó (Fact 30 — Bernoulli) |
+| Cực đại/cực tiểu của 1 đại lượng theo thời gian | Đạo hàm theo t của đại lượng đó = 0 tại thời điểm đó (idea 44; với mạch: dI/dt=0 ⇒ U_cuộn=0 lúc I cực đại — jaotis 5.4) |
+
+---
+
+## B9 — GIẢI HỆ
+
+Sau B0–B8, bài toán đã là **thuần Toán**. Vài kỹ thuật đáng nhớ (đã được dùng lặp lại trong tài liệu gốc):
+
+- Phương trình vi phân tuyến tính bậc 1 thuần nhất $\tau\dot x + x = 0$ → nghiệm $x(t)=Ce^{-t/\tau}$ (suy giảm mũ — xuất hiện y hệt trong phóng điện tụ RC **và** trong bài toán ma sát nhớt/relaxation cơ học).
+- Phương trình vi phân tuyến tính bậc 2 thuần nhất $\ddot x + \omega^2 x = 0$ → dao động điều hòa $x(t)=C_1\cos\omega t+C_2\sin\omega t$ — xuất hiện y hệt trong con lắc, mạch LC, dao động xoắn… **Đây là một minh chứng trực tiếp cho luận điểm cốt lõi của tài liệu: dạng toán học của phương trình chi phối là bất biến qua các phân môn Vật lý — học một dạng phương trình là học được cho cả Cơ lẫn Điện.**
+- Với phương trình siêu việt dạng $f(x) = ax+b$: đưa về bài toán **giao điểm 2 đồ thị** (đường thẳng và đường đặc trưng cho trước).
+- Đối xứng gương/quay: dùng phép quay trục tọa độ, chiếu vector lên hệ trục mới (idea 28).
+- "Mở phẳng" bề mặt cong (hình trụ, hình nón) thành mặt phẳng để tìm đường ngắn nhất/đường trắc địa (idea 29).
+- Với hệ vô hạn tự đồng dạng: đặt R (hoặc L, hoặc T) là ẩn, "thêm một mắt", thiết lập phương trình R = f(R), giải phương trình đại số (thường là bậc 2).
+
+---
+
+## B10 — KIỂM TRA NGƯỢC (Verification Protocol)
+
+Không bao giờ nộp bài mà bỏ qua bước này — đây là bước tách biệt điểm 10 và điểm 7-8.
+
+1. **Kiểm tra thứ nguyên** — mọi số hạng cộng với nhau phải cùng đơn vị.
+2. **Kiểm tra giới hạn đặc biệt** (idea 37): cho tham số → 0 hoặc → ∞ hoặc → giá trị đối xứng đặc biệt, so với trực giác/công thức đã biết (ví dụ μ→0 phải cho lại kết quả "không ma sát"; ε→1 (chân không) phải cho lại kết quả tĩnh điện chân không — chính jaotis 3.10 của Elekter.pdf nhắc thẳng điều này).
+3. **Kiểm tra dấu** — lực/mô-men/dòng điện có đúng chiều vật lý hợp lý không?
+4. **Kiểm tra qua định luật bảo toàn độc lập** — nếu bạn dùng Newton để giải, thử thay số vào biểu thức năng lượng xem có bảo toàn không (hoặc ngược lại).
+5. **Kiểm tra bậc tự do** — số phương trình đã dùng có đúng bằng f_eff không (Fact 18)? Nếu dư 1 phương trình mà vẫn ra nghiệm hợp lý — có khả năng bạn đã vô tình lặp một ràng buộc; nếu thiếu 1 phương trình mà "đoán" ra đáp số — có khả năng bài có nghiệm nhưng lời giải chưa chặt chẽ, thiếu lập luận cho điểm.
+
+---
+
+## PHẦN II — BẢN ĐỒ HÓA HỆ THỐNG "IDEA/FACT/METHOD" CỦA KALDA (CƠ HỌC) VÀO KHUNG 10 BƯỚC
+
+Toàn bộ ~75 "idea", ~31 "fact" và 7 "method" trong *Problems on Mechanics* không phải một danh sách rời rạc cần học thuộc — chúng **đều** là ví dụ cụ thể của 4 trụ cột + các bước B0–B10. Bảng dưới đây tổ chức lại toàn bộ hệ thống theo lăng kính đó, giúp bạn "nạp" tài liệu Kalda vào đúng ô nhớ, thay vì nhớ rời rạc 75 con số.
+
+### II.1 — Nhóm phục vụ Trụ cột A + B (Đếm DOF & Ràng buộc)
+
+| # | Nội dung cốt lõi (tóm tắt) |
+|---|---|
+| fact 18 | Số phương trình độc lập tối đa = số bậc tự do của vật (3 trong 2D, 6 trong 3D) |
+| idea 30 | Ràng buộc dư (hệ siêu tĩnh định) ⇒ phải coi là đàn hồi để giải được |
+| fact 20 | Thanh/dây 2 đầu tựa tự do ⇒ lực căng dọc trục |
+| idea 32, 33 | Dây/ròng rọc ⇒ liên hệ tuyến tính giữa dịch chuyển; lực căng đều hai bên ròng rọc lý tưởng |
+| idea 47 | Vật "nhẹ" ⇒ hợp lực & mô-men trên nó = 0 |
+| fact 21 | Ma sát luôn ngược chiều vận tốc tương đối tại điểm tiếp xúc |
+| fact 19, idea 6 | Điều kiện trượt: tan α = μ; hợp lực lệch pháp tuyến arctan μ khi trên bờ vực trượt |
+| idea 51 | Với hệ nhiều mặt tiếp xúc ma sát: phải xét đủ **mọi tổ hợp** khả năng trượt/không trượt |
+| idea 59, fact 31 | Điều kiện liên tục dòng chảy (bảo toàn khối lượng) là một dạng ràng buộc |
+| idea 60 | Va chạm luôn trượt tại tường ⇒ tỉ số xung lượng pháp tuyến/tiếp tuyến = μ |
+
+### II.2 — Nhóm phục vụ Trụ cột C (Đối xứng & Bảo toàn — Noether)
+
+| # | Nội dung cốt lõi |
+|---|---|
+| fact 6, 7, 8 | 3 định luật bảo toàn gốc: động lượng, mô-men động lượng, cơ năng |
+| idea 34, 43, 50 | Bảo toàn động lượng theo 1 trục khi ngoại lực dọc trục đó = 0 (kể cả khi tổng ngoại lực khác 0!) |
+| idea 39 | Điều kiện để năng lượng bảo toàn: không tiêu tán + ngoại lực tĩnh |
+| idea 42, 58 | Cẩn trọng: bảo toàn chỉ đúng trong khoảng hợp lệ; không được "có cả hai" định luật bảo toàn một cách tùy tiện |
+| idea 52, fact 25, idea 64 | Va chạm đàn hồi: hệ quả hình học (góc vuông giữa 2 vận tốc sau va chạm với bi giống hệt); mô-men động lượng bảo toàn quanh điểm va chạm |
+| idea 11, 12, 27 | Kỹ thuật dựng đối xứng: chồng chập miền âm/dương, đối xứng hóa bài toán, triệt tiêu lực tại các cặp điểm đối xứng |
+| idea 15, 21 | Cân bằng bền ⇔ cực tiểu thế năng (hoặc cực trị có điều kiện của đại lượng bảo toàn) |
+| idea 74 | Bất biến đoạn nhiệt khi tham số biến thiên chậm |
+| idea 66 | Mô-men động lượng bảo toàn quanh trục bất kỳ nằm trong mặt tiếp xúc (vật lăn/trượt) |
+
+### II.3 — Nhóm phục vụ Trụ cột D (Xấp xỉ & Thang đo)
+
+| # | Nội dung cốt lõi |
+|---|---|
+| idea 20 | Khai triển Taylor — công cụ xấp xỉ trung tâm |
+| idea 18 | Dây võng có T ≫ trọng lượng ⇒ độ cong nhỏ, xấp xỉ phân bố khối lượng đều theo phương ngang |
+| idea 24 | Hệ biến thiên tần số cao ⇒ dùng giá trị trung bình thời gian |
+| method 2 | Nhiễu loạn: giải bài "cấp 0" rồi cộng hiệu chỉnh nhỏ do lực nhỏ |
+| idea 67 | Tách quá trình nhanh (va chạm/lò xo cứng) khỏi quá trình chậm |
+| idea 70 | Vật chuyển động trong lưu chất ⇒ khối lượng hiệu dụng tăng thêm (added mass) |
+
+### II.4 — Nhóm phục vụ Trụ cột "Ngôn ngữ chi phối" (Chọn phương pháp, B7)
+
+| # | Nội dung cốt lõi |
+|---|---|
+| idea 1, 2, 3, 38 | Chọn trục chiếu / điểm mô-men để triệt tiêu ẩn không cần |
+| idea 7, 8, 9, 73 | Đổi hệ quy chiếu (quán tính/phi quán tính/quay/đồng chuyển động với sóng) |
+| method 1 | Nguyên lý công ảo — tìm lực căng bằng T·Δx = ΔΠ |
+| method 4, 5 | Newton thành phần trong hệ quy chiếu phòng thí nghiệm / phi quán tính |
+| method 6 | **Tọa độ suy rộng + năng lượng** — công cụ trung tâm khi f_eff = 1 |
+| idea 36, 48 | Đôi khi tìm **lực** từ gia tốc đã biết (không phải ngược lại); F=Ma_C cho khối tâm |
+| method 3 | Chia nhỏ vi phân theo không gian/thời gian rồi tích phân |
+| idea 45, 46, 62, 63 | Mô-men quán tính, định lý trục song song (Steiner), động lượng góc cộng tính |
+| idea 61 | K = K_c + M v_c²/2 — tách động năng khối tâm và động năng quanh khối tâm |
+| idea 71, 72 | Phương trình Bernoulli; định luật Newton tổng quát cho hệ mở (dòng chảy vào/ra mang động lượng) |
+| idea 22 | Lực đẩy Ácsimét quy về lực đặt tại khối tâm thể tích displaced |
+
+### II.5 — Nhóm phục vụ B8/B10 (Biên & Kiểm tra)
+
+| # | Nội dung cốt lõi |
+|---|---|
+| idea 31 | Vật bắt đầu từ đứng yên ⇒ dịch chuyển ban đầu song song với lực |
+| idea 40, 23 | N=0 tại thời điểm tách khỏi bề mặt; N=0 khi bắt đầu rò rỉ chất lỏng |
+| idea 44 | Cực trị vận tốc/điện tích khi gia tốc/dòng = 0 |
+| idea 37 | Luôn kiểm tra bằng trường hợp đặc biệt/giới hạn |
+| fact 30 | Áp suất tĩnh = áp suất khí quyển tại mặt thoáng tự do |
+
+---
+
+## PHẦN III — ÁP DỤNG CHO ĐIỆN–TỪ HỌC & MẠCH ĐIỆN
+
+Tài liệu Elekter.pdf (Kiisk) **không** trình bày theo hệ "idea/fact" tường minh như Kalda, nhưng khi đọc kỹ, các nguyên lý bên trong nó là **hoàn toàn song ánh (isomorphic)** với hệ Cơ học ở Phần II. Phần này (1) hệ thống hóa lại các nguyên lý đó theo cùng khung 4 trụ cột, và (2) **bổ sung phần Mạch điện tổng quát** — vì tài liệu gốc không có một "cẩm nang idea" cho mạch điện như Kalda có cho Cơ học (xem ghi chú nguồn ở Phần VIII).
+
+### III.1 Tĩnh điện — Trụ cột C (Đối xứng quyết định phương pháp)
+
+**Nguyên lý số 1 của Tĩnh điện/Từ tĩnh:** *Trước khi tích phân Coulomb/Biot–Savart trực tiếp, luôn hỏi: "Phân bố điện tích/dòng có đối xứng cầu, trụ, hay phẳng không?"*
+
+- Nếu **có** → dùng Định lý Gauss (`∮E·dS = Q_trong/ε₀`) hoặc Định lý Ampère (`∮B·dl = μ₀I_trong`), chọn mặt/đường sao cho E hoặc B là hằng số từng khúc trên đó (đây chính là bước B5 — "chọn tọa độ suy rộng sao cho ràng buộc/đối xứng tự động thỏa mãn", áp dụng cho trường liên tục).
+- Nếu **không** đối xứng hoàn hảo nhưng bài toán ở **khoảng cách rất lớn** (B6 — "rất xa") → khai triển đa cực, chỉ giữ số hạng thấp nhất (đơn cực nếu Q≠0, lưỡng cực nếu Q=0).
+- Nếu có **khoang rỗng/khuyết** trong vật đối xứng → dùng thủ thuật chồng chập điện tích ảo dấu ngược (song ánh trực tiếp với idea 11 Cơ học).
+- Nếu có **vật dẫn** gần điện tích điểm → phương pháp ảnh điện: đây là một trường hợp đẹp của nguyên lý "dùng điều kiện biên để sụp DOF vô hạn (hàm mật độ điện mặt σ(x,y)) xuống DOF hữu hạn (vài điện tích ảo)" — hoàn toàn cùng bản chất với việc chọn tọa độ suy rộng ở B5.
+
+### III.2 Từ tĩnh — Phép tương tự như một công cụ giải nhanh
+
+Bảng tương tự `E↔H, D↔B, ε↔μ` không chỉ là "trùng hợp công thức" — nó là hệ quả của việc **hai hệ phương trình chi phối có cùng cấu trúc toán học** (không có "từ tích" tự do ứng với "Gauss cho B luôn = 0"). Về mặt chiến lược thi đấu: **nếu bạn đã giải xong bài tĩnh điện tương ứng, đừng giải lại bài từ tĩnh — hãy dịch nghiệm.**
+
+### III.3 Cảm ứng điện từ & Mạch RC/RL/LC — Đẳng cấu Cơ–Điện
+
+Đây là điểm hợp nhất đẹp nhất giữa hai phân môn, và **chính tài liệu gốc cũng ngầm xác nhận điều này** (jaotis 5.4, và chú thích toán học về 2 dạng phương trình vi phân chuẩn trong phần Cơ học).
+
+| Đại lượng Cơ học | Đại lượng Điện học | Phương trình chi phối chung |
+|---|---|---|
+| Vị trí x | Điện tích Q | — |
+| Vận tốc ẋ | Dòng điện I = Q̇ | — |
+| Khối lượng m | Độ tự cảm L | Quán tính |
+| 1/Độ cứng lò xo (1/k) | Điện dung C | Tích trữ năng lượng "thế" |
+| Hệ số cản (ma sát nhớt) | Điện trở R | Tiêu tán |
+| Thế năng đàn hồi ½kx² | Năng lượng tụ Q²/2C | — |
+| Động năng ½mẋ² | Năng lượng cuộn ½LI² | — |
+| $\tau\dot x + x = 0$ (rơi tự do có cản, không dao động) | Phóng/nạp tụ qua điện trở, τ = RC | Suy giảm mũ |
+| $\ddot x + \omega^2 x=0$ (con lắc lò xo) | Mạch LC tự do, ω²=1/LC | Dao động điều hòa |
+| Dao động cưỡng bức có cản | Mạch RLC xoay chiều | Cộng hưởng |
+
+**Hệ quả chiến lược:** bất kỳ kỹ thuật Cơ học nào áp dụng cho dao động (idea 74 - bất biến đoạn nhiệt; idea 44 - cực trị khi đạo hàm=0; method 6 - tọa độ suy rộng + năng lượng) đều **dịch thẳng** sang mạch LC/RLC bằng cách thay x→Q, m→L, 1/k→C. Bài "Ekstremaalne vool induktoris ja ekstremaalne pinge kondensaatoril" (jaotis 5.4) chính là idea 44 của Kalda áp dụng nguyên xi cho mạch điện.
+
+### III.4 Chuyển động hạt tích điện trong E, B — nơi đối xứng "Cơ" và "Điện" hợp nhất tường minh
+
+Chính văn bản gốc (jaotis 7.1) đưa ra: nếu thành phần điện trường $E_x=0$, thì động lượng suy rộng $p_x' = p_x - qyB$ **bảo toàn**. Đây **chính là idea 34 của Kalda** ("nếu tổng ngoại lực và vận tốc khối tâm theo x đều = 0 thì tọa độ x của khối tâm không đổi") được viết lại dưới ngôn ngữ trường điện từ. Việc nhận ra sự trùng khớp này (thay vì học nó như hai công thức tách biệt) chính là minh chứng sống cho luận điểm trung tâm của tài liệu: **B4 (săn đối xứng) là một quy trình duy nhất, áp dụng giống hệt nhau cho mọi phân môn Vật lý cổ điển.**
+
+---
+
+## PHẦN IV — MẠCH ĐIỆN TỔNG QUÁT: THUẬT TOÁN BỔ SUNG (vì nguồn cho trước chưa đầy đủ)
+
+Đây là phần **bổ sung có chủ đích**, vì Elekter.pdf trình bày mạch DC (Kirchhoff, tương đương Thévenin, Millman, đối xứng, mạng tuần hoàn, phần tử phi tuyến) khá đầy đủ nhưng **không có hệ thống "idea" tường minh và chưa bao quát hết các thủ thuật mạng điện phức tạp** (Δ–Y đầy đủ, mạng lưới điện trở tổng quát, bộ lọc, mạch cầu đo). Dưới đây là một "hệ idea" tương tự Kalda, xây riêng cho mạch điện, để bài toán mạch điện được giải mã bằng **đúng khung 10 bước** đã trình bày ở Phần I.
+
+### IV.1 Đếm DOF cho mạch điện (B2 áp dụng cho mạch)
+
+Cho mạch có **b** nhánh (branches) và **n** nút (nodes):
+- DOF thô = b (mỗi nhánh 1 dòng điện chưa biết).
+- Ràng buộc từ **Kirchhoff I** (KCL, bảo toàn điện tích tại từng nút — Trụ cột B ∩ C): cho **n−1** phương trình độc lập (nút thứ n dư, vì tổng tất cả các phương trình KCL luôn ≡ 0 — hệ quả của bảo toàn điện tích toàn cục).
+- Ràng buộc từ **Kirchhoff II** (KVL, hệ quả trường thế bảo toàn — Trụ cột C): cho đúng **b−n+1** phương trình độc lập (bằng số vòng độc lập của đồ thị mạch).
+- Tổng: (n−1) + (b−n+1) = **b** phương trình = đúng bằng DOF thô. **Đây là bản sao chính xác của Fact 18 (Kalda) cho mạch điện** — nếu đếm không khớp, bạn đã bỏ sót nhánh/nút hoặc đếm dư vòng phụ thuộc.
+
+**Kỹ thuật giảm DOF hiệu dụng trước khi giải (B5 cho mạch):**
+- **Phương pháp thế nút** (chọn φ tại mỗi nút, trừ 1 nút gốc): tự động thỏa KVL, số ẩn = n−1.
+- **Phương pháp dòng mắt lưới** (mesh current): tự động thỏa KCL, số ẩn = b−n+1.
+- Chọn phương pháp nào cho **ít ẩn hơn** — nguyên tắc B5 ("chọn tọa độ suy rộng làm ràng buộc tự thỏa") áp dụng y hệt.
+
+### IV.2 Kỹ thuật "thu gọn hệ" (tương đương idea 4 Cơ học)
+
+| Kỹ thuật | Bản chất | Khi dùng |
+|---|---|---|
+| Nối tiếp/song song | Thu gọn 2 phần tử cùng loại thành 1 | Luôn thử đầu tiên |
+| Biến đổi Δ–Y (Y–Δ) | Đổi dạng liên kết 3 nhánh mà không đổi đặc tính điện tại 3 cực ngoài | Khi mạch không rút gọn được bằng nối tiếp/song song thuần túy (cầu Wheatstone, mạng không phẳng) |
+| **Định lý Thévenin** | Bất kỳ mạng tuyến tính 2 cực nào ⇔ 1 nguồn EMF ℰ nối tiếp 1 điện trở r | Khi chỉ cần biết hành vi của mạch nhìn từ 1 cặp cực — thu DOF của toàn mạng phức tạp về **2 tham số** |
+| **Định lý Norton** | Tương đương Thévenin dạng nguồn dòng song song điện trở | Khi tải là nguồn dòng hoặc cần cộng nhiều nguồn song song |
+| **Định lý Millman** | Trường hợp riêng của thế nút cho N nguồn EMF mắc song song vào 2 nút | Nhận diện nhanh khi thấy "N nhánh EMF nối chung 2 đầu" |
+| Đối xứng mạch (gương/quay/hoán vị) | Hai nút "trông giống nhau" qua phép đối xứng ⇒ cùng điện thế ⇒ có thể nối tắt hoặc cắt nhánh nối chúng mà không đổi đặc tính mạch | Mạng lập phương/đa diện đều bằng điện trở; luôn thử trước khi lập hệ phương trình đầy đủ |
+| Mạng tuần hoàn/tự đồng dạng vô hạn | R_tổng không đổi khi thêm 1 mắt ⇒ phương trình đại số cho R_tổng | Mạng bậc thang, mạng lưới vô hạn |
+
+### IV.3 Điều kiện biên đặc thù cho mạch phi tuyến (B7–B9 cho phần tử phi tuyến)
+
+Khi mạch có **diode, bóng đèn sợi đốt, transistor lý tưởng hóa…**, đường đặc trưng I–U không còn là đường thẳng ⇒ không thể chỉ dùng đại số tuyến tính. Thủ tục:
+1. Viết phương trình "đường tải" (load line) từ phần tuyến tính còn lại của mạch: $IR = \mathcal{E} - U$.
+2. Vẽ/lập giao điểm với đường đặc trưng phi tuyến cho trước.
+3. Nếu có **nhiều giao điểm** (trễ — hysteresis, phần tử có vùng điện trở vi phân âm): xét **tính ổn định** bằng cách gắn một tụ điện nhỏ song song (tương tự) và xét dấu $dU/dt$ khi lệch khỏi điểm cân bằng — hoàn toàn song ánh với "cân bằng bền ⇔ cực tiểu thế năng" (idea 15/19 Cơ học), chỉ khác là ở đây tiêu chí là độ dốc vi phân của đường đặc trưng tại giao điểm.
+
+### IV.4 Mạch xoay chiều — nơi B4 (đối xứng thời gian) thay thế hoàn toàn phương trình vi phân
+
+Với mạch tuyến tính (R, L, C) kích thích bởi nguồn điều hòa tần số ω duy nhất: tính **tuần hoàn + tuyến tính** đảm bảo *mọi* dòng/áp trong mạch cũng dao động điều hòa **cùng tần số ω** (đây là hệ quả trực tiếp của đối xứng tịnh tiến thời gian rời rạc theo chu kỳ T=2π/ω). Do đó, thay vì giải phương trình vi phân, ta "nén" mỗi đại lượng $A\cos(\omega t+\varphi)$ thành **một số phức** $\tilde A = Ae^{i\varphi}$, biến đổi ba phần tử thành trở kháng phức:
+$$\tilde Z_R = R,\qquad \tilde Z_L = i\omega L,\qquad \tilde Z_C = \dfrac{1}{i\omega C}$$
+rồi áp dụng **y hệt** đại số Ohm/Kirchhoff của mạch DC. Đây là ví dụ rõ ràng nhất trong toàn bộ tài liệu về việc **một đối xứng (B4) làm sụp toàn bộ độ phức tạp vi phân của bài toán xuống thành đại số (B9)**.
+
+---
+
+## PHẦN V — TỪ ĐIỂN GIẢI MÃ TỪ KHÓA TỔNG HỢP (mọi phân môn)
+
+Bảng tổng hợp nhanh — dùng như checklist tra cứu ngay khi đọc đề (bổ sung cho các bảng chi tiết ở B3):
+
+| Từ khóa | Diễn dịch |
+|---|---|
+| lý tưởng | Bỏ hiệu ứng bậc 2 tương ứng (điện trở=0, khối lượng=0, độ giãn=0…) |
+| chuẩn tĩnh / đủ chậm | Có thể coi tại mỗi thời điểm hệ ở trạng thái cân bằng tức thời |
+| đối xứng | Tìm phép biến đổi bất biến trước khi lập phương trình — có thể giảm ẩn ngay lập tức |
+| không đáng kể / bỏ qua | Đại lượng đó → 0 trong phương trình động lực, nhưng **có thể vẫn là ẩn cần tính** nếu được hỏi trực tiếp |
+| ban đầu / lúc đầu / tại t=0 | Điều kiện đầu — luôn viết tường minh v(0), Q(0), I(0)… |
+| sau một thời gian dài / ổn định / xác lập | Điều kiện biên tại t→∞: mọi đạo hàm theo t của đại lượng chậm → 0 |
+| tối đa / tối thiểu / cực trị | Đạo hàm theo biến điều khiển = 0 tại đó (B8) |
+| vừa đủ để / ngưỡng | Đẳng thức biên (dấu "=" thay vì "≥"/"≤") — tìm giá trị tới hạn |
+| rất xa / ở khoảng cách lớn | Khai triển tiệm cận, giữ số hạng bậc thấp nhất khác 0 |
+| rất gần / sát bề mặt | Xấp xỉ trường địa phương gần như đều/không đổi trên miền nhỏ |
+| N vật/nguồn giống hệt nhau | Tìm đối xứng hoán vị — khả năng cao có công thức đối xứng gọn |
+| "chứng minh rằng…" | Đề đã cho sẵn đáp số — dùng ngược để kiểm tra hướng suy luận, tìm điều kiện cần đúng ở bước trung gian |
+
+---
+
+## PHẦN VI — HAI VÍ DỤ ÁP DỤNG ĐẦY ĐỦ (Cơ học & Điện học)
+
+### Ví dụ A (Cơ học) — Nêm có ròng rọc nối tường (Kalda pr 26)
+
+> *Đề (tóm tắt):* Khối nhỏ khối lượng m nằm trên mặt nghiêng góc α của nêm khối lượng M. Khối được nối bằng dây qua ròng rọc gắn ở đỉnh nêm, đầu dây kia cố định vào tường đứng. Mọi mặt đều trơn (không ma sát). Tìm gia tốc của nêm.
+
+**B0:** Dữ kiện: m, M, α, "trơn" (2 lần: nêm–sàn và khối–nêm), dây nối qua ròng rọc lý tưởng gắn cố định trên nêm, đầu dây kia buộc cố định vào tường. Hỏi: gia tốc của nêm.
+
+**B1:** Hệ gồm 2 vật rắn (nêm, khối) + 1 dây không giãn + 1 tường cố định (biên Dirichlet về vị trí).
+
+**B2 (DOF thô):** Nêm chuyển động ngang trên sàn trơn → 1 DOF (x_nêm, vì không lật, không rời sàn theo giả thiết ẩn "trượt trên sàn"). Khối trên mặt nêm → 1 DOF dọc theo mặt nêm (vị trí tương đối so với nêm). Tổng f_raw = 2.
+
+**B3 (Ràng buộc):** "Trơn" (2 chỗ) → không có lực ma sát tiếp tuyến. "Dây không giãn qua ròng rọc cố định trên nêm, đầu kia buộc vào tường" → khi nêm dịch một đoạn ξ về phía tường, đoạn dây từ tường đến ròng rọc ngắn lại ξ, nên đoạn dây từ ròng rọc đến khối phải dài thêm ξ ⇒ khối dịch chuyển **đúng một đoạn ξ so với nêm** dọc theo mặt nghiêng (idea 32). Đây là ràng buộc làm f giảm từ 2 xuống — nhưng vì khối vẫn "được phép" trượt so với nêm, thực chất ràng buộc này chỉ **liên kết 2 chuyển vị**, không loại bỏ chúng — ta còn **1 DOF độc lập**: chọn ξ = dịch chuyển của nêm.
+
+**B4 (Đối xứng/Bảo toàn):** Không có ma sát ⇒ cơ năng bảo toàn (idea 39). Không có ngoại lực ngang lên hệ nêm+khối+tường... (thực ra dây kéo vào tường truyền ngoại lực ngang qua tường, nên KHÔNG bảo toàn động lượng ngang toàn hệ — chỉ bảo toàn **năng lượng**).
+
+**B5 (Tọa độ suy rộng):** f_eff = 1 → chọn ξ = độ dịch chuyển ngang của nêm. Theo ràng buộc B3: khối dịch chuyển đúng ξ dọc mặt nêm so với nêm.
+
+**B6 (Xấp xỉ):** Không cần — bài giải đúng (không cần tuyến tính hóa).
+
+**B7 (Chọn phương pháp):** f_eff=1, có Π(ξ) dễ viết ⇒ dùng **Method 6** (năng lượng suy rộng).
+- Π(ξ) = mgξ sin α (khối hạ độ cao khi trượt xuống theo ξ);
+- Vận tốc nêm = ξ̇; vận tốc khối = tổng vector (ξ̇ theo phương ngang của nêm) + (ξ̇ dọc mặt nêm so với nêm) → độ lớn bình phương vận tốc khối = $\dot\xi^2\,[1+1+2\cos\alpha] \cdot$ ... (cộng hai vector độ lớn ξ̇ lệch góc α) — sau khai triển, động năng toàn hệ:
+$$K = \tfrac12 \dot\xi^2\left(M + 4m\sin^2\tfrac{\alpha}{2}\right)$$
+
+**B8 (Biên):** Không cần điều kiện biên đặc biệt (hỏi gia tốc tổng quát, không phải tại thời điểm cụ thể).
+
+**B9 (Giải):** Áp dụng công thức Method 6: $\ddot\xi = -\Pi'(\xi)/\mathcal{M}$, với $\Pi'(\xi) = mg\sin\alpha$ và $\mathcal{M} = M+4m\sin^2(\alpha/2)$:
+$$a_{\text{nêm}} = \ddot\xi = \dfrac{mg\sin\alpha}{M + 4m\sin^2(\alpha/2)}$$
+
+**B10 (Kiểm tra):** α→0: a→0 ✓ (không có thành phần trọng lực dọc mặt nêm). m≪M: a→(mg sinα)/M — hợp lý (nêm gần như không bị ảnh hưởng). Thứ nguyên đúng (gia tốc). Khớp với đáp số gốc của tài liệu.
+
+---
+
+### Ví dụ B (Điện học) — Mạch LC chuyển mạch (Elekter.pdf, dạng bài tương tự bài 151)
+
+> *Đề (tóm tắt):* Hai tụ C₁, C₂ đã nạp đầy bởi nguồn EMF ℰ (qua một cấu hình mạch cho trước, theo hình vẽ). Đóng khóa K để một cuộn cảm L được nối vào mạch. Tìm (a) dòng cực đại I_max qua cuộn cảm; (b) điện áp cực đại U_max trên tụ C₁ sau khi đóng khóa.
+
+**B0:** Dữ kiện: C₁, C₂, ℰ, L, trạng thái đầu (tụ đã nạp theo nguồn ℰ trước khi đóng K). Hỏi: I_max qua cuộn, U_max trên C₁.
+
+**B1:** Hệ = mạch kín gồm C₁, C₂, L sau khi đóng K (nguồn ℰ đã bị ngắt khỏi vòng đang xét theo cấu hình đề, chỉ còn dao động tự do giữa các tụ và cuộn).
+
+**B2 (DOF thô):** 2 tụ độc lập → 2 điện tích Q₁,Q₂ là DOF, cộng thêm dòng qua cuộn I — nhưng dòng I chính là tốc độ biến thiên điện tích, không phải DOF độc lập mới.
+
+**B3 (Ràng buộc):** Bảo toàn điện tích tại nút cô lập nối các tụ (KCL) — liên hệ Q₁, Q₂ và dòng qua cuộn: dòng qua cuộn = tốc độ điện tích chuyển từ tụ này sang tụ kia (hoặc từ nguồn, tùy sơ đồ) — đây chính là **ràng buộc bảo toàn điện tích**, tương đương "dây không giãn" bên Cơ học. Sau khi triển khai đúng theo sơ đồ mạch cụ thể trong đề, tổng "điện tích + hiệu điện thế trên C₁, C₂" liên hệ với nhau qua một biến duy nhất.
+
+**B4 (Đối xứng/Bảo toàn):** Mạch LC lý tưởng (không điện trở) ⇒ **năng lượng bảo toàn tuyệt đối** trong suốt dao động (đẳng cấu trực tiếp với idea 39 Cơ học — "không tiêu tán + không ngoại lực biến thiên" ⇒ bảo toàn năng lượng, ở đây "không điện trở" đóng vai "không ma sát").
+
+**B5 (Tọa độ suy rộng):** Chọn ξ = điện tích đã dịch chuyển qua cuộn cảm kể từ lúc đóng khóa (đẳng cấu Q ↔ x của Cơ học). f_eff = 1.
+
+**B6 (Xấp xỉ):** Không cần.
+
+**B7 (Chọn phương pháp):** f_eff=1 và Π(ξ) [năng lượng tụ, hàm bậc 2 của ξ] dễ viết ⇒ dùng **Method 6 phiên bản điện** = năng lượng LC: $K=\tfrac12 L\dot\xi^2=\tfrac12 LI^2$, Π = năng lượng còn lại trong các tụ như hàm của ξ.
+
+**B8 (Biên — mấu chốt của bài này, chính là jaotis 5.4 "Cực trị dòng trong cuộn/cực trị áp trên tụ"):**
+- **I cực đại** ⇔ $dI/dt = 0$ ⇔ điện áp trên cuộn = 0 ⇔ (do KVL) điện áp trên các tụ đạt trạng thái "cân bằng tức thời" giữa chúng — đây là **đúng bản dịch điện học** của idea 44 Cơ học ("vận tốc cực đại khi gia tốc = 0").
+- **U cực đại trên C₁** ⇔ $dU_{C1}/dt=0$ ⇔ dòng qua nhánh chứa C₁ = 0 tại thời điểm đó — bản dịch của idea 40 ("phản lực = 0 tại điểm tách").
+
+**B9 (Giải):** Dùng bảo toàn năng lượng (B4) kết hợp 2 điều kiện biên cực trị (B8) để khử ẩn, thu được (theo đáp số gốc của tài liệu):
+$$I_{\max} = \dfrac{C_1\mathcal{E}}{\sqrt{L(C_1+C_2)}}, \qquad U_{\max} = \mathcal{E}\left(1+\dfrac{C_1}{C_1+C_2}\right)$$
+
+**B10 (Kiểm tra):** C₂→0: U_max → 2ℰ, I_max→ 0 — hợp lý nếu nhánh C₂ "biến mất" thì cấu hình suy biến, cần đối chiếu lại giả thiết mạch gốc. L→∞: I_max→0 (cuộn cảm rất lớn "khóa" dòng biến thiên) — hợp lý. Thứ nguyên: [C·V]/√[H·F] = [A] ✓.
+
+**Nhận xét sư phạm:** Hai ví dụ A và B, dù một bên là nêm-ròng rọc-dây và một bên là tụ-cuộn-khóa điện, được giải bằng **cùng một chuỗi 10 bước, cùng một Method 6, cùng dạng điều kiện cực trị (đạo hàm=0)**. Đây chính là bằng chứng thực nghiệm (trong phạm vi tài liệu đã cho) cho luận điểm trung tâm: **một thuật toán giải mã đúng thì tổng quát xuyên phân môn.**
+
+---
+
+## PHẦN VII — CHECKLIST NHANH (dán trước bàn học / nhẩm trong 60 giây đầu giờ thi)
+
+```
+[ ] B0  Đã gạch chân MỌI số liệu, MỌI tính từ, MỌI hành động trong đề chưa?
+[ ] B1  Hệ là gì? Đứng yên hay chuyển động đều (⇒ tĩnh học)? Cần đổi hệ quy chiếu không?
+[ ] B2  Bao nhiêu ẩn thật sự (DOF thô)? (đếm vật × DOF/vật, hoặc đếm nhánh mạch)
+[ ] B3  Từng ràng buộc hình học/vật lý → 1 phương trình. Đã dùng phép "dịch chuyển ảo"
+        để kiểm tra ràng buộc ẩn chưa?
+[ ] B4  Thử lần lượt: tịnh tiến / quay / dịch thời gian / gương / co giãn / đảo dấu —
+        cái nào bất biến? → viết ngay định luật bảo toàn tương ứng.
+[ ] B5  f_eff còn lại là bao nhiêu? Chọn đúng số tọa độ suy rộng đó, không hơn không kém.
+[ ] B6  Có "rất dài/nhỏ/chậm/nhanh/không đáng kể" nào chưa khai thác? Có cần Taylor không?
+[ ] B7  f_eff=1 & có Π(ξ) ⇒ Method 6. Cần lực/phản lực cụ thể ⇒ Newton có chọn trục khôn khéo.
+        Có biến cố tức thời ⇒ xung lượng/động lượng góc tại thời điểm đó.
+        Mạch có f điều hòa 1 tần số ⇒ số phức.
+[ ] B8  Đã liệt kê đủ điều kiện biên/đầu NGẦM ĐỊNH (không chỉ điều kiện tường minh)?
+[ ] B9  Giải — nếu không ra closed-form, thử đồ thị/số, hoặc tách thang thời gian (B6).
+[ ] B10 Thứ nguyên? Giới hạn đặc biệt? Dấu? Đối chiếu định luật bảo toàn độc lập?
+        Số phương trình đã dùng = f_eff (Fact 18)?
+```
+
+---
+
+## PHẦN VIII — VÌ SAO THUẬT TOÁN NÀY "CHỐNG" ĐƯỢC SỰ XÁO TRỘN CỦA ĐỀ THI
+
+Người ra đề IPhO cấp cao **cố tình** thiết kế đề theo hướng "Anti-Algorithmic": tránh mọi công thức áp dụng trực tiếp, buộc thí sinh phải tự xây dựng mô hình. Nhưng chuỗi "Anti-Anti-...-Algorithmic" mà bạn đề cập có một **điểm dừng tự nhiên**: người ra đề **không thể** làm cho:
+
+- Số bậc tự do của một hệ hình học cụ thể trở thành mơ hồ — nó là một số nguyên xác định, chỉ phụ thuộc cấu trúc thật, không phụ thuộc cách hành văn;
+- Một định luật bảo toàn không còn đúng khi điều kiện của nó (không có ngoại lực theo hướng đó / không tiêu tán) vẫn được thỏa mãn trong đề — dù đề "giấu" điều kiện đó dưới một câu văn tự sự dài dòng;
+- Thứ nguyên của một đại lượng vật lý thay đổi.
+
+Nói cách khác: **các trụ cột A, B, C, D là bất biến toán học/vật lý, không phải bất biến ngôn ngữ.** Việc "xáo trộn" chỉ có thể tác động lên **B0** (làm bạn khó trích xuất thông tin hơn) và **B7** (làm bạn khó nhận ra "công thức quen thuộc" hơn) — nhưng nếu B0 được chạy đầy đủ, không bỏ sót, thì B1–B6 luôn **suy ra được** từ dữ kiện thô bằng chính định nghĩa của chúng (đếm DOF là tổ hợp học thuần túy; săn đối xứng là phép thử hình học thuần túy) — **không cần "nhận diện lại một dạng bài đã gặp."**
+
+Đây là lý do quy trình này **tổng quát**: nó không hỏi "bài này giống bài nào tôi đã làm?" (câu hỏi pattern-matching, dễ bị đánh bại bằng cách đổi vỏ bọc), mà hỏi "**cấu trúc bất biến bên dưới lớp vỏ này là gì?**" — và cấu trúc bất biến đó luôn có thể được tính ra một cách máy móc bằng B0–B6, bất kể vỏ bọc.
+
+**Lưu ý trung thực:** Thuật toán này **không thay thế** việc nắm vững nội dung Vật lý (75 idea của Kalda, các định luật Maxwell dạng tích phân, kỹ năng tính tích phân/giải PT vi phân…) — nó là **lớp meta** quyết định *khi nào và bằng cách nào* triển khai kiến thức đó. Không có B0–B10 mà không có kiến thức nền thì vẫn không giải được B9; nhưng có kiến thức nền mà không có B0–B10 thì rất dễ **giải sai bài đã biết công thức** vì áp dụng nhầm ngữ cảnh (đây thực ra là lỗi phổ biến nhất ở học sinh giỏi nhưng thiếu quy trình).
+
+**Phương pháp luyện tập đề xuất (deliberate practice):** với 100–150 bài đầu tiên luyện theo tài liệu Kalda/Kiisk, **bắt buộc viết ra giấy** rõ ràng 4 mục B2/B3/B4/B6 (DOF – Ràng buộc – Đối xứng – Xấp xỉ) **trước khi** chạm vào đại số, kể cả khi bạn "nhìn ra" đáp số ngay. Sau ngưỡng luyện tập đó, quy trình sẽ tự động hóa thành trực giác — nhưng trực giác lúc này **được xây trên nền quy trình đúng**, không phải trên nền pattern-matching mong manh.
+
+---
+
+## PHẦN IX — LỘ TRÌNH LUYỆN TẬP VỚI TÀI LIỆU ĐÃ CÓ + GHI CHÚ VỀ KHOẢNG TRỐNG NGUỒN
+
+### IX.1 Với *Problems on Mechanics* (Kalda, meh_ENG2.pdf)
+Đi theo đúng thứ tự Statics (mục 3) → Dynamics (mục 4) → Revision (mục 5). Với **mỗi** bài, viết B2–B4–B6 trước khi đọc phần "idea" gợi ý kèm theo bài — so sánh xem trụ cột bạn tự tìm ra có khớp với "idea" mà Kalda gợi ý hay không. Đây là cách tự-kiểm-tra hiệu quả nhất.
+
+### IX.2 Với *Elektri ja magnetismi ülesandeid* (Kiisk, Elekter.pdf)
+Đi theo thứ tự các mục 1→7 trong tài liệu. Với mục 1 (Alalisvooluahelad — mạch DC), **chủ động** dừng lại sau mỗi bài và tự hỏi: "đây có phải ứng dụng của Thévenin / Millman / đối xứng / mạng vô hạn (Phần IV.2) không?" trước khi giải.
+
+### IX.3 Ghi chú quan trọng — khoảng trống về Mạch điện
+
+Đúng như thầy đã lưu ý, Elekter.pdf (do V. Kiisk biên soạn, không phải chính Kalda) là một tuyển tập bài tập **không kèm hệ thống "idea/fact"** như cuốn Cơ học, và **không bao quát đầy đủ** các kỹ thuật mạng điện nâng cao. Qua tra cứu, trên chính trang nguồn thầy đã cung cấp (`ioc.ee/~kalda/ipho/`), **Kalda có một cẩm nang riêng, đúng phong cách "idea/fact"**, chuyên về mạch điện:
+
+> **"Circuits with resistors, batteries, ammeters and voltmeters"** — Jaan Kalda
+> `https://www.ioc.ee/~kalda/ipho/electricity-circuits.pdf`
+
+Cẩm nang này trình bày đúng 4 định luật gốc (2 định luật Kirchhoff, Ohm, Joule) dưới dạng "fact", rồi phát triển một chuỗi "idea" tương tự hệt Phần II của tài liệu này (bao gồm cả phép biến đổi Δ–Y, mạch cầu Wheatstone/Maxwell, phần tử phi tuyến, mạng điện trở vô hạn…) — **đây chính là mảnh ghép còn thiếu**, và Phần III–IV của tài liệu này được xây dựng để **tương thích trực tiếp** với cẩm nang đó (cùng khung 10 bước, cùng 4 trụ cột). Đề nghị bổ sung ngay cẩm nang này vào bộ tài liệu học của thí sinh.
+
+Ngoài ra, trang `ioc.ee/~kalda/ipho/` còn có danh sách bài tập đề xuất theo kỹ năng tại `rec-list.html` (ánh xạ trực tiếp một số bài IPhO chính thức theo từng "kỹ năng" cần luyện — ví dụ IPhO-1993-Pr1 luyện đúng kỹ năng B6 "thang thời gian đặc trưng RC"; IPhO-1996-Pr2 luyện đúng kỹ năng B4 "đại lượng bảo toàn tổng quát hóa"), rất phù hợp để luyện tập có mục tiêu theo từng trụ cột của tài liệu này thay vì luyện tràn lan. Trang `physoly.tech` cũng cung cấp lời giải chi tiết cho phần lớn bài tập trong các cẩm nang của Kalda, hữu ích để đối chiếu ở bước B10.
+
+**Khuyến nghị bổ sung nguồn** (để phủ đầy đủ các chủ đề Điện–Từ mà một kỳ IPhO có thể hỏi, vượt ra ngoài 2 tài liệu gốc): nên rà thêm các đề chính thức IPhO/APhO các năm gần nhất về Điện từ trường biến thiên, mạch có op-amp/khuếch đại lý tưởng hóa (ít xuất hiện ở IPhO nhưng có ở một số đề chọn đội tuyển quốc gia), và các bài về mạng điện trở vô hạn/mạng phân dạng nâng cao — nên xác minh trực tiếp trên trang nguồn hoặc trang lưu trữ đề thi chính thức vì nội dung các trang này có thể được cập nhật theo thời gian.
+
+---
+
+## TÓM TẮT MỘT CÂU
+
+> **Đọc kỹ (B0) → Đếm bậc tự do (B2) → Tìm ràng buộc bằng dịch chuyển ảo (B3) → Săn đối xứng bằng phép thử bất biến (B4) → Chọn tọa độ tối thiểu (B5) → Nhận diện thang đo nhỏ (B6) → Chọn đúng ngôn ngữ chi phối (B7) → Đọc điều kiện biên ngầm định (B8) → Giải (B9) → Kiểm tra ngược bằng chính Fact 18 (B10).**
+
+Quy trình này không đổi, dù đề bài là con lắc, nêm trượt, mạch RLC, hay hạt tích điện trong từ trường — vì các trụ cột A–B–C–D là luật của Vũ trụ, không phải luật của người ra đề.
