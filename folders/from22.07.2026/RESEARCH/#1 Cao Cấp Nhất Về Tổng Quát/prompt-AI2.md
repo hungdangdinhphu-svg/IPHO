@@ -45,7 +45,34 @@ Và cho dù đề thi có khỡ cỡ IPHO, có cố gắng "xáo trộn", "giấ
 
 Đây là quy trình **bắt buộc** :
 
-$$\text{Hiện tượng Vật lý} \xrightarrow{\text{Mô hình hóa / Xấp xỉ}} \text{Hệ Phương trình \& Điều kiện biên} \xrightarrow{\text{Công cụ Toán}} \text{Đáp số}$$
+
+
+                  ┌────────────────────────────────────────┐
+                  │    HIỆN TƯỢNG VẬT LÝ (ĐỀ BÀI)          │
+                  └───────────────────┬────────────────────┘
+                                      │
+                         [Thuật toán Quét & Giải mã|
+                                      │
+         ┌────────────────────────────┼────────────────────────────┐
+         ▼                            ▼                            ▼
+  |1. Bậc Tự Do (DOF)]     [2. Ràng Buộc & Biên|       [3. Đối Xứng Noether|
+         │                            │                            │
+         └────────────────────────────┼────────────────────────────┘
+                                      │
+                         |4. Xấp xỉ & Quy mô ĐL|
+                                      │
+                                      ▼
+                  ┌────────────────────────────────────────┐
+                  │ HỆ PHƯƠNG TRÌNH & ĐIỀU KIỆN BIÊN TOÁN  │
+                  └───────────────────┬────────────────────┘
+                                      │
+                             |Công cụ Toán học|
+                                      │
+                                      ▼
+                  ┌────────────────────────────────────────┐
+                  │            ĐÁP SỐ CHÍNH XÁC            │
+                  └────────────────────────────────────────┘
+
 
 Target của ta : Phải làm cho đường đi từ Hiện Tượng Vật Lý đến Hệ Phương trình & Điều kiện biên trở nên khả thi cho học sinh có trực giác trung bình làm được. Đảm bảo tính **Tổng quát** và khả thi để đạt giải cao tại IPHO/VPHO,...
 
