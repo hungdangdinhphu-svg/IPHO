@@ -66,7 +66,7 @@ Anti-Virus, Anti-Anti-Virus, Anti-Anti-Anti-Virus,...
 
 Người ra đề có thể đổi cách hỏi, nhưng họ KHÔNG THỂ đổi luật của Vũ trụ. 
 
-
+# Tính tổng quát hóa và cách chống việc lạm dụng case-by-case hoặc pattern recognition
 
 
 
