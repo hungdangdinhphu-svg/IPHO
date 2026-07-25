@@ -99,11 +99,8 @@ Người ra đề có thể đổi cách hỏi, nhưng họ KHÔNG THỂ đổi 
 
 Thực tế, mặc dù tôi đã có nhiều quan sát quan trọng, tuy nhiên tôi vẫn chưa rõ phải làm như nào để đạt mục tiêu. 
 
-Có thể thấy đây là quy trình :
 
-$$\text{Hiện tượng Vật lý} \xrightarrow{\text{Mô hình hóa / Xấp xỉ}} \text{Hệ Phương trình \& Điều kiện biên} \xrightarrow{\text{Công cụ Toán}} \text{Đáp số}$$
-
-Thì ta cần phải tạo ra 1 cách để có thể giúp học sinh có trực giác trung bình nhưng kỷ luật và chăm chỉ có thể **Mô hình hóa / Xấp xỉ** với mọi bài Lý thuyết trong kỳ thi tôi nêu trên, đảm bảo tính **Tổng quát** của nó.
+Ta cần phải tạo ra 1 cách để có thể giúp học sinh có trực giác trung bình nhưng kỷ luật và chăm chỉ có thể **Mô hình hóa** (để sang được bước HPT & Điều kiện biên) với mọi bài Lý thuyết trong kỳ thi tôi nêu trên, đảm bảo tính **Tổng quát** của nó.
 
 
 
