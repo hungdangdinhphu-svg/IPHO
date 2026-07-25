@@ -1,1 +1,1 @@
-ôk
+Tôi tự định nghĩa một đối tượng có nhãn là : "Nhà Vật Lý Lý Thuyết"; Bởi vì nó có thể tồn tại nhiều điểm các với Nhà Vật Lý Lý Thuyết ngoài đời, nên tôi mới tự định nghĩa. Tuy nhiên tôi định nghĩa thì sẽ không nêu ra chính xác cái nhãn đó như nào, vì tôi đơn giản chỉ muốn nhắc rằng nó có nhiều sự khác biệt.
