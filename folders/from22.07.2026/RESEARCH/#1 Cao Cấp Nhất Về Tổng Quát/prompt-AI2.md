@@ -78,11 +78,13 @@ Target của ta : Phải làm cho đường đi từ Hiện Tượng Vật Lý �
 
 Một số thứ quan trọng :
 
-Degrees of Freedom
+Degrees of Freedom : Số bậc tự do ($f$) là số tọa độ độc lập tối thiểu cần thiết để xác định hoàn toàn vị trí/trạng thái của hệ trong không gian cấu hình?
 
-Ràng buộc Hình học & Điều kiện Biên (Boundary & Constraints)
+Ràng buộc Hình học & Điều kiện Biên (Boundary & Constraints) : Mỗi ràng buộc hình học làm giảm số DOF của hệ đi 1 ($f_{effective} = f_{raw} - k$). Đề thi luôn cài cắm các ràng buộc này thông qua Từ khóa Ẩn?
 
-Noether's theorem : Mọi tính đối xứng của tự nhiên đều dẫn đến một đại lượng bảo toàn.
+Noether's theorem : Mọi tính đối xứng của tự nhiên đều dẫn đến một đại lượng bảo toàn. Có vẻ việc phát hiện ra đối xứng giúp giảm ngay lập tức số DOF hiệu dụng.
+
+Kỹ thuật Xấp xỉ & Quy mô Đại lượng (Approximation & Scaling Laws) : Nhiều bài toán IPhO không thể giải đúng dưới dạng hàm đóng (closed-form solution). Thí sinh bắt buộc phải sử dụng xấp xỉ toán học để đưa về hệ tuyến tính hóa.
 
 Ban ra đề IPhO tập hợp những bộ óc Vật lý hàng đầu thế giới. Mục tiêu cốt lõi của họ khi sáng tác đề thi là: Anti-Algorithmic Design; Tuy nhiên tôi có góc nhìn này :
 
