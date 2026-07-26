@@ -10,7 +10,7 @@
 | **C. Đối xứng & Bảo toàn (Noether)** | Phép biến đổi nào để hiện tượng "trông y hệt"? | Giảm DOF hiệu dụng, cho tích phân đầu |
 | **D. Xấp xỉ & Thang đo** | Cái gì "rất lớn/rất nhỏ/rất chậm" so với cái gì? | Tuyến tính hóa, đơn giản hóa |
 
-**Câu hỏi nghiên cứu :** Định nghĩa chặt chẽ chính xác của 4 trụ cột này là gì ? Liệu có tồn tại cách **Tổng quát** (không phải case-by-case hay dựa dẫm những phần cốt lõi vào "trực giác") nào để **chắc chắn (xấp xỉ 100%)** dù đề có khó ở mức độ IPHO, dù có khó đến mức nào, một thí sinh với trực giác trung bình cũng trả lời được "câu hỏi trung tâm" hay không hoặc "gần như" là như vậy (tức là tương đương với việc bài "Vật Lý" hoàn toàn thành bài "Toán") ?
+**Câu hỏi nghiên cứu :** Định nghĩa chặt chẽ chính xác của 4 trụ cột này là gì ? Liệu có tồn tại cách **Tổng quát** (không phải case-by-case hay dựa dẫm những phần cốt lõi vào "trực giác") nào để **chắc chắn (xấp xỉ 100%)** dù đề có khó ở mức độ IPHO, dù có khó đến mức nào, một thí sinh với trực giác trung bình cũng trả lời được "câu hỏi trung tâm" hay không hoặc "gần như" là như vậy (tức là tương đương với việc bài "Vật Lý" hoàn toàn thành bài "Toán") ? Lưu ý, phải chứng minh chặt chẽ toàn bộ, không được "ảo giác" hay "ngộ nhận".
 
 # Định nghĩa
 
