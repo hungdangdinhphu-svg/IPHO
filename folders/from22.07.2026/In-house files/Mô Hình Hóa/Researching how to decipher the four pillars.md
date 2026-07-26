@@ -28,9 +28,9 @@ Toán học: Nếu hệ có $N$ biến số định vị và $k$ ràng buộc đ
 
 Toán học:
 
-Holonomic (Ràng buộc toàn chỉnh): Dạng $F(q_1, \dots, q_N, t) = 0$. Ví dụ: Chiều dài dây không đổi $x^2 + y^2 - L^2 = 0$. Loại này làm giảm trực tiếp số DOF.
+Holonomic (Ràng buộc toàn chỉnh): Dạng $F(q_1, \dots, q_N, t) = 0$. Loại này làm giảm trực tiếp số DOF.
 
-Non-holonomic (Ràng buộc không toàn chỉnh): Dạng bất phương trình $G(q_i) \ge 0$ (điều kiện biên như vật không xuyên qua sàn) hoặc phương trình vi phân không thể tích phân $\sum A_i dq_i + A_t dt = 0$ (như bánh xe lăn không trượt). Nó giới hạn quỹ đạo tiến triển của hệ.
+Non-holonomic (Ràng buộc không toàn chỉnh): Dạng bất phương trình $G(q_i) \ge 0$ hoặc phương trình vi phân không thể tích phân $\sum A_i dq_i + A_t dt = 0$. Nó giới hạn quỹ đạo tiến triển của hệ.
 
 **C. Đối xứng & Bảo toàn (Định lý Noether)**
 
