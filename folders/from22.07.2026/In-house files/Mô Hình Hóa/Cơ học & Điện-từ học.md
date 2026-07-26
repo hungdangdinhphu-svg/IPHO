@@ -1,5 +1,5 @@
 # PHƯƠNG PHÁP MÔ HÌNH HÓA
-## THUẬT TOÁN GIẢI MÃ TỔNG QUÁT (TGMTQ)
+## "THUẬT TOÁN" GIẢI MÃ TỔNG QUÁT (TGMTQ)
 ### Từ Hiện Tượng Vật Lý Đến Hệ Phương Trình — Khung Mô Hình Hóa cho Cơ Học & Điện–Từ Học
 
 **Dùng cho:** Học sinh lớp 11, Đội tuyển HSG Vật Lý TP.HCM 2027–2028, ôn luyện VPHO/IPHO
