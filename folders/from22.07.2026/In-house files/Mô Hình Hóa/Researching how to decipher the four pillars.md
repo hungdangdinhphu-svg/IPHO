@@ -20,7 +20,7 @@ Bất kỳ hệ cơ học, quang học hay điện từ nào cũng có thể đ�
 
 Định nghĩa chặt chẽ: Bậc tự do là số chiều (dimension) của đa tạp không gian cấu hình (Configuration Manifold) $\mathcal{Q}$ chứa mọi trạng thái khả dĩ của hệ.
 
-Toán học: Nếu hệ có $N$ biến số định vị (tọa độ hạt, điện tích, góc quay) và $k$ ràng buộc độc lập, thì DOF $f = N - k$. Nó chính là số lượng tối thiểu các tọa độ suy rộng (generalized coordinates) $q_1, q_2, \dots, q_f$ cần để đặc tả hệ.
+Toán học: Nếu hệ có $N$ biến số định vị và $k$ ràng buộc độc lập, thì DOF $f = N - k$. Nó chính là số lượng tối thiểu các tọa độ suy rộng (generalized coordinates) $q_1, q_2, \dots, q_f$ cần để đặc tả hệ.
 
 **B. Ràng buộc & Biên**
 
