@@ -6,6 +6,10 @@
 **Nguồn nền tảng:** J. Kalda — *Problems on Mechanics* (meh_ENG2.pdf); V. Kiisk — *Elektri ja magnetismi ülesandeid* (Elekter.pdf); IPhO Syllabus
 **Phiên bản:** 1.0
 
+**Lưu ý :** Hãy đọc thêm :
+
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/4-tr%E1%BB%A5-c%E1%BB%99t.md
+
 ---
 
 ## LỜI NÓI ĐẦU — TẠI SAO CẦN MỘT "THUẬT TOÁN", KHÔNG PHẢI MỘT "TẬP MẸO"
