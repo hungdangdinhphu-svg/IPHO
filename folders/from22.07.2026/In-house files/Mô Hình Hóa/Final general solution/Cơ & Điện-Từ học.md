@@ -77,6 +77,8 @@ B10 Kiểm tra ngược — Verification Protocol
 **Quy tắc kiểm tra (Fact 18 tổng quát hóa):**
 $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm được ở B3}) - (\text{số bảo toàn/đối xứng tìm được ở B4})$$
 
+**Vấn đề phát sinh 1 : "loại khớp nối nào áp dụng", làm sao để đảm bảo rằng xấp xỉ 100% học sinh sở hữu trực giác trung bình sẽ không gặp vấn đề gì tại IPHO/VPHO do cái phát sinh này?**
+
 
 ---
 
