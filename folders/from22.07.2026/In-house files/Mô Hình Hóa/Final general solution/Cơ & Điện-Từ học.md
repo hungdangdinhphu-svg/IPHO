@@ -40,6 +40,18 @@ B10 Kiểm tra ngược — Verification Protocol
 ---
 
 
+
+## B1 — ĐỊNH NGHĨA HỆ & HỆ QUY CHIẾU
+
+- **Hệ là gì?** Liệt kê từng vật thể/mỗi phần tử mạch là một "hệ con". Áp dụng **idea 4** (Kalda): đôi khi coi *toàn bộ* nhiều vật là **một hệ** (loại bỏ nội lực chưa biết) lợi hơn xét từng vật; đôi khi phải **tách** ra (idea 47: vật "nhẹ" ⇒ hợp lực & hợp mô-men trên nó luôn bằng 0, dùng để tách ẩn).
+- **Chuyển động hay tĩnh học?** idea 13: nếu vật chuyển động với **vận tốc không đổi**, bài toán *là* bài toán tĩnh học (∑F=0) — một phép "hạ cấp" bài toán cực kỳ hay bị bỏ qua.
+- **Chọn hệ quy chiếu thông minh** (idea 7, idea K-7, idea 73): chuyển sang hệ quy chiếu phi quán tính gắn với vật đang chuyển động (nêm, giá đỡ, sóng...) thường biến bài toán động lực học phức tạp thành bài toán tĩnh học/động học đơn giản trong hệ mới, với lực quán tính −ma⃗ hoặc lực li tâm/Coriolis (idea 8, 9). Với mạch dao động, "hệ quy chiếu" tương đương là **chọn gốc pha/gốc thời gian** hợp lý.
+- **Với bài Điện:** hệ có thể là *một nút*, *một vòng*, *một miền không gian tưởng tượng* (mặt Gauss/đường Ampère) — việc "vẽ ranh giới hệ" ở đây quan trọng ngang việc cô lập vật thể trong Cơ học.
+
+
+---
+
+
 ## PHẦN 2 — TRỤ CỘT A: BẬC TỰ DO (Degrees of Freedom)
 
 ---
