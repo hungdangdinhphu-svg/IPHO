@@ -53,6 +53,14 @@ B10 Kiểm tra ngược — Verification Protocol
 
 ## PHẦN 2 — TRỤ CỘT A: BẬC TỰ DO (Degrees of Freedom)
 
+- Bậc tự do là số chiều của đa tạp không gian cấu hình Q; Và f = N - k khi điều kiện k phương trình đều độc lập tuyến tính với nhau.
+
+- Đếm số xem hệ vật lý được mô tả gồm bao nhiêu "vật rắn/chất điểm" độc lập
+
+- Và check xem loại khớp nối nào áp dụng
+
+- Từ đó tính ra số bậc tự do mà ta cần
+
 ---
 
 
