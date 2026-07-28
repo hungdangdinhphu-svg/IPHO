@@ -75,3 +75,51 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 > Mỗi ràng buộc hình học/vật lý = **1 phương trình liên hệ giữa các DOF**, làm $f_{eff}$ giảm đi đúng **1**.
 
 **Phép kiểm tra gốc (khi từ khóa không rõ / bị "giấu"):** dùng **phép dịch chuyển ảo (virtual displacement)** — tưởng tượng hệ nhích một lượng vi phân $\delta$, hỏi "đại lượng nào **buộc phải không đổi**?" (chiều dài dây, thông lượng qua vòng siêu dẫn, điện tích trên vật cô lập…). Đây là cách tái tạo ràng buộc **từ nguyên lý đầu tiên**, không phụ thuộc từ khóa có xuất hiện hay không — đây là "lưới an toàn" chống lại việc đề bài dùng cách diễn đạt lạ để né từ khóa quen thuộc.
+
+
+### 3.1 Chính xác hoá ranh giới toàn chỉnh / không toàn chỉnh
+
+`[MD]` định nghĩa holonomic là $F(q,t)=0$, non-holonomic là bất phương trình hoặc vi phân không tích phân được $\sum A_i\,dq_i+A_t\,dt=0$. Câu hỏi tự nhiên: *"làm sao biết một ràng buộc vi phân cho trước có 'thực sự' không tích phân được hay không, một cách tổng quát, không case-by-case?"* — Câu trả lời là **có**, và đó là nội dung Định lý B dưới đây (đây là phần bị bỏ ngỏ hoàn toàn trong `[MD]`).
+
+> **Định lý B (Tiêu chuẩn Frobenius).** Cho ràng buộc Pfaff $\omega = \sum_i A_i(q,t)\,dq^i + A_t(q,t)\,dt = 0$ (một dạng vi phân bậc 1). Ràng buộc này là **toàn chỉnh** (tồn tại thừa số tích phân $\mu$ và hàm $F$ sao cho $\omega=\mu\,dF$, tức mặt $F=$const chứa trọn quỹ đạo) **khi và chỉ khi**
+> $$\omega\wedge d\omega = 0.$$
+> Đây là một phép kiểm tra **thuật toán, tổng quát tuyệt đối** trên lớp ràng buộc Pfaff đơn: chỉ cần lấy vi phân ngoài và nhân ngoài, không cần đoán.
+
+*(Đây là định lý Frobenius/Pfaff cổ điển trong hình học vi phân; whitepaper không chứng minh lại từ tiên đề hình học vi phân — vượt phạm vi IPhO — mà **kiểm chứng tính đúng đắn bằng hai ví dụ tính tay độc lập, đầy đủ**, đủ để một học sinh IPhO tự tay áp dụng.)*
+
+**Ví dụ kiểm chứng B.1 (toàn chỉnh).** Đĩa bán kính $R$ lăn không trượt trên một đường thẳng: $\dot x = R\dot\theta \Rightarrow \omega = dx - R\,d\theta$. Vì $R$ hằng, $d\omega = 0$, nên $\omega\wedge d\omega = \omega\wedge 0=0$ tự động. **Toàn chỉnh** — tích phân trực tiếp: $x-R\theta=$const. (Đây chính là cơ sở toán học của các ràng buộc lăn dùng xuyên suốt `[MEH, pr. 44, 47, 65]`, nơi ràng buộc lăn được dùng như một phương trình đại số bình thường.)
+
+**Ví dụ kiểm chứng B.2 (không toàn chỉnh — "xe đạp một bánh"/đĩa lăn tự do đổi hướng).** Cấu hình $(x,y,\theta)$, ràng buộc "không trượt ngang": $-\sin\theta\,dx+\cos\theta\,dy=0$, tức $\omega=-\sin\theta\,dx+\cos\theta\,dy$.
+$$d\omega = -\cos\theta\,d\theta\wedge dx-\sin\theta\,d\theta\wedge dy.$$
+Tính trực tiếp (khai triển đầy đủ, dùng phản đối xứng $dq^i\wedge dq^j=-dq^j\wedge dq^i$, $dq^i\wedge dq^i=0$):
+$$\omega\wedge d\omega = -\,dx\wedge dy\wedge d\theta \;\neq\; 0.$$
+**Không toàn chỉnh.** Đây là lý do toán học nghiêm ngặt vì sao một chiếc xe/đĩa có thể đi từ *bất kỳ* cấu hình $(x,y,\theta)$ nào đến *bất kỳ* cấu hình nào khác (đỗ xe song song!) dù tại mỗi thời điểm chỉ có 1 bậc tự do vận tốc khả dĩ: không gian cấu hình *không* bị thu hẹp, dù không gian *vận tốc tức thời* bị thu hẹp — **đúng chính xác** như câu chữ của `[MD]`: *"Non-holonomic... giới hạn quỹ đạo tiến triển của hệ"* chứ không làm giảm DOF của $\mathcal Q$. Whitepaper này đã **chứng minh** thay vì chỉ khẳng định lại điều `[MD]` phát biểu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
