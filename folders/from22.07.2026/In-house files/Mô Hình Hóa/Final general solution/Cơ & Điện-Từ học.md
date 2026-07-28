@@ -57,7 +57,7 @@ B10 Kiểm tra ngược — Verification Protocol
 
 - Đếm số xem hệ vật lý được mô tả gồm bao nhiêu "vật rắn/chất điểm" độc lập
 
-- Và check xem loại khớp nối nào áp dụng
+- Và check xem loại khớp nối/ràng buộc nào áp dụng
 
 - Từ đó tính ra số bậc tự do mà ta cần
 
