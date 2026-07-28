@@ -1,4 +1,4 @@
-# CÁCH GIẢI TỔNG QUÁT : Cơ & Điện-Từ học
+# CÁCH GIẢI TỔNG QUÁT : Cơ & Điện-Từ học (Tổng hợp và soạn lại)
 
 Lưu ý quan trọng : Tôi giả định rằng ta đã học và đã làm nhiều bài tập và đọc nhiều lý thuyết để ta có dày dặn kinh nghiệm, pattern, case-by-case từ trước. Những gì tôi ghi ở bên dưới đều chỉ liên quan đến những gì thực sự tổng quát hoặc cực kỳ phổ biến.
 
