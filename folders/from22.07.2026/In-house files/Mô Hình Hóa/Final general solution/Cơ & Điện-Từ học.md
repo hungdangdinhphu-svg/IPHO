@@ -49,6 +49,7 @@ B10 Kiểm tra ngược — Verification Protocol
 
 - **Chọn hệ quy chiếu thông minh** & idea 7, idea K-7, idea 73
 
+**Vấn đề phát sinh 0 : Liệu điều này đã đủ hay chưa? Làm sao để đảm bảo rằng xấp xỉ 100% học sinh sở hữu trực giác trung bình sẽ không gặp vấn đề gì tại IPHO/VPHO do cái phát sinh này?**
 
 ---
 
