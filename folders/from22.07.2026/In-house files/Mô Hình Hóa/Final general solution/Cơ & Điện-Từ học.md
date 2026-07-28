@@ -111,8 +111,13 @@ $$\omega\wedge d\omega = -\,dx\wedge dy\wedge d\theta \;\neq\; 0.$$
 
 Có một lớp tình huống mà Định lý A thất bại theo nghĩa kỹ thuật: khi số ràng buộc **hình học lý tưởng hoá** (dây/thanh cứng tuyệt đối) vượt quá số bậc tự do thực — hệ *siêu tĩnh*. `[MEH, idea 30]` chỉ ra chính xác đây là lúc mô hình "vật rắn tuyệt đối" phải được **nới lỏng** thành mô hình đàn hồi (`[MEH, fact 13]`, định luật Hooke $k=AY/L$) để đóng hệ phương trình.
 
+---
 
+## B4 — SĂN ĐỐI XỨNG: ĐỊNH LÝ NOETHER NHƯ MÁY GIẢM BẬC TỰ DO — [Trụ cột C]
 
+> **Định lý Noether (diễn giải thực dụng):** *Nếu tồn tại một phép biến đổi liên tục làm cho toàn cảnh vật lý "trông y hệt như trước", thì tồn tại một đại lượng bảo toàn tương ứng.*
+
+Đây là công cụ **mạnh nhất** để giảm bậc tự do *hiệu dụng* mà không cần giải phương trình vi phân — mỗi đối xứng tìm được cho ta **một tích phân đầu** (first integral), tức hạ bậc của hệ phương trình vi phân đi 1.
 
 
 
