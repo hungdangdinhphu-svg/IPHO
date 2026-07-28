@@ -107,6 +107,9 @@ $$\omega\wedge d\omega = -\,dx\wedge dy\wedge d\theta \;\neq\; 0.$$
 **Không toàn chỉnh.** Đây là lý do toán học nghiêm ngặt vì sao một chiếc xe/đĩa có thể đi từ *bất kỳ* cấu hình $(x,y,\theta)$ nào đến *bất kỳ* cấu hình nào khác (đỗ xe song song!) dù tại mỗi thời điểm chỉ có 1 bậc tự do vận tốc khả dĩ: không gian cấu hình *không* bị thu hẹp, dù không gian *vận tốc tức thời* bị thu hẹp — **đúng chính xác** như câu chữ của `[MD]`: *"Non-holonomic... giới hạn quỹ đạo tiến triển của hệ"* chứ không làm giảm DOF của $\mathcal Q$. Whitepaper này đã **chứng minh** thay vì chỉ khẳng định lại điều `[MD]` phát biểu.
 
 
+**Quan sát quan trọng :**
+
+Có một lớp tình huống mà Định lý A thất bại theo nghĩa kỹ thuật: khi số ràng buộc **hình học lý tưởng hoá** (dây/thanh cứng tuyệt đối) vượt quá số bậc tự do thực — hệ *siêu tĩnh*. `[MEH, idea 30]` chỉ ra chính xác đây là lúc mô hình "vật rắn tuyệt đối" phải được **nới lỏng** thành mô hình đàn hồi (`[MEH, fact 13]`, định luật Hooke $k=AY/L$) để đóng hệ phương trình.
 
 
 
