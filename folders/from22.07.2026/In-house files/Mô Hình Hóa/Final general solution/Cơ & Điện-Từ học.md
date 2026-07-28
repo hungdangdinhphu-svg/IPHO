@@ -277,14 +277,29 @@ Ngoài từ khóa tường minh, đề bài **luôn** mang theo các điều ki�
 | Bề mặt chất lỏng tự do gần tường/áp suất khí quyển | p = p_khí quyển tại đó (Fact 30 — Bernoulli) |
 | Cực đại/cực tiểu của 1 đại lượng theo thời gian | Đạo hàm theo t của đại lượng đó = 0 tại thời điểm đó (idea 44; với mạch: dI/dt=0 ⇒ U_cuộn=0 lúc I cực đại — jaotis 5.4) |
 
+
+
+
+
 ---
 
+## B9 — GIẢI TOÁN
 
 
 
+---
 
+## B10 — KIỂM TRA NGƯỢC (Verification Protocol)
 
+Không bao giờ nộp bài mà bỏ qua bước này — đây là bước tách biệt điểm 10 và điểm 7-8.
 
+1. **Kiểm tra thứ nguyên** — mọi số hạng cộng với nhau phải cùng đơn vị.
+2. **Kiểm tra giới hạn đặc biệt** (idea 37): cho tham số → 0 hoặc → ∞ hoặc → giá trị đối xứng đặc biệt, so với trực giác/công thức đã biết (ví dụ μ→0 phải cho lại kết quả "không ma sát"; ε→1 (chân không) phải cho lại kết quả tĩnh điện chân không — chính jaotis 3.10 của Elekter.pdf nhắc thẳng điều này).
+3. **Kiểm tra dấu** — lực/mô-men/dòng điện có đúng chiều vật lý hợp lý không?
+4. **Kiểm tra qua định luật bảo toàn độc lập** — nếu bạn dùng Newton để giải, thử thay số vào biểu thức năng lượng xem có bảo toàn không (hoặc ngược lại).
+5. **Kiểm tra bậc tự do** — số phương trình đã dùng có đúng bằng f_eff không (Fact 18)? Nếu dư 1 phương trình mà vẫn ra nghiệm hợp lý — có khả năng bạn đã vô tình lặp một ràng buộc; nếu thiếu 1 phương trình mà "đoán" ra đáp số — có khả năng bài có nghiệm nhưng lời giải chưa chặt chẽ, thiếu lập luận cho điểm.
+
+---
 
 
 
