@@ -1,3 +1,5 @@
+*Note : Các "vấn đề phát sinh" tôi sẽ cố gắng cập nhật để nêu rõ chúng, và tương lai khả năng cao tôi sẽ tạo ra một bản .md riêng để giải quyết chúng;
+
 # BỐN TRỤ CỘT: Khung Hình Thức Hoá Chặt Chẽ Để Chuyển Bài Toán Vật Lý Olympiad Thành Bài Toán Toán Học
 
 ### Whitepaper sư phạm — trả lời câu hỏi nghiên cứu: *"Có tồn tại một phương pháp tổng quát, chắc chắn (≈100%), phi-case-by-case, để một thí sinh trực giác trung bình trả lời được câu hỏi trung tâm của 4 trụ cột (DOF, Ràng buộc, Đối xứng, Xấp xỉ) hay không?"*
