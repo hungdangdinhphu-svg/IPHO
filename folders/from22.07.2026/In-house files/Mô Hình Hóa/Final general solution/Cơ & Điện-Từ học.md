@@ -1,5 +1,7 @@
 # CÁCH GIẢI TỔNG QUÁT : Cơ & Điện-Từ học
 
+Lưu ý quan trọng : Tôi giả định rằng ta đã học và đã làm nhiều bài tập và đọc nhiều lý thuyết để ta có dày dặn kinh nghiệm, pattern từ trước. Những gì tôi ghi ở bên dưới đều chỉ liên quan đến những gì thực sự tổng quát hoặc cực kỳ phổ biến.
+
 ---
 
 ## PHẦN I — SƠ ĐỒ TỔNG QUÁT: QUY TRÌNH 10 BƯỚC (B0 → B10)
