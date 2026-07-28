@@ -96,7 +96,7 @@ Toàn bộ Mục 2.2–2.3 là **thuật toán (G)**. Bước **không** thuật
 
 **Kiểm tra chéo nội bộ (self-check, tự kiểm định).** `[MEH, method 6]` phát biểu: *"gọi $\xi$ là một toạ độ suy rộng nếu toàn bộ trạng thái hệ có thể mô tả bằng con số duy nhất này"* — đây chính xác là trường hợp $f=1$ của Định lý A, và `[MEH, idea 18]` (*"số phương trình độc lập tối đa bằng số bậc tự do"*) chính là công cụ tự-kiểm-tra: nếu học sinh viết ra nhiều phương trình hơn $f$ mà không dư thừa, chắc chắn có sai sót — đây là một **tiêu chuẩn thuật toán để tự phát hiện lỗi**, rất hữu ích cho học sinh kỷ luật.
 
-**Vấn đề phát sinh tại : "loại khớp nối nào áp dụng"**
+**Vấn đề phát sinh 1 : "loại khớp nối nào áp dụng", làm sao để đảm bảo rằng xấp xỉ 100% học sinh sở hữu trực giác trung bình sẽ không gặp vấn đề gì tại IPHO/VPHO do cái phát sinh này?**
 
 ---
 
