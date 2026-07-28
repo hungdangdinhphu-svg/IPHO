@@ -70,3 +70,5 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 ## PHẦN 3 — TRỤ CỘT B: RÀNG BUỘC & BIÊN
 
+> Mỗi ràng buộc hình học/vật lý = **1 phương trình liên hệ giữa các DOF**, làm $f_{eff}$ giảm đi đúng **1**.
+
