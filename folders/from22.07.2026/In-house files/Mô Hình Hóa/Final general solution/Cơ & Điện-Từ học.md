@@ -38,3 +38,12 @@ B10 Kiểm tra ngược — Verification Protocol
 5. Đặc biệt với hình: **không giả định gì không được vẽ hoặc không được nói** (ví dụ không tự thêm ma sát nếu đề không nói có; nhưng cũng không tự loại bỏ ma sát nếu đề không nói "không ma sát" — xem Từ điển B3).
 
 ---
+
+
+## PHẦN 2 — TRỤ CỘT A: BẬC TỰ DO (Degrees of Freedom)
+
+---
+
+
+## PHẦN 3 — TRỤ CỘT B: RÀNG BUỘC & BIÊN
+
