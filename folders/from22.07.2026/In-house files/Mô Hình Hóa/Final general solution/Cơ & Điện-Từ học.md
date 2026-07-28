@@ -72,3 +72,4 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 > Mỗi ràng buộc hình học/vật lý = **1 phương trình liên hệ giữa các DOF**, làm $f_{eff}$ giảm đi đúng **1**.
 
+**Phép kiểm tra gốc (khi từ khóa không rõ / bị "giấu"):** dùng **phép dịch chuyển ảo (virtual displacement)** — tưởng tượng hệ nhích một lượng vi phân $\delta$, hỏi "đại lượng nào **buộc phải không đổi**?" (chiều dài dây, thông lượng qua vòng siêu dẫn, điện tích trên vật cô lập…). Đây là cách tái tạo ràng buộc **từ nguyên lý đầu tiên**, không phụ thuộc từ khóa có xuất hiện hay không — đây là "lưới an toàn" chống lại việc đề bài dùng cách diễn đạt lạ để né từ khóa quen thuộc.
