@@ -55,6 +55,17 @@ B10 Kiểm tra ngược — Verification Protocol
 
 ## PHẦN 2 — TRỤ CỘT A: BẬC TỰ DO (Degrees of Freedom)
 
+
+### 2.2 Định lý A (Đếm bậc tự do — Định lý Giá trị Chính quy)
+
+> **Định lý A.** Cho $N$ toạ độ thô $x=(x^1,\dots,x^N)\in\mathbb R^N$ và $k$ hàm ràng buộc toàn chỉnh $g_1,\dots,g_k: \mathbb R^N\times\mathbb R\to\mathbb R$, $g_j(x,t)=0$. Giả sử tại điểm đang xét, ma trận Jacobi $\partial(g_1,\dots,g_k)/\partial x$ có **hạng đầy đủ** $k$ (đây là định nghĩa chính xác, kiểm tra được, của "$k$ ràng buộc độc lập"). Khi đó tập nghiệm $Q_t = \{x: g_j(x,t)=0\ \forall j\}$ là một đa tạp trơn với
+> $$\dim Q_t = N-k = f.$$
+
+**Chứng minh.** Đây là hệ quả trực tiếp của Định lý Hàm ẩn. Vì hạng Jacobi $=k$, sau khi (nếu cần) sắp lại thứ tự toạ độ, ma trận con $k\times k$ gồm các đạo hàm riêng theo $k$ biến cuối $x^{N-k+1},\dots,x^N$ khả nghịch tại điểm $x_0$. Định lý Hàm ẩn cho phép giải $k$ biến này như hàm trơn của $N-k$ biến còn lại trong một lân cận của $x_0$: $x^{N-k+i} = \varphi_i(x^1,\dots,x^{N-k})$. Ánh xạ $x\mapsto (x^1,\dots,x^{N-k})$ hạn chế trên $Q_t$ do đó là một vi phôi địa phương lên một tập mở của $\mathbb R^{N-k}$. Vậy $Q_t$ trơn, chiều $N-k$ tại lân cận mọi điểm thoả điều kiện hạng. $\blacksquare$
+
+Định lý A **hoàn toàn tổng quát và thuật toán** — cho $N,k$ và các $g_j$, việc tính hạng Jacobi là đại số tuyến tính thuần tuý (khử Gauss), không cần trực giác.
+
+
 - Bậc tự do là số chiều của đa tạp không gian cấu hình Q; Và f = N - k khi điều kiện k phương trình đều độc lập tuyến tính với nhau.
 
 - Đếm số xem hệ vật lý được mô tả gồm bao nhiêu "vật rắn/chất điểm" độc lập
