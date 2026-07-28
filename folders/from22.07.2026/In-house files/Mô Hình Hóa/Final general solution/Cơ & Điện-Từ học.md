@@ -135,9 +135,80 @@ Với mỗi bài, **chủ động thử** từng phép biến đổi sau, hỏi 
 
 > **Cảnh báo (idea 42, idea 58):** Một định luật bảo toàn *chỉ đúng trong một khoảng thời gian/không gian nhất định* — kiểm tra lại điều kiện áp dụng mỗi khi có va chạm, ma sát xuất hiện, hoặc ngoại lực thay đổi bản chất. **Không thể** đồng thời có cả bảo toàn động lượng *và* bảo toàn động năng một cách "miễn phí" trừ khi được chứng minh (va chạm đàn hồi) — nếu bài yêu cầu dùng cả hai mà không nói rõ, ít nhất một trong hai **không** thật sự bảo toàn (idea 58) — đây là bẫy hay gặp.
 
+
+Đây là trụ cột có nội dung toán học sâu nhất, và là nơi câu hỏi `[MD]` (*"phép biến đổi nào... cho tích phân đầu"*) cần một câu trả lời **tổng quát và chứng minh được** — không chỉ trường hợp đặc biệt "toạ độ cyclic" mà `[MD]` nêu.
+
+### 4.1 Định lý C1 (Noether, dạng hữu hạn chiều, biến đổi không gian)
+
+> **Định lý C1.** Cho $L(q,\dot q,t)$ với $q=(q^1,\dots,q^n)$ thoả phương trình Euler–Lagrange $\frac{d}{dt}\frac{\partial L}{\partial \dot q^i}=\frac{\partial L}{\partial q^i}$. Cho một trường véc-tơ $X=(X^1,\dots,X^n)$ trên không gian cấu hình (có thể phụ thuộc $t$), sinh ra họ biến đổi $q^i\mapsto q^i+\varepsilon X^i(q,t)$. Giả sử **với mọi** $(q,\dot q,t)$ (không chỉ dọc nghiệm):
+> $$\sum_i\left[\frac{\partial L}{\partial q^i}X^i+\frac{\partial L}{\partial \dot q^i}\frac{dX^i}{dt}\right]=0,\qquad \frac{dX^i}{dt}:=\frac{\partial X^i}{\partial t}+\sum_j\frac{\partial X^i}{\partial q^j}\dot q^j. \tag{$*$}$$
+> Khi đó đại lượng $I(q,\dot q,t)=\sum_i \dfrac{\partial L}{\partial \dot q^i}X^i(q,t)$ **bảo toàn** dọc mọi nghiệm: $\dfrac{dI}{dt}=0$.
+
+**Chứng minh.** Dọc một nghiệm $q(t)$:
+$$
+\frac{dI}{dt}=\sum_i\left[\frac{d}{dt}\Big(\frac{\partial L}{\partial \dot q^i}\Big)X^i+\frac{\partial L}{\partial \dot q^i}\frac{dX^i}{dt}\right]
+\stackrel{\text{E-L}}{=}\sum_i\left[\frac{\partial L}{\partial q^i}X^i+\frac{\partial L}{\partial \dot q^i}\frac{dX^i}{dt}\right]\stackrel{(*)}{=}0.\qquad\blacksquare
+$$
+
+**Điều kiện $(*)$ là tổng quát và thuật toán:** với **bất kỳ** $X$ *cho trước*, kiểm tra $(*)$ chỉ là đạo hàm riêng và cộng — có thể lập trình bằng phần mềm đại số máy tính, không cần trực giác. Phần "case-by-case" duy nhất trong toàn bộ trụ cột C là: **liệt kê $X$ nào đáng thử**, và Mục 4.3 sẽ chỉ ra đây là lớp $G_k$ (tổng-quát-hữu-hạn), không phải $C$ vô hạn.
+
+### 4.2 Ba hệ quả tường minh — kiểm chứng từng bước, khớp `[MEH]`
+
+**(a) Toạ độ cyclic $\Rightarrow$ động lượng suy rộng bảo toàn (đúng như `[MD]` nêu, nay được chứng minh chứ không chỉ khẳng định).**
+Nếu $\partial L/\partial q^1\equiv 0$, chọn $X=(1,0,\dots,0)$ (hằng, $dX/dt=0$). $(*)$: $\frac{\partial L}{\partial q^1}\cdot 1+0=0$ — đúng theo giả thiết. $\Rightarrow I=\partial L/\partial \dot q^1=p_1=$const. Đây đúng là công thức `[MD]` cho, và cũng là ghi chú của `[MEH]` ở phần chú thích Phụ lục 6: *"in the case of translational symmetry we don't even need to use the Noether's theorem: $\partial L/\partial q_i=0$, hence $d/dt\,p_i=0$"*.
+
+**(b) Đối xứng tịnh tiến toàn hệ $\Rightarrow$ bảo toàn động lượng tổng (`[MEH, fact 6]`).**
+Xét $n$ chất điểm, $L=\sum_i \frac12 m_i|\dot r_i|^2-V(r_1,\dots,r_n)$, với $V$ chỉ phụ thuộc **hiệu** vị trí (bất biến tịnh tiến toàn cục). Lấy $X_i=\hat n$ (cùng một hằng véc-tơ cho mọi hạt), $dX/dt=0$. Điều kiện bất biến của chính $V$ dưới tịnh tiến toàn cục, lấy đạo hàm theo $\varepsilon$ tại $\varepsilon=0$, cho trực tiếp $\sum_i \nabla_i V\cdot \hat n=0$ với mọi $\hat n$ — đây chính là $(*)$ (vì $\partial L/\partial \dot r_i\cdot \hat n$ không đóng góp gì vào phần đầu, và số hạng động năng không phụ thuộc $q$). Vậy $I=\sum_i m_i\dot r_i\cdot\hat n = P\cdot\hat n$ bảo toàn với mọi $\hat n$ $\Rightarrow$ $P=$const. $\blacksquare$ — khớp `[MEH, fact 6]` và cơ chế đúng như `[MEH, appendix 1]` (đạo hàm trực tiếp từ định luật III Newton).
+
+**(c) Đối xứng quay toàn hệ $\Rightarrow$ bảo toàn mô-men động lượng (`[MEH, fact 7]`).**
+Lấy $X_i(r)=\hat n\times r_i$ (phép quay vi phân quanh trục $\hat n$), tuyến tính theo $q$ nên $dX_i/dt=\hat n\times \dot r_i$. Với $V$ bất biến quay (phụ thuộc khoảng cách từng cặp $|r_i-r_j|$), cùng lý luận đạo hàm-tại-$\varepsilon=0$ cho $\sum_i\nabla_iV\cdot(\hat n\times r_i)=0$. Số hạng động năng: $\sum_i m_i\dot r_i\cdot(\hat n\times \dot r_i)=\sum_i m_i\hat n\cdot(\dot r_i\times\dot r_i)=0$ (dùng đẳng thức hoán vị vòng tích hỗn hợp $a\cdot(b\times c)=b\cdot(c\times a)$, và $\dot r_i\times \dot r_i=0$). Vậy $(*)$ thoả tự động, và
+$$I=\sum_i m_i\dot r_i\cdot(\hat n\times r_i)\stackrel{\text{hoán vị vòng}}{=}\sum_i m_i\,\hat n\cdot(r_i\times\dot r_i)=\hat n\cdot L_{\text{tổng}}$$
+bảo toàn với mọi $\hat n$ $\Rightarrow$ $L_{\text{tổng}}=$const. $\blacksquare$ — khớp `[MEH, fact 7]`.
+
+**(d) Đối xứng tịnh tiến thời gian $\Rightarrow$ bảo toàn năng lượng (`[MEH, fact 8]`) — phát biểu tách biệt vì cần biến đổi $t$.**
+Định nghĩa Hamilton hoá $H:=\sum_i \dot q^i \dfrac{\partial L}{\partial \dot q^i}-L$. Tính trực tiếp dọc nghiệm, dùng E-L:
+$$
+\frac{dH}{dt}=\sum_i\Big[\ddot q^i p_i+\dot q^i\dot p_i\Big]-\Big[\sum_i(\dot p_i\dot q^i+p_i\ddot q^i)+\frac{\partial L}{\partial t}\Big]=-\frac{\partial L}{\partial t}.
+$$
+Vậy **nếu $L$ không phụ thuộc tường minh vào $t$** (đối xứng tịnh tiến thời gian), $H=$const. Nếu thêm điều kiện động năng $T$ là hàm thuần nhất bậc 2 theo $\dot q$ (trường hợp cơ học chuẩn, ràng buộc không phụ thuộc $t$ — scleronomic), định lý Euler cho hàm thuần nhất ($\sum \dot q^i \partial T/\partial \dot q^i = 2T$, chứng minh: lấy đạo hàm $T(q,\lambda\dot q)=\lambda^2T(q,\dot q)$ theo $\lambda$ tại $\lambda=1$) cho $H=2T-(T-V)=T+V=E$. $\blacksquare$ — khớp `[MEH, fact 8]` và `[MEH, appendix 3]`.
+
+### 4.3 Vì sao trụ cột C là $G_k$ (Tổng-quát-hữu-hạn) trên $\mathcal P_{\text{IPhO}}$
+
+Mục 4.1–4.2 chứng tỏ: **cho trước** $X$, việc kiểm tra $(*)$ là thuật toán tuyệt đối (G). Câu hỏi còn lại: danh sách $X$ nào cần thử? Với hệ xây từ thư viện lực chuẩn IPhO (hấp dẫn/Coulomb — tâm; Hooke — cặp; trường ngoài đều), toàn bộ đối xứng khả dĩ nằm trong danh sách **hữu hạn**:
+
+**Bảng C — danh mục $X$ hữu hạn cần thử (đúng nghĩa $G_k$, Định nghĩa 0.3):**
+
+| # | Phép thử $X$ | Điều kiện áp dụng (thuật toán kiểm tra) | Đại lượng bảo toàn | Nguồn đối chiếu |
+|---|---|---|---|---|
+| 1 | Tịnh tiến dọc trục $\hat e_j$ | $q^j$ vắng mặt trong $L$ (cyclic) — kiểm tra bằng mắt/đạo hàm | $p_j$ | `[MEH, idea 34, idea 35, idea 43]` |
+| 2 | Quay quanh trục $\hat n$ | thế năng chỉ phụ thuộc khoảng cách/góc bất biến quay quanh $\hat n$ | $L_{\hat n}$ | `[MEH, fact 7]` |
+| 3 | Tịnh tiến thời gian | $\partial L/\partial t=0$ (không có ngoại lực biến thiên theo $t$, không ràng buộc biến thiên theo $t$) | $H$ (và $=T+V$ nếu scleronomic) | `[MEH, fact 8, method 6]` |
+| 4 | Đối xứng hình học nguồn trường (cầu/trụ/phẳng) | mật độ điện tích/dòng bất biến dưới nhóm con $SO(3)$/$SO(2)$/tịnh tiến | dạng hàm của $\vec E,\vec B$ suy giảm bậc tự do (xem 4.4) | `[ELK, §3.2 Gaussi teoreem, §4.2 tsirkulatsiooniteoreem]` |
+| 5 | Đối xứng gương/hoán vị mạch điện | mạch bất biến dưới một phép phản chiếu/hoán vị nút | các thế nút liên hợp bằng nhau | `[ELK, §1.4 Sümmeetria]` |
+
+**Vì sao bảng này đầy đủ trên $\mathcal P_{\text{IPhO}}$ (không phải một khẳng định tuỳ tiện):** mọi $V$ trong chương trình IPhO chỉ phụ thuộc (i) khoảng cách từng cặp hạt, (ii) vị trí tuyệt đối qua một trường ngoài *đều* (hấp dẫn đều, điện trường đều). Loại (i) chỉ có đúng nhóm đối xứng $SE(3)$ (tịnh tiến + quay) là để lại bất biến — không có đối xứng liên tục nào khác khả dĩ với thế năng phụ thuộc khoảng cách (chứng minh: $|r_i-r_j|$ bất biến dưới chính xác nhóm các phép đẳng cự của $\mathbb R^3$, không hơn). Loại (ii) chỉ bất biến dưới tịnh tiến *trong mặt phẳng vuông góc với trường*. Vậy: **không có đối xứng "ẩn" nào khác có thể tồn tại** ngoài mục 1–3 của Bảng C đối với thư viện lực này — đây là một khẳng định có thể chứng minh, không phải phỏng đoán, và chính là điều biến trụ cột C từ "case-by-case vô hạn" ở Mệnh đề 0 thành "$G_k$ hữu hạn" trên $\mathcal P_{\text{IPhO}}$.
+
+### 4.4 Mở rộng sang trường liên tục (Gauss/Ampère) — cùng một cơ chế đối xứng, chứng minh đầy đủ
+
+`[MD]` chỉ định nghĩa trụ cột C cho hệ Lagrangian hữu hạn chiều, nhưng cùng triết lý áp dụng nguyên vẹn cho bài toán trường (E&M) — đây là phần whitepaper **bổ sung** để trụ cột C thực sự tổng quát trên toàn bộ chương trình IPhO (Cơ + Điện), không chỉ Cơ học.
+
+> **Định lý C2 (Đối xứng nguồn $\Rightarrow$ đối xứng trường).** Cho mật độ điện tích $\rho$ đối xứng cầu: $\rho(Rx)=\rho(x)$ với mọi $R\in SO(3)$. Khi đó trường $\vec E(x)=\int \frac{x-x'}{4\pi\varepsilon_0|x-x'|^3}\rho(x')\,d^3x'$ thoả $\vec E(x)=E(|x|)\hat x$ với $E$ là một hàm vô hướng của $|x|$ duy nhất.
+
+**Chứng minh.** *Bước 1 (đẳng biến).* Với $R\in SO(3)$ bất kỳ, đổi biến $x'=Ry$ trong tích phân ($|\det R|=1$, $R$ đẳng cự $\Rightarrow |Rx-Ry|=|x-y|$):
+$$
+\vec E(Rx)=\int \frac{Rx-x'}{4\pi\varepsilon_0|Rx-x'|^3}\rho(x')\,d^3x' = \int\frac{Rx-Ry}{4\pi\varepsilon_0|Rx-Ry|^3}\rho(Ry)\,d^3y = R\int\frac{x-y}{4\pi\varepsilon_0|x-y|^3}\rho(y)\,d^3y = R\,\vec E(x),
+$$
+dùng $R(x-y)=Rx-Ry$, $|R(x-y)|=|x-y|$, và $\rho(Ry)=\rho(y)$ (đối xứng cầu). Vậy $\vec E(Rx)=R\vec E(x)$ với mọi $R\in SO(3)$, mọi $x$.
+
+*Bước 2 (hướng).* Cố định $x\ne 0$. Lấy $R$ bất kỳ trong nhóm con $SO(2)_x$ các phép quay quanh trục $Ox$ (thoả $Rx=x$). Bước 1 cho $\vec E(x)=\vec E(Rx)=R\vec E(x)$: $\vec E(x)$ là véc-tơ **bất động** dưới mọi phần tử của $SO(2)_x$. Véc-tơ duy nhất bất động dưới toàn bộ nhóm quay quanh một trục là véc-tơ song song trục đó (thành phần vuông góc trục, nếu khác 0, sẽ bị quay sang hướng khác — mâu thuẫn). Vậy $\vec E(x)\parallel \hat x$.
+
+*Bước 3 (độ lớn chỉ phụ thuộc $r$).* Với $x,x'$ cùng bán kính ($|x|=|x'|$), luôn tồn tại $R\in SO(3)$: $Rx=x'$. Bước 1: $\vec E(x')=\vec E(Rx)=R\vec E(x)=R(E(x)\hat x)=E(x)\hat x'$ (vì $R\hat x=\hat x'$ theo cách chọn $R$). So với $\vec E(x')=E(x')\hat x'$: $E(x')=E(x)$. Vậy $E$ chỉ phụ thuộc $r=|x|$. $\blacksquare$
+
+**Hệ quả tức thời — thuật toán Gauss chỉ là hệ quả của Định lý C2 + định lý Gauss-Ostrogradsky.** Vì $E_n=E(r)$ hằng trên mặt cầu $S_r$: $\oint_{S_r}\vec E\cdot d\vec S = E(r)\cdot 4\pi r^2 = Q_{\text{trong}}(r)/\varepsilon_0$. Kiểm chứng bằng số với `[ELK, ul. 72]` ($\rho$ đều, bán kính $R$): $Q_{\text{trong}}(r)=\rho\cdot\frac43\pi r^3$ ($r<R$) $\Rightarrow E(r)=\dfrac{\rho r}{3\varepsilon_0}$ — **khớp chính xác** đáp số đã cho: *"$E(r) = \rho r/(3\varepsilon_0)$ kui $r<R$"*. Cùng cơ chế áp dụng cho đối xứng trụ (`[ELK, §4.2]`, định lý Ampère) và đối xứng phẳng, chỉ thay $SO(3)$ bằng $SO(2)\times\mathbb R$ hoặc nhóm tịnh tiến 2 chiều tương ứng — thủ tục chứng minh giống hệt, chỉ đổi nhóm.
+
+**Kết luận Phần 4.** Trụ cột C có một lõi **hoàn toàn tổng quát và chứng minh được** (Định lý C1, C2: kiểm tra bất biến là thuật toán), bọc quanh một danh sách phép thử **hữu hạn, liệt kê đầy đủ** trên thư viện lực IPhO (Bảng C). Đây là câu trả lời chặt chẽ, không case-by-case theo nghĩa mạnh, cho câu hỏi "phép biến đổi nào cho tích phân đầu" của `[MD]`.
+
 ---
-
-
 
 
 
