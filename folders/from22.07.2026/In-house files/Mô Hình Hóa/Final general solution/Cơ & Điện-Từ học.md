@@ -120,6 +120,22 @@ Có một lớp tình huống mà Định lý A thất bại theo nghĩa kỹ th
 Đây là công cụ **mạnh nhất** để giảm bậc tự do *hiệu dụng* mà không cần giải phương trình vi phân — mỗi đối xứng tìm được cho ta **một tích phân đầu** (first integral), tức hạ bậc của hệ phương trình vi phân đi 1.
 
 
+### 4.2. Thủ tục "săn" đối xứng
+
+Với mỗi bài, **chủ động thử** từng phép biến đổi sau, hỏi "hiện tượng có trông y hệt không?":
+
+1. **Tịnh tiến** hệ theo mỗi trục — còn ngoại lực dọc trục đó không?
+2. **Quay** hệ quanh mỗi trục khả dĩ — còn ngoại mô-men không?
+3. **Dịch thời gian** — các lực có phụ thuộc t một cách "ngoại lai" không (ví dụ mặt phẳng nghiêng đang được kéo di chuyển)? Nếu **không** ⇒ năng lượng bảo toàn.
+4. **Phản xạ gương / hoán vị nhãn** hai bộ phận — bài có "trông giống" sau khi lật không?
+5. **Co giãn tỉ lệ** (đổi thang đo) — cấu trúc bài có lặp lại chính nó không (mạng vô hạn, phân dạng)?
+6. **Đảo dấu một biến** (đảo cực nguồn, đảo chiều vận tốc ban đầu) — hệ có đối xứng gì?
+
+> **Cảnh báo (idea 42, idea 58):** Một định luật bảo toàn *chỉ đúng trong một khoảng thời gian/không gian nhất định* — kiểm tra lại điều kiện áp dụng mỗi khi có va chạm, ma sát xuất hiện, hoặc ngoại lực thay đổi bản chất. **Không thể** đồng thời có cả bảo toàn động lượng *và* bảo toàn động năng một cách "miễn phí" trừ khi được chứng minh (va chạm đàn hồi) — nếu bài yêu cầu dùng cả hai mà không nói rõ, ít nhất một trong hai **không** thật sự bảo toàn (idea 58) — đây là bẫy hay gặp.
+
+---
+
+
 
 
 
