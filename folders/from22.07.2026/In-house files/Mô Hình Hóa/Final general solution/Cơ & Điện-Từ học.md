@@ -256,8 +256,28 @@ Với mạch $RC$ đơn giản ($\dot U=-U/RC$), $A=(-1/RC)$, $\tau=RC$ — kh�
 
 
 
+
 ---
 
+## B8 — ĐIỀU KIỆN BIÊN & ĐIỀU KIỆN ĐẦU (nguồn thông tin "ẩn" thứ hai)
+
+Ngoài từ khóa tường minh, đề bài **luôn** mang theo các điều kiện biên **ngầm định**, theo quy ước vật lý chuẩn. Đây là bảng tra cứu bắt buộc thuộc lòng:
+
+| Tình huống | Điều kiện biên/đầu ngầm định |
+|---|---|
+| Thế tại vô cực (không có gì đặc biệt ở đó) | φ(∞) = 0 |
+| Vật/khối bắt đầu **được thả ra**, "ban đầu đứng yên" | v(0) = 0; gia tốc ban đầu ∥ hợp lực ban đầu (idea 31) |
+| "vừa mới…", "ngay sau khi", "tức thời" | Đại lượng có quán tính (vị trí, Q trên tụ, I qua cuộn, động lượng góc ngoài xung lực) **liên tục**; đại lượng không có quán tính (vận tốc khi có xung tức thời, dòng qua điện trở/tụ, U trên cuộn) có thể **nhảy bậc** |
+| "sau một thời gian dài", "ổn định", "trạng thái dừng" | Đạo hàm theo t của mọi đại lượng chậm → 0 (dI/dt=0 trên cuộn, dU/dt=0 trên tụ, dv/dt=0 khi đạt vận tốc giới hạn) |
+| Vật **tách khỏi** bề mặt / dây **chùng** | N = 0 hoặc T = 0 tại đó (bất đẳng thức chuyển thành đẳng thức biên — idea 40) |
+| "…bắt đầu trượt", "trên bờ vực…" | \|F_masat\| = μN (dấu bằng, biên giữa tĩnh và động) |
+| Ampe kế/Vôn kế lý tưởng | R→0 / R→∞ tương ứng (xem B3.4) |
+| Vật dẫn nối đất | φ = 0 |
+| Vật dẫn cô lập | Q = const (giá trị ban đầu hoặc 0 nếu "chưa tích điện") |
+| Bề mặt chất lỏng tự do gần tường/áp suất khí quyển | p = p_khí quyển tại đó (Fact 30 — Bernoulli) |
+| Cực đại/cực tiểu của 1 đại lượng theo thời gian | Đạo hàm theo t của đại lượng đó = 0 tại thời điểm đó (idea 44; với mạch: dI/dt=0 ⇒ U_cuộn=0 lúc I cực đại — jaotis 5.4) |
+
+---
 
 
 
