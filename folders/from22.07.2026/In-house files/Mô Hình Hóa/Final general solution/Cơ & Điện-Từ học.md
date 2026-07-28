@@ -211,6 +211,80 @@ dùng $R(x-y)=Rx-Ry$, $|R(x-y)|=|x-y|$, và $\rho(Ry)=\rho(y)$ (đối xứng c�
 ---
 
 
+## PHẦN 5 — TRỤ CỘT D: XẤP XỈ & THANG ĐO
+
+### 5.1 Vì sao trụ cột D là trụ cột "dễ thuật toán hoá nhất"
+
+Quan sát mấu chốt (được kiểm chứng bằng bằng chứng văn bản trực tiếp, không suy diễn): trái với trụ cột C (nơi phải *tìm* đối xứng), tham số bé $\varepsilon$ ở trụ cột D **hầu như luôn được đề bài cho tường minh** bằng ký hiệu $\ll$ hoặc $\gg$. Bằng chứng liệt kê trực tiếp từ hai tài liệu nguồn:
+
+| Bài | Câu chữ tường minh trong đề | Nguồn |
+|---|---|---|
+| Tụ phẳng | "$d \ll R$" | `[ELK, ul. 52]` |
+| Thấu kính electron | "$eU_0 \gg eE_1z_1, eE_2z_2$ và $a \ll z_1,z_2$" | `[ELK, ul. 74]` |
+| Vật va chạm liên tục | "Assume that $g\tau \ll v$" | `[MEH, pr. 17]`, dùng bởi `[MEH, method 2]` |
+| Mạch RC | so sánh $T$ với $RC$ | `[ELK, ul. 58]`, `[ELK, §2.4]` |
+| Nêm nhẹ vs khối nặng | "very light and slippery material" | `[MEH, pr. 25]` |
+
+Vì vậy **bước "nhận diện $\varepsilon$" phần lớn không phải bài toán vật lý — nó là bài toán đọc-hiểu đề bài** (một kỹ năng thuần tuý mà học sinh kỷ luật, cẩn thận hoàn toàn làm chủ được, không cần "trực giác vật lý"). Khi $\varepsilon$ không cho tường minh, ta có công cụ tổng quát sau để **suy ra nó bằng thuật toán thuần tuý**.
+
+Rất nhiều bài IPhO **không có nghiệm dạng đóng chính xác** — thí sinh **buộc phải** nhận diện một tham số nhỏ ε và tuyến tính hóa. Đây là kỹ năng bị đánh giá thấp nhất nhưng lại là **điểm phân loại** giữa thí sinh đạt HCV và thí sinh chỉ đạt trung bình.
+
+### 6.2. Kỹ thuật phân tích thứ nguyên nhanh (order-of-magnitude check)
+Trước khi tin một kết quả trung gian, luôn tự hỏi: "Nếu tham số X → 0 hoặc X → ∞, kết quả có tiến về giới hạn vật lý hiển nhiên không?" — đây vừa là công cụ xấp xỉ (B6) vừa là công cụ kiểm tra ngược (B10).
+
+### 5.2 Định lý D1 (Buckingham $\Pi$ — xác định số tham số không thứ nguyên một cách thuật toán)
+
+> **Định lý D1 (Buckingham, 1914).** Nếu một hệ thức vật lý liên hệ $n$ đại lượng, và các đại lượng này được dựng từ $k$ thứ nguyên cơ bản độc lập (thường $k\le 3$: khối lượng $M$, chiều dài $L$, thời gian $T$), thì hệ thức đó **tương đương** với một hệ thức giữa $p=n-k$ nhóm không thứ nguyên độc lập $\Pi_1,\dots,\Pi_p$ dựng từ tích luỹ thừa của $n$ đại lượng ban đầu.
+
+Đây là công cụ **thuần thuật toán**: lập ma trận số mũ thứ nguyên của $n$ đại lượng theo $k$ cơ sở, hạng của ma trận này cho $k$ thực, và không gian hạt nhân (kernel) của ma trận — tính bằng đại số tuyến tính — sinh ra chính xác các $\Pi_i$. Khi bài không cho $\varepsilon$ tường minh, $\varepsilon$ **bắt buộc** phải là một trong các $\Pi_i$ này (không thể là đại lượng có thứ nguyên, vì so sánh "bé/lớn" chỉ có nghĩa với số không thứ nguyên) — đây là một ràng buộc tổng quát mạnh, thu hẹp triệt để không gian tìm kiếm.
+
+### 5.3 Định lý D2 (Khai triển tiệm cận theo bậc — thuật toán, cho trước $\varepsilon$)
+
+> **Định lý D2.** Cho phương trình $F(x,\varepsilon)=0$ (đại số hoặc vi phân) với nghiệm $x_0$ khi $\varepsilon=0$ và $F$ khả vi đủ bậc theo $\varepsilon$ tại lân cận $x_0$. Đặt $x=x_0+\varepsilon x_1+\varepsilon^2x_2+\cdots$. Khai triển Taylor $F$ theo $\varepsilon$ và **gom theo từng bậc $\varepsilon^0,\varepsilon^1,\varepsilon^2,\dots$**, mỗi bậc cho một phương trình tuyến tính cho $x_k$ theo $x_0,\dots,x_{k-1}$ đã biết — giải tuần tự.
+
+Đây chính xác là `[MEH, idea 20]` (chuỗi Taylor: $\sin\varphi\approx\varphi$, $\cos\varphi\approx1-\varphi^2/2,\dots$) và `[MEH, method 2]` (phương pháp nhiễu loạn: giải bậc 0 trước, dùng nó tính lực hiệu chỉnh bậc 1). Thủ tục **thuật toán tuyệt đối**, có thể tự động hoá bằng đại số máy tính (giải thích rõ vì sao không cần trực giác một khi $\varepsilon$ đã xác định).
+
+### 5.4 Định lý D3 (So sánh thang thời gian tuyến tính hoá $\Leftrightarrow$ trị riêng)
+
+Bài toán "so sánh $T$ với $\tau=RC$ (hay $L/R$)" (`[ELK, §2.4, §5.2]`) tổng quát hoá thành:
+
+> **Mệnh đề.** Với hệ phương trình vi phân tuyến tính bậc nhất $\dot y = Ay$ ($A$ hằng), các "hằng số thời gian đặc trưng" chính xác là $\tau_i = -1/\operatorname{Re}(\lambda_i)$, với $\lambda_i$ là trị riêng của $A$. Việc *bài toán biến thiên "nhanh" hay "chậm" so với hệ* quy về so sánh chu kỳ ngoại lực $T$ với $\max_i \tau_i$.
+
+Với mạch $RC$ đơn giản ($\dot U=-U/RC$), $A=(-1/RC)$, $\tau=RC$ — khớp `[ELK, §2.4]`. Đây là đại số tuyến tính thuần tuý (tìm trị riêng), thuật toán tổng quát tuyệt đối một khi hệ đã tuyến tính hoá — và việc tuyến tính hoá quanh trạng thái cân bằng chính là Định lý D2 ở bậc $\varepsilon^1$.
+
+**Kết luận Phần 5.** Trụ cột D gần như hoàn toàn thuật toán hoá được: (i) $\varepsilon$ thường **cho sẵn** trong đề (khảo sát thực nghiệm văn bản ở Mục 5.1); (ii) khi không cho sẵn, Định lý D1 (Buckingham) thu hẹp không gian tìm kiếm về hữu hạn ứng viên; (iii) một khi có $\varepsilon$, khai triển (Định lý D2) và so sánh thang thời gian (Định lý D3) là thuật toán tuyệt đối.
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
