@@ -11,3 +11,5 @@ Veaarvutus.pdf : Veaarvutus (Urmo Visk); Tính toán **sai số**
 kepler.pdf : kepler; Kepleri seadused ja muu taevamehaanika; Các định luật Kepler các cơ học thiên thể khác 
 
 Theo suy đoán và việc thu thập dữ liệu của tôi. Tôi đoán chúng ta đang thiếu hẳn một phần cốt lõi, đó là phần "Thực nghiệm" ?
+
+Có thể là thiếu cả : geometrical optics. photometry  ; oscillations and waves ;
