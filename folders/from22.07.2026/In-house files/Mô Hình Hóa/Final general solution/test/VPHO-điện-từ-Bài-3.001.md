@@ -134,7 +134,13 @@ Yêu cầu : Nạp bằng nguồn dòng không đổi qua R nối tiếp C, đ�
 
 §2.4 của Kiisk dạy RC nạp bằng nguồn suất điện động không đổi (nghiệm mũ), không có ví dụ nguồn dòng không đổi (nghiệm tuyến tính). Công cụ gốc I = C dU/dt (pt. 1) vẫn đủ để tự suy ra, nhưng lại là một bước suy luận mới, không phải chép mẫu.
 
+Ý 1: khả năng cao đúng, nhưng dễ sai dấu ở bước chồng chất 4 mặt lần đầu.
 
+Ý 2: là câu "phân loại" — ai không tự nối được "ổn định ⟹ σ'=σ" thì mất phần lớn điểm ý này dù công thức tụ nối tiếp đã thuộc.
+
+Ý 3a: gần như chắc ăn.
+
+Ý 3b: đúng nếu qua được bước suy luận mới về nguồn dòng; nếu không, dễ áp nhầm công thức mũ của §2.4 vào.
 
 
 
