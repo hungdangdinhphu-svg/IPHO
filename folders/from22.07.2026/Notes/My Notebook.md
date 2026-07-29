@@ -1,7 +1,9 @@
 # Điện-Từ học
 
 **Capitor (Tụ điện)** là linh kiện điện tử thụ động được cấu tạo bởi **hai bản cực dẫn điện** đặt **song song**, ngăn cách nhau bằng một **lớp cách điện** gọi là **điện môi** ;
+
 **Function : Có khả năng tích trữ năng lượng điện dưới dạng điện trường và giải phóng năng lượng đó (phóng điện) khi cần**
+
 Được ký hiệu bằng chữ C;
 
 
