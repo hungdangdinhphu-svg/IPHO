@@ -122,15 +122,17 @@ Yêu cầu : Nhận ra trạng thái dừng ⟺ E_② = 0 ⟺ σ′ = σ, rồi 
 
 Công thức C = (ε ε_0 S) / d​ và ghép nối tiếp C = (1/C_1​+1/C_2​)^(-1) có sẵn (ul. 48, 92a). Nhưng bước suy luận vật lý "ion hết di chuyển ⟹ trường vùng ② = 0" không được dạy tường minh — đây là chỗ đòi hỏi tự kết nối, đúng kiểu B8 trong file .md có gợi ý ("ổn định ⟹ đạo hàm → 0") nhưng không có công thức cụ thể.
 
+**Ý 3a (C, R₀ theo γ)**
 
+Yêu cầu : R=ρl/S=l/(γS) 
 
+Có sẵn ngay từ §1.1 (định nghĩa điện trở suất). Dễ.
 
+**Ý 3b (đọc đồ thị, tính C, R₀)**
 
+Yêu cầu : Nạp bằng nguồn dòng không đổi qua R nối tiếp C, đọc bước nhảy I R_0 và độ dốc I/C
 
-
-
-
-
+§2.4 của Kiisk dạy RC nạp bằng nguồn suất điện động không đổi (nghiệm mũ), không có ví dụ nguồn dòng không đổi (nghiệm tuyến tính). Công cụ gốc I = C dU/dt (pt. 1) vẫn đủ để tự suy ra, nhưng lại là một bước suy luận mới, không phải chép mẫu.
 
 
 
