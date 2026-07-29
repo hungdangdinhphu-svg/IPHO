@@ -106,7 +106,21 @@ Tại $t = 14.5\text{ s}$, hiệu điện thế trên riêng tụ điện là $U
 
 $$C = \frac{Q}{U_C} = \frac{478.5}{1.45} = 330\text{ F}$$
 
+---
 
+Đối chiếu từng phần với Elekter.pdf:
+
+**Ý 1 (E ở vùng ①②③)**
+
+Yêu cầu : Chồng chất trường từ 4 mặt tích điện phẳng vô hạn
+
+Có nguyên lý (§3.3) + bài mẫu 2 mặt/1 tụ (ul. 67–68, chính là công thức đề bài cho sẵn). Nhưng chưa có bài mẫu 4 mặt — học sinh phải tự tổng quát hoá cách theo dõi dấu.
+
+**Ý 2 (C_0)**
+
+Yêu cầu : Nhận ra trạng thái dừng ⟺ E_② = 0 ⟺ σ′ = σ, rồi ghép 2 tụ nối tiếp
+
+Công thức C = (ε ε_0 S) / d​ và ghép nối tiếp C = (1/C_1​+1/C_2​)^(-1) có sẵn (ul. 48, 92a). Nhưng bước suy luận vật lý "ion hết di chuyển ⟹ trường vùng ② = 0" không được dạy tường minh — đây là chỗ đòi hỏi tự kết nối, đúng kiểu B8 trong file .md có gợi ý ("ổn định ⟹ đạo hàm → 0") nhưng không có công thức cụ thể.
 
 
 
