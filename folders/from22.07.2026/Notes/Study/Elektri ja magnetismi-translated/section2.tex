@@ -1,0 +1,118 @@
+cat >> /home/claude/build/dientu.tex << 'LATEXEOF'
+\section{Mạch một chiều chứa tụ điện}
+
+\subsection{Kiến thức cơ bản}
+
+\emph{Tụ điện} về cơ bản là một linh kiện gồm hai điện cực và một lớp điện môi mỏng ngăn cách chúng, được thiết kế sao cho ở một hiệu điện thế $U$ cho trước, trên các điện cực có thể tích tụ được những điện tích trái dấu $\pm Q$ càng lớn càng tốt. $Q$ tỉ lệ với $U$: $Q = CU$, trong đó hệ số tỉ lệ $C$ được gọi là \emph{điện dung} của tụ điện. Điện tích được vận chuyển từ điện cực này sang điện cực kia bởi dòng điện: $I = dQ/dt$. Vì cường độ dòng điện là hữu hạn, điện tích và điện áp của tụ điện không thể biến đổi tức thời. Như vậy, hành vi của tụ điện nói chung được mô tả bởi phương trình sau:
+\[
+I = \frac{dQ}{dt} = C\frac{dU}{dt}. \tag{1}
+\]
+
+Nhờ tương tác tĩnh điện giữa các điện tích $+Q$ và $-Q$, trong tụ điện đã được nạp điện tích luỹ một lượng năng lượng điện nhất định. Nếu điện áp tụ điện đang là $U$, thì khi chuyển một lượng điện tích $\Delta Q$ từ điện cực âm sang điện cực dương cần thực hiện công $U\Delta Q$, do đó tổng thế năng của tụ điện đã nạp là
+\[
+\Pi = \int_0^Q U\,dQ = \int_0^Q \frac{Q}{C}\,dQ = \frac{Q^2}{2C} = \frac{CU^2}{2}.
+\]
+
+Như đã thấy trong tĩnh điện học (mục 3.8), nếu khoảng cách $d$ giữa các điện cực là đều và nhỏ hơn nhiều so với kích thước điện cực (sao cho hiệu ứng biên là không đáng kể), thì điện dung của tụ điện được biểu diễn bằng công thức $C = \varepsilon\varepsilon_0 S/d$, trong đó $S$ là diện tích điện cực và $\varepsilon$ là hằng số điện môi của môi trường ngăn cách hai điện cực (trong chân không/không khí $\varepsilon \simeq 1$).
+
+\baitap{45} Trong mạch điện trên Hình~35, ban đầu tất cả các tụ điện đều chưa tích điện. a) Tìm cường độ dòng điện qua pin ngay sau khi đóng khoá $K$! b) Điện tích của tất cả các tụ điện sẽ như thế nào sau khi trạng thái ổn định được thiết lập?
+
+\subsection{Bảo toàn năng lượng và điện tích}
+
+Có nhiều tình huống mà trong mạch điện chứa tụ điện, xảy ra sự dịch chuyển một lượng điện tích hữu hạn trong một khoảng thời gian đặc trưng nào đó (ví dụ sau khi đóng hoặc mở khoá). Một phần tử thụ động của mạch (điện trở, điốt v.v.) trong quá trình chuyển tiếp này chịu một xung dòng điện, và trên phần tử đó toả ra một lượng nhiệt hữu hạn nào đó. Về nguyên tắc, có thể suy ra sự phụ thuộc theo thời gian của cường độ dòng điện $I$ và độ sụt áp $U$ (xem ví dụ mục 2.4) rồi tích phân công suất tức thời $UI$ (hay $I^2R$ đối với điện trở tuyến tính). Trong đa số các trường hợp như vậy, sẽ hợp lý hơn nhiều nếu sử dụng định luật bảo toàn năng lượng dưới dạng khá tổng quát sau:
+\[
+\Pi_{\text{đầu}} + A = \Pi_{\text{cuối}} + Q, \tag{2}
+\]
+trong đó $\Pi_{\text{đầu}}$ là thế năng ban đầu của (các) tụ điện, $\Pi_{\text{cuối}}$ là thế năng sau khi xung dòng điện kết thúc, $A$ là công thực hiện bởi các ngoại lực khác nhau, và $Q$ là lượng nhiệt toả ra trên các phần tử thụ động trong quá trình đó. Ta nhắc lại rằng một nguồn suất điện động $\mathcal{E}$ khi dịch chuyển điện tích $q$ thực hiện công $\mathcal{E}q$, còn trên một phần tử có độ sụt áp không đổi $U$ (ví dụ điốt tuân theo mô hình ở Hình~25) thì toả ra một lượng nhiệt $Uq$. Cũng có thể xảy ra trường hợp dòng điện chạy ngược qua nguồn suất điện động, khi đó công thực hiện rõ ràng là âm. Nếu có nhiều điện trở mắc nối tiếp, thì nhiệt lượng toả ra phân bố giữa chúng tỉ lệ với điện trở, vì công suất nhiệt $I^2R$ ở mọi thời điểm tỉ lệ với điện trở.
+
+Nếu có thể chia mạch điện thành các phần cách biệt nhau về mặt truyền điện tích, thì tổng điện tích trên mỗi phần mạch như vậy là không đổi. Ý tưởng này có thể hữu ích khi phân tích các mạch chứa nhiều tụ điện.
+
+\baitap{46} Một điện trở $R$ và một tụ điện $C$ mắc nối tiếp được nối với một nguồn điện áp một chiều có suất điện động $\mathcal{E}$. Tụ điện trước đó chưa được nạp. Tìm nhiệt lượng toả ra trên điện trở.
+
+\dapso{$Q = C\mathcal{E}^2/2$.}
+
+\baitap{47} Một tụ điện có điện dung $C=10\,\mu\mathrm{F}$ được nạp tới điện áp $U_0=6\,\mathrm{V}$. Bằng một khoá, mạch được đóng lại, gồm tụ điện này và một điốt có đường đặc trưng vôn--ampe như trên Hình~25 (trong bài này lấy $U_\mathrm{d}=1\,\mathrm{V}$). Năng lượng toả ra tại khoá dưới dạng tia lửa (tức hồ quang) là bao nhiêu, nếu bỏ qua nhiệt toả ra trên dây dẫn?
+
+\dapso{$Q \approx 125\,\mu\mathrm{J}$.}
+
+\baitap{48} Hãy chỉ ra rằng điện dung của bộ tụ điện mắc nối tiếp được biểu diễn bằng công thức
+\[
+C = \left(\frac{1}{C_1}+\frac{1}{C_2}+\dots\right)^{-1}.
+\]
+
+\baitap{49} Ba tụ điện giống hệt nhau, chưa tích điện, có điện dung $C$, được mắc nối tiếp. Vào mạch này người ta mắc một nguồn điện áp một chiều có suất điện động $\mathcal{E}$. Khi các tụ điện đã được nạp đầy hoàn toàn, ngắt nguồn điện áp ra. Sau đó, đồng thời mắc vào mạch hai điện trở giống hệt nhau $R$ theo cách như trên Hình~36. Nhiệt lượng toả ra trên mỗi điện trở là bao nhiêu?
+
+\dapso{$Q = 2C\mathcal{E}^2/27$.}
+
+\baitap{50} Trong mạch điện trên Hình~37, khoá $K$ đã mở trong một thời gian dài. Nhiệt lượng toả ra trên điện trở $R_1$ sau khi đóng khoá $K$ là bao nhiêu? \goiy{Ở đây cần dùng thêm ý tưởng từ mục 1.3.}
+
+\subsection{Công cơ học}
+
+Trong một số tình huống, trong cân bằng năng lượng (phương trình 2) còn có mặt \emph{công cơ học} dưới dạng $F\Delta x$, trong đó dưới tác dụng của lực $F$ xảy ra một chuyển động cơ học $\Delta x$ (ví dụ sự thay đổi khoảng cách giữa các bản tụ điện). Chuyển động này không nhất thiết phải là chuyển động thật, mà có thể được thực hiện một cách hình thức, nhằm mục đích phân tích cân bằng năng lượng của hệ (phương pháp \emph{dịch chuyển ảo} quen thuộc trong cơ học). Trong quá trình dịch chuyển $\Delta x$ này, tất nhiên sẽ xảy ra những thay đổi về điện, nhiệt, v.v. trong hệ, tất cả đều phải được tính đến khi viết phương trình bảo toàn năng lượng. Nếu trạng thái của hệ được đặc trưng bởi một thế năng $\Pi(x)$ nào đó và không có tiêu tán, thì rõ ràng $F\Delta x = -\Delta\Pi$, từ đó $F = -d\Pi/dx$. Nếu hệ có nhiều hơn một bậc tự do chuyển động, thì $F_x = -\partial\Pi/\partial x$ biểu diễn thành phần của lực $\mathbf{F}$ theo phương của toạ độ $x$. Nếu tình cờ hệ đang ở trạng thái cân bằng cơ học, thì rõ ràng $F_x = 0$ hay $\partial\Pi/\partial x = 0$, tức thế năng của hệ đạt cực tiểu tại vị trí cân bằng.
+
+Nói chung, $x$ không nhất thiết phải biểu diễn một kích thước tuyến tính của hệ, mà có thể được xem như một \emph{toạ độ suy rộng}. Tương ứng, $F$ cũng cần được xem như một \emph{lực suy rộng}. Nếu $x$ biểu diễn một kích thước tuyến tính, thì $F$ là lực thông thường (đơn vị niutơn), còn nếu $x$ biểu diễn một góc quay, thì $F$ là mômen lực đối với trục tương ứng. Một trong những ứng dụng quan trọng nhất của phương pháp dịch chuyển ảo là trong các bài toán có liên quan đến \emph{hiệu ứng biên} của tụ điện (xem bài 52, 53, 54, 110). Phương pháp này cho phép giải các bài toán đó mà không cần biết chi tiết về điện trường và sự phân bố điện tích trong không gian, vốn có thể rất phức tạp.
+
+\baitap{51} Hai bản kim loại phẳng song song, diện tích $100\,\mathrm{cm}^2$, cách nhau $1\,\mathrm{mm}$. Các bản được nối với một nguồn điện áp một chiều $12\,\mathrm{V}$. Cần một lực bao lớn để giữ các bản đứng yên? \emph{Ghi chú.} Khi giải bài này, hãy dùng hai cách suy luận khác nhau: trường hợp thứ nhất, nguồn điện áp luôn được nối; trường hợp thứ hai, sau khi tụ điện được nạp đầy, ngắt nguồn điện áp ra. Đáp số tất nhiên phải giống nhau.
+
+\dapso{$F \approx 6{,}4\,\mu\mathrm{N}$.}
+
+\baitap{52} Một tụ điện được tạo thành từ hai bản phẳng song song hình bán nguyệt, có thể quay không ma sát quanh một trục chung (xem Hình~38). Khoảng cách giữa các bản là $d$ và bán kính $R$ ($d \ll R$). Tìm mômen quay mà bản dưới tác dụng lên bản trên, nếu góc chồng lấp giữa các bản là $\alpha$ ($\alpha \gg d/R$) và điện áp đặt vào các bản là $U$.
+
+\dapso{$M = \varepsilon_0 R^2 U^2/(4d)$.}
+
+\baitap{53} Tìm lực kéo một tấm điện môi vào giữa các bản tụ điện phẳng, nếu bề rộng tấm là $a$, bề dày tấm $d$ bằng khoảng cách giữa các bản, hằng số điện môi của tấm là $\varepsilon$, và điện áp đặt vào tụ điện là $U$.
+
+\dapso{$F = (\varepsilon-1)\varepsilon_0 aU^2/(2d)$.}
+
+\baitap{54} Một tụ điện phẳng gồm hai bản thẳng đứng song song, khoảng cách giữa chúng là $d$. Điện áp $U$ được đặt vào giữa các bản. Tụ điện được đặt vào một chất lỏng theo cạnh dưới, chất lỏng có hằng số điện môi $\varepsilon$ và khối lượng riêng $\rho$. Chất lỏng dâng lên cao bao nhiêu giữa các bản của tụ điện? Không tính đến sức căng bề mặt.
+
+\dapso{$h = (\varepsilon-1)\varepsilon_0 U^2/(2d^2\rho g)$, trong đó $g$ là gia tốc trọng trường.}
+
+\subsection{Thời gian đặc trưng}
+
+Giả sử một tụ điện có điện dung $C$ được nạp tới điện áp $U_0$. Ta bắt đầu phóng điện tụ này qua một điện trở $R$. Rõ ràng
+\[
+RI + U = 0 \quad \text{hay} \quad RC\frac{dU}{dt} + U = 0.
+\]
+Đây là phương trình vi phân bậc nhất, có thể tách biến và tích phân ngay:
+\[
+U(t) = U_0 e^{-t/RC}.
+\]
+
+Giả sử bây giờ vào cùng mạch đó mắc thêm một nguồn suất điện động $\mathcal{E}$, sẽ nạp cho tụ điện qua điện trở $R$. Tình huống này có thể xem như chồng chất của trạng thái tĩnh $U=\mathcal{E}$ và trạng thái $U_0 - \mathcal{E}$ khi $\mathcal{E}=0$, được mô tả bởi công thức vừa rồi, do đó\footnote{Ở đây ta tóm tắt ngắn gọn hai phương trình vi phân (PTVP) rất hay gặp trong vật lý. Gọi biến phụ thuộc là $x$ và ký hiệu đạo hàm theo thời gian bằng dấu chấm trên ký hiệu ($\dot x \equiv dx/dt$ và $\ddot x \equiv d^2x/dt^2$). PTVP $\tau\dot x + x = 0$ có nghiệm tổng quát $x(t)=Ce^{-t/\tau}$, trong đó $C$ là hằng số tích phân, cần xác định từ điều kiện ban đầu (ví dụ điện tích ban đầu của tụ điện, v.v.). PTVP quen thuộc thứ hai là $\ddot x + \omega^2 x = 0$, có nghiệm tổng quát là dao động điều hoà dạng $x(t)=C_1\sin(\omega t + C_2)$ hay $C_1\sin(\omega t)+C_2\cos(\omega t)$. Hai PTVP này là thuần nhất và tuyến tính, tức mọi số hạng chỉ chứa hàm $x(t)$ hoặc đạo hàm của nó ở bậc nhất. Trong lý thuyết PTVP, người ta chứng minh rằng nghiệm tổng quát của PTVP không thuần nhất tương ứng $\tau\dot x + x = f(t)$ hay $\omega^{-2}\ddot x + x = f(t)$ là tổng của nghiệm tổng quát của phương trình thuần nhất và một nghiệm riêng nào đó của PTVP không thuần nhất. Trong trường hợp $f(t)=\text{hằng số}=f$, nghiệm riêng là $x(t)=f$.}
+\[
+U(t) = \mathcal{E} + (U_0-\mathcal{E})e^{-t/RC}.
+\]
+
+Đối với mạch $RC$ song song, các biểu thức về cơ bản cũng tương tự (tức một số hạng luôn chứa nhân tử $e^{-t/RC}$). Như vậy mạch $RC$ tiến tới trạng thái ổn định theo hàm mũ, và được đặc trưng bởi hằng số thời gian $\tau = RC$.
+
+Giả sử bây giờ trong mạch chứa $RC$ xảy ra các dao động của điện áp hay dòng điện (ví dụ trong tính toán trước đó, ta có thể cho $U_0$ phụ thuộc vào thời gian). Tốc độ của quá trình này được đặc trưng bởi một thời gian đặc trưng $T$ nào đó (ví dụ chu kỳ dao động). Nếu $T \gg \tau$, ta có tình huống \emph{tựa tĩnh}, vì mạch $RC$ có đủ thời gian $T$ để hoàn toàn hồi phục (relax). Đối với dòng điện biến đổi chậm, mạch bị hở tại vị trí tụ điện. Nếu $T \ll \tau$, có thể xem điện áp và dòng điện là chồng chất của thành phần biến đổi chậm (một chiều) và thành phần biến đổi nhanh (xoay chiều), và lưu ý rằng đối với thành phần xoay chiều biến đổi nhanh, điện trở của tụ điện là nhỏ so với điện trở $R$. Điện áp tụ điện khi đó sẽ dao động với biên độ nhỏ hơn nhiều so với giá trị trung bình của điện áp.
+
+\baitap{55} Không gian giữa các bản tụ điện được lấp đầy chất cách điện, có hằng số điện môi tương đối là 5 và điện trở suất $10^{12}\,\Omega\cdot\mathrm{m}$. Tìm thời gian đặc trưng để tụ điện đã nạp tự phóng điện.
+
+\dapso{$\tau \sim 50\,\mathrm{s}$.}
+
+\baitap{56} Trên Hình~39 là sơ đồ một bộ định thời (timer) đơn giản. Có thể giả định rằng bộ so sánh (comparator) thực tế không tiêu thụ dòng điện ở đầu vào. Ban đầu tụ điện chưa nạp. Cần bao lâu sau khi đóng khoá cho đến khi chuông báo động bắt đầu hoạt động?
+
+\dapso{$t = 20\,\mathrm{s}$.}
+
+\baitap{57} Tìm thời gian đặc trưng nạp tụ điện trong mạch trên Hình~37 sau khi đóng khoá $K$.
+
+\dapso{$\tau = \left(R_1 + \dfrac{R_2 R_3}{R_2+R_3}\right)C$.}
+
+\baitap{58} Vào mạch gồm điện trở và tụ điện mắc nối tiếp, người ta đặt một điện áp xoay chiều có dạng như trên Hình~40. Tìm công suất toả ra trên điện trở trong hai trường hợp: a) $T \ll RC$; b) $T \gg RC$.
+
+\dapso{a) $P = (U_2-U_1)^2/4R$; \quad b) $P = C(U_2-U_1)^2/T$.}
+
+\baitap{59} Qua một mạch $RC$ song song có dòng điện phụ thuộc thời gian như trên Hình~41. Tìm biên độ dao động điện áp của tụ điện trong hai trường hợp: a) $T \ll RC$; b) $T \gg RC$.
+
+\dapso{a) $(I_2-I_1)T/8C$; \quad b) $(I_2-I_1)R/2$.}
+
+\baitap{60} Để làm một đồ trang trí Giáng sinh đơn giản, người ta mắc nối tiếp 50 đèn LED. Mạch này được cấp điện qua một điốt chỉnh lưu $D$ trực tiếp từ điện áp lưới $220\,\mathrm{V}$ (Hình~42). Để hạn dòng, trong mạch có mắc một điện trở $R$, và để lọc phẳng gợn sóng dòng điện có mắc một tụ điện $C$. Độ sụt áp trên điốt chỉnh lưu không đáng kể, mỗi đèn LED sụt áp $3\,\mathrm{V}$. a) Điện trở $R$ cần chọn giá trị và công suất bao nhiêu để dòng điện cực đại qua các LED là $20\,\mathrm{mA}$? b) Ước lượng tụ điện cần có điện dung bao lớn để đảm bảo độ dao động dòng điện qua các LED nằm trong giới hạn 5\%? Tần số lưới điện là $50\,\mathrm{Hz}$.
+
+\dapso{a) $8\,\mathrm{k}\Omega$ và $3{,}2\,\mathrm{W}$; \quad b) $50\,\mu\mathrm{F}$.}
+
+\emph{(Hình 35--42: xem Phụ lục, trang gốc 11--14.)}
+
+LATEXEOF
+echo done; wc -l /home/claude/build/dientu.tex
