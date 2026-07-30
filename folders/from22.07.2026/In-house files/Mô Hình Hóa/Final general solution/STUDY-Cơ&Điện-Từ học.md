@@ -146,6 +146,66 @@ Với hạt tự do Đề-các, $p=\partial L/\partial \dot x = m\dot x$ — đ�
 
 Euler–Lagrange viết lại: $\dot p_i = \partial L/\partial q^i$. **Hệ quả tức thời (dùng suốt B4/Trụ cột C):** nếu $L$ **không chứa** $q^i$ một cách tường minh ($\partial L/\partial q^i\equiv 0$ — gọi là "**tọa độ cyclic**"), thì $\dot p_i=0$, tức $p_i$ **bảo toàn**. Đây là mầm mống đơn giản nhất của Định lý Noether — ta sẽ tổng quát hóa nó ở Chương 5.
 
+### Bóc tách bằng Toán học (Cực kỳ hiển nhiên)
+
+Định nghĩa động lượng suy rộng: $p_i = \frac{\partial L}{\partial \dot{q}^i}$
+
+Phương trình Euler-Lagrange: $\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}^i}\right) = \frac{\partial L}{\partial q^i}$
+
+Bây giờ, hãy thế phương trình (1) vào vế trái của phương trình (2). Ta có một phương trình mới, cực kỳ ngắn gọn: $$\frac{d}{dt}(p_i) = \frac{\partial L}{\partial q^i}$$
+
+(Đạo hàm của động lượng theo thời gian = Đạo hàm của hàm L theo tọa độ)
+
+Tài liệu nói: "Nếu hàm chi phí $L$ không chứa tọa độ $q^i$ một cách tường minh".
+
+
+Trong ngôn ngữ giải tích, câu này có nghĩa là biến $q^i$ không xuất hiện trong biểu thức của $L$. Mà nếu $L$ không phụ thuộc vào $q^i$, thì đạo hàm riêng của $L$ theo $q^i$ bằng 0. Tức là: $$\frac{\partial L}{\partial q^i} = 0$$
+
+Lắp số 0 này vào phương trình trên, ta được: $$\frac{d}{dt}(p_i) = 0$$
+
+Hiển nhiên,  $p_i = \text{const}$.
+
+### "Không chứa $q^i$ tường minh" nghĩa là gì?
+
+Hàm Lagrange là $L = T - V$ (Động năng trừ Thế năng).
+
+Thông thường, Động năng $T$ chỉ phụ thuộc vào vận tốc $\dot{q}$, nên việc hàm $L$ có chứa $q$ hay không hoàn toàn do thằng Thế năng $V$ quyết định.
+
+**Ví dụ: Không gian tịnh tiến (Đi thẳng)**
+
+Tưởng tượng ông đang thả trôi một vật trên một mặt bàn băng cực kỳ nhẵn, phẳng lỳ và rộng vô tận. Biến số $q$ ở đây là tọa độ $x$.
+
+Dù vật ở vị trí $x = 0$ hay $x = 1000$, thế năng của nó ($V = mgh$) không hề thay đổi vì mặt bàn phẳng lỳ. Tức là $V$ không chứa biến $x$. Suy ra $L$ không chứa biến $x$.
+Hệ quả: $\frac{\partial L}{\partial x} = 0 \Rightarrow$ Động lượng thẳng $p_x = mv$ được bảo toàn. Vật cứ thế trôi đi mãi mãi với vận tốc không đổi.
+
+**Vật lý gọi đây là: Tính đồng nhất của không gian (Không gian ở đâu cũng như nhau, dời đi chỗ khác hệ vẫn không đổi).**
+
+
+**Ví dụ: Không gian quay (Xoay tròn)**
+
+Tưởng tượng ông đang quay một con quay trong môi trường chân không, không có trọng lực. Biến số $q$ ở đây là góc xoay $\theta$.
+Ông có xoay toàn bộ thí nghiệm đi $30^\circ$ hay $90^\circ$, hệ thống vẫn hoạt động y hệt, năng lượng không bị thay đổi. Tức là $L$ không phụ thuộc vào góc $\theta$ ( $\theta$ là tọa độ cyclic).
+
+Hệ quả: $\frac{\partial L}{\partial \theta} = 0 \Rightarrow$ Động lượng suy rộng tương ứng với biến góc (chính là mô-men động lượng) được bảo toàn. Con quay cứ thế quay mãi không dừng.
+
+**Vật lý gọi đây là: Tính đẳng hướng của không gian (Không gian xoay hướng nào cũng như nhau).**
+
+### **Định lý Noether: Trùm cuối của Vật lý Lý thuyết**
+
+Chính từ cái mầm mống $\frac{\partial L}{\partial q^i} = 0$ vô thưởng vô phạt này, năm 1915, nữ toán học thiên tài Emmy Noether đã phát biểu một định lý làm rung chuyển cả nền vật lý, khiến cả Albert Einstein cũng phải thán phục.
+
+Định lý Noether nói rằng: Cứ mỗi một "sự đối xứng" (Symmetry) của tự nhiên, sẽ luôn đi kèm với một "Đại lượng bảo toàn" (Conservation Law).
+
+Không gian có đối xứng tịnh tiến (dịch chuyển không làm đổi hàm $L$) $\Rightarrow$ Bảo toàn Động lượng.
+
+Không gian có đối xứng quay (xoay hướng không làm đổi hàm $L$) $\Rightarrow$ Bảo toàn Mô-men Động lượng.
+
+Thời gian có đối xứng tịnh tiến (làm thí nghiệm hôm nay hay ngày mai thì quy luật vật lý vẫn thế, $L$ không phụ thuộc vào $t$) $\Rightarrow$ Bảo toàn Năng lượng.
+
+
+
+
+
 ### Tự kiểm tra §1
 
 1. Vì sao ta nói "ràng buộc đã biến mất" khi dùng $\theta$ làm tọa độ suy rộng của con lắc đơn, thay vì $(x,y)$?
