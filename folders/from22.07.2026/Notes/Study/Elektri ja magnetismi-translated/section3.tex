@@ -1,0 +1,343 @@
+cat >> /home/claude/build/dientu.tex << 'LATEXEOF'
+\section{Tĩnh điện học}
+
+\subsection{Kiến thức cơ bản}
+
+Các bài toán tĩnh điện học đơn giản nhất liên quan đến sự tương tác lẫn nhau, trong chân không, giữa các điện tích điểm đứng yên riêng lẻ. Theo \emph{định luật Coulomb}, giữa hai điện tích điểm $q_1$ và $q_2$ có một lực tĩnh điện tác dụng với độ lớn $F = k_\mathrm{e} q_1 q_2/r^2$, trong đó $r$ là khoảng cách giữa hai điện tích và $k_\mathrm{e}$ là hệ số tỉ lệ phụ thuộc vào việc chọn hệ đơn vị đo.\footnote{Trong từ tĩnh học tồn tại một định luật tương tự (định luật Ampère) về tương tác giữa các dòng điện. Cụ thể, giữa hai dòng điện thẳng song song $I_1$ và $I_2$ có một lực tác dụng trên một đơn vị chiều dài là $F/L = 2k_\mathrm{m}I_1I_2/r$, trong đó $k_\mathrm{m}$ lại là một hệ số tỉ lệ khác (trong các định luật Coulomb và Ampère, điện tích và cường độ dòng điện tất nhiên có liên hệ với nhau, $I=dq/dt$). Thí nghiệm cho thấy $k_\mathrm{e}/k_\mathrm{m}=c^2$, trong đó $c$ là vận tốc ánh sáng trong chân không. Như vậy chỉ một trong các hệ số tỉ lệ có thể được chọn tự do. Trong hệ đơn vị điện Gauss, người ta lấy $k_\mathrm{e}=1$. Còn trong hệ SI, người ta lấy làm cơ sở đơn vị cường độ dòng điện thực dụng sẵn có là ``ampe''. Kết quả là $k_\mathrm{m}=10^{-7}\,\mathrm{N/A^2}$ (chính xác) và $k_\mathrm{e}\approx 8{,}99\times10^9\,\mathrm{N\cdot m^2/C^2}$. Nhằm hợp lý hoá các biểu thức, trong hệ SI các hệ số tỉ lệ này được viết dưới dạng $k_\mathrm{e}=1/(4\pi\varepsilon_0)$ và $k_\mathrm{m}=\mu_0/4\pi$. Do đó, ví dụ trong các định luật Gauss và định lý lưu số sẽ xét sau này, hệ số $4\pi$ không còn xuất hiện nữa.} Lực này hướng dọc theo đường thẳng nối hai điện tích. Ở đây $q_1$, $q_2$ và $F$ đều là các đại lượng đại số, và giá trị dương của lực có nghĩa là lực đẩy. Như thực nghiệm cho thấy, ở đây có hiệu lực \emph{nguyên lý chồng chất}, theo đó các lực tính riêng theo cặp cần được cộng lại theo kiểu vectơ để tìm ra lực tổng hợp tác dụng lên một điện tích cho trước.
+
+Tương tác giữa các điện tích và dòng điện được truyền đi nhờ một môi trường gọi là \emph{trường điện từ}. Trong tĩnh điện học, thành phần quan trọng của nó là \emph{điện trường}. \emph{Cường độ điện trường} $\mathbf{E}$ được định nghĩa là lực tác dụng lên một điện tích thử đơn vị dương đặt tại điểm không gian đang xét (cũng là một đại lượng vectơ). Ví dụ, theo định luật Coulomb vừa phát biểu, điện tích $q_1$ tạo ra tại vị trí của điện tích $q_2$ một điện trường $\mathbf{E} = k_\mathrm{e} q_1 \hat{\mathbf{r}}/r^2$, và điện trường này tác dụng lên điện tích $q_2$ một lực $\mathbf{F}=\mathbf{E}q_2$.
+
+Điện trường có thể được hình dung một cách trực quan thông qua khái niệm đường sức. \emph{Đường sức điện trường} là các đường cong mà tại mỗi điểm, vectơ cường độ điện trường $\mathbf{E}$ là tiếp tuyến của nó. Đường sức bắt đầu từ điện tích dương và kết thúc tại điện tích âm. Các hệ thức định lượng như sau: số đường sức xuất phát từ một điện tích điểm tỉ lệ với độ lớn $q$ của điện tích đó, còn mật độ đường sức (tức số đường sức đi qua một đơn vị diện tích đặt vuông góc với đường sức) tỉ lệ với cường độ điện trường $E$.
+
+\baitap{61} Bốn điện tích điểm giống hệt nhau, độ lớn $q$, đặt tại các đỉnh của một hình vuông cạnh $L$. Tìm độ lớn lực tác dụng lên các điện tích.
+
+\dapso{$F = (1+2\sqrt{2})q^2/(8\pi\varepsilon_0 L^2)$.}
+
+\baitap{62} Trên mặt số đồng hồ, tại các vị trí ứng với các giờ, đặt cố định các điện tích điểm có độ lớn $q, 2q, 3q, \dots, 12q$ ($q>0$). Kim giờ chỉ mấy giờ khi nó song song và cùng chiều với vectơ cường độ điện trường tổng hợp do các điện tích này tạo ra tại tâm mặt số? \goiy{Hãy sử dụng tính đối xứng và sự kiện rằng tổng vectơ không phụ thuộc vào thứ tự cộng (tính giao hoán và kết hợp của phép cộng).}
+
+\dapso{15 giờ 30 phút.}
+
+\baitap{63} Hai điện tích điểm $q_1$ và $q_2$ cách nhau một khoảng $L$. Điện tích thứ ba cần đặt ở đâu và có độ lớn bao nhiêu để hai điện tích ban đầu ở trạng thái cân bằng? \goiy{Để viết được đáp số tổng quát cho bài toán này, cần định nghĩa một trục toạ độ xác định vị trí các điện tích, sau đó cẩn thận theo dõi quy tắc dấu trong định luật Coulomb.}
+
+\baitap{64} Giữa hai điện tích điểm cố định giống hệt nhau, người ta đặt một điện tích điểm thứ ba. Điện tích thứ ba có ở trạng thái cân bằng ổn định hay không nếu điện tích của nó trái dấu so với hai điện tích ở hai đầu? \emph{Ghi chú.} Sự ổn định của cân bằng có nghĩa là khi lệch nhỏ khỏi vị trí cân bằng sẽ xuất hiện một lực tổng hợp hướng vật thể trở lại vị trí cân bằng. Nói cách khác, đạo hàm của lực theo toạ độ dịch chuyển là âm.
+
+\baitap{65} Hai điện tích điểm giống hệt nhau, độ lớn $q$, cách nhau một khoảng $2d$. Tìm cường độ điện trường cực đại trên đường trung trực của đoạn thẳng nối hai điện tích. \emph{Ghi chú.} Nếu biểu diễn sự phụ thuộc $y=f(x)$ bằng đồ thị, thì tại điểm mà $f(x)$ đạt giá trị cực đại, tiếp tuyến của đồ thị tại thời điểm đó nằm ngang, tức có độ dốc bằng không, hay $f'(x)=0$.
+
+\subsection{Định lý Gauss}
+
+Loại bài toán tĩnh điện học đơn giản nhất là loại mà sự phân bố điện tích trong không gian đã cho trước, và người ta hỏi về cường độ điện trường trong không gian xung quanh các điện tích đó. Nhờ định luật Coulomb và nguyên lý chồng chất, về nguyên tắc luôn có thể viết ra đáp số của những bài toán như vậy. Cường độ điện trường tại điểm không gian $\mathbf{r}$ được biểu diễn như sau:
+\[
+\mathbf{E}(\mathbf{r}) = \sum_i \mathbf{E}_i(\mathbf{r}) = \sum_i \frac{q_i}{4\pi\varepsilon_0 |\mathbf{r}-\mathbf{r}_i|^2}\times\frac{\mathbf{r}-\mathbf{r}_i}{|\mathbf{r}-\mathbf{r}_i|}, \tag{3}
+\]
+trong đó $\mathbf{r}_i$ là bán kính vectơ của điện tích điểm $q_i$. Vectơ đơn vị $(\mathbf{r}-\mathbf{r}_i)/|\mathbf{r}-\mathbf{r}_i|$ xác định hướng của điện trường do $q_i$ gây ra tại điểm $\mathbf{r}$. Trong trường hợp phân bố điện tích liên tục, tổng được thay bằng tích phân, mà việc tính toán không phải lúc nào cũng đơn giản. Trong một số trường hợp đặc biệt mà ta sẽ xét sau đây, có thể tìm được đáp số dễ dàng hơn nhiều bằng cách sử dụng \emph{định lý Gauss}.
+
+Định lý Gauss được giải thích thuận tiện nhất thông qua khái niệm đường sức. Ta cố gắng gom các phát biểu ở trên về đường sức thành một công thức duy nhất. Bao quanh điện tích điểm $q$ bằng một mặt kín $S$. Số đường sức đi qua một phần tử diện tích $\Delta S$ rõ ràng tỉ lệ với tích $E_n\Delta S$, trong đó $E_n$ là thành phần cường độ điện trường theo phương pháp tuyến của mặt. Tổng số đường sức đi ra qua mặt $S$ như vậy là
+\[
+\sum E_n \Delta S \to \oint_S E_n\,dS,
+\]
+trong đó ta đã lấy giới hạn $\Delta S \to 0$.\footnote{Tích phân như vậy được gọi là thông lượng của vectơ $\mathbf{E}$ qua mặt $S$. Khái niệm này có thể áp dụng cho bất kỳ trường vectơ nào. Ví dụ, nếu ta khảo sát dòng chảy của chất lỏng và thay $\mathbf{E}$ bằng vectơ vận tốc phần tử chất lỏng $\mathbf{v}$, thì tích phân $\oint v_n\,dS$ sẽ cho lưu lượng chất lỏng ($\mathrm{m}^3/\mathrm{s}$) qua mặt $S$.} Vòng tròn trên ký hiệu tích phân nhấn mạnh rằng phép lấy tích phân thực hiện trên toàn bộ mặt kín. Vì tổng số đường sức được xác định bởi độ lớn điện tích $q$, giá trị của tích phân này rõ ràng không phụ thuộc vào cách chọn mặt $S$. Để tính tích phân, ta xét trường hợp đặc biệt khi mặt $S$ được chọn là mặt cầu đồng tâm bán kính $r$. Khi đó theo định luật Coulomb, $E_n = E = q/(4\pi\varepsilon_0 r^2) = \text{hằng số}$ và
+\[
+\oint_S E_n\,dS = \frac{q}{4\pi\varepsilon_0 r^2}4\pi r^2 = \frac{q}{\varepsilon_0}.
+\]
+Không khó để thấy rằng đẳng thức này vẫn đúng với sự phân bố điện tích bất kỳ, do đó tổng quát
+\[
+\oint_S E_n\,dS = \frac{1}{\varepsilon_0}\sum_i q_i = \frac{Q}{\varepsilon_0},
+\]
+trong đó $q_i$ là các điện tích được bao bọc bởi mặt $S$ ($Q$ là tổng điện tích). Thành phần pháp tuyến của điện trường $E_n = \mathbf{E}\cdot\hat{\mathbf{n}}$ là một đại lượng có dấu. Nếu đường sức đi ra qua mặt $S$ thì $E_n>0$, ngược lại $E_n<0$. Cũng lưu ý rằng nếu $Q=0$ thì $\mathbf{E}$ không nhất thiết bằng không, vì $\mathbf{E}$ có thể do các điện tích nằm ngoài vùng không gian đang xét gây ra, nhưng nếu trên toàn bộ mặt $S$ có $E=0$, thì cũng suy ra $Q=0$. Định lý Gauss đặc biệt hữu ích khi tính cường độ điện trường của các vật thể có sự phân bố điện tích đối xứng gương, đối xứng tâm, hoặc đối xứng trục (mặt phẳng, hình cầu, hình trụ, v.v.). Trong các trường hợp đó, từ các cân nhắc đối xứng, ta đã biết trước hướng của vectơ điện trường tại mọi điểm trong không gian. Điểm mấu chốt là chọn mặt $S$ sao cho việc tính tích phân mặt trở nên đơn giản, tức sao cho trên (từng phần của) mặt $S$ có $E_n = \text{hằng số}$.
+
+Ta lưu ý rằng do sự tương tự về toán học giữa định luật Coulomb và định luật hấp dẫn Newton, định lý Gauss cũng có hiệu lực đối với trường hấp dẫn, cụ thể
+\[
+\oint_S g_n\,dS = -4\pi G M,
+\]
+trong đó $M$ là khối lượng vật chất được mặt $S$ bao bọc và $\mathbf{g}$ là cường độ trường hấp dẫn (tức lực tác dụng lên một vật có khối lượng đơn vị, hay gia tốc trọng trường). Dấu âm là do các khối lượng dương thì hút nhau.
+
+\baitap{66} Hãy chứng minh rằng không thể tạo ra một điện trường tĩnh sao cho một điện tích điểm ở trạng thái cân bằng ổn định trong đó. \goiy{Chứng minh xuất phát trực tiếp từ định nghĩa của cân bằng ổn định.}
+
+\baitap{67} Tìm điện trường do một mặt phẳng vô hạn tích điện đều gây ra. Mật độ điện tích mặt là $\sigma$.
+
+\dapso{$E = \sigma/(2\varepsilon_0)$.}
+
+\baitap{68} Tìm điện trường do một tụ điện phẳng gây ra và lực tác dụng lên các bản tính trên một đơn vị diện tích (áp suất tĩnh điện).\footnote{Ở đây và về sau (trừ khi có ghi chú khác) ta giả định rằng kích thước các bản tụ điện phẳng lớn hơn nhiều so với khoảng cách giữa chúng.} Mật độ điện tích mặt trên các bản là $\pm\sigma$.
+
+\dapso{Trong không gian giữa hai bản $E=\sigma/\varepsilon_0$, ngoài không gian đó $E=0$; $p=\sigma^2/2\varepsilon_0$.}
+
+\baitap{69} Trong thời tiết đẹp, gần bề mặt Trái Đất có một điện trường hướng xuống dưới với cường độ khoảng $150\,\mathrm{V/m}$. Cường độ điện trường giảm theo độ cao và ở độ cao $100\,\mathrm{m}$ vào khoảng $100\,\mathrm{V/m}$. Tìm mật độ khối trung bình của điện tích trong khí quyển!
+
+\dapso{$\rho \approx 4{,}4\times10^{-12}\,\mathrm{C/m^3}$.}
+
+\baitap{70} Tìm cường độ điện trường ở khoảng cách $r$ tính từ một dây thẳng, mảnh, dài vô hạn, nếu mật độ điện tích dài dọc theo dây là $\lambda$.
+
+\dapso{$E = \lambda/(2\pi\varepsilon_0 r)$.}
+
+\baitap{71} Hãy chứng minh rằng bên trong một mặt cầu tích điện đều, điện trường bằng không.
+
+\baitap{72} Tìm cường độ điện trường tại khoảng cách $r$ tính từ tâm của một khối cầu tích điện đều. Mật độ điện tích khối là $\rho$ và bán kính khối cầu là $R$.
+
+\dapso{$E(r) = \begin{cases}\rho r/(3\varepsilon_0) & r<R\\ \rho R^3/(3\varepsilon_0 r^2) & r\ge R\end{cases}$.}
+
+\baitap{73} Tìm cường độ điện trường tại khoảng cách $r$ tính từ trục của một hình trụ dài vô hạn, tích điện đều. Mật độ điện tích khối là $\rho$ và bán kính hình trụ là $R$.
+
+\dapso{$E(r) = \begin{cases}\rho r/(2\varepsilon_0) & r<R\\ \rho R^2/(2\varepsilon_0 r) & r\ge R\end{cases}$.}
+
+\baitap{74} Trên một điện cực phẳng, mỏng, có một lỗ thủng tròn bán kính $a$. Ở một phía của điện cực (xa lỗ), có điện trường đều $\mathbf{E}_1$, còn phía bên kia của điện cực có điện trường đều $\mathbf{E}_2$ (Hình~43). Một chùm electron được hội tụ tại một điểm nằm trên trục lỗ, cách điện cực một khoảng $z_1$. Sau khi đi qua lỗ, chùm hạt lại hội tụ ở phía bên kia điện cực, tại khoảng cách $z_2$. Năng lượng của các hạt thoả mãn $eU_0 \gg eE_1z_1, eE_2z_2$ và $a \ll z_1, z_2$. Hãy chứng minh rằng trong điều kiện đó, có hiệu lực ``công thức thấu kính'' dạng $1/z_1+1/z_2=(E_1-E_2)/4U_0$. \goiy{Ngay sát lỗ thủng, điện trường rất không đều. Để ước lượng thành phần xuyên tâm của điện trường trong vùng này, hãy áp dụng định lý Gauss cho một hình trụ đồng trục ngắn xuyên qua lỗ.}
+
+\subsection{Nguyên lý chồng chất}
+
+Nguyên lý chồng chất của các trường được biểu diễn bởi công thức (3): cường độ điện trường tại một điểm không gian cho trước, do một hệ điện tích tạo ra, bằng tổng vectơ các cường độ điện trường mà từng điện tích trong hệ tạo ra riêng lẻ. Khi cần, cũng có thể đưa thêm vào các cặp điện tích hư cấu (fictitious) bằng nhau về độ lớn nhưng trái dấu, hoặc các phân bố điện tích hư cấu, sao cho phân bố điện tích tổng cộng (và điện trường tổng hợp) trong không gian không đổi. Ví dụ, một vùng không gian có mật độ điện tích bằng không có thể được xem như chồng chất của hai phân bố điện tích bằng nhau nhưng trái dấu. Ở đây có một sự tương tự nào đó với cơ học, trong đó một ý tưởng tương tự được áp dụng khi tìm khối tâm của các vật rỗng.
+
+\baitap{75} a) Xác định điện trường trong khoang rỗng hình thành do sự giao nhau của hai khối cầu tích điện đều (Hình~44). Mật độ điện tích khối trong khối cầu thứ nhất là $\rho$, trong khối cầu thứ hai là $-\rho$, bán kính hai khối cầu đều là $R$ và khoảng cách giữa hai tâm là $d$. b) Giải lại bài toán này trong trường hợp là hai hình trụ dài vô hạn song song thay vì hai khối cầu.
+
+\dapso{a) $\mathbf{E} = \rho\mathbf{d}/(3\varepsilon_0)$, \quad b) $\mathbf{E}=\rho\mathbf{d}/(2\varepsilon_0)$ (trường đều).}
+
+\baitap{76} Một khối cầu tích điện đều (mật độ điện tích khối $\rho$) có một khoang rỗng hình cầu bên trong, tâm khoang cách tâm khối cầu một khoảng $\mathbf{r}_0$. Tìm điện trường trong khoang rỗng.
+
+\dapso{$\mathbf{E}(\mathbf{r}) = \rho\mathbf{r}_0/3\varepsilon_0$ (trường đều).}
+
+Chương trình phổ thông chỉ dừng lại ở việc phát biểu định luật Coulomb giữa các điện tích điểm để tính lực tĩnh điện. Độ lớn của lực này là $q_1q_2/(4\pi\varepsilon_0 r^2)$. Ta xét ở đây một số bài toán phức tạp hơn về lực tĩnh điện tác dụng lên các điện tích hoặc vật thể tích điện. Cũng như khi tính điện trường ở trên, ta sẽ cố gắng tránh việc tính các tích phân phức tạp trong chừng mực có thể. Các ý tưởng cần thiết được nêu dưới dạng gợi ý bên cạnh mỗi bài toán.
+
+\baitap{77} Hãy chỉ ra rằng lực tác dụng giữa hai khối cầu có phân bố điện tích đối xứng tâm được biểu diễn hoàn toàn giống như lực giữa hai điện tích điểm, tức $Q_1Q_2/(4\pi\varepsilon_0 r^2)$, trong đó $Q_1$, $Q_2$ là tổng điện tích của các khối cầu và $r$ là khoảng cách giữa tâm của chúng. \goiy{1) Đối với người quan sát bên ngoài khối cầu, điện trường không thay đổi nếu nén khối cầu thành một điện tích điểm (hệ quả của định lý Gauss). 2) Định luật III Newton có hiệu lực: $\mathbf{F}_{21}=-\mathbf{F}_{12}$.}
+
+\baitap{78} Tìm lực mà một hình trụ dài vô hạn tích điện đều tác dụng lên một khối cầu tích điện đều. Điện tích của hình trụ trên một đơn vị chiều dài là $\lambda$, điện tích khối cầu là $Q$, khoảng cách giữa trục hình trụ và tâm khối cầu là $r$.
+
+\dapso{$F = Q\lambda/(2\pi\varepsilon_0 r)$.}
+
+\baitap{79} Tìm áp suất tĩnh điện tác dụng lên bề mặt một mặt cầu tích điện đều, nếu mật độ điện tích mặt là $\sigma$. \goiy{Một cách là dùng phương pháp dịch chuyển ảo. Nhưng cũng có thể lý luận theo cách sau. Xét một phần tử diện tích nhỏ $\Delta S$ trên mặt cầu. Điện trường $\mathbf{E}'$ xác định lực tác dụng lên phần tử này được tạo ra bởi phần điện tích mặt còn lại của mặt cầu. Điện trường do chính phần tử đó tạo ra ở lân cận sát nó, theo lời giải bài~67, là $\sigma/(2\varepsilon_0)$. Do sự chồng chất của điện trường này và điện trường $\mathbf{E}'$, điện trường bên trong mặt cầu phải bằng không.}
+
+\dapso{$p = \sigma^2/(2\varepsilon_0)$.}
+
+\baitap{80} Tìm lực mà một nửa của mặt cầu tích điện đều tác dụng lên nửa kia, nếu bán kính mặt cầu là $R$ và điện tích là $Q$. \goiy{Hãy dùng lời giải bài~79 và sự tương tự với áp suất khí lên thành bình chứa.}
+
+\dapso{$F = Q^2/(32\varepsilon_0 R^2)$.}
+
+\subsection{Lưỡng cực điện}
+
+Người ta thường quan tâm đến điện trường do một hệ điện tích phức tạp (ví dụ một phân tử) tạo ra ở những khoảng cách lớn (tức những khoảng cách lớn hơn nhiều so với kích thước tuyến tính đặc trưng của hệ). Trong trường hợp này, sẽ hợp lý khi khai triển biểu thức chính xác (3) của điện trường thành chuỗi theo $r$, trong đó $r$ là khoảng cách từ điểm khảo sát đến tâm hệ điện tích. Rõ ràng, nếu tổng điện tích của hệ $Q=\sum q_i$ khác không, thì ở khoảng cách lớn, điện trường gần như hoàn toàn giống điện trường của một điện tích điểm:
+\[
+\mathbf{E}(\mathbf{r}) \approx \frac{Q}{4\pi\varepsilon_0 r^2}\hat{\mathbf{r}},
+\]
+có độ lớn giảm tỉ lệ nghịch với $r^2$. Đối với hệ trung hoà ($Q=0$), trong khai triển chuỗi ta phải xét đến số hạng giảm tỉ lệ nghịch với $r^3$. Trong toạ độ cực, các thành phần của điện trường này được biểu diễn như sau (Hình~45a):
+\[
+E_r = \frac{2p\cos\theta}{4\pi\varepsilon_0 r^3}, \qquad E_\theta = \frac{p\sin\theta}{4\pi\varepsilon_0 r^3}, \tag{4}
+\]
+trong đó đại lượng $\mathbf{p}=\sum q_i \mathbf{r}_i$ được gọi là \emph{mômen lưỡng cực} của hệ điện tích. Như vậy $\mathbf{p}$ đặc trưng cho mức độ phân bố không gian của các điện tích dương và âm trong hệ là không đều hoặc không đối xứng (mặc dù hệ nói chung là trung hoà về điện). Hệ điện tích đơn giản nhất mà điện trường của nó tuân theo công thức (4) là hệ gồm hai điện tích điểm trái dấu bằng nhau ($\pm q$), với khoảng cách $d \ll r$. Một hệ mô hình như vậy được gọi là \emph{lưỡng cực điện}, và mômen lưỡng cực của nó là $\mathbf{p}=q\mathbf{d}$, trong đó $\mathbf{d}$ là vectơ đi từ điện tích $-q$ tới điện tích $+q$ (Hình~45b).
+
+\baitap{81} Tìm điện trường trên trục lưỡng cực và trên đường trung trực của trục ở khoảng cách $r$ tính từ lưỡng cực. Hãy kiểm chứng rằng các công thức (4) cho cùng kết quả.
+
+\dapso{$E_\parallel(r) = 2p/(4\pi\varepsilon_0 r^3)$, $E_\perp(r) = -p/(4\pi\varepsilon_0 r^3)$.}
+
+\baitap{82} Hãy chứng minh biểu thức tổng quát (4) của điện trường lưỡng cực điện. \goiy{Hãy sử dụng kết quả bài trước, xem lưỡng cực có hướng bất kỳ như chồng chất của hai lưỡng cực vuông góc với nhau được chọn phù hợp. Về bản chất, điều này có nghĩa là thêm vào tại điểm không gian thích hợp các điện tích hư cấu bổ sung $\pm q$.}
+
+\baitap{83} Một tụ điện phẳng gồm hai bản kim loại phẳng song song diện tích $S$. Tụ điện được nạp tới điện áp $U$. Tìm cường độ điện trường trong mặt phẳng của các bản tại khoảng cách $r$, trong đó $r$ lớn hơn nhiều so với kích thước các bản. Tụ điện đặt trong chân không.
+
+\dapso{$E = SU/(4\pi r^3)$.}
+
+\baitap{84} Tìm mômen quay tác dụng lên một lưỡng cực điện $\mathbf{p}$ khi đặt vào một điện trường ngoài $\mathbf{E}$.
+
+\dapso{$\mathbf{M} = \mathbf{p}\times\mathbf{E}$; ta thấy điện trường $\mathbf{E}$ có xu hướng làm quay vectơ $\mathbf{p}$ cùng hướng với nó.}
+
+\baitap{85} Tìm thế năng của lưỡng cực điện $\mathbf{p}$ trong điện trường $\mathbf{E}$.
+
+\dapso{$\Pi = -\mathbf{p}\mathbf{E}$ (ở đây mức năng lượng không được chọn sao cho $\Pi=0$ khi $\mathbf{p}\perp\mathbf{E}$, vì vậy có dấu trừ).}
+
+\baitap{86} Tìm lực tác dụng giữa một lưỡng cực điện $\mathbf{p}$ và một điện tích điểm $q$, nếu khoảng cách giữa chúng là $r$ và vectơ $\mathbf{p}$ hướng theo phương điện tích điểm. \emph{Ghi chú.} Ở đây có thể dùng cách tính tương tự như trong bài~81. Đồng thời cũng có thể tận dụng kết quả bài~85 và phương pháp dịch chuyển ảo. Điều này cho kết quả trung gian là một công thức tổng quát hơn $F_x = p(\partial E/\partial x)$.
+
+\baitap{87} Tìm lực tác dụng giữa hai lưỡng cực $\mathbf{p}_1$ và $\mathbf{p}_2$, nếu khoảng cách giữa chúng là $r$!
+
+\baitap{88} Hãy ước lượng tần số dao động quay của các phân tử phân cực trong điện trường $E=30\,\mathrm{kV/m}$. Có thể xem phân tử như một vật cứng hình quả tạ (hantơ), có chiều dài $l\sim 0{,}1\,\mathrm{nm}$ và khối lượng $m\sim 10^{-26}\,\mathrm{kg}$. Có thể coi điện tích của các nguyên tử $\pm q$ về độ lớn bằng điện tích nguyên tố ($1{,}6\times10^{-19}\,\mathrm{C}$).
+
+\dapso{$\nu \sim \dfrac{1}{\pi}\sqrt{\dfrac{qE}{2ml}} \approx 1{,}5\times10^{10}\,\mathrm{Hz}$.}
+
+\subsection{Năng lượng và điện thế của trường tĩnh điện}
+
+Điện trường tĩnh là \emph{bảo toàn} -- công mà trường thực hiện khi dịch chuyển một điện tích theo một đường kín bằng không. Tương đương, có thể nói rằng công mà trường thực hiện khi dịch chuyển điện tích từ điểm $A$ đến điểm $B$ không phụ thuộc vào quỹ đạo của điện tích. Điều này cho phép định nghĩa thế năng của điện tích tại mọi điểm của trường, chính xác đến một hằng số cộng thêm. Thế năng của một điện tích thử đơn vị dương tại một điểm không gian cho trước được gọi là \emph{điện thế} của trường tại đó. Hiệu điện thế giữa hai điểm không gian, hay điện áp, được biểu diễn:
+\[
+\varphi_B - \varphi_A = -\int_A^B \mathbf{E}\cdot d\mathbf{r} = -\int_A^B E_l\,dl,
+\]
+trong đó $d\mathbf{r}$ là dịch chuyển vi phân dọc theo quỹ đạo bất kỳ đi từ điểm $A$ đến điểm $B$. Nếu để một điện tích thử đơn vị dương chuyển động dưới tác dụng của điện trường từ điểm $A$ đến điểm $B$, thì trường thực hiện công dương, do đó thế năng của điện tích phải giảm, đó là lý do có dấu trừ trước tích phân.
+
+Ta minh hoạ điều vừa nói trên cơ sở điện tích điểm. Người ta thường quy ước rằng ở vô cực, điện thế bằng không. Khi đó, điện thế của điện trường do điện tích điểm $q$ gây ra, ở khoảng cách $r$, là
+\[
+\varphi(r) = -\int_\infty^r \mathbf{E}(r)\cdot d\mathbf{r} = \int_r^\infty E(r)\,dr = \frac{q}{4\pi\varepsilon_0}\int_r^\infty \frac{1}{r^2}\,dr = \frac{q}{4\pi\varepsilon_0 r}. \tag{5}
+\]
+Như ta thấy, kết quả quả thực không phụ thuộc vào cách chọn quỹ đạo. Ở đây, một lần nữa nên nhắc tới sự tương tự với trường hấp dẫn. Thế hấp dẫn của khối lượng điểm $M$, tức thế năng của một khối lượng đơn vị, được biểu diễn theo mẫu công thức (5) như sau:
+\[
+\varphi(r) = -\frac{GM}{r}.
+\]
+Dấu trừ là do các khối lượng hút nhau; nếu ở vô cực thế năng được lấy bằng không, thì ở khoảng cách hữu hạn nó phải nhỏ hơn không.
+
+Dựa trên kết quả của mục 3.2, ta có thể nói rằng công thức (5) cũng áp dụng được để tính điện thế của các vật thể có phân bố điện tích đối xứng tâm (mặt cầu, khối cầu). Tại điểm cách đều tất cả các điện tích (tại tâm mặt cầu, trên trục vòng dây, v.v.), điện thế cũng được tính theo công thức (5). Trong trường hợp tổng quát hơn, có thể viết theo mẫu công thức (3)
+\[
+\varphi(\mathbf{r}) = \sum_i \frac{q_i}{4\pi\varepsilon_0|\mathbf{r}-\mathbf{r}_i|}.
+\]
+
+Khi tính điện trường, đôi khi dễ hơn nếu trước tiên tìm biểu thức điện thế $\varphi(\mathbf{r})$, rồi từ đó suy ra điện trường
+\[
+\mathbf{E}(\mathbf{r}) = \left(-\frac{\partial\varphi}{\partial x}, -\frac{\partial\varphi}{\partial y}, -\frac{\partial\varphi}{\partial z}\right),
+\]
+vì khi tính điện thế ta chỉ cần cộng các đại lượng vô hướng, còn khi tính điện trường phải cộng các vectơ. Nếu từ các cân nhắc đối xứng đã biết trước hướng của vectơ $\mathbf{E}$ (chẳng hạn trên trục vòng dây), thì chỉ cần tính đạo hàm riêng theo hướng đó, các thành phần vuông góc dù sao cũng bằng không.
+
+Thế năng tương tác tĩnh điện của hệ điện tích điểm $\{q_i\}$ có thể biểu diễn dưới dạng $\Pi = \frac{1}{2}\sum_i \varphi_i q_i$, trong đó $\varphi_i$ là điện thế tại vị trí điện tích $q_i$, do tất cả các điện tích còn lại gây ra (trừ chính $q_i$). Trong tổng này, tương tác từng cặp giữa tất cả các điện tích được tính hai lần, đó là lý do có hệ số $1/2$. Công thức này đặc biệt hữu ích khi $\varphi_i$ giống nhau đối với mọi điện tích (mặt cầu tích điện đều, tụ điện, v.v.).
+
+\baitap{89} Vùng không gian $0<x<d$ được lấp đầy điện tích phân bố đều với mật độ $\rho$ ($\rho>0$); mật độ điện tích trong vùng $-d<x<0$ là $-\rho$. Trong các vùng $-\infty<x<-d$ và $d<x<\infty$ không có điện tích. Trong vùng $x>d$, một electron khối lượng $m$, điện tích $-e$, chuyển động với vectơ vận tốc hướng thẳng vào lớp điện tích. Với vận tốc ban đầu nhỏ nhất là bao nhiêu thì electron còn có thể xuyên qua lớp điện tích?
+
+\dapso{$v_0 = d\sqrt{2\rho e/(\varepsilon_0 m)}$.}
+
+\baitap{90} Có thể tạo ra một điện trường tĩnh mà các đường sức của nó được vẽ như trên Hình~46 hay không?
+
+\baitap{91} Hãy chỉ ra rằng bên trong một mặt cầu tích điện đều, điện thế là hằng số và bằng điện thế của chính mặt cầu.
+
+\baitap{92} a) Hãy chỉ ra rằng điện dung của tụ điện phẳng (trong chân không) được biểu diễn bằng công thức $\varepsilon S/d$, trong đó $S$ là diện tích bản và $d$ là khoảng cách giữa các bản. b) Giả sử biết điện áp $U$ giữa các bản của tụ điện, hãy chỉ ra rằng mật độ năng lượng của điện trường là $\varepsilon_0 E^2/2$.
+
+\baitap{93} $N$ giọt thuỷ ngân giống hệt nhau được tích điện tới cùng một điện thế $\varphi_0$. Điện thế của giọt thuỷ ngân lớn thu được khi toàn bộ các giọt nhỏ hợp nhất lại là bao nhiêu (coi các giọt là hình cầu)?
+
+\dapso{$\varphi = \varphi_0 N^{2/3}$.}
+
+\baitap{94} Hãy chỉ ra rằng điện thế của trường lưỡng cực điện $\mathbf{p}$ được biểu diễn dưới dạng $\varphi(\mathbf{r}) = \mathbf{p}\hat{\mathbf{r}}/(4\pi\varepsilon_0 r^2)$.
+
+\baitap{95} Một tụ điện được tạo thành từ hai mặt cầu kim loại đồng tâm, khoảng không gian giữa chúng chứa đầy không khí. Điện áp đánh thủng của không khí là $30\,\mathrm{kV/cm}$. Bán kính điện cực ngoài là $R=0{,}5\,\mathrm{m}$. Cần chọn bán kính điện cực trong bằng bao nhiêu để đạt được hiệu điện thế lớn nhất có thể? Tìm giá trị bằng số của hiệu điện thế đó.
+
+\dapso{$r=0{,}25\,\mathrm{m}$, $U=3{,}7\times10^5\,\mathrm{V}$.}
+
+\baitap{96} Tìm cường độ điện trường trên trục của một vòng tròn tích điện, tại khoảng cách $x$ tính từ mặt phẳng vòng. Bán kính vòng là $R$ và điện tích $Q$ phân bố đều trên vòng.
+
+\dapso{$E(x) = Qx/\left[4\pi\varepsilon_0(R^2+x^2)^{3/2}\right]$.}
+
+\baitap{97} Hãy ước lượng bán kính electron, giả định rằng khối lượng nghỉ của electron ($m=9{,}1\times10^{-31}\,\mathrm{kg}$) bắt nguồn từ năng lượng tĩnh điện của điện tích của nó ($\Pi = mc^2$). Trong mô hình đơn giản nhất, có thể coi điện tích electron ($-e=-1{,}6\times10^{-19}\,\mathrm{C}$) phân bố đều trên ``bề mặt'' của nó.
+
+\dapso{$r = e^2/(8\pi\varepsilon_0 mc^2) \approx 1{,}4\times10^{-15}\,\mathrm{m}$.\footnote{Đại lượng $e^2/(4\pi\varepsilon_0 mc^2) \approx 2{,}8\times10^{-15}\,\mathrm{m}$ được gọi là bán kính cổ điển của electron.}}
+
+\subsection{Vật dẫn trong trường tĩnh điện}
+
+Cho tới nay ta đã xét các bài toán trong đó sự phân bố điện tích trong không gian được cho trước và cố định. Khi đưa một vật dẫn hoặc điện môi vào trường tĩnh điện, ta phải tính đến sự dịch chuyển lại của các điện tích bên trong vật chất dưới tác dụng của trường. Các điện tích đó là các hạt tải điện tự do trong vật dẫn (có thể chuyển động trong toàn bộ thể tích vật dẫn) và các electron liên kết với nguyên tử trong điện môi (có thể bị dịch chuyển khỏi vị trí cân bằng khi có trường ngoài -- vật chất bị phân cực). Trong các bài toán như vậy, thường biết trước sự phân bố điện tích bên ngoài vật dẫn hay điện môi, còn sự phân bố điện tích bên trong vật chất thì chưa biết.
+
+Vật dẫn, xét về mặt tĩnh điện học, có một loạt tính chất thú vị, bắt nguồn từ sự tồn tại các hạt tải điện tự do.
+
+\begin{enumerate}
+\item Bên trong vật dẫn không có điện trường. Nếu điện trường khác không, các hạt tải điện tự do sẽ bắt đầu chuyển động và tự sắp xếp lại bên trong vật dẫn, cho đến khi điện trường do chúng gây ra bù trừ vừa đúng điện trường ngoài.
+\item Các điện tích đã dịch chuyển lại luôn tập trung trên bề mặt vật dẫn, còn ở những nơi khác mật độ điện tích khối bằng không.\footnote{Các điện tích tích tụ trên bề mặt vật dẫn tạo thành một lớp rất mỏng, trong đó cường độ điện trường biến đổi liên tục từ không tới $E$, với $E$ là cường độ điện trường ngay sát bên ngoài vật dẫn. Theo quan điểm vĩ mô, có thể coi bề dày của lớp chuyển tiếp này bằng không, và nói rằng cường độ điện trường biến đổi đột ngột từ không tới $E$. Về sau, ta thường nói về tính liên tục hay gián đoạn của một trường nào đó trên mặt phân cách các môi trường theo nghĩa này. Nếu cần tìm lực tác dụng lên các điện tích mặt này, có thể lấy cường độ điện trường trung bình trong lớp mặt là $E/2$, như đã thấy trong lời giải bài~79.} Điều này bắt nguồn từ tính chất trước và định lý Gauss. Hệ quả: việc tạo một khoang rỗng bên trong vật dẫn không làm xáo trộn sự cân bằng điện tích trên bề mặt vật dẫn.
+\item Vì trường bên trong vật dẫn bằng không, điện thế phải giống nhau tại mọi điểm của vật dẫn. Do đó vật dẫn là một vật đẳng thế và bề mặt vật dẫn là một mặt đẳng thế, tức điện trường vuông góc với bề mặt vật dẫn tại mọi điểm. Thật vậy, nếu không như vậy, các hạt tải điện tự do sẽ dịch chuyển dọc theo bề mặt cho đến khi đạt được cân bằng. Ở đây có sự tương tự với bề mặt chất lỏng, là một mặt đẳng thế đối với trường trọng lực, tức vuông góc với vectơ gia tốc trọng trường.
+\end{enumerate}
+
+Mật độ điện tích tự do cảm ứng trên bề mặt vật dẫn được xác định bởi trường tổng hợp ngay sát bề mặt vật dẫn (qua định lý Gauss). Trường tổng hợp là chồng chất của trường ngoài và trường của các điện tích mặt. Nói chung, việc liên hệ trường của các điện tích mặt với mật độ điện tích mặt là phức tạp. Chỉ trong trường hợp hình học phẳng, mối liên hệ giữa thành phần pháp tuyến của trường điện tích mặt và mật độ điện tích mặt mới dễ dàng tìm được bằng định lý Gauss. Sau khi tìm được mối liên hệ giữa trường điện tích mặt và mật độ điện tích, chỉ còn phải viết ra điều kiện là trường tổng hợp bên trong vật dẫn (ngay sát bề mặt) bằng không.
+
+Điện tích thêm vào vật dẫn phân bố trên bề mặt của nó sao cho mọi điểm của vật dẫn đạt cùng một điện thế. \emph{Điện dung} của vật dẫn được hiểu là điện tích cần để nâng điện thế vật dẫn lên một đơn vị. Dễ dàng kiểm chứng rằng điện dung của một mặt cầu là $4\pi\varepsilon_0 R$, trong đó $R$ là bán kính mặt cầu. Từ đây ta thấy rằng điện dung của vật dẫn tăng tỉ lệ với kích thước tuyến tính đặc trưng của nó. Điện dung của một vật dẫn khá lớn (ví dụ Trái Đất) thường có thể xem là vô hạn, tức điện thế của nó hầu như không đổi khi thêm hoặc bớt điện tích, và thường có thể lấy bằng không. Khi tính điện dung cần lưu ý rằng, điện tích thêm vào một vật dẫn có thể gây ra những thay đổi ở các vật dẫn xung quanh, đến lượt nó lại ảnh hưởng đến điện thế của vật dẫn đang xét.
+
+\baitap{98} Hai quả cầu kim loại bán kính $R_1$ và $R_2$ cách nhau một khoảng lớn hơn nhiều so với bán kính của chúng. Cả hai quả cầu đều có điện tích $q$. Điện tích của các quả cầu sẽ trở thành bao nhiêu nếu nối chúng bằng một dây dẫn?
+
+\dapso{$q_1 = 2qR_1/(R_1+R_2)$, $q_2 = 2qR_2/(R_1+R_2)$.}
+
+\baitap{99} Trên một vật dẫn phẳng vô hạn, tại độ cao $h$ tính từ bề mặt vật dẫn, người ta đặt một điện tích điểm $q$. Tìm mật độ điện tích cảm ứng $\sigma$ trên bề mặt vật dẫn.
+
+\dapso{$\sigma(r) = -qh/(2\pi r^3)$, trong đó $r$ là khoảng cách từ điểm trên bề mặt vật dẫn tới $q$.}
+
+\baitap{100} Một quả cầu kim loại bán kính $r$ có điện tích $q$. Quả cầu được nối đất qua một dây dẫn dài, có điện trở $R$. Tìm cường độ dòng điện qua dây dẫn ngay tại thời điểm ban đầu.
+
+\dapso{$I_0 = q/(4\pi\varepsilon_0 rR)$.}
+
+\baitap{101} Bên trong một mặt cầu kim loại bán kính $R$ có một quả cầu kim loại bán kính $r$. Tâm quả cầu và tâm mặt cầu trùng nhau. Quả cầu được nối đất bằng một dây dẫn dài (dây đi qua một lỗ nhỏ trên bề mặt mặt cầu). Giữa mặt cầu và quả cầu không có tiếp xúc điện qua đường nối đất. a) Mặt cầu được tích điện $Q$. Điện tích cảm ứng trên bề mặt quả cầu là bao nhiêu? b) Tìm điện dung của mặt cầu.
+
+\dapso{a) $q=-Qr/R$; \quad b) $C = 4\pi\varepsilon_0 R^2/(R-r)$.}
+
+\subsection{Phương pháp ảnh điện trong vật dẫn}
+
+Để xác định trường của các điện tích mặt cảm ứng, ta lưu ý rằng trường bên ngoài vật dẫn chỉ được xác định bởi điện thế của vật dẫn và các điện tích nằm ngoài vật dẫn, không nhất thiết phải biết cách phân bố thực của các điện tích mặt cảm ứng. Có thể minh hoạ điều này bằng một ví dụ đơn giản sau. Trên Hình~47a là các đường sức (nét liền) và các mặt đẳng thế (nét đứt) của điện trường hai điện tích điểm. Trên Hình~47b, một trong hai điện tích được thay bằng một vật dẫn sao cho bề mặt vật dẫn trùng với một trong các mặt đẳng thế ban đầu, và điện thế vật dẫn được cố định đúng bằng giá trị ứng với mặt đẳng thế đó. Sau thao tác này, trường bên ngoài vật dẫn nhìn hoàn toàn giống trường ban đầu. Do đó, trường của các điện tích mặt cảm ứng, trong trường hợp này, tương đương với trường của một điện tích điểm được chọn phù hợp. Ý tưởng của \emph{phương pháp ảnh điện} là như sau: thay các điện tích mặt cảm ứng bằng một hay nhiều điện tích điểm hư cấu $q', q'', \dots$ đặt bên trong vật dẫn, sao cho điện thế trên bề mặt vật dẫn không đổi. Các điện tích $q', q'', \dots$ được gọi là \emph{ảnh} của điện tích $q$. Trường của các điện tích mặt bên ngoài vật dẫn khi đó tương đương với trường của các điện tích ảnh. Với thủ thuật này, tất nhiên trường bên trong vật dẫn sẽ thay đổi, nhưng điều đó không còn quan trọng với ta nữa, vì trường bên trong vật dẫn dù sao ta cũng đã biết (nó bằng không). Trong nhiều trường hợp, khi bề mặt vật dẫn có hình học đơn giản (mặt phẳng, mặt cầu, mặt trụ, v.v.), có thể đoán ra vị trí điện tích ảnh một cách khá dễ dàng. Sau khi giả định vị trí điện tích ảnh, để xác định độ lớn của nó, có thể dùng một trong hai điều kiện tương đương: 1) Yêu cầu $\mathbf{E}$ vuông góc với bề mặt vật dẫn tại mọi điểm. 2) Yêu cầu bề mặt vật dẫn là một mặt đẳng thế.
+
+Vật dẫn đang xét có thể được \emph{nối đất} hoặc \emph{cô lập}. Vật dẫn nối đất là vật dẫn tiếp xúc điện với một vật dẫn rất lớn (ví dụ Trái Đất), có điện thế thực tế không đổi (bằng không). Điện tích của vật dẫn nối đất có thể thay đổi (qua đường nối đất). Điện thế của vật dẫn cô lập có thể thay đổi, nhưng tổng điện tích của nó không đổi, do đó tổng các điện tích ảnh cũng cố định (hệ quả của định lý Gauss). Trong trường hợp này, một trong các ảnh thường là một lưỡng cực điện.
+
+Mật độ điện tích cảm ứng tỉ lệ với cường độ điện trường đã gây ra nó. Từ đó suy ra \emph{nguyên lý chồng chất}: nếu một điện tích riêng lẻ $q_1$ gây ra tại một điểm nào đó trên bề mặt vật dẫn mật độ điện tích $\sigma_1$, và một điện tích riêng lẻ $q_2$ gây ra tại cùng điểm đó mật độ điện tích $\sigma_2$, thì dưới tác dụng đồng thời của $q_1$ và $q_2$, mật độ điện tích cảm ứng tại điểm đó là $\sigma_1+\sigma_2$.
+
+\baitap{102} Bên trong một mặt cầu kim loại có một điện tích điểm $q$ ở khoảng cách $r$ tính từ tâm mặt cầu. Bán kính mặt cầu là $R$. Điện thế của mặt cầu là bao nhiêu?
+
+\dapso{$\varphi = q/(4\pi\varepsilon_0 R)$.}
+
+\baitap{103} Phía trên một vật dẫn phẳng vô hạn, ở độ cao $h$ tính từ bề mặt của nó, có một điện tích điểm $q$. Lực tác dụng lên điện tích này là bao nhiêu?
+
+\dapso{$F = q^2/(16\pi\varepsilon_0 h^2)$.}
+
+\baitap{104} Một mặt cầu kim loại bán kính $R$ được đặt vào một điện trường đều $\mathbf{E}_0$. Tìm mật độ điện tích cảm ứng trên bề mặt mặt cầu và điện trường trong không gian xung quanh mặt cầu. \goiy{Trường do các điện tích mặt gây ra bên ngoài mặt cầu tương tự như trường của một lưỡng cực đặt tại tâm mặt cầu. (Biểu thức điện thế của trường lưỡng cực đã được tìm ở bài~94.)}
+
+\dapso{
+\[
+E_r = \left(2\frac{R^3}{r^3}+1\right)E_0\cos\theta, \qquad E_\theta = \left(\frac{R^3}{r^3}-1\right)E_0\sin\theta,
+\]
+\[
+\sigma(\theta) = 3\varepsilon_0 E_0\cos\theta,
+\]
+trong đó $\theta$ là góc giữa các vectơ $\mathbf{E}_0$ và $\mathbf{r}$.}
+
+\baitap{105} Một hình trụ kim loại bán kính $R$ được đặt vào một điện trường đều $\mathbf{E}_0$; trục hình trụ vuông góc với $\mathbf{E}_0$. Tìm mật độ điện tích cảm ứng trên bề mặt hình trụ và điện trường trong không gian xung quanh hình trụ. \goiy{Ý tưởng lời giải hoàn toàn giống bài trước, chỉ khác là trong trường hợp đang xét, các điện tích ảnh cần được xem là hai dây dài vô hạn, sát nhau, tích điện trái dấu, chạy dọc theo trục hình trụ. Trường của chúng được xác định theo cùng nguyên tắc như với lưỡng cực (bài 81, 82).}
+
+\dapso{
+\[
+E_r = \left(\frac{R^2}{r^2}+1\right)E_0\cos\theta, \qquad E_\theta = \left(\frac{R^2}{r^2}-1\right)E_0\sin\theta, \qquad \sigma(\theta)=2\varepsilon_0 E_0\cos\theta.
+\]}
+
+\baitap{106} Điện tích $q$ nằm gần một mặt cầu kim loại nối đất, cách tâm mặt cầu một khoảng $h$. Bán kính mặt cầu là $R$. Tìm lực tác dụng lên điện tích.
+
+\dapso{$F = -\dfrac{hRq^2}{4\pi\varepsilon_0(h^2-R^2)^2}$. Điện tích ảnh là $q' = -Rq/h$, đặt cách tâm mặt cầu một khoảng $R^2/h$.}
+
+\baitap{107} Giải lại bài trước trong trường hợp mặt cầu không nối đất. \goiy{Chỉ cần bổ sung một chút vào lời giải bài~106.}
+
+\dapso{$F = -\dfrac{R^3(2h^2-R^2)q^2}{4\pi\varepsilon_0 h^3(h^2-R^2)^2}$.}
+
+\baitap{108} Khoảng cách giữa các bản của tụ điện phẳng là $d$, diện tích bản là $S$. Cả hai bản đều được nối đất. Ở giữa các bản, cách bản thứ nhất một khoảng $x$, người ta đưa vào một điện tích điểm $q$. Điện tích tích tụ trên mỗi bản là bao nhiêu?
+
+\dapso{$q_1 = -q(1-x/d)$, $q_2 = -qx/d$.}
+
+\subsection{Điện môi trong trường tĩnh điện}
+
+Tính chất của điện môi được xác định bởi các điện tích liên kết (hạt nhân nguyên tử và các electron thuộc thành phần của nguyên tử). Mặc dù các điện tích này không thể rời khỏi phạm vi nguyên tử của chúng, nhưng dưới tác dụng của điện trường ngoài, chúng có thể dịch chuyển khỏi vị trí cân bằng. Điện tích dương dịch chuyển theo hướng trường, điện tích âm theo hướng ngược lại -- điện môi bị \emph{phân cực}.\footnote{Ở mức vi mô, có thể phân biệt ba cơ chế phân cực. 1) Điện trường ``kéo dẹt'' các đám mây electron của nguyên tử, khiến trọng tâm điện tích của các electron dịch chuyển; 2) nếu điện môi gồm các phân tử có mômen lưỡng cực thường trực, điện trường sẽ định hướng một phần các phân tử này theo hướng của trường; 3) đối với tinh thể ion, có thể hình dung rằng các phân mạng tạo bởi các ion trái dấu dịch chuyển tương đối với nhau như những khối nguyên vẹn. Ở góc độ vĩ mô, kết quả (sự phân cực của vật chất) trong mọi trường hợp là như nhau và được mô tả theo cùng một cách.} Nếu sự phân cực đồng đều trong không gian, thì bên trong điện môi mật độ điện tích khối vẫn bằng không, còn trên bề mặt xuất hiện một mật độ điện tích mặt liên kết nào đó.
+
+Để mô tả trường trong điện môi, ngoài cường độ điện trường, còn tiện lợi khi dùng thêm \emph{độ điện dịch} $\mathbf{D} = \varepsilon\varepsilon_0\mathbf{E}$, trong đó hằng số điện môi tương đối $\varepsilon$ là một hằng số đặc trưng cho vật liệu điện môi. Trong chân không $\varepsilon=1$. Độ điện dịch được định nghĩa theo cách sao cho nó chỉ được xác định bởi sự phân bố điện tích tự do -- nó tự động đã tính đến sự phân cực của điện môi. Do đó, thành phần pháp tuyến $D_n$ của vectơ $\mathbf{D}$ là liên tục trên mặt phân cách giữa hai điện môi. Cũng liên tục là thành phần tiếp tuyến $E_\tau$ của cường độ điện trường (các điện tích cảm ứng chỉ gây ra sự gián đoạn của thành phần trường theo phương pháp tuyến). Định lý Gauss, viết theo độ điện dịch, có dạng:
+\[
+\oint_S D_n\,dS = \sum_i q_i,
+\]
+trong đó $q_i$ là các điện tích tự do được bao bọc bởi mặt $S$.
+
+Khác với vật dẫn, các điện tích mặt cảm ứng trong điện môi không thể triệt tiêu hoàn toàn trường ngoài bên trong điện môi, mà chỉ làm yếu đi (mức độ làm yếu này được đặc trưng chính bởi $\varepsilon$). Trường bên trong điện môi sẽ như thế nào phụ thuộc vào hình dạng của điện môi và hướng của nó so với trường ngoài. Đối với trường ngoài đều, trong nhiều trường hợp (bản phẳng, khối cầu, hình trụ) hợp lý khi giả định rằng trường bên trong điện môi cũng đều và điện môi bị phân cực đều. Khi đó chỉ còn phải xác định xem, với cách chọn phù hợp độ lớn cường độ trường và độ phân cực, có thoả mãn được điều kiện liên tục của $D_n$ và $E_\tau$ trên khắp bề mặt điện môi hay không. Ở đây cũng cần lưu ý rằng một vật thể phân cực đều có thể được xem như chồng chất của hai vật thể tích điện đều, trái dấu, hơi lệch nhau một chút. Việc tính điện trường bên ngoài vật thể khi đó thực hiện theo cùng nguyên tắc như trong các bài~104 và~105.
+
+Để kiểm tra tính đúng đắn của lời giải, nên kiểm chứng rằng với $\varepsilon=1$ ta thu được cùng kết quả như đối với chân không.
+
+\baitap{109} Khoảng cách giữa các bản của tụ điện phẳng là $d$, diện tích $S$, và giữa các bản có một điện môi với hằng số điện môi $\varepsilon$. a) Tìm điện dung của tụ điện; b) tìm lực tác dụng giữa các bản của tụ điện khi đặt vào chúng một hiệu điện thế $U$ (có thể giả định rằng không có tiếp xúc cơ học giữa điện môi và các bản).
+
+\dapso{a) $C=\varepsilon\varepsilon_0 S/d$; \quad b) $F = \varepsilon^2\varepsilon_0 SU^2/2d^2$.}
+
+\baitap{110} Một tụ điện phẳng được nhúng chìm trong một chất lỏng không dẫn điện, có hằng số điện môi $\varepsilon$. Tìm lực tác dụng giữa các bản, nếu diện tích bản là $S$, khoảng cách $d$, và điện tích $\pm Q$.
+
+\dapso{$F = -Q^2/(2\varepsilon\varepsilon_0 S)$; kết quả cho thấy điện môi bị phân cực tạo thêm một lực bổ sung lên các điện cực, và $\varepsilon$ có thể được hiểu là đại lượng cho biết lực tĩnh điện hút giữa các vật thể tích điện đặt trong điện môi nhỏ hơn bao nhiêu lần so với trong chân không.}
+
+\baitap{111} Một tấm điện môi bề dày đều được đặt trong điện trường đều $\mathbf{E}_0$, pháp tuyến của tấm tạo với $\mathbf{E}_0$ một góc $\theta$. Hằng số điện môi tương đối là $\varepsilon$. Tìm điện trường bên trong tấm và mật độ điện tích liên kết cảm ứng trên bề mặt tấm.
+
+\dapso{$E_\parallel = E_0\sin\theta$, $E_\perp = E_0\cos\theta/\varepsilon$, $\sigma = E_0\cos\theta(\varepsilon-1)/\varepsilon\varepsilon_0$.}
+
+\baitap{112} Một hình trụ điện môi dài được đặt vào điện trường đều $\mathbf{E}_0$. Tìm trường bên trong hình trụ khi trục hình trụ: a) song song với $\mathbf{E}_0$; b) vuông góc với $\mathbf{E}_0$.
+
+\dapso{a) $E=E_0$; \quad b) $E = 2E_0/(\varepsilon+1)$.}
+
+\baitap{113} Một khối cầu điện môi bán kính $R$ được đặt vào điện trường đều $\mathbf{E}_0$. Tìm trường bên trong khối cầu và mật độ điện tích cảm ứng trên bề mặt khối cầu.
+
+\dapso{$E = \dfrac{3E_0}{2+\varepsilon}$, \quad $\sigma(\theta) = \dfrac{3\varepsilon-1}{\varepsilon+2}\varepsilon_0 E_0\cos\theta$.}
+
+\subsection{Phương pháp ảnh điện trong điện môi}
+
+Xét hai môi trường điện môi tiếp xúc với nhau. Đặt một điện tích $q$ vào môi trường 1. Do tác dụng của nó, trên mặt phân cách hai điện môi sẽ xuất hiện một sự phân bố điện tích liên kết $\sigma$ nào đó. $\sigma$ được xác định bởi trường tổng hợp (qua định lý Gauss), mà trường này lại phụ thuộc vào $\sigma$. Để tính đến tác động của các điện tích cảm ứng trong môi trường 1, ta thay chúng bằng một điện tích ảnh $q'$ được chọn phù hợp (như ta đã làm với vật dẫn). Tuy nhiên, đối với người quan sát trong môi trường 2, ta không thể giữ nguyên điện tích $q'$. Ở đây thay vào đó ta giả định rằng tác dụng chắn của điện tích $\sigma$ tương tự như thể có điện tích $q''$ thay cho $q$. Yêu cầu các đại lượng $E_\tau$ và $D_n$ liên tục trên mặt phân cách hai điện môi, ta thu được một hệ phương trình tuyến tính để xác định $q'$ và $q''$.
+
+\baitap{114} Gần mặt phân cách giữa hai điện môi phẳng vô hạn, ở khoảng cách $h$, có một điện tích điểm $q$. Hằng số điện môi hai bên là $\varepsilon_1$ và $\varepsilon_2$. Tìm trường trong mỗi điện môi.
+
+\dapso{$\mathbf{E}_1 = \dfrac{q}{4\pi\varepsilon_0 r_1^2}\hat{\mathbf{r}}_1 + \dfrac{q'}{4\pi\varepsilon_0 r_2^2}\hat{\mathbf{r}}_2$, \quad $\mathbf{E}_2 = \dfrac{q''}{4\pi\varepsilon_0 r_1^2}\hat{\mathbf{r}}_1$, \quad $q' = \dfrac{\varepsilon_1-\varepsilon_2}{\varepsilon_1+\varepsilon_2}q$, \quad $q'' = \dfrac{2\varepsilon_1}{\varepsilon_1+\varepsilon_2}q$. Ở đây $r_1$ là khoảng cách từ điểm khảo sát tới điện tích $q$, còn $r_2$ là khoảng cách từ điểm khảo sát tới ảnh $q'$ của điện tích $q$.}
+
+\subsection{Điện môi trong trường không đều}
+
+Trong trường không đều, có một lực tác dụng lên điện môi, kéo nó vào vùng trường mạnh hơn (đối với phân tử phân cực, có thể kiểm chứng điều này qua ví dụ bài~86). Nếu trường không đều một cách yếu (tức biến đổi ít trong phạm vi kích thước điện môi), thì có thể xem điện môi bị phân cực đều, và trong những trường hợp đơn giản (ví dụ khối cầu), có thể tính trực tiếp lực tác dụng lên điện môi. Phần lớn các bài toán thuộc mục này liên quan đến tụ điện, trong đó sự không đều của trường thể hiện ở mép của tụ điện (bài~52, 53, 54, 110). Như đã thấy ở trên, các bài toán như vậy có thể giải bằng phương pháp dịch chuyển ảo mà không cần phân tích chi tiết hành vi của trường ở các mép.
+
+\baitap{115} Tìm lực tác dụng lên một khối cầu điện môi trong trường không đều $\mathbf{E}(\mathbf{r})$. Bán kính khối cầu là $R$, hằng số điện môi vật liệu là $\varepsilon$. \goiy{Xem bài~113 và~86.}
+
+\dapso{Thành phần lực theo trục $x$:
+\[
+F_x = 2\pi\varepsilon_0 R^3\,\frac{\varepsilon-1}{\varepsilon+2}\,\frac{\partial}{\partial x}E^2.
+\]}
+
+\emph{(Hình 43--47: xem Phụ lục, trang gốc 17--20.)}
+
+LATEXEOF
+echo done; wc -l /home/claude/build/dientu.tex
