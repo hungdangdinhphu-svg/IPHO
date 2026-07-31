@@ -113,6 +113,55 @@ Prompt 2 :
 
 
 
+(Vietnamese & English)
+
+Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh chuẩn bị tham gia kỳ thi cực kỳ quan trọng. Tôi có đưa ra rất nhiều thông tin bên dưới, bạn hãy giúp tôi thực hiện nó, viết ra một file ".md" hãy thật chi tiết và đầy đủ và đảm bảo thực hiện chính xác những gì tôi nói.
+
+
+# Information & References :
+
+**I. Những tài liệu tôi đã gửi cho bạn :**
+
+Đây là các tài liệu/link về kiến thức/lý thuyết/ý tưởng và có thể có cả bài tập (hay còn gọi là "Kiến thức đã có", KTĐC) :
+
+1. Tài liệu từ Kalda và những người khác : https://ioc.ee/~kalda/ipho/
+
+
+2. IPHO Syllabus : https://www.ipho-new.org/statutes-syllabus/
+
+3. Elekter.pdf ; meh_ENG2.pdf ;
+
+Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nhiên hiện tại bạn chỉ cần làm mỗi dạng này thôi nhé) : Mechanics & Elektri ja magnetismi (Điện và Từ, lưu ý : Tài liệu này không đầy đủ về ELECTRICAL CIRCUITS)
+
+
+
+**II. Thông tin về thí sinh tôi đang giảng dạy, và các thông tin bổ sung :**
+
+Thí sinh đang thuộc lớp : 11
+
+Thuộc Kỳ thi : IPHO, VPHO, "KỲ THI CHỌN ĐỘI TUYỂN HỌC SINH GIỎI THPT NĂM HỌC 2027-2028 (TP.HCM, Môn Vật Lý)"
+
+
+
+
+
+# Thông tin về tài liệu .md tôi đã gửi cho bạn
+
+Đó là một bản framework, mặc dù đã có nhiều nội dung, tuy nhiên nó chưa hoàn chỉnh và chưa "completeness", cũng như chưa đạt được Target thực sự, bạn hãy giúp tôi hoàn thiện 100% nó.
+
+
+
+# Tính tổng quát hóa và cách chống việc lạm dụng case-by-case hoặc pattern recognition
+
+Quan sát quan trọng : Người ra đề có thể đổi cách hỏi, nhưng họ KHÔNG THỂ đổi luật của Vũ trụ. 
+
+
+Thực tế, mặc dù tôi đã có nhiều quan sát quan trọng, tuy nhiên tôi vẫn chưa rõ phải làm như nào để đạt mục tiêu. 
+
+
+Ta cần phải tạo ra 1 cách để có thể giúp học sinh có trực giác trung bình nhưng kỷ luật và chăm chỉ có thể **Mô hình hóa** (để từ bài Vật Lý sang được bài toán Thuần túy) với mọi bài Lý thuyết trong kỳ thi tôi nêu trên, đảm bảo tính **Tổng quát** của nó. Hay có thể gọi là : "Thuật toán Tổng quát" để mô hình hóa để học sinh với trực giác trung bình giải được mọi bài vật Lý kể cả IPHO/VPHO ?
+
+**Target của ta : Phải làm cho việc Mô Hình Hóa trở nên khả thi hoàn toàn cho học sinh có trực giác trung bình làm được (chỉ cần chăm chỉ). Đảm bảo tính **Tổng quát** và khả thi để đạt giải cao tại IPHO/VPHO,...**
 
 
 
@@ -128,6 +177,7 @@ Prompt 2 :
 
 
 
+---
 
 
 
