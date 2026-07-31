@@ -1,0 +1,153 @@
+---
+
+Prompt 1 :
+
+(Vietnamese & English)
+
+Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh chuẩn bị tham gia kỳ thi cực kỳ quan trọng. Tôi có đưa ra rất nhiều thông tin bên dưới, bạn hãy giúp tôi thực hiện nó, viết ra một file ".md" hãy thật chi tiết và đầy đủ và đảm bảo thực hiện chính xác những gì tôi nói.
+
+
+# Information & References :
+
+**I. Những tài liệu tôi đã gửi cho bạn :**
+
+Đây là các tài liệu/link về kiến thức/lý thuyết/ý tưởng và có thể có cả bài tập (hay còn gọi là "Kiến thức đã có", KTĐC) :
+
+1. Tài liệu từ Kalda và những người khác : https://ioc.ee/~kalda/ipho/
+
+
+2. IPHO Syllabus : https://www.ipho-new.org/statutes-syllabus/
+
+3. Elekter.pdf ; meh_ENG2.pdf ;
+
+Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nhiên hiện tại bạn chỉ cần làm mỗi dạng này thôi nhé) : Mechanics & Elektri ja magnetismi (Điện và Từ, lưu ý : Tài liệu này không đầy đủ về ELECTRICAL CIRCUITS)
+
+
+
+**II. Thông tin về thí sinh tôi đang giảng dạy, và các thông tin bổ sung :**
+
+Thí sinh đang thuộc lớp : 11
+
+Thuộc Kỳ thi : IPHO, VPHO, "KỲ THI CHỌN ĐỘI TUYỂN HỌC SINH GIỎI THPT NĂM HỌC 2027-2028 (TP.HCM, Môn Vật Lý)"
+
+
+# The relationship between the information given in the problem and the solution (ans) :
+
+**Quan sát quan trọng :** Theo lý thuyết thông tin & Về mặt toán học, Không gian (3D) thì : Một đề bài Vật lý không hẳn là một chuỗi văn bản và hình ảnh để miêu tả thông thường, mà nó là một bản **mã hóa** chứa đầy đủ các điều kiện biên và ràng buộc.
+
+Nếu ta có thể **giải mã** được đầy đủ nó, **chắc chắn** (vì lúc đó nó đã biến thành bài toán thuần túy) ta sẽ giải được toàn bộ bài đấy dựa trên các "Kiến thức đã có" (KTĐC) về Toán.
+
+Tức là, ta cần một cách để học sinh với trực giác trung bình có thể nhìn hình ảnh/văn bản từ đề, và có thể **giải mã** đầy đủ được, và nó phải **Tổng quát** cho độ khó của kỳ thi tôi đã nêu trên.
+
+Tuy nhiên cách đấy phải **Tổng quát** cho mọi bài nằm trong độ khó tôi đã nêu, và vì là **Tổng quát** nên sẽ không phải case-by-case. Vì nếu là case-by-case mà không **Tổng quát** thực sự thì đề thi chỉ cần thay đổi cấu trúc thì sẽ đánh bại được thí sinh.
+
+Và cho dù đề thi có khỡ cỡ IPHO, có cố gắng "xáo trộn", "giấu diếm" thì đề thi đó vẫn buộc phải luôn luôn mang đủ thông tin cho ta giải được nó, hay nó khả thi để giải được với việc ta sử dụng KTĐC.
+
+**Lưu ý :** Để đảm bảo không xảy ra mất mát thông tin, thì phải biết rằng mọi từ, mọi chữ trong đề bài đều cực kỳ quan trọng, không được bỏ qua. Nếu là hình ảnh thì phải nhìn đủ mọi chi tiết, liếc mắt chậm rãi từ trái sang phải và trên xuống dưới để "quét" toàn bộ hình.
+
+# In-depth analysis and problem-solving process
+
+Đây là quy trình **bắt buộc** :
+
+
+
+                  ┌────────────────────────────────────────┐
+                  │    HIỆN TƯỢNG VẬT LÝ (ĐỀ BÀI)          │
+                  └───────────────────┬────────────────────┘
+                                      │
+                         [Thuật toán Quét & Giải mã|
+                                      │
+         ┌────────────────────────────┼────────────────────────────┐
+         ▼                            ▼                            ▼
+     |1. Bậc Tự Do (DOF)]     [2. Ràng Buộc & Biên|       [3. Đối Xứng Noether|
+         │                            │                            │
+         └────────────────────────────┼────────────────────────────┘
+                                      │
+                         |4. Xấp xỉ & Quy mô ĐL|
+                                      │
+                                      ▼
+                  ┌────────────────────────────────────────┐
+                  │ HỆ PHƯƠNG TRÌNH & ĐIỀU KIỆN BIÊN TOÁN  │
+                  └───────────────────┬────────────────────┘
+                                      │
+                             |Công cụ Toán học|
+                                      │
+                                      ▼
+                  ┌────────────────────────────────────────┐
+                  │            ĐÁP SỐ CHÍNH XÁC            │
+                  └────────────────────────────────────────┘
+
+
+Target của ta : Phải làm cho đường đi từ Hiện Tượng Vật Lý đến Hệ Phương trình & Điều kiện biên trở nên khả thi cho học sinh có trực giác trung bình làm được. Đảm bảo tính **Tổng quát** và khả thi để đạt giải cao tại IPHO/VPHO,...
+
+Một số thứ quan trọng :
+
+Degrees of Freedom : Số bậc tự do ($f$) là số tọa độ độc lập tối thiểu cần thiết để xác định hoàn toàn vị trí/trạng thái của hệ trong không gian cấu hình?
+
+Ràng buộc Hình học & Điều kiện Biên (Boundary & Constraints) : Mỗi ràng buộc hình học làm giảm số DOF của hệ đi 1 ($f_{effective} = f_{raw} - k$). Đề thi luôn cài cắm các ràng buộc này thông qua Từ khóa Ẩn?
+
+Noether's theorem : Mọi tính đối xứng của tự nhiên đều dẫn đến một đại lượng bảo toàn. Có vẻ việc phát hiện ra đối xứng giúp giảm ngay lập tức số DOF hiệu dụng.
+
+Kỹ thuật Xấp xỉ & Quy mô Đại lượng (Approximation & Scaling Laws) : Nhiều bài toán IPhO không thể giải đúng dưới dạng hàm đóng (closed-form solution). Thí sinh bắt buộc phải sử dụng xấp xỉ toán học để đưa về hệ tuyến tính hóa.
+
+Ban ra đề IPhO tập hợp những bộ óc Vật lý hàng đầu thế giới. Mục tiêu cốt lõi của họ khi sáng tác đề thi là: Anti-Algorithmic Design; Tuy nhiên tôi có góc nhìn này :
+
+Anti-Algorithmic Design, Anti-Anti-Algorithmic Design, Anti-Anti-Anti-Algorithmic Design, Anti-Anti-Anti-Anti-Algorithmic Design,...
+
+Anti-Virus, Anti-Anti-Virus, Anti-Anti-Anti-Virus,...
+
+
+Người ra đề có thể đổi cách hỏi, nhưng họ KHÔNG THỂ đổi luật của Vũ trụ. 
+
+# Tính tổng quát hóa và cách chống việc lạm dụng case-by-case hoặc pattern recognition
+
+Thực tế, mặc dù tôi đã có nhiều quan sát quan trọng, tuy nhiên tôi vẫn chưa rõ phải làm như nào để đạt mục tiêu. 
+
+
+Ta cần phải tạo ra 1 cách để có thể giúp học sinh có trực giác trung bình nhưng kỷ luật và chăm chỉ có thể **Mô hình hóa** (để sang được bước HPT & Điều kiện biên) với mọi bài Lý thuyết trong kỳ thi tôi nêu trên, đảm bảo tính **Tổng quát** của nó. Hay có thể gọi là : "Thuật toán Tổng quát" để mô hình hóa để học sinh với trực giác trung bình giải được mọi bài vật Lý kể cả IPHO/VPHO ?
+
+---
+
+Prompt 2 :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
