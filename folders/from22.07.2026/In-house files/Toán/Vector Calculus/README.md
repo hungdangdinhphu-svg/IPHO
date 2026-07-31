@@ -1,1 +1,3 @@
 Vector Calculus
+
+Giải tích Vectơ (Vector Calculus): Hiểu sâu về gradient, divergence, curl; các định lý tích phân (Gauss, Stokes),...
