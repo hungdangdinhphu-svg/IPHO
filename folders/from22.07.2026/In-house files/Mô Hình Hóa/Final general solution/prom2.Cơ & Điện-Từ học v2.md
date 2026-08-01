@@ -191,6 +191,9 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 **Virtual displacement :** https://en.wikipedia.org/wiki/Virtual_displacement
 
+**Vấn đề phát sinh 1 :** Vậy rốt cuộc quy trình tổng quát gần như tuyệt đối cho Cơ Học/Điện-Từ học (dù độ khó cỡ IPHO/VPHO) trong việc dùng virtual displacement là gì? Không phải "specific", trừ khi đó là "example".
+
+
 **Thủ tục phép dịch chuyển ảo (thuật toán 4 bước, `[MEH]` method 1):**
 1. Chọn 1 đại lượng $x$ mà ta *nghĩ* là bị ràng buộc (độ dài dây, khoảng cách...).
 2. Tưởng tượng $x \to x+\delta x$, giữ mọi thứ khác cố định trừ những gì hình học **buộc** phải thay đổi theo.
