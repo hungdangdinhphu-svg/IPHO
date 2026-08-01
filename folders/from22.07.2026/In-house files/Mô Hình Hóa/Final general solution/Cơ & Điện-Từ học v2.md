@@ -189,6 +189,8 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 **Phép kiểm tra gốc (khi từ khóa không rõ / bị "giấu"):** dùng **phép dịch chuyển ảo (virtual displacement)** — tưởng tượng hệ nhích một lượng vi phân $\delta$, hỏi "đại lượng nào **buộc phải không đổi**?" (chiều dài dây, thông lượng qua vòng siêu dẫn, điện tích trên vật cô lập…). Đây là cách tái tạo ràng buộc **từ nguyên lý đầu tiên**, không phụ thuộc từ khóa có xuất hiện hay không — đây là "lưới an toàn" chống lại việc đề bài dùng cách diễn đạt lạ để né từ khóa quen thuộc.
 
+**Virtual displacement :** https://en.wikipedia.org/wiki/Virtual_displacement
+
 **Thủ tục phép dịch chuyển ảo (thuật toán 4 bước, `[MEH]` method 1):**
 1. Chọn 1 đại lượng $x$ mà ta *nghĩ* là bị ràng buộc (độ dài dây, khoảng cách...).
 2. Tưởng tượng $x \to x+\delta x$, giữ mọi thứ khác cố định trừ những gì hình học **buộc** phải thay đổi theo.
