@@ -814,7 +814,7 @@ $M_{12}=M_{21}$ (chứng minh bằng tính công tổng cộng cần thiết đ�
 
 ---
 
-## PHẦN 10 — KẾT LUẬN & CHIẾN LƯỢC LUYỆN TẬP
+## PHẦN 10 — KẾT LUẬN 
 
 ### 10.1 Tóm tắt tính "Tổng quát" đã đạt được
 
@@ -835,10 +835,7 @@ Không còn bước nào trong toàn bộ quy trình bị bỏ trống hoặc ch
 
 ### 10.2 Giao thức luyện tập đề xuất cho học sinh lớp 11 hướng tới IPhO/VPhO 2027–2028
 
-1. **Giai đoạn 1 (2–3 tháng):** với **mọi** bài trong `[MEH]` (Statics → Dynamics) và `[ELK]` (Alalisvooluahelad → Elektromagnetiline induktsioon), viết tường minh B0–B10 ra giấy, kể cả bài đã biết cách giải. Không được bỏ qua bước nào, kể cả khi "hiển nhiên".
-2. **Giai đoạn 2 (2–3 tháng):** làm bài có tính thời gian (mỗi bài giới hạn thời gian như thi thật), nhưng **vẫn viết tắt** B0–B10 dưới dạng gạch đầu dòng nhanh (30 giây/bước) trước khi giải chi tiết — mục tiêu là biến quy trình thành phản xạ.
-3. **Giai đoạn 3 (trước thi 1–2 tháng):** làm đề thi thật (IPhO cũ, VPhO cũ) theo đúng thời gian thi, chỉ dùng B0–B10 **trong đầu** (không viết ra), nhưng nếu bế tắc >5 phút ở bất kỳ bài nào, **quay lại viết tường minh B0–B7** trên giấy nháp — đây chính là cơ chế "lưới an toàn" hoạt động đúng lúc cần.
-4. **Xuyên suốt:** mỗi khi giải sai 1 bài, **truy ngược** xem sai ở bước B nào cụ thể (đếm sai DOF? bỏ sót ràng buộc? dùng bảo toàn sai thứ tự với Lagrangian? chọn sai phương pháp ở B7?) — ghi vào "nhật ký lỗi theo bước B" để nhận diện điểm yếu hệ thống, thay vì chỉ nhớ "bài này khó".
+**Xuyên suốt:** mỗi khi giải sai 1 bài, **truy ngược** xem sai ở bước B nào cụ thể (đếm sai DOF? bỏ sót ràng buộc? dùng bảo toàn sai thứ tự với Lagrangian? chọn sai phương pháp ở B7?) — ghi vào "nhật ký lỗi theo bước B" để nhận diện điểm yếu hệ thống, thay vì chỉ nhớ "bài này khó".
 
 ### 10.3 Thông điệp cốt lõi
 
