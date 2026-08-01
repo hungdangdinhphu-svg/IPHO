@@ -1,4 +1,4 @@
-Lưu ý quan trọng : Tôi giả định rằng ta đã học và đã làm nhiều bài tập và đọc nhiều lý thuyết để ta có dày dặn kinh nghiệm, pattern, case-by-case từ trước. Những gì tôi ghi ở bên dưới thường chỉ liên quan đến những gì thực sự tổng quát hoặc cực kỳ phổ biến.
+Lưu ý quan trọng : Tôi giả định rằng ta đã học và đã làm nhiều bài tập và đọc nhiều lý thuyết (Toán lẫn Vật Lý) để ta có dày dặn kinh nghiệm, pattern, case-by-case từ trước. Những gì tôi ghi ở bên dưới thường chỉ liên quan đến những gì thực sự tổng quát hoặc cực kỳ phổ biến.
 
 # CÁCH GIẢI TỔNG QUÁT: CƠ HỌC & ĐIỆN–TỪ HỌC
 ### (Bản hoàn chỉnh — v3.0 — dùng cho ôn luyện IPhO / VPhO / Đội tuyển HSG Vật Lý THPT TP.HCM 2027–2028)
