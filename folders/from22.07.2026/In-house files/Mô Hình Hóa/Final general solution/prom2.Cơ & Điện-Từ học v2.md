@@ -201,6 +201,22 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 3. Viết biểu thức các đại lượng khác thay đổi theo $\delta x$ như thế nào (đây chính là các hệ số trong ràng buộc Pfaff, §3.1).
 4. Nếu tổng công ảo/năng lượng ảo phải bằng 0 vì lý do vật lý (dây không giãn không tiêu tán năng lượng, vật cứng không biến dạng) $\Rightarrow$ ràng buộc được xác nhận và định lượng hoá.
 
+**Giải thích 1 số thứ :**
+
+1. "Đại lượng x" trong bài viết là một đại lượng hình học hoặc vật lý mà bạn nghi ngờ bị giữ cố định do ràng buộc.
+
+ex :
+
+Chiều dài dây treo con lắc (l); Khoảng cách giữa hai điểm trên một thanh cứng; Thông lượng từ qua một vòng siêu dẫn (trong điện từ); Tổng chiều dài dây trong hệ ròng rọc;
+
+
+Những đại lượng này không phải là tọa độ suy rộng (vì chúng thường là **hằng số**, không thay đổi theo thời gian). **Nhưng** chúng **có thể** được biểu diễn qua các tọa độ suy rộng.
+
+2. Ràng buộc (Constraint / Bound) & Không thay đổi (Immutable / Constant / Unchangeable) khác nhau rõ rệt.
+
+3. 
+
+
 ### 3.1 Chính xác hoá ranh giới toàn chỉnh / không toàn chỉnh
 
 > **Định lý B (Tiêu chuẩn Frobenius).** Cho ràng buộc Pfaff $\omega = \sum_i A_i(q,t)\,dq^i + A_t(q,t)\,dt = 0$ (một dạng vi phân bậc 1). Ràng buộc này là **toàn chỉnh** (tồn tại thừa số tích phân $\mu$ và hàm $F$ sao cho $\omega=\mu\,dF$, tức mặt $F=$const chứa trọn quỹ đạo) **khi và chỉ khi**
