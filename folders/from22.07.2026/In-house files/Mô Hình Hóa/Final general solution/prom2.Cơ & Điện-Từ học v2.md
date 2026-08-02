@@ -181,7 +181,9 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 **Kết luận cho Vấn đề phát sinh 1:** "loại khớp nối nào áp dụng" được trả lời bằng cách **tra Bảng 2.B** — bảng này liệt kê **trọn vẹn** các loại khớp nối/ràng buộc xuất hiện trong $\mathcal P_{\text{IPhO}}$ (kiểm chứng: mọi bài trong `[MEH]` §3–§5 và mọi ràng buộc trong `[ELK]` đều rơi vào một trong các dòng của bảng). Nếu gặp một ràng buộc "lạ" không khớp dòng nào, **quy trình dự phòng** là quay lại định nghĩa gốc: viết phương trình hình học nối các toạ độ thô rồi áp trực tiếp Định lý A (không cần thuộc bảng — bảng chỉ là "tra cứu nhanh", Định lý A mới là nền tảng **G** thực sự).
 
-**Vấn đề phát sinh 2:** Vậy đâu là "General Algorithm" (Đảm bảo tính tổng quát, chứ không phải lạm dụng case-by-case, cũng như tính máy móc, cơ học của nó, dù độ khó là cỡ đề thi VPHO/IPHO/APHO/...) để thí sinh trực giác trung bình vẫn có thể viết phương trình hình học nối các toạ độ thô rồi áp trực tiếp Định lý A, gần như không cần dùng não?
+**Vấn đề phát sinh 2.1:** Vậy đâu là "General Algorithm" (Đảm bảo tính tổng quát, chứ không phải lạm dụng case-by-case, cũng như tính máy móc, cơ học của nó, dù độ khó là cỡ đề thi VPHO/IPHO/APHO/...) để thí sinh trực giác trung bình vẫn có thể viết phương trình hình học (lưu ý rằng là thí sinh thật sự bị rối hoàn toàn và không biết nên bắt đầu từ đâu nếu đòi hỏi trực giác nhé) nối các toạ độ thô rồi áp trực tiếp Định lý A, gần như không cần dùng não?
+
+
 
 ---
 
@@ -198,7 +200,15 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 **Thủ tục phép dịch chuyển ảo (thuật toán 4 bước, `[MEH]` method 1):**
 1. Chọn 1 đại lượng $x$ mà ta *nghĩ* là bị ràng buộc (độ dài dây, khoảng cách...).
 2. Tưởng tượng $x \to x+\delta x$, giữ mọi thứ khác cố định trừ những gì hình học **buộc** phải thay đổi theo.
+
+→ Bạn cho một tọa độ thay đổi một lượng nhỏ, rồi xem các tọa độ khác phải thay đổi thế nào để giữ cho đại lượng x không đổi (vì đó là ràng buộc).
+
+ex: một đầu dây dịch xuống δy, đầu kia phải dịch lên δz để độ dài dây không đổi.
+
+
 3. Viết biểu thức các đại lượng khác thay đổi theo $\delta x$ như thế nào (đây chính là các hệ số trong ràng buộc Pfaff, §3.1).
+
+
 4. Nếu tổng công ảo/năng lượng ảo phải bằng 0 vì lý do vật lý (dây không giãn không tiêu tán năng lượng, vật cứng không biến dạng) $\Rightarrow$ ràng buộc được xác nhận và định lượng hoá.
 
 **Giải thích 1 số thứ :**
