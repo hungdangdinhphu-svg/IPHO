@@ -181,8 +181,7 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 **Kết luận cho Vấn đề phát sinh 1:** "loại khớp nối nào áp dụng" được trả lời bằng cách **tra Bảng 2.B** — bảng này liệt kê **trọn vẹn** các loại khớp nối/ràng buộc xuất hiện trong $\mathcal P_{\text{IPhO}}$ (kiểm chứng: mọi bài trong `[MEH]` §3–§5 và mọi ràng buộc trong `[ELK]` đều rơi vào một trong các dòng của bảng). Nếu gặp một ràng buộc "lạ" không khớp dòng nào, **quy trình dự phòng** là quay lại định nghĩa gốc: viết phương trình hình học nối các toạ độ thô rồi áp trực tiếp Định lý A (không cần thuộc bảng — bảng chỉ là "tra cứu nhanh", Định lý A mới là nền tảng **G** thực sự).
 
-**Vấn đề phát sinh 2.1:** Vậy đâu là "General Algorithm" (Đảm bảo tính tổng quát, chứ không phải lạm dụng case-by-case, cũng như tính máy móc, cơ học của nó, dù độ khó là cỡ đề thi VPHO/IPHO/APHO/...) để thí sinh trực giác trung bình vẫn có thể viết phương trình hình học (lưu ý rằng là thí sinh thật sự bị rối hoàn toàn và không biết nên bắt đầu từ đâu nếu đòi hỏi trực giác nhé) nối các toạ độ thô rồi áp trực tiếp Định lý A, gần như không cần dùng não?
-
+**Vấn đề phát sinh 2.1:** Vậy đâu là "General Algorithm" (Đảm bảo tính tổng quát, chứ không phải lạm dụng case-by-case, cũng như tính máy móc, cơ học của nó, dù độ khó là cỡ đề thi VPHO/IPHO/APHO/...) để thí sinh trực giác trung bình vẫn có thể viết phương trình hình học (lưu ý rằng là thí sinh thật sự bị rối hoàn toàn và không biết nên bắt đầu từ đâu nếu đòi hỏi trực giác nhé) nối các toạ độ thô rồi áp trực tiếp Định lý A, gần như không cần dùng não hay trực giác?
 
 
 ---
@@ -192,6 +191,10 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 > Mỗi ràng buộc hình học/vật lý = **1 phương trình liên hệ giữa các DOF**, làm $f_{\text{eff}}$ giảm đi đúng **1**.
 
 **Phép kiểm tra gốc (khi từ khóa không rõ / bị "giấu"):** dùng **phép dịch chuyển ảo (virtual displacement)** — tưởng tượng hệ nhích một lượng vi phân $\delta$, hỏi "đại lượng nào **buộc phải không đổi**?" (chiều dài dây, thông lượng qua vòng siêu dẫn, điện tích trên vật cô lập…). Đây là cách tái tạo ràng buộc **từ nguyên lý đầu tiên**, không phụ thuộc từ khóa có xuất hiện hay không — đây là "lưới an toàn" chống lại việc đề bài dùng cách diễn đạt lạ để né từ khóa quen thuộc.
+
+*Insight : Trong đề bài, từ khóa ràng buộc có thể bị "giấu" dưới cách diễn đạt khác. Nhưng nếu bạn chủ động "hỏi": "Khi hệ dịch chuyển ảo, đại lượng nào phải giữ nguyên?", bạn sẽ vạch trần được mọi ràng buộc hình học, vì mọi ràng buộc toàn chỉnh đều có thể phát biểu dưới dạng "một hàm các tọa độ không đổi".
+
+
 
 **Virtual displacement :** https://en.wikipedia.org/wiki/Virtual_displacement
 
@@ -210,6 +213,8 @@ ex: một đầu dây dịch xuống δy, đầu kia phải dịch lên δz đ�
 
 
 4. Nếu tổng công ảo/năng lượng ảo phải bằng 0 vì lý do vật lý (dây không giãn không tiêu tán năng lượng, vật cứng không biến dạng) $\Rightarrow$ ràng buộc được xác nhận và định lượng hoá.
+
+**Vấn đề phát sinh 3.1:** Vậy đâu là "General Algorithm" (Đảm bảo tính tổng quát, chứ không phải lạm dụng case-by-case, cũng như tính máy móc, cơ học của nó, dù độ khó là cỡ đề thi VPHO/IPHO/APHO/...) để thí sinh trực giác trung bình vẫn có hoàn thành 4 bước thủ tục ở trên (lưu ý rằng là thí sinh thật sự bị rối hoàn toàn và không biết nên bắt đầu từ đâu nếu đòi hỏi trực giác nhé), gần như không cần dùng não hay trực giác?
 
 **Giải thích 1 số thứ :**
 
