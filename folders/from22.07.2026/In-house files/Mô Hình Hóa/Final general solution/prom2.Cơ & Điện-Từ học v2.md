@@ -181,6 +181,8 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 **Kết luận cho Vấn đề phát sinh 1:** "loại khớp nối nào áp dụng" được trả lời bằng cách **tra Bảng 2.B** — bảng này liệt kê **trọn vẹn** các loại khớp nối/ràng buộc xuất hiện trong $\mathcal P_{\text{IPhO}}$ (kiểm chứng: mọi bài trong `[MEH]` §3–§5 và mọi ràng buộc trong `[ELK]` đều rơi vào một trong các dòng của bảng). Nếu gặp một ràng buộc "lạ" không khớp dòng nào, **quy trình dự phòng** là quay lại định nghĩa gốc: viết phương trình hình học nối các toạ độ thô rồi áp trực tiếp Định lý A (không cần thuộc bảng — bảng chỉ là "tra cứu nhanh", Định lý A mới là nền tảng **G** thực sự).
 
+**Vấn đề phát sinh 2:** Vậy đâu là "General Algorithm" (Đảm bảo tính tổng quát, cũng như tính máy móc, cơ học của nó, dù độ khó là cỡ đề thi VPHO/IPHO/APHO/...) để thí sinh trực giác trung bình vẫn có thể viết phương trình hình học nối các toạ độ thô rồi áp trực tiếp Định lý A, gần như không cần dùng não?
+
 ---
 
 ## PHẦN 3 — TRỤ CỘT B: RÀNG BUỘC & BIÊN
@@ -191,7 +193,6 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 **Virtual displacement :** https://en.wikipedia.org/wiki/Virtual_displacement
 
-**Vấn đề phát sinh 1 :** Vậy rốt cuộc, cách làm tổng quát gần như tuyệt đối cho Cơ Học/Điện-Từ học (dù độ khó cỡ IPHO/VPHO) trong việc dùng cả cái PHẦN 3 (cũng như PHẦN 3 phải tổng quát hơn, phải tổng quát thực sự) đối với học sinh có trực giác trung bình (không phải là không có trực giác) là gì? Không phải "specific", trừ khi đó là "example".
 
 
 **Thủ tục phép dịch chuyển ảo (thuật toán 4 bước, `[MEH]` method 1):**
