@@ -206,6 +206,23 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 1. Ràng buộc (Constraint / Bound) & Không thay đổi (Immutable / Constant / Unchangeable) khác nhau rõ rệt.
 
+2. Ràng buộc hình học (geometric constraint)
+
+Là một phương trình đại số liên hệ giữa các tọa độ (có thể phụ thuộc thời gian) mà hệ phải thỏa mãn tại mọi thời điểm.
+
+Khi bạn tưởng tượng một dịch chuyển ảo (virtual displacement) – tức một thay đổi vô cùng nhỏ của các tọa độ, nhưng vẫn giữ nguyên ràng buộc – thì đại lượng f không đổi (vi phân của nó bằng 0) :
+
+δf = 0 
+
+
+Phương trình này chính là ràng buộc Pfaff (dạng vi phân) mà tài liệu đề cập ở §3.1. Nó cho bạn hệ thức giữa các δx_i, từ đó suy ra mối quan hệ giữa các vận tốc (khi chia cho dt).
+
+Vậy: "không đổi" ở đây chỉ có nghĩa: trong phép dịch chuyển ảo, giá trị của đại lượng bị ràng buộc không thay đổi so với trạng thái thực. Đó là bản chất của ràng buộc hình học – một số tổ hợp tọa độ luôn giữ nguyên giá trị (ví dụ chiều dài dây).
+
+
+Đừng nhầm với "bất biến" theo thời gian: ở đây không có chuyện đại lượng đó được bảo toàn khi hệ chuyển động; nó chỉ là một hằng số xuất phát từ cấu tạo hệ.
+
+
 
 
 ### 3.1 Chính xác hoá ranh giới toàn chỉnh / không toàn chỉnh
