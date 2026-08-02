@@ -223,6 +223,20 @@ Vậy: "không đổi" ở đây chỉ có nghĩa: trong phép dịch chuyển �
 Đừng nhầm với "bất biến" theo thời gian: ở đây không có chuyện đại lượng đó được bảo toàn khi hệ chuyển động; nó chỉ là một hằng số xuất phát từ cấu tạo hệ.
 
 
+3. Bất biến / đại lượng bảo toàn (invariant / conservation law)
+
+Là đại lượng phụ thuộc vào vận tốc và tọa độ, nhưng không đổi theo thời gian dọc theo quỹ đạo chuyển động thực (ví dụ năng lượng, động lượng, mô-men động lượng).
+
+Chúng thường được tìm qua Định lý Noether (Phần 4) hoặc từ các định luật Newton.
+
+Khác biệt quan trọng:
+
+Ràng buộc là một phương trình đại số giữa tọa độ (không chứa vận tốc, nếu là toàn chỉnh).
+
+Đại lượng bảo toàn là một tích phân đầu chứa vận tốc, và nó đúng cho chuyển động thực, không phải cho mọi dịch chuyển ảo.
+
+
+
 
 
 ### 3.1 Chính xác hoá ranh giới toàn chỉnh / không toàn chỉnh
