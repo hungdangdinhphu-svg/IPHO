@@ -203,18 +203,9 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 **Giải thích 1 số thứ :**
 
-1. "Đại lượng x" trong bài viết là một đại lượng hình học hoặc vật lý mà bạn nghi ngờ bị giữ cố định do ràng buộc.
 
-ex :
+1. Ràng buộc (Constraint / Bound) & Không thay đổi (Immutable / Constant / Unchangeable) khác nhau rõ rệt.
 
-Chiều dài dây treo con lắc (l); Khoảng cách giữa hai điểm trên một thanh cứng; Thông lượng từ qua một vòng siêu dẫn (trong điện từ); Tổng chiều dài dây trong hệ ròng rọc;
-
-
-Những đại lượng này không phải là tọa độ suy rộng (vì chúng thường là **hằng số**, không thay đổi theo thời gian). **Nhưng** chúng **có thể** được biểu diễn qua các tọa độ suy rộng.
-
-2. Ràng buộc (Constraint / Bound) & Không thay đổi (Immutable / Constant / Unchangeable) khác nhau rõ rệt.
-
-3. 
 
 
 ### 3.1 Chính xác hoá ranh giới toàn chỉnh / không toàn chỉnh
