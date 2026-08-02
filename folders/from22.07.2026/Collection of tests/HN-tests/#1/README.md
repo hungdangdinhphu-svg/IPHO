@@ -8,4 +8,4 @@
 
 "ĐỀ CHÍNH THỨC"
 
-"Ngày thi thứ nhất"
+"Ngày thi thứ nhất", "Ngày thi thứ hai"
