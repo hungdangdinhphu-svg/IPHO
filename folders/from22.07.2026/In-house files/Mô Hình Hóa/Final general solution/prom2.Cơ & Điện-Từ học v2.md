@@ -329,6 +329,8 @@ Với mỗi bài, **chủ động thử** từng phép biến đổi sau, hỏi 
 5. **Co giãn tỉ lệ** (đổi thang đo) — cấu trúc bài có lặp lại chính nó không (mạng vô hạn, phân dạng)?
 6. **Đảo dấu một biến** (đảo cực nguồn, đảo chiều vận tốc ban đầu) — hệ có đối xứng gì?
 
+Phép biến đổi vi phân : $q^i \mapsto q^i + \varepsilon X^i(q,t)$
+
 **6 phép thử thực chất là 6 câu hỏi hình học: Nếu ta xê dịch, quay, lật hoặc đổi mốc thời gian của toàn bộ hệ cơ học một đoạn siêu nhỏ $\varepsilon X$, thì hàm mô tả hệ (Lagrangian $L$) có bị biến đổi không?**
 
 > **Cảnh báo (idea 42, idea 58 của `[MEH]`):** Một định luật bảo toàn *chỉ đúng trong một khoảng thời gian/không gian nhất định* — kiểm tra lại điều kiện áp dụng mỗi khi có va chạm, ma sát xuất hiện, hoặc ngoại lực thay đổi bản chất. **Không thể** đồng thời có cả bảo toàn động lượng *và* bảo toàn động năng một cách "miễn phí" trừ khi được chứng minh (va chạm đàn hồi) — nếu bài yêu cầu dùng cả hai mà không nói rõ, ít nhất một trong hai **không** thật sự bảo toàn (idea 58) — đây là bẫy hay gặp.
