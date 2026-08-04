@@ -121,7 +121,7 @@ Hai cảnh báo quan trọng:
 
 *Note X là một véctơ hướng.
 
-$X = (X^1, \dots, X^n)$ là một "hướng nhích nhẹ" mà ta *đề xuất* cho mỗi toạ độ — nó có thể phụ thuộc vào vị trí hiện tại $q$ và thời gian $t$ (không nhất thiết là hằng số!). Phép biến đổi cụ thể là:
+$X = (X^1, \dots, X^n)$ là một "hướng nhích nhẹ" mà ta *đề xuất* cho mỗi toạ độ — nó có thể phụ thuộc vào vị trí hiện tại $q$ (generalized coordinate) và thời gian $t$ (không nhất thiết là hằng số!). Phép biến đổi cụ thể là:
 $$q^i \mapsto q^i + \varepsilon X^i(q, t)$$
 với $\varepsilon$ là một số **rất nhỏ** (nghĩ như "nhích thêm một chút xíu"). 
 
