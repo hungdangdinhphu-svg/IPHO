@@ -170,6 +170,8 @@ $$\frac{dI}{dt}=\sum_i\left[\frac{\partial L}{\partial q^i}X^i+\frac{\partial L}
 
 Bây giờ ta áp dụng Định lý C1 cho các phép thử cụ thể, và sẽ thấy các định luật bảo toàn "cổ điển" hiện ra như trường hợp riêng.
 
+Khái niệm "không xuất hiện tường minh" (explicitly absent) trong cơ học Lagrange, bản chất của nó là kiểu như "Nhìn mắt thường vào công thức không thấy chữ đó xuất hiện." :3 
+
 ### (a) Toạ độ vắng mặt (cyclic) ⟹ động lượng suy rộng bảo toàn
 
 **Tình huống:** giả sử trong biểu thức của $L$, biến $q^1$ không xuất hiện tường minh (chỉ $\dot q^1$ xuất hiện) — nghĩa là $\partial L/\partial q^1 \equiv 0$.
