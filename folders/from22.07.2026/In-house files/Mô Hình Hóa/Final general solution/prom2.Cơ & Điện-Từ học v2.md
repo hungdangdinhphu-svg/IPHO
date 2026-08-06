@@ -214,6 +214,31 @@ ex: một đầu dây dịch xuống δy, đầu kia phải dịch lên δz đ�
 
 4. Nếu tổng công ảo/năng lượng ảo phải bằng 0 vì lý do vật lý (dây không giãn không tiêu tán năng lượng, vật cứng không biến dạng) $\Rightarrow$ ràng buộc được xác nhận và định lượng hoá.
 
+**Thủ tục (ver 2):**
+
+Bước 1: Gán tọa độ thô bạo (Brute-force Coordinate Assignment)
+
+Hành động: Đừng cố tìm góc hay hệ trục thông minh. Cứ ném một hệ trục Đề-các $(x, y, z)$ vào hệ. Gọi tọa độ của mọi điểm chốt (khớp, đầu dây, khối tâm) là $(x_1, y_1), (x_2, y_2)$, v.v.
+
+Bước 2: Viết phương trình (Static Geometric Equations)
+
+Hành động: Tìm đại lượng bị ràng buộc (ví dụ: thanh cứng thì chiều dài không đổi, dây không dãn thì tổng chiều dài không đổi). Viết phương trình hình học nối các tọa độ đó lại thành một hàm $f(q_1, q_2, \dots) = C$ (hằng số).
+
+Lưu ý: Luôn ưu tiên dùng bình phương khoảng cách để tránh dấu căn thức. Ví dụ: Chiều dài thanh $L \Rightarrow (x_2 - x_1)^2 + (y_2 - y_1)^2 = L^2$.
+
+Bước 3 : Take the Total Differential
+
+Hành động: Bạn hoàn toàn không cần tưởng tượng hệ dịch chuyển ra sao. Bạn chỉ cần áp dụng công thức toán học vi phân toàn phần cho phương trình ở Bước 2:
+
+$$df = \sum_i \frac{\partial f}{\partial q_i} \delta q_i = 0$$
+
+Toán học sẽ tự động tính toán xem tọa độ nào phải nhích theo tọa độ nào.
+
+Bước 4: Rút ra ràng buộc Pfaff
+
+Hành động: Nhóm các $\delta q_i$ lại. Phương trình tuyến tính bạn vừa thu được chính là dạng $\omega = \sum_i A_i(q,t)\,\delta q^i = 0$ (ràng buộc Pfaff dạng vi phân) mà tài liệu đã nhắc đến ở mục §3.1. Các hệ số $A_i$ chính là đạo hàm riêng bạn vừa tính. Từ đây chia hai vế cho $dt$ là ra quan hệ vận tốc. 
+
+
 **Vấn đề phát sinh 3.1:** Vậy đâu là "General Algorithm" (Đảm bảo tính tổng quát, chứ không phải lạm dụng case-by-case, cũng như tính máy móc, cơ học của nó, dù độ khó là cỡ đề thi VPHO/IPHO/APHO/...) để thí sinh trực giác trung bình vẫn có hoàn thành 4 bước thủ tục ở trên (lưu ý rằng là thí sinh thật sự bị rối hoàn toàn và không biết nên bắt đầu từ đâu nếu đòi hỏi trực giác nhé), gần như không cần dùng não hay trực giác?
 
 **Giải thích 1 số thứ :**
