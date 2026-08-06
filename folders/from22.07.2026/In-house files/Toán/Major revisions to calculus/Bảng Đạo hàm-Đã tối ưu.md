@@ -122,7 +122,7 @@ Cứ tiếp tục đạo hàm phẳng hai vế một cách tuần tự. Cấu tr
 
 # CHUẨN HÓA MŨ VÀ LOGARIT (SIÊU VIỆT)
 
-Trong giải tích, cơ số tự nhiên $e$ là cơ sở duy nhất. Các cơ số $a$ bất kỳ chỉ là một lớp "ngụy trang" của $e$. Việc nhớ đạo hàm của $a^x$ hay $\log_a x$ là dư thừa.
+Trong giải tích, cơ số tự nhiên $e$ là cơ sở duy nhất. Các cơ số $a$ bất kỳ chỉ là một lớp "ngụy trang" của $e$. 
 
 1. Hệ Hàm Mũ:
 
@@ -138,7 +138,7 @@ $$\log_a x \longrightarrow \frac{1}{\ln a} \cdot \ln x$$
 
 Công thức lõi: $(\ln x)' = x^{-1}$
 
-Đạo hàm bậc cao ($n$): Ngay sau lần đạo hàm đầu tiên, hàm Logarit lập tức biến thành Hệ Lũy thừa (Hệ thống 1) với $\alpha = -1$. Bạn không cần một công thức riêng nào nữa.
+Đạo hàm bậc cao ($n$): Ngay sau lần đạo hàm đầu tiên, hàm Logarit trở thành Hệ Lũy thừa (Hệ thống 1) với $\alpha = -1$. 
 
 # CHUẨN HÓA LƯỢNG GIÁC (TUẦN HOÀN)
 
@@ -155,13 +155,13 @@ $$(\sin x)' = \sin\left(x + \frac{\pi}{2}\right)$$
 
 $$(\cos x)' = \cos\left(x + \frac{\pi}{2}\right)$$
 
-Đạo hàm bậc cao ($n$): Không cần suy nghĩ về dấu, cứ cộng dồn pha.
+Đạo hàm bậc cao ($n$): 
 
 $$(\sin x)^{(n)} = \sin\left(x + \frac{n\pi}{2}\right)$$
 
 $$(\cos x)^{(n)} = \cos\left(x + \frac{n\pi}{2}\right)$$
 
-**Để hợp pháp hóa nó, bạn hãy dùng Phương pháp Quy nạp toán học (Mathematical Induction) :**
+**Proof.**
 
 Ví dụ :
 
