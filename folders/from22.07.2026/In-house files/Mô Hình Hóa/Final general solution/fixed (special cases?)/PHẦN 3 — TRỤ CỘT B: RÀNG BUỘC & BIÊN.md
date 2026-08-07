@@ -78,9 +78,83 @@ C9. Lăn không trượt : Điểm tiếp xúc giữa hai vật có vận tốc 
 
 **Bước 3.0.3: Viết phương trình Đại số (The Algebraic Equation)**
 
+Mục tiêu: Với mỗi "Ứng viên" tìm được ở Bước 3.0.2, ta viết ra một phương trình toán học có dạng:
 
+f(x_1, y_1, x_2, y_2, ..., t) = 0 hoặc f(x_1, y_1, x_2, y_2, ...) = C (hằng số).
 
+Quy tắc vàng cho phương trình này:
 
+**1. Luôn ưu tiên dạng bình phương để tránh căn thức.**
+
+ex :
+
+Sai: sqrt((x_A - x_B)^2 + (y_A - y_B)^2) = L
+
+Đúng: (x_A - x_B)^2 + (y_A - y_B)^2 = L^2
+
+**2. Tham số hóa mọi thứ.**
+
+Ví dụ: Một thanh cứng có chiều dài l, một đầu gắn bản lề cố định tại (0,0), đầu còn lại tự do. Tọa độ đầu tự do là (x, y). Phương trình ràng buộc là: x^2 + y^2 = l^2.
+
+Ví dụ: Một nêm có khối lượng M trượt trên sàn, mặt phẳng nghiêng của nêm tạo với phương ngang góc α. Một vật m nằm trên mặt nêm. Tọa độ khối tâm của nêm là (X, 0). Vị trí của vật m trên nêm được xác định bởi khoảng cách s dọc theo mặt phẳng nghiêng. Khi đó, tọa độ của m là:
+
+x_m = X + s*cos(α)
+
+y_m = s*sin(α)
+
+Phương trình ràng buộc ở đây chính là việc x_m và y_m được tham số hóa bởi X và s, và ta có thể thay trực tiếp vào Lagrangian sau.
+
+**3. Xử lý bề mặt di động:**
+
+Giả sử có một rãnh tròn bán kính R trên một vật di động có tâm tại (X, Y). Một hạt chuyển động trên rãnh đó. Tọa độ của hạt là (x, y). Ràng buộc là: (x - X)^2 + (y - Y)^2 = R^2. Lưu ý rằng X, Y cũng là các biến và đã có sẵn trong danh sách tọa độ thô của bạn.
+
+**Bước 3.0.4: Lấy Vi phân toàn phần (The Total Differential)**
+
+Mục tiêu: Chuyển đổi phương trình đại số (ở Bước 3.0.3) thành một phương trình vi phân tuyến tính. Đây là bước "máy móc" nhất. Bạn KHÔNG CẦN suy nghĩ về chuyển động.
+
+**Thuật toán:**
+
+1. Viết lại phương trình ràng buộc dưới dạng: F(q_1, q_2, ..., q_n, t) = 0, với q_i là các tọa độ thô.
+
+2. Tính vi phân toàn phần của F: (Đây là công thức toán học duy nhất bạn cần dùng trong bước này)
+
+Công thức:
+
+$$dF = \frac{\partial F}{\partial q_1} dq_1 + \frac{\partial F}{\partial q_2} dq_2 + \dots + \frac{\partial F}{\partial q_n} dq_n + \frac{\partial F}{\partial t} dt = 0$$
+
+**Hãy hình dung nó như sau:**
+
+Với mỗi biến q_i trong danh sách, bạn tính đạo hàm riêng của F theo biến đó (coi tất cả các biến khác là hằng số).
+
+Sau đó, bạn nhân đạo hàm đó với δq_i (hoặc dq_i).
+
+Cuối cùng, bạn viết một phương trình tuyến tính với các số hạng (hệ số) * δq_i.
+
+**Ex.** Ví dụ: Thanh cứng: F(x, y) = x^2 + y^2 - l^2 = 0
+
+∂F/∂x = 2x
+
+∂F/∂y = 2y
+
+Phương trình vi phân: 2x*δx + 2y*δy = 0 => x*δx + y*δy = 0.
+
+Phương trình này cho bạn biết mối quan hệ giữa dịch chuyển ảo theo phương x và y. Chia cả hai vế cho dt, bạn có x*v_x + y*v_y = 0, là đạo hàm bậc nhất của ràng buộc vị trí.
+
+**Bước 3.0.5: Phân loại và Kết luận (The Classification)**
+
+Sau khi có được phương trình dạng Σ A_i δq_i + A_t δt = 0, bạn cần thực hiện 2 nhiệm vụ:
+
+1. Rút ra số bậc tự do bị khử:
+
+Phương trình vi phân này cho thấy δq_1 có thể được biểu diễn qua các δq_i khác. Điều này có nghĩa là số biến độc lập (bậc tự do) đã giảm đi 1. Hãy giảm f_raw của bạn đi 1.
+
+2. Kiểm tra tính "Toàn chỉnh" (Holonomic vs. Non-holonomic):
+
+Câu hỏi: Phương trình Σ A_i δq_i = 0 có thể tích phân được để trở lại dạng F(q) = const không?
+
+Đối với 99.9% các bài toán cơ học trong chương trình phổ thông: Mặc định nó là toàn chỉnh. Chỉ cần bạn phát hiện ràng buộc từ một ứng viên trong Bảng 3.0.2 (thanh cứng, dây không giãn, bề mặt, v.v.), thì nó là toàn chỉnh. Bạn không cần phải lo lắng về Định lý Frobenius cho các trường hợp này.
+
+NGOẠI LỆ DUY NHẤT: Ràng buộc lăn không trượt. (Xem mục 3.1 bên dưới). Đây là trường hợp duy nhất bạn phải dùng đến Định lý B để kiểm tra. Nếu không phải là lăn không trượt, bạn có thể bỏ qua mục 3.1.
 
 
 
