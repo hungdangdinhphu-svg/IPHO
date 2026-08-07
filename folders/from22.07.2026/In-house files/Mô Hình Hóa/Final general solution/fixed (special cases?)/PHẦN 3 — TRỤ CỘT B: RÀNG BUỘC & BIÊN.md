@@ -84,13 +84,19 @@ f(x_1, y_1, x_2, y_2, ..., t) = 0 hoặc f(x_1, y_1, x_2, y_2, ...) = C (hằng 
 
 Quy tắc vàng cho phương trình này:
 
-**1. Luôn ưu tiên dạng bình phương để tránh căn thức.**
+**1. Ưu tiên dạng bình phương để tránh căn thức.** {Quy tắc bình phương chỉ đúng cho 1 đoạn thẳng độc lập (thanh cứng $L^2 = \Delta x^2 + \Delta y^2$).}
 
 ex :
 
 Sai: sqrt((x_A - x_B)^2 + (y_A - y_B)^2) = L
 
 Đúng: (x_A - x_B)^2 + (y_A - y_B)^2 = L^2
+
+Với thanh cứng (1 đoạn): Dùng dạng bình phương $d^2 = C$.
+
+Với dây qua ròng rọc (nhiều đoạn): Bắt buộc viết dạng tổng các căn bậc hai $\sum \sqrt{\Delta x_i^2 + \Delta y_i^2} = L$, sau đó lấy vi phân toàn phần trực tiếp (vì vi phân của $\sqrt{u}$ là $\frac{du}{2\sqrt{u}}$, chính là $\frac{\Delta x}{l} dx = \cos\alpha dx$).
+
+
 
 **2. Tham số hóa mọi thứ.**
 
@@ -207,11 +213,6 @@ Bước 3: Tính tích ngoài ω ∧ dω.
 
 Bước 4: Nếu kết quả bằng 0, ràng buộc là toàn chỉnh (giảm DOF). Nếu khác 0, ràng buộc là không toàn chỉnh (GIỮ NGUYÊN DOF).
 
-**Ex.**
-
-Đĩa tròn lăn trên đường thẳng: ω = dx - R dθ. dω = 0, nên ω ∧ dω = 0. Toàn chỉnh. Giảm DOF.
-
-Đĩa tròn lăn tự do trên mặt phẳng (xe đạp): Hệ có 3 DOF (x, y, θ). Ràng buộc không trượt ngang: -sin θ dx + cos θ dy = 0. Ta có ω ∧ dω = - dx ∧ dy ∧ dθ ≠ 0. Không toàn chỉnh. Không giảm DOF.
 
 **Kết luận cho B2: Khi tính f_eff, chỉ trừ đi các ràng buộc toàn chỉnh (tích phân được). Ràng buộc không toàn chỉnh (ví dụ như lăn tự do 2D) thì KHÔNG được trừ, mặc dù nó tồn tại.**
 
