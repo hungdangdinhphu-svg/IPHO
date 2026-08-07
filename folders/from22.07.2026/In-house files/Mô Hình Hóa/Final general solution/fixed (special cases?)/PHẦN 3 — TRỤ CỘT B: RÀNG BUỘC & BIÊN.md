@@ -217,9 +217,167 @@ Bước 4: Nếu kết quả bằng 0, ràng buộc là toàn chỉnh (giảm DO
 **Kết luận cho B2: Khi tính f_eff, chỉ trừ đi các ràng buộc toàn chỉnh (tích phân được). Ràng buộc không toàn chỉnh (ví dụ như lăn tự do 2D) thì KHÔNG được trừ, mặc dù nó tồn tại.**
 
 
-# 3.2 Ràng buộc một phía (Unilateral Constraints & Detachment)
+# 3.2 RÀNG BUỘC MỘT PHÍA (UNILATERAL CONSTRAINTS) & ĐIỀU KIỆN TÁCH RỜI (DETACHMENT)
 
-# 3.3 Nguyên lý Công ảo & Biểu diễn Lực liên kết qua Ràng buộc
+Hầu hết các ràng buộc trong chương trình phổ thông là ràng buộc hai phía (bilateral) – chúng có dạng phương trình đẳng thức f(q) = 0 và luôn đúng. Tuy nhiên, một lớp bài toán quan trọng và thường gây khó khăn là ràng buộc một phía (unilateral) – chúng có dạng bất đẳng thức f(q) ≥ 0, biểu diễn một giới hạn mà hệ không thể vượt qua (ví dụ: vật không thể xuyên qua mặt bàn, dây không thể đẩy mà chỉ kéo được).
+
+**3.2.1 Định nghĩa và Phân loại**
+
+Định nghĩa: Một ràng buộc một phía là một điều kiện hình học mà hệ không bao giờ được vi phạm, nhưng hệ có thể rời khỏi nó nếu lực liên kết (phản lực) trở nên không thể thực hiện được vai trò của nó.
+
+Hai phía (Bilateral) : f(q) = 0 : Ex: Thanh cứng, dây không giãn (luôn căng), bản lề. : Luôn tiếp xúc / liên kết. ;
+
+Một phía (Unilateral) : f(q) ≥ 0 : Ex: Vật trên mặt bàn, dây mềm (chỉ kéo, không đẩy). : Tiếp xúc (f=0) hoặc Tách rời (f>0). ;
+
+**3.2.2 Thủ tục Xử lý Tổng quát (General-Purpose Algorithm)**
+
+**Bước 1: Nhận diện và Tham số hóa**
+
+Xác định ràng buộc một phía. Tìm hàm f(q) sao cho điều kiện là f(q) ≥ 0 (ví dụ: khoảng cách từ vật đến mặt bàn).
+
+Quy tắc: Chọn f(q) sao cho:
+
+f(q) = 0 khi hệ ở trạng thái tiếp xúc (biên của ràng buộc).
+
+f(q) > 0 khi hệ đã tách rời khỏi ràng buộc.
+
+**Bước 2: Giả định Trạng thái Tiếp xúc (Contact Hypothesis)**
+
+Giả sử rằng hệ đang ở trạng thái tiếp xúc: f(q) = 0.
+
+Sử dụng ràng buộc này (như một ràng buộc hai phía thông thường) để tìm nghiệm của bài toán (ví dụ: tìm gia tốc, lực, v.v.) bằng các phương pháp ở B7, B8, B9. Kết quả thu được là lời giải cho trường hợp tiếp xúc.
+
+**Bước 3: Tính Lực Liên kết (Phản lực)**
+
+Từ nghiệm tìm được ở Bước 2, hãy tính lực liên kết N (hay lực căng T) tương ứng với ràng buộc một phía đó. Đây là bước bắt buộc.
+
+Cách tính: Sử dụng phương trình Newton (chiếu lên phương pháp tuyến của ràng buộc) hoặc phương pháp nhân tử Lagrange. Cụ thể:
+
+Với ràng buộc mặt phẳng: Lực pháp tuyến N là lực giữ cho vật không xuyên qua mặt phẳng.
+
+Với ràng buộc dây mềm: Lực căng T là lực giữ cho dây không bị chùng.
+
+**Bước 4: Kiểm tra Điều kiện Tồn tại của Lực Liên kết**
+
+Đây là bước ra quyết định. Hãy kiểm tra dấu của lực liên kết vừa tính:
+
+Trường hợp 1 (Tiếp xúc được duy trì): Nếu lực liên kết có dấu phù hợp với vai trò vật lý của nó, thì giả định ở Bước 2 là đúng.
+
+Phản lực pháp tuyến: Chỉ có thể đẩy, nên N ≥ 0. (N > 0 là tiếp xúc, N = 0 là ngưỡng tách).
+
+Lực căng dây: Chỉ có thể kéo, nên T ≥ 0.
+
+Trường hợp 2 (Tách rời): Nếu lực liên kết có dấu không phù hợp (ví dụ: N < 0, nghĩa là để duy trì tiếp xúc, mặt bàn phải kéo vật xuống – điều không thể), thì giả định tiếp xúc là sai. Hệ sẽ tách rời khỏi ràng buộc.
+
+**Bước 5: Giải bài toán cho Trạng thái Tách rời (Detachment Solution)**
+
+Nếu ở Bước 4, bạn kết luận hệ bị tách rời, hãy loại bỏ ràng buộc đó.
+
+Thiết lập lại bài toán: Ràng buộc f(q) = 0 không còn hiệu lực. Lực liên kết N (hoặc T) bây giờ bằng 0.
+
+Giải lại bài toán với điều kiện N = 0 và f(q) > 0. Đây là lời giải cho trạng thái tách rời.
+
+**3.2.3 Sơ đồ Ra Quyết định (Decision Flowchart)**
+
+(Chuyển file sang dạng .txt nếu gặp lỗi hiển thị)
+
+[Bắt đầu]
+   |
+   v
+[Nhận diện ràng buộc một phía f(q) ≥ 0]
+   |
+   v
+[Giả định tiếp xúc: f(q) = 0]
+   |
+   v
+[Giải hệ (tìm gia tốc, vận tốc, ...)]
+   |
+   v
+[Tính lực liên kết N (hoặc T)]
+   |
+   v
+{N > 0? (Đối với mặt phẳng)}  ----Có----> [Tiếp xúc được duy trì. Kết thúc.]
+   |
+   Không (N ≤ 0)
+   |
+   v
+[Kết luận: Hệ TÁCH RỜI]
+   |
+   v
+[Đặt N = 0 và f(q) > 0]
+   |
+   v
+[Giải lại hệ trong trạng thái tự do]
+   |
+   v
+[Kết thúc]
+
+
+# 3.3 NGUYÊN LÝ CÔNG ẢO & BIỂU DIỄN LỰC LIÊN KẾT QUA RÀNG BUỘC (VIRTUAL WORK & CONSTRAINT FORCES)
+
+Đây là công cụ mạnh mẽ nhất để loại bỏ các lực liên kết chưa biết ra khỏi phương trình, cho phép ta thiết lập phương trình chuyển động chỉ với các lực hoạt động (lực thế, lực ma sát đã biết). Nó đặc biệt hữu ích khi hệ có nhiều vật và nhiều lực liên kết phức tạp.
+
+**3.3.1 Nguyên lý Công ảo (Principle of Virtual Work)**
+
+Định lý nền tảng: Đối với một hệ cân bằng (tĩnh hoặc chuẩn tĩnh), tổng công ảo của tất cả các lực hoạt động (lực không phải là lực liên kết) trên một dịch chuyển ảo (virtual displacement) bất kỳ, bằng 0.
+
+**Công thức toán học:**
+
+δW = Σ (F_i · δr_i) = 0
+
+Trong đó:
+
+F_i là các lực hoạt động (không bao gồm phản lực, lực căng dây, lực liên kết).
+
+δr_i là dịch chuyển ảo (infinitesimal virtual displacement) – một dịch chuyển tưởng tượng, vô cùng nhỏ, phù hợp với mọi ràng buộc của hệ tại một thời điểm cố định.
+
+**3.3.2 Mở rộng cho Hệ Động lực (Nguyên lý D'Alembert)**
+
+Đối với các bài toán động lực học (có gia tốc), nguyên lý công ảo được mở rộng bằng cách đưa lực quán tính vào như một lực hoạt động:
+
+Nguyên lý D'Alembert: Tổng công ảo của các lực hoạt động và lực quán tính trên một dịch chuyển ảo bằng 0.
+
+
+
+δW = Σ {(F_i - m_i * a_i) · δr_i} = 0
+
+Công thức này cho phép ta thiết lập trực tiếp phương trình chuyển động của hệ mà không cần phải giải các phương trình lực liên kết.
+
+**3.3.3 Thủ tục Áp dụng Tổng quát (General-Purpose Algorithm)**
+
+Mục tiêu: Tìm gia tốc (hoặc điều kiện cân bằng) của hệ mà không cần vẽ và giải các phương trình lực liên kết.
+
+**Các bước thực hiện:**
+
+1. Xác định Hệ và Bậc Tự do: Áp dụng các bước B0-B5 để tìm số bậc tự do f và chọn hệ tọa độ suy rộng q_1, q_2, ..., q_f.
+
+2. Xác định Lực Hoạt động: Liệt kê tất cả các lực tác dụng lên hệ không phải là lực liên kết (ví dụ: trọng lực, lực đàn hồi, lực ma sát đã biết, lực điện từ).
+
+3. Biểu diễn Dịch chuyển Ảo: Tưởng tượng một dịch chuyển ảo δq_i cho mỗi tọa độ suy rộng. Biểu diễn vị trí r_k của mỗi điểm đặt lực theo các q_i. Từ đó, tính δr_k như là vi phân của r_k:
+
+δr_k = Σ (∂r_k / ∂q_i) * δq_i
+
+4. Tính Công ảo: Tính tổng công ảo của các lực hoạt động (và lực quán tính nếu cần) trên dịch chuyển ảo đó. δW = Σ F_k · δr_k
+
+5. Thiết lập Phương trình: Áp dụng nguyên lý: δW = 0. Vì các δq_i là độc lập, hệ số của mỗi δq_i trong biểu thức δW phải bằng 0. Điều này cho ta một hệ f phương trình vi phân (phương trình Lagrange) mô tả chuyển động của hệ.
+
+**3.3.4 Biểu diễn Lực Liên kết qua Ràng buộc**
+
+Trong một số bài toán, ta cần tìm lực liên kết (ví dụ: áp lực lên giá đỡ, lực căng dây). Nguyên lý công ảo cho phép ta làm điều này một cách có hệ thống.
+
+**Phương pháp "Giải phóng" Ràng buộc:**
+
+1. Xác định lực liên kết cần tìm: Đó là lực F_c cần tính.
+
+2. "Giải phóng" ràng buộc đó: Tạm thời loại bỏ ràng buộc (ví dụ: cắt dây, hoặc cho vật không còn tiếp xúc với mặt phẳng) và thay thế nó bằng lực F_c (lực căng dây, phản lực pháp tuyến) tác dụng lên hệ. Lúc này, F_c trở thành một lực hoạt động (chưa biết) trong bài toán.
+
+3. Cho hệ một dịch chuyển ảo δs theo đúng hướng mà lực F_c có thể sinh công. Dịch chuyển ảo này phải vi phạm ràng buộc vừa được giải phóng (đó là mục đích của việc "giải phóng").
+
+4. Áp dụng nguyên lý công ảo: Tính công ảo của tất cả các lực (bao gồm cả F_c) trên dịch chuyển ảo δs và cho nó bằng 0.
+
+5. Giải phương trình để tìm F_c.
+
+**Kết luận:** Nguyên lý công ảo không phải là một "mẹo" mà là một công cụ tổng quát, cho phép chuyển đổi bài toán cơ học từ ngôn ngữ lực sang ngôn ngữ năng lượng, giúp đơn giản hóa đáng kể quá trình mô hình hóa. Nó là nền tảng cho phương pháp Lagrange và là vũ khí lợi hại để chinh phục các bài toán IPhO/VPhO phức tạp.
 
 
 
