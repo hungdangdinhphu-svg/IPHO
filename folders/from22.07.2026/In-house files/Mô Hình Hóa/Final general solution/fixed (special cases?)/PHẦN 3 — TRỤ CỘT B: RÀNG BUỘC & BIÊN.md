@@ -1,3 +1,5 @@
+*Lưu ý : Nhiều khẳng định về tính tổng quát hay "danh sách hữu hạn" trong đây thực tế có thể không đúng, chúng đều là những vấn đề lớn tôi đang cố gắng giải quyết.
+
 # PHẦN 3 — TRỤ CỘT B: PHÁT HIỆN & ĐỊNH LƯỢNG HÓA RÀNG BUỘC (Constraints & Boundary)
 
 
