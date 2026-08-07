@@ -206,6 +206,11 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 → Bạn cho một tọa độ thay đổi một lượng nhỏ, rồi xem các tọa độ khác phải thay đổi thế nào để giữ cho đại lượng x không đổi (vì đó là ràng buộc).
 
+*Note  : Với lực căng/lực liên kết cần tìm tường minh: dùng **dịch chuyển ảo** — cho ẩn số cần tìm "làm việc" một đoạn ảo `Δx`, cân bằng công ảo với biến thiên thế năng: `T = ΔΠ/Δx` (`[Cơ-method 1]`).
+
+**Lưu ý an toàn kỹ thuật (rất hay bị bỏ qua):** không được rút gọn số bậc tự do bằng một *định luật bảo toàn chứa đạo hàm bậc 1* (như bảo toàn mô-men động lượng) rồi áp dụng trực tiếp Method 6 lên toạ độ còn lại — sẽ ra sai dấu (xem phân tích chi tiết cuối `[Cơ-appendix 6]`). Chỉ rút DOF bằng ràng buộc hình học (không chứa đạo hàm) trước khi dùng Method 6.
+
+
 ex: một đầu dây dịch xuống δy, đầu kia phải dịch lên δz để độ dài dây không đổi.
 
 
