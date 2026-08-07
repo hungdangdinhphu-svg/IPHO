@@ -188,7 +188,7 @@ $$f_{\text{eff}} = f_{\text{raw}} - (\text{số ràng buộc độc lập tìm �
 
 ## PHẦN 3 — TRỤ CỘT B: RÀNG BUỘC & BIÊN
 
-*Note : PHẦN 3 là phần khó chịu nhất, ngay cả với người viết ra phần này. Vì phần này rất khó khăn.
+*Note : PHẦN 3 là phần khó chịu nhất, ngay cả với người viết ra phần này. Vì phần này rất khó khăn. Bạn có thể dễ dàng nhận ra nhiều lỗi logic quan trọng ở phần này. Vậy nên nếu bạn cảm thấy nó tệ, bạn có thể chuyển sang đọc thêm bản vá ở đây : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/fixed%20(special%20cases%3F)/PH%E1%BA%A6N%203%20%E2%80%94%20TR%E1%BB%A4%20C%E1%BB%98T%20B%3A%20R%C3%80NG%20BU%E1%BB%98C%20%26%20BI%C3%8AN.md
 
 > Mỗi ràng buộc hình học/vật lý = **1 phương trình liên hệ giữa các DOF**, làm $f_{\text{eff}}$ giảm đi đúng **1**.
 
