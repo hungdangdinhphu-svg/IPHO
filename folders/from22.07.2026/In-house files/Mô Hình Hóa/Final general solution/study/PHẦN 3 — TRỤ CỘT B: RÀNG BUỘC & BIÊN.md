@@ -1,3 +1,5 @@
+Lưu ý : Tài liệu bên dưới giả định rằng mọi ràng buộc hình học đều đưa được về dạng holonom, chứ không bao gồm Non-holonomic Constraints. Hoặc Ràng buộc một phía (Unilateral Constraints / Inequality Constraints), Ràng buộc biến dạng & Biên dạng liên tục động, Ràng buộc do đề bài tự sáng tạo (Novel/Exotic Constraints),...v.v
+
 > **Cách dùng file này:** thay thế toàn bộ khối *"Thủ tục (ver 2)"* + hộp *"Vấn đề phát sinh 3.1"* hiện có trong PHẦN 3 của tài liệu gốc bằng nội dung dưới đây. Các mục §3.1 (Frobenius), §3.2 (Từ điển B3), §3.3 (ràng buộc mạch điện) giữ nguyên — thủ tục mới bên dưới **gọi tới** chúng chứ không thay thế.
 
 ---
