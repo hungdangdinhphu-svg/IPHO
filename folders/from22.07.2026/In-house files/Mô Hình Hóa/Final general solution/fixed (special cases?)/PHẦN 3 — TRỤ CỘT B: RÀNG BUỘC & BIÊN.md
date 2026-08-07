@@ -202,9 +202,9 @@ Bước 4: Nếu kết quả bằng 0, ràng buộc là toàn chỉnh (giảm DO
 **Kết luận cho B2: Khi tính f_eff, chỉ trừ đi các ràng buộc toàn chỉnh (tích phân được). Ràng buộc không toàn chỉnh (ví dụ như lăn tự do 2D) thì KHÔNG được trừ, mặc dù nó tồn tại.**
 
 
+# 3.2 Ràng buộc một phía (Unilateral Constraints & Detachment)
 
-
-
+# 3.3 Nguyên lý Công ảo & Biểu diễn Lực liên kết qua Ràng buộc
 
 
 
