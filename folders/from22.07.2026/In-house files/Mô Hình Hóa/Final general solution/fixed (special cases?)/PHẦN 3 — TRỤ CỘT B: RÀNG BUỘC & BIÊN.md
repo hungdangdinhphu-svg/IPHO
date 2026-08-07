@@ -130,6 +130,20 @@ Sau đó, bạn nhân đạo hàm đó với δq_i (hoặc dq_i).
 
 Cuối cùng, bạn viết một phương trình tuyến tính với các số hạng (hệ số) * δq_i.
 
+**Trong cơ học Lagrange/d'Alembert:**
+
+Vi phân thực $dq_i$ có tính đến sự phụ thuộc thời gian $dt$.
+
+Dịch chuyển ảo $\delta q_i$ là dịch chuyển tức thời tại $t = \text{const}$ ($\delta t = 0$).
+
+**Tôi không chắc "Công thức" ở trên là chính xác hoàn toàn cho lắm, hãy kiểm tra kỹ lại nhé, sorry!**
+
+**Sự khác biệt :**
+
+lấy đạo hàm theo thời gian ra vận tốc $\sum A_i v_i + A_t = 0$
+
+phương trình dịch chuyển ảo dùng cho nguyên lý công ảo ($\sum A_i \delta q_i = 0$
+
 **Ex.** Ví dụ: Thanh cứng: F(x, y) = x^2 + y^2 - l^2 = 0
 
 ∂F/∂x = 2x
