@@ -157,6 +157,49 @@ Câu hỏi: Phương trình Σ A_i δq_i = 0 có thể tích phân được đ�
 NGOẠI LỆ DUY NHẤT: Ràng buộc lăn không trượt. (Xem mục 3.1 bên dưới). Đây là trường hợp duy nhất bạn phải dùng đến Định lý B để kiểm tra. Nếu không phải là lăn không trượt, bạn có thể bỏ qua mục 3.1.
 
 
+# 3.1 TRƯỜNG HỢP ĐẶC BIỆT: RÀNG BUỘC LĂN KHÔNG TRƯỢT & ĐỊNH LÝ B
+
+**Tình huống phát sinh:** Khi bạn gặp cụm từ "lăn không trượt" (rolling without slipping), bạn KHÔNG ĐƯỢC áp dụng Bước 3.0.4 một cách cảm tính. Lý do: ràng buộc này thường có dạng ràng buộc vận tốc (v = Rω), và nó có thể là không toàn chỉnh (non-holonomic), nghĩa là nó không làm giảm không gian cấu hình, mà chỉ làm giảm không gian vận tốc.
+
+**Quy trình xử lý bắt buộc (checklist):**
+
+1. Nhận diện: Nếu thấy "lăn không trượt", DỪNG LẠI. Đừng cố gắng viết ngay ra một phương trình vị trí.
+
+2. Viết ràng buộc vận tốc: Ngay lập tức viết ra đẳng thức vận tốc của điểm tiếp xúc:
+
+v_diem_tiep_xuc_cua_vat_1 = v_diem_tiep_xuc_cua_vat_2
+
+3. Đưa về dạng Pfaff: Biểu diễn đẳng thức này dưới dạng Σ A_i(q) dq_i = 0.
+
+4. Kiểm tra bằng Định lý B (Tiêu chuẩn Frobenius): Đây là bước duy nhất cần một chút toán, nhưng nó là một thuật toán. Bạn có thể làm nó một cách máy móc.
+
+**Định lý B (Tiêu chuẩn Frobenius).**
+
+Cho ràng buộc Pfaff ω = Σ A_i(q) dq_i = 0. Ràng buộc này là toàn chỉnh (tức là nó làm giảm số bậc tự do của cấu hình) **khi và chỉ khi**:
+
+ω ∧ dω = 0
+
+Nếu ω ∧ dω ≠ 0, ràng buộc là không toàn chỉnh (non-holonomic). Nó KHÔNG làm giảm số bậc tự do của hệ, nhưng nó làm giảm số vận tốc độc lập.
+
+**Hướng dẫn thực hiện kiểm tra (máy móc):**
+
+Bước 1: Xác định ω.
+
+Bước 2: Tính dω (vi phân ngoài của ω).
+
+Công thức: Nếu ω = A dx + B dy + C dz, thì dω = (∂B/∂x - ∂A/∂y) dx∧dy + (∂C/∂x - ∂A/∂z) dx∧dz + (∂C/∂y - ∂B/∂z) dy∧dz.
+
+Bước 3: Tính tích ngoài ω ∧ dω.
+
+Bước 4: Nếu kết quả bằng 0, ràng buộc là toàn chỉnh (giảm DOF). Nếu khác 0, ràng buộc là không toàn chỉnh (GIỮ NGUYÊN DOF).
+
+**Ex.**
+
+Đĩa tròn lăn trên đường thẳng: ω = dx - R dθ. dω = 0, nên ω ∧ dω = 0. Toàn chỉnh. Giảm DOF.
+
+Đĩa tròn lăn tự do trên mặt phẳng (xe đạp): Hệ có 3 DOF (x, y, θ). Ràng buộc không trượt ngang: -sin θ dx + cos θ dy = 0. Ta có ω ∧ dω = - dx ∧ dy ∧ dθ ≠ 0. Không toàn chỉnh. Không giảm DOF.
+
+**Kết luận cho B2: Khi tính f_eff, chỉ trừ đi các ràng buộc toàn chỉnh (tích phân được). Ràng buộc không toàn chỉnh (ví dụ như lăn tự do 2D) thì KHÔNG được trừ, mặc dù nó tồn tại.**
 
 
 
