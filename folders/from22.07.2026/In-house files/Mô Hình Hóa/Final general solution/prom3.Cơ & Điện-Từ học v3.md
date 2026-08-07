@@ -119,6 +119,9 @@ Ba loại đổi hệ quy chiếu dùng liên tục:
 - **Hệ đồng chuyển động với sóng/mặt phân cách:** dùng khi khảo sát vận tốc truyền sóng, mạch điện chu kỳ vô hạn, dòng chảy ổn định (`[Cơ-idea 73]`).
 
 ## II.5 — Nguyên lý biến phân / dịch chuyển ảo / "Method 6" (Lagrangian rút gọn)
+
+*Note : Khi thi VPhO, nếu dùng Method 6/Lagrange, học sinh bắt buộc phải trình bày cực kỳ chi tiết các bước trung gian, vì nguy cơ bị trừ sạch điểm thành phần là rất cao.
+
 Với hệ **1 bậc tự do** ξ, nếu viết được động năng dạng K = ½M(ξ)ξ̇² và thế năng Π(ξ), thì gia tốc suy rộng:
 ```
 ξ̈ = − Π'(ξ) / M         (khi M không phụ thuộc ξ)
