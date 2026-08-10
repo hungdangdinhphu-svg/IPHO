@@ -1,3 +1,5 @@
+*Đề lấy từ : KỲ THI CHỌN HỌC SINH GIỎI QUỐC GIA TRUNG HỌC PHỔ THÔNG NĂM HỌC 2025 - 2026, Môn: VẬT LÍ, 25/12/2025, ĐỀ THI CHÍNH THỨC;
+
 # LỜI GIẢI CHI TIẾT — CÂU 1: "Cung truyền thống và cung gắn ròng rọc"
 ### Trình bày theo quy trình thuật toán B0–B10 (dành cho thí sinh có trực giác trung bình)
 
