@@ -12,9 +12,16 @@ Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nh
 Thí sinh đang thuộc lớp : 12
 Thuộc Kỳ thi : IPHO, VPHO, "KỲ THI CHỌN ĐỘI TUYỂN HỌC SINH GIỎI THPT NĂM HỌC 2027-2028 (TP.HCM, Môn Vật Lý)"
 
+# Thông tin về tài liệu .md tôi đã gửi cho bạn
+Đó là một phần của dự án, nó là "Một bảng công thức đạo hàm sơ cấp, cấp cao và Đạo hàm lượng giác ĐÃ QUA CHỈNH SỬA để đảm bảo Khả năng 'General Algorithm' cho học sinh", tuy nhiên nó chưa đầy đủ, nó gần như đủ cho đạo hàm, tuy nhiên vẫn chưa đầy đủ cho đạo hàm (có lẽ vậy). Bạn có thể xem đó là 1 ví dụ tham khảo của tôi.
 
+Tôi cần bạn : 
 
+1. Tạo ra một bảng công thức Nguyên Hàm & Tích phân ĐẦY ĐỦ, tuy nhiên thay vì đơn thuần theo truyền thống, nó phải đạt tiêu chí sau :
 
+a) Đảm bảo không cần trực giác toán học, tức là luôn có 1 quy trình "máy móc", không cần trực giác, kiểu như "General Algorithm" mà khả thi cho học sinh. Loại bỏ gần như toàn bộ độ khó do những bước cần "heuristic" gây ra.
+
+b) Đảm bảo rằng dù đề rất khó (trong khuôn khổ kỳ thi tôi đặt ra, nó phải phù hợp đến hết Đại Học), vẫn làm được nhẹ nhàng.
 
 
 
