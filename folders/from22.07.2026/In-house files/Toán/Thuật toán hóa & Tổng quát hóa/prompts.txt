@@ -47,6 +47,18 @@ a) Đảm bảo không cần trực giác toán học, tức là luôn có 1 quy
 
 b) Đảm bảo rằng dù đề rất khó (trong khuôn khổ kỳ thi tôi đặt ra, nó phải phù hợp đến hết Đại Học), vẫn làm được nhẹ nhàng.
 
+---
+
+prompt 3 : 
+
+(Vietnamese & English) Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh chuẩn bị tham gia kỳ thi cực kỳ quan trọng. Tôi có đưa ra rất nhiều thông tin bên dưới, bạn hãy giúp tôi thực hiện nó, viết ra một file ".md" hãy thật chi tiết và đầy đủ và đảm bảo thực hiện chính xác những gì tôi nói. Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nhiên hiện tại bạn chỉ cần làm mỗi dạng này thôi nhé) :  Geometry (hình học không gian và hình học tọa độ, hay Solid Geometry & Analytic Geometry, Vector Algebra, Vector Calculus,...) II. Thông tin về thí sinh tôi đang giảng dạy, và các thông tin bổ sung : Thí sinh đang thuộc lớp : 12 Thuộc Kỳ thi : IPHO, VPHO, "KỲ THI CHỌN ĐỘI TUYỂN HỌC SINH GIỎI THPT NĂM HỌC 2027-2028 (TP.HCM, Môn Vật Lý)" Tôi cần bạn :
+
+
+
+
+
+Tạo ra một bảng hướng dẫn giải mọi bài Geometry ĐẦY ĐỦ, tuy nhiên thay vì đơn thuần theo truyền thống, nó phải đạt tiêu chí sau : a) Đảm bảo không cần trực giác toán học, tức là luôn có 1 quy trình "máy móc", không cần trực giác, kiểu như "General Algorithm" mà khả thi cho học sinh. Loại bỏ gần như toàn bộ độ khó do những bước cần "heuristic" gây ra. b) Đảm bảo rằng dù đề rất khó (trong khuôn khổ kỳ thi tôi đặt ra, nó phải phù hợp đến hết Đại Học), vẫn làm được nhẹ nhàng.
+
 
 
 
