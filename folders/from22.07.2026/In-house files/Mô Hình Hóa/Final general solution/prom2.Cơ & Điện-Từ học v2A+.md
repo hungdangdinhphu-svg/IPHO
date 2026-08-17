@@ -1,6 +1,6 @@
 Lưu ý quan trọng : Tôi giả định rằng ta đã học và đã làm nhiều bài tập và đọc nhiều lý thuyết (Toán lẫn Vật Lý) để ta có dày dặn kinh nghiệm, pattern, case-by-case từ trước. Những gì tôi ghi ở bên dưới thường chỉ liên quan đến những gì thực sự tổng quát hoặc cực kỳ phổ biến.
 
-# CÁCH GIẢI TỔNG QUÁT: CƠ HỌC & ĐIỆN–TỪ HỌC
+# CÁCH GIẢI TỔNG QUÁT: CƠ HỌC & ĐIỆN–TỪ HỌC (Riêng phần cơ chỉ dựa trên meh_ENG2.pdf, còn thiếu nhiều thứ quan trọng, sẽ ở "Cơ+")
 ### (Bản hoàn chỉnh — v3.0 — dùng cho ôn luyện IPhO / VPhO / Đội tuyển HSG Vật Lý THPT TP.HCM 2027–2028)
 
 > **Ghi chú phạm vi:** Tài liệu này áp dụng cho hai mảng **Cơ học** và **Điện–Từ học** (bao gồm cả **mạch điện**, phần mà tài liệu gốc *Elekter.pdf* — viết tắt `[ELK]` — không trình bày đầy đủ, nay được bổ sung trọn vẹn ở **Phần 6**). Tài liệu tham chiếu:
