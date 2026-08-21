@@ -16,3 +16,10 @@ Các "notes"/"notebooks" được để tại : https://github.com/hungdangdinhp
 Các files nội bộ (in-house) toán tại : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/To%C3%A1n
 
 Nỗ lực trong việc đưa ra các ví dụ giải mẫu (tests) : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/tests
+
+
+# Prompts :
+
+Một số prompts hữu ích để gửi AI.
+
+Gemini (Flash + Mở rộng) : "Giảng bài này cho t hiểu đi. Đưa t đủ số ví dụ và đủ phức tạp để bao phủ toàn bộ lượng lý thuyết này đi, đảm bảo t hiểu và nhớ hết :"
