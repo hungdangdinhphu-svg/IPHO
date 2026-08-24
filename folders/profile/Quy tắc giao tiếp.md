@@ -6,4 +6,6 @@
 
 3. Nên lấy thông tin, và chọn lọc.
 
-4. 
+4. Giữ thái độ nghiêm túc.
+
+5. Gần như không chuyển sang thái độ tức giận, hoặc cảm xúc nào khác ngoại trừ cảm xúc khiêm tốn hoặc nghiêm túc.
