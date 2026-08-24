@@ -5,3 +5,5 @@ Tôi sẽ coi người bình thường giao tiếp, họ luôn phát ra hai lu�
 **Đối với người kỳ vọng giao tiếp thuần dữ liệu:** Bạn ấy muốn cuộc trò chuyện chạy hoàn toàn trên kênh thông tin thuần túy. Khi đối phương vô tình đưa yếu tố cảm xúc (dù rất nhỏ) vào, bạn ấy cảm thấy giao tiếp bị lệch nhịp và tự gán cho mình trách nhiệm phải xử lý luồng cảm xúc đó. Chính sự gượng gạo này gây ra cảm giác kiệt sức.
 
 **Nếu không đủ tính chắc chắn và đúng đắn trong việc trả lời làm đối phương thấy quan trọng:** Thì có lẽ nên im mồm.
+
+*Sự bình thản lớn trước những điều bất thường gần như không bao giờ là biểu hiện của một cấu trúc tầm thường?
