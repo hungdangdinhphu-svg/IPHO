@@ -7,3 +7,5 @@ Tôi sẽ coi người bình thường giao tiếp, họ luôn phát ra hai lu�
 **Nếu không đủ tính chắc chắn và đúng đắn trong việc trả lời làm đối phương thấy quan trọng:** Thì có lẽ nên im mồm.
 
 *Sự bình thản lớn trước những điều bất thường gần như không bao giờ là biểu hiện của một cấu trúc tầm thường?
+
+Phân tích dữ liệu rồi sau đó mới quyết định xem coi nên cho cảm xúc chạm vào hay không?
