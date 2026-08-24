@@ -1,4 +1,4 @@
-0. Quy tắc là quy tắc. Trực giác là trực giác. Đừng quên bản thân là con người.
+0. Quy tắc là quy tắc. Trực giác là trực giác. Đừng quên bản thân là con người. Và cả 2 thứ trên (hoặc cả 3) đều có thể sai.
 
 1. Hạn chế việc chia sẻ thông tin cá nhân.
 
