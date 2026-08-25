@@ -1,6 +1,8 @@
 # TOÀN TẬP TOY MODEL & LÝ THUYẾT — ĐIỆN & TỪ HỌC (VPHO)
 ### Hệ thống hóa theo khung nguyên tắc 1.0–1.5, dùng để ôn luyện chuyên đề **Điện và Từ** cho Kỳ thi Chọn Học sinh Giỏi Quốc gia THPT (VPHO)
 
+*Hãy nhớ : Nếu 1 thứ gì đó trong đây "dùng được" trong đề bài, thì hãy dùng. Tương tự với nhiều "thứ gì đó" khác. Đấy là cách giải quyết khi đề "xáo trộn" nhiều thứ vào với nhau.
+
 ---
 
 ## PHẦN 0 — KHUNG NGUYÊN TẮC & CÁCH DÙNG TÀI LIỆU
