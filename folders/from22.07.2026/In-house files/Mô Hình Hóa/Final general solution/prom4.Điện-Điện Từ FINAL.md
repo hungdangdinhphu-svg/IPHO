@@ -469,42 +469,8 @@ Mục này **không phải** một Toy Model/Lý thuyết mới, mà là hoạt 
 ---
 ---
 
-# PHỤ LỤC A — BẢNG NHẬN DIỆN NHANH (Pattern → Toy Model)
-
-*(Bảng này là công cụ thực chiến quan trọng nhất — hỗ trợ trực tiếp mục 1.1 "Pattern Recognition" và tính khả thi 1.5. Dùng để quét đề bài, khoanh vùng TM cần dùng trong 10–30 giây.)*
-
-| Dấu hiệu / từ khóa trong đề | Toy Model gợi ý |
-|---|---|
-| Đối xứng cầu/trụ/phẳng, phân bố điện tích đều | III.1.1 (Gauss) |
-| Hốc rỗng lệch tâm trong vật tích điện đều | III.1.2 |
-| Hai quả cầu tích điện, tương tác | I.1.4, III.1.1 |
-| Mạch cầu, không rút gọn được nối tiếp/song song | I.4.6 (Δ–Y), I.4.9 (đối xứng) |
-| Mạch tuần hoàn / vô hạn | I.4.11, I.4.12 |
-| "Ngay sau khi K đóng/mở", "vừa đóng công tắc" | I.6.1 / II.4.2 — dùng giá trị **đầu** (liên tục) |
-| "Sau thời gian dài", "trạng thái xác lập/ổn định" | I.6.1 / II.4.2 — dùng giá trị **cuối** |
-| Diode, đường đặc trưng V–A | III.6.2, III.6.3 |
-| Quả cầu/trụ điện môi trong trường đều | III.4.2 |
-| Vật dẫn gần mặt phẳng/quả cầu nối đất, "ảnh điện" | III.5.3 |
-| Cuộn dây, sđđ tự cảm, "vừa ngắt dòng" | II.4 |
-| Biến áp, 2 cuộn dây chung lõi | II.4.4, II.4.5 |
-| Cộng hưởng, tần số góc $\omega$ thay đổi | II.5.4 |
-| Hạt tích điện bay vào vùng có từ trường | II.2.5, II.2.6 |
-| Hiệu ứng Hall, tấm dẫn trong từ trường có dòng | II.2.7 |
-| Cần tìm lực bằng đạo hàm năng lượng theo 1 biến hình học | I.3.4, III.4.3 (dịch chuyển ảo) |
-| Bài yêu cầu nhiệt lượng tỏa ra qua quá trình chuyển tiếp | I.6.2 |
-| Mạch không tuyến tính hoàn toàn nhưng có thể tuyến tính hóa quanh 1 điểm | III.6.4 |
-| Dòng xoay chiều, pha lệch, trở kháng | II.5.2 (số phức) |
-| Cần điện thế trước rồi mới ra điện trường | I.2.1 |
-
 ---
 
-# PHỤ LỤC B — CÔNG THỨC TRA CỨU (rút gọn theo từng Phần)
-
-**Tĩnh điện – Mạch DC (Phần I):** $F=k_eq_1q_2/r^2$ • $Q=CU$, $\Pi_C=CU^2/2$ • $C_{ss}=\sum C_i$, $1/C_{nt}=\sum 1/C_i$ • $R_{nt}=\sum R_i$, $1/R_{ss}=\sum 1/R_i$ • $P=UI=I^2R=U^2/R$ • $V=\mathcal E-Ir$ • $U(t)=U(\infty)+[U(0)-U(\infty)]e^{-t/RC}$.
-
-**Từ học (Phần II):** $dB=\dfrac{\mu_0I}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$ • $B_{dây}=\mu_0I/2\pi r$ • $B_{solenoid}=\mu_0nI$ • $\vec F=q\vec v\times\vec B$ • $F/L=\mu_0I_1I_2/2\pi r$ • $\mathcal E=-d\Phi/dt$ • $\Phi=LI$ • $W_L=LI^2/2$ • $\tilde Z_L=i\omega L$, $\tilde Z_C=1/i\omega C$ • $\omega_{res}=1/\sqrt{LC}$ • $R_{cyclotron}=mv/qB$.
-
-**Nâng cao (Phần III):** $E_{mặt phẳng}=\sigma/2\varepsilon_0$ • $E_{cầu đặc}$, $E_{trụ đặc}$ (xem III.1.1) • $\Pi=\frac12\sum\varphi_iq_i$ • $w=\varepsilon_0E^2/2$ • $\vec p=q\vec d$; $\vec M=\vec p\times\vec E$, $\Pi=-\vec p\cdot\vec E$ • $\vec D=\varepsilon\varepsilon_0\vec E$ • $C_{cầu cô lập}=4\pi\varepsilon_0R$ • ảnh điện: $q'=-Rq/d$ tại $R^2/d$ (cầu nối đất); $q'=-q$ đối xứng gương (mặt phẳng nối đất).
 
 ---
 
