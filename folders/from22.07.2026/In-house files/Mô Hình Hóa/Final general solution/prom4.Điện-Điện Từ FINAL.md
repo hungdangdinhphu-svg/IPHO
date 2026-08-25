@@ -23,14 +23,26 @@ Khi tiếp cận bất kỳ định luật, công thức hay lý thuyết nào, 
 
 **1. Điều kiện Cần và Đủ (Boundary Conditions):**
 
-Phải biết chính xác khi nào được dùng và khi nào tuyệt đối cấm dùng một lý thuyết.
+Phải biết chính xác khi nào được dùng và khi nào tuyệt đối cấm dùng một lý thuyết. Và điều kiện cần/đủ để xài nó.
 
 Ta phải sử dụng **ý nghĩa cốt lõi và tổng quát, chặt chẽ nhất** của nó. Đề thi thường xuyên đánh vào các "điểm neo" ở sát biên hoặc ngay trên đường biên giới của các điều kiện này để gài bẫy.
 
 **2. Truy nguyên Bản chất (First Principles Thinking):**
 
-Khi ta bóc tách lý thuyết để tìm ra tổng quát, chặt chẽ và ý nghĩa cốt lõi nhất, thì những nội dung cấu thành nó phải là những nguyên tắc cực kỳ sơ cấp và cơ bản. Và đề thi không thể dùng các vỏ bọc rườm rà để đánh lừa (trap) bạn được nữa.
+Khi ta bóc tách lý thuyết để tìm ra tổng quát, chặt chẽ và ý nghĩa cốt lõi nhất, thì những nội dung cấu thành nó phải là những nguyên tắc cực kỳ sơ cấp và cơ bản, và đề thi không thể dùng các vỏ bọc rườm rà để đánh lừa (trap) bạn được nữa.
 
+Và buộc phải thỏa mãn rằng, mọi dạng bài tập, mọi biến thể trong đề thi thực chất chỉ là các hệ quả, hoặc các trường hợp cụ thể (ngách/tình huống) được sinh ra từ cái lõi đó. Nắm được lõi thì đề thi không thể dùng các vỏ bọc rườm rà để đánh lừa (trap) bạn được nữa.
+
+**>> Mục tiêu của phần này là, với mọi dạng đề, đề bài mới lạ (độ khó cỡ HSGQG, VPHO, IPHO,...) bạn LUÔN LUÔN BIẾT được rằng bài này liên quan chặt chẽ với những lý thuyết nào trước đây bạn đã học. Lý do dùng từ "liên quan" là vì thường sẽ cần "mô hình hóa" để loại bỏ/thêm bớt một số yếu tố quan trọng, hoặc có thể là có bước tiền xử lý trước khi áp dụng các lý thuyết chính.**
+
+
+### PHẦN 4: CHIẾN LƯỢC THỰC CHIẾN & KỸ NĂNG MÔ HÌNH HÓA
+
+**Tư duy Lắp ghép (Modular Thinking):**
+
+Đề thi khó bản chất là sự nhào lộn và kết hợp chéo của nhiều chuyên đề, nội dung,...kết hợp với ngôn ngữ xao nhãng và hình ảnh... **Quy tắc:** Vì đã hiểu sâu sắc và "không tầm thường" (ngang cỡ Researchers, Giáo sư) các lý thuyết, công thức, nguyên lý,... theo cách bên trên, bạn nhớ lại các lý thuyết đã học, và biết ngay những lý thuyết (số nhiều) nào có các Điều kiện Cần/Đủ phù hợp với bài này, hoặc có thể đã rất sát với các Điều kiện Cần/Đủ. (Làm tuần tự nhé)
+
+Sau đó, có vẻ nó "thiếu" dữ kiện để áp dụng công thức, hoặc lại "thừa" quá nhiều chi tiết lặt vặt phi thực tế. Đừng hoảng sợ và cho rằng mình không giải được. Hãy nhận ra đó chính là " **gợi ý ngầm** " của người ra đề. Nhiệm vụ của bạn lúc này là đưa nó về dạng có thể áp dụng được mà được chấp nhận. Thường thì là sử dụng phương pháp "Mô hình hóa". Lúc này bạn đã có rất nhiều dữ liệu quan trọng rồi.
 
 ---
 
