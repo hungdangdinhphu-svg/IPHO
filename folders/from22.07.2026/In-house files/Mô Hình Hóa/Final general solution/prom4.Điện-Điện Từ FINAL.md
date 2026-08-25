@@ -15,7 +15,7 @@ Giới hạn Khả năng (Scope of Tools): Hãy có niềm tin sắt đá rằng
 
 Bước 1 - Xây dựng Trực giác (Dùng YouTube / AI): Sử dụng các công cụ này để mô phỏng hình ảnh, xem các ví dụ trực quan và hỏi-đáp tương tác với AI. Mục tiêu là nắm được "cảm giác" ban đầu. Có một khởi đầu đơn giản.
 
-Bước 2 - Chuẩn hóa & Mở rộng (Dùng Wikipedia): Đây là bước bắt buộc để đạt độ sâu. Tìm đọc lý thuyết đó trên Wikipedia (ưu tiên bản Tiếng Anh). Đọc để truy vấn nguồn gốc, các định nghĩa toán học chặt chẽ và đặc biệt là hệ thống mạng lưới các khái niệm liên quan mật thiết với nó. Wikipedia là nền tảng để biến "kiến thức cho học sinh và kiến thức của bản thân & trực giác" thành "kiến thức học thuật chuẩn".
+Bước 2 - Chuẩn hóa & Mở rộng (Dùng Wikipedia): Đây là bước bắt buộc để đạt độ sâu. Tìm đọc lý thuyết đó trên Wikipedia (ưu tiên bản Tiếng Anh). Đọc để truy vấn nguồn gốc, các định nghĩa toán học chặt chẽ và đặc biệt là hệ thống mạng lưới các khái niệm liên quan mật thiết với nó. Wikipedia là nền tảng để biến "kiến thức cho học sinh và kiến thức của bản thân & trực giác" thành "kiến thức học thuật chuẩn". Và hãy tư duy theo First Principles Thinking.
 
 ### PHẦN 3: NẮM BẮT CẤU TRÚC LÝ THUYẾT (DEEP UNDERSTANDING)
 
