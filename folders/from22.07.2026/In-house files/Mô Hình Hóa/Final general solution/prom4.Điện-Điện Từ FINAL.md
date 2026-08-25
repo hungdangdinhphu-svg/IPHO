@@ -3,20 +3,34 @@
 
 Đọc kỹ, hiểu sâu, thấm. Đừng ảo tưởng rằng bản thân đã hiểu, và thường thì rất dễ ảo tưởng :
 
-*Hãy nhớ : Nếu 1 thứ gì đó trong đây "dùng được" trong đề bài, thì hãy dùng. Tương tự với nhiều "thứ gì đó" khác. Đấy là cách giải quyết khi đề "xáo trộn" nhiều thứ vào với nhau.
+### PHẦN 1: TÂM THẾ & NGUYÊN TẮC CỐT LÕI
 
-**VÀ** hãy dùng youtube/AI để hiểu những lý thuyết trong đây (trực quan & văn bản & hỏi-đáp). **NHƯNG** sau đó hãy hiểu toàn bộ lý thuyết đó (và những thứ liên quan và liên quan chặt chẽ đến lý thuyết đó) trên wikipedia, đừng quên nhé! Wikipedia mạnh lắm (ưu tiên bản tiếng anh).
+Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence): Tuyệt đối không cho rằng bản thân đã hiểu nếu chỉ mới lướt qua bề mặt. Sự "hiểu" thực sự đòi hỏi quá trình đọc kỹ, đào sâu và thấm nhuần.
 
-**HÃY BIẾT ĐIỀU KIỆN CẦN/ĐỦ (CHẶT CHẼ)** để có thể sử dụng một Lý thuyết bất kỳ bên dưới vào bài thi. Hãy tổng quát việc này, hiểu và nắm rõ chặt chẽ.
-*note nhỏ : Đề thi có thể đánh vào sát biên hoặc ở ngay biên giới, nhưng vẫn sẽ thuộc "điều kiện cần/đủ", hoặc sẽ cần thay đổi điều gì đó quan trọng (kiểu như Mô hình hóa, xấp xỉ, bỏ qua một số thứ lặt vặt,...) trước khi dùng?
+Bài trừ Tư duy Rập khuôn: Phụ thuộc vào quy trình giải sẵn hay học công thức qua vài ví dụ mẫu (cho dù có nhiều hơn và làm bản thân ảo tưởng rằng là an toàn) là con đường rất dễ dẫn đến thất bại. Khi đề thi "lệch đi" (đổi biến, đổi góc nhìn,..), hệ thống tư duy rập khuôn sẽ sụp đổ.
 
-Khi ta đọc wiki về một lý thuyết/công thức/định luật... Ta phải tìm ra và **hiểu được thứ tổng quát và ý nghĩa cốt lõi nhất của nó**. Để **mọi bài thi, ví dụ khác** đều chỉ là **hệ quả hoặc 1 "ngách"/"tình huống"/"trường hợp" của nó**. Đảm bảo những thứ cấu thành "tổng quát và ý nghĩa cốt lõi nhất của nó" phải là những thứ cực kỳ "cơ bản" (hay ở đây là ở mức đó thì có thể nhận biết rất dễ rồi, không lo bị đề trap hoặc lừa, che giấu được).
+Giới hạn Khả năng (Scope of Tools): Hãy có niềm tin sắt đá rằng: Mọi đề bài (dù phức tạp đến đâu) cũng CHỈ được giải quyết bằng tập hợp các công cụ/lý thuyết mà bạn đã được trang bị. Không có phép thuật.
 
-**VÀ** gần như chắc chắn mọi đề bài sẽ chỉ có thể sử dụng những công cụ/lý thuyết đã nói ở bên dưới.
+### PHẦN 2: QUY TRÌNH HẤP THỤ KIẾN THỨC (Quy tắc 2 BƯỚC)
 
-Theo tôi, đừng lạm dụng quy trình (dù vô tình hay cố ý) biết rằng 1,2,... công thức là đúng đắn. Và đã tiếp xúc với 1 vài ví dụ liên quan đến việc dùng công thức đó để giải. Việc đề thi ra "lệch xa" khỏi các ví dụ đó gần như chắc chắn sẽ khiến bạn "die".
+Bước 1 - Xây dựng Trực giác (Dùng YouTube / AI): Sử dụng các công cụ này để mô phỏng hình ảnh, xem các ví dụ trực quan và hỏi-đáp tương tác với AI. Mục tiêu là nắm được "cảm giác" ban đầu. Có một khởi đầu đơn giản.
 
-Theo tôi, giả định chúng ta giỏi toán. Thì khi hiểu sâu về các lý thuyết trên wikipedia và làm theo cách ở trên. Khi đọc đề, nhận ra rằng cực kỳ liên quan đến một lý thuyết/cái gì đó trên wiki, NHƯNG nó còn "thiếu" một số thứ quan trọng để có thể xài được công cụ đó để giải bài. Và có vẻ hóa ra, những cái "thiếu" đó chính là những thứ mình cần xử lý, kiểu như xấp xỉ, bỏ qua 1 vài cái lặt vặt ko quan trọng (ý tôi là nhiễu),... và có vẻ đó là **mô hình hóa**? Như kiểu gợi ý thẳng?
+Bước 2 - Chuẩn hóa & Mở rộng (Dùng Wikipedia): Đây là bước bắt buộc để đạt độ sâu. Tìm đọc lý thuyết đó trên Wikipedia (ưu tiên bản Tiếng Anh). Đọc để truy vấn nguồn gốc, các định nghĩa toán học chặt chẽ và đặc biệt là hệ thống mạng lưới các khái niệm liên quan mật thiết với nó. Wikipedia là nền tảng để biến "kiến thức cho học sinh và kiến thức của bản thân & trực giác" thành "kiến thức học thuật chuẩn".
+
+### PHẦN 3: NẮM BẮT CẤU TRÚC LÝ THUYẾT (DEEP UNDERSTANDING)
+
+Khi tiếp cận bất kỳ định luật, công thức hay lý thuyết nào, phải định hình 2 yếu tố cực kỳ chặt chẽ:
+
+**1. Điều kiện Cần và Đủ (Boundary Conditions):**
+
+Phải biết chính xác khi nào được dùng và khi nào tuyệt đối cấm dùng một lý thuyết.
+
+Ta phải sử dụng **ý nghĩa cốt lõi và tổng quát, chặt chẽ nhất** của nó. Đề thi thường xuyên đánh vào các "điểm neo" ở sát biên hoặc ngay trên đường biên giới của các điều kiện này để gài bẫy.
+
+**2. Truy nguyên Bản chất (First Principles Thinking):**
+
+Khi ta bóc tách lý thuyết để tìm ra tổng quát, chặt chẽ và ý nghĩa cốt lõi nhất, thì những nội dung cấu thành nó phải là những nguyên tắc cực kỳ sơ cấp và cơ bản. Và đề thi không thể dùng các vỏ bọc rườm rà để đánh lừa (trap) bạn được nữa.
+
 
 ---
 
