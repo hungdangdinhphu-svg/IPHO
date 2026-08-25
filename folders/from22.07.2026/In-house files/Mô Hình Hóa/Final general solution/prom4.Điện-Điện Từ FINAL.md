@@ -44,6 +44,8 @@ Và buộc phải thỏa mãn rằng, mọi dạng bài tập, mọi biến th�
 
 Sau đó, có vẻ nó "thiếu" dữ kiện để áp dụng công thức, hoặc lại "thừa" quá nhiều chi tiết lặt vặt phi thực tế. Đừng hoảng sợ và cho rằng mình không giải được. Hãy nhận ra đó chính là " **gợi ý ngầm** " của người ra đề. Nhiệm vụ của bạn lúc này là đưa nó về dạng có thể áp dụng được mà được chấp nhận. Thường thì là sử dụng phương pháp "Mô hình hóa". Lúc này bạn đã có rất nhiều dữ liệu quan trọng rồi.
 
+**>> Nếu như bạn cảm thấy và đã sử dụng trên đề thi khó khăn thực tế, bạn cảm nhận rằng "vạn bài đều dễ và hiển nhiên như nhau", cho dù có là những bài mới với độ khó rất cao (HSGQG, IPHO, VPHO,...) bạn vẫn thấy nó "hiển nhiên" và giống với "vạn bài" kia. Bạn đã chính thức hiểu!**
+
 ---
 
 ## PHẦN 0 — KHUNG NGUYÊN TẮC & CÁCH DÙNG TÀI LIỆU
