@@ -224,15 +224,27 @@ Prompt 4 :
 
 1.4. Một nhóm gồm các Toy Model và Lý thuyết là hữu hạn ("dung lượng") "không tầm thường" và "đầy đủ với kỳ thi HSGQG" : Tức là các Toy Model & Lý thuyết là hữu hạn, NHƯNG đã được CHỨNG MINH CHẶT CHẼ (và nó không giả khoa học, hay phản khoa học, và là một sự thật vốn đúng đắn) là mọi bài có thể xuất hiện trong kỳ thi HSGQG đều có thể giải bằng **CÁC** (số nhiều) Toy Model & Lý thuyết này theo cách "tầm thường" (Tức là không vi phạm Sự bất khả thi của việc "sáng tạo"/"trực giác" đáng kể).
 
-1.5. Đảm bảo nó khả thi để từ 1.1 đến 1.5 và 1.3 là khả thi và thật sự khả thi trong phòng thi thực tế. Không xảy ra các vấn đề/lỗi logic hoặc vô lý (kiểu như thời gian làm bài là vô hạn, hoặc vượt quá thời gian phòng thi,...);
+1.5. Đảm bảo nó khả thi để từ 1.0 đến 1.5 và 1.3 là khả thi và thật sự khả thi trong phòng thi thực tế. Không xảy ra các vấn đề/lỗi logic hoặc vô lý (kiểu như thời gian làm bài là vô hạn, hoặc vượt quá thời gian phòng thi,...);
 
 # Các tài liệu và thông tin
 
-https://en.wikipedia.org/wiki/Learning_styles ; https://en.wikipedia.org/wiki/Metacognition ; https://en.wikipedia.org/wiki/Metaknowledge ; https://en.wikipedia.org/wiki/Metamemory ; https://en.wikipedia.org/wiki/Self-regulated_learning ; https://en.wikipedia.org/wiki/Meta-learning ; https://en.wikipedia.org/wiki/Self-awareness ;
+Kỳ thi "HSGQG" mà tôi đang nhắc tới : KỲ THI CHỌN HỌC SINH GIỎI QUỐC GIA TRUNG HỌC PHỔ THÔNG (VPHO - Việt Nam)
 
+Liên quan : https://en.wikipedia.org/wiki/Learning_styles ; https://en.wikipedia.org/wiki/Metacognition ; https://en.wikipedia.org/wiki/Metaknowledge ; https://en.wikipedia.org/wiki/Metamemory ; https://en.wikipedia.org/wiki/Self-regulated_learning ; https://en.wikipedia.org/wiki/Meta-learning ; https://en.wikipedia.org/wiki/Self-awareness ;
+
+Xem IPHO Syllabus : https://www.ipho2021.lt/en/syllabus/
+
+Liên quan đến toy Model (Wikipedia) : https://en.wikipedia.org/wiki/Toy_model
+
+prom2.Cơ & Điện-Từ học v2A+.md : Là file trước đó tôi đã cố gắng thực hiện ý tưởng này, tuy nhiên nó thật sự thiếu quá nhiều và không được như ý muốn. Đừng overfitting vào đấy.
+
+Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nhiên hiện tại bạn chỉ cần làm mỗi dạng này thôi nhé) : kepler.pdf & kin_ENG.pdf & Mechanics & Elektri ja magnetismi (Điện và Từ, lưu ý : Tài liệu này không đầy đủ về ELECTRICAL CIRCUITS) ;
+
+Tôi có gửi bạn 4 files .pdf liên quan đến IPHO. Và 1 ảnh VPHO Syllabus.
 
 # Yêu cầu
 
+Tôi là giảng viên/giáo sư đang giảng dạy cho một cậu thí sinh chuẩn bị tham gia kỳ thi cực kỳ quan trọng. Tôi có đưa ra rất nhiều thông tin ở trên, bạn hãy giúp tôi thực hiện nó, viết ra một file ".md" hãy thật chi tiết và đầy đủ và đảm bảo thực hiện chính xác những gì tôi nói. Thỏa mãn 1.0 đến 1.5, "Các tài liệu và thông tin" (dùng để tra thông tin & tham khảo),...
 
 ---
 
