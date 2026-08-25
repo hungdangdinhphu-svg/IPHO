@@ -46,6 +46,8 @@ Sau đó, có vẻ nó "thiếu" dữ kiện để áp dụng công thức, ho�
 
 **>> Nếu như bạn cảm thấy và đã sử dụng trên đề thi khó khăn thực tế, bạn cảm nhận rằng "vạn bài đều dễ và hiển nhiên như nhau", cho dù có là những bài mới với độ khó rất cao (HSGQG, IPHO, VPHO,...) bạn vẫn thấy nó "hiển nhiên" và giống với "vạn bài" kia. Bạn đã chính thức hiểu!**
 
+Tuy nhiên hãy lưu ý : Bạn chỉ thực sự sở hữu lời giải khi và chỉ khi tự tay biến đổi từ dòng đầu tiên đến đáp số cuối cùng trên tờ giấy trắng mà không có bất kỳ sự trợ giúp nào. Cảm giác "tôi biết bài này dùng lý thuyết gì" khác hoàn toàn với việc "tôi đã hoàn thành việc trình bày lời giải hoàn chỉnh cho bài này".
+
 ---
 
 ## PHẦN 0 — KHUNG NGUYÊN TẮC & CÁCH DÙNG TÀI LIỆU
