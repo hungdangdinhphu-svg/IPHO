@@ -14,6 +14,8 @@
 
 Theo tôi, đừng lạm dụng quy trình (dù vô tình hay cố ý) biết rằng 1,2,... công thức là đúng đắn. Và đã tiếp xúc với 1 vài ví dụ liên quan đến việc dùng công thức đó để giải. Việc đề thi ra "lệch xa" khỏi các ví dụ đó gần như chắc chắn sẽ khiến bạn "die".
 
+Theo tôi, giả định chúng ta giỏi toán. Thì khi hiểu sâu về các lý thuyết trên wikipedia và làm theo cách ở trên. Khi đọc đề, nhận ra rằng cực kỳ liên quan đến một lý thuyết/cái gì đó trên wiki, NHƯNG nó còn "thiếu" một số thứ quan trọng để có thể xài được công cụ đó để giải bài. Và có vẻ hóa ra, những cái "thiếu" đó chính là những thứ mình cần xử lý, kiểu như xấp xỉ, bỏ qua 1 vài cái lặt vặt ko quan trọng (ý tôi là nhiễu),... và có vẻ đó là **mô hình hóa**? Như kiểu gợi ý thẳng?
+
 ---
 
 ## PHẦN 0 — KHUNG NGUYÊN TẮC & CÁCH DÙNG TÀI LIỆU
