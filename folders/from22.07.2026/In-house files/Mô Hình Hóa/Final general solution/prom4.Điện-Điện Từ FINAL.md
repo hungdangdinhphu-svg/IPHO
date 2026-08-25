@@ -11,6 +11,8 @@
 
 **VÀ** gần như chắc chắn mọi đề bài sẽ chỉ có thể sử dụng những công cụ/lý thuyết đã nói ở bên dưới.
 
+Theo tôi, đừng lạm dụng quy trình (dù vô tình hay cố ý) biết rằng 1,2,... công thức là đúng đắn. Và đã tiếp xúc với 1 vài ví dụ liên quan đến việc dùng công thức đó để giải. Việc đề thi ra "lệch xa" khỏi các ví dụ đó gần như chắc chắn sẽ khiến bạn "die".
+
 ---
 
 ## PHẦN 0 — KHUNG NGUYÊN TẮC & CÁCH DÙNG TÀI LIỆU
