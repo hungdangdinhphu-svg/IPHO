@@ -7,7 +7,7 @@
 
 **VÀ** hãy dùng youtube/AI để hiểu những lý thuyết trong đây (trực quan & văn bản & hỏi-đáp). **NHƯNG** sau đó hãy hiểu toàn bộ lý thuyết đó (và những thứ liên quan và liên quan chặt chẽ đến lý thuyết đó) trên wikipedia, đừng quên nhé! Wikipedia mạnh lắm (ưu tiên bản tiếng anh).
 
-**HÃY BIẾT ĐIỀU KIỆN CẦN/ĐỦ (CHẶT CHẼ)** để có thể sử dụng một Lý thuyết bất kỳ bên dưới vào bài thi.
+**HÃY BIẾT ĐIỀU KIỆN CẦN/ĐỦ (CHẶT CHẼ)** để có thể sử dụng một Lý thuyết bất kỳ bên dưới vào bài thi. Hãy tổng quát việc này, hiểu và nắm rõ chặt chẽ. Đề thi có thể đánh vào sát biên hoặc ở ngay biên giới, nhưng vẫn sẽ thuộc "điều kiện cần/đủ", hoặc sẽ cần thay đổi điều gì đó quan trọng trước khi dùng?
 
 **VÀ** gần như chắc chắn mọi đề bài sẽ chỉ có thể sử dụng những công cụ/lý thuyết đã nói ở bên dưới.
 
