@@ -238,9 +238,9 @@ Liên quan đến toy Model (Wikipedia) : https://en.wikipedia.org/wiki/Toy_mode
 
 prom2.Cơ & Điện-Từ học v2A+.md : Là file trước đó tôi đã cố gắng thực hiện ý tưởng này, tuy nhiên nó thật sự thiếu quá nhiều và không được như ý muốn. Đừng overfitting vào đấy.
 
-Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nhiên hiện tại bạn chỉ cần làm mỗi dạng này thôi nhé) : kepler.pdf & kin_ENG.pdf & Mechanics & Elektri ja magnetismi (Điện và Từ, lưu ý : Tài liệu này không đầy đủ về ELECTRICAL CIRCUITS) ;
+Dạng bài (Mặc dù bạn có thể tôi đang ghi rất Tổng quát, tuy nhiên hiện tại bạn chỉ cần làm mỗi dạng này thôi nhé) : Elektri ja magnetismi (Điện và Từ, lưu ý : Tài liệu này không đầy đủ về ELECTRICAL CIRCUITS) ;
 
-Tôi có gửi bạn 4 files .pdf liên quan đến IPHO. Và 1 ảnh VPHO Syllabus.
+Tôi có gửi bạn 1 files .pdf liên quan đến IPHO. Và 1 ảnh VPHO Syllabus.
 
 # Yêu cầu
 
