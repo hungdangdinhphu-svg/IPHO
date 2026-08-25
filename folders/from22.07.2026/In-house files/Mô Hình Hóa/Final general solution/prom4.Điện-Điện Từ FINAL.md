@@ -5,6 +5,8 @@
 
 **VÀ** hãy dùng youtube/AI để hiểu những lý thuyết trong đây (trực quan & văn bản & hỏi-đáp). **NHƯNG** sau đó hãy hiểu toàn bộ lý thuyết đó (và những thứ liên quan và liên quan chặt chẽ đến lý thuyết đó) trên wikipedia, đừng quên nhé! Wikipedia mạnh lắm (ưu tiên bản tiếng anh).
 
+**HÃY BIẾT ĐIỀU KIỆN CẦN/ĐỦ (CHẶT CHẼ)** để có thể sử dụng một Lý thuyết bất kỳ bên dưới vào bài thi.
+
 ---
 
 ## PHẦN 0 — KHUNG NGUYÊN TẮC & CÁCH DÙNG TÀI LIỆU
