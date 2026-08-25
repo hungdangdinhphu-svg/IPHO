@@ -3,6 +3,8 @@
 
 *Hãy nhớ : Nếu 1 thứ gì đó trong đây "dùng được" trong đề bài, thì hãy dùng. Tương tự với nhiều "thứ gì đó" khác. Đấy là cách giải quyết khi đề "xáo trộn" nhiều thứ vào với nhau.
 
+**VÀ** hãy dùng youtube/AI để hiểu những lý thuyết trong đây (trực quan & văn bản & hỏi-đáp). **NHƯNG** sau đó hãy hiểu toàn bộ lý thuyết đó trên wikipedia, đừng quên nhé!
+
 ---
 
 ## PHẦN 0 — KHUNG NGUYÊN TẮC & CÁCH DÙNG TÀI LIỆU
