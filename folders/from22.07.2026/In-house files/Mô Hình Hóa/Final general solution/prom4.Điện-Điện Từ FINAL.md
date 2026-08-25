@@ -7,6 +7,8 @@
 
 **HÃY BIẾT ĐIỀU KIỆN CẦN/ĐỦ (CHẶT CHẼ)** để có thể sử dụng một Lý thuyết bất kỳ bên dưới vào bài thi.
 
+**VÀ** gần như chắc chắn mọi đề bài sẽ chỉ có thể sử dụng những công cụ/lý thuyết đã nói ở bên dưới.
+
 ---
 
 ## PHẦN 0 — KHUNG NGUYÊN TẮC & CÁCH DÙNG TÀI LIỆU
