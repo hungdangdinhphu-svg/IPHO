@@ -213,13 +213,13 @@ Prompt 4 :
 
 # Giải thích nhiều thứ quan trọng
 
-Pattern Recognition : Là khả năng của con người hoặc máy móc trong việc phát hiện các quy luật, trật tự, hoặc đặc điểm lặp đi lặp lại trong dữ liệu A mà nó liên quan đến dữ liệu B đã biết hoặc đã biết theo kiểu "không tầm thường". Liên quan chặt chẽ đến Supervised vs Unsupervised.
+1.1 Pattern Recognition : Là khả năng của con người hoặc máy móc trong việc phát hiện các quy luật, trật tự, hoặc đặc điểm lặp đi lặp lại trong dữ liệu A mà nó liên quan đến dữ liệu B đã biết hoặc đã biết theo kiểu "không tầm thường". Liên quan chặt chẽ đến Supervised vs Unsupervised.
 
-Sự bất khả thi của việc "sáng tạo"/"trực giác" đáng kể : Trở thành HSGQG môn Lý không phải là cuộc thi xem ai "thông minh đột xuất" trong phòng thi. Đám đông nghĩ rằng đề thi HSGQG là nơi học sinh tự tư duy, tự sáng tạo để giải bài toán chưa từng thấy. Thực tế: Sáng tạo liên tục với tần suất cao và hiệu quả trong 180 phút là điều BẤT KHẢ THI. Mà nếu nó có khả thi, thì gần như mọi học sinh đã đạt giải HSGQG chắc chắn đều không làm được, hoặc tất cả đều không làm được. Trong đó lạm dụng trực giác đáng kể cũng tương tự.
+1.2 Sự bất khả thi của việc "sáng tạo"/"trực giác" đáng kể : Trở thành HSGQG môn Lý không phải là cuộc thi xem ai "thông minh đột xuất" trong phòng thi. Đám đông nghĩ rằng đề thi HSGQG là nơi học sinh tự tư duy, tự sáng tạo để giải bài toán chưa từng thấy. Thực tế: Sáng tạo liên tục với tần suất cao và hiệu quả trong 180 phút là điều BẤT KHẢ THI. Mà nếu nó có khả thi, thì gần như mọi học sinh đã đạt giải HSGQG chắc chắn đều không làm được, hoặc tất cả đều không làm được. Trong đó lạm dụng trực giác đáng kể cũng tương tự.
 
-Năng lực "tối đa" mà 1 học sinh A tham dự HSGQG có thể làm được mà tôi đặt ra là :
+1.3 Năng lực "tối đa" mà 1 học sinh A tham dự HSGQG có thể làm được mà tôi đặt ra là : Đầu tiên là có thể Pattern Recognition & Trực giác ở mức "tầm thường" (không được phép vi phạm 1.2). Thứ hai là kỹ năng giải toán rất tốt, dĩ nhiên cũng không được vi phạm 1.2. Thứ ba là có thể học và hiểu được toàn bộ 1.4. Thứ tư là chăm chỉ.
 
-Một nhóm gồm các Toy Model hữu hạn "không tầm thường" và "đầy đủ với kỳ thi HSGQG" : Tức là các Toy Model hữu hạn, NHƯNG đã được chứng minh là mọi bài có thể xuất hiện trong kỳ thi HSGQG đều có thể giải bằng các Toy Model này theo cách "không tầm thường" (Tức là không vi phạm Sự bất khả thi của việc "sáng tạo"/"trực giác" đáng kể)
+1.4 Một nhóm gồm các Toy Model hữu hạn "không tầm thường" và "đầy đủ với kỳ thi HSGQG" : Tức là các Toy Model hữu hạn, NHƯNG đã được chứng minh là mọi bài có thể xuất hiện trong kỳ thi HSGQG đều có thể giải bằng các Toy Model này theo cách "không tầm thường" (Tức là không vi phạm Sự bất khả thi của việc "sáng tạo"/"trực giác" đáng kể)
 
 # Các tài liệu và thông tin
 
