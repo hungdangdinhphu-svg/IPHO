@@ -228,6 +228,8 @@ Prompt 4 :
 
 # Các tài liệu và thông tin
 
+https://en.wikipedia.org/wiki/Learning_styles ; https://en.wikipedia.org/wiki/Metacognition ; https://en.wikipedia.org/wiki/Metaknowledge ; https://en.wikipedia.org/wiki/Metamemory ; https://en.wikipedia.org/wiki/Self-regulated_learning ; https://en.wikipedia.org/wiki/Meta-learning ; https://en.wikipedia.org/wiki/Self-awareness ;
+
 
 # Yêu cầu
 
