@@ -3,6 +3,8 @@
 
 Đọc kỹ, hiểu sâu, thấm. Đừng ảo tưởng rằng bản thân đã hiểu, và thường thì rất dễ ảo tưởng :
 
+*Giả định rằng bạn giỏi các kỹ năng toán học từ trước.
+
 ### PHẦN 1: TÂM THẾ & NGUYÊN TẮC CỐT LÕI
 
 Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence): Tuyệt đối không cho rằng bản thân đã hiểu nếu chỉ mới lướt qua bề mặt. Sự "hiểu" thực sự đòi hỏi quá trình đọc kỹ, đào sâu và thấm nhuần.
