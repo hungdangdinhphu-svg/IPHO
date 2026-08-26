@@ -100,7 +100,7 @@ Người có tư duy "diễn dịch từ tiên đề" sẽ thấy tĩnh lặng: 
 
 
 
-**Tư duy Lắp ghép (Modular Thinking):**
+**Tư duy Lắp ghép (Modular Thinking) & Tư duy ngược trong việc tìm ra vấn đề cần giải quyết chặt chẽ:**
 
 Đề thi khó bản chất là sự nhào lộn và kết hợp chéo của nhiều chuyên đề, nội dung,...kết hợp với ngôn ngữ xao nhãng và hình ảnh... **Quy tắc:** Vì đã hiểu sâu sắc và "không tầm thường" (ngang cỡ Researchers, Giáo sư) các lý thuyết, công thức, nguyên lý,... theo cách bên trên, bạn nhớ lại các lý thuyết đã học, và biết ngay những lý thuyết (số nhiều) nào có các Điều kiện Cần/Đủ phù hợp với bài này, hoặc có thể đã rất sát với các Điều kiện Cần/Đủ. (Làm tuần tự nhé)
 
