@@ -4,4 +4,4 @@ IPHO/folders/from22.07.2026/books/
 
 **Combo 2:** Cơ học cổ điển của David Morin, Điện (Từ?) của Griffiths, Nhiệt của Blundell (một số phần về sau hơi nâng cao quá?), phần còn lại thì cứ quất theo combo 1
 
-**Combo 3:** Các quyển sách còn lại, tuy nhiên khuyến khích là chỉ nên đọc tham khảo có chọn lọc và không phải húp cả quyển:), trừ khi nó thực sự cần hoặc gì đó
+**Combo 3:** Các quyển sách còn lại, tuy nhiên khuyến khích là chỉ nên đọc tham khảo có chọn lọc và không phải húp cả quyển:), trừ khi nó thực sự cần hoặc gì đó; Và nó có vẻ cũng ko đầy đủ cho thi HSGQG
