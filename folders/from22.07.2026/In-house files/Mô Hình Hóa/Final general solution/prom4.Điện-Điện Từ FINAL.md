@@ -112,6 +112,8 @@ Tuy nhiên hãy lưu ý : Bạn chỉ thực sự sở hữu lời giải khi v�
 
 Và, thuật toán (algorithm) thì rất ngon. Nhưng hãy nhớ rõ bản thân là con người, chứ không phải máy tính, và tính khả thi trong phòng thi. Tôi không cấm dùng algorithm, ngược lại nó rất tuyệt nếu chọn đúng cái và chỉnh sửa đúng chỗ để dùng.
 
+"Tức là thay vì nhìn đề và đoán xem xài cách nào để giải và cần mô hình hóa ở đâu. Thì ta sẽ cực kỳ hiểu phạm vi và mục đích của các công cụ, nguyên lý, lý thuyết gốc (và giỏi toán), sau đó duyệt trong đầu từng công cụ một (số công cụ thực ra không nhiều, nên yên tâm, đừng có ngáo đến mức mà bruteforce theo kiểu bài cơ mà lại check công cụ quang học, trừ khi trường hợp rất đặc biệt, mà thường bản thân sẽ nhận ra và xử lý được) và kiểm tra xem coi có dùng được không, có nằm trong phạm vi cho phép không. Thường thì nó sẽ làm mình cảm thấy "khá gần", nhưng thiếu bị nhiễu 1 khoảng. Yes, khoảng nhiễu đó chính là thứ mình cần mô hình hóa và tiền xử lý. End." - Hung Dinh Phu Dang (Đặng Đình Phú Hưng)
+
 ---
 
 ## PHẦN 0 — KHUNG NGUYÊN TẮC & CÁCH DÙNG TÀI LIỆU
