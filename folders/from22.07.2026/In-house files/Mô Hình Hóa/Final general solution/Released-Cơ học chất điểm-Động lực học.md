@@ -1,4 +1,4 @@
-https://chat.deepseek.com/share/9otn54h2sk6r0axigh
+https://chat.deepseek.com/share/vx0ky1f38ca4o2m11z
 
 Mô hình AI dùng : DeepSeek + Deepthink + Search + Instant
 
