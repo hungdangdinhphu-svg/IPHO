@@ -1,5 +1,7 @@
 https://chat.deepseek.com/share/9otn54h2sk6r0axigh
 
+Mô hình AI dùng : DeepSeek + Deepthink + Search + Instant
+
 Prompt :
 
 ```txt
