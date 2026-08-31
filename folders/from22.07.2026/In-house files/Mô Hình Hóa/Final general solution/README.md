@@ -159,9 +159,13 @@ Tính chất: Nếu tiên đề đúng và toán học biến đổi không sai,
 4.1.2. Sự Mạch lạc (Coherence) - Ví dụ đối chiếu
 
 Cách học Rập khuôn (Học thuộc lá),Cách học Diễn dịch (Học từ rễ)
+
 Vật trên mặt phẳng nghiêng: a=g(sinα−μcosα),"Xuất phát từ ∑F=ma, chiếu lên trục tọa độ phù hợp"
+
 Con lắc lò xo: T=2πkm​​,"Xuất phát từ F=−kx và ∑F=ma, giải phương trình vi phân"
+
 Con lắc đơn: T=2πgl​​,"Xuất phát từ F=−mgsinθ, xấp xỉ sinθ≈θ cho θ nhỏ"
+
 "Va chạm đàn hồi: Công thức v1​,v2​ sau va chạm",Hệ quả của bảo toàn động lượng và bảo toàn năng lượng
 
 Kết luận từ ví dụ: Nhìn bề ngoài thì con lắc đơn, cái nêm, cái lò xo hay hạt electron trong từ trường là những hình ảnh hoàn toàn không liên quan. Nhưng thông qua tư duy diễn dịch, ta thấy chúng chỉ là những chiếc lá khác màu mọc ra từ cùng một gốc cây.
@@ -345,8 +349,11 @@ Mối quan hệ hình học trong các cấu trúc đặc biệt.
 #### 6.1. Nền tảng học tập
 
 Giai đoạn,Công cụ,Mục đích
+
 Xây dựng trực giác,"YouTube, 3Blue1Brown, PhET Simulations, AI","Hình dung, mô phỏng"
+
 Đào sâu lý thuyết,"Wikipedia EN, SpringerLink, ArXiv","Định nghĩa chặt chẽ, mở rộng"
+
 Chuẩn hóa học thuật,"Feynman Lectures, Morin, Kleppner, Landau",Tư duy của nhà nghiên cứu
 
 #### 6.2. Giáo trình kinh điển khuyên dùng
