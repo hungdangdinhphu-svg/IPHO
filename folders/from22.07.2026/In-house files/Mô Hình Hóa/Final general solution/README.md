@@ -2,7 +2,7 @@
 
 ---
 
-# Thảo luận lớn về Mô Hình Hóa, 
+# Thảo luận lớn về Cách giải Đề thi HSGQG Vật Lý và Các tư duy quan trọng :
 
 
 Đọc kỹ, hiểu sâu, thấm. Đừng ảo tưởng rằng bản thân đã hiểu, và thường thì rất dễ ảo tưởng :
