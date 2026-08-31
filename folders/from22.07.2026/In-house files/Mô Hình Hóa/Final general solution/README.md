@@ -296,7 +296,7 @@ Cảnh báo: Cảm giác "tôi biết bài này dùng lý thuyết gì" KHÁC HO
 
 ### PHẦN 5: KỸ NĂNG TOÁN HỌC CẦN THIẾT
 
-5.1. Vi tích phân (Calculus)
+#### 5.1. Vi tích phân (Calculus)
 
 Đạo hàm và tích phân hàm một biến.
 
@@ -306,7 +306,7 @@ Phương trình vi phân thường (ODE) các loại.
 
 Phương trình vi phân đạo hàm riêng (PDE) cơ bản.
 
-5.2. Đại số tuyến tính (Linear Algebra)
+#### 5.2. Đại số tuyến tính (Linear Algebra)
 
 Vector, ma trận, định thức.
 
@@ -314,9 +314,125 @@ Hệ phương trình tuyến tính.
 
 Giá trị riêng và vector riêng.
 
-5.3. Hình học giải tích (Analytic Geometry)
+#### 5.3. Hình học giải tích (Analytic Geometry)
 
+Hệ tọa độ Descartes, trụ, cầu.
 
+Phương trình đường thẳng, mặt phẳng, mặt cong trong không gian.
+
+Hình chiếu vector.
+
+#### 5.4. Phép biến đổi và Xấp xỉ
+
+Khai triển Taylor/Maclaurin.
+
+Khai triển Fourier.
+
+Xấp xỉ tuyến tính.
+
+Phân tích thứ nguyên.
+
+#### 5.5. Kỹ năng Suy luận Lượng giác và Hình học
+
+Hàm lượng giác, đồng nhất thức.
+
+Hệ thức lượng trong tam giác.
+
+Mối quan hệ hình học trong các cấu trúc đặc biệt.
+
+### PHẦN 6: CÁC CÔNG CỤ HỖ TRỢ VÀ TÀI NGUYÊN
+
+#### 6.1. Nền tảng học tập
+
+Giai đoạn,Công cụ,Mục đích
+Xây dựng trực giác,"YouTube, 3Blue1Brown, PhET Simulations, AI","Hình dung, mô phỏng"
+Đào sâu lý thuyết,"Wikipedia EN, SpringerLink, ArXiv","Định nghĩa chặt chẽ, mở rộng"
+Chuẩn hóa học thuật,"Feynman Lectures, Morin, Kleppner, Landau",Tư duy của nhà nghiên cứu
+
+#### 6.2. Giáo trình kinh điển khuyên dùng
+
+Cơ học: Morin, Kleppner & Kolenkow, Landau & Lifshitz Vol. 1
+
+Điện từ: Griffiths, Purcell & Morin
+
+Nhiệt động: Kittel, Schroeder
+
+Quang học: Hecht, Feynman Lectures Vol. 1 (phần quang)
+
+#### 6.3. Bộ đề và luyện tập
+
+Đề HSGQG các năm.
+
+Đề VPHO, APHO, IPHO các năm.
+
+Sách bài tập của Morin, Irodov, Krotov.
+
+### PHẦN 7: TÓM TẮT - CẨM NANG HÀNH ĐỘNG
+
+Sơ đồ tư duy tổng hợp
+
+```txt
+
+                    ┌──────────────────────────────────┐
+                    │       GẶP BÀI TOÁN MỚI          │
+                    └────────────────┬─────────────────┘
+                                     │
+                   ┌─────────────────▼─────────────────┐
+                   │  1. Đọc kỹ đề. Xác định dữ kiện,  │
+                   │    điều kiện biên, câu hỏi.        │
+                   └─────────────────┬─────────────────┘
+                                     │
+                   ┌─────────────────▼─────────────────┐
+                   │  2. Duyệt các công cụ trong đầu:   │
+                   │    Lý thuyết nào phù hợp?          │
+                   │    Điều kiện Cần/Đủ thỏa mãn?      │
+                   └─────────────────┬─────────────────┘
+                                     │
+                   ┌─────────────────▼─────────────────┐
+                   │  3. Xác định "khoảng nhiễu"        │
+                   │    Thiếu/Thừa dữ kiện ở đâu?       │
+                   │    Cần mô hình hóa như thế nào?    │
+                   └─────────────────┬─────────────────┘
+                                     │
+                   ┌─────────────────▼─────────────────┐
+                   │  4. Mô hình hóa và tiền xử lý      │
+                   │    → Đưa về dạng có thể áp dụng    │
+                   └─────────────────┬─────────────────┘
+                                     │
+                   ┌─────────────────▼─────────────────┐
+                   │  5. Áp dụng lý thuyết đã chọn     │
+                   │    → Biến đổi toán học             │
+                   └─────────────────┬─────────────────┘
+                                     │
+                   ┌─────────────────▼─────────────────┐
+                   │  6. Kiểm tra kết quả:              │
+                   │    Thứ nguyên? Giới hạn? Hợp lý?   │
+                   └─────────────────┬─────────────────┘
+                                     │
+                   ┌─────────────────▼─────────────────┐
+                   │  7. Trình bày lời giải hoàn chỉnh  │
+                   │    (tự tay viết từ đầu đến cuối)   │
+                   └─────────────────────────────────────┘
+
+```
+
+Các mệnh đề vàng cần khắc cốt ghi tâm
+
+"Vạn bài đều dễ và hiển nhiên như nhau" - Khi bạn đã nắm được First Principles, mọi bài toán đều là hệ quả.
+
+"Không có phép thuật" - Mọi lời giải đều nằm trong số công cụ bạn đã học.
+
+"Người ra đề không làm thừa" - Mọi chi tiết đều có ý nghĩa.
+
+"Hiểu ≠ Làm được" - Chỉ khi tự tay giải được mới thực sự sở hữu lời giải.
+
+"Điều kiện biên là bẫy" - Luôn kiểm tra giới hạn áp dụng của lý thuyết.
+
+### LỜI KẾT
+
+Hệ thống phương pháp này không chỉ giúp bạn chinh phục các kỳ thi HSGQG, VPHO, IPHO, APHO mà còn rèn luyện tư duy của một nhà khoa học thực thụ. Hãy nhớ rằng, mục tiêu cuối cùng không phải là điểm số, mà là khả năng tự mình khám phá và hiểu được vẻ đẹp của thế giới tự nhiên thông qua ngôn ngữ vật lý.
+
+**Hãy kiên nhẫn. Hãy sâu sắc. Đừng ảo tưởng. Và quan trọng nhất: Hãy tận hưởng hành trình!**
 
 ---
 
