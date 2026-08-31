@@ -428,7 +428,7 @@ Các mệnh đề vàng cần khắc cốt ghi tâm
 
 "Điều kiện biên là bẫy" - Luôn kiểm tra giới hạn áp dụng của lý thuyết.
 
-### LỜI KẾT
+## LỜI KẾT
 
 Hệ thống phương pháp này không chỉ giúp bạn chinh phục các kỳ thi HSGQG, VPHO, IPHO, APHO mà còn rèn luyện tư duy của một nhà khoa học thực thụ. Hãy nhớ rằng, mục tiêu cuối cùng không phải là điểm số, mà là khả năng tự mình khám phá và hiểu được vẻ đẹp của thế giới tự nhiên thông qua ngôn ngữ vật lý.
 
