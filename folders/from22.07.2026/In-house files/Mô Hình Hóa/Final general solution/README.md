@@ -44,7 +44,7 @@ Và buộc phải thỏa mãn rằng, mọi dạng bài tập, mọi biến th�
 **>> Mục tiêu của phần này là, với mọi dạng đề, đề bài mới lạ (độ khó cỡ HSGQG, VPHO, IPHO,...) bạn LUÔN LUÔN BIẾT được rằng bài này liên quan chặt chẽ với những lý thuyết nào trước đây bạn đã học. Lý do dùng từ "liên quan" là vì thường sẽ cần "mô hình hóa" để loại bỏ/thêm bớt một số yếu tố quan trọng, hoặc có thể là có bước tiền xử lý trước khi áp dụng các lý thuyết chính.**
 
 
-### PHẦN 4: CHIẾN LƯỢC THỰC CHIẾN & KỸ NĂNG MÔ HÌNH HÓA
+### PHẦN 4: CHIẾN LƯỢC THỰC CHIẾN & KỸ NĂNG MÔ HÌNH HÓA & MORE...
 
 **Tư duy của người đầu ngành học thuật & Deductive reasoning:**
 
