@@ -7,7 +7,7 @@
 
 Đọc kỹ, hiểu sâu, thấm. Đừng ảo tưởng rằng bản thân đã hiểu, và thường thì rất dễ ảo tưởng :
 
-*Giả định rằng bạn giỏi các kỹ năng toán học từ trước.
+*Giả định rằng bạn giỏi các kỹ năng toán học từ trước. Tức là dùng khi chưa biết hoặc bị kẹt ở bước chuyển bài Vật Lý về bài Toán. Hay ở đây là giả định các vấn đề liên quan đến Toán thì bạn không bị vướng hay gặp vấn đề, bạn có thể tự giải quyết được.
 
 ### PHẦN 1: TÂM THẾ & NGUYÊN TẮC CỐT LÕI
 
