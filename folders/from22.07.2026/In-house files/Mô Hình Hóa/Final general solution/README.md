@@ -435,6 +435,13 @@ Các mệnh đề vàng cần khắc cốt ghi tâm
 
 "Điều kiện biên là bẫy" - Luôn kiểm tra giới hạn áp dụng của lý thuyết.
 
+### PHẦN 8: IMPORTANT WARNINGS
+
+Áp lực tốc độ trong phòng thi: Diễn dịch mọi thứ từ First Principles có thể tốn thời gian hơn so với việc sử dụng ngay các kết quả trung gian đã thuộc lòng. Người học cần đạt đến mức độ mà các bước diễn dịch này trở thành phản xạ tự động thay vì phải mò mẫm tính toán lại từ con số không. Và cũng không đồng nghĩa với việc loại bỏ hoàn toàn các công thức mẹo, các mẹo làm bài,...
+
+Nguy cơ lún quá sâu vào toán trừu tượng, những lý thuyết quá trừu tượng & cao cấp: Việc giả định "toán học không có vấn đề" có thể dẫn đến việc quá tập trung vào các phép biến đổi vi tích phân phức tạp, trừu tượng cực kỳ cao mà bỏ quên trực giác vật lý định tính (suy luận logic không cần tính toán)...
+
+
 ## LỜI KẾT
 
 Hệ thống phương pháp này không chỉ giúp bạn chinh phục các kỳ thi HSGQG, VPHO, IPHO, APHO mà còn rèn luyện tư duy của một nhà khoa học thực thụ. Hãy nhớ rằng, mục tiêu cuối cùng không phải là điểm số, mà là khả năng tự mình khám phá và hiểu được vẻ đẹp của thế giới tự nhiên thông qua ngôn ngữ vật lý.
