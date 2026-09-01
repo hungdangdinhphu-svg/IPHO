@@ -320,7 +320,7 @@ Giá trị riêng và vector riêng.
 
 #### 5.3. Hình học giải tích (Analytic Geometry)
 
-Hệ tọa độ Descartes, trụ, cầu.
+Hệ tọa độ Descartes, cực, trụ, cầu.
 
 Phương trình đường thẳng, mặt phẳng, mặt cong trong không gian.
 
