@@ -17,9 +17,16 @@ Trong tình huống này, người giải đề là học sinh, và khá thông 
 Gần như chắc chắn, bước này được học sinh dùng trực giác để giải quyết, trừ khi có trong các biến đổi đại số THCS VN (2025) tại SGK. Có thể làm chủ vấn đề này, thì có vẻ như mọi vấn đề trong đại số đòi hỏi "heuristic" hay "trực giác đại số", ta đều có thể vả vỡ mồm được.
 
 
+# Các hướng giải quyết
+
+## Hướng 1 :
+
+Thay vì giải quyết toàn cục (điều bất khả thi). Ta sẽ giải quyết phần gần như tổng quát cho phạm vi THCS, THPT, HSGQG của ta.
 
 
+## Hướng 2 :
 
+Đưa ra các giải quyết cực kỳ cục bộ nhưng mạnh. Tức là gặp dạng nào thì "thuật toán hóa"/framework mạnh vả vỡ mồm dạng mỗi dạng đó thôi; Áp dụng cho các dạng khác cách làm tương tự;
 
 
 
