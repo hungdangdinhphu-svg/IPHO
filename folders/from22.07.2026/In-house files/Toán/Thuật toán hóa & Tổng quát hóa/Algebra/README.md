@@ -10,7 +10,7 @@ Mặc dù có thuộc lòng các biến đổi đại số THCS VN (2025) đó, 
 
 Biến đổi một biểu thức A có bao gồm biến và hằng ---sang---> một biểu thức A' bằng A, có bao gồm biến và hằng hoặc thiếu 1 trong 2.
 
-Trong đó, A' là một dạng 
+Trong đó, A' là một biểu thức thỏa mãn các tính chất quan trọng để có thể đi đến bước tiếp theo, hoặc giải được bài toán.
 
 
 
