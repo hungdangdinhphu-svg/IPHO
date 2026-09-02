@@ -12,9 +12,7 @@ Biến đổi một biểu thức A có bao gồm biến và hằng ---sang---> 
 
 Trong đó, A' là một biểu thức thỏa mãn các tính chất quan trọng để có thể đi đến bước tiếp theo, hoặc giải được bài toán.
 
-Gần như chắc chắn, bước này được học sinh dùng trực giác để giải quyết, trừ khi có trong các biến đổi đại số THCS VN (2025) tại SGK.
-
-
+Gần như chắc chắn, bước này được học sinh dùng trực giác để giải quyết, trừ khi có trong các biến đổi đại số THCS VN (2025) tại SGK. Có thể làm chủ vấn đề này, thì có vẻ như mọi vấn đề trong đại số đòi hỏi "heuristic" hay "trực giác đại số", ta đều có thể vả vỡ mồm được.
 
 
 
