@@ -6,7 +6,7 @@ Tổng hợp các biến đổi đại số đầy đủ ở cấp THCS tại Vi
 
 Mặc dù có thuộc lòng các biến đổi đại số THCS VN (2025) đó, nhưng khi không còn là các bài toán trong SGK, thì có các vấn đề lớn sau :
 
-
+**Vấn đề 1:** 
 
 
 
