@@ -6,7 +6,7 @@ Tổng hợp các biến đổi đại số đầy đủ ở cấp THCS tại Vi
 
 Mặc dù có thuộc lòng các biến đổi đại số THCS VN (2025) đó, nhưng khi không còn là các bài toán trong SGK, thì có các vấn đề lớn sau :
 
-**Vấn đề 1:** 
+**Vấn đề 1:** Với các bài toán nặng nề về đại số ở THCS (HSG hoặc Chuyên Lý), hoặc là cả THPT (trừ tích phân bất định ra; lý do tôi không thêm đạo hàm vào danh sách loại trừ là vì nó có thể làm ra quy trình giải theo kiểu "thuật toán" cho đạo hàm hiệu quả đến mức cho học sinh dùng được)
 
 
 
