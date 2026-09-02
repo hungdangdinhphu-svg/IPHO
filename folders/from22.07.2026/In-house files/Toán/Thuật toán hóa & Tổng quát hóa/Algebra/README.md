@@ -1,8 +1,10 @@
 # Thảo luận lớn về Biến đổi đại số và hơn thế nữa
 
+
+
 Tổng hợp các biến đổi đại số đầy đủ ở cấp THCS tại Việt Nam (2025) : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a/Algebra/a2.md
 
-
+Mặc dù có thuộc lòng các biến đổi đại số THCS VN (2025) đó, nhưng khi không còn là các bài toán trong SGK, thì có các vấn đề lớn sau :
 
 
 
