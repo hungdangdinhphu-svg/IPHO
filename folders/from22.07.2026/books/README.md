@@ -4,7 +4,7 @@ IPHO/folders/from22.07.2026/books/
 
 Theo tôi, bạn nên cày combo 1 song song với combo 2;
 
-**Combo 1 : Bộ bồi dưỡng cầu vồng truyền thống mà ai cũng biết (nhưng đc bổ sung thêm 1 số thứ)**
+**Combo 1 : Bộ bồi dưỡng cầu vồng truyền thống mà ai cũng biết (nhưng đc bổ sung thêm 1 số thứ)** : Bồi dưỡng học sinh giỏi vật lý thpt, thinking practically (epstein)
 
 **Combo 2:** Cơ học cổ điển của David Morin, Điện (Từ?) của Griffiths, Nhiệt của Blundell (một số phần về sau hơi nâng cao quá?), phần còn lại thì cứ quất theo combo 1
 
