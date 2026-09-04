@@ -1,3 +1,5 @@
+*Có lỗi hiển thị.
+
 # PHƯƠNG PHÁP ĐỊNH THỨC SYLVESTER (PHÉP KHỬ DẦN BIẾN)
 
 Bản chất: Thay vì dùng trực giác để đặt ẩn phụ hay thế biến, ta sử dụng Ma trận Sylvester và tính Định thức (Determinant) của nó để loại bỏ một biến một cách tự động. Máy Casio fx-580VN X có chức năng tính định thức ma trận cấp 4x4, cực kỳ phù hợp để làm việc này.
