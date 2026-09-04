@@ -28,6 +28,9 @@ Thay vì giải quyết toàn cục (điều bất khả thi). Ta sẽ giải qu
 
 Đưa ra các giải quyết cực kỳ cục bộ nhưng mạnh. Tức là gặp dạng nào thì "thuật toán hóa"/framework mạnh vả vỡ mồm dạng mỗi dạng đó thôi; Áp dụng cho các dạng khác cách làm tương tự;
 
+## Hướng 3 :
+
+Đơn giản là giỏi Đại số:)
 
 
 
