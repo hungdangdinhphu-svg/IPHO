@@ -95,3 +95,85 @@ Cho det = 0, ta được phương trình 1 ẩn: $y^4 - 10y^2 + y + 22 = 0$.
 
 Bước 4: Nhập y^4 - 10y^2 + y + 22 = 0 vào Casio, bấm SOLVE (chọn giá trị đầu $y = 1 \rightarrow$ ra $y = 2$). Thế $y = 2$ vào hệ đầu, bấm SOLVE tìm được $x = 1$. (Bạn hoàn toàn có thể tìm hết 4 nghiệm bằng cách đổi giá trị đầu).
 
+# Cách đấm vỡ mồm m + n > 4 :
+
+## Đây là Định lý kết hợp (Thuật toán Euclid cho Resultant):
+
+Nguyên lý bất hủ: Nếu $P(x)$ và $Q(x)$ có nghiệm chung, thì khi chia $P$ cho $Q$ lấy dư $R(x)$, cặp $(Q, R)$ cũng có nghiệm chung đó.Cụ thể: $\text{Det\_Sylvester}(P, Q) = 0 \iff \text{Det\_Sylvester}(Q, R) = 0$ (sai khác hằng số vô hại).Vì vậy, ta dùng phép chia lấy dư để hạ bậc cho đến khi tổng bậc $\le 4$ rồi mới bấm Casio.
+
+## "MẸO CHIA ĐA THỨC CỰC NHANH" (Dùng đạo hàm & Hệ số bất định)
+
+Để tránh việc chia cột dài dòng, ta dùng Đạo hàm (Taylor) tại 0 hoặc đơn giản là Đồng nhất hệ số – cách này tất định và chỉ cần 4 phép tính cộng trừ nhân chia.Giả sử bạn cần chia A(x) bậc $m$ cho B(x) bậc $n$ (với $m > n$).Ví dụ điển hình: Chia bậc 3 cho bậc 2 (tổng $5 > 4$), ta chỉ cần tìm dư $R(x) = Cx + D$.
+
+Cách làm siêu tốc (cho bậc 3 $\div$ bậc 2):
+
+Cho $A(x) = a_3x^3 + a_2x^2 + a_1x + a_0$
+
+Cho $B(x) = b_2x^2 + b_1x + b_0$
+
+Giả sử thương là $qx + p$, dư là $Cx + D$.
+
+Viết phương trình đồng nhất:
+
+$$a_3x^3 + a_2x^2 + a_1x + a_0 = (qx + p)(b_2x^2 + b_1x + b_0) + (Cx + D)$$
+
+Mở ngoặc và so sánh hệ số, bạn có công thức truy hồi cực nhanh:
+
+$q = \frac{a_3}{b_2}$
+
+$p = \frac{a_2 - q \cdot b_1}{b_2}$
+
+$C = a_1 - q \cdot b_0 - p \cdot b_1$ (Đây chính là đạo hàm cấp 1 tại 0 của phần dư)
+
+$D = a_0 - p \cdot b_0$
+
+Chỉ 4 phép tính là ra đa thức dư $R(x) = Cx + D$.
+
+Tương tự, nếu chia bậc 4 cho bậc 2, bạn làm tương tự, tìm thương bậc 2 (cần 3 biến) và dư bậc 1 (2 biến) – cũng chỉ giải hệ 5 ẩn bằng cách đồng nhất, cực ngắn.
+
+## QUY TRÌNH "CỰC MẠNH" KHI m + n > 4
+
+Bước 1 (Lặp Euclid):
+
+Nhìn vào 2 đa thức chứa biến cần khử (ví dụ $x$).
+
+Lấy đa thức bậc cao hơn chia cho đa thức bậc thấp hơn bằng mẹo đồng nhất hệ số ở trên để ra dư $R(x)$.
+
+Thế đa thức bậc cao bằng dư $R(x)$ đó.
+
+Lặp lại cho đến khi tổng bậc của 2 đa thức mới $\le 4$.
+
+Bước 2 (Bấm Casio thẳng):
+
+Lúc này, vì tổng bậc $m' + n' \le 4$, ma trận Sylvester có kích thước tối đa 4x4. Bạn lập ma trận đó, vào Casio MODE -> Matrix -> Det , bấm ra định thức (phương trình mới không còn biến $x$). Cực kỳ nhanh!
+
+
+## VÍ DỤ THỰC TẾ (Bạn thử làm theo, sẽ thấy nó nhanh hơn mò nghiệm)
+
+Giả sử cần khử $x$ khỏi 2 phương trình bậc 3 (tổng $6 > 4$):
+
+$$P(x) = x^3 + 2x + y = 0 \quad \text{(bậc 3)}$$
+
+$$Q(x) = x^3 - x + y^2 = 0 \quad \text{(bậc 3)}$$
+
+Thực hiện Euclid cực nhanh trên giấy:
+
+Lấy $P - Q$ ta được: $$P - Q = (x^3 - x^3) + 0x^2 + (2x - (-x)) + (y - y^2) = 3x + (y - y^2)$$
+
+Vậy dư $R(x) = 3x + (y - y^2)$ (bậc 1).
+
+Lúc này, thay vì bấm ma trận 6x6, ta chỉ việc khử $x$ giữa Q (bậc 3) và R (bậc 1).
+Tổng bậc = $3 + 1 = 4 \rightarrow$ Vừa khớp Casio 4x4!
+
+Bạn lập ma trận Sylvester 4x4 ngay.
+
+Bấm Det trên Casio ra luôn phương trình 1 ẩn $y$ mà không cần khai triển dài dòng.
+
+## VẬY "ĐẠO HÀM" ĐƯỢC DÙNG Ở ĐÂU ĐỂ CHẶN DÀI?
+
+Bạn cho phép dùng đạo hàm, tôi xin chỉ ra chiêu cuối để làm hệ "xấu" trở nên cực ngắn:
+
+Trước khi chia Euclid, hãy kiểm tra UCLN của hai đa thức bằng cách tính $\gcd(P, P')$ (dùng đạo hàm). Nếu chúng có nghiệm bội, bậc của đa thức sẽ giảm ngay lập tức (nghiệm bội bị loại bỏ), khiến tổng bậc $m + n$ tụt xuống dưới 4 mà không cần phải chia nhiều lần.
+
+Tuyệt chiêu bấm máy: Để tìm UCLN bằng tay cực nhanh, bạn chỉ cần tính P mod P' (dùng đồng nhất hệ số như trên). Thao tác này chỉ tốn 5 giây.
+
