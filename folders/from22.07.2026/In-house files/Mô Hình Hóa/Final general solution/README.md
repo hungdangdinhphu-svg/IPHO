@@ -34,7 +34,17 @@ Vấn đề chính : Nếu không phải là một quy trình có thể thực h
 
 Một ví dụ tốt : Giả sử đề thi cho một cái mạch điện tuyến tính, nếu thí sinh dùng Phương pháp Nodal Analysis (Phương pháp điện thế nút cải tiến) nhưng được chỉnh sửa lại hợp lý cho thí sinh giải được bằng tay và máy tính cầm tay, nhưng giả sử thí sinh không biết/không được dạy/không được dùng hoặc nó vượt quá điều kiện thi của thí sinh thì => thí sinh phải dùng trực giác để lập được hệ phương trình, phương trình, và rất khó khăn.
 
-**Đề xuất cách giải quyết:** Gặp các **dạng** vấn đề nào thì tự tìm ra/chỉnh sửa để tạo thành một Phương Pháp sao cho nó yêu cầu tối thiểu việc dùng trực giác, mò mẫm của bản thân.
+**Cảnh báo:** Ở trong **PHẦN 0** này thì từ **"dạng"** được hiểu theo cách khác thông thường, cẩn thận nhé! Ở các phần khác thì không (có lẽ vậy).
+
+**Đề xuất cách giải quyết:** Gặp một **"dạng"** vấn đề nào thì tự tìm ra/chỉnh sửa để tạo thành một Phương Pháp sao cho nó yêu cầu tối thiểu việc dùng trực giác, mò mẫm của bản thân. Khi gặp nhiều **"dạng"** cùng một lúc thì áp dụng độc lập chúng, và sau đó dùng trực giác và Vấn đề 3 để nối nhau lại.
+
+Nhưng các **"dạng"** ở đây không phải là chỉ dựa trên SGK hoặc các tài liệu trên mạng, các chuyên đề riêng biệt, vì nếu làm vậy thì tệ hại. Kiểu như nếu ta chỉ ôn chuyên đề về "ròng rọc", mà đi thi HSGQG nó cho "cung", thì chết. 
+
+Vậy câu hỏi thật sự là: **"dạng"** phải được định nghĩa theo trục nào để nó vừa hữu hạn, vừa bao trùm được biến thể lạ, vừa không rơi lại vào pattern-matching bề mặt?
+
+Có vẻ đây là câu trả lời (và hình như bên dưới tôi có nhắc đến rồi) : Đó là khi mình biết phải dùng các CÔNG CỤ (nhóm) nào để giải đề bài đó rồi thì. Mỗi một công cụ con trong nhóm đó, phải trả lời được : Nếu KHÔNG dùng trực giác, chỉ tra theo trình tự cố định, thì trình tự đó là gì?
+
+Mỗi một công cụ chính là 1 **"dạng"**. 
 
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
