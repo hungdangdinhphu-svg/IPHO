@@ -12,6 +12,18 @@
 
 Tài liệu này được xây dựng dành cho đối tượng học sinh đã có nền tảng toán học vững chắc, mong muốn đạt đến trình độ tư duy của các nhà nghiên cứu và ứng viên kỳ thi Olympic Vật lý quốc tế. Nội dung không chỉ là phương pháp học mà còn là một triết lý tiếp cận khoa học.
 
+### PHẦN 0: BÀN LUẬN VỀ 3 VẤN ĐỀ LỚN CHÍNH
+
+#### 0.1. 3 VẤN ĐỀ LỚN CHÍNH
+
+Vấn đề 1 : Nhận diện được các lý thuyết, phương pháp, định luật,... (CÔNG CỤ) cần phải xài để giải bài Vật Lý. Cũng như tiện thể (pre-processing) chuyển bài Vật Lý về dạng có thể áp dụng các CÔNG CỤ trên.
+
+Vấn đề 2 : Chính thức chuyển bài Vật Lý sang bài Toán.
+
+Vấn đề 3 : Giải bài Toán, và ra đáp án.
+
+
+
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
 #### 1.1. Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence)
