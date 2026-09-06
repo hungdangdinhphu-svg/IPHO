@@ -12,7 +12,7 @@
 
 Tài liệu này được xây dựng dành cho đối tượng học sinh đã có nền tảng toán học vững chắc, mong muốn đạt đến trình độ tư duy của các nhà nghiên cứu và ứng viên kỳ thi Olympic Vật lý quốc tế. Nội dung không chỉ là phương pháp học mà còn là một triết lý tiếp cận khoa học.
 
-### PHẦN 0: BÀN LUẬN VỀ 3 VẤN ĐỀ LỚN CHÍNH
+### PHẦN 0: BÀN LUẬN VỀ 3 VẤN ĐỀ LỚN CHÍNH & VẤN ĐỀ THỨ 2
 
 #### 0.1. 3 VẤN ĐỀ LỚN CHÍNH
 
@@ -26,7 +26,9 @@ Trong đó, vấn đề 1 tôi đã nêu chi tiết cách xử lý ở bên dư�
 
 Vấn đề 3 thì đơn giản là giỏi toán, tham khảo các quyển sách như Mathematical Methods in the Physical Sciences, 3e (Mary L. Boas), Calculus 7e James Stewarts.
 
-Nhưng vấn đề 2 là vấn đề lớn.
+Nhưng vấn đề 2 là vấn đề lớn. Và phần này sẽ là phần tôi bàn về nó.
+
+#### 0.2. NHỮNG VẤN ĐỀ CỦA VẤN ĐỀ 2
 
 
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
