@@ -32,6 +32,8 @@ Nhưng vấn đề 2 là vấn đề lớn. Và phần này sẽ là phần tôi
 
 Vấn đề chính : Nếu không phải là một quy trình có thể thực hiện "máy móc" và phù hợp với điều kiện thi của thí sinh (không cần một cái computer, vô hạn thời gian, tốn 10 tiếng,...) thì nó đòi hỏi trực giác để giải quyết. Nhưng ta phải giải quyết vấn đề này với điều kiện thí sinh chỉ có trực giác ở mức trung bình, không phải theo cách tầm thường hay phổ biến với việc giáo dục ngày nay.
 
+Một ví dụ tốt : Giả sử đề thi cho một cái mạch điện tuyến tính, nếu thí sinh dùng Phương pháp Nodal Analysis (Phương pháp điện thế nút cải tiến) nhưng được chỉnh sửa lại hợp lý cho thí sinh giải được bằng tay và máy tính cầm tay, nhưng giả sử thí sinh không biết/không được dạy/không được dùng hoặc nó vượt quá điều kiện thi của thí sinh thì => thí sinh phải dùng trực giác để lập được hệ phương trình, phương trình, và rất khó khăn.
+
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
 #### 1.1. Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence)
