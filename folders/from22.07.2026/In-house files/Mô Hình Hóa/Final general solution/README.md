@@ -22,6 +22,11 @@ Vấn đề 2 : Chính thức chuyển bài Vật Lý sang bài Toán.
 
 Vấn đề 3 : Giải bài Toán, và ra đáp án.
 
+Trong đó, vấn đề 1 tôi đã nêu chi tiết cách xử lý ở bên dưới, thật ra nó còn bổ trợ cho nhiều thứ khác, nhưng chủ yếu là như vậy.
+
+Vấn đề 3 thì đơn giản là giỏi toán, tham khảo các quyển sách như Mathematical Methods in the Physical Sciences, 3e (Mary L. Boas), Calculus 7e James Stewarts.
+
+Nhưng vấn đề 2 là vấn đề lớn.
 
 
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
