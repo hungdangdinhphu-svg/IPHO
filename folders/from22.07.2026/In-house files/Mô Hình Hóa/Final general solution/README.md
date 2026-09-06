@@ -44,7 +44,7 @@ Nhưng các **"dạng"** ở đây không phải là chỉ dựa trên SGK hoặ
 
 Vậy câu hỏi thật sự là: **"dạng"** phải được định nghĩa theo trục nào để nó vừa hữu hạn, vừa bao trùm được biến thể lạ, vừa không rơi lại vào pattern-matching bề mặt?
 
-Có vẻ đây là câu trả lời (và hình như bên dưới tôi có nhắc đến rồi) : Đó là khi mình biết phải dùng các CÔNG CỤ (nhóm) nào để giải đề bài đó rồi thì. Mỗi một công cụ con trong nhóm đó, phải trả lời được : Nếu KHÔNG dùng trực giác, chỉ tra theo trình tự cố định, thì trình tự đó là gì?
+Có vẻ đây là câu trả lời (và hình như bên dưới tôi có nhắc đến rồi) : Đó là khi mình biết phải dùng các CÔNG CỤ (nhóm) nào để giải đề bài đó rồi thì. Mỗi một công cụ con trong nhóm đó, phải trả lời được : Nếu KHÔNG dùng trực giác, chỉ tra theo trình tự cố định, thì trình tự đó là gì? Mặc dù ngay cả như vậy, thì các bước con trong câu hỏi này vẫn có thể đòi hỏi trực giác (và có thể nó không tầm thường), nhưng "đến đây là tốt rồi!" - Đặng Đình Phú Hưng.
 
 Mỗi một công cụ chính là 1 **"dạng"**. 
 
