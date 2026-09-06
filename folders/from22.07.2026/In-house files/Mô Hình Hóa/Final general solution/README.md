@@ -30,6 +30,7 @@ Nhưng vấn đề 2 là vấn đề lớn. Và phần này sẽ là phần tôi
 
 #### 0.2. NHỮNG VẤN ĐỀ CỦA VẤN ĐỀ 2
 
+Vấn đề chính : Nếu không phải là một quy trình có thể thực hiện "máy móc" và phù hợp với điều kiện thi của thí sinh (không cần một cái computer, vô hạn thời gian, tốn 10 tiếng,...) thì nó đòi hỏi trực giác để giải quyết. Nhưng ta phải giải quyết vấn đề này với điều kiện thí sinh chỉ có trực giác ở mức trung bình, không phải theo cách tầm thường hay phổ biến với việc giáo dục ngày nay.
 
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
