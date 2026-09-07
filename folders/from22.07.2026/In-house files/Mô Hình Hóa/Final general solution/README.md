@@ -481,6 +481,10 @@ Nguy cơ lún quá sâu vào toán trừu tượng, những lý thuyết quá tr
 
 **Điều kiện cần** (Necessary condition) khác **Điều kiện đủ** (Sufficient condition), vậy nên hãy hiểu bản chất cả hai nhé.
 
+**Necessary condition**: Là điều kiện BẮT BUỘC phải có, nếu thiếu nó thì chắc chắn không xảy ra; Nhưng chỉ có nó thì chưa chắc;
+
+**Sufficient Condition**: Chỉ cần có nó thì chắc chắn xong rồi;
+
 ## LỜI KẾT
 
 Hệ thống phương pháp này không chỉ giúp bạn chinh phục các kỳ thi HSGQG, VPHO, IPHO, APHO mà còn rèn luyện tư duy của một nhà khoa học thực thụ. Hãy nhớ rằng, mục tiêu cuối cùng không phải là điểm số, mà là khả năng tự mình khám phá và hiểu được vẻ đẹp của thế giới tự nhiên thông qua ngôn ngữ vật lý.
