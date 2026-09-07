@@ -477,6 +477,9 @@ Các mệnh đề vàng cần khắc cốt ghi tâm
 
 Nguy cơ lún quá sâu vào toán trừu tượng, những lý thuyết quá trừu tượng & cao cấp: Việc giả định "toán học không có vấn đề" có thể dẫn đến việc quá tập trung vào các phép biến đổi vi tích phân phức tạp, trừu tượng cực kỳ cao mà bỏ quên trực giác vật lý định tính (suy luận logic không cần tính toán)...
 
+### Appendix (1 vài thứ) :
+
+**Điều kiện cần** (Necessary condition) khác **Điều kiện đủ** (Sufficient condition), vậy nên hãy hiểu bản chất cả hai nhé.
 
 ## LỜI KẾT
 
