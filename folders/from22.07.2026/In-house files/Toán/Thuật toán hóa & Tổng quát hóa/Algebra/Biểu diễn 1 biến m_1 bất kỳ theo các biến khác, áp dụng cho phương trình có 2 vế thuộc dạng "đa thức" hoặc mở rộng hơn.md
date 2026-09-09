@@ -20,6 +20,8 @@ Bước 3: Biện luận (if any) và xong!
 
 ## Bài Toán Lớn
 
+*Note: Nên chú ý quan sát vì sao tôi lại đặt phương trình kỳ lạ như vậy nhé.
+
 ```txt
 
 Bước 1: Khai triển tích và triệt tiêu số hạng chung
