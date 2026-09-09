@@ -12,7 +12,10 @@ Biến đổi một biểu thức A có bao gồm biến và hằng ---sang---> 
 
 Trong đó, A' là một biểu thức thỏa mãn các tính chất quan trọng để có thể giải được bài toán. Giữa A và A' có thể có nhiều các biểu thức A* phụ khác.
 
-Trong tình huống này, người giải đề là học sinh, và khá thông minh nên đã biết được A' có thỏa mãn các tính chất quan trọng nào (CHỨ KHÔNG PHẢI BIẾT A' RÕ RÀNG!), còn A thì dĩ nhiên là ai cũng biết.
+**Bài toán lớn:** Trong tình huống này, người giải đề là học sinh, và khá thông minh nên đã biết được A' có thỏa mãn các tính chất quan trọng nào (CHỨ KHÔNG PHẢI BIẾT A' RÕ RÀNG!), còn A thì dĩ nhiên là ai cũng biết.
+
+**Bài toán con:** Trong tình huống này, người giải đề là học sinh, và khá thông minh nên đã biết được A' là dạng tổng quát nào tường minh (ex: phương trình vi phân bậc 2), còn A thì dĩ nhiên là ai cũng biết.
+
 
 Gần như chắc chắn, bước này được học sinh dùng trực giác để giải quyết, trừ khi có trong các biến đổi đại số THCS VN (2025) tại SGK. Có thể làm chủ vấn đề này, thì có vẻ như mọi vấn đề trong đại số đòi hỏi "heuristic" hay "trực giác đại số", ta đều có thể vả vỡ mồm được.
 
