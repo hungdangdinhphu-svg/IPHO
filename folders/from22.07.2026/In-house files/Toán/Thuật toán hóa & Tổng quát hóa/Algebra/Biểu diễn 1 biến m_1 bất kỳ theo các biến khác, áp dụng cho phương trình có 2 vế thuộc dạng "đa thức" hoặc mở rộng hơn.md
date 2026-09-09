@@ -2,11 +2,15 @@
 
 ## Problem Statement & Quy trình
 
+
 Ta có phương trình sau : f_1(m_1,m_2,...,m_n) = f_2(m_1,m_2,...,m_n)
 
 Với m_i được hiểu là biến, nếu có một biến m_i (từ m_1 đến m_n) nào chỉ tồn tại ở một trong hai hàm f_j (j thuộc {1;2}) thì tại hàm f (tức là tại hàm không tồn tại biến m_i tường minh) đó, ta coi như 0*m_i = 0;
 
+
 Biết rằng f_1 và f_2 đều có "dạng" đa thức. Nếu không phải đa thức, đặt ẩn phụ theo u = √(u') và u_2 = 1/(u_3) và u_1 * u_2 = u_1 * (1/u_3) ;
+
+**Với (m_1)^p mà p=1 :**
 
 Gọi:
 
@@ -16,7 +20,6 @@ Bước 2: Áp dụng các kỹ thuật bên "Bài Toán Lớn" & Bảng Quy T�
 
 Bước 3: Biện luận (if any) và xong!
 
-**Lưu ý lớn:** Trong trường hợp có tồn tại (m_1)^n (với n > 1) thì cần xử lý tiếp sau bước m_1 * theta = gamma một cách đúng đắn, về cơ bản vẫn là chuyển hàm chứa m_1 bên vế phải sang vế trái, rồi đảm bảo hàm z' bên vế trái chứa toàn bộ các m_1 (mà z' có dạng là chỉ có các m_1 xuất hiện trên tử số), sau đó tiếp tục áp dụng dạng m_1 * theta' = gamma'
 
 
 ## Bài Toán Lớn
@@ -51,3 +54,18 @@ Nếu $m_6' + m_7' + m_8' = 0$: Phương trình nghiệm đúng với mọi $m_1
 Nếu $m_6' + m_7' + m_8' \neq 0$: Phương trình vô nghiệm.
 
 ```
+
+## **Với (m_1)^p mà p>1 :**
+
+
+Nếu tồn tại $m_1^n$ với $n > 1$, phương trình không thể giải bằng cách đặt nhân tử chung $m_1$ đơn thuần. Cần biến đổi về dạng đa thức chuẩn theo ẩn $m_1$:
+
+$$A_n m_1^n + A_{n-1} m_1^{n-1} + \dots + A_1 m_1 + A_0 = 0$$
+
+Trong đó $A_k$ là các biểu thức chỉ chứa các biến còn lại ($m_2, \dots, m_n$). Sau đó:
+
+Với $n = 2$: Áp dụng công thức nghiệm phương trình bậc 2 (tính $\Delta = A_1^2 - 4A_2A_0$).
+
+Với $n > 2$: Dùng phương pháp phân tích thành nhân tử, công thức Cardano/Ferrari (nếu $n=3,4$), hoặc chấp nhận biểu diễn $m_1$ dưới dạng nghiệm của ẩn $m_1$.
+
+## 
