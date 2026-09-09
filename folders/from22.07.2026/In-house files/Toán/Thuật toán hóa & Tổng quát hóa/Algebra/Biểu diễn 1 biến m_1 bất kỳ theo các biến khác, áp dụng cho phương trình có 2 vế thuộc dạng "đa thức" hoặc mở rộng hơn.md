@@ -1,4 +1,24 @@
+# Biểu diễn 1 biến m_1 bất kỳ theo các biến khác, áp dụng cho phương trình có 2 vế thuộc dạng "đa thức" hoặc mở rộng hơn
 
+## Problem Statement & Quy trình
+
+Ta có phương trình sau : f_1(m_1,m_2,...,m_n) = f_2(m_1,m_2,...,m_n)
+
+Với m_i được hiểu là biến, nếu có một biến m_i (từ m_1 đến m_n) nào chỉ tồn tại ở một trong hai hàm f_j (j thuộc {1;2}) thì tại hàm f (tức là tại hàm không tồn tại biến m_i tường minh) đó, ta coi như 0*m_i = 0;
+
+Biết rằng f_1 và f_2 đều có "dạng" đa thức. Nếu không phải đa thức, đặt ẩn phụ theo u = √(u') và u_2 = 1/(u_3) và u_1 * u_2 = u_1 * (1/u_3) ;
+
+Gọi:
+
+Bước 1: Biết rằng ta đang muốn m_1 = g_0(m_2, m_3,...,m_n)
+
+Bước 2: Áp dụng các kỹ thuật bên "Bài Toán Lớn" & Bảng Quy Tắc Biến Đổi Đại Số THCS để đưa về cấu trúc m_1 * theta = gamma
+
+Bước 3: Biện luận (if any) và xong!
+
+
+
+## Bài Toán Lớn
 
 ```txt
 
