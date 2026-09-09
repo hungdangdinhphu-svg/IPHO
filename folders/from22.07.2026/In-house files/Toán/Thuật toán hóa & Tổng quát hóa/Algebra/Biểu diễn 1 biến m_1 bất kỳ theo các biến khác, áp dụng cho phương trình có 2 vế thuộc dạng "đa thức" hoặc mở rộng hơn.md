@@ -16,6 +16,7 @@ Bước 2: Áp dụng các kỹ thuật bên "Bài Toán Lớn" & Bảng Quy T�
 
 Bước 3: Biện luận (if any) và xong!
 
+**Lưu ý lớn:** Trong trường hợp có tồn tại (m_1)^n (với n > 1) thì cần xử lý tiếp sau bước m_1 * theta = gamma một cách đúng đắn, về cơ bản vẫn là chuyển hàm chứa m_1 bên vế phải sang vế trái, rồi đảm bảo hàm z' bên vế trái chứa toàn bộ các m_1 (mà z' có dạng là chỉ có các m_1 xuất hiện trên tử số), sau đó tiếp tục áp dụng dạng m_1 * theta' = gamma'
 
 
 ## Bài Toán Lớn
