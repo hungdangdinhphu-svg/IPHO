@@ -3,3 +3,5 @@
 Wikipedia : https://en.wikipedia.org/wiki/Method_of_undetermined_coefficients
 
 Gemini : https://share.gemini.google/VS3sLYpxbGkG
+
+DeepSeek : https://chat.deepseek.com/share/wuzt5nc492kjg7eu92
