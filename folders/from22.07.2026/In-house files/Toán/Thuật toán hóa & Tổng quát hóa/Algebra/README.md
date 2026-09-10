@@ -14,7 +14,7 @@ Trong đó, A' là một biểu thức thỏa mãn các tính chất quan trọn
 
 **Bài toán lớn:** Trong tình huống này, người giải đề là học sinh, và khá thông minh nên đã biết được A' có thỏa mãn các tính chất quan trọng nào (CHỨ KHÔNG PHẢI BIẾT A' RÕ RÀNG!), còn A thì dĩ nhiên là ai cũng biết.
 
-**Bài toán con:** Trong tình huống này, người giải đề là học sinh, và khá thông minh nên đã biết được A' là dạng tổng quát nào tường minh (ex: phương trình vi phân bậc 2), còn A thì dĩ nhiên là ai cũng biết.
+**Bài toán con:** Trong tình huống này, người giải đề là học sinh, và khá thông minh nên đã biết được A' là dạng tổng quát nào tường minh (ex: phương trình vi phân bậc 2), còn A thì dĩ nhiên là ai cũng biết. https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a/Algebra/H%E1%BB%87%20s%E1%BB%91%20b%E1%BA%A5t%20%C4%91%E1%BB%8Bnh%20v%C3%A0%20B%C3%A0i%20to%C3%A1n%20con%20T%E1%BB%95ng%20qu%C3%A1t.md
 
 
 Gần như chắc chắn, bước này được học sinh dùng trực giác để giải quyết, trừ khi có trong các biến đổi đại số THCS VN (2025) tại SGK. Có thể làm chủ vấn đề này, thì có vẻ như mọi vấn đề trong đại số đòi hỏi "heuristic" hay "trực giác đại số", ta đều có thể vả vỡ mồm được.
