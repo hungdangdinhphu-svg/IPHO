@@ -1,4 +1,4 @@
-# Hệ số bất định và "Bài toán con" Tổng quát
+# Hệ số bất định và "Bài toán con" Tổng quát - Method of undetermined coefficients
 
 Wikipedia : https://en.wikipedia.org/wiki/Method_of_undetermined_coefficients
 
