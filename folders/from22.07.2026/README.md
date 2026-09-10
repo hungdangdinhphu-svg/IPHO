@@ -22,4 +22,8 @@ Nỗ lực trong việc đưa ra các ví dụ giải mẫu (tests) : https://gi
 
 Một số prompts hữu ích để gửi AI.
 
-Gemini (Flash + Mở rộng) : "Giảng bài này cho t hiểu đi. Đưa t đủ số ví dụ và đủ phức tạp để bao phủ toàn bộ lượng lý thuyết này đi, đảm bảo t hiểu và nhớ hết :"
+ 
++) "Giảng bài này cho t hiểu đi. Đưa t đủ số ví dụ và đủ phức tạp để bao phủ toàn bộ lượng lý thuyết này đi, đảm bảo t hiểu và nhớ hết :"
+
++) "Tôi không hiểu nổi bạn đang "...". Vì nó tràn ngập toàn là thuật ngữ. Hãy giúp tôi triệt để!"
+
