@@ -4,7 +4,7 @@ Wikipedia : https://en.wikipedia.org/wiki/Method_of_undetermined_coefficients
 
 Gemini : https://share.gemini.google/VS3sLYpxbGkG
 
-DeepSeek : https://chat.deepseek.com/share/lw74x9i8ewklwcws8p
+DeepSeek : https://chat.deepseek.com/share/lw74x9i8ewklwcws8p ; https://chat.deepseek.com/share/52w4dfddf49z883d4o
 
 **Big Question:**
 
