@@ -42,7 +42,7 @@ Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà 
 
 ### ĐỘNG HỌC (TỔNG QUÁT)
 
-https://chat.deepseek.com/share/0p2hsda5b1ukplkwnz
+https://chat.deepseek.com/share/0p2hsda5b1ukplkwnz & https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from13.08.2026/Kinematics/a1.md
 
 Học thêm các phần sau (Một cách rất sâu sắc) : Galilean Relativity, Galilean Invariance
 
