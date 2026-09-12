@@ -45,3 +45,11 @@ Hãy quay lại đọc thật kỹ hết Vấn đề 1 & 2 nếu chưa làm. Sau
 # TOÁN
 
 ---
+
+---
+
+# Lưu ý:
+
++) Để đảm bảo chất lượng và nội dung, độ dày,... Hãy chia nhỏ thành từng phần rất nhỏ rồi làm thật dày phần đó, tiếp tục với các phần khác. Đừng cố tình làm một lúc thật nhiều. Nhưng cũng đừng mất sự liên kết giữa các phần. Nghe hơi kỳ lạ:)?
+
+---
