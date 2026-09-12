@@ -9,9 +9,6 @@
 # VẤN ĐỀ 1
 
 
-...
-
-## Phần 2 (Bước 1 & 2)
 
 *Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm) : 
 
@@ -47,19 +44,22 @@ Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà 
 
 https://chat.deepseek.com/share/0p2hsda5b1ukplkwnz
 
+...
+
+## Phần 2 (Bước 1 & 2)
+
+
 
 ...
 
 ## Phần 3
 
-*Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm) : 
 
 
 ...
 
 ## Phần 4
 
-*Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm) : 
 
 
 ...
