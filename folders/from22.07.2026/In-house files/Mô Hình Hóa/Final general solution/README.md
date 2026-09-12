@@ -138,6 +138,16 @@ Khi tiếp cận bất kỳ định luật, công thức hay lý thuyết nào, 
 
 Định nghĩa: Phải biết chính xác khi nào được dùng và khi nào tuyệt đối cấm dùng một lý thuyết.
 
+**CHI TIẾT VÀ QUAN TRỌNG:**
+
+Nó là Logic:
+
+**Điều kiện cần** (Necessary condition) khác **Điều kiện đủ** (Sufficient condition), vậy nên hãy hiểu bản chất cả hai nhé.
+
+**Necessary condition**: Là điều kiện BẮT BUỘC phải có, nếu thiếu nó thì chắc chắn không xảy ra; Nhưng chỉ có nó thì chưa chắc;
+
+**Sufficient Condition**: Chỉ cần có nó thì chắc chắn xong rồi;
+
 Phân tích:
 
 Điều kiện cần: Những yếu tố bắt buộc phải có để lý thuyết đó có hiệu lực.
