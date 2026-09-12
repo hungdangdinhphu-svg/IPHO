@@ -8,17 +8,28 @@
 
 # VẤN ĐỀ 1
 
+*Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm) : 
+
 ...
 
 ## Phần 2 (Bước 1 & 2)
+
+*Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm) : 
+
 
 ...
 
 ## Phần 3
 
+*Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm) : 
+
+
 ...
 
 ## Phần 4
+
+*Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm) : 
+
 
 ...
 
