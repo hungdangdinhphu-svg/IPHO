@@ -33,7 +33,7 @@ Trong đó, vấn đề 1 tôi đã nêu chi tiết cách xử lý ở bên dư�
 4. Nhiệm vụ của bạn là hoàn thành vấn đề 1.
 
 
-5. Đây là phần mà bạn cần giải quyết (không giải quyết các phần khác) : Động học.
+5. Đây là phần mà bạn cần giải quyết (không giải quyết các phần khác) : .....
 
 Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà Khoa Học, Nhà Vật Lý) và cả HSGQG môn Vật Lý ở Việt Nam và cả IPHO.
 
