@@ -99,4 +99,6 @@ Hãy quay lại đọc thật kỹ hết Vấn đề 1 & 2 nếu chưa làm. Sau
 
 +) Để đảm bảo chất lượng và nội dung, độ dày,... Hãy chia nhỏ thành từng phần rất nhỏ rồi làm thật dày phần đó, tiếp tục với các phần khác. Đừng cố tình làm một lúc thật nhiều. Nhưng cũng đừng mất sự liên kết giữa các phần. Nghe hơi kỳ lạ:)?
 
++) Không chép các nội dung từ Notebook này vào vở ghi, điều đó không cần. Chỉ chép các phần HẠNG NẶNG (Như Galilean Invariance, Lagrange,...) vào vở thôi! Và hãy in cái Notebook này ra giấy bằng máy tính và máy in, chứ đừng có ngu mà chép hết vào vở nhé:)!
+
 ---
