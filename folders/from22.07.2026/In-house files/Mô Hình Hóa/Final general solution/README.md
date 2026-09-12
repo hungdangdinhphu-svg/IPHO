@@ -20,7 +20,7 @@ Tài liệu này được xây dựng dành cho đối tượng học sinh đã 
 
 Vấn đề 1 : Nhận diện được các lý thuyết, phương pháp, định luật,... (CÔNG CỤ) cần phải xài để giải bài Vật Lý. Cũng như tiện thể (pre-processing) chuyển bài Vật Lý về dạng có thể áp dụng các CÔNG CỤ trên.
 
-Vấn đề 2 : Chính thức chuyển bài Vật Lý sang bài Toán. (Thực tế, nó thường liên quan chặt đến Toán, chứ không tách nhau)
+Vấn đề 2 : Chính thức chuyển bài Vật Lý sang bài Toán. (Thực tế, nó thường liên quan chặt đến Toán, chứ không tách nhau, tức là có sử dụng cả Toán để chuyển bài Vật Lý về Toán, còn Vấn đề thì chỉ ra rằng đó là phần cuối cùng, chỉ còn toán)
 
 Vấn đề 3 : Giải bài Toán, và ra đáp án.
 
