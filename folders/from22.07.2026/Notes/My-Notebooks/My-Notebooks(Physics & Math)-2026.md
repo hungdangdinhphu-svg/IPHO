@@ -8,7 +8,6 @@
 
 # VẤN ĐỀ 1
 
-*Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm) : 
 
 ...
 
