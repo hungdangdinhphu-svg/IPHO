@@ -44,7 +44,7 @@ Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà 
 
 https://chat.deepseek.com/share/0p2hsda5b1ukplkwnz
 
-Học thêm : Galilean Relativity, Galilean Invariance
+Học thêm các phần sau (Một cách rất sâu sắc) : Galilean Relativity, Galilean Invariance
 
 ...
 
