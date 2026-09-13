@@ -54,7 +54,9 @@ Học thêm các phần sau (Một cách rất sâu sắc) : Galilean Relativity
 
 https://chat.deepseek.com/share/51ojflv41bguue2d8o
 
+#### 1.13. Ràng buộc hình học
 
+https://chat.deepseek.com/share/vmd1cyhbx160xpbffv
 
 ...
 
@@ -95,7 +97,7 @@ https://chat.deepseek.com/share/51ojflv41bguue2d8o
 
 #### 1.13. Ràng buộc hình học
 
-
+https://chat.deepseek.com/share/vmd1cyhbx160xpbffv
 
 ---
 
