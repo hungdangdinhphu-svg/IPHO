@@ -1,5 +1,7 @@
 # Biểu diễn 1 biến m_1 bất kỳ theo các biến khác, áp dụng cho phương trình có 2 vế thuộc dạng "đa thức" hoặc mở rộng hơn
 
+Thật ra, ý tưởng của tôi là "Thuật Toán Hóa" (Nhưng dùng được cho Học sinh thay vì chỉ computer :3) vấn đề lớn này. "Thuật Toán Hóa" rất tuyệt vời, chúng ta nên biết sâu sắc về nó, dù nó từ bên Tin Học sang:p 
+
 ## Problem Statement & Quy trình
 
 
