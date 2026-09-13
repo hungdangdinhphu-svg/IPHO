@@ -54,7 +54,7 @@ Học thêm các phần sau (Một cách rất sâu sắc) : Galilean Relativity
 
 https://chat.deepseek.com/share/51ojflv41bguue2d8o
 
-#### 1.13. Ràng buộc hình học
+#### 1.13. Ràng buộc hình học & Bất biến hình học (Ràng buộc khác với Bất biến, xin cẩn thận)
 
 https://chat.deepseek.com/share/vmd1cyhbx160xpbffv
 
@@ -95,7 +95,7 @@ Hãy quay lại đọc thật kỹ hết Vấn đề 1 nếu chưa làm.
 
 https://chat.deepseek.com/share/51ojflv41bguue2d8o
 
-#### 1.13. Ràng buộc hình học
+#### 1.13. Ràng buộc hình học & Bất biến hình học (Ràng buộc khác với Bất biến, xin cẩn thận)
 
 https://chat.deepseek.com/share/vmd1cyhbx160xpbffv
 
