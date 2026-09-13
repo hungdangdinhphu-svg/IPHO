@@ -54,6 +54,8 @@ Học thêm các phần sau (Một cách rất sâu sắc) : Galilean Relativity
 
 https://chat.deepseek.com/share/51ojflv41bguue2d8o
 
+
+
 ...
 
 ## Phần 2 (Bước 1 & 2)
@@ -85,6 +87,14 @@ Hãy quay lại đọc thật kỹ hết Vấn đề 1 nếu chưa làm.
 ### Động học (Chưa Tổng Quát nhưng rất Solid) :
 
 (Từ lớp 10 Olympic Vật Lý Mở rộng Hạng Nặng) https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from13.08.2026/Kinematics/a1.md
+
+
+#### 1.1. Hệ quy chiếu – Hệ tọa độ – Đơn vị
+
+https://chat.deepseek.com/share/51ojflv41bguue2d8o
+
+#### 1.13. Ràng buộc hình học
+
 
 
 ---
