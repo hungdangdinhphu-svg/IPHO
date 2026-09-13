@@ -52,6 +52,7 @@ Học thêm các phần sau (Một cách rất sâu sắc) : Galilean Relativity
 
 ### 1.1. Hệ quy chiếu – Hệ tọa độ – Đơn vị
 
+https://chat.deepseek.com/share/51ojflv41bguue2d8o
 
 ...
 
