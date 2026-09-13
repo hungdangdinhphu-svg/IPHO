@@ -42,6 +42,10 @@ Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà 
 
 # VẤN ĐỀ 1
 
+**Một số thứ quan trọng nói chung:**
+
+1. Nếu những chi tiết mà đề không nhắc đến, thường thì ta sẽ kệ nó, đừng thêm nó vào, hay coi rằng nó là không tồn tại. Hiểu ý tôi không?
+
 
 
 ### ĐỘNG HỌC (CHƯA TỔNG QUÁT THỰC SỰ)
