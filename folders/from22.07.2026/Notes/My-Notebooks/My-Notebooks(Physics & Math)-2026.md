@@ -40,7 +40,7 @@ Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà 
 ```
 
 
-### ĐỘNG HỌC (TỔNG QUÁT)
+### ĐỘNG HỌC (CHƯA TỔNG QUÁT THỰC SỰ)
 
 https://chat.deepseek.com/share/0p2hsda5b1ukplkwnz
 
