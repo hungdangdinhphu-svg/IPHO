@@ -46,7 +46,7 @@ Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà 
 
 1. Nếu những chi tiết mà đề không nhắc đến, thường thì ta sẽ kệ nó, đừng thêm nó vào, hay coi rằng nó là không tồn tại. Hiểu ý tôi không?
 
-
+2. Lý do phải mô hình hóa thật ra là do nếu không mô hình hóa và làm thật chi tiết và đúng đắn hơn thì...Tôi đố bạn làm được trong thời gian cho phép và giải ra được đấy? Đúng vậy, đây là cách cực kỳ tường minh để phân biệt xem coi chỗ nào bắt buộc phải mô hình hóa :), nhưng thường ta dùng trực giác cho điều này.
 
 ### ĐỘNG HỌC (CHƯA TỔNG QUÁT THỰC SỰ)
 
