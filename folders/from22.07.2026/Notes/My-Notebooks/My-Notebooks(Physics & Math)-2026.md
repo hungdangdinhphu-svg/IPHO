@@ -2,15 +2,10 @@
 
 # VẬT LÝ
 
----
-
----
-
-# VẤN ĐỀ 1
 
 
 
-*Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm) : 
+*Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm). Dùng Prompt này để có góc nhìn đầu tiên và nó sẽ đưa ra tổng quát các "Dạng" con nhưng chỉ ở mức Tên. Sau đó phải lặp lại quá trình này cho từng "Dạng" con một, cực kỳ dày. KHÔNG ĐƯỢC LÀM TRÁI VỚI LỜI TÔI NÓI! : 
 
 ```txt
 
@@ -30,14 +25,22 @@ Vấn đề 3 : Giải bài Toán, và ra đáp án.
 
 Trong đó, vấn đề 1 tôi đã nêu chi tiết cách xử lý ở bên dưới, thật ra nó còn bổ trợ cho nhiều thứ khác, nhưng chủ yếu là như vậy.
 
-4. Nhiệm vụ của bạn là hoàn thành vấn đề 1.
+4. Nhiệm vụ của bạn là hoàn thành (vấn đề 1/vấn đề 2/vấn đề 3 (if any))
 
 
-5. Đây là phần mà bạn cần giải quyết (không giải quyết các phần khác) : .....
+5. Đây là phần mà bạn cần giải quyết (không giải quyết các phần khác) : ..... (Ban đầu sẽ là 1 chương lớn, kiểu như Động học, sau đó sẽ đến các "Dạng" trong chương đó, kiểu như Hệ Quy Chiếu, Galilean Invariance,...)
 
 Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà Khoa Học, Nhà Vật Lý) và cả HSGQG môn Vật Lý ở Việt Nam và cả IPHO.
 
 ```
+
+
+---
+
+---
+
+# VẤN ĐỀ 1
+
 
 
 ### ĐỘNG HỌC (CHƯA TỔNG QUÁT THỰC SỰ)
@@ -45,6 +48,9 @@ Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà 
 https://chat.deepseek.com/share/0p2hsda5b1ukplkwnz
 
 Học thêm các phần sau (Một cách rất sâu sắc) : Galilean Relativity, Galilean Invariance (https://chat.deepseek.com/share/mzhof7nxjyzazolavp)
+
+### 1.1. Hệ quy chiếu – Hệ tọa độ – Đơn vị
+
 
 ...
 
