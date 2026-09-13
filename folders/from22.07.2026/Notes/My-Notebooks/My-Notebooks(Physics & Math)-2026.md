@@ -25,7 +25,8 @@ Vấn đề 3 : Giải bài Toán, và ra đáp án.
 
 Trong đó, vấn đề 1 tôi đã nêu chi tiết cách xử lý ở bên dưới, thật ra nó còn bổ trợ cho nhiều thứ khác, nhưng chủ yếu là như vậy.
 
-4. Nhiệm vụ của bạn là hoàn thành (vấn đề 1/vấn đề 2/vấn đề 3 (if any))
+4. Nhiệm vụ của bạn là hoàn thành (vấn đề 1/vấn đề 2/vấn đề 3 (if any)). Và phải nhớ rằng: NÓ PHẢI TỔNG QUÁT THỰC SỰ VÀ THUẬT TOÁN HÓA (Đừng có đòi hỏi mấy cái vô lý khi thuật toán hóa nhé, kiểu như thời gian vô hạn, hoặc có 1 cái computer, hoặc python, hoặc gì gì đó mà làm thí sinh không thể áp dụng được hoặc tốn thời gian quá), VỀ MẶT LÝ THUYẾT LẪN CHO DÙ ĐỀ THI CÓ RA CỰC KỲ MỚI, ĐÁNH ĐỐ,...
+
 
 
 5. Đây là phần mà bạn cần giải quyết (không giải quyết các phần khác) : ..... (Ban đầu sẽ là 1 chương lớn, kiểu như Động học, sau đó sẽ đến các "Dạng" trong chương đó, kiểu như Hệ Quy Chiếu, Galilean Invariance,...)
