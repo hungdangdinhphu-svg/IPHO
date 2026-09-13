@@ -50,7 +50,7 @@ https://chat.deepseek.com/share/0p2hsda5b1ukplkwnz
 
 Học thêm các phần sau (Một cách rất sâu sắc) : Galilean Relativity, Galilean Invariance (https://chat.deepseek.com/share/mzhof7nxjyzazolavp)
 
-### 1.1. Hệ quy chiếu – Hệ tọa độ – Đơn vị
+#### 1.1. Hệ quy chiếu – Hệ tọa độ – Đơn vị
 
 https://chat.deepseek.com/share/51ojflv41bguue2d8o
 
