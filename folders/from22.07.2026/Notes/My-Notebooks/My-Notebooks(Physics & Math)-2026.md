@@ -5,7 +5,7 @@
 
 
 
-*Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm). Dùng Prompt này để có góc nhìn đầu tiên và nó sẽ đưa ra tổng quát các "Dạng" con nhưng chỉ ở mức Tên. Sau đó phải lặp lại quá trình này cho từng "Dạng" con một, cực kỳ dày. KHÔNG ĐƯỢC LÀM TRÁI VỚI LỜI TÔI NÓI! : 
++ Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm). Dùng Prompt này để có góc nhìn đầu tiên và nó sẽ đưa ra tổng quát các "Dạng" con nhưng chỉ ở mức Tên. Sau đó phải lặp lại quá trình này cho từng "Dạng" con một, cực kỳ dày. KHÔNG ĐƯỢC LÀM TRÁI VỚI LỜI TÔI NÓI! : 
 
 ```txt
 
