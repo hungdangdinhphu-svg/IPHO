@@ -50,6 +50,11 @@ Mỗi một công cụ chính là 1 **"dạng"**.
 
 *Note : Làm vào trong : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/Gi%E1%BA%A3i%20ph%C3%A1p%20cho%20v%E1%BA%A5n%20%C4%91%E1%BB%81%202
 
+#### 0.3. VẤN ĐỀ 2, VÀ BẢN CHẤT ĐỘ KHÓ CỦA VẤN ĐỀ VẬT LÝ NẰM Ở VẤN ĐỀ TÌM KIẾM
+
+...
+
+
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
 #### 1.1. Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence)
