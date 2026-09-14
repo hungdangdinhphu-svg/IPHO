@@ -52,7 +52,15 @@ Mỗi một công cụ chính là 1 **"dạng"**.
 
 #### 0.3. BÀN LUẬN CỰC KỲ NÂNG CAO VÀ TRỪU TƯỢNG VỀ VẤN ĐỀ 2, VÀ BẢN CHẤT ĐỘ KHÓ CỦA VẤN ĐỀ VẬT LÝ NẰM Ở VẤN ĐỀ TÌM KIẾM
 
-Insight: Th
+Insight: Thật ra, có vẻ như gần như mọi bài Vật Lý từ Nâng cao đến HSGQG Vật Lý, IPHO mà ta không thể giải dễ dàng bằng cách phương pháp thông thường theo cách "tầm thường" được (Tức là vẫn dùng các CÔNG CỤ, Phương pháp mà ta đã được học để giải, nhưng nó rất khó khăn với chúng ta) đều là do vấn đề tìm kiếm.
+
+Một số ví dụ: 
+
++) Trong mạch điện tuyến tính, nếu ta chỉ dùng Ohm's Law, Kirchhoff (Không dùng Phương pháp cực mạnh bưng từ Đại học xuống là Nodal Analysis hoặc Phương pháp điện thế nút) để giải, với các bài ở độ khó thi chuyên vào 10. Ta sẽ rất mệt mỏi với nó, vấn đề là gì? Đó là ta không biết áp dụng các CÔNG CỤ (Ohm's Law, Kirchhoff) vào các phần nào (**CHỖ**) của mạch điện ra giải được.
+
++) Hay là bài Động học mà không dùng các công cụ hạng nặng (như Phương pháp/Thuật toán Tọa độ Hóa Mở rộng,...) mà chỉ dùng các CÔNG CỤ thông thường đã được học như v=s/t; vận tốc góc w; vận tốc dài;... Thì ta sẽ vẫn rất khó để tìm được phần nào (**CHỖ**) của bài Vật Lý đó để dùng CÔNG CỤ để lập ra hệ phương trình/phương trình để giải ra được.
+
+Nói dễ hiểu: Vấn đề tìm kiếm hiểu sơ sơ là : Vấn đề tìm kiếm ra được những/một **CHỖ** mà mình cần dùng những CÔNG CỤ mình có để giải được.
 
 
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
