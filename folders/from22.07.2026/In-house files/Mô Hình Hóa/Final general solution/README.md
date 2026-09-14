@@ -62,6 +62,9 @@ Một số ví dụ:
 
 Nói dễ hiểu: Vấn đề tìm kiếm hiểu sơ sơ là : Vấn đề tìm kiếm ra được những/một **CHỖ** mà mình cần dùng những CÔNG CỤ mình có để giải được.
 
+**Vì sao những thứ như Nodal Analysis lại mạnh như vậy?**
+
+Đơn giản là vì nó là Thuật Toán. Có điều nó tuyệt vời đến mức Học Sinh có thể dùng được hợp pháp trong phòng thi mà không cần mang theo 1 cái Computer. Còn nếu ai lập luận bảo rằng Giải Hệ Phương Trình n ẩn n phương trình từ Nodal Analysis là mệt thì thật ra là do họ gà thôi, vì cái "pattern" của cái hệ phương trình đó rất dễ nắm bắt (chuẩn bị trước).
 
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
