@@ -66,6 +66,16 @@ Nói dễ hiểu: Vấn đề tìm kiếm hiểu sơ sơ là : Vấn đề tìm 
 
 Đơn giản là vì nó là Thuật Toán. Có điều nó tuyệt vời đến mức Học Sinh có thể dùng được hợp pháp trong phòng thi mà không cần mang theo 1 cái Computer. Còn nếu ai lập luận bảo rằng Giải Hệ Phương Trình n ẩn n phương trình từ Nodal Analysis là mệt thì thật ra là do họ gà thôi, vì cái "pattern" của cái hệ phương trình đó rất dễ nắm bắt (chuẩn bị trước).
 
+**Những suy nghĩ của tôi:**
+
+Tôi có 1 thói quen đó là những gì tôi thấy muốn làm nhưng gặp khó khăn, tôi sẽ định nghĩa rõ vấn đề, và rồi tìm cách giải nó...mặc dù tôi đã kiệt sức. Khá giống với cái tư tưởng nào đó hồi tôi làm coder, rằng là chưa làm xong thì không có đi đâu hết. Nhưng tôi thật sự đuối khủng khiếp, không giống các vấn đề thông thường, tôi nhìn lướt qua biết hết sạch và nhẹ tênh, thì cái này tôi phải vắt và gồng não rất căng:\; Nên là có thể sẽ có vấn đề nghiêm trọng.
+
+Nhưng đây là ý tưởng: Mỗi 1 bài toán, chỉ có hữu hạn (thường là rất ít, hoặc chỉ 1 cái) cách giải hợp lý. Vậy nếu ta có thể dùng cái **Điều kiện cần/đủ** cho Vấn Đề 1, vậy nếu ta làm nó còn mạnh mẽ hơn nữa để nó sang được Vấn đề tìm kiếm của Vấn đề 2 này thì sao?
+
+Tức là, trong 1 bài Vật Lý, thì sẽ có những **CHỖ** mà phải thỏa những điều kiện đặc biệt nào đó, một khi ta biết được những điều kiện đặc biệt đó thì ta sẽ biết được những **CHỖ** đó vì đơn giản là **CHỖ** thỏa mãn, và ta để có thể áp dụng CÔNG CỤ.
+
+Thế nếu "những điều kiện đặc biệt nào đó" là hữu hạn, và ít, và cách xác định chúng là tương đối dễ dàng cho gần như mọi bài Vật Lý dù là ở độ khó IPHO, VPHO thì sao?
+
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
 #### 1.1. Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence)
