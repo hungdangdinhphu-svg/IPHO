@@ -60,7 +60,7 @@ Một số ví dụ:
 
 +) Hay là bài Động học mà không dùng các công cụ hạng nặng (như Phương pháp/Thuật toán Tọa độ Hóa Mở rộng,...) mà chỉ dùng các CÔNG CỤ thông thường đã được học như v=s/t; vận tốc góc w; vận tốc dài;... Thì ta sẽ vẫn rất khó để tìm được phần nào (**CHỖ**) của bài Vật Lý đó để dùng CÔNG CỤ để lập ra hệ phương trình/phương trình để giải ra được.
 
-Nói dễ hiểu: Vấn đề tìm kiếm hiểu sơ sơ là : Vấn đề tìm kiếm ra được những/một **CHỖ** mà mình cần dùng những CÔNG CỤ mình có để giải được.
+Nói dễ hiểu: Vấn đề tìm kiếm hiểu sơ sơ là : Vấn đề tìm kiếm ra được những/một **CHỖ** mà mình cần dùng những CÔNG CỤ mình có để giải được. Điều này tổng quát và kinh khủng đến mức nó có thể bao gồm được cả Mô Hình Hóa.
 
 **Vì sao những thứ như Nodal Analysis lại mạnh như vậy?**
 
