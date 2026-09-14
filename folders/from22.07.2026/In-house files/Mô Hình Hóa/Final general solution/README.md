@@ -76,6 +76,8 @@ Tức là, trong 1 bài Vật Lý, thì sẽ có những **CHỖ** mà phải th
 
 Thế nếu "những điều kiện đặc biệt nào đó" là hữu hạn, và ít, và cách xác định chúng là tương đối dễ dàng cho gần như mọi bài Vật Lý dù là ở độ khó IPHO, VPHO thì sao?
 
+Well.... Dĩ nhiên là vẫn sẽ cần trực giác, nhưng tôi đang hướng đến việc giảm sự phụ thuộc lớn vào nó.
+
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
 #### 1.1. Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence)
