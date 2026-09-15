@@ -98,6 +98,7 @@ Vấn đề: Tìm ra một/nhiều **CHỖ** để sử dụng CÔNG CỤ mà m�
 
 +) Với chương trình phổ thông/HSG, có thể xấp xỉ bằng một thư viện hữu hạn và khá nhỏ. Với IPHO/VPHO, đây là 1 vấn đề lớn, thế nên tôi mới ghi thêm là "cách để tìm được tập A cho bài bất kỳ thuộc HSGQG". Nhìn chung, tôi cũng thấy khó khăn khi phân tích những thứ này.
 
++) Kiểu như tập A là tập precondition của các toán tử biến đổi. Và có vẻ như vừa là “tìm biểu diễn + chuỗi biến đổi + precondition” và vừa là tìm **CHỖ**.
 
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
