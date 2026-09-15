@@ -96,6 +96,9 @@ Vấn đề: Tìm ra một/nhiều **CHỖ** để sử dụng CÔNG CỤ mà m�
 
 +) Phải đảm bảo rằng ta có được tập A & tập A có tồn tại, hoặc gần như được như vậy. Hoặc có được ít nhất 1 cách để tìm được tập A cho bài bất kỳ thuộc HSGQG mà nó phải : Dễ dàng để áp dụng & Dễ dàng để tìm ra tập A (if any).
 
++) Với chương trình phổ thông/HSG, có thể xấp xỉ bằng một thư viện hữu hạn và khá nhỏ. Với IPHO/VPHO, đây là 1 vấn đề lớn, thế nên tôi mới ghi thêm là "cách để tìm được tập A cho bài bất kỳ thuộc HSGQG". Nhìn chung, tôi cũng thấy khó khăn khi phân tích những thứ này.
+
+
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
 #### 1.1. Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence)
