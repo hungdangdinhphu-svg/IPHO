@@ -61,6 +61,10 @@ https://chat.deepseek.com/share/0nzoucjwm6jmf4ayxj
 
 https://chat.deepseek.com/share/wwacubf880rse8b9za
 
+### TĨNH ĐIỆN 
+
+https://chat.deepseek.com/share/lxkqzjtrn97ov31v9p
+
 ## Phần 2 (Bước 1 & 2)
 
 
@@ -98,6 +102,10 @@ https://chat.deepseek.com/share/0nzoucjwm6jmf4ayxj
 ### CÁC ĐỊNH LUẬT BẢO TOÀN
 
 https://chat.deepseek.com/share/wwacubf880rse8b9za
+
+### TĨNH ĐIỆN 
+
+https://chat.deepseek.com/share/lxkqzjtrn97ov31v9p
 
 ---
 
