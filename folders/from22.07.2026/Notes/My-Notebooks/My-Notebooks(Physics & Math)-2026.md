@@ -5,7 +5,7 @@
 
 
 
-+ Prompt (gửi AI, nhưng vẫn phải tự chỉnh sửa và tổng hợp thêm). Dùng Prompt này để có góc nhìn đầu tiên và nó sẽ đưa ra tổng quát các "Dạng" con nhưng chỉ ở mức Tên. Sau đó phải lặp lại quá trình này cho từng "Dạng" con một, cực kỳ dày. KHÔNG ĐƯỢC LÀM TRÁI VỚI LỜI TÔI NÓI! : 
++ Prompt, nhớ kèm thêm cái file https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md là ok :
 
 ```txt
 
@@ -25,13 +25,14 @@ Vấn đề 3 : Giải bài Toán, và ra đáp án.
 
 Trong đó, vấn đề 1 tôi đã nêu chi tiết cách xử lý ở bên dưới, thật ra nó còn bổ trợ cho nhiều thứ khác, nhưng chủ yếu là như vậy.
 
-4. Nhiệm vụ của bạn là hoàn thành (vấn đề 1 & vấn đề 2/vấn đề 3 (if any)). Và phải nhớ rằng: NÓ PHẢI TỔNG QUÁT THỰC SỰ VÀ THUẬT TOÁN HÓA (Đừng có đòi hỏi mấy cái vô lý khi thuật toán hóa nhé, kiểu như thời gian vô hạn, hoặc có 1 cái computer, hoặc python, hoặc gì gì đó mà làm thí sinh không thể áp dụng được hoặc tốn thời gian quá), VỀ MẶT LÝ THUYẾT LẪN CHO DÙ ĐỀ THI CÓ RA CỰC KỲ MỚI, ĐÁNH ĐỐ,...
+4. Nhiệm vụ của bạn là hoàn thành (vấn đề 1 & vấn đề 2).
 
 
 
-5. Đây là phần mà bạn cần giải quyết (không giải quyết các phần khác) : ..... (Ban đầu sẽ là 1 chương lớn, kiểu như Động học, sau đó sẽ đến các "Dạng" trong chương đó, kiểu như Hệ Quy Chiếu, Galilean Invariance,...)
+5. Đây là phần mà bạn cần giải quyết (không giải quyết các phần khác) : Động học
 
-Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà Khoa Học, Nhà Vật Lý) và cả HSGQG môn Vật Lý ở Việt Nam và cả IPHO.
+Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà Khoa Học, Nhà Vật Lý) và cả HSGQG môn Vật Lý ở Việt Nam và cả IPHO, đừng có quên HSGQG, IPHO đấy!
+
 
 ```
 
@@ -48,21 +49,9 @@ Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà 
 
 2. Lý do phải mô hình hóa thật ra là do nếu không mô hình hóa và làm thật chi tiết và đúng đắn hơn thì...Tôi đố bạn làm được trong thời gian cho phép và giải ra được đấy? Đúng vậy, đây là cách cực kỳ tường minh để phân biệt xem coi chỗ nào bắt buộc phải mô hình hóa :), nhưng thường ta dùng trực giác cho điều này.
 
-### ĐỘNG HỌC (CHƯA TỔNG QUÁT THỰC SỰ)
+### ĐỘNG HỌC 
 
-https://chat.deepseek.com/share/0p2hsda5b1ukplkwnz
-
-Học thêm các phần sau (Một cách rất sâu sắc) : Galilean Relativity, Galilean Invariance (https://chat.deepseek.com/share/mzhof7nxjyzazolavp)
-
-#### 1.1. Hệ quy chiếu – Hệ tọa độ – Đơn vị
-
-https://chat.deepseek.com/share/51ojflv41bguue2d8o
-
-#### 1.13. Ràng buộc hình học & Bất biến hình học (Ràng buộc khác với Bất biến, xin cẩn thận)
-
-https://chat.deepseek.com/share/vmd1cyhbx160xpbffv
-
-...
+https://chat.deepseek.com/share/49j4doq0rbwqqu9hi3
 
 ## Phần 2 (Bước 1 & 2)
 
@@ -90,18 +79,9 @@ https://chat.deepseek.com/share/vmd1cyhbx160xpbffv
 
 Hãy quay lại đọc thật kỹ hết Vấn đề 1 nếu chưa làm.
 
-### Động học (Chưa Tổng Quát nhưng rất Solid) :
+### ĐỘNG HỌC 
 
-(Từ lớp 10 Olympic Vật Lý Mở rộng Hạng Nặng) https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from13.08.2026/Kinematics/a1.md
-
-
-#### 1.1. Hệ quy chiếu – Hệ tọa độ – Đơn vị
-
-https://chat.deepseek.com/share/51ojflv41bguue2d8o
-
-#### 1.13. Ràng buộc hình học & Bất biến hình học (Ràng buộc khác với Bất biến, xin cẩn thận)
-
-https://chat.deepseek.com/share/vmd1cyhbx160xpbffv
+https://chat.deepseek.com/share/49j4doq0rbwqqu9hi3
 
 ---
 
