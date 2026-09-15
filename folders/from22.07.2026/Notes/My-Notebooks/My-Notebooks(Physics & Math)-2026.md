@@ -57,6 +57,10 @@ https://chat.deepseek.com/share/49j4doq0rbwqqu9hi3
 
 https://chat.deepseek.com/share/0nzoucjwm6jmf4ayxj
 
+### CÁC ĐỊNH LUẬT BẢO TOÀN
+
+https://chat.deepseek.com/share/wwacubf880rse8b9za
+
 ## Phần 2 (Bước 1 & 2)
 
 
@@ -90,6 +94,10 @@ https://chat.deepseek.com/share/49j4doq0rbwqqu9hi3
 ### ĐỘNG LỰC HỌC
 
 https://chat.deepseek.com/share/0nzoucjwm6jmf4ayxj
+
+### CÁC ĐỊNH LUẬT BẢO TOÀN
+
+https://chat.deepseek.com/share/wwacubf880rse8b9za
 
 ---
 
