@@ -53,6 +53,10 @@ Và hãy nhớ rằng, tôi vừa muốn làm chủ Vật Lý thực sự (Nhà 
 
 https://chat.deepseek.com/share/49j4doq0rbwqqu9hi3
 
+### ĐỘNG LỰC HỌC
+
+https://chat.deepseek.com/share/0nzoucjwm6jmf4ayxj
+
 ## Phần 2 (Bước 1 & 2)
 
 
@@ -82,6 +86,10 @@ Hãy quay lại đọc thật kỹ hết Vấn đề 1 nếu chưa làm.
 ### ĐỘNG HỌC 
 
 https://chat.deepseek.com/share/49j4doq0rbwqqu9hi3
+
+### ĐỘNG LỰC HỌC
+
+https://chat.deepseek.com/share/0nzoucjwm6jmf4ayxj
 
 ---
 
