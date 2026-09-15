@@ -102,6 +102,7 @@ Vấn đề: Tìm ra một/nhiều **CHỖ** để sử dụng CÔNG CỤ mà m�
 
 +) Kiểu như tập A là tập precondition của các toán tử biến đổi. Và có vẻ như vừa là “tìm biểu diễn + chuỗi biến đổi + precondition” và vừa là tìm **CHỖ**. Có vẻ như nó có thể là một họ precondition có tham số.
 
+Ví dụ nè : https://chat.deepseek.com/share/zchtdq1gkgvcnor8sw
 
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
