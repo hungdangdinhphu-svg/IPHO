@@ -1,5 +1,7 @@
 Đây là nơi chứa các files cho từng phần của Vật Lý, và như tên gọi của folder, đây là nơi chứa cách giải tổng quát đã trải qua quy trình lọc cuối cùng.
 
+Cơ mà, thực tế thì, tôi có vẻ thường cập nhật nó thường xuyên, và thường thì chỉ ghi đè lên bằng cách Bổ sung, nên chưa qua kiểm duyệt chặt toàn bộ đâu.
+
 Hãy đọc cả 2 bản new version và old version. 2 Bài viết có thể tồn tại các mâu thuẫn nội tại, nhưng tôi đã cố gắng hết sức. Hãy đọc kỹ và tự suy nghĩ thêm thật nhiều nhé!
 
 ---
