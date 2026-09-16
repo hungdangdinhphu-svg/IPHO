@@ -74,13 +74,13 @@ Với $n > 2$: Dùng phương pháp phân tích thành nhân tử, công thức 
 
 ## MỞ RỘNG
 
-Trong lúc đang thấy tuyệt vời với nó, t nhận ra đề có thể hỏi mấy thứ kiểu như s/v_n ? thay vì dạng m_1 đơn thuần; Tức là dạng g_1(m_j, m_j+1,...) = f_n(m_j+1,...,m_j', m_j'+1, mj'+2,....)
+Trong lúc đang thấy tuyệt vời với nó, t nhận ra đề có thể hỏi mấy thứ kiểu như s/v_n ? thay vì dạng m_1 đơn thuần; Tức là dạng g_1(m_j, m_j+1,...) = f_n(m_j+1,...,m_j', m_j'+1, m_j'+2,....)
 
 Thì nhìn chung t viết nháp ra được 1 số thứ hay ho, không rõ đúng không nhưng có vẻ rất tuyệt:
 
 Ta có: f_1(m_1,m_2,...,m_i) = f_2(m_1,m_2,....,m_i)
 
-Target: g_1(m_j, m_j+1,...) = f_n(m_j+1,...,m_j', m_j'+1, mj'+2,....)
+Target: g_1(m_j, m_j+1,...) = f_n(m_j+1,...,m_j', m_j'+1, m_j'+2,....)
 
 where: j thuộc 1,2,...i ; j' khác j;
 
