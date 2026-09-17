@@ -12,7 +12,7 @@ Do tôi thích IPHO nên tôi đặt tên cả cái repo là IPHO, thực tế t
 Nếu bạn nghĩ bản thân cần tham khảo một điều gì đó là "giải pháp", "tổng quát" để học các fields? Có lẽ đây là thứ bạn cần (nó rất tuyệt) :
 
 
-https://en.wikipedia.org/wiki/Learning_styles ; https://en.wikipedia.org/wiki/Mentalization ; https://en.wikipedia.org/wiki/Metacognition ; https://en.wikipedia.org/wiki/Metaknowledge ; https://en.wikipedia.org/wiki/Metamemory ; https://en.wikipedia.org/wiki/Meta-emotion ; https://en.wikipedia.org/wiki/Self-regulated_learning ; https://en.wikipedia.org/wiki/Meta-learning ; https://en.wikipedia.org/wiki/Self-awareness ;
+https://fs.blog/first-principles/ ; https://en.wikipedia.org/wiki/Mentalization ; https://en.wikipedia.org/wiki/Metacognition ; https://en.wikipedia.org/wiki/Metaknowledge ; https://en.wikipedia.org/wiki/Metamemory ; https://en.wikipedia.org/wiki/Meta-emotion ; https://en.wikipedia.org/wiki/Self-regulated_learning ; https://en.wikipedia.org/wiki/Meta-learning ; https://en.wikipedia.org/wiki/Self-awareness ;
 
 # Author
 
