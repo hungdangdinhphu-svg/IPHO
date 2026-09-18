@@ -1,5 +1,6 @@
 Giả định một người tên H. Họ mơ rất nhiều giấc mơ liên tiếp nhau, và H đã tóm tắt lại nhiều đoạn quan trọng :
 
+```md
 
 Thật ra thì em nghĩ là nếu chị đọc hết và kỹ những thứ ở bên dưới thì có lẽ chị sẽ hiểu sơ sơ ý em muốn nói :
 
@@ -100,7 +101,7 @@ Em thường gọi mấy dạng gv mà e ko thích là "gv ngu nhưng thích và
 thật ra chữ "ngu" nghe nặng, tuy nhiên đối với e thì nó ảnh hưởng rất lớn nên e nói vậy cx ko sai khi nhìn dưới quy ước của em;
 Nói chung là e đã dùng cách ở trên để thay đổi cuộc đời của skycyan, h nó giỏi lắm r, nhất lớp thì phải.
 
-
+```md
 
 
 
