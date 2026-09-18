@@ -20,10 +20,15 @@ Nỗ lực trong việc đưa ra các ví dụ giải mẫu (tests) : https://gi
 
 # Prompts :
 
-Một số prompts hữu ích để gửi AI.
+**Một số prompts hữu ích để gửi AI & câu chuyện :**
 
  
 +) "Giảng bài này cho t hiểu đi. Đưa t đủ số ví dụ và đủ phức tạp để bao phủ toàn bộ lượng lý thuyết này đi, đảm bảo t hiểu và nhớ hết :"
 
 +) "Tôi không hiểu nổi bạn đang "...". Vì nó tràn ngập toàn là thuật ngữ. Hãy giúp tôi triệt để!"
 
+Khi mà tôi muốn có được nhiều lợi ích hơn đáng kể khi cày bài tập/đề, tôi thường hay làm việc này :
+
++) Tôi nhận ra rằng khi gặp được 1 số vấn đề mà tôi không làm được. Tôi sẽ phải tổng quát nó lên để tìm ra được Dạng Tổng Quát của vấn đề đó, đảm bảo rằng tôi không "overengineered".
+
++) Rồi sau đó tìm ra một "thuật toán" tổng quát (if any)/cách làm tổng quát (if any)/tư duy để giải Dạng Tổng Quát đó.
