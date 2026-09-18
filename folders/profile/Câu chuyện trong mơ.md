@@ -1,5 +1,7 @@
 Giả định một người tên H. Họ mơ rất nhiều giấc mơ liên tiếp nhau, và H đã tóm tắt lại nhiều đoạn quan trọng :
 
+*Lưu ý : Nó có các vấn đề & overclaim, hạn chế. Cẩn thận nhé. À, còn lý do mà tác giả viết nó "hype" như vầy là vì vấn đề giáo dục mà tác giả tin là nó hiệu quả, tức là tác giả nghĩ rằng nên làm cho nó "hype" để tạo đà cho người đọc, sau đó mới đến việc chỉ rõ các vấn đề và làm chặt chẽ nó.
+
 ```md
 
 Thật ra thì em nghĩ là nếu chị đọc hết và kỹ những thứ ở bên dưới thì có lẽ chị sẽ hiểu sơ sơ ý em muốn nói :
