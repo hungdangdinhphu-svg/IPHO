@@ -400,6 +400,91 @@ Có thể giải thích từng bước một cách rõ ràng, mạch lạc cho n
 
 Cảnh báo: Cảm giác "tôi biết bài này dùng lý thuyết gì" KHÁC HOÀN TOÀN với việc "tôi đã hoàn thành việc trình bày lời giải hoàn chỉnh".
 
+
+### Model Specification, Well-posedness & Derivation Validity
+
+Nói ngắn: Bài toán không khó vì không biết dùng công cụ, mà khó vì mô hình chưa đúng, chưa đủ, chưa nhất quán, chưa hợp lệ, hoặc chưa đóng kín. Khi mô hình đã đạt các tính chất đó, việc giải thường trở nên máy móc. Khi nó chưa đạt, mọi nỗ lực “tìm kiếm” đều thành rất đáng lo.
+
+
+**1. Phát biểu hình thức**
+
+Cho một bài toán B. Muốn giải nó, ta không chỉ cần công cụ. Ta cần xây dựng một mô hình hình thức:
+
+M=(O,V,L,C,Q,I)
+
+Trong đó:
+
+O: ontology — các thực thể, trạng thái, cấu trúc, topology của bài toán...
+
+V: biến — ẩn, tham số, hằng số, đại lượng cần tìm...
+
+L: tập định luật/công cụ — mỗi định luật phải kèm:
+
+miền xác định Dom(ℓ),
+
+điều kiện cần Pre(ℓ),
+
+điều kiện đủ Suf(ℓ),
+
+kết luận Post(ℓ),
+
+sai số/xấp xỉ nếu có Err(ℓ).
+
+C: ràng buộc — dữ kiện, điều kiện biên/đầu, đối xứng, bảo toàn, liên hệ hình học, điều kiện lý tưởng hoá...
+
+Q: câu hỏi — cần xác định cái gì, dạng đáp án, đơn vị...
+
+I: ánh xạ diễn giải.
+
+Giải bài là tìm một dẫn xuất:
+
+C∪L⊢Q
+
+sao cho M là well-posed và dẫn xuất là sound + complete.
+
+**2. Bảy điều kiện của Vấn đề 0**
+
+Một mô hình được gọi là “hiểu rõ bản chất, đủ, không nhầm lẫn” khi thoả:
+
+
+(1) Diễn giải đúng — Interpretation
+
+(2) Hợp lệ — Soundness
+
+Mọi định luật chỉ được dùng khi điều kiện cần của nó thoả.
+Nếu chỉ thoả điều kiện đủ xấp xỉ, phải ghi rõ sai số và giới hạn...
+
+(3) Đầy đủ / Đóng kín — Completeness / Closure
+
+Tập C∪L phải đủ để xác định Q.
+
+(4) Nhất quán — Consistency
+
+Không được có hai ràng buộc/định luật mâu thuẫn nhau trong cùng mô hình.
+
+(5) Xác định — Well-posedness
+
+Nếu là xác định nghiệm thì, Nghiệm phải:
+
+tồn tại,
+
+duy nhất (hoặc phải biện luận mọi nghiệm),
+
+ổn định với nhiễu nhỏ nếu bài toán yêu cầu.
+
+(6) Đầy đủ biên & trường hợp — Boundary/Case Completeness
+
+Mọi trường hợp phải được xét.
+
+(7) Biến đổi hợp lệ — Derivation Validity
+
+**Khi đã biết rõ và cực kỳ chặt chẽ Điều kiện đủ thì đây là khá ngon để tìm ra CHỖ để dùng các CÔNG CỤ:**
+
+Sau khi chọn công cụ n, DUYỆT ĐẦY ĐỦ (kỹ kiểu như từng "pixel" nếu là Hình Ảnh, từng chữ cái nếu là Văn Bản) xem coi có chỗ nào áp dụng được không, và nếu áp dụng thì nó có vẻ có ý nghĩa gì không?
+
+Còn nếu như căng thẳng quá thì có thể ráng viết hết ra, rồi lọc.
+
+
 ### PHẦN 5: KỸ NĂNG TOÁN HỌC CẦN THIẾT
 
 #### 5.1. Vi tích phân (Calculus)
