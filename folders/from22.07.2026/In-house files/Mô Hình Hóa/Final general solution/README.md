@@ -73,6 +73,8 @@ Nói dễ hiểu: Vấn đề tìm kiếm hiểu sơ sơ là : Vấn đề tìm 
 
 **Những suy nghĩ của tôi:**
 
+```txt
+
 Tôi có 1 thói quen đó là những gì tôi thấy muốn làm nhưng gặp khó khăn, tôi sẽ định nghĩa rõ vấn đề, và rồi tìm cách giải nó...mặc dù tôi đã kiệt sức. Khá giống với cái tư tưởng nào đó hồi tôi làm coder, rằng là chưa làm xong thì không có đi đâu hết. Nhưng tôi thật sự đuối khủng khiếp, không giống các vấn đề thông thường, tôi nhìn lướt qua biết hết sạch và nhẹ tênh, thì cái này tôi phải vắt và gồng não rất căng:\; Nên là có thể sẽ có vấn đề nghiêm trọng.
 
 Nhưng đây là ý tưởng: Mỗi 1 bài toán, chỉ có hữu hạn (thường là rất ít, hoặc chỉ 1 cái) cách giải hợp lý. Vậy nếu ta có thể dùng cái **Điều kiện cần/đủ** cho Vấn Đề 1, vậy nếu ta làm nó còn mạnh mẽ hơn nữa để nó sang được Vấn đề tìm kiếm của Vấn đề 2 này thì sao?
@@ -105,6 +107,39 @@ Vấn đề: Tìm ra một/nhiều **CHỖ** để sử dụng CÔNG CỤ mà m�
 +) Kiểu như tập A là tập precondition của các toán tử biến đổi. Và có vẻ như vừa là “tìm biểu diễn + chuỗi biến đổi + precondition” và vừa là tìm **CHỖ**. Có vẻ như nó có thể là một họ precondition có tham số.
 
 
+```
+
+**Nói chặt chẽ, sửa sai và hoàn thiện hơn**
+
+Bài Toán Tìm Kiếm là :
+
+Tìm cặp (ℓ, CHỖ) sao cho Pre(ℓ) được thỏa tại CHỖ, và việc áp dụng ℓ tại CHỖ tạo ra bước tiến có ý nghĩa.
+
+Giờ tôi sẽ gọi nó như vầy nhiều hơn cho an toàn: họ precondition {Pre(ℓ)} thay vì "Tập A".
+
+Bài toán tìm kiếm (Search Problem): Cho bài toán B với mô hình M = (O, V, L, C, Q, I). Tìm một dãy hữu hạn các cặp (ℓ₁, CHỖ₁), (ℓ₂, CHỖ₂), ..., (ℓₙ, CHỖₙ) sao cho:
+
+1. Pre(ℓᵢ) được thỏa tại CHỖᵢ trong trạng thái bài toán sau bước i-1.
+
+2. Post(ℓᵢ) tại CHỖᵢ tạo ra một ràng buộc mới có ý nghĩa trong C.
+
+3. Sau bước n, C ∪ L ⊢ Q.
+
+**Ta cần:**
+
+Câu trả lời thật lòng: Không có thuật toán vạn năng. Nhưng có thể xấp xỉ bằng một thư viện precondition hữu hạn, nhỏ, và được tổ chức tốt. Với HSGQG, thư viện này khả thi. Với IPhO/VPhO, nó lớn hơn nhưng vẫn hữu hạn. Điều ta cần làm không phải là tìm "thuật toán vạn năng", mà là:
+
+
+
+Xây dựng thư viện precondition cho từng công cụ trong L.
+
+Luyện tập duyệt thư viện này một cách có hệ thống khi gặp bài mới.
+
+Chấp nhận rằng ở một số bước, precondition không được thỏa chính xác, và ta phải dùng xấp xỉ — lúc đó cần ghi rõ sai số (như tôi nói trong điều kiện (2)).
+
+
+
+
 
 
 ### Model Specification, Well-posedness & Derivation Validity
@@ -127,6 +162,10 @@ V: biến — ẩn, tham số, hằng số, đại lượng cần tìm...
 L: tập định luật/công cụ — mỗi định luật phải kèm:
 
 miền xác định Dom(ℓ),
+
+*Dom(ℓ) và Pre(ℓ) là hai thứ khác nhau; Một định luật có thể có Dom rộng nhưng Pre hẹp, hoặc ngược lại. Cần tách bạch.
+
+
 
 điều kiện cần Pre(ℓ),
 
@@ -158,7 +197,10 @@ Một mô hình được gọi là “hiểu rõ bản chất, đủ, không nh�
 (2) Hợp lệ — Soundness
 
 Mọi định luật chỉ được dùng khi điều kiện cần của nó thoả.
-Nếu chỉ thoả điều kiện đủ xấp xỉ, phải ghi rõ sai số và giới hạn...
+
+Nếu Pre(ℓ) được thỏa, thì Post(ℓ) là đúng trong phạm vi Dom(ℓ). 
+
+Mọi định luật ℓ chỉ được áp dụng khi Pre(ℓ) được thỏa. Nếu Pre(ℓ) chỉ được thỏa xấp xỉ (ví dụ: góc nhỏ, vận tốc nhỏ so với c), thì phải cẩn thận.
 
 (3) Đầy đủ / Đóng kín — Completeness / Closure
 
@@ -184,11 +226,11 @@ Mọi trường hợp phải được xét.
 
 (7) Biến đổi hợp lệ — Derivation Validity
 
-**Khi đã biết rõ và cực kỳ chặt chẽ Điều kiện đủ thì đây là khá ngon để tìm ra CHỖ để dùng các CÔNG CỤ:**
+**Khi đã biết rõ và cực kỳ chặt chẽ Điều kiện đủ (sufficient condition) thì đây là khá ngon để tìm ra CHỖ để dùng các CÔNG CỤ:**
 
 Sau khi chọn công cụ n, DUYỆT ĐẦY ĐỦ (kỹ kiểu như từng "pixel" nếu là Hình Ảnh, từng chữ cái nếu là Văn Bản) xem coi có chỗ nào áp dụng được không, và nếu áp dụng thì nó có vẻ có ý nghĩa gì không?
 
-Còn nếu như căng thẳng quá thì có thể ráng viết hết ra, rồi lọc.
+Còn nếu như căng thẳng quá thì có thể ráng viết hết ra, rồi lọc. Yea, khá là "brute-force":);
 
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
