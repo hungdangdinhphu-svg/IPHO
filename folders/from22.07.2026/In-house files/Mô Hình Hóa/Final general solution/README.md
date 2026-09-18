@@ -82,7 +82,6 @@ Thế nếu "những điều kiện đặc biệt nào đó" là hữu hạn, v�
 
 Well.... Dĩ nhiên là vẫn sẽ cần trực giác, nhưng tôi đang hướng đến việc giảm sự phụ thuộc lớn vào nó.
 
-Bạn có thể tham khảo, tôi có dùng thử và kết quả là thật sự tốt đó, dĩ nhiên là có thể chưa tổng quát hết hoàn toàn rồi : https://chat.deepseek.com/share/h0hdsr18dsu7o2dtaj
 
 **Tôi nói nó chi tiết và rõ ràng hơn:**
 
@@ -104,7 +103,6 @@ Vấn đề: Tìm ra một/nhiều **CHỖ** để sử dụng CÔNG CỤ mà m�
 
 +) Kiểu như tập A là tập precondition của các toán tử biến đổi. Và có vẻ như vừa là “tìm biểu diễn + chuỗi biến đổi + precondition” và vừa là tìm **CHỖ**. Có vẻ như nó có thể là một họ precondition có tham số.
 
-Ví dụ nè : https://chat.deepseek.com/share/zchtdq1gkgvcnor8sw
 
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
