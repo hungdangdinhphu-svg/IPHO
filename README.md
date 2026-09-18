@@ -5,7 +5,7 @@ IPHO
 
 Do tôi thích IPHO nên tôi đặt tên cả cái repo là IPHO, thực tế thì có cả nhiều kỳ thi khác.
 
-**Hiển nhiên, có thể có lỗi sai.**
+**Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn.**
 
 # Motivation & "Meta", "General", "Purpose", "Method",... ?
 
