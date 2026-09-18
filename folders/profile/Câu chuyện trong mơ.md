@@ -107,7 +107,10 @@ Nói chung là e đã dùng cách ở trên để thay đổi cuộc đời củ
 
 Lưu ý : Vì nó là được xây dựng dựa trên giấc mơ của H, nên nó có các vấn đề. Cẩn thận nhé.
 
+Sau khi đọc xong, bạn nên đọc lại, nhưng lần này hãy làm chặt chẽ & chính xác nó, và đọc thêm cái bên dưới :
 
+
+https://fs.blog/first-principles/ ; https://en.wikipedia.org/wiki/Mentalization ; https://en.wikipedia.org/wiki/Metacognition ; https://en.wikipedia.org/wiki/Metaknowledge ; https://en.wikipedia.org/wiki/Metamemory ; https://en.wikipedia.org/wiki/Meta-emotion ; https://en.wikipedia.org/wiki/Self-regulated_learning ; https://en.wikipedia.org/wiki/Meta-learning ; https://en.wikipedia.org/wiki/Self-awareness ;
 
 
 
