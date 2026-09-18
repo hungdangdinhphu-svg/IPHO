@@ -103,7 +103,7 @@ Nói chung là e đã dùng cách ở trên để thay đổi cuộc đời củ
 
 ```
 
-
+Lưu ý : Vì nó là được xây dựng dựa trên giấc mơ của H, nên nó có các vấn đề. Cẩn thận nhé.
 
 
 
