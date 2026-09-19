@@ -81,3 +81,7 @@ Well... việc gì xấu thì nó đã diễn ra, đề thi có tới 6 điểm 
 T thiếu 0,75đ chuyên, và t đã trượt chuyên Lý. 3 Môn Toán, Văn, Anh t thi được 23 điểm. Nhưng bố t cũng không cho t chọn trường theo ý t (Đó là trường Vũng Tàu NV1, và NV2 là Trần Nguyên Hãn...), mà bắt t chọn NV1 là Trần Nguyên Hãn (với điểm chuẩn chỉ khoảng 16-17đ).
 
 Bố t buông lời chửi t học ngu, khó chịu với t, la mắng, chửi t. T tới bây giờ vẫn chịu cảnh đó, và nhiều hậu quả của sự kiện này.
+
+**Chủ quan 14:**
+
+T đã khóc, khóc rất nhiều, rất mệt mỏi. Nhưng nước mắt không thể biểu diễn nổi những cảm xúc của t. Từ mong muốn có 1 người bạn ở cấp 3 chuyên, người yêu chuyên tin,... Cho đến t của hiện tại.
