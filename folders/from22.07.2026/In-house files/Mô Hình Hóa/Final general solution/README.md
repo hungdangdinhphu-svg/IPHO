@@ -232,6 +232,8 @@ Sau khi chọn công cụ n, DUYỆT ĐẦY ĐỦ (kỹ kiểu như từng "pixe
 
 Còn nếu như căng thẳng quá thì có thể ráng viết hết ra, rồi lọc. Yea, khá là "brute-force":);
 
+Dĩ nhiên trực giác có thể hỗ cực kỳ chủ chốt cho việc này để giảm bớt gánh nặng "brute-force", nhưng hãy cực kỳ cẩn trọng vì trực giác có thể lừa bạn hoặc bỏ qua những thứ cần phải làm.
+
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
 #### 1.1. Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence)
