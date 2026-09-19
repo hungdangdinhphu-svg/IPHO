@@ -7,7 +7,7 @@ Hãy đọc cả 2 bản new version và old version. 2 Bài viết có thể t�
 
 **CẢNH BÁO:** HOÀN TOÀN CÓ THỂ CÓ SAI SÓT (VÀ ĐÃ CÓ RỒI), THẬM CHÍ LÀ CÁC VẤN ĐỀ, LỖI SAI NGHIÊM TRỌNG. TUY NHIÊN TÁC GIẢ ĐANG CỐ GẮNG CẢI THIỆN DẦN, VÀ NỖ LỰC RẤT LỚN.
 
-Lý do tôi đặt tên là "Thảo luận lớn về Cách giải Đề thi HSGQG Vật Lý và Các tư duy quan trọng" là vì tôi muốn đây được xem như cuộc thảo luận giữa tôi và người đọc nó, chứ không phải một chiều.
+Lý do tôi đặt tên là "Thảo luận lớn về Cách giải Đề thi HSGQG Vật Lý và Các tư duy quan trọng" là vì tôi muốn đây được xem như cuộc thảo luận giữa tôi và người đọc nó, chứ không phải một chiều. Yea, các bạn có thể gửi góp ý cho tôi cũng được chứ:)
 
 ---
 
