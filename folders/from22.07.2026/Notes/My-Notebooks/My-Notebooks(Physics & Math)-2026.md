@@ -17,9 +17,7 @@
 
 ### ĐỘNG HỌC 
 
-https://chat.deepseek.com/share/dwdlers6znseejr358
-
-Mở rộng: Bất biến hình học khác với Ràng buộc hình học. Bất biến hình học thường xuyên mang vai trò chủ chốt trong việc liên kết các thông tin quan trọng lại với nhau. Hay có thể hiểu là 1 đại lượng là bất biến trong một phần hoặc cả bài nhưng giúp giải được bài nhờ nó. Việc phát hiện ra các bất biến hình học có thể đến từ việc thay vì chỉ tập trung nhìn mỗi vật thể vật lý, mà còn liên quan đến việc chuyển nó thành dạng hình học toán học, từ đó nhìn thấy các hình học thuần túy có thể rất đẹp, giúp trực giác hoạt động thêm.
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC.md
 
 ### ĐỘNG LỰC HỌC
 
@@ -58,7 +56,7 @@ Hãy quay lại đọc thật kỹ hết Vấn đề 1 nếu chưa làm.
 
 ### ĐỘNG HỌC 
 
-https://chat.deepseek.com/share/dwdlers6znseejr358
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC.md
 
 ### ĐỘNG LỰC HỌC
 
