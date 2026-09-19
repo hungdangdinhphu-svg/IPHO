@@ -86,4 +86,4 @@ Bố t buông lời chửi t học ngu, khó chịu với t, la mắng, chửi t
 
 T đã khóc, khóc rất nhiều, rất mệt mỏi. Nhưng nước mắt không thể biểu diễn nổi những cảm xúc của t. Từ mong muốn có 1 người bạn ở cấp 3 chuyên, người yêu chuyên tin,... Cho đến t của hiện tại.
 
-T chắc chắn ghen tị với S, ghen tị với môi trường của S, với gia đình của S.
+T chắc chắn ghen tị với S, ghen tị với môi trường của S, với gia đình của S. Nhưng dùng từ ghen tị cũng chả đúng nữa, t không biết nên gọi là gì nữa. Vì giờ đây cảm xúc của t quá nặng rồi, t không biết miêu tả nó nữa.
