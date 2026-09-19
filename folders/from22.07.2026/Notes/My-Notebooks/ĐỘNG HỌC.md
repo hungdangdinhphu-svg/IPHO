@@ -1,3 +1,5 @@
+(da9afb8b-4929-494b-9c68-e27a4cadfd5c)
+
 # ĐỘNG HỌC — VẤN ĐỀ 1 & VẤN ĐỀ 2
 ### (Nhận diện CÔNG CỤ + tiền xử lý → Chuyển bài Vật Lý sang bài Toán) — hướng tới HSGQG / VPhO / IPhO
 
