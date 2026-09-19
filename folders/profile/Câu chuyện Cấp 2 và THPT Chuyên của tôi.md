@@ -1,1 +1,1 @@
-
+Những đoạn nào tôi nêu những suy nghĩ chủ quan của tôi thì tôi sẽ đánh dấu. Tôi sẽ cố gắng giữ cho mọi thứ khách quan và dựa trên bằng chứng. Tuy vậy, vẫn có thể có những sai sót, có thể là lỗi logic hay thậm chí là lỗi nghiêm trọng, dù tôi đã cố gắng. Xin cảm ơn!
