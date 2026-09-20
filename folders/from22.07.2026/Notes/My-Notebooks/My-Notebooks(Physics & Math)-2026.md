@@ -19,14 +19,25 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 ### Cơ Học Chất Điểm
 
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/C%C6%A1%20h%E1%BB%8Dc%20ch%E1%BA%A5t%20%C4%91i%E1%BB%83m.md
+
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/C%C6%A1%20h%E1%BB%8Dc%20v%E1%BA%ADt%20r%E1%BA%AFn%2C%20l%C3%BD%20thuy%E1%BA%BFt%2C%20ch%E1%BA%A5t%20l%C6%B0u.md
+
 ### Nhiệt
+
+
 
 ### TĨNH ĐIỆN VÀ ĐIỆN TỪ
 
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/T%C4%A9nh%20%C4%90i%E1%BB%87n%20V%C3%A0%20T%E1%BB%AB%20H%E1%BB%8Dc.md
+
 ### Điện từ nâng cao
+
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90i%E1%BB%87n%20T%E1%BB%AB%20N%C3%A2ng%20Cao.md
 
 ### Quang học
 
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/Quang%20H%E1%BB%8Dc.md
