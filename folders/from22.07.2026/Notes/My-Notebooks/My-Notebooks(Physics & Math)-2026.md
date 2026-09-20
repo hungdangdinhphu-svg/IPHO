@@ -17,6 +17,8 @@
 
 Tài liệu có mật độ nén cực cao (high information density). Khi đọc các tài liệu này, cẩn đảm bảo học theo cách này nhé : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md
 
+Và vẫn phải học cách học theo https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md chứ không được phép chỉ dùng mỗi các tài liệu bên dưới.
+
 ### ĐỘNG HỌC 
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC.md
