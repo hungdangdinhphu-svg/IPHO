@@ -22,6 +22,7 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
+### TĨNH ĐIỆN VÀ ĐIỆN TỪ
 
 ### Điện từ nâng cao
 
