@@ -1,13 +1,7 @@
----
 
 # VẬT LÝ
 
 
----
-
----
-
-# VẤN ĐỀ 1
 
 **Một số thứ quan trọng nói chung:**
 
@@ -19,80 +13,17 @@ Tài liệu có mật độ nén cực cao (high information density). Khi đọ
 
 Và vẫn phải học cách học theo https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md chứ không được phép chỉ dùng mỗi các tài liệu bên dưới.
 
-### ĐỘNG HỌC 
+### ĐỘNG HỌC TỔNG QUÁT
 
-https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC.md
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC%20T%E1%BB%94NG%20QU%C3%81T%20(R%E1%BA%A4T%20N%E1%BA%B6NG).md
 
-### ĐỘNG LỰC HỌC
-
-
-### CÁC ĐỊNH LUẬT BẢO TOÀN
+### Cơ Học Chất Điểm
 
 
-### TĨNH ĐIỆN 
+### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
 
-## Phần 2 (Bước 1 & 2)
+### Điện từ nâng cao
 
+### Quang học
 
-
-...
-
-## Phần 3
-
-
-
-...
-
-## Phần 4
-
-
-
-...
-
----
-
----
-
-# VẤN ĐỀ 2
-
-Hãy quay lại đọc thật kỹ hết Vấn đề 1 nếu chưa làm.
-
-### ĐỘNG HỌC 
-
-https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC.md
-
-### ĐỘNG LỰC HỌC
-
-
-### CÁC ĐỊNH LUẬT BẢO TOÀN
-
-
-### TĨNH ĐIỆN 
-
-
----
-
----
-
-# VẤN ĐỀ 3 (Hãy đọc thêm phần Toán)
-
-Hãy quay lại đọc thật kỹ hết Vấn đề 1 & 2 nếu chưa làm. Sau đó hãy đọc thêm phần Toán ở bên dưới.
-
----
-
----
-
-# TOÁN
-
----
-
----
-
-# Lưu ý:
-
-+) Để đảm bảo chất lượng và nội dung, độ dày,... Hãy chia nhỏ thành từng phần rất nhỏ rồi làm thật dày phần đó, tiếp tục với các phần khác. Đừng cố tình làm một lúc thật nhiều. Nhưng cũng đừng mất sự liên kết giữa các phần. Nghe hơi kỳ lạ:)?
-
-+) Không chép các nội dung từ Notebook này vào vở ghi, điều đó không cần. Chỉ chép các phần HẠNG NẶNG (Như Galilean Invariance, Lagrange,...) vào vở thôi! Và hãy in cái Notebook này ra giấy bằng máy tính và máy in, chứ đừng có ngu mà chép hết vào vở nhé:)!
-
----
