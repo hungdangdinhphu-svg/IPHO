@@ -13,7 +13,7 @@ Tài liệu có mật độ nén cực cao (high information density). Khi đọ
 
 Và vẫn phải học cách học theo https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md chứ không được phép chỉ dùng mỗi các tài liệu bên dưới.
 
-### ĐỘNG HỌC TỔNG QUÁT
+### ĐỘNG HỌC TỔNG QUÁT (Rất Nặng)
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC%20T%E1%BB%94NG%20QU%C3%81T%20(R%E1%BA%A4T%20N%E1%BA%B6NG).md
 
