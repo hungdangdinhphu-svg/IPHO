@@ -9,7 +9,6 @@ Hãy đọc cả 2 bản new version và old version. 2 Bài viết có thể t�
 
 Lý do tôi đặt tên là "Thảo luận lớn về Cách giải Đề thi HSGQG Vật Lý và Các tư duy quan trọng" là vì tôi muốn đây được xem như cuộc thảo luận giữa tôi và người đọc nó, chứ không phải một chiều. Yea, các bạn có thể gửi góp ý cho tôi cũng được chứ:)
 
-Dù gì đi chăng nữa, đoạn văn này được soạn bởi học sinh sinh vào năm 2011, và không phải chuyên gia.
 
 ---
 
