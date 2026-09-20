@@ -34,7 +34,7 @@ Theo ảnh bạn gửi, 16 mục chia thành 4 nhóm:
 | Nhóm | Mục trong ảnh | Mã công cụ trong tài liệu |
 |---|---|---|
 | a. Động học | thẳng đều/biến đổi đều · rơi tự do · tròn đều/biến đổi đều · khảo sát bằng phương pháp tọa độ | K1–K8 |
-| b. Động lực học | định luật Newton · các lực cơ học · ứng dụng vào bài tập · hệ quy chiếu phi quán tính | D1–D10 |
+| b. Động lực học | định luật Newton · các lực cơ học · ứng dụng vào bài tập · hệ quy chiếu phi quán tính | D1–D11 |
 | c. Bảo toàn | động lượng · công–công suất · cơ năng · va chạm | C1–C9 |
 | d. Dao động | DĐĐH cơ bản (v, a) · con lắc đơn/lò xo/vật lý/xoắn · tắt dần–cưỡng bức–cộng hưởng (phương trình vi phân) · DĐĐH chất điểm | O1–O8 |
 
@@ -58,7 +58,7 @@ Phần này biến ý tưởng trong README (M = (O,V,L,C,Q,I), họ {Pre(ℓ)},
 |---|---|
 | **O** (ontology) | Chất điểm; vật coi như chất điểm (điều kiện: kích thước ≪ mọi độ dài của bài, không quay đáng kể); dây, ròng rọc, lò xo, mặt (nhẵn/nhám, cố định/di động), nêm; hệ quy chiếu; trường (trọng trường, hấp dẫn, quán tính) |
 | **V** | Tọa độ tổng quát q_j(t); vận tốc, gia tốc; lực chưa biết (phản lực N, ma sát f, sức căng T); thời gian; các hằng số (m, k, g, μ, e…); *đại lượng cần tìm* |
-| **L** | Thư viện công cụ K1–K8, D1–D10, C1–C9, O1–O8 và toán tử tiền xử lý P1–P12, mỗi cái kèm Dom, Pre, Suf, Post, Err (1.2) |
+| **L** | Thư viện công cụ K1–K8, D1–D11, C1–C9, O1–O8 và toán tử tiền xử lý P1–P13, mỗi cái kèm Dom, Pre, Suf, Post, Err (1.2) |
 | **C** | Dữ kiện đề; ràng buộc hình học (dây không dãn, tiếp xúc, lăn không trượt); điều kiện đầu/biên; đối xứng; lý tưởng hóa (dây nhẹ, ròng rọc nhẹ, nhẵn) |
 | **Q** | Đại lượng cần tìm, dạng đáp án (biểu thức/số/điều kiện tồn tại/cực trị), đơn vị |
 | **I** | Ánh xạ diễn giải: từ chữ trong đề sang thực thể O, V, C. **Lỗi lớn nhất thường nằm ở đây** (đọc sai "nhẵn", "không dãn", "va chạm mềm", "bắt đầu trượt"…) |
@@ -1009,3 +1009,523 @@ Nhắc lại nguyên lý ở 1.6: **mỗi định luật bảo toàn là một m
 - **Đã kiểm:** Hạt trên vòng quay: L = ½mR²(θ̇² + ω²sin²θ) + mgR cosθ ⇒ θ̈ = sinθ(ω²cosθ − g/R), khớp D10.
 - **Bẫy:** T sai (quên nêm chuyển động); bỏ lực không thế; quên rằng khi ràng buộc phụ thuộc t thì h **không** bằng E.
 
+---
+
+## PHẦN 6. DAO ĐỘNG (d) — O1 đến O8
+
+---
+
+### O1. Nhận dạng dao động điều hòa và "dạng chuẩn" **[C]**
+
+- **Kiểu CHỖ:** (phương trình chuyển động của một tọa độ q, quanh **vị trí cân bằng thật** q₀).
+- **Nội dung:**
+  - **Dạng chuẩn:** ẍ + ω²x = 0 ⇒ **x = A cos(ωt + φ)**; T = 2π/ω.
+  - v = −Aω sin(ωt + φ); a = −ω²x; **v² = ω²(A² − x²)**; v_max = Aω; a_max = Aω².
+  - E = ½kA² = ½mω²A²; K và U biến thiên với tần số **2ω**.
+  - Đường pha: (x/A)² + (v/(Aω))² = 1.
+  - **Ánh xạ hình chiếu:** DĐĐH là hình chiếu của chuyển động tròn đều bán kính A, tốc độ góc ω.
+  - **Điều kiện đầu:** A = √(x₀² + (v₀/ω)²); x₀ = A cosφ, v₀ = −Aω sinφ ⇒ tanφ = −v₀/(ωx₀) (chọn góc phần tư theo dấu).
+  - **Thời gian giữa hai vị trí** (dùng vòng tròn pha): Δt = Δα/ω. Một số mốc: 0 → A: T/4; 0 → A/2: T/12; A/2 → A: T/6.
+  - **Trung bình:** quãng đường một chu kỳ 4A; tốc độ trung bình nửa chu kỳ 4A/T; ⟨x²⟩ = A²/2.
+- **Pre:** (i) Lực (hoặc momen) hồi phục **tỉ lệ bậc nhất** với độ lệch khỏi cân bằng; (ii) khối lượng hiệu dụng không đổi.
+- **Suf-test ALG-O1 ("bộ nhận dạng chuẩn"):**
+  1. Tìm **cân bằng thật** q₀ (ΣF = 0 hoặc U'(q₀) = 0). Đặt **x = q − q₀** (P13). Hằng số lực chỉ **dời gốc**: mẍ = −kx + F₀ ⇒ x' = x − F₀/k.
+  2. Viết phương trình chuyển động (D1 hoặc O4 hoặc C9).
+  3. Khai triển tuyến tính hóa (P12), giữ số hạng bậc nhất theo x.
+  4. Đưa về **m_eff·ẍ + K_eff·x = 0** ⇒ **ω² = K_eff/m_eff**.
+  5. Kiểm **K_eff > 0** (nếu K_eff < 0: không dao động, nghiệm dạng mũ, cân bằng không bền).
+- **Chuyển sang Toán (V2):** ODE tuyến tính bậc hai hệ số hằng, hai hằng số tích phân (A, φ) từ điều kiện đầu.
+- **Bẫy:** Gốc tọa độ **không** phải vị trí cân bằng; nhầm ω với f; nhầm hàm sin/cos khi tìm pha; dùng v = Aω cos(…) ở mọi x (chỉ tại x = 0).
+
+---
+
+### O2. Tổng hợp dao động, dao động điều hòa của chất điểm trong mặt phẳng **[C]**
+
+- **Kiểu CHỖ:** (một tổ hợp các dao động thành phần).
+- **Nội dung:**
+  - **Cùng phương, cùng ω (phasor):** A² = A₁² + A₂² + 2A₁A₂cos(φ₂ − φ₁); tanφ = (A₁sinφ₁ + A₂sinφ₂)/(A₁cosφ₁ + A₂cosφ₂).
+  - **Cùng phương, ω gần nhau (phách):** với A₁ = A₂ = A: x = 2A cos(Δω·t/2)·cos(ω̄t); biên độ điều biến, **tần số phách f_b = |f₁ − f₂|**.
+  - **Hai phương vuông góc, cùng ω:** x = A cosωt, y = B cos(ωt + δ) ⇒ elip: x²/A² + y²/B² − (2xy/AB)cosδ = sin²δ. δ = 0, π: đoạn thẳng; δ = ±π/2: elip trục theo x, y.
+  - **Lissajous (ω_x ≠ ω_y, tỉ số hữu tỉ):** ω_x/ω_y = (số điểm tiếp xúc với cạnh đứng x = ±A)/(số điểm tiếp xúc với cạnh ngang y = ±B) (với pha tổng quát).
+  - **Dao động đẳng hướng 2D (F = −kr):** x, y độc lập cùng ω; quỹ đạo elip **tâm O**; **L = mωAB** = hằng (elip đóng như Kepler nhưng tâm ở giữa).
+- **Pre:** Dao động thành phần tuyến tính; chồng chất áp dụng.
+- **Suf:** Có hai dao động/nguồn tác dụng đồng thời, hoặc chuyển động 2D trong thế điều hòa.
+- **Trình tự cố định ALG-O2:** (1) Biểu diễn mỗi dao động bằng phasor/số phức Âe^{iωt}; (2) cộng phasor; (3) đọc biên độ, pha; (4) nếu ω khác nhau: xét chu kỳ chung (hữu tỉ ⇒ tuần hoàn).
+- **Bẫy:** Cộng biên độ đại số; nhầm phách với tổng hợp cùng tần số; hai phương vuông góc **không** cộng biên độ.
+
+---
+
+### O3. Các hệ dao động chuẩn: lò xo, đơn, vật lý, xoắn **[C]**
+
+| Hệ | ω² (hoặc T) | Pre | Ghi chú |
+|---|---|---|---|
+| Lò xo–vật (ngang, thẳng đứng, nghiêng) | **k/m** | Hooke, lò xo nhẹ | Gốc tại **cân bằng tĩnh**: trọng lực không đổi ω |
+| Lò xo có khối lượng m_s | k/(m + m_s/3) | Dao động chậm, lò xo đồng đều | O4 (đã kiểm) |
+| Hai vật nối lò xo | k/μ, μ = m₁m₂/(m₁ + m₂) | Sàn nhẵn, dọc lò xo | Khối tâm chuyển động thẳng đều |
+| Lò xo ghép | k_nt: 1/k = Σ1/kᵢ; k_ss = Σkᵢ | — | Thay k_eq |
+| **Con lắc đơn** | **g/l** | θ₀ ≪ 1 | T ≈ T₀(1 + θ₀²/16 + 11θ₀⁴/3072) (đã kiểm) |
+| Con lắc đơn có g_eff | g_eff/l | D9 | Thang máy, xe: g_eff = g − a₀ |
+| Con lắc đơn dài (so với R) | g(1/l + 1/R) | Xét Trái Đất tròn | l → ∞: ω² → g/R |
+| **Con lắc vật lý** (vật rắn) | **mgd/I**, I = I_cm + md² | Góc nhỏ; I cho trước | Chiều dài tương đương l_tđ = I/(md). Chu kỳ nhỏ nhất khi d = √(I_cm/m) |
+| **Con lắc xoắn** | **κ/I** | Momen hồi phục = −κθ | Ghép xoắn tương tự lò xo |
+| Ống chữ U (chất lỏng) | 2g/L | L là tổng chiều dài cột chất lỏng | Dùng O4 |
+| Khối nổi thẳng đứng | ρ_lgA/m | A là tiết diện, lực đẩy Archimedes | Dùng O4 |
+| Đường hầm xuyên tâm trong cầu đồng chất | g/R | D7 | T ≈ 84 phút (Trái Đất) |
+| Vật gắn hai lò xo/dây **căng** dao động ngang | 2T₀/(mL) | T₀ là sức căng ban đầu, L độ dài mỗi nhánh | Nếu T₀ = 0 (đúng độ dài tự nhiên): lực hồi phục bậc ba (O8) |
+
+- **Dữ kiện I_cm thường dùng (chỉ dữ kiện; chứng minh thuộc vật rắn):** thanh (vuông góc, qua tâm) mL²/12; đĩa (vuông góc mặt, qua tâm) mR²/2; vành mR²; cầu đặc 2mR²/5. Trục song song: I = I_cm + md².
+- **Con lắc vật lý, hệ thức thuận nghịch (Kater):** hai trục ở hai phía khối tâm, cách nhau l_tđ, cho **cùng chu kỳ**; dùng để đo g.
+- **Trình tự cố định (V1):** (1) Nhận dạng hệ trong bảng; (2) kiểm **Pre** (góc nhỏ, lò xo nhẹ…); (3) nếu không có sẵn: dùng **O4**.
+- **Bẫy:** Dùng T = 2π√(l/g) khi θ₀ lớn; nhầm chiều dài l (tính đến khối tâm của vật kéo dài); quên **g_eff**; con lắc vật lý: dùng l thay vì I/(md).
+
+---
+
+### O4. Phương pháp năng lượng (Rayleigh) và tuyến tính hóa quanh cân bằng **[C]**
+
+Đây là công cụ **rẻ nhất về trực giác** cho dao động một bậc tự do: **không cần lực**, chỉ cần T và U.
+
+- **Kiểu CHỖ:** (hệ một bậc tự do, một cân bằng q₀).
+- **Nội dung:** E = ½M_eff(q)q̇² + U(q) = hằng. Đặt q = q₀ + x, khai triển đến bậc hai:
+
+> **E ≈ ½M_eff(q₀)ẋ² + ½U''(q₀)x² + hằng ⇒ ω² = U''(q₀)/M_eff(q₀)**
+
+  - **M_eff = Σm_i(∂**r**_i/∂q)²** (mỗi vật đóng góp m_i × bình phương "hệ số vận tốc" theo q).
+  - **K_eff = U''(q₀)**.
+- **Pre:** Hệ bảo toàn, **một bậc tự do** (sau ràng buộc K7); biên độ nhỏ. (Nhiều bậc: O7.)
+- **Suf-test ALG-O4:**
+  1. Chọn **một** tọa độ q; dùng K7 biểu diễn **mọi** vật theo q.
+  2. Viết K = Σ½m_iv_i² = ½M_eff(q)q̇²; U(q) gồm mọi lực thế (trọng lực, lò xo).
+  3. Giải U'(q₀) = 0 ⇒ cân bằng; kiểm U''(q₀) > 0.
+  4. M_eff chỉ cần tại q₀; K_eff = U''(q₀).
+  5. ω² = K_eff/M_eff.
+- **Cảnh báo "hiệu ứng hình học" (rất hay sai):** Với lò xo có độ dài l(q): U''(q₀) = k[(l')² + (l − l₀)·l''] + (phần trọng lực). **Nếu tại cân bằng lò xo đã biến dạng (l ≠ l₀), số hạng k(l − l₀)l'' KHÔNG được bỏ.** Chỉ khi lò xo ở đúng độ dài tự nhiên tại cân bằng thì K_eff = k(l')².
+- **Mẫu dùng (đã kiểm):**
+  - Con lắc đơn: K = ½ml²θ̇², U = −mgl cosθ ⇒ ω² = g/l.
+  - Ống chữ U: khối lượng chuyển động ρSL, ΔU = ρgSx² ⇒ ω² = 2g/L.
+  - Hai vật nối dây qua ròng rọc, một lò xo: M_eff = m₁ + m₂ (dây không dãn), K_eff = k.
+- **Bẫy:** Bỏ hiệu ứng hình học; nhầm M_eff (đặc biệt khi các vật có vận tốc khác nhau theo q); dùng khi hệ không bảo toàn; quên rằng chỉ **khai triển đến bậc hai**.
+
+---
+
+### O5. Dao động tắt dần **[C]**
+
+- **Kiểu CHỖ:** (phương trình chuyển động có lực cản phụ thuộc vận tốc).
+- **Nội dung:** **ẍ + 2γẋ + ω₀²x = 0**, γ = b/(2m), ω₀² = k/m. Nghiệm đặc trưng r = −γ ± √(γ² − ω₀²).
+
+| Chế độ | Điều kiện | Nghiệm |
+|---|---|---|
+| **Dưới tới hạn** | γ < ω₀ | x = Ae^{−γt}cos(ω_dt + φ), **ω_d = √(ω₀² − γ²)** |
+| **Tới hạn** | γ = ω₀ | x = (A + Bt)e^{−γt} (về cân bằng nhanh nhất, không dao động) |
+| **Quá tắt** | γ > ω₀ | x = C₁e^{r₁t} + C₂e^{r₂t}, r₁,₂ = −γ ± √(γ² − ω₀²) |
+
+  - **Giảm lượng loga:** δ = ln(x_n/x_{n+1}) = γT_d.
+  - **Hệ số phẩm chất:** Q = ω₀/(2γ) = √(km)/b. Năng lượng ∝ e^{−2γt}. **Tổn hao mỗi chu kỳ ΔE/E ≈ 2π/Q**. Sau ≈ Q/(2π) chu kỳ, năng lượng giảm e lần.
+- **Ma sát khô (Coulomb) [C, đã kiểm số]:** mẍ = −kx − μmg·sgn(ẋ).
+  - Tần số **vẫn** ω₀ = √(k/m); mỗi nửa chu kỳ là một DĐĐH quanh tâm **dời** ±a, với **a = μ_kmg/k**.
+  - Biên độ **giảm tuyến tính**: mỗi nửa chu kỳ giảm **2a** (không phải theo hàm mũ). Các điểm dừng: x_n = ±(x₀ − 2na).
+  - **Dừng hẳn** tại điểm dừng đầu tiên có |kx_n| ≤ μ_smg (tức |x_n| ≤ μ_smg/k).
+- **Pre:** Cản tuyến tính theo v (hoặc ma sát khô, xử lý theo từng nửa chu kỳ P9). Cản bậc hai không tuyến tính.
+- **Trình tự cố định ALG-O5:** (1) Đưa về dạng chuẩn ẍ + 2γẋ + ω₀²x = 0; (2) so sánh γ với ω₀ ⇒ chế độ; (3) viết nghiệm; (4) dùng điều kiện đầu.
+- **Bẫy:** ω_d ≠ ω₀ (chỉ ≈ khi γ ≪ ω₀); nhầm hệ số 2γ và γ; T_d ≠ T₀; ma sát khô **không** cho e^{−γt}; dùng μ_k cho điều kiện dừng thay vì μ_s.
+
+---
+
+### O6. Dao động cưỡng bức và cộng hưởng **[C]**
+
+- **Kiểu CHỖ:** (phương trình có lực cưỡng bức điều hòa).
+- **Nội dung:** **ẍ + 2γẋ + ω₀²x = (F₀/m)cosΩt**. Nghiệm = nghiệm thuần nhất (**quá độ**, tắt dần) + **nghiệm riêng (ổn định)**:
+
+> **x_ss = X cos(Ωt − δ)**, X = (F₀/m)/√((ω₀² − Ω²)² + 4γ²Ω²), tanδ = 2γΩ/(ω₀² − Ω²)
+
+  (δ ∈ [0, π]; x **trễ pha** δ so với lực; δ = π/2 tại Ω = ω₀.)
+  - **Cách tìm nhanh (số phức):** x̂ = (F₀/m)e^{iΩt}/(ω₀² − Ω² + 2iγΩ), x = Re x̂.
+  - **Cộng hưởng biên độ:** Ω_r = √(ω₀² − 2γ²) (tồn tại nếu ω₀² > 2γ²), X_max = F₀/(2mγ√(ω₀² − γ²)). **Cộng hưởng vận tốc:** Ω = ω₀, biên độ vận tốc F₀/b.
+  - **Công suất trung bình:** P̄ = ½bΩ²X²; cực đại tại Ω = ω₀, **P_max = F₀²/(2b)**; độ rộng nửa công suất ≈ 2γ = ω₀/Q (tắt yếu).
+  - **Các giới hạn:** Ω ≪ ω₀: X ≈ F₀/k (tĩnh); Ω ≫ ω₀: X ≈ F₀/(mΩ²), δ → π; tại Ω = ω₀: **X = QF₀/k**.
+  - **Không tắt (γ = 0), Ω = ω₀:** x = (F₀/(2mω₀))·t·sinω₀t (biên độ tăng tuyến tính).
+  - **Kích thích qua chuyển động nền y = Y cosΩt:** từ mẍ = −k(x − y) − b(ẋ − ẏ), đặt z = x − y (độ biến dạng lò xo) ⇒ z̈ + 2γż + ω₀²z = −ÿ = Ω²Y cosΩt (thay F₀/m bằng Ω²Y).
+- **Pre:** Hệ tuyến tính; lực điều hòa; t ≫ 1/γ cho nghiệm ổn định.
+- **Trình tự cố định ALG-O6:** (1) Chuẩn hóa dạng ẍ + 2γẋ + ω₀²x = f cosΩt; (2) nghiệm riêng bằng số phức; (3) X, δ; (4) cộng hưởng: dX/dΩ = 0 hoặc dùng công thức; (5) điều kiện đầu chỉ dùng cho phần quá độ.
+- **Bẫy:** Nhầm cộng hưởng **biên độ** (Ω_r) với **vận tốc** (ω₀); dùng ω_d thay ω₀; nhầm nghiệm quá độ với ổn định; dấu pha (trễ).
+
+---
+
+### O7. Hệ dao động ghép, mode chuẩn, hệ phương trình vi phân **[C]**
+
+- **Kiểu CHỖ:** (hệ n bậc tự do quanh một cân bằng).
+- **Nội dung:** **Mẍ + Kx = 0**, M, K đối xứng, xác định từ K_kin = ½ẋᵀMẋ, U = ½xᵀKx (tại cân bằng: K_ij = ∂²U/∂q_i∂q_j).
+  - Thử x = a·e^{iωt} ⇒ **(K − ω²M)a = 0** ⇒ **det(K − ω²M) = 0** cho ω_j²; vectơ riêng a_j là **mode chuẩn**.
+  - Nghiệm tổng quát: x = Σ c_j a_j cos(ω_jt + φ_j). Các mode **trực giao**: a_iᵀMa_j = 0 (i ≠ j).
+- **Mẫu (đã kiểm):**
+  - **Hai vật cùng khối lượng m, lò xo k với tường, lò xo ghép k_c:** ω₁² = k/m (đồng pha), **ω₂² = (k + 2k_c)/m** (ngược pha). Đổi biến ξ± = x₁ ± x₂ tách hai phương trình độc lập.
+  - **Phách năng lượng:** thả x₁ = A, x₂ = 0, ghép yếu: x₁ = A cos(Δω·t/2)cos(ω̄t), x₂ = A sin(Δω·t/2)sin(ω̄t); thời gian chuyển toàn bộ năng lượng từ vật 1 sang vật 2 là π/Δω, Δω = ω₂ − ω₁.
+  - **Ba vật m–M–m nối hai lò xo k (mô hình phân tử thẳng):** ω = 0 (tịnh tiến), ω² = k/m (M đứng yên, hai m ngược pha), **ω² = (k/m)(1 + 2m/M)** (hai m cùng pha, M ngược pha; tự suy dẫn bằng bảo toàn động lượng).
+- **Pre:** Dao động nhỏ (đã tuyến tính hóa, P12); bảo toàn (tắt dần xử lý sau).
+- **Suf:** Có ≥ 2 tọa độ dao động độc lập nối với nhau.
+- **Trình tự cố định ALG-O7:**
+  1. Chọn tọa độ **lệch khỏi cân bằng** (P13) cho từng vật.
+  2. Lập M (từ động năng) và K (từ thế năng hoặc từ Newton).
+  3. **Khai thác đối xứng trước:** nếu hệ có đối xứng, dùng tọa độ tổng/hiệu để tách khối (P5).
+  4. Giải det(K − ω²M) = 0 (đa thức bậc n theo ω²).
+  5. Tìm vectơ riêng từng mode (một hằng số nhân tự do).
+  6. Điều kiện đầu ⇒ hệ đại số cho c_j, φ_j (dùng trực giao để tách).
+- **Kiểm tra chéo:** hệ tự do (không nối tường) phải có mode ω = 0 (tịnh tiến). Tổng các ω_j² = tr(M⁻¹K).
+- **Bẫy:** M, K không đối xứng (lập sai); quên mode ω = 0; đặt tọa độ tuyệt đối khi cần tương đối; quên chuẩn hóa vectơ riêng khi dùng điều kiện đầu.
+
+---
+
+### O8. Dao động phi tuyến và ngoài điều hòa **[EXT]**
+
+- **Kiểu CHỖ:** (hàm U(q) có U''(q₀) = 0, hoặc biên độ không nhỏ).
+- **Nội dung:**
+  - **Tỉ lệ:** nếu U ∝ |x|ⁿ thì **T ∝ A^{1 − n/2}** (n = 2: không phụ thuộc biên độ; n = 4: T ∝ 1/A).
+  - **Chu kỳ chính xác:** T = √(2m)∫dq/√(E − U) (C5).
+  - **Duffing** (ẍ + ω₀²x + εx³ = 0, biên độ A nhỏ): **ω ≈ ω₀ + 3εA²/(8ω₀)** (đã kiểm số); ε > 0 (cứng hóa): tần số tăng theo biên độ.
+  - **Con lắc đơn:** T ≈ T₀(1 + θ₀²/16 + 11θ₀⁴/3072) (đã kiểm số).
+  - **Cộng hưởng tham số:** thay đổi tham số (ví dụ chiều dài con lắc) với tần số ≈ 2ω₀/n có thể khuếch đại dao động (cơ chế đu đưa). Tôi không đi sâu.
+- **Pre:** E nhỏ hơn mức làm hệ thoát khỏi hố thế.
+- **Trình tự cố định ALG-O8:** (1) Tìm **bậc thấp nhất khác 0** của U quanh cân bằng; (2) nếu U ~ xⁿ: dùng tỉ lệ; (3) nếu chỉ hiệu chỉnh nhỏ: dùng công thức dịch tần bậc nhất; (4) cần chính xác: tích phân ở C5.
+- **Bẫy:** Dùng ω = √(U''/m) khi U'' = 0; nhầm dấu dịch tần; đánh đồng biên độ và năng lượng.
+
+---
+
+## PHẦN 7. CÁC BẢNG TRA CHÉO
+
+### 7.1. Từ câu hỏi Q → công cụ ứng viên (Vấn đề 1)
+
+| Đề hỏi | Công cụ ứng viên (theo thứ tự thử) | Ghi chú |
+|---|---|---|
+| Vận tốc **tại một vị trí** (không hỏi t) | C4 / C3 → K2 (a(x)) | Kiểm Pre C4 (sự kiện mất năng lượng?) |
+| **Thời gian** | K1, K3, K2 (a(t), a(v)); O1 (pha); C5 (chu kỳ) | — |
+| **Lực tức thời** (N, T, f) | D1 (D6 nếu cong), lấy v từ C4 | Chuỗi Năng lượng → v → Newton |
+| **Gia tốc** | D1 + K7; C2 (a_cm) | Hệ nhiều vật: cả hệ rồi cô lập |
+| **Điều kiện** rời mặt / dây chùng / bắt đầu trượt | τ4/τ5/τ6 + D1 (+ P10) | Bất đẳng thức |
+| **Khoảng cách gần nhất, gặp nhau** | K6, K1, K4 (họ nghiệm) | Δ ≥ 0, t > 0 |
+| **Dịch chuyển** của vật khi vật khác chuyển động | C2 (khối tâm) | Không có ngoại lực theo phương đó |
+| **Vận tốc sau va chạm/nổ** | C6 (+ C1, C7) | Không dùng cơ năng nếu e < 1 |
+| **Góc/tối ưu/vùng an toàn** | K8 (Δ, đạo hàm, bao hình) | Kiểm biên miền |
+| **Chu kỳ, tần số** | O1, O3, O4; C5 | O4 khi hệ lạ |
+| **Biên độ dao động** | O1 (điều kiện đầu/C4), O5, O6 | Phân biệt quá độ và ổn định |
+| **Quỹ đạo** (hình dạng) | K3, K5; C7 (Binet, Kepler) | — |
+| **Cân bằng, ổn định** | D11, C5 | U', U'' |
+| **Năng lượng mất, nhiệt** | C3/C4 (A_nt), C6 (ΔK), D3 (μNs) | Quãng đường tương đối |
+| **Công, công suất** | C3 | — |
+| **Chuyển động trong hệ quay/Trái Đất** | D10 | Trục quay, ω |
+| **Tần số cộng hưởng, độ rộng** | O6 | Ω_r ≠ ω₀ |
+
+### 7.2. "Bài toán đích" để chuyển sang Vấn đề 3 (đầu ra của Vấn đề 2)
+
+| Sau Vấn đề 2 bạn thu được | Cần kỹ năng Toán |
+|---|---|
+| Hệ **đại số tuyến tính** cho gia tốc, lực (D1 + K7) | Khử ẩn, định thức |
+| **Phương trình bậc hai** theo t hoặc tanθ (K1, K3, K8) | Biệt thức, điều kiện nghiệm |
+| **ODE tách biến** (K2, D5) | Tích phân cơ bản |
+| **ODE tuyến tính hệ số hằng** (O1, O5, O6) | Phương trình đặc trưng, nghiệm riêng, số phức |
+| **Hệ ODE tuyến tính/trị riêng** (O7) | Đại số tuyến tính, đối xứng |
+| **Tích phân xác định** (C5 chu kỳ, công biến thiên) | Đổi biến, tích phân đặc biệt |
+| **Cực trị/bất đẳng thức** (K8) | Đạo hàm, AM–GM, bao hình |
+| **Khai triển Taylor/nhiễu loạn** (P12, O8) | Chuỗi lũy thừa |
+| **Vector hình học** (K5, K6) | Tích vô hướng, có hướng |
+| **Bất đẳng thức chế độ** (D3, P10) | Biện luận theo tham số |
+
+Tham khảo bạn đã nêu: Boas (*Mathematical Methods in the Physical Sciences*: số phức, đại số tuyến tính, ODE, chuỗi Fourier) và Stewart (*Calculus*: tích phân, cực trị, chuỗi). Tôi không viết Vấn đề 3, theo yêu cầu.
+
+### 7.3. Thư viện precondition nén (một dòng mỗi công cụ)
+
+| ID | Công cụ | Kiểu CHỖ | Suf-test (rút gọn) | Post |
+|---|---|---|---|---|
+| K1 | Thẳng đều/biến đổi đều | (vật, khoảng, trục) | a hằng theo trục trong đoạn | 2 phương trình độc lập giữa (Δx, v₀, v, a, t) |
+| K2 | a(t), a(x), a(v) | (vật, khoảng, trục) | Lực chỉ phụ thuộc một biến | Tích phân tách biến; ½v² khi a(x) |
+| K3 | Rơi/ném | (vật, khoảng sau khi bắn, 2 trục) | Chỉ còn trọng lực; g hằng | x(t), y(t), quỹ đạo, điều kiện chạm |
+| K4 | Chuyển động tròn | (vật, thời điểm, (t,n)) | R hằng do ràng buộc | a_n = v²/R, a_t = Rα; họ nghiệm gặp nhau |
+| K5 | Chuyển động cong | (điểm quỹ đạo, (t,n) hoặc (r,φ)) | Cần ρ hoặc lực hướng tâm | ρ = v²/a_n |
+| K6 | Vận tốc tương đối | (cặp đối tượng, khoảng) | Có dòng/tàu/hai vật chuyển động đều | d_min, thời điểm gặp |
+| K7 | Ràng buộc động học | (dây/thanh/tiếp xúc) | Có thứ *nối/ép/dẫn* | Liên hệ v, a giữa các vật |
+| K8 | Cực trị/bao hình | (tham số tự do λ) | "lớn nhất/nhỏ nhất/điều kiện để" | Δ ≥ 0, F = ∂F/∂λ = 0 |
+| D1 | Newton + quét biên | (vật, thời điểm, trục) | Vật + lực; hệ quán tính; m hằng | ΣF_e = ma_e |
+| D2 | Dây, ròng rọc | (dây/điểm tiếp xúc) | Có dây/ròng rọc | T đều nếu nhẹ; capstan e^{μφ} |
+| D3 | Ma sát | (mặt, trạng thái) | Bề mặt nhám tiếp xúc | f ≤ μ_sN hoặc f = μ_kN; nhiệt μNs |
+| D4 | Lò xo | (lò xo, biến dạng) | Có lò xo | F = −kΔl; k ghép/cắt |
+| D5 | Lực cản | (vật, khoảng, theo v) | Đề cho cản ∝ v hoặc v² | v_t (a = 0); v(t), v(x) |
+| D6 | Lực hướng tâm | (vật, điểm quỹ đạo, (t,n)) | Quỹ đạo cong | ΣF_n = mv²/ρ |
+| D7 | Hấp dẫn | (2 vật hoặc vật–trường) | Thiên thể/độ cao lớn | GMm/r²; vỏ cầu |
+| D8 | Khối lượng biến thiên | (hệ cố định + dm) | Khối lượng vào/ra | m dv/dt = F + (dm/dt)(u − v) |
+| D9 | Hệ có gia tốc tịnh tiến | (hệ, a₀) | Xe/thang máy | g_eff = g − a₀ |
+| D10 | Hệ quay | (hệ, trục, ω) | Vật trên/trong vật quay | Ly tâm, Coriolis, U_cf |
+| D11 | Cân bằng, công ảo | (hệ cân bằng, δq) | Nhiều liên kết, cần góc/lực cân bằng | Σ**F**·δ**r** = 0 |
+| C1 | Xung lượng | (Σ, [t₁,t₂], e) | Ngoại lực theo e = 0 hoặc xung nhỏ | ΣP_e bảo toàn |
+| C2 | Khối tâm | (Σ, khoảng, e) | Hệ không có ngoại lực theo e | Σm_iΔx_i = 0; M**a**_cm = ΣF_ext |
+| C3 | Công, động năng | (Σ, trạng thái 1→2) | Không cần t; lực biến thiên theo x | ΔK = ΣA |
+| C4 | Cơ năng | (Σ, trạng thái 1→2) | Lực không thế công 0; không có sự kiện mất năng lượng | E₁ + A_nt = E₂ |
+| C5 | Đồ thị thế | (U(q), E) | 1 bậc tự do, bảo toàn | Biên, cân bằng, ω, T |
+| C6 | Va chạm | (Σ, [t⁻,t⁺], (n,t)) | Δt ngắn; xung ngoại xác định phương | P_e, L_O, hệ số e |
+| C7 | Momen xung lượng | (Σ, khoảng, O hoặc e) | Lực đi qua O hoặc M_e = 0 | L_e bảo toàn; Kepler |
+| C8 | Quét đối xứng | (hệ, phép biến đổi) | U, ràng buộc bất biến? | Đại lượng bảo toàn tương ứng |
+| C9 | Lagrange | (hệ, q độc lập) | Ràng buộc holonomic lý tưởng | Euler–Lagrange, tích phân đầu |
+| O1 | DĐĐH nhận dạng | (phương trình, cân bằng thật) | Lực hồi phục ∝ x | ẍ + ω²x = 0 |
+| O2 | Tổng hợp dao động | (tổ hợp thành phần) | Nhiều dao động đồng thời | Phasor; phách; Lissajous |
+| O3 | Bảng hệ chuẩn | (hệ trong bảng) | Nhận dạng, kiểm Pre | ω² tra bảng |
+| O4 | Rayleigh | (1 bậc tự do, cân bằng) | Hệ bảo toàn, K7 đã đưa về q | ω² = U''/M_eff |
+| O5 | Tắt dần | (ẍ + 2γẋ + ω₀²x = 0) | Cản ∝ v hoặc ma sát khô | ω_d, δ, Q; giảm 2a |
+| O6 | Cưỡng bức | (có lực điều hòa) | Lực cưỡng bức cos | X, δ, Ω_r, P̄ |
+| O7 | Hệ ghép | (n bậc tự do) | ≥ 2 tọa độ nối nhau | det(K − ω²M) = 0 |
+| O8 | Phi tuyến | (U'' = 0 hoặc A lớn) | U ~ xⁿ hoặc hiệu chỉnh | T ∝ A^{1−n/2}; dịch tần |
+
+### 7.4. Ba mươi bẫy chéo cần khắc cốt **[H]**
+
+1. Đọc sai ràng buộc lý tưởng hóa ("nhẵn", "không dãn", "va chạm mềm", "bắt đầu trượt") (lỗi I trong M).
+2. Đếm hai lần lực thế (đưa vào U mà vẫn tính công) (P6).
+3. **Cơ năng không bảo toàn khi va chạm mềm, dây căng đột ngột, mắt xích dừng** (C4, C6, D8).
+4. Động lượng theo pháp tuyến không bảo toàn khi va vào tường/mặt cố định (C1, C6).
+5. Coi "lực hướng tâm" là một lực thêm vào FBD (D1, D6).
+6. Cộng ly tâm vào Newton ở **hệ quán tính** (D10).
+7. Lực quán tính có phản lực (D9).
+8. Ma sát nghỉ bị coi là luôn ngược chiều chuyển động (D3).
+9. Dùng độ dời thay quãng đường cho công ma sát (C3).
+10. Mặt di động: coi N không sinh công (C4).
+11. Bỏ hiệu ứng hình học khi lò xo đã biến dạng tại cân bằng (O4).
+12. Dùng T = 2π√(l/g) khi góc lớn (O3).
+13. Gốc tọa độ không phải cân bằng thật (O1).
+14. ω_d ≠ ω₀; Ω_r ≠ ω₀ (O5, O6).
+15. Ma sát khô không cho e^{−γt} (O5).
+16. Quãng đường ≠ độ dời khi đổi chiều (K1).
+17. Chậm dần đều ≠ a < 0 (K1).
+18. Nhầm mặt phẳng nghiêng: góc ném đo từ mặt hay ngang (K3).
+19. Mất nghiệm thứ hai của tanθ (K3, K8).
+20. Bỏ họ nghiệm k ∈ ℤ khi hai vật gặp nhau trên vòng (K4).
+21. Dùng R hình học thay bán kính cong ρ (K5, D6).
+22. Đạo hàm bậc hai ràng buộc quên |Δ**v**|² (K7).
+23. Dây chỉ kéo: nghiệm T < 0 nghĩa là dây chùng (D2, P10).
+24. Nêm có gia tốc chưa biết: không dùng g_eff ngay (D9).
+25. Chọn điểm O có gia tốc cho L (C7).
+26. Quên khối lượng rút gọn trong bài hai vật (P7, C7).
+27. Nhầm ΔK khác nhau giữa hai hệ quy chiếu (P2).
+28. F = m dv/dt khi khối lượng biến thiên (D8).
+29. Thiếu sự kiện trong bài nhiều giai đoạn (P9).
+30. Không kiểm bất đẳng thức của chế độ đã giả sử (P10).
+
+### 7.5. Kiểm tra cuối: bảy điều kiện trong README áp dụng cho cơ chất điểm
+
+| Điều kiện | Hành động cụ thể |
+|---|---|
+| (1) **Diễn giải** | Đọc lại đề lần hai chỉ để đối chiếu **từ khóa ràng buộc**. Ghi hết điều kiện đầu, dấu, đơn vị. Vẽ hình có hệ trục. |
+| (2) **Hợp lệ (Soundness)** | Với **mỗi** định luật đã dùng: chạy lại Suf-test; ghi Err nếu xấp xỉ (góc nhỏ, Δt ngắn). |
+| (3) **Đóng kín** | Kiểm kê ẩn–phương trình (1.7); mỗi ẩn phải xuất hiện trong ≥ 1 phương trình. |
+| (4) **Nhất quán** | **Tính cùng một đại lượng bằng hai công cụ khác nhau** (ví dụ v bằng Newton + K2 và bằng C4). Không khớp ⇒ có lỗi mô hình. |
+| (5) **Xác định** | Nghiệm tồn tại (Δ ≥ 0, t > 0); bao nhiêu nghiệm (hai góc ném, hai chế độ); nghiệm bền hay không (U'' > 0). |
+| (6) **Đầy đủ trường hợp** | Duyệt τ1–τ12 (1.4a) và mọi tổ hợp chế độ (P10). Kiểm các giá trị biên của tham số. |
+| (7) **Biến đổi hợp lệ** | **Thứ nguyên** (P11) ở mọi dòng; **giới hạn:** m→∞, M→∞, μ→0, θ→0, k→∞, γ→0; **đối xứng** (đổi hai vật cho nhau, lật trục); **dấu** của từng thành phần. Kết quả mà giới hạn cho ra điều vô lý là kết quả sai. |
+
+**Ví dụ giới hạn hữu ích:** Bài nêm: M → ∞ phải cho nêm đứng yên và a_rel = g sinα (đã kiểm ở Ví dụ 2). Dao động vòng quay: ω → ∞ ⇒ cosθ₀ → 0 (hạt lên ngang tâm vòng). Cưỡng bức: γ → 0 ⇒ X → ∞ tại Ω = ω₀.
+
+---
+
+## PHẦN 8. SÁU VÍ DỤ CHẠY THỬ GIAO THỨC (VẤN ĐỀ 1 → VẤN ĐỀ 2)
+
+> **Lưu ý trung thực:** Đây là bài tôi **tự dựng theo cấu trúc** để minh họa, không phải đề thi có thật. Mỗi ví dụ kết thúc ở **hệ đóng kín**; các biểu thức cuối được đưa ra như **kết quả kiểm tra chéo** (phần lớn tôi đã kiểm bằng sympy/numpy, xem 9.2), không phải trọng tâm.
+
+---
+
+### Ví dụ 1. Ném trúng điểm A, tốc độ nhỏ nhất (K3 + K8)
+
+**Đề (cấu trúc):** Từ O trên mặt đất ném vật tới điểm A cách O theo phương ngang d, cao h. Tìm tốc độ ném nhỏ nhất để trúng A và góc tương ứng.
+
+**M:** O = {chất điểm, trường g đều}; V = {v₀, θ, t}; C = {không cản, bắn tại O, chạm A}; Q = {v₀,min, θ}.
+
+**V1 (tìm CHỖ):**
+- Suf K3: sau khi bắn chỉ còn trọng lực ✓.
+- Từ khóa "nhỏ nhất" ⇒ K8. CHỖ: điều kiện chạm A tại τ1 (cuối).
+- Tham số tự do λ = tanθ.
+
+**V2 (chuyển sang Toán):**
+- x = v₀cosθ·t = d; y = v₀sinθ·t − ½gt² = h.
+- Khử t, đặt u = tanθ: **(gd²/(2v₀²))·u² − d·u + (h + gd²/(2v₀²)) = 0**.
+- Có nghiệm u ⇔ Δ ≥ 0 ⇔ **v₀⁴ − 2gh·v₀² − g²d² ≥ 0** ⇔ v₀² ≥ g(h + √(d² + h²)).
+- Biên Δ = 0 ⇒ nghiệm kép u = v₀²/(gd).
+
+**Kiểm kê:** ẩn (u; v₀ là tham số cần tối ưu), 1 phương trình bậc hai ⇒ điều kiện Δ. Đóng kín.
+
+**Kiểm tra (đã kiểm):** v₀,min² = g(h + √(d² + h²)); tanθ = (h + √(d² + h²))/d. Giới hạn h = 0: v₀² = gd, θ = 45° ✓ (tầm xa cực đại).
+
+---
+
+### Ví dụ 2. Vật trượt trên nêm di động, sàn nhẵn (D1 + K7, kiểm chéo bằng C1 + C4)
+
+**Đề (cấu trúc):** Nêm M (mặt nghiêng góc α) trên sàn nhẵn; vật m đặt trên mặt nghiêng nhẵn; thả từ nghỉ. Tìm gia tốc nêm, gia tốc tương đối, lực ép N.
+
+**M:** O = {m, M, sàn nhẵn, mặt nghiêng nhẵn}; V = {A (gia tốc nêm), a_r (gia tốc m so với nêm, dọc mặt nghiêng), N}; Q = {A, a_r, N}.
+
+**V1 (quét biên):**
+- Vật m: trọng lực; mặt nêm (N ⟂ mặt).
+- Nêm M: trọng lực; phản lực sàn (đứng); N' = N (N3).
+- **Ứng viên CHỖ:**
+  - *C1 ngang* với Σ = m + M: ngoại lực = trọng lực (đứng) + phản lực sàn (đứng) ⇒ **Suf ✓**, P_x bảo toàn.
+  - *C4* với Σ = m + M: N của cặp triệt (tổng công 0); phản lực sàn ⟂ v của nêm; trọng lực thế ⇒ **Suf ✓** (ràng buộc phụ thuộc t nằm **trong** Σ). Nhưng C4 cho **vận tốc**, không cho gia tốc trực tiếp.
+  - *D1* cho m và cho M: cần khi hỏi N.
+- **Cảnh báo (bẫy 10):** Nếu chỉ dùng C4 cho riêng m, sai vì N sinh công lên m.
+
+**V2 (Route A: Newton + K7).** Chọn chiều: mặt nghiêng dốc xuống phải, nêm gia tốc sang trái (độ lớn A), vật trượt xuống dốc với a_r:
+- Nêm, ngang: **MA = N sinα**
+- Vật, ngang (so với đất): **m(a_r cosα − A) = N sinα**
+- Vật, pháp tuyến mặt: **mg cosα − N = mA sinα**
+
+Ẩn (A, a_r, N), 3 phương trình ⇒ **đóng kín**.
+
+**V2 (Route B: C1 + C4, kiểm chéo).** Với vận tốc tương đối v_r, vận tốc nêm V: MV = m(v_r cosα − V) ⇒ V = mv_r cosα/(M + m). Năng lượng khi m trượt quãng s dọc mặt: mg·s sinα = ½mv_r²(M + m sin²α)/(M + m) ⇒ v_r² = 2gs sinα(M + m)/(M + m sin²α); a_r = ½·d(v_r²)/ds.
+
+**Kết quả (đã kiểm bằng sympy; hai route khớp):**
+- **A = mg sinα cosα/(M + m sin²α)**
+- **a_r = (M + m)g sinα/(M + m sin²α)**
+- **N = Mmg cosα/(M + m sin²α)**
+
+**Giới hạn (bước 7):** M → ∞ ⇒ A → 0, a_r → g sinα, N → mg cosα ✓. α = 90° ⇒ N = 0, a_r = g ✓.
+
+---
+
+### Ví dụ 3. Đạn ghim vào vật treo, đi hết vòng tròn (C6 → C4 → D6, P9)
+
+**Đề (cấu trúc):** Đạn m, vận tốc ngang v₀, ghim vào vật M treo bằng dây nhẹ không dãn dài l. Tìm v₀ nhỏ nhất để hệ đi hết vòng tròn thẳng đứng.
+
+**V1 (P9: chia giai đoạn):**
+- **GĐ1 (τ7): va chạm.** Xung ngoại duy nhất là sức căng dây, **thẳng đứng**; đạn bay ngang. Vậy theo **e = ngang** không có xung ngoại ⇒ **C1 ngang ✓**. Trọng lực hữu hạn bỏ qua. **C4 bị cấm** xuyên qua sự kiện này (va chạm mềm mất năng lượng).
+- **GĐ2: từ đáy lên đỉnh.** C4 với Σ = (m + M) + dây: T ⟂ v ⇒ công 0; trọng lực thế ✓.
+- **Sự kiện τ5 (dây căng) tại đỉnh:** D6 hướng tâm, T ≥ 0.
+
+**V2:**
+- **mv₀ = (m + M)V** (GĐ1)
+- **½(m + M)V² = ½(m + M)v_đ² + (m + M)g·2l** (GĐ2)
+- **T + (m + M)g = (m + M)v_đ²/l**, với **T ≥ 0** (tại đỉnh)
+
+Ẩn (V, v_đ, T) cùng bất đẳng thức T ≥ 0. Đóng kín. Điều kiện T ≥ 0 ⇔ v_đ² ≥ gl ⇒ V² ≥ 5gl.
+
+**Kết quả:** **v₀ ≥ ((m + M)/m)·√(5gl)**. Giới hạn M → 0: v₀ ≥ √(5gl) ✓ (chất điểm treo dây). Phần năng lượng mất trong va chạm: ΔK = ½mv₀²·M/(m + M).
+
+---
+
+### Ví dụ 4. Hạt trên vòng quay (D10 + O4)
+
+**Đề (cấu trúc):** Vòng nhẵn bán kính R quay đều quanh trục thẳng đứng (đường kính) với tốc độ góc ω. Hạt m xỏ vào vòng. Tìm vị trí cân bằng và tần số dao động nhỏ.
+
+**M:** hệ quay (P4 → D10); V = {θ (đo từ điểm thấp nhất)}; một bậc tự do (K7: f = 1).
+
+**V1:** Hạt cân bằng trong hệ quay ⇒ bài tĩnh (D10 "nên dùng"). Coriolis ⟂ mặt vòng (cân bằng bởi phản lực pháp tuyến), **không sinh công**. Năng lượng hiệu dụng bảo toàn (D10). Dao động nhỏ ⇒ O4.
+
+**V2:**
+- **K** = ½mR²θ̇² (M_eff = mR²).
+- **U_eff(θ)** = −mgR cosθ − ½mω²R²sin²θ (thế ly tâm với r_⊥ = R sinθ).
+- **U_eff' = mR sinθ (g − ω²R cosθ) = 0** ⇒ θ = 0 hoặc **cosθ₀ = g/(ω²R)** (tồn tại nếu ω² > g/R).
+- **U_eff''(θ₀) = mω²R²sin²θ₀** ⇒ **ω_dđ² = ω²sin²θ₀ = ω² − g²/(ω²R²)**.
+- Nếu ω² < g/R: chỉ θ = 0, ω_dđ² = g/R − ω².
+
+**Đóng kín:** 1 tọa độ, 1 điều kiện cân bằng, 1 đạo hàm bậc hai.
+
+**Kiểm chéo:** Lagrange (C9) L = ½mR²(θ̇² + ω²sin²θ) + mgR cosθ cho θ̈ = sinθ(ω²cosθ − g/R), khớp. **Giới hạn:** ω → ∞: θ₀ → 90° ✓; ω² → g/R (từ trên): ω_dđ → 0, liên tục với nhánh dưới ✓ (điểm rẽ nhánh; tại đó U'' = 0, cần O8).
+
+---
+
+### Ví dụ 5. Lò xo, vật, ma sát khô (O5 + P9 + P10 + P13)
+
+**Đề (cấu trúc):** Vật m gắn lò xo k trên mặt ngang nhám, μ_s = μ_k = μ. Kéo lệch x₀ rồi thả nhẹ. Tìm các điểm dừng và vị trí dừng hẳn.
+
+**V1:** Sự kiện τ2 (v = 0) chia bài thành các **nửa chu kỳ** (P9). Mỗi nửa chu kỳ là một chế độ ma sát trượt, hướng ngược v (P10). Trong mỗi nửa: ma sát hằng ⇒ **dời gốc** (P13) ⇒ O1.
+
+**V2:** Đặt a = μmg/k.
+- Nửa chu kỳ chuyển động về phía x < 0 (v < 0): mẍ = −kx + μmg ⇒ tâm dao động tại **x = +a**. Điểm dừng kế = 2a − x_n.
+- Nửa chu kỳ chuyển động về phía x > 0: tâm tại **x = −a**.
+- ⇒ **|x_{n+1}| = |x_n| − 2a**; các điểm dừng x_n = (−1)ⁿ(x₀ − 2na).
+- **Điều kiện bắt đầu chuyển động:** kx₀ > μ_smg ⇔ x₀ > a.
+- **Điều kiện dừng hẳn** tại điểm dừng đầu tiên có |x_n| ≤ μ_smg/k = a.
+
+**Đóng kín:** chuỗi truy hồi + điều kiện dừng. **Kiểm chéo bằng C3/C4:** ½kx_n² − ½kx_{n+1}² = μmg(|x_n| + |x_{n+1}|) cho cùng bước giảm 2a.
+
+**Ví dụ số:** x₀ = 8,5a ⇒ x₁ = −6,5a, x₂ = 4,5a, x₃ = −2,5a, x₄ = 0,5a ≤ a ⇒ dừng sau 4 nửa chu kỳ tại x = +0,5a. **Đã kiểm số** (mô phỏng cho các điểm dừng 5, −4,02, 3,04, −2,06… với 2a = 0,98).
+
+---
+
+### Ví dụ 6. Vệ tinh giảm tốc tức thời (C7 + C4, τ10; kiểm chéo vis-viva)
+
+**Đề (cấu trúc):** Vệ tinh trên quỹ đạo tròn bán kính r₀ (tốc độ v₀ = √(GM/r₀)). Động cơ làm tốc độ **giảm tức thời** còn αv₀ (α < 1), hướng vận tốc không đổi. Tìm khoảng cách gần nhất r_p, chu kỳ mới.
+
+**V1:** Giai đoạn 1: xung tức thời, vị trí không đổi (τ7). Giai đoạn 2: chuyển động dưới lực hút xuyên tâm ⇒ **C7 (L bảo toàn) + C4 (E bảo toàn)**. Tại điểm giảm tốc, v ⟂ r ⇒ đó là **viễn điểm** (τ10). Điểm gần nhất cũng có v ⟂ r.
+
+**V2:** Đặt x = r_p/r₀, v_p = αv₀/x (từ L: r_pv_p = r₀αv₀).
+- ½v_p² − GM/r_p = ½α²v₀² − GM/r₀ ⇒ **(α² − 2)x² + 2x − α² = 0**.
+- Nghiệm x = 1 (chính viễn điểm) và **x = α²/(2 − α²)**.
+- **r_p = r₀α²/(2 − α²)**.
+
+**Kiểm chéo (vis-viva, C7):** α²v₀² = GM(2/r₀ − 1/a) ⇒ a = r₀/(2 − α²), r_p = 2a − r₀ = r₀α²/(2 − α²) ✓. **Chu kỳ mới:** T = T₀·(2 − α²)^{−3/2} (T ∝ a^{3/2}).
+
+**Giới hạn:** α → 1 ⇒ r_p → r₀ ✓. Điều kiện không va chạm hành tinh bán kính R_hp: r_p > R_hp ⇔ α² > 2R_hp/(r₀ + R_hp).
+
+---
+
+## PHẦN 9. GIẢ ĐỊNH, KIỂM CHỨNG, GIỚI HẠN VÀ BƯỚC TIẾP THEO
+
+### 9.1. Những chỗ tôi phải diễn giải hoặc tự quyết định (hãy đối chiếu)
+
+1. **"Tọa độ hóa mở rộng" (K7):** tôi hiểu là ALG-K7 (gán tọa độ cho mọi điểm quan trọng, viết mọi ràng buộc, đạo hàm, đếm bậc tự do). **[?]**
+2. **Bộ ba CHỖ (Σ, τ, e)** và ba danh sách đặc biệt (1.4) là **đề xuất của tôi**, không có trong README. Nó cụ thể hóa "họ precondition có tham số": tham số chính là (Σ, τ, e). **[H]**
+3. **Nguyên lý khử ẩn (1.6)** và **tiêu chí "có ý nghĩa" (1.5)** cũng là đề xuất của tôi. **[H]**
+4. **Phần vượt ảnh [EXT]:** momen xung lượng của chất điểm và Kepler (C7), Lagrange (C9), khối lượng biến thiên (D8), công ảo (D11), dao động phi tuyến (O8), dây capstan (D2). Tôi thêm vì cần cho HSGQG/IPhO thực tế; bạn có thể bỏ nếu muốn bám sát đề cương ảnh.
+5. **Ranh giới vật rắn:** con lắc vật lý/xoắn dùng I như dữ kiện; **không** làm động lực học vật rắn.
+6. **Ngôn ngữ "dạng":** theo cảnh báo của bạn, ở tài liệu này mỗi *công cụ* là một "dạng" (đã gắn ID K/D/C/O/P).
+
+### 9.2. Danh sách công thức tôi đã kiểm bằng code (sympy/numpy) so với chỉ suy dẫn tay
+
+**Đã kiểm bằng code:**
+
+| Nội dung | Cách kiểm | Kết quả |
+|---|---|---|
+| Tầm xa trên mặt nghiêng, góc tối ưu π/4 + β/2, R_max | Tối ưu số + mô phỏng động học trực tiếp | Khớp |
+| Tốc độ ném tối thiểu v₀² = g(y + √(x² + y²)) | Giải bậc hai bằng sympy | Khớp |
+| Nêm di động: A, a_r, N | Giải hệ 3 phương trình bằng sympy | Khớp |
+| Cộng hưởng biên độ Ω_r, X_max, P_max = F₀²/(2b) | Cực đại số | Khớp |
+| Chu kỳ con lắc đơn T ≈ T₀(1 + θ₀²/16 + 11θ₀⁴/3072) | Tích phân số, θ₀ = 0,6 | 1,022975 (số) so với 1,022964 (chuỗi) |
+| Dịch tần Duffing ω ≈ ω₀ + 3εA²/(8ω₀) | Mô phỏng ODE, ε = 0,05 | 1,01855 (số) so với 1,01875 (công thức); sai khác bậc ε² như mong đợi |
+| Hạt trên vòng quay ω_dđ² = ω² − g²/(ω²R²) | Sympy | Khớp |
+| Va chạm 1D (v₁', v₂'), ΔK = ½μ_r(1 − e²)(v₁ − v₂)² | Sympy | Khớp |
+| Kepler: r_min, r_max, a = k/(2\|E\|) | Sympy + số | Khớp |
+| Ma sát khô: biên độ giảm 2μmg/k mỗi nửa chu kỳ | Mô phỏng ODE | 0,98 = 2·0,05·9,8 |
+| Mode chuẩn hai vật ghép (k và k + 2k_c) | Trị riêng số | Khớp |
+| Tán xạ đàn hồi sinθ_max = m₂/m₁ | Cực đại số | Khớp |
+| Lệch Coriolis về phía đông d = (1/3)ωcosλ√(8h³/g) | Mô phỏng ODE trong hệ quay | 0,0136444 (số) so với 0,0136444 (công thức) |
+| Khối lượng hiệu dụng lò xo m_s/3 | Tích phân động năng | Khớp |
+| Cua nghiêng có ma sát v²_max, v²_min | Sympy | Khớp |
+| Hohmann Δv₁, Δv₂ | Sympy (so với vis-viva) | Khớp |
+| Kepler giảm tốc: r_p = r₀α²/(2 − α²) | Sympy | Khớp |
+| Cản bậc hai: v = v_t tanh(gt/v_t), y = (v_t²/g) ln cosh | Sympy (thỏa ODE) | Khớp |
+| Ba vật m–M–m: ω² = 0, k/m, k/m + 2k/M | Sympy | Khớp |
+| Ngưỡng ma sát hai vật chồng (F kéo vật trên) | Sympy | Khớp |
+| Capstan T ∝ e^{μφ}; F_min = μmg/√(1 + μ²) | Sympy | Khớp |
+
+**Chỉ suy dẫn tay (chưa kiểm bằng code):** bán cầu cosθ = 2/3; vòng xiếc h ≥ 5R/2 và v_đáy² ≥ 5gl; con lắc nón; T = mg(3cosθ − 2cosθ₀); khối lượng biến thiên (tên lửa, xích 3λgx); thuận nghịch Kater; vệ tinh v² = GM/r; đường hầm T ≈ 84 phút; K6 (thuyền qua sông); các bảng lý tưởng hóa; số va chạm ⌊π·10ⁿ⌋ (kết quả nổi tiếng, tôi dựa trí nhớ). **[C] nhưng chưa kiểm số.**
+
+### 9.3. Giới hạn đã biết
+
+1. **Không chứng minh được tính đầy đủ của thư viện.** Danh sách τ/Σ/e (1.4) và các công cụ có thể thiếu. Cách kiểm chứng đúng là 9.4.
+2. **Bước diễn giải (I trong M) vẫn cần con người.** Tôi chỉ tăng độ chú ý (bảng P8), không xóa được lỗi diễn giải.
+3. **Chưa chạy trên đề thật.** Tôi không có bộ đề để đo tỉ lệ "CHỖ cần thiết nằm trong ứng viên sinh ra".
+4. **Chưa phủ:** va chạm có ma sát tiếp tuyến; hệ phi holonomic; động lực học vật rắn; chất lưu; sóng; tương đối hẹp; điện từ; các bài cơ học liên quan nhiệt.
+5. **Ràng buộc chi phí thời gian thi:** thuật toán "duyệt hết" (1.4) cần luyện đến mức trực giác hóa; nếu không, chi phí thời gian rất lớn. Mục tiêu là giảm trực giác *ở chỗ nguy hiểm*, không phải thay thế hoàn toàn.
+6. **Đề cương HSGQG chính thức** tôi chỉ dựa vào ảnh của bạn; **[?]** các mục IPhO trích ở 0.3 nên đối chiếu bản syllabus mới nhất.
+7. **Phạm vi "xác suất sai":** vì có nhiều công thức, khả năng còn lỗi nhỏ (dấu, hệ số) là có. Ưu tiên kiểm lại bằng **bước 7 của 7.5** (thứ nguyên, giới hạn, đối xứng) mỗi khi dùng.
+
+### 9.4. Cách kiểm chứng và cải thiện thư viện (khuyến nghị) **[H]**
+
+1. **Thử nghiệm bắt lỗi:** Chọn 15–20 bài cơ chất điểm ở mức HSGQG/IPhO đã có lời giải chuẩn. Với mỗi bài, chạy giao thức ở 1.8 **mà chưa xem lời giải**, ghi lại các CHỖ đã sinh ra và các bước "trực giác".
+2. **Đo độ hụt:** So với lời giải chuẩn, đếm bao nhiêu CHỖ mà lời giải dùng **không** nằm trong danh sách sinh ra. **Mỗi CHỖ bị sót** là một mục mới cho 1.4 hoặc một Suf-test mới.
+3. **Log "phần dư trực giác":** Ghi lại chính xác bước nào bạn phải "nhìn ra" mà thư viện không nói. Đó là **ranh giới hiện tại** của phương pháp; đưa vào tài liệu như "chỗ cần trực giác".
+4. **Đối chứng hai công cụ:** Với mỗi bài giải bằng công cụ A, tính lại một đại lượng bằng công cụ B (7.5 điều kiện 4). Hai bài không khớp là điểm mù của thư viện.
+5. **Mở rộng theo cùng khuôn:** Cho vật rắn, chất lưu… lặp lại mẫu thẻ (Kiểu CHỖ, Pre, Suf-test, Post, Err, ALG, Bẫy) để tài liệu đồng nhất.
+
+### 9.5. Tài liệu tham khảo gợi ý (đã được dùng rộng rãi; tôi không trích dẫn từng trang) **[?]**
+
+- **Toán (Vấn đề 3):** Boas, *Mathematical Methods in the Physical Sciences*, 3e; Stewart, *Calculus*, 7e (bạn đã nêu).
+- **Cơ học chất điểm (lý thuyết):** Kleppner & Kolenkow, *An Introduction to Mechanics*; Morin, *Introduction to Classical Mechanics*.
+- **Cơ học giải tích (cho C9):** Landau & Lifshitz, *Mechanics* (Vol. 1).
+- **Bài tập:** Irodov, *Problems in General Physics*.
+- **Syllabus:** Syllabus IPhO (bản công khai của ban tổ chức IPhO); đề cương HSGQG hiện hành của Bộ GD&ĐT (tôi chưa đối chiếu).
+
+### 9.6. Đề xuất làm tiếp
+
+Nếu bạn gửi cho tôi **một vài đề HSGQG/IPhO cơ chất điểm cụ thể** (dưới dạng text hoặc ảnh), tôi có thể **chạy nguyên giao thức 1.8** trên chúng: sinh danh sách (ℓ, CHỖ), lọc, viết hệ phương trình (Vấn đề 2) và **chỉ ra bước nào thư viện không phủ**, để bổ sung ngay các thẻ còn thiếu (đúng tinh thần 9.4). Tôi cũng có thể viết thêm Phụ lục cho **động lực học vật rắn** theo cùng khuôn nếu bạn muốn mở rộng phạm vi.
