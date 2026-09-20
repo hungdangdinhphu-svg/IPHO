@@ -28,6 +28,7 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 ### Nhiệt
 
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/Nhi%E1%BB%87t%20H%E1%BB%8Dc.md
 
 
 ### TĨNH ĐIỆN VÀ ĐIỆN TỪ
