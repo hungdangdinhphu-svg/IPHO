@@ -41,3 +41,8 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 ### Quang học
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/Quang%20H%E1%BB%8Dc.md
+
+
+### VẬT LÍ NGUYÊN TỬ VÀ HẠT NHÂN, VẬT LÍ HIỆN ĐẠI
+
+### SAI SỐ, PHƯƠNG ÁN THỰC HÀNH, ĐƠN VỊ, PHÂN TÍCH THỨ NGUYÊN
