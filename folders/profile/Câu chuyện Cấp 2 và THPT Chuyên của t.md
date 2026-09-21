@@ -20,7 +20,7 @@ Theo t đoán, có vẻ như là do bố của t tin tưởng vào một ông th
 
 **Khách quan 3:**
 
-t muốn vào chuyên tin (đây là sự thật). t muốn có người yêu chuyên tin giống như trong ảnh https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/profile/Screenshot%202026-09-19%20192009.png (Chỉ để minh họa).
+t muốn vào chuyên tin (đây là sự thật).
 
 **Chủ quan 4:**
 
