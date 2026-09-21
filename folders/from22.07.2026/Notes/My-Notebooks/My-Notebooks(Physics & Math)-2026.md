@@ -21,6 +21,7 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/C%C6%A1%20h%E1%BB%8Dc%20ch%E1%BA%A5t%20%C4%91i%E1%BB%83m.md
 
+Hãy đảm bảo bản thân vẽ hình cực kỳ kỹ ra. Đảm bảo rằng hình không thể lừa mình, vì trực giác có thể bị đánh lừa cực kỳ tinh vi. Vẽ hình dựa vào những thứ gần như chắc chắn và kiểm tra kỹ xem bản thân có "bypass" và nó có thể sai được hay không, chứ trực giác rất dễ bị lừa.
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
