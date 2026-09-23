@@ -109,3 +109,4 @@ Ngta bảo t sẽ quá sức, t sẽ thất bại, ừ thì họ nói đúng r�
 
 Thay vì t "dùng khả năng ngôn ngữ đó để định hướng cho tương lai" theo cách thông thường như kiểu sẽ tự lập ra 1 cái kế hoạch gì đó TRƯỚC khi t thử làm hết tất cả những thứ đáng quan trọng, thì T ôm hết việc vào người, đảm bảo rằng chăm sóc sức khỏe, ăn uống, ngủ đúng giờ, thì còn lại cứ gồng hết lên, từ thời gian học trên trường, đi toilet,... Well, và nó đã tốt hơn đáng kể, mặc dù chả ai mà t quen hiểu t nói j:p ;
 
+Còn về cái "định hướng cho cảm xúc của họ bằng ngôn ngữ luôn" thì có 1 số ví dụ, kiểu như bị ai đó có "quyền lực cao hơn bản thân đáng kể" tác động, kiểu như ba mẹ chửi, hay thầy cô gì gì đó,... Hoặc là rơi vào 1 tình huống đáng lẽ sẽ căng thẳng, ừ t chả quan tâm. Điều chỉnh cảm xúc để làm j chứ, thật vô dụng, t cứ hold cho t vui vẻ, và t làm tốt hơn nhờ điều đó. Ngta bảo t đang tự ép bản thân, tự trói buộc, lol, họ thì bt j về T, t nghĩ t có thể khá phức tạp, idk.
