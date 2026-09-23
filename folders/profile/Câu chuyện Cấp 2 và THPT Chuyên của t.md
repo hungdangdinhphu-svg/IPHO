@@ -84,5 +84,11 @@ Bố t buông lời chửi t học ngu, khó chịu với t, la mắng, chửi t
 
 **Chủ quan 14:**
 
-Kkk:) thấy hay k
+Kkk:) thấy câu chuyện hay k:)?
 
+
+Cơ mà T thấy cứ nhiều người cứ nói về việc T nên làm thế này làm thế nọ, abcxyz,... Nhưng mà T chả quan tâm, vì toàn là mấy lời khuyên mà nói thật T đoán ra từ trước khi nó xuất phát từ mồm họ. Nên là lời khuyên của họ cũng khá vô dụng, gần như chả giúp được gì, và cũng không xài được, T bt rằng là họ lo cho t, nhưng mà t cũng thật sự thấy khá mệt mỏi với điều đó, nhưng t thì ko ghét họ, dù j cũng có ý tốt mà:p ; 
+
+Cơ mà toàn bộ cái folder 22.07.2026 đều viết từ 22.07.2026 trở về sau, tức là sau khi tôi tạch trường chuyên:)), nên yên tâm đi, có vẻ tôi vẫn "ổn", idk, kiểu lâu lâu tôi ko ổn lắm, cơ mà chắc cũng phải 2 tháng mới bị 1 lần, rồi giảm dần th, chả bt nữa:p
+
+còn mấy cái ":)))" gì gì đó là tôi cười thật đấy, ko có gượng ép j đâu btw.
