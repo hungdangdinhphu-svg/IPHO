@@ -92,3 +92,20 @@ Cơ mà T thấy cứ nhiều người cứ nói về việc T nên làm thế n
 Cơ mà toàn bộ cái folder 22.07.2026 đều viết từ 22.07.2026 trở về sau, tức là sau khi tôi tạch trường chuyên:)), nên yên tâm đi, có vẻ tôi vẫn "ổn", idk, kiểu lâu lâu tôi ko ổn lắm, cơ mà chắc cũng phải 2 tháng mới bị 1 lần, rồi giảm dần th, chả bt nữa:p
 
 còn mấy cái ":)))" gì gì đó là tôi cười thật đấy, ko có gượng ép j đâu btw.
+
+Well, tôi biết rằng bản thân nên nói cực kỳ chặt chẽ về toàn bộ cái file .md này, nhưng tôi lười, ok đó là lý do. Còn nếu thích thì t hoàn toàn có thể biến đây thành 1 file .md toàn là thuật ngữ, triết học và chặt chẽ, kiểu thế:))
+
+
+Ugh, nói chung cũng dài dòng lắm. Nhưng mà t nhận ra rằng có vẻ hầu như mọi người (và cả T ngày trước), chỉ cần được đưa vào 1 môi trường hoặc 1 hoàn cảnh nào đó không tầm thường, thì tâm trạng của họ ngay lập tức thay đổi theo, và đây hẳn là bản năng, nhưng thật ra không đơn giản vậy, nó vừa là bản năng phần lớn và một số thứ khác liên quan đến việc t đoán là "họ có thể suy luận, có thể dùng ngôn ngữ để mô tả một thứ gì đó, và nguy hiểm hơn là họ dùng khả năng ngôn ngữ đó để định hướng cho tương lai của họ khi họ chưa thật sự biết rõ năng lực của họ, và cũng tiện thể định hướng cho cảm xúc của họ bằng ngôn ngữ luôn".
+
+
+Thì tóm tắt đơn giản là T đã cố tình, và nó là cả 1 quá trình tích lũy năng lực, và T đã thành công lớn để thay đổi bản thân rất lớn. 
+
+Một số thứ hay ho, nhưng nó ko đầy đủ, nó cực kỳ nhiều hệ quả, đây là 1 số hệ quả hay ho:
+
+Kiểu như thay vì phải chọn con đường A hay B (ex: Học chuyên Tin hay học chuyên Lý?) thì t kệ, t chọn cả 2, và hơn thế nữa, t còn húp thêm môn Triết Học, kiểu v btw.
+
+Ngta bảo t sẽ quá sức, t sẽ thất bại, ừ thì họ nói đúng rằng t thất bại r, nãy h t toàn nói về việc t thất bại chuyên Lý mà, nhưng họ thì ko bt lý do t tạch, và ko biết rằng ý định của t là học cả Chuyên Tin và Chuyên Lý, Triết Học song song, rồi tự chọn ra rằng bản thân sẽ cắt bớt 1 trong 2 môn Tin hoặc Lý để tập trung. Nhưng cắt bớt không phải cắt hoàn toàn, t vẫn sẽ duy trì cường độ ở mức trung bình theo ý t, nhưng thực tế khi so với người khác thì nó là khủng khiếp.
+
+Thay vì t "dùng khả năng ngôn ngữ đó để định hướng cho tương lai" theo cách thông thường như kiểu sẽ tự lập ra 1 cái kế hoạch gì đó TRƯỚC khi t thử làm hết tất cả những thứ đáng quan trọng, thì T ôm hết việc vào người, đảm bảo rằng chăm sóc sức khỏe, ăn uống, ngủ đúng giờ, thì còn lại cứ gồng hết lên, từ thời gian học trên trường, đi toilet,... Well, và nó đã tốt hơn đáng kể, mặc dù chả ai mà t quen hiểu t nói j:p ;
+
