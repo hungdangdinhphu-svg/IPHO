@@ -24,7 +24,7 @@ t muốn vào chuyên tin (đây là sự thật).
 
 **Chủ quan 4:**
 
-học sinh trường chuyên toàn là những ng giỏi, t sẽ dễ dàng kết bạn mới. và có thể trò chuyện, bàn luận đào sâu vào Toán Học, Triết Học, Tin Học, Nghiên Cứu. Hồi cấp 2 t từng có 1 người bạn cũng giỏi như vậy, nên t có thể nói chuyện với cậu ấy, và cậu ấy là bạn thân nhất của tôi, còn cậu ấy coi tôi là gì thì tôi không quan tâm, tôi đang nói rằng tôi rất quan tâm cậu ấy. Có thể gọi cậu ấy là S.
+học sinh trường chuyên toàn là những ng giỏi, t sẽ dễ dàng kết bạn mới. và có thể trò chuyện, bàn luận đào sâu vào Toán Học, Triết Học, Tin Học, Nghiên Cứu. Hồi cấp 2 t từng có 1 người bạn cũng giỏi như vậy, nên t có thể nói chuyện với cậu ấy, và cậu ấy là bạn thân nhất của tôi, còn cậu ấy coi tôi là gì thì tôi không quan tâm, tôi đang nói rằng tôi rất quan tâm cậu ấy. Có thể gọi cậu ấy là S. Cơ mà một số thứ hay ho như kiểu tôi chỉ thích nghe cậu ta nói, tôi khá lười nói, như kiểu tôi chỉ gợi ý 1 vài khái niệm hay ho, và lâu lâu "lên cơn hứng thú" nói thêm 1 chút, chả bt nữa, t lười nói, chả hiểu nổi não t hoạt động như nào nx:); Chắc cậu ta sẽ xem t là 1 thằng down mất th, mà t cx chả bt nữa, S nhìn càng lớn càng tuyệt thật:p, really gud
 
 **Khách quan 5:** 
 
