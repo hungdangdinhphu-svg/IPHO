@@ -332,11 +332,11 @@ Mỗi thẻ có: **Kiểu CHỖ · Nội dung · Pre · Suf (dấu hiệu) · Po
 
 - **Kiểu CHỖ:** (1 vật, 1 khoảng thời gian hoặc 2 trạng thái, 1 trục).
 - **Nội dung:**
-  - v = v₀ + at
-  - x = x₀ + v₀t + ½at²
-  - v² − v₀² = 2a(x − x₀)
-  - x − x₀ = ½(v₀ + v)t
-  - Đều: a = 0, x = x₀ + vt.
+  - v() = v₀ + at    {Vận tốc tức thời}
+  - x() = x₀ + v₀t + ½at²    {Hàm tọa độ}
+  - v² − v₀² = 2a(x − x₀)    {với v là vận tốc lúc sau, v_0 là vận tốc ban đầu}
+  - x − x₀ = ½(v₀ + v)t      {Công thức quãng đường theo vận tốc trung bình}
+  - Đều: a = 0, x() = x₀ + vt.
 - **Dom:** Mọi chuyển động thẳng có gia tốc hằng.
 - **Pre (tại CHỖ):** a **không đổi theo trục** suốt đoạn đang xét (không có sự kiện τ nào làm đổi lực trong đoạn).
 - **Suf:** Dùng D1 chiếu lên trục: nếu *mọi* lực thành phần theo trục là hằng số trong đoạn → Pre thỏa. Nếu có lực thay đổi (lò xo, cản, ma sát đổi chiều) → **không** áp dụng, sang K2.
