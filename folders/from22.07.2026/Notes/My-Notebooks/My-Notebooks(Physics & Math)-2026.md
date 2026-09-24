@@ -13,6 +13,8 @@ Tài liệu có mật độ nén cực cao (high information density). Khi đọ
 
 Và vẫn phải học cách học theo https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md chứ không được phép chỉ dùng mỗi các tài liệu bên dưới.
 
+## Lý Thuyết Mở Rộng :
+
 ### ĐỘNG HỌC TỔNG QUÁT (Rất Nặng)
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC%20T%E1%BB%94NG%20QU%C3%81T%20(R%E1%BA%A4T%20N%E1%BA%B6NG).md
@@ -48,3 +50,42 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 ### VẬT LÍ NGUYÊN TỬ VÀ HẠT NHÂN, VẬT LÍ HIỆN ĐẠI
 
 ### SAI SỐ, PHƯƠNG ÁN THỰC HÀNH, ĐƠN VỊ, PHÂN TÍCH THỨ NGUYÊN
+
+## Một số ví dụ và bài tập hay ho :
+
+**Động học trong cơ học chất điểm:**
+
+Bài 17. Một vật chuyển động trên đường thẳng theo ba giai đoạn liên tiếp:
+
+- Nhanh dần đều với gia tốc a_1 = 5 m/(s^2), không vận tốc đầu.
+
+- Đều với vận tốc đạt được vào cuối giai đoạn (1).
+
+- Chậm dần đều với gia tốc a_3 = -5 m/(s^2) cho tới khi dừng.
+
+Thời gian chuyển động tổng cộng là 25s. Vận tốc trung bình trên cả đoạn đường là 20 m/s.
+
+a) Tính vận tốc của giai đoạn chuyển động đều.
+
+b) Suy ra quãng đường đi được trong mỗi giai đoạn và thời gian tương ứng.
+
+c) Vẽ các đồ thị gia tốc, vận tốc và quãng đường theo thời gian.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
