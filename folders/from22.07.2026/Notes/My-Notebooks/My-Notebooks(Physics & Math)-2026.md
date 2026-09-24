@@ -96,7 +96,7 @@ Vậy nên chốt lại: x_2 = (1/2 * 5 * (t_1)^2) + v_02 * t_2     (3)
 
 Mà ta đang có a_3, v_03 = v_02 là const và biết rõ giá trị, ta thiếu v, delta_x, t;
 
-Tiếp tục lập thêm phương trình như thế.
+Tiếp tục lập thêm phương trình như thế, mà thật ra nó rất dễ, tôi chả thèm nói.
 
 Ta sẽ giải ra được đáp số một cách cực kỳ máy móc. Với điều kiện là biến đổi đại số ở mức tốt (giống t chẳng hạn, hihi) & Biến đổi n phương trình về n phương trình có thể áp dụng khử Gauss hoặc những thuật toán, phương pháp giải hệ phương trình với số lượng ẩn, phương trình lớn nhanh chóng.
 
