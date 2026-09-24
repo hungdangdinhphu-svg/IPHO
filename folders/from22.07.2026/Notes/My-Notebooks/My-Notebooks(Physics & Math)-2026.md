@@ -51,7 +51,12 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 ### VẬT LÍ NGUYÊN TỬ VÀ HẠT NHÂN, VẬT LÍ HIỆN ĐẠI
 
+wait...
+
 ### SAI SỐ, PHƯƠNG ÁN THỰC HÀNH, ĐƠN VỊ, PHÂN TÍCH THỨ NGUYÊN
+
+wait...
+
 
 ## Một số ví dụ và bài tập hay ho :
 
