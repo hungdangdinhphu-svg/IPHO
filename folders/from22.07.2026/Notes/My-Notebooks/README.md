@@ -3,3 +3,5 @@ Sổ tay Vật Lý (có cả Toán, nhưng không đầy đủ) của tôi vào 
 +) Phải pro Giải tích James Stewarts, Mathematical Methods in the Physical Sciences, 3e (Mary L. Boas);
 
 +) Phải biết cách giải hệ phương trình n ẩn n phương trình
+
++) Phải biết cách xử lý hệ phương trình n ẩn m phương trình (Với n > m hoặc n < m)
