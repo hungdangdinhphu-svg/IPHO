@@ -98,7 +98,7 @@ Mà ta đang có a_3, v_03 = v_02 là const và biết rõ giá trị, ta thiế
 
 Tiếp tục lập thêm phương trình như thế.
 
-Ta sẽ giải ra được đáp số một cách cực kỳ máy móc.
+Ta sẽ giải ra được đáp số một cách cực kỳ máy móc. Với điều kiện là biến đổi đại số ở mức tốt (giống t chẳng hạn, hihi) & Biến đổi n phương trình về n phương trình có thể áp dụng khử Gauss hoặc những thuật toán, phương pháp giải hệ phương trình với số lượng ẩn, phương trình lớn nhanh chóng.
 
 
 
