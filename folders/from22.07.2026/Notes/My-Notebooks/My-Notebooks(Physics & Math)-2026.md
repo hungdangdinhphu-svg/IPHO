@@ -71,7 +71,34 @@ b) Suy ra quãng đường đi được trong mỗi giai đoạn và thời gian
 
 c) Vẽ các đồ thị gia tốc, vận tốc và quãng đường theo thời gian.
 
+Cách tôi giải:
 
+Điều gây shock cho tôi là, khi tôi tuân thủ những gì file .md ghi, mặc dù trông có vẻ như nó ghi nhảm, nhưng hóa ra.... hãy xem tiếp rồi tự hiểu :
+
+
+Suy luận : Ta chỉ "biết" (tức nó là hằng số, và ta biết giá trị) v_01, a_1 là const. Ta "thiếu delta_x, thiếu v, thiếu t" theo kế hoạch.
+
+Thì :
+
+Phương trình cho thiếu delta x: v_02 = v_01 + a_1 * t_1
+
+Pt cho thiếu v: x_1 = 1/2 * 5 * (t_1)^2               (1)
+
+Pt cho thiếu t: (v_02)^2 = 2 * 5 * (x_1)              (2)
+
+Ta có, v_02, a_2 là const và biết rõ giá trị.
+
+Thiếu v: x_2 = (1/2 * 5 * (t_1)^2) + v_02 * t_2
+
+Thiếu t & delta_x: sẽ ra đồng nhất thức do a = 0, nên ta kệ nó.
+
+Vậy nên chốt lại: x_2 = (1/2 * 5 * (t_1)^2) + v_02 * t_2     (3)
+
+Mà ta đang có a_3, v_03 = v_02 là const và biết rõ giá trị, ta thiếu v, delta_x, t;
+
+Tiếp tục lập thêm phương trình như thế.
+
+Ta sẽ giải ra được đáp số một cách cực kỳ máy móc.
 
 
 
