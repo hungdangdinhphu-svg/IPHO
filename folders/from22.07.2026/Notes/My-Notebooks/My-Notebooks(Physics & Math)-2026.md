@@ -96,7 +96,7 @@ Vậy nên chốt lại: x_2 = (1/2 * 5 * (t_1)^2) + v_02 * t_2     (3)
 
 Mà ta đang có a_3, v_03 = v_02 là const và biết rõ giá trị, ta thiếu v, delta_x, t;
 
-Tiếp tục lập thêm phương trình như thế, mà thật ra nó rất dễ, tôi chả thèm nói.
+Tiếp tục lập thêm phương trình như thế, mà thật ra nó rất dễ, tôi chả thèm nói. Hãy biết phân biệt giữa đồng nhất thức và phương trình thật sự, nãy giờ tôi chưa phân biệt chúng, nhưng đến lúc giải toán thì phải làm đấy nhé. Đừng quên mất ý nghĩa của độc lập tuyến tính, định thức, đại số tuyến tính,...
 
 Ta sẽ giải ra được đáp số một cách cực kỳ máy móc. Với điều kiện là biến đổi đại số ở mức tốt (giống t chẳng hạn, hihi) & Biến đổi n phương trình về n phương trình có thể áp dụng khử Gauss hoặc những thuật toán, phương pháp giải hệ phương trình với số lượng ẩn, phương trình lớn nhanh chóng.
 
