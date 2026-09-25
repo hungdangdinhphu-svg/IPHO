@@ -11,6 +11,8 @@
 
 3. Sự thật là, hãy đảm bảo rằng khi gặp 1 bài vật lý nào, đừng pattern recognition ngay, rất nguy hiểm! Hãy tự hình dung nó trong đầu NHƯNG đảm bảo nó chuẩn xác nhất với thực tế, nếu thấy cấn cấn hoặc sai sai, điều tra khẩn cấp, minh bạch, rõ ràng. Sau đó mới mô hình hóa và đơn giản hóa đúng cách. Đừng lừa dối bản thân mình, đừng tự lừa chính mình!
 
+4. Hãy hiểu cực kỳ rõ ràng những công cụ thực tế, thiết bị có trong đề thi nếu có thể, sử dụng công cụ/thiết bị đó ở ngoài đời/trên mạng.
+
 Tài liệu có mật độ nén cực cao (high information density). Khi đọc các tài liệu này, cẩn đảm bảo học theo cách này nhé : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md
 
 Và cũng như phải đọc cực kỳ kỹ, kỹ khủng khiếp, từng câu từng chữ, phải hiểu hết, và hiểu sâu sắc, cấm đọc lướt!
