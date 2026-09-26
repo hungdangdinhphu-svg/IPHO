@@ -25,6 +25,10 @@ Cứ mỗi khi hết 1 chương lớn của Vật Lý (Cơ Học, Nhiệt, Đi�
 
 Hãy giỏi Analytic Geometry, Solid Geometry, Vector Algebra, Vector Calculus... Nói chung là Giải Tích & Toán học.
 
+Note:
+
++) Khi t xem tích phân là dạng rời rạc của tổng sigma thì t cảm giác t có thể dễ dàng tự thiết lập pt tích phân trong đề thi HSGQG Lý? idk?
+
 ## Lý Thuyết Mở Rộng :
 
 ### ĐỘNG HỌC TỔNG QUÁT (Rất Nặng)
