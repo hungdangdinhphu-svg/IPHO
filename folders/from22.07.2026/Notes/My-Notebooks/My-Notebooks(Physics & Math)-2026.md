@@ -67,6 +67,10 @@ Cận trên: Tương ứng với Trạng thái kết thúc (thường là dạng
 
 +) Phân ly biến số (Tích phân)
 
++) TÍCH PHÂN MÀ TA BIẾT CHỈ CHO PHÉP 1 BIẾN THÔI, TẤT CẢ CÒN LẠI PHẢI LÀ CONST, mặc dù ta được dùng phương trình, well nó trông như này : f(x) = g(z) nhưng dù vậy, thì f(x) phải chỉ chứa 1 biến x (hiển nhiên), tương tự.
+
++) VECTOR LÀ ĐẠI LƯỢNG CÓ HƯỚNG, CÓ THỂ ÂM, làm ơn tự phản biện chính mình xem coi đại lượng đó có âm không đi:(, nhanh dần đều, chậm dần đều các kiểu,...
+
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/C%C6%A1%20h%E1%BB%8Dc%20v%E1%BA%ADt%20r%E1%BA%AFn%2C%20l%C3%BD%20thuy%E1%BA%BFt%2C%20ch%E1%BA%A5t%20l%C6%B0u.md
