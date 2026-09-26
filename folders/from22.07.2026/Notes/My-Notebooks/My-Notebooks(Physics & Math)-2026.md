@@ -51,6 +51,8 @@ Phương pháp đổi biến (Integral), hiểu cực kỳ sâu sắc cận a, b
 
 +) Khi đã có hàm tọa độ hoặc vận tốc hoặc gia tốc, chỉ cần sử dụng tích phân/đạo hàm để suy ra 2 hàm còn lại, đây là công cụ mạnh.
 
++) Chuyển hàm về dạng vi phân trước (ép, cố tình ấy) rồi sau đó tích phân
+
 +) Bản chất của cận tích phân $\int_{a}^{b}$ trong các bài toán Vật lý thể hiện sự tương ứng 1 - 1 giữa các trạng thái của hệ thống.
 
 Khi biến đổi một phương trình vi phân biến ly và lấy tích phân hai vế:
