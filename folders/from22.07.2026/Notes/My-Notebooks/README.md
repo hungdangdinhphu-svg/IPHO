@@ -4,6 +4,6 @@ Sổ tay Một số thứ chủ chốt tại The Art of Insight in Science and E
 
 +) Phải pro Giải tích James Stewarts, Mathematical Methods in the Physical Sciences, 3e (Mary L. Boas);
 
-+) Phải biết cách giải hệ phương trình n ẩn n phương trình
++) Phải biết cách giải hệ phương trình n ẩn n phương trình (n = m, nhưng n > 4, tức là Casio Fx580VNX không hỗ trợ, phải dùng khử Gauss)
 
 +) Phải biết cách xử lý hệ phương trình n ẩn m phương trình (Với n > m hoặc n < m)
