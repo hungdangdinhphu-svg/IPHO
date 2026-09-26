@@ -25,3 +25,5 @@ Theo tôi, bạn nên cày combo 1 song song với combo 2;
 ## Sách cho Toán :
 
 Cứ quất Calculus James Stewart 7e + Mathematical Methods in the Physical Sciences, 3e (Mary L. Boas) là xong =)), xong cả TST luôn
+
+# Sách bài tập : https://ungvetenskapssport.se/wp-content/uploads/2025/07/200_More_Puzzling_Physics_Problems.pdf
