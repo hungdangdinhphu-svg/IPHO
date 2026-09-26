@@ -28,4 +28,4 @@ Cứ quất Calculus James Stewart 7e + Mathematical Methods in the Physical Sci
 
 # Sách bài tập : 
 
-https://ungvetenskapssport.se/wp-content/uploads/2025/07/200_More_Puzzling_Physics_Problems.pdf
+200 More Puzzling Physics Problems With Hints and Solutions : https://ungvetenskapssport.se/wp-content/uploads/2025/07/200_More_Puzzling_Physics_Problems.pdf
