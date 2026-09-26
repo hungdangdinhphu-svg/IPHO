@@ -23,7 +23,7 @@ Và vẫn phải học cách học theo https://github.com/hungdangdinhphu-svg/I
 
 Cứ mỗi khi hết 1 chương lớn của Vật Lý (Cơ Học, Nhiệt, Điện, Quang,...) thì sẽ làm 1 bài kiểm tra lớn, lướt lại toàn bộ lý thuyết của chương lớn đó, lôi đề HSGQG, IPHO ra làm luôn cho chương lớn đó.
 
-Hãy giỏi Analytic Geometry, Solid Geometry, Vector Algebra, Vector Calculus... Nói chung là Giải Tích.
+Hãy giỏi Analytic Geometry, Solid Geometry, Vector Algebra, Vector Calculus... Nói chung là Giải Tích & Toán học.
 
 ## Lý Thuyết Mở Rộng :
 
