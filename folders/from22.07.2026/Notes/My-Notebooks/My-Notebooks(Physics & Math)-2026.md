@@ -63,7 +63,7 @@ Cận dưới: Tương ứng với Trạng thái xuất phát (thường là th�
 
 Cận trên: Tương ứng với Trạng thái kết thúc (thường là dạng tổng quát $v$ hoặc $t$ bất kỳ đang cần tìm).
 
-
++) Phân ly biến số (Tích phân)
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
