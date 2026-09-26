@@ -12,4 +12,6 @@ Log xPhO (23/09/2026 10:10 SA):
 "Kiểu, thay vì một lời giải cơ bản và chuẩn mực, bộ cầu vồng sẽ lách qua kiến thức toán bằng những mẹo nghe rất khó hiểu và không có ý nghĩa tổng quát thành phương pháp cho các trường hợp khác.
 Nếu được thì mình khuyến cáo các bạn dùng các giáo trình tác giả nước ngoài, bản tiếng Anh thì tốt mà không có thì bản dịch.
 Mình có để danh mục sách và chấm điểm theo ý kiến cá nhân ở đây nhé: ⁠Tổng hợp nội dung các bài đăng
-Mình thì mình thấy sách của Savelyev rất hay."
+Mình thì mình thấy sách của Savelyev rất hay.";
+
+Điều đặc biệt mà tôi nhận ra là VLTN của Thầy Năng thật sự làm bài tập rất tốt, có những bài dựa trên ý tưởng từ quyển cầu vồng, nhưng đã viết lại và hình ảnh rất tường minh, tuyệt thật sự:) : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/baitap/Ba%CC%80i_ta%CC%A3%CC%82p_%C4%91o%CC%A3%CC%82ng_ho%CC%A3c_cha%CC%82%CC%81t_%C4%91ie%CC%82%CC%89m.pdf
