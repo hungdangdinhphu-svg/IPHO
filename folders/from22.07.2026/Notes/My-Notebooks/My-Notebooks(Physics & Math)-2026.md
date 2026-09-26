@@ -37,7 +37,7 @@ Hãy đảm bảo bản thân vẽ hình cực kỳ kỹ ra. Đảm bảo rằng
 
 Hãy thành thạo việc lập phương trình chuyển động.
 
-Hãy giỏi Giải Tích, Phương Pháp Tọa Độ Hóa, hãy thành thạo việc thường xuyên mô tả các điểm bằng toán học.
+Hãy giỏi Giải Tích, Phương Pháp Tọa Độ Hóa, hãy thành thạo việc thường xuyên mô tả các điểm bằng toán họ, tức Analytic Geometry.
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
