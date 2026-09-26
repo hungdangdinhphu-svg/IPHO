@@ -49,7 +49,7 @@ Phương pháp đổi biến (Integral), hiểu cực kỳ sâu sắc cận a, b
 
 +) Phương trình chuyển động là các công thức toán học mô tả vị trí của một vật theo thời gian. Trong hệ tọa độ phẳng Descartes, vị trí của vật m được xác định bởi cặp tọa độ. Khi vật di chuyển, tọa độ của nó thay đổi theo thời gian t. Phương trình chuyển động chính là các hàm x(t), y(t), z(t), w(t),... trong R^n. Từ phương trình chuyển động, người ta có thể tìm ra vận tốc (đạo hàm bậc nhất của tọa độ theo thời gian) và gia tốc (đạo hàm bậc hai).
 
-
++) Khi đã có hàm tọa độ hoặc vận tốc hoặc gia tốc, chỉ cần sử dụng tích phân/đạo hàm để suy ra 2 hàm còn lại, đây là công cụ mạnh.
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
