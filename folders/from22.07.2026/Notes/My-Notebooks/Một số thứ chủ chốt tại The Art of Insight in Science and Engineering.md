@@ -56,11 +56,9 @@ Cảnh báo: Tôi chưa đọc kỹ lắm, dù có đọc đi đọc lại 2-3 l
 
 Vấn đề nằm ở việc ông ấy đưa 1 câu hỏi và 1 câu trả lời không chặt chẽ với nhau, đây không phải vấn đề của ẩn số, nó là vấn đề của tính chặt chẽ trong sử dụng ngôn từ.
 
-Quan sát chính thức của tôi: Quãng đường không phải **vô hạn**, và điều đó phá vỡ toàn bộ lập luận.
 
 Tác giả lập luận theo cái kiểu: Thể tích không khí bạn quét qua = diện tích mặt cắt ngang × quãng đường bạn đi.
 
-Nghe có vẻ chặt chẽ. Nhưng Quãng đường không phải **vô hạn**, nó là hằng số. 
 
 
 
