@@ -51,6 +51,20 @@ Phương pháp đổi biến (Integral), hiểu cực kỳ sâu sắc cận a, b
 
 +) Khi đã có hàm tọa độ hoặc vận tốc hoặc gia tốc, chỉ cần sử dụng tích phân/đạo hàm để suy ra 2 hàm còn lại, đây là công cụ mạnh.
 
++) Bản chất của cận tích phân $\int_{a}^{b}$ trong các bài toán Vật lý thể hiện sự tương ứng 1 - 1 giữa các trạng thái của hệ thống.
+
+Khi biến đổi một phương trình vi phân biến ly và lấy tích phân hai vế:
+
+$$\int_{\text{Cận dưới}}^{\text{Cận trên}} \dots \mathrm{d}v = \int_{\text{Cận dưới}}^{\text{Cận trên}} \dots \mathrm{d}t$$
+
+Hai cận (dưới và trên) ở hai vế bắt buộc phải được ghép cặp theo cùng một mốc trạng thái vật lý:
+
+Cận dưới: Tương ứng với Trạng thái xuất phát (thường là thời điểm ban đầu đã biết giá trị).
+
+Cận trên: Tương ứng với Trạng thái kết thúc (thường là dạng tổng quát $v$ hoặc $t$ bất kỳ đang cần tìm).
+
+
+
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/C%C6%A1%20h%E1%BB%8Dc%20v%E1%BA%ADt%20r%E1%BA%AFn%2C%20l%C3%BD%20thuy%E1%BA%BFt%2C%20ch%E1%BA%A5t%20l%C6%B0u.md
