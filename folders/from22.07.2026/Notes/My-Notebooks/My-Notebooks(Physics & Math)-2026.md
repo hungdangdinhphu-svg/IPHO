@@ -45,7 +45,7 @@ Hãy thành thạo việc lập phương trình chuyển động.
 
 Hãy giỏi Giải Tích, Phương Pháp Tọa Độ Hóa, hãy thành thạo việc thường xuyên mô tả các điểm bằng toán họ, tức Analytic Geometry.
 
-Phương pháp đổi biến (Integral), hiểu rõ cận a, b trong tích phân.
+Phương pháp đổi biến (Integral), hiểu cực kỳ sâu sắc cận a, b trong tích phân.
 
 +) Phương trình chuyển động là các công thức toán học mô tả vị trí của một vật theo thời gian. Trong hệ tọa độ phẳng Descartes, vị trí của vật m được xác định bởi cặp tọa độ. Khi vật di chuyển, tọa độ của nó thay đổi theo thời gian t. Phương trình chuyển động chính là các hàm x(t), y(t), z(t), w(t),... trong R^n. Từ phương trình chuyển động, người ta có thể tìm ra vận tốc (đạo hàm bậc nhất của tọa độ theo thời gian) và gia tốc (đạo hàm bậc hai).
 
