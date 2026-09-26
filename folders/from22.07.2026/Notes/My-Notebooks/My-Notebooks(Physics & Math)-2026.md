@@ -45,6 +45,10 @@ Hãy thành thạo việc lập phương trình chuyển động.
 
 Hãy giỏi Giải Tích, Phương Pháp Tọa Độ Hóa, hãy thành thạo việc thường xuyên mô tả các điểm bằng toán họ, tức Analytic Geometry.
 
++) Phương trình chuyển động là các công thức toán học mô tả vị trí của một vật theo thời gian. Trong hệ tọa độ phẳng Descartes, vị trí của vật m được xác định bởi cặp tọa độ. Khi vật di chuyển, tọa độ của nó thay đổi theo thời gian t. Phương trình chuyển động chính là các hàm x(t), y(t), z(t), w(t),... trong R^n. Từ phương trình chuyển động, người ta có thể tìm ra vận tốc (đạo hàm bậc nhất của tọa độ theo thời gian) và gia tốc (đạo hàm bậc hai).
+
+
+
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/C%C6%A1%20h%E1%BB%8Dc%20v%E1%BA%ADt%20r%E1%BA%AFn%2C%20l%C3%BD%20thuy%E1%BA%BFt%2C%20ch%E1%BA%A5t%20l%C6%B0u.md
