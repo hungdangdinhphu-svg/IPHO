@@ -9,7 +9,7 @@
 
 2. Lý do phải mô hình hóa thật ra là do nếu không mô hình hóa và làm thật chi tiết và đúng đắn hơn thì...Tôi đố bạn làm được trong thời gian cho phép và giải ra được đấy? Đúng vậy, đây là cách cực kỳ tường minh để phân biệt xem coi chỗ nào bắt buộc phải mô hình hóa :), nhưng thường ta dùng trực giác cho điều này.
 
-3. Sự thật là, hãy đảm bảo rằng khi gặp 1 bài vật lý nào, đừng pattern recognition ngay, rất nguy hiểm! Hãy tự hình dung nó trong đầu NHƯNG đảm bảo nó chuẩn xác nhất với thực tế, nếu thấy cấn cấn hoặc sai sai, điều tra khẩn cấp, minh bạch, rõ ràng. Sau đó mới mô hình hóa và đơn giản hóa đúng cách. Đừng lừa dối bản thân mình, đừng tự lừa chính mình!
+3. Sự thật là, hãy đảm bảo rằng khi gặp 1 bài vật lý nào, đừng pattern recognition ngay, rất nguy hiểm! Hãy tự hình dung nó trong đầu NHƯNG đảm bảo nó chuẩn xác nhất với thực tế, nếu thấy cấn cấn hoặc sai sai, điều tra khẩn cấp, minh bạch, rõ ràng. Sau đó mới mô hình hóa và đơn giản hóa đúng cách. Đừng lừa dối bản thân mình, đừng tự lừa chính mình! Vẽ hình minh bạch thay vì ngồi đó ảo tưởng.
 
 Tôi thấy quyển sách này có vẻ sẽ phù hợp với mọi người The Art of Insight in Science and Engineering (MIT), nên đọc Phần II - Discarding complexity without losing information, Chương 3: Symmetry and conservation (Đối xứng và bảo toàn), Chương 4: Proportional reasoning (Suy luận tỷ lệ), Chương 5: Dimensions (Phân tích thứ nguyên). **Phần nâng cao nhưng rất đáng cho TST:** Phần III - Discarding complexity with loss of information; 
 
