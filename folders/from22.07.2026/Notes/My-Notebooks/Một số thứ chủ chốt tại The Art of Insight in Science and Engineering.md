@@ -12,4 +12,4 @@ Invariant (Bất biến): Đại lượng được bảo toàn đó. Đây là c
 
 Invariant (Bất biến): Chỉ một đặc tính, giá trị hoặc hình thái không thay đổi khi chịu tác động của một phép biến đổi, phép toán, hoặc thao tác nào đó. Conservation (Bảo toàn): Thường dùng trong vật lý hoặc toán học để chỉ một đại lượng không đổi theo thời gian trong một hệ thống (thường là hệ kín) khi diễn ra các quá trình chuyển hóa.
 
-Kiểu như 1 cái là Geometry nặng, còn 1 cái là kiểu const theo thời gian t.
+Chủ quan: Kiểu như 1 cái là Geometry nặng, còn 1 cái là kiểu const theo thời gian t.
