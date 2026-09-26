@@ -10,7 +10,7 @@ Log xPhO (23/09/2026 10:10 SA):
 ```txt
 
 "Bộ đấy là bộ sách viết cho học sinh giỏi tầm 20 năm trước, mạng mẹo và kiến thức, tài liệu còn hạn chế. Nó sẽ viết theo kiểu như sách phổ thông, nhưng cố ép ra lời giải không nặng toán đại học. Cách đấy hay đối với người làm giáo dục muốn hiểu sâu, nhưng nó sẽ làm mất động lực học các công cụ toán quan trọng, lệch lạc về tư duy phát triển.
-"Kiểu, thay vì một lời giải cơ bản và chuẩn mực, bộ cầu vồng sẽ lách qua kiến thức toán bằng những mẹo nghe rất khó hiểu và không có ý nghĩa tổng quát thành phương pháp cho các trường hợp khác.
+Kiểu, thay vì một lời giải cơ bản và chuẩn mực, bộ cầu vồng sẽ lách qua kiến thức toán bằng những mẹo nghe rất khó hiểu và không có ý nghĩa tổng quát thành phương pháp cho các trường hợp khác.
 Nếu được thì mình khuyến cáo các bạn dùng các giáo trình tác giả nước ngoài, bản tiếng Anh thì tốt mà không có thì bản dịch.
 Mình có để danh mục sách và chấm điểm theo ý kiến cá nhân ở đây nhé: ⁠Tổng hợp nội dung các bài đăng
 Mình thì mình thấy sách của Savelyev rất hay."
