@@ -27,7 +27,7 @@ Hãy giỏi Analytic Geometry, Solid Geometry, Vector Algebra, Vector Calculus..
 
 Note:
 
-+) Khi t xem tích phân là dạng rời rạc của tổng sigma thì t cảm giác t có thể dễ dàng tự thiết lập pt tích phân trong đề thi HSGQG Lý? idk?
++) Khi t xem tích phân là dạng liên tục của tổng sigma thì t cảm giác t có thể dễ dàng tự thiết lập pt tích phân trong đề thi HSGQG Lý? idk? Tức là t cứ coi như t đang sử dụng tổng sigma thay vì tích phân, nhưng dĩ nhiên sau đó t sẽ thay đổi những thứ quan trọng để chuyển nó về tích phân, thậm chí nhẩm bằng trực giác còn nhanh hơn!
 
 ## Lý Thuyết Mở Rộng :
 
