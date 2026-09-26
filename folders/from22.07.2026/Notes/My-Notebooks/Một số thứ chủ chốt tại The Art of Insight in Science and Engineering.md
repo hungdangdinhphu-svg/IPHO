@@ -50,13 +50,6 @@ head is exposed and you care how many drops land on your head, then you
 should run. But if your head is covered, feel free to save your energy and
 enjoy the stroll. Running won’t keep you any dryer."
 
-Well, đó chính là tôi đã trích nguyên văn ở trong quyển The Art of Insight in Science and Engineering (MIT), và đây là ý kiến của tôi:
-
-Cảnh báo: Tôi chưa đọc kỹ lắm, dù có đọc đi đọc lại 2-3 lần rồi nhưng mà chưa đến hàng chục lần và soi kỹ từng từ, mọi thứ tôi nói có thể có vấn đề.
-
-Vấn đề nằm ở việc ông ấy đưa 1 câu hỏi và 1 câu trả lời không chặt chẽ với nhau, đây không phải vấn đề của ẩn số, nó là vấn đề của tính chặt chẽ trong sử dụng ngôn từ.
-
-
 Tác giả lập luận theo cái kiểu: Thể tích không khí bạn quét qua = diện tích mặt cắt ngang × quãng đường bạn đi.
 
 
