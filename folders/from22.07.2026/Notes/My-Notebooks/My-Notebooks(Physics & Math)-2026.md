@@ -117,7 +117,7 @@ wait...
 
 ### SAI SỐ, PHƯƠNG ÁN THỰC HÀNH, ĐƠN VỊ, PHÂN TÍCH THỨ NGUYÊN
 
-wait...
+https://chat.deepseek.com/share/lo3mlb2sr93vdgs0s1
 
 ---
 
