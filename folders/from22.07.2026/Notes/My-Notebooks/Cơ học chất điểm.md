@@ -450,7 +450,7 @@ vector a = vector a_t * t + vector a_n * n    (Với n là vector đơn vị ph�
 
 Nhưng hãy nhớ, khi phân tích lực vector F ở lớp 10, bạn được tự do chọn hệ trục (thường là trục Ox nằm ngang, Oy thẳng đứng, hoặc Ox song song mặt phẳng nghiêng). Nhưng khi phân tích gia tốc a thành a_t và a_n, bạn KHÔNG ĐƯỢC TỰ CHỌN HỆ TRỤC. Hệ trục ở đây là hệ trục tự nhiên, nó bị ép buộc bởi hình dáng của quỹ đạo tại điểm đó; Nói chung cũng phức tạp, bạn chỉ nên hiểu lý do vì sao lại có gia tốc là ôk.
 
-
+Cơ mà nếu vẫn còn câu hỏi rằng thế tại sao ở Vật Lý 10, người ta phải đẻ ra 2 cái a_n, a_t thì.... Bạn thử dùng hệ trục tọa độ Descartes (ở lớp 10 thì là Oxy) rồi không cho cái a đó thành a_n, a_t đi xem, rồi sau đó làm lại với a_n, a_t xem coi cái nào nhanh hơn với Định Luật 2 Newton, good luck:)
 
 ---
 
