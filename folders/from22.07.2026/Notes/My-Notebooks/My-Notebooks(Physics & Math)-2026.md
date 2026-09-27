@@ -151,6 +151,9 @@ Khi mà tôi muốn có được nhiều lợi ích hơn đáng kể khi cày b�
 
 +) Bạn nên học cách tự tạo ra đề cho bản thân, không đơn giản chỉ vì thiếu đề đến mức tự làm ra đề, mà là bạn hãy tự dùng chính sức của mình để tạo đề, dùng các công cụ hỗ trợ để kiểm tra xem bản thân có tạo đề đúng hay chưa. Rồi bạn sẽ hiểu ý tôi thôi.
 
++) Vật lý dựa trên Toán học cực kỳ nhiều và sâu sắc, có mối quan hệ chặt chẽ. Tức là 1 dạng bài Vật Lý nào đó thường sẽ chỉ ở trong 1 cấu trúc toán học nào đó, dù những bài Vật Lý đó có biến tấu đi, nó vẫn ở trong cấu trúc toán học đó, vì phải giữ ở trong cấu trúc "ẩn" đó thì mới có thể giải được. Ví dụ như Mạch Tuyến Tính thì có cấu trúc liên quan chặt đến Nodal Analysis, Ma Trận, Tuyến Tính,... Tương tự với rất nhiều thứ.
+Việc thành thạo giải 1 cấu trúc toán học A, thì sẽ giúp bạn giỏi hơn nhiều trong dạng bài Vật Lý A.
+
 ---
 
 ## Một số ví dụ và bài tập hay ho :
