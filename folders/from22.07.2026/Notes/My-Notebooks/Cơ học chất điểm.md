@@ -434,6 +434,24 @@ Mỗi thẻ có: **Kiểu CHỖ · Nội dung · Pre · Suf (dấu hiệu) · Po
 - **Bẫy:** Nhầm ω với f (thiếu 2π); quên rằng chuyển động tròn đều **có** gia tốc; áp dụng a_n = v²/R cho quỹ đạo không tròn (phải dùng ρ, K5).
 - **Nâng cao [EXT]:** Tâm chuyển động (bánh xe lăn): v = v_tâm + ω × r' (cộng vận tốc, K6). Điểm trên vành bánh lăn không trượt vẽ **xycloid**: x = R(φ − sinφ), y = R(1 − cosφ); tại điểm cao nhất v = 2v_tâm, tại điểm tiếp đất v = 0.
 
+**Lưu ý, đoạn bên dưới hãy để ý kỹ, vì cách quy ước ký hiệu không giống tôi từng nói ở trên:**
+
+**Từ VLTN của Thầy Năng:** Lý do vì sao lại có gia tốc (hướng tâm, tiếp tuyến) dù v là hằng số? Câu trả lời đó là câu hỏi thiếu chặt chẽ, bởi vì nó là vector v chứ không phải v, vector v có hướng và độ lớn, kể cả vector gia tốc, vì chúng đều là vector (véc-tơ). Chúng ta đạo hàm vector v thì kết quả trả về sẽ là vector "không", tức là vẫn có gia tốc.
+
+Còn lý do tại sao lại có vector gia tốc a_t và a_n? Tại vì vốn dĩ chỉ có duy nhất một vector gia tốc a. Nhưng vì nó là một vector, ta hoàn toàn có thể **phân tích** (Rất giống với phân tích lực mà ta hay dùng) nó thành 2 vector thành phần a_t, a_n;
+
+Nhưng có một sự khác biệt cực kỳ tinh tế mà bạn cần nắm rõ để không bị "tẩu hỏa nhập ma" khi lên Đại học: Lý do phải tách a ra làm 2 thật ra vẫn còn, và nó tinh tế: Vì gia tốc đặc trưng cho sự thay đổi của vận tốc. Mà vận tốc v là vector, nó có 2 thuộc tính: Độ lớn (tốc độ nhanh/chậm) và Phương chiều (hướng bay). 
+
+Sự thay đổi về độ lớn của vận tốc sinh ra a_t (gia tốc tiếp tuyến). Sự thay đổi về hướng của vận tốc sinh ra a_t (gia tốc pháp tuyến).
+
+Toán: Khi bạn đạo hàm vector vận tốc v = v * t (với t là vector đơn vị tiếp tuyến, bạn nên xem K5 để hiểu thêm) ta có được kết quả sau:
+
+vector a = vector a_t * t + vector a_n * n    (Với n là vector đơn vị pháp tuyến);
+
+Nhưng hãy nhớ, khi phân tích lực vector F ở lớp 10, bạn được tự do chọn hệ trục (thường là trục Ox nằm ngang, Oy thẳng đứng, hoặc Ox song song mặt phẳng nghiêng). Nhưng khi phân tích gia tốc a thành a_t và a_n, bạn KHÔNG ĐƯỢC TỰ CHỌN HỆ TRỤC. Hệ trục ở đây là hệ trục tự nhiên, nó bị ép buộc bởi hình dáng của quỹ đạo tại điểm đó; Nói chung cũng phức tạp, bạn chỉ nên hiểu lý do vì sao lại có gia tốc là ôk.
+
+
+
 ---
 
 ### K5. Chuyển động cong tổng quát: thành phần tiếp tuyến–pháp tuyến, tọa độ cực, bán kính cong **[C]**
@@ -450,6 +468,8 @@ Mỗi thẻ có: **Kiểu CHỖ · Nội dung · Pre · Suf (dấu hiệu) · Po
 - **Chuyển sang Toán (V2):** Phép chiếu vector; nếu có quỹ đạo tường minh, đạo hàm bậc 1, 2.
 - **Mẫu dùng:** Parabol ném xiên: a_n = g cosα_loc (α_loc là góc của **v** với phương ngang tại điểm đó), do đó ρ = v²/(g cosα_loc); **tại đỉnh**: ρ = v_x²/g = v₀²cos²θ/g.
 - **Bẫy:** Dùng R hình học thay ρ; quên rằng chỉ **thành phần pháp tuyến** của lực tạo a_n; nhầm dấu khi chiều của **n** hướng về phía lõm.
+
+Sự thật: Nếu tọa độ cực có r = const (hằng số) thì nó sẽ thành chuyển động tròn ở Vật Lý 10.
 
 ---
 
