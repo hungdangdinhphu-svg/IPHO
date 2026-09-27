@@ -147,6 +147,10 @@ Khi mà tôi muốn có được nhiều lợi ích hơn đáng kể khi cày b�
 
 +) Tương tự với Toán thôi, Lý thì cũng vậy.
 
++) "Nếu đề bài đổi các điều kiện này đi, thì cách giải bài này có còn đúng không? Nó sẽ bị vỡ ở đâu?" Việc này giúp bạn chặn đứng nhiều bẫy quan trọng.
+
++) Bạn nên học cách tự tạo ra đề cho bản thân, không đơn giản chỉ vì thiếu đề đến mức tự làm ra đề, mà là bạn hãy tự dùng chính sức của mình để tạo đề, dùng các công cụ hỗ trợ để kiểm tra xem bản thân có tạo đề đúng hay chưa. Rồi bạn sẽ hiểu ý tôi thôi.
+
 ---
 
 ## Một số ví dụ và bài tập hay ho :
