@@ -122,7 +122,7 @@ wait...
 
 ---
 
-# Lý thuyết tổng quát
+## Lý thuyết tổng quát
 
 
 ---
