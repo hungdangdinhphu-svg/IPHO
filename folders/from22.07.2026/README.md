@@ -13,6 +13,8 @@ Các quyển sách quan trọng : https://github.com/hungdangdinhphu-svg/IPHO/tr
 
 My Notebook (Completeness) : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/Notes/My-Notebooks
 
+Một đống đề thi tôi lấy từ trên mạng : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/Collection%20of%20tests
+
 **Đọc thêm:**
 
 Các files .pdf quan trọng : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/papers(pdf)
