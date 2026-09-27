@@ -52,9 +52,6 @@ Lý thuyết Mở Rộng sẽ bám sát hơn nhiều vào kỳ thi HSGQG, VPHO, 
 
 
 
-### ĐỘNG HỌC TỔNG QUÁT (Rất Nặng)
-
-https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC%20T%E1%BB%94NG%20QU%C3%81T%20(R%E1%BA%A4T%20N%E1%BA%B6NG).md
 
 ### Cơ Học Chất Điểm
 
@@ -127,6 +124,11 @@ wait...
 ## Lý thuyết tổng quát
 
 Lý thuyết tổng quát sẽ bám sát vào Khoa Học, Vật Lý, tổng quát. Bạn nếu thi HSGQG, HSGTP vẫn nên đọc cái này để biết sự thật, và hiểu bản chất, nhưng đừng cố quá nhé, hãy biết bản thân cần gì.
+
+
+### ĐỘNG HỌC TỔNG QUÁT 
+
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC%20T%E1%BB%94NG%20QU%C3%81T%20(R%E1%BA%A4T%20N%E1%BA%B6NG).md
 
 ---
 
