@@ -48,6 +48,8 @@ Nếu ta chia đoạn $[a, b]$ thành $n$ khoảng bằng nhau, mỗi khoảng c
 
 ## Lý Thuyết Mở Rộng :
 
+Lý thuyết Mở Rộng sẽ bám sát hơn nhiều vào kỳ thi HSGQG, VPHO, HSGTP.
+
 
 
 ### ĐỘNG HỌC TỔNG QUÁT (Rất Nặng)
@@ -124,6 +126,7 @@ wait...
 
 ## Lý thuyết tổng quát
 
+Lý thuyết tổng quát sẽ bám sát vào Khoa Học, Vật Lý, tổng quát. Bạn nếu thi HSGQG, HSGTP vẫn nên đọc cái này để biết sự thật, và hiểu bản chất, nhưng đừng cố quá nhé, hãy biết bản thân cần gì.
 
 ---
 
