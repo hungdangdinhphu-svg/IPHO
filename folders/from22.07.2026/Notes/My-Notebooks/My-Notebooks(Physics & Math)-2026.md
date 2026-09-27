@@ -19,6 +19,8 @@ Tài liệu có mật độ nén cực cao (high information density). Khi đọ
 
 Và cũng như phải đọc cực kỳ kỹ, kỹ khủng khiếp, từng câu từng chữ, phải hiểu hết, và hiểu sâu sắc, cấm đọc lướt!
 
+Nhìn chung thì thấy lý thuyết phần lý thuyết tôi đưa khó nhằn hơn mấy cái thầy cô bạn dạy hoặc trong mấy quyển sách tóm tắt thì cũng phải thôi, vì đánh giá của tôi là học lý thuyết tôi gửi còn khó hơn làm đề thi HSGQG, nhưng nếu hiểu lý thuyết, hiểu chắc, thì đề thi dễ hơn trước rất nhiều.
+
 Và vẫn phải học cách học theo https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md chứ không được phép chỉ dùng mỗi các tài liệu bên dưới.
 
 Cứ mỗi khi hết 1 chương lớn của Vật Lý (Cơ Học, Nhiệt, Điện, Quang,...) thì sẽ làm 1 bài kiểm tra lớn, lướt lại toàn bộ lý thuyết của chương lớn đó, lôi đề HSGQG, IPHO ra làm luôn cho chương lớn đó.
