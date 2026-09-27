@@ -1,5 +1,7 @@
 Tất cả mọi thứ ở trong IPHO/folders/from22.07.2026, đều bắt đầu được tạo từ sau hoặc ngay tại ngày 22.07.2026;
 
+Nếu thắc mắc vì sao có những thứ đáng lẽ nên đưa lên đầu nhưng tôi không đưa, đó là bởi vì ngay cả tôi cũng chưa nhận ra ngay, khi càng ngày, ngày qua ngày, tôi mới nhận ra nó và bổ sung độc lập. Và điều này không đảo ngược nổi nữa rồi, vì dữ liệu đã phình to, yên tâm, nếu bạn đọc theo chỉ dẫn của tôi, bạn sẽ ổn thôi.
+
 
 # Chỉ dẫn tổng quát (được xem là độ ưu tiên hàng đầu về tính chính xác của thông tin, dù các files con có nói khác) :
 
