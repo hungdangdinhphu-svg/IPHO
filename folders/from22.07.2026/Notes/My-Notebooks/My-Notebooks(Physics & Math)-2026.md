@@ -130,6 +130,10 @@ Lý thuyết tổng quát sẽ bám sát vào Khoa Học, Vật Lý, tổng quá
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%C4%90%E1%BB%98NG%20H%E1%BB%8CC%20T%E1%BB%94NG%20QU%C3%81T%20(R%E1%BA%A4T%20N%E1%BA%B6NG).md
 
+### ĐỘNG LỰC HỌC TỔNG QUÁT
+
+https://chat.deepseek.com/share/1db83nn8xdbp1tc9gw
+
 ---
 
 
