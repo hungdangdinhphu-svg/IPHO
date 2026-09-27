@@ -19,3 +19,5 @@ Mình thì mình thấy sách của Savelyev rất hay."
 
 
 Điều đặc biệt mà tôi nhận ra là VLTN của Thầy Năng có phần bài tập rất tốt, có những bài dựa trên ý tưởng từ quyển cầu vồng, nhưng đã viết lại và hình ảnh rất tường minh, tuyệt thật sự:) : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/baitap/Ba%CC%80i_ta%CC%A3%CC%82p_%C4%91o%CC%A3%CC%82ng_ho%CC%A3c_cha%CC%82%CC%81t_%C4%91ie%CC%82%CC%89m.pdf
+
+Lúc tôi vào quyển cầu vồng của Tô Giang và những tác giả khác, t không thấy nó tường minh như vầy, nên chắc t sẽ xài AI để lấy mấy cái đề thi khác để làm cho nó tường minh và trông như đề HSGQG hơn, chắc v, giống VLTN ấy.
