@@ -29,6 +29,10 @@ Note:
 
 +) Khi t xem tích phân là dạng liên tục của tổng sigma thì t cảm giác t có thể dễ dàng tự thiết lập pt tích phân trong đề thi HSGQG Lý? idk? Tức là t cứ coi như t đang sử dụng tổng sigma thay vì tích phân, nhưng dĩ nhiên sau đó t sẽ thay đổi những thứ quan trọng để chuyển nó về tích phân, thậm chí nhẩm bằng trực giác còn nhanh hơn!
 
+ \[\sum _{i=a}^{b}f(i)=\int _{a}^{b}f(x)\,dx+\frac{f(a)+f(b)}{2}+\sum _{k=1}^{m}\frac{B_{2k}}{(2k)!}\left(f^{(2k-1)}(b)-f^{(2k-1)}(a)\right)+R_{m}\]
+
+ \[\sum _{i=1}^{n}f(x_{i})\cdot \Delta x\approx \int _{a}^{b}f(x)\,dx\]
+
 ## Lý Thuyết Mở Rộng :
 
 ### ĐỘNG HỌC TỔNG QUÁT (Rất Nặng)
