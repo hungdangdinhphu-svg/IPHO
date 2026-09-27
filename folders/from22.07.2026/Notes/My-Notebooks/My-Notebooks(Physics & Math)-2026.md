@@ -160,7 +160,7 @@ Không phải mọi bài Vật lý đều có cấu trúc Toán sạch, nhưng T
 
 +) Nhưng nếu gặp bài quen (dạng kinh điển), bạn không được ngồi "phân tích cấu trúc ẩn" nữa. Bạn phải chuyển sang trạng thái "phản xạ cơ bắp"
 
-**Phát biểu lại:**
+## **Phát biểu lại:**
 
 Phát biểu:
 
@@ -193,6 +193,8 @@ Cấu trúc Toán là "ẩn" nhưng hữu hạn,
 Một bài Vật lý có thể trông rất khác một bài Vật lý khác. Nhưng sau khi mô hình hóa, chúng có thể cùng một cấu trúc Toán.
 
 **Biến tấu Vật lý không phá vỡ cấu trúc!** Bạn chỉ cần nhận diện cấu trúc, rồi áp dụng phương pháp. 
+
+Điều quan trọng: Bản chất vật lý & Precondition, sufficient condition (Tôi có nêu suốt ngày) để giới hạn cấu trúc toán lại.
 
 ---
 
