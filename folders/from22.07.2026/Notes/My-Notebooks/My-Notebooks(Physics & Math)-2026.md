@@ -137,6 +137,17 @@ https://chat.deepseek.com/share/1db83nn8xdbp1tc9gw
 
 ---
 
+# Cách để giải nhiều bài tập và học hỏi từ nó hiệu quả
+
+Khi mà tôi muốn có được nhiều lợi ích hơn đáng kể khi cày bài tập/đề, tôi thường hay làm việc này :
+
++) Tôi nhận ra rằng khi gặp được 1 số vấn đề mà tôi không làm được. Tôi sẽ phải tổng quát nó lên để tìm ra được Dạng Tổng Quát của vấn đề đó, đảm bảo rằng tôi không "overengineered".
+
++) Tức là, gặp 1 bài nào đó, thấy lạ, thấy hay, thấy không giải được, và nghĩ rằng nó đáng học. Thì trước tiên phải hiểu hết bài đó, hiểu hết lời giải. Rồi từ 1 bài đó, đi lên internet & AI để tổng hợp lại xem coi bài đó nó thuộc dạng bài nào, kiểu vậy.
+
++) Tương tự với Toán thôi, Lý thì cũng vậy.
+
+---
 
 ## Một số ví dụ và bài tập hay ho :
 
