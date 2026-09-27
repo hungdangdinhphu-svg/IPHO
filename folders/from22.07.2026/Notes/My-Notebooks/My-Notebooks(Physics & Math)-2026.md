@@ -44,7 +44,11 @@ Nếu ta chia đoạn $[a, b]$ thành $n$ khoảng bằng nhau, mỗi khoảng c
    
    (Trong đó $B_{2k}$ là các số Bernoulli, $f^{(2k-1)}$ là đạo hàm cấp lẻ, và $R_m$ là phần dư). 
 
+---
+
 ## Lý Thuyết Mở Rộng :
+
+
 
 ### ĐỘNG HỌC TỔNG QUÁT (Rất Nặng)
 
@@ -115,6 +119,13 @@ wait...
 ### SAI SỐ, PHƯƠNG ÁN THỰC HÀNH, ĐƠN VỊ, PHÂN TÍCH THỨ NGUYÊN
 
 wait...
+
+---
+
+# Lý thuyết tổng quát
+
+
+---
 
 
 ## Một số ví dụ và bài tập hay ho :
