@@ -113,7 +113,8 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 ### VẬT LÍ NGUYÊN TỬ VÀ HẠT NHÂN, VẬT LÍ HIỆN ĐẠI
 
-wait...
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/V%E1%BA%ADt%20L%C3%BD%20Nguy%C3%AAn%20T%E1%BB%AD%20V%C3%A0%20H%E1%BA%A1t%20Nh%C3%A2n%2C%20V%E1%BA%ADt%20L%C3%BD%20Hi%E1%BB%87n%20%C4%90%E1%BA%A1i.md
+
 
 ### SAI SỐ, PHƯƠNG ÁN THỰC HÀNH, ĐƠN VỊ, PHÂN TÍCH THỨ NGUYÊN
 
