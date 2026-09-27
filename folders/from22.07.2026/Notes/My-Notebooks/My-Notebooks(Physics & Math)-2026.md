@@ -137,7 +137,7 @@ https://chat.deepseek.com/share/1db83nn8xdbp1tc9gw
 
 ---
 
-# Cách để giải nhiều bài tập và học hỏi từ nó hiệu quả
+# CẤU TRÚC GIỮA TOÁN VÀ LÝ & Cách để giải nhiều bài tập và học hỏi từ nó hiệu quả
 
 Khi mà tôi muốn có được nhiều lợi ích hơn đáng kể khi cày bài tập/đề, tôi thường hay làm việc này :
 
