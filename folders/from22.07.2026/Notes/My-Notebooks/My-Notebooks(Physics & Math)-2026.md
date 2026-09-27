@@ -29,9 +29,18 @@ Note:
 
 +) Khi t xem tích phân là dạng liên tục của tổng sigma thì t cảm giác t có thể dễ dàng tự thiết lập pt tích phân trong đề thi HSGQG Lý? idk? Tức là t cứ coi như t đang sử dụng tổng sigma thay vì tích phân, nhưng dĩ nhiên sau đó t sẽ thay đổi những thứ quan trọng để chuyển nó về tích phân, thậm chí nhẩm bằng trực giác còn nhanh hơn!
 
- \[\sum _{i=a}^{b}f(i)=\int _{a}^{b}f(x)\,dx+\frac{f(a)+f(b)}{2}+\sum _{k=1}^{m}\frac{B_{2k}}{(2k)!}\left(f^{(2k-1)}(b)-f^{(2k-1)}(a)\right)+R_{m}\]
-
- \[\sum _{i=1}^{n}f(x_{i})\cdot \Delta x\approx \int _{a}^{b}f(x)\,dx\]
+Nếu ta chia đoạn $[a, b]$ thành $n$ khoảng bằng nhau, mỗi khoảng có độ rộng là $\Delta x$, ta có công thức liên hệ trực tiếp:
+   $$b - a = n \cdot \Delta x$$   
+   
+   Khi đó, tổng sigma xấp xỉ tích phân được viết một cách chuẩn xác là:
+   $$\sum_{i=1}^{n} f(x_i) \cdot \Delta x \approx \int_{a}^{b} f(x) \, dx$$  
+   
+   Để biến dấu xấp xỉ $\approx$ thành dấu bằng $=$ chuẩn xác trong toán học cao cấp, người ta dùng công thức Euler–Maclaurin. Công thức này chỉ ra tổng sigma bằng tích phân cộng với các hạng tử sai số (chứa đạo hàm tại hai đầu mút $a$ và $b$): 
+   
+   $$\sum_{i=a}^{b} f(i) = \int_{a}^{b} f(x) \, dx + \frac{f(a) + f(b)}{2} + \sum_{k=1}^{m} \frac{B_{2k}}{(2k)!} \left( f^{(2k-1)}(b) - f^{(2k-1)}(a) \right) + R_m$$  
+   
+   
+   (Trong đó $B_{2k}$ là các số Bernoulli, $f^{(2k-1)}$ là đạo hàm cấp lẻ, và $R_m$ là phần dư). 
 
 ## Lý Thuyết Mở Rộng :
 
