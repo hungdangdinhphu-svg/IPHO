@@ -46,6 +46,12 @@ Nếu ta chia đoạn $[a, b]$ thành $n$ khoảng bằng nhau, mỗi khoảng c
 
 ---
 
+## Giáo trình Lý Thuyết Khởi Đầu
+
+Động Lực Học của Cơ Học Chất Điểm https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/B%E1%BB%95%20sung/%C4%90%E1%BB%99ng%20L%E1%BB%B1c%20H%E1%BB%8Dc%20Ch%E1%BA%A5t%20%C4%90i%E1%BB%83m.md
+
+---
+
 ## Lý Thuyết Mở Rộng :
 
 Lý thuyết Mở Rộng sẽ bám sát hơn nhiều vào kỳ thi HSGQG, VPHO, HSGTP.
