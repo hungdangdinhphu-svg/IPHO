@@ -1,5 +1,9 @@
 (gửi ảnh trong Syllabus phần đó để bám sát vào HSGQG, IPHO, APHO,...)
 
+(syllabus cho HSGQG VN: https://docs.google.com/spreadsheets/d/1UiBfdfZW8YUYgUEVHgK5Ozlzqjpwa4HNVmLWX1hXoa4/edit?gid=1944729131#gid=1944729131)
+
+(syllabus cho IPHO thì tự lên mạng mà lấy)
+
 (gửi file Cấu Trúc giữa Vật Lý và Toán Học.md)
 
 ```txt
