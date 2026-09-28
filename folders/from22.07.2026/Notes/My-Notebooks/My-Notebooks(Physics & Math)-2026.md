@@ -162,6 +162,8 @@ Không phải mọi bài Vật lý đều có cấu trúc Toán sạch, nhưng T
 
 +) Toán theo tôi là công cụ để phân tích thông tin chặt chẽ nhất mà con người từng có, nó quá chặt chẽ (đang khen á), quá tuyệt! Và thật ra t hiểu sâu về lý thuyết thông tin, bảo toàn thông tin, thế nào là thông tin, biểu diễn thông tin, nén thông tin,... Và t thấy nhờ việc hiểu sâu những thứ về thông tin như vậy nên khi t học toán t thấy rất nhiều thứ hiển nhiên và buộc phải như vậy, idk, t khó nói tại sao
 
++) =)) vô tình á, t vô tình rảnh tay thử cố phá lý thuyết thông tin bằng cách tìm cách nén ko mất dữ liệu nhưng dữ liệu mà t nén là entropy cực đại, well dĩ nhiên t ko thành công và trên còn đường đó bằng cách nào đó t đớp cực kỳ nhiều lý thuyết thông tin :skull:
+
 ## **Phát biểu lại:**
 
 Phát biểu:
