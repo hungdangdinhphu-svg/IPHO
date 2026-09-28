@@ -1,1 +1,1 @@
-Lý Thuyết Gốc : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/Notes/My-Notebooks/B%E1%BB%95%20sung
+Lý Thuyết Gốc : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/C%E1%BA%A5u%20Tr%C3%BAc%20gi%E1%BB%AFa%20V%E1%BA%ADt%20L%C3%BD%20v%C3%A0%20To%C3%A1n%20H%E1%BB%8Dc.md
