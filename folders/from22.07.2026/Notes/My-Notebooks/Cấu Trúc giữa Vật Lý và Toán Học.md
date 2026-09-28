@@ -224,7 +224,7 @@ Dĩ nhiên trực giác có thể hỗ cực kỳ chủ chốt cho việc này �
 
 Nếu ta coi **CÔNG CỤ** không chỉ đơn giản là những thứ tôi từng nói, mà nó bao gồm cả Cấu Trúc Toán Học, thì tức là ngay khi nhìn vào bài Vật Lý, ta chỉ cần duyệt nhanh trong đầu (trực giác nhưng đầy đủ) xem coi bài Vật Lý đó dùng Cấu Trúc Toán Học nào rất dễ dàng, sau đó ta sẽ tự nhận rằng để áp dụng trực tiếp Cấu Trúc Toán Học đó có cần Mô Hình Hóa không, và Mô Hình Hóa ở CHỖ nào cũng rất dễ dàng, lý do là vì ta đã đi ngược cách làm thông thường. Đây là 1 cách mạnh trong Vấn Đề Mô Hình Hóa.
 
-Sau khi biết rõ Cấu Trúc Toán Học mà bài Vật Lý đó đang dùng, thì ta sẽ chuyển bài Vật Lý sang Toán bằng cách sử dụng **Quy Trình Và Phương Pháp cố định và xác định để giải Tổng Quát Một Dạng Vật Lý**.
+Sau khi biết rõ Cấu Trúc Toán Học mà bài Vật Lý đó đang dùng, thì ta sẽ chuyển bài Vật Lý sang Toán bằng cách sử dụng **Quy Trình Và Phương Pháp cố định và xác định để giải Tổng Quát Một Dạng Vật Lý**, tuy nhiên thực tế, việc biết Cấu Trúc Toán Học đã hỗ trợ bước này 1 cách khủng khiếp.
 
 Sau đó, ở bước giải Toán, ta sẽ sử dụng **Quy Trình Và Phương Pháp cố định và xác định để giải Tổng Quát Một Cấu Trúc Toán Học**;
 
