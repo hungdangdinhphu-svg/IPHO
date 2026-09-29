@@ -12,3 +12,5 @@ Georgia (được tinh chỉnh); Times New Roman;
 Căn lề: Căn lề đều hai bên (Justified); 
 
 Mã nguồn: LaTeX?
+
+Vấn đề chính: Tôi khó khăn với phông chữ, còn màu thì tôi phân tích ngược được rồi.
