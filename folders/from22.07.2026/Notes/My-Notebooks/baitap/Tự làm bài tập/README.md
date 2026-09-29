@@ -1,0 +1,1 @@
+well, để khiến bài tập trông đỡ chán hơn thì tôi sẽ chôm cái thiết kế từ VLTN và bài tập từ sách Bồi Dưỡng cầu vồng mà ai cũng biết, sau đó chỉnh sửa lại từ ngữ cho đỡ tối nghĩa từ hai chục năm trước:)
