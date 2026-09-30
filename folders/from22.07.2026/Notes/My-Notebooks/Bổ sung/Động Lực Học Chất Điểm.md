@@ -20,7 +20,7 @@
 |---|---|---|---|
 | **N1** | chất điểm cô lập | định nghĩa HQC quán tính | không kiểm chứng độc lập được; là *định nghĩa vận hành* |
 | **N2** | HQC quán tính; v ≪ c; m không đổi | m**a** = Σ**F** | m biến thiên: dùng hệ *cố định tập hạt* (§6) |
-| **N3** | tương tác cặp, lực nằm trên đường nối | **F**₁₂ = −**F**₂₁ (độ lớn của vector **F_12** bằng với độ lớn của vector **F_21** nhưng 2 vector lực cùng phương ngược chiều, và cả 2 không triệt tiêu nhau, lý do ở bên dưới) | lực từ giữa điện tích chuyển động: dạng yếu có thể sai (trường mang động lượng) |
+| **N3** | tương tác cặp, lực nằm trên đường nối | **F**₁₂ = −**F**₂₁ (độ lớn của vector **F_12** bằng với độ lớn của vector −**F_21** nhưng 2 vector lực cùng phương ngược chiều, và cả 2 không triệt tiêu nhau, lý do ở bên dưới) | lực từ giữa điện tích chuyển động: dạng yếu có thể sai (trường mang động lượng) |
 | **Hooke** | biến dạng nhỏ, lò xo lý tưởng (m≈0) | F = −kΔℓ | vượt giới hạn đàn hồi: sai |
 | **Dây lý tưởng** | m≈0, không giãn | ràng buộc độ dài; T ≥ 0; T đều dọc dây nếu qua ròng rọc ideal | dây chùng ⇒ T = 0, ràng buộc thành *bất đẳng thức* |
 | **Ròng rọc lý tưởng** | m≈0, không ma sát | T hai phía bằng nhau | có khối lượng: (T₁−T₂)R = Iα (ngoài chất điểm thuần) |
