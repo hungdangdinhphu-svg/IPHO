@@ -32,6 +32,14 @@
 
 **Dom vs Pre:** N2 có Dom rộng (mọi chuyển động chất điểm phi tương đối tính) nhưng Pre hẹp (HQC quán tính). Sai Pre là nguồn lỗi số 1.
 
+**Mở rộng:**
+
+Để xác định chiều của lực căng dây T bất kỳ, nhớ một nguyên tắc duy nhất: Lực căng dây luôn là lực KÉO, và nó kéo vật theo hướng dọc theo sợi dây, hướng RA XA vật đang xét.
+
+
+Để xác định chiều của lực đàn hồi F_hd bất kỳ, nhớ rằng: Lực đàn hồi là một lực "vị kỷ", nó luôn chống lại sự thay đổi để tìm cách đưa về hình dạng ban đầu.
+
+
 ---
 
 ## 2. Vấn đề 1 — Từ đề bài sang bài Toán
