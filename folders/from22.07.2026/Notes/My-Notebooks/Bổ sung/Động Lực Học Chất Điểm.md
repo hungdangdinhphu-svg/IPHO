@@ -40,6 +40,10 @@
 
 Để xác định chiều của lực đàn hồi F_hd bất kỳ, nhớ rằng: Lực đàn hồi là một lực "vị kỷ", nó luôn chống lại sự thay đổi để tìm cách đưa về hình dạng ban đầu.
 
+**Làm sao để biết** vật mà ta đang xét thì ta cần "quan tâm" đến những lực nào (hay lực tác dụng lên vật đang xét)? : Vật có những lực "từ xa" nào tác dụng?; Cái gì đang "chạm" TRỰC TIẾP vào vật? Cứ 1 vật chạm vào sẽ sinh ra lực tương ứng; 
+
+
+
 
 ---
 
