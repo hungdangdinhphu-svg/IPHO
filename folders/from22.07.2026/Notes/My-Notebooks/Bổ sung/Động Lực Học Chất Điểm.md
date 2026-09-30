@@ -42,7 +42,9 @@
 
 **Làm sao để biết** vật mà ta đang xét thì ta cần "quan tâm" đến những lực nào (hay lực tác dụng lên vật đang xét)? : Vật có những lực "từ xa" nào tác dụng?; Cái gì đang "chạm" TRỰC TIẾP vào vật? Cứ 1 vật chạm vào sẽ sinh ra lực tương ứng; 
 
+Nhờ quy tắc trên, mà ta có thể tự định nghĩa ra được rất nhiều lực. Khi bạn nắm chắc hai khái niệm "Lực trường" (Từ xa) và "Lực tiếp xúc" (Chạm trực tiếp), bạn hoàn toàn có thể tự định nghĩa hoặc dự đoán được những lực mới, ngay cả khi chưa từng được học công thức hay tên gọi của chúng.
 
+Ví dụ: Cho vật A có vận tốc đang giữ nguyên v_0, vật B với vận tốc rất lớn. Sau đó, vật B va chạm với A, từ đó B nhận 1 lực từ A, A thì tương tự. |**F_AB**| = |**F_BA**|
 
 
 ---
