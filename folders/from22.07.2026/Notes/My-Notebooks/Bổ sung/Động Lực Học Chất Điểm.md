@@ -34,7 +34,8 @@
 
 **Mở rộng:**
 
-Để xác định chiều của lực căng dây T bất kỳ, nhớ một nguyên tắc duy nhất: Lực căng dây luôn là lực KÉO, và nó kéo vật theo hướng dọc theo sợi dây, hướng RA XA vật đang xét.
+Để xác định chiều của lực căng dây T bất kỳ, nhớ một nguyên tắc duy nhất: Lực căng dây luôn là lực KÉO, và nó kéo vật theo hướng dọc theo sợi dây, hướng RA XA vật đang xét. 1 Sợi dây hoàn toàn có thể tồn tại 1 lúc nhiều lực căng dây cho từng vật đang xét, ví dụ trực quan cho từ nay không lú nữa đó là cầm 1 sợi dây, kéo 2 đầu, thì sợi dây sẽ căng ra và giữ lại (ko phải đàn hồi), farewell.
+
 
 
 Để xác định chiều của lực đàn hồi F_hd bất kỳ, nhớ rằng: Lực đàn hồi là một lực "vị kỷ", nó luôn chống lại sự thay đổi để tìm cách đưa về hình dạng ban đầu.
