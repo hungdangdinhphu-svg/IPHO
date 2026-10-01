@@ -110,3 +110,9 @@ Ngta bảo t sẽ quá sức, t sẽ thất bại, ừ thì họ nói đúng r�
 Thay vì t "dùng khả năng ngôn ngữ đó để định hướng cho tương lai" theo cách thông thường như kiểu sẽ tự lập ra 1 cái kế hoạch gì đó TRƯỚC khi t thử làm hết tất cả những thứ đáng quan trọng, thì T ôm hết việc vào người, đảm bảo rằng chăm sóc sức khỏe, ăn uống, ngủ đúng giờ, thì còn lại cứ gồng hết lên, từ thời gian học trên trường, đi toilet,... Well, và nó đã tốt hơn đáng kể, mặc dù chả ai mà t quen hiểu t nói j:p ;
 
 Còn về cái "định hướng cho cảm xúc của họ bằng ngôn ngữ luôn" thì có 1 số ví dụ, kiểu như bị ai đó có "quyền lực cao hơn bản thân đáng kể" tác động, kiểu như ba mẹ chửi, hay thầy cô gì gì đó,... Hoặc là rơi vào 1 tình huống đáng lẽ sẽ căng thẳng, ừ t chả quan tâm. Điều chỉnh cảm xúc để làm j chứ, thật vô dụng, t cứ hold cho t vui vẻ, và t làm tốt hơn nhờ điều đó. Ngta bảo t đang tự ép bản thân, tự trói buộc, lol, họ thì bt j về T, t nghĩ t có thể khá phức tạp, idk.
+
+**Chủ quan 15:**
+
+Lý do thật sự để tôi chọn việc ôn thi HSGQG Lý xuất phát từ 2 lý do lớn chính, 1 là do tôi trượt chuyên, tôi suy sụp, vì lúc này tôi chỉ còn 3 con đường, 1 là chỉ học theo chương trình thông thường và ôn thi Đại học nhưng nếu làm vậy tôi sẽ khóc và chết vì nhớ quá khứ mất, 2 là ôn thi HSGTP nhưng tôi cũng sẽ buồn khủng khiếp, còn con đường cuối cùng là ôn thi HSGQG, tôi vẫn khóc, nhưng ít hơn nhiều, nó như thuốc giảm đau vậy, mặc dù đối với nhiều ng nó là ác mộng; Lý do tôi chọn HSGQG Lý là bởi vì độ khó của nó đủ cao để khiến tôi nhớ về THCS, như sống lại thời đó vậy.
+
+Lý do thứ 2 là vì tôi thật sự thích môn Lý mặc dù tôi ghét nó, tôi thích vũ trụ này.
