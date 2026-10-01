@@ -16,7 +16,7 @@ https://fs.blog/first-principles/ ; https://en.wikipedia.org/wiki/Mentalization 
 
 Tôi toàn học theo kiểu Biết rõ một THỨ GÌ ĐÓ nào đó đúng trong phạm vi, cực kỳ chặt chẽ. Từ đó tôi dùng khả năng nó để nhảy lên học những thứ trừu tượng, cao hơn, vượt chương trình, mà không cần phải học từ nền tảng đi lên, đơn giản bởi vì tôi biết rõ phạm vi mà công cụ đó đúng, tôi thừa hiểu rằng học từ cơ bản đi lên chắc hẳn tốt hơn, nhưng trong nhiều trường hợp, cực kỳ phổ biến, khi tôi đọc 1 quyển sách hay gì đó, nếu tôi lại cứ phải lôi từng thuật ngữ ra học từ dưới đi lên, rồi những thứ nền tảng trước, tôi sẽ quá mất thời gian, và kỹ năng này mặc dù có thể bạn sẽ chê nó, nhưng tôi thấy nó thật sự đáng luyện tập, vì để học được như vậy không dễ đâu, học từ cơ bản lên sẽ dễ hơn cực kỳ nhiều.
 
-Nghe có thể lạ, nhưng tôi thật sự thấy cần học Lý Thuyết Thông Tin và Bản Chất Của Thông Tin cũng như hiểu rằng Toán Học là công cụ chặt chẽ nhất mà con người dùng để khai thác thông tin, cách thông tin trong toán học hoạt động như nào, và đặc biệt là **Triết học** trước khi học Vật Lý lẫn Toán, kiểu vậy:))
+Nghe có thể lạ, nhưng tôi thật sự thấy cần học Lý Thuyết Thông Tin và Bản Chất Của Thông Tin cũng như hiểu rằng Toán Học là công cụ chặt chẽ nhất mà con người dùng để khai thác thông tin, cách thông tin trong toán học hoạt động như nào, và đặc biệt là **Triết học** trước khi học Vật Lý lẫn Toán, kiểu vậy:)); nghĩ lại cũng ảo, từ lúc chơi giải toán đố là cố phá Lossless Data Compression Theory để xem coi lý thuyết này chắc cỡ nào, cuối cùng thì lại 1 đống hệ quả ko ngờ tới:\
 
 # Author
 
