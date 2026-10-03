@@ -65,6 +65,13 @@ Nghiệm: $v(t) = \dfrac{mg}{\gamma}\left(1 - e^{-\gamma t/m}\right)$ với $v(0
 > (b) *đẳng cấp (homogeneous of degree 0)*: $y' = F(y/x)$.
 > Tài liệu này dùng **"thuần nhất"** cho (a) và **"đẳng cấp"** cho (b).
 
+Một hệ phương trình vi phân cấp bất kỳ (hoặc một phương trình vi phân cấp cao) có biến độc lập là \(t\) và các hàm ẩn cần tìm là \(y_1(t), y_2(t), \dots, y_n(t)\) được gọi là tự trị (autonomous) nếu nó có thể biểu diễn dưới dạng:
+
+\(F\big(y_{1},y_{2},\dots ,y_{n},\;y_{1}^{\prime },y_{2}^{\prime },\dots ,y_{n}^{\prime },\;\dots ,\;y_{1}^{(k)},y_{2}^{(k)},\dots ,y_{n}^{(k)}\big)=0\)
+
+Hàm toán học \(F\) này nhận đầu vào là các hàm ẩn \(y_{i}\) và tất cả các cấp đạo hàm của chúng (\(y', y'', \dots, y^{(k)}\)). Trong danh sách các đối số đầu vào của hàm \(F\), tuyệt đối không có sự xuất hiện của biến độc lập \(t\) đứng một mình.
+
+
 ## A.3. Vì sao Cơ học luôn là bậc 2, và số hằng số = bậc
 
 Định luật II Newton $m\ddot x = F$ chứa $\ddot x$, nên bậc 2. Để dự đoán chuyển động, bạn cần **hai** dữ kiện đầu: $x(0)$ và $\dot x(0)$. Đây không phải trùng hợp.
