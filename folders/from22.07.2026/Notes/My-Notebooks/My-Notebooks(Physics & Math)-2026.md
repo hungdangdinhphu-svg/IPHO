@@ -111,7 +111,7 @@ Bằng cách lấy đạo hàm theo thời gian t (áp dụng quy tắc đạo h
 
 \ddot{x} 
 
-\ddot{r} 
+\ddot{y} 
 
 (Ký hiệu dấu chấm trên đầu: ṙ = r', r̈ = r'', θ̇ = θ', θ̈ = θ'')
 
@@ -119,7 +119,35 @@ Cách gộp để ra 2 phương trình vi phân theo r và θ:
 
 Phương trình số 1 (Chiếu lên phương bán kính r), Bạn lấy biểu thức của ẍ nhân với \(\cos\theta\), rồi cộng với biểu thức của ÿ nhân với \(\sin\theta\)
 
-Tức: \[\"{x}\cos \theta +\"{y}\sin \theta = ....
+Tức: \ddot{x}cos(theta) + \ddot{y}cos(theta) = ... (Vế phải)
+
+Vế phải chính là thành phần vi phân theo trục r.
+
+Phương trình số 2 (Chiếu lên phương vuông góc θ):
+
+Bạn lấy biểu thức của ÿ nhân với \(\cos\theta\), rồi trừ đi biểu thức của ẍ nhân với \(\sin\theta\);
+
+Thì Vế phải của điều đó chính là thành phần vi phân theo trục θ.
+
+Xét một cách tổng quát nhất, những gì bạn vừa làm chính là phép Biến đổi tọa độ trong Phương trình vi phân (Transformation of Coordinates in Differential Equations)
+
+Bản chất của phương pháp này gồm 3 cốt lõi toán học sau:
+
+1. Đổi biến số (Change of Variables)
+
+Bạn đang dịch chuyển góc nhìn từ thế giới vuông phẳng của Descartes \((x, y)\) sang thế giới xoay tròn của tọa độ cực \((r, \theta)\). Trong toán giải tích nâng cao, đây là phép đổi biến thông qua một phép ánh xạ ngược (Diffeomorphism): \((x,y)=\Phi (r,\theta )=(r\cos \theta ,r\sin \theta )\)
+
+2. Ráp ma trận Jacobian và vi phân hàm hợp (Chain Rule)
+
+Khi bạn lấy đạo hàm cấp 1 và cấp 2 (\(\dot{x}, \dot{y}, \ddot{x}, \ddot{y}\)) theo cách tôi hướng dẫn ở câu trước, thực chất bạn đang áp dụng Định lý đạo hàm hàm hợp nhiều biến dựa trên ma trận chuyển cơ sở (Jacobian). Việc bạn nhân thêm \(\cos\theta\) hay \(\sin\theta\) rồi cộng trừ lại với nhau chính là phép chiếu vector từ hệ cơ sở đứng yên \(\{\vec{i}, \vec{j}\}\) sang hệ cơ sở quay \(\{\vec{e}_r, \vec{e}_\theta\}\). 
+
+3. Thu gọn bậc tự do (Reduction of Degrees of Freedom)
+
+Nhiều bài toán chuyển động cong (như hành tinh quay quanh mặt trời, con lắc, hạt chạy trong rãnh tròn) nếu giải bằng \(x, y\) thì phương trình cực kỳ cồng kềnh vì \[x\] và \[y\] biến thiên rất phức tạp.Nhưng khi đổi sang hệ tọa độ cực, phương trình vi phân tự động bộc lộ các đại lượng bảo toàn (như momen động lượng, năng lượng toàn phần) giúp việc giải phương trình vi phân sau này trở nên dễ dàng hơn rất nhiều. 
+
+Đây là phương pháp "Mượn đường Descartes, định hình Tọa độ cực". Bạn mượn hệ thức \(x, y\) để lấy đạo hàm cho chuẩn xác, sau đó dùng phép chiếu hình học để gom chúng lại thành 2 phương trình vi phân thuần túy theo \[r\] và \[\theta \]. 
+
+
 
 
 
