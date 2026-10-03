@@ -18,7 +18,7 @@ Tôi toàn học theo kiểu Biết rõ một THỨ GÌ ĐÓ nào đó đúng tr
 
 Nghe có thể lạ, nhưng tôi thật sự thấy cần học Lý Thuyết Thông Tin và Bản Chất Của Thông Tin cũng như hiểu rằng Toán Học là công cụ chặt chẽ nhất mà con người dùng để khai thác thông tin, cách thông tin trong toán học hoạt động như nào, và đặc biệt là **Triết học** trước khi học Vật Lý lẫn Toán, kiểu vậy:)); nghĩ lại cũng ảo, từ lúc chơi giải toán đố là cố phá Lossless Data Compression Theory để xem coi lý thuyết này chắc cỡ nào, cuối cùng thì lại 1 đống hệ quả ko ngờ tới:\
 
-Vì thật sự **Triết học** nó là nền tảng của Khoa Học Cơ Bản, như việc cách các researchers tư duy trong việc tạo ra cách mạng hay đột phá đều dựa trên Triết Học rất nặng.
+Vì thật sự **Triết học** nó là nền tảng của Khoa Học Cơ Bản, như việc cách các researchers tư duy trong việc tạo ra cách mạng hay đột phá đều dựa trên Triết Học rất nặng. Cuốn sách vĩ đại nhất lịch sử khoa học của Isaac Newton không phải tên là "Nguyên lý Vật lý" hay "Công thức Toán học", mà tên gốc của nó là "Philosophiae Naturalis Principia Mathematica" — dịch ra chính xác là "Các Nguyên lý Toán học của Triết học Tự nhiên".
 
 Câu chuyện của tôi thật ra khá lạ, nhưng tôi thấy nó khá đúng và lý do hợp lý. Tôi bắt đầu từ lúc còn ở cấp 1, lúc đó có kênh https://www.youtube.com/@FlightSimulatorVIETNAM làm khá sâu về Airbus với Boeing ở VN, lúc đó dĩ nhiên tôi còn quá nhỏ, cơ mà đây là lần đầu tiên tôi thật sự hứng thú và nghiên cứu sâu, dù nó chỉ đơn giản là xem video rồi tự nghĩ xem ngoài đời như nào.
 
