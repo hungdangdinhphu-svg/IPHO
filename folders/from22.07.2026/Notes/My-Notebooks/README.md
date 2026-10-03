@@ -13,3 +13,5 @@ Một số bài tập quan trọng tôi đã làm: https://github.com/hungdangdi
 +) Phải biết cách giải hệ phương trình n ẩn n phương trình (n = m, nhưng n > 4, tức là Casio Fx580VNX không hỗ trợ, phải dùng khử Gauss)
 
 +) Phải biết cách xử lý hệ phương trình n ẩn m phương trình (Với n > m hoặc n < m)
+
++) Hiểu sâu sắc Đại Số Tuyến Tính, Đồng Nhất Thức khác với Phương Trình, Định thức, Tham số và Biến số khác nhau.
