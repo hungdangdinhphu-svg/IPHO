@@ -97,6 +97,32 @@ Cận trên: Tương ứng với Trạng thái kết thúc (thường là dạng
 
 +) VECTOR LÀ ĐẠI LƯỢNG CÓ HƯỚNG, CÓ THỂ ÂM, làm ơn tự phản biện chính mình xem coi đại lượng đó có âm không đi:(, nhanh dần đều, chậm dần đều các kiểu,...
 
+**+) Phương pháp lập phương trình vi phân chuyển từ hệ Descartes sang Cực (Transformation of Coordinates in Differential Equations):**
+
+Để đưa bài toán từ hệ tọa độ Descartes (x, y) sang hệ tọa độ cực (r,theta) mà không cần phải tách thành 2 trục x, y nữa, bạn hãy dùng bộ công thức chuyển đổi đạo hàm chuẩn dưới đây.
+
+Bằng cách lấy đạo hàm theo thời gian t (áp dụng quy tắc đạo hàm của tích và hàm hợp), ta thu được các thành phần vận tốc và gia tốc được dịch sang tiếng ngôn ngữ của r và θ như sau:
+
+\dot{x}
+
+\dot{y}
+
+Đây là thứ quan trọng nhất để lập PTVP: 
+
+\ddot{x} 
+
+\ddot{r} 
+
+(Ký hiệu dấu chấm trên đầu: ṙ = r', r̈ = r'', θ̇ = θ', θ̈ = θ'')
+
+Cách gộp để ra 2 phương trình vi phân theo r và θ:
+
+Phương trình số 1 (Chiếu lên phương bán kính r), Bạn lấy biểu thức của ẍ nhân với \(\cos\theta\), rồi cộng với biểu thức của ÿ nhân với \(\sin\theta\)
+
+Tức: \[\"{x}\cos \theta +\"{y}\sin \theta = ....
+
+
+
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/C%C6%A1%20h%E1%BB%8Dc%20v%E1%BA%ADt%20r%E1%BA%AFn%2C%20l%C3%BD%20thuy%E1%BA%BFt%2C%20ch%E1%BA%A5t%20l%C6%B0u.md
