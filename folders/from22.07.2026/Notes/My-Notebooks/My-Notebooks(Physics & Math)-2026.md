@@ -153,6 +153,8 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-
 
 Cramer hoặc khử Gauss.
 
+Vấn đề lớn là chỉ cần nhầm dấu hay lỗi nhỏ thôi là sập toàn bộ rồi, và không cứu được.
+
 
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
