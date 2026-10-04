@@ -46,6 +46,21 @@ Trường hợp 3: $D = 0$ và $D_1 = D_2 = \dots = D_n = 0$
 Hệ phương trình có thể vô nghiệm hoặc vô số nghiệm (cần dùng phương pháp khử Gauss hoặc xét hạng ma trận $\text{rank}(A)$ và $\text{rank}(A\vert{}B)$ để kết luận).
 
 
+**Công thức tổng quát cho cấp \(n \times n\) (Khai triển Laplace)**
+
+Khi định thức có cấp lớn hơn (\(3 \times 3, 4 \times 4\)), người ta dùng thuật toán hạ cấp bằng cách khai triển theo một dòng hoặc một cột bất kỳ (thường chọn dòng/cột có nhiều số 0 hoặc hệ số đơn giản nhất).
+
+Khai triển theo dòng \(i\):
+
+
+\(\det (A)=\sum _{j=1}^{n}a_{ij}\cdot (-1)^{i+j}\cdot M_{ij}\)
+
+
+• \(a_{ij}\): Phần tử tại dòng \(i\), cột \(j\).
+
+• \((-1)^{i+j}\): Dấu vị trí (đan xen dấu \(\pm \) kiểu bàn cờ ca-rô).
+
+• \(M_{ij}\): Định thức con cấp \((n-1)\) có được sau khi xóa bỏ hoàn toàn dòng \(i\) và cột \(j\).
 
 
 
