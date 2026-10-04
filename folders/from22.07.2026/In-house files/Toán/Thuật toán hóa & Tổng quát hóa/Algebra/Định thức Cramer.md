@@ -1,6 +1,6 @@
 https://share.gemini.google/SfRIcoR4IszO
 
-Trong toán học, khi bạn đã có một hệ phương trình tuyến tính theo các ẩn cần tìm, tôi đề xuất Cramer.
+Trong toán học, khi bạn đã có một hệ phương trình tuyến tính theo các ẩn cần tìm (2 hoặc 3 ẩn), tôi đề xuất Cramer. Còn nếu nhiều ẩn thì nên xài khử Gauss.
 
 **Áp dụng được cho mọi hệ phương trình bậc nhất nhiều ẩn.** Đừng quên nhé, không thì dễ tạch.
 
