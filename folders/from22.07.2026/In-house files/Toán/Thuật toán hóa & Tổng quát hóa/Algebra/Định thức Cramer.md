@@ -1,3 +1,5 @@
+https://share.gemini.google/SfRIcoR4IszO
+
 Trong toán học, khi bạn đã có một hệ phương trình tuyến tính theo các ẩn cần tìm, tôi đề xuất Cramer.
 
 **Áp dụng được cho mọi hệ phương trình bậc nhất nhiều ẩn.** Đừng quên nhé, không thì dễ tạch.
