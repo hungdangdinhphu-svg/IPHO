@@ -147,7 +147,11 @@ Nhiều bài toán chuyển động cong (như hành tinh quay quanh mặt trờ
 
 Đây là phương pháp "Mượn đường Descartes, định hình Tọa độ cực". Bạn mượn hệ thức \(x, y\) để lấy đạo hàm cho chuẩn xác, sau đó dùng phép chiếu hình học để gom chúng lại thành 2 phương trình vi phân thuần túy theo \[r\] và \[\theta \]. 
 
+**Khi mà ta thừa biết rằng phương trình đó có thể chuyển về dạng phương trình vi phân chuẩn, ta có công cụ mạnh nào giảm thiểu trực giác?:**
 
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20&%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a/Algebra/%C4%90%E1%BB%8Bnh%20th%E1%BB%A9c%20Cramer.md
+
+Cramer hoặc khử Gauss.
 
 
 
