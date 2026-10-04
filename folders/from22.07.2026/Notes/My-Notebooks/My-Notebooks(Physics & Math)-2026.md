@@ -155,6 +155,20 @@ Cramer hoặc khử Gauss.
 
 Vấn đề lớn là chỉ cần nhầm dấu hay lỗi nhỏ thôi là sập toàn bộ rồi, và không cứu được.
 
+Lời khuyên là cứ giải theo cách rút - thế thông thường, nhưng mà nếu số ẩn lớn hơn 3 thì....
+
+Với hệ 2 ẩn ($2 \times 2$), rút - thế là trùm. Nhưng hãy tưởng tượng một hệ 4 ẩn hoặc 5 ẩn trong các bài toán Cơ học lý thuyết, Mạch điện phức tạp, hay Quang học:
+
+$$\begin{cases}  a_{11}x + a_{12}y + a_{13}z + a_{14}w = b_1 \\ a_{21}x + a_{22}y + a_{23}z + a_{24}w = b_2 \\ a_{31}x + a_{32}y + a_{33}z + a_{34}w = b_3 \\ a_{41}x + a_{42}y + a_{43}z + a_{44}w = b_4  \end{cases}$$
+
+Rút - thế: Bạn sẽ phải rút $w$ thế vào 3 phương trình còn lại, rồi rút $z$ thế vào 2 phương trình... Biểu thức sẽ "phình to" theo cấp số nhân, vỡ trận ngay từ bước thứ 2.
+
+Cramer: Vẫn tuân theo đúng 1 quy tắc duy nhất: tính 5 cái định thức cấp 4 (hoặc bấm máy tính/viết code tìm $\det$). Bất chấp hệ cồng kềnh ra sao, cách làm không bao giờ thay đổi.
+
+Cramer cho phép viết ngay nghiệm $x_i$ dưới dạng một phân thức của các định thức. Từ đó, nhà vật lý có thể phân tích ngay điều kiện tồn tại nghiệm (khi nào $\det(A) = 0$ — hiện tượng cộng hưởng, điểm kỳ dị...) mà không cần phải giải chi tiết từng bước.
+
+tóm lại: Nó phế với người giải tay hệ $2 \times 2$, nhưng là bá chủ về mặt thuật toán tổng quát và lập trình tính toán.
+
 
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
