@@ -84,6 +84,12 @@ Khi bài cho PTVP bậc 2 mà chỉ có **một** điều kiện, nghiệm sẽ 
 
 Với $y' = f(x,y)$, tại mỗi điểm $(x,y)$ ta vẽ một đoạn nhỏ có hệ số góc $f(x,y)$. Tập mọi đoạn đó là **trường hướng**. Nghiệm là **đường cong luôn tiếp xúc** với các đoạn đó ("đi theo dòng chảy").
 
+Tức hàm f(x,y) tại mỗi điểm (x,y), hàm sẽ trả về giá trị đạo hàm của hàm y tại điểm (x,y) tương ứng.
+
+"Mỗi đường cong tích phân (integral curve) liên tục trên trường hướng (slope field) của phương trình vi phân y' = f(x,y) chính là đồ thị biểu diễn cho 1 nghiệm riêng y = g(x) của phương trình đó."
+
+Hàm f(x,y) = y' mang thông tin về độ dốc f(x,y) hay y' và mang thông tin về tọa độ x,y;
+
 Hệ quả quan trọng:
 - Qua mỗi điểm (thông thường) có **đúng một** đường nghiệm → các đường nghiệm **không cắt nhau**.
 - **Đường đẳng độ nghiêng** (isocline) $f(x,y)=k$ giúp phác thảo nghiệm không cần giải.
