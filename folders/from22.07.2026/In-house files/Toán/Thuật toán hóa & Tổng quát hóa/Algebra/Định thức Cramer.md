@@ -62,9 +62,32 @@ Khai triển theo dòng \(i\):
 
 • \(M_{ij}\): Định thức con cấp \((n-1)\) có được sau khi xóa bỏ hoàn toàn dòng \(i\) và cột \(j\).
 
+**📝 Ví dụ**
 
+Giả sử sau khi đạo hàm cồng kềnh, bạn ra được hệ phương trình như sau:
 
+1. \(\cos\theta \cdot \dot{r} - r\sin\theta \cdot \dot{\theta} = v - v_0\)
+2. \(\sin\theta \cdot \dot{r} + r\cos\theta \cdot \dot{\theta} = 0\)
 
+Áp dụng máy móc thuật toán Cramer:
+
+• Các ẩn: \(X = \dot{r}\), \(Y = \dot{\theta}\).
+• Các hệ số:
+	• \(A_1 = \cos\theta\), \(B_1 = -r\sin\theta\), \(C_1 = v - v_0\)
+	• \(A_2 = \sin\theta\), \(B_2 = r\cos\theta\), \(C_2 = 0\)
+  
+Bật chế độ tính toán:
+1. Tính \(D\):
+\(D=(\cos \theta )(r\cos \theta )-(\sin \theta )(-r\sin \theta )=r\cos ^{2}\theta +r\sin ^{2}\theta =r(\cos ^{2}\theta +\sin ^{2}\theta )=r\)
+2. Tính \(D_{r}\):
+\(D_{r}=(v-v_{0})(r\cos \theta )-(0)(-r\sin \theta )=(v-v_{0})r\cos \theta \)
+3. Tính \(D_{\theta }\):
+\(D_{\theta }=(\cos \theta )(0)-(\sin \theta )(v-v_{0})=-(v-v_{0})\sin \theta \)
+
+Rút ra kết quả cuối cùng:
+
+\(\.{r}=\frac{D_{r}}{D}=\frac{(v-v_{0})r\cos \theta }{r}=(v-v_{0})\cos \theta \)
+\(\.{\theta }=\frac{D_{\theta }}{D}=\frac{-(v-v_{0})\sin \theta }{r}\)
 
 
 
