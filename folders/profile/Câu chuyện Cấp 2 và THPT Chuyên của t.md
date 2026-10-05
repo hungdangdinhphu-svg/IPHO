@@ -1,3 +1,5 @@
+https://youtu.be/yyV4xXbuhHg
+
 Giả định có 1 người tên t (hay T). Giả định có 1 người tên A (hay a). Giả định có 1 người tên S (hay s).
 
 Những đoạn nào t nêu những suy nghĩ chủ quan của t thì t sẽ đánh dấu. T sẽ cố gắng giữ cho mọi thứ khách quan và dựa trên bằng chứng. Tuy vậy, vẫn có thể có những sai sót, có thể là lỗi logic hay thậm chí là lỗi nghiêm trọng, dù t đã cố gắng. Xin cảm ơn!
