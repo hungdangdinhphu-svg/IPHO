@@ -8,6 +8,8 @@ Trong tự nhiên, vận tốc (hoặc tốc độ thay đổi) thường không
 
 • Phương trình: Đạo hàm của vận tốc (gia tốc \(v^{\prime }\)) bằng:
 \(v^{\prime }=g-k\cdot v\)
+
+
 • Rắc rối xuất hiện: Để tìm được vận tốc \(v\), bạn nghĩ đến việc lấy tích phân hai vế: \(v = \int (g - k \cdot v) dt\). Nhưng bạn không thể tính được tích phân này, vì bên trong dấu tích phân có chứa chữ \(v\) — chính là thứ mà bạn chưa biết và đang đi tìm! Bạn không thể lấy tích phân của một hàm số theo biến \(t\) khi chính hàm số đó đang biến đổi.
 
 
