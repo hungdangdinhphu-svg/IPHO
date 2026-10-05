@@ -196,6 +196,10 @@ Bậc 1
 
 **Thứ tự thử khuyến nghị** (từ rẻ đến đắt): trực tiếp → tách biến → tuyến tính → đẳng cấp → Bernoulli → toàn phần → thừa số tích phân → thế khác. Nhiều PTVP **thuộc nhiều dạng** cùng lúc (ví dụ $y'=y(1-y)$ vừa tách biến vừa Bernoulli); chọn dạng dễ tính nhất.
 
+Theo tôi, HSGQG Lý nên chủ yếu mấy thứ này: Tách biến (D.2), Tuyến tính bậc 1 (D.3), Bernoulli (D.6), Tích phân trực tiếp (D.1);
+
+
+
 ## C.3. Cây quyết định cho bậc 2: $F(x,y,y',y'')=0$
 
 ```
@@ -216,6 +220,8 @@ Bậc 2
     ├─ Vế trái là đạo hàm đúng d/dx[Φ(x,y,y')]    → E.1.e  Tích phân một lần
     └─ Còn lại:                                    → G (mặt phẳng pha, tuyến tính hóa, số)
 ```
+
+Theo tôi, HSGQG Lý nên chủ yếu mấy thứ này: Tuyến tính hệ số hằng - Thuần nhất (E.2), Tuyến tính hệ số hằng - Không thuần nhất (E.3), Phi tuyến - Vắng x (E.1.b / E.1.c)
 
 ---
 
