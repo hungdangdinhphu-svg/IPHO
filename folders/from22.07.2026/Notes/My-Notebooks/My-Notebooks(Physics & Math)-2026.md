@@ -169,6 +169,9 @@ Cramer cho phép viết ngay nghiệm $x_i$ dưới dạng một phân thức c�
 
 tóm lại: Nó phế với người giải tay hệ $2 \times 2$, nhưng là bá chủ về mặt thuật toán tổng quát và lập trình tính toán.
 
+**Vector và số vô hướng:**
+
+Tôi ghét việc dùng vector, nên chuyển tất cả về số vô hướng. Một số phương pháp như phân tích lực, hoặc đơn giản là kệ vector đi, hãy dùng số vô hướng.
 
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
