@@ -173,6 +173,8 @@ tóm lại: Nó phế với người giải tay hệ $2 \times 2$, nhưng là b�
 
 Tôi ghét việc dùng vector, nên chuyển tất cả về số vô hướng. Một số phương pháp như phân tích lực, hoặc đơn giản là kệ vector đi, hãy dùng số vô hướng.
 
+Còn nếu phải xài vector, nhớ là làm cực kỳ kỹ, từ dưới đi lên, làm ơn đừng làm tắt. Chẳng hạn như công thức tính vận tốc, hãy vẽ hình ảnh các vector độ dịch chuyển ra, rồi áp dụng các phép toán, bạn sẽ bất ngờ đấy. Nên nhớ rằng vector bẫy rất kinh khủng.
+
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
