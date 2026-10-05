@@ -1,4 +1,4 @@
-Nếu thấy cuộc sống như cuộc đời, thấy bản thân không còn muốn tồn tại nữa, hãy xem video này : https://youtu.be/p_di4Zn4wz4
+Nếu thấy cuộc sống như cuộc đời, thấy bản thân không còn muốn tồn tại nữa, hãy xem video này : https://youtu.be/p_di4Zn4wz4 ; https://www.youtube.com/watch?v=p_di4Zn4wz4&list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6
 
 Tại sao Vũ trụ lại chọn cách vận hành "cục bộ"? Bởi vì có một giới hạn tốc độ tuyệt đối trong vũ trụ này: Tốc độ ánh sáng (c). [1] Không có một thông tin hay lực nào có thể truyền đi nhanh hơn tốc độ ánh sáng. Vì vậy, một vật ở điểm A không thể nào biết được vật ở điểm B (cách đó 1 năm ánh sáng) đang làm gì để mà thay đổi theo. Cách duy nhất để điểm A bị ảnh hưởng là điểm B phải gửi một "tín hiệu" (như ánh sáng, sóng hấp dẫn) đi xuyên qua các điểm không gian trung gian để đến được chỗ A.
 
