@@ -12,7 +12,16 @@ Trong tự nhiên, vận tốc (hoặc tốc độ thay đổi) thường không
 
 • Rắc rối xuất hiện: Để tìm được vận tốc \(v\), bạn nghĩ đến việc lấy tích phân hai vế: \(v = \int (g - k \cdot v) dt\). Nhưng bạn không thể tính được tích phân này, vì bên trong dấu tích phân có chứa chữ \(v\) — chính là thứ mà bạn chưa biết và đang đi tìm! Bạn không thể lấy tích phân của một hàm số theo biến \(t\) khi chính hàm số đó đang biến đổi.
 
+@3blue1brown:
 
+```txt
+
+Some notes on the intended use of this series.  I was deliberate in using the phrase "tour of differential equations", as opposed to "introduction to" or "essence of".  I think of the relationship between watching this series and taking a course as being analogous to the relationship between touring a city vs. living in it.  You'll certainly see a lot less with the tour since you're spending less time overall, but the goal will be to walk around some of the most noteworthy monuments and town centers with helpful context given to you by a guide.  And just as someone who lives in a city may very well have never gone to visit some of the historical sites of their town, despite living there for years, many differential equations students may not always get the chance to zoom out and appreciate the central cornerstones of the subject amidst all the computations they are learning.
+
+
+I hope you enjoy the tour, but at the same time know that it is, by design, very different from taking courses on the subject.
+
+```
 
 
 # Phương trình vi phân (PTVP) bậc 1 và bậc 2: từ bản chất đến thuật toán
