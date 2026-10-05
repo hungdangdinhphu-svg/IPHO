@@ -1,5 +1,18 @@
 Nếu thấy cuộc sống như cuộc đời, thấy bản thân không còn muốn tồn tại nữa, hãy xem video này : https://youtu.be/p_di4Zn4wz4
 
+Tại sao Vũ trụ lại chọn cách vận hành "cục bộ"? Bởi vì có một giới hạn tốc độ tuyệt đối trong vũ trụ này: Tốc độ ánh sáng (c). [1] Không có một thông tin hay lực nào có thể truyền đi nhanh hơn tốc độ ánh sáng. Vì vậy, một vật ở điểm A không thể nào biết được vật ở điểm B (cách đó 1 năm ánh sáng) đang làm gì để mà thay đổi theo. Cách duy nhất để điểm A bị ảnh hưởng là điểm B phải gửi một "tín hiệu" (như ánh sáng, sóng hấp dẫn) đi xuyên qua các điểm không gian trung gian để đến được chỗ A.
+
+Và đó là lý do vì sao chúng ta cần Phương trình vi phân (PTVP), Bởi vì PTVP sinh ra là để viết lại các quy luật cục bộ này dưới dạng toán học.
+
+Trong tự nhiên, vận tốc (hoặc tốc độ thay đổi) thường không phụ thuộc vào thời gian \(t\), mà nó phụ thuộc vào trạng thái hiện tại của vật thể. Vì thế nên ta không thể cứ đơn giản là tích phân bừa bãi được. Ví dụ: 
+
+• Phương trình: Đạo hàm của vận tốc (gia tốc \(v^{\prime }\)) bằng:
+\(v^{\prime }=g-k\cdot v\)
+• Rắc rối xuất hiện: Để tìm được vận tốc \(v\), bạn nghĩ đến việc lấy tích phân hai vế: \(v = \int (g - k \cdot v) dt\). Nhưng bạn không thể tính được tích phân này, vì bên trong dấu tích phân có chứa chữ \(v\) — chính là thứ mà bạn chưa biết và đang đi tìm! Bạn không thể lấy tích phân của một hàm số theo biến \(t\) khi chính hàm số đó đang biến đổi.
+
+
+
+
 # Phương trình vi phân (PTVP) bậc 1 và bậc 2: từ bản chất đến thuật toán
 
 > **Dành cho:** học sinh đã có nền Toán (đạo hàm, tích phân, số phức cơ bản) và đang học Vật Lý ở mức HSGQG, VPHO, IPHO.
