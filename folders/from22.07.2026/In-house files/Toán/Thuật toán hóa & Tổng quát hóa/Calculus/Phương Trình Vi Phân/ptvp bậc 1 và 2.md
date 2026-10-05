@@ -1,3 +1,5 @@
+Nếu thấy cuộc sống như cuộc đời, thấy bản thân không còn muốn tồn tại nữa, hãy xem video này : https://youtu.be/p_di4Zn4wz4
+
 # Phương trình vi phân (PTVP) bậc 1 và bậc 2: từ bản chất đến thuật toán
 
 > **Dành cho:** học sinh đã có nền Toán (đạo hàm, tích phân, số phức cơ bản) và đang học Vật Lý ở mức HSGQG, VPHO, IPHO.
