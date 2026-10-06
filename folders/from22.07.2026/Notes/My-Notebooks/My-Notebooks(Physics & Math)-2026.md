@@ -175,6 +175,10 @@ Tôi ghét việc dùng vector, nên chuyển tất cả về số vô hướng.
 
 Còn nếu phải xài vector, nhớ là làm cực kỳ kỹ, từ dưới đi lên, làm ơn đừng làm tắt. Chẳng hạn như công thức tính vận tốc, hãy vẽ hình ảnh các vector độ dịch chuyển ra, rồi áp dụng các phép toán, bạn sẽ bất ngờ đấy. Nên nhớ rằng vector bẫy rất kinh khủng.
 
+**Về việc cày 1 bài, mà muốn đớp nhiều nhất, tôi có 1 ví dụ:**
+
+Hãy dạy tôi mọi thứ về phương trình vi phân mà tôi cần biết để có nền tảng toán giải bài này (đừng cung cấp tôi lời giải của bài này). Và hãy tổng quát và đầy đủ nó lên thành những kiến thức phương trình vi phân tôi cần biết để thi HSGQG Lý.
+
 
 ### Cơ Học Vật Rắn, Lý Thuyết, Chất Lưu
 
