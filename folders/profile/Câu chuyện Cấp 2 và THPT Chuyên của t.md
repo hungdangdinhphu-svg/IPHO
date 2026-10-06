@@ -118,3 +118,8 @@ Còn về cái "định hướng cho cảm xúc của họ bằng ngôn ngữ lu
 Lý do thật sự để tôi chọn việc ôn thi HSGQG Lý xuất phát từ 2 lý do lớn chính, 1 là do tôi trượt chuyên, tôi suy sụp, vì lúc này tôi chỉ còn 3 con đường, 1 là chỉ học theo chương trình thông thường và ôn thi Đại học nhưng nếu làm vậy tôi sẽ khóc và chết vì nhớ quá khứ mất, 2 là ôn thi HSGTP nhưng tôi cũng sẽ buồn khủng khiếp, còn con đường cuối cùng là ôn thi HSGQG, tôi vẫn khóc, nhưng ít hơn nhiều, nó như thuốc giảm đau vậy, mặc dù đối với nhiều ng nó là ác mộng; Lý do tôi chọn HSGQG Lý là bởi vì độ khó của nó đủ cao để khiến tôi nhớ về THCS, như sống lại thời đó vậy.
 
 Lý do thứ 2 là vì tôi thật sự thích môn Lý mặc dù tôi ghét nó, tôi thích vũ trụ này.
+
+
+**Khách quan 16:** 
+
+À với cả còn vụ t trượt chuyên, t có thử làm lại đề đó rồi, vào 06/10/2026, và wow, lúc t làm lại là lúc t đã học lại cơ chất điểm, và đề dễ gần chết, t tốn có 15s nhẩm ra gần hết mặt đầu tiên, bruh. Nói chung chắc t phải full điểm cái đề đó hoặc gần full, damn dễ khủng khiếp kkk https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Collection%20of%20tests/HCM-tests/Chuy%C3%AAn%20L%C3%BD%202026%20HCM/README.md
