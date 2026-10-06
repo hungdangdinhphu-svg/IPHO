@@ -240,7 +240,7 @@ Bậc 1
 
 **Thứ tự thử khuyến nghị** (từ rẻ đến đắt): trực tiếp → tách biến → tuyến tính → đẳng cấp → Bernoulli → toàn phần → thừa số tích phân → thế khác. Nhiều PTVP **thuộc nhiều dạng** cùng lúc (ví dụ $y'=y(1-y)$ vừa tách biến vừa Bernoulli); chọn dạng dễ tính nhất.
 
-Theo tôi, HSGQG Lý nên chủ yếu mấy thứ này: Tách biến (D.2), Tuyến tính bậc 1 (D.3), Bernoulli (D.6), Tích phân trực tiếp (D.1);
+Theo tôi, HSGQG Lý nên chủ yếu mấy thứ này: Tách biến (D.2), Tuyến tính bậc 1 (D.3), Bernoulli (D.6), Tích phân trực tiếp (D.1); PTVP đẳng cấp (Homogeneous Equations); PTVP toàn phần (Exact Equations) & Thừa số tích phân;
 
 
 
