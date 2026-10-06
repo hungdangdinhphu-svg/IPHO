@@ -156,6 +156,12 @@ Khác với phương trình bậc 2 đại số, **không có thuật toán vạ
 
 Theo ngôn ngữ của bạn: mỗi phương pháp $\ell$ có $\mathrm{Pre}(\ell)$ (điều kiện nhận diện), $\mathrm{Post}(\ell)$ (nghiệm). Tài liệu này là **thư viện precondition** cho PTVP bậc 1, 2.
 
+## Bổ sung.
+
+Tôi ghét các cách giáo dục ngày nay viết ký hiệu, thách thức và làm người mới hiểu sai, thậm chí lâu năm.
+
+1. Việc viết y' rồi giải thích như kiểu cái đạo hàm y này chỉ phụ thuộc vào chính nó, hay y; Cực kỳ vô lý với cách giải thích này cho người mới, ai hiểu được? Bởi vì đạo hàm là phải "phụ thuộc" vào 2 thứ, làm gì có vụ dy/dy? Chỉ có dy/d?, kiểu như dy/dx; Phải đấy, lẽ ra nên ghi thẳng là dy/dx;
+
 ---
 
 # PHẦN B. TỪ BÀI VẬT LÝ SANG PTVP (VẤN ĐỀ 2)
