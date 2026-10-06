@@ -1,3 +1,21 @@
+https://chat.deepseek.com/share/56odi3wvppfmi15bah
+
+```txt
+
+Hãy dạy tôi lại từ đầu (A->Z) đầy đủ 100% về, nhưng làm ơn hạn chế việc dùng tham số (trừ biến thời gian t), hãy biểu diễn mọi thứ theo hàm, chi tiết nhất có thể nhé, dùng ký hiệu của Leibniz, đừng viết tắt! Đảm bảo dạy tôi cực kỳ chi tiết để tôi từ 1 học sinh ngu giải tích (đúng hơn là chưa học, do tôi vượt cấp mà) lên được pro PTVP cho HSGQG Vật Lý nhé! : Phương trình vi phân rốt cuộc là gì? Định nghĩa của ptvp? 
+
+Tách biến (D.2), Tuyến tính bậc 1 (D.3), Bernoulli (D.6), Tích phân trực tiếp (D.1); PTVP đẳng cấp (Homogeneous Equations); PTVP toàn phần (Exact Equations) & Thừa số tích phân;
+
+Tuyến tính hệ số hằng - Thuần nhất (E.2), Tuyến tính hệ số hằng - Không thuần nhất (E.3), Phi tuyến - Vắng x (E.1.b / E.1.c);
+
+Tiếp tục là, Hệ PTVP (Systems of ODEs) và Phương pháp khử, Ma Trận.
+
+Điều kiện đầu và Điều kiện biên (Initial & Boundary Conditions): Một PTVP vô nghiệm hoặc vô số nghiệm nếu không có điều kiện. Trong Vật lý, điều kiện đầu (tại t = 0) và điều kiện biên (tại vị trí giới hạn) là bắt buộc để tìm hằng số tích phân.
+
+Phân tích định tính (Qualitative Analysis): Kỹ thuật này liên quan đến việc xét giới hạn của tích phân hoặc dùng trường vectơ (vector field).
+
+```
+
 Nếu thấy cuộc sống như cuộc đời, thấy bản thân không còn muốn tồn tại nữa, hãy xem video này : https://youtu.be/p_di4Zn4wz4 ; https://www.youtube.com/watch?v=p_di4Zn4wz4&list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6
 
 Tại sao Vũ trụ lại chọn cách vận hành "cục bộ"? Bởi vì có một giới hạn tốc độ tuyệt đối trong vũ trụ này: Tốc độ ánh sáng (c). [1] Không có một thông tin hay lực nào có thể truyền đi nhanh hơn tốc độ ánh sáng. Vì vậy, một vật ở điểm A không thể nào biết được vật ở điểm B (cách đó 1 năm ánh sáng) đang làm gì để mà thay đổi theo. Cách duy nhất để điểm A bị ảnh hưởng là điểm B phải gửi một "tín hiệu" (như ánh sáng, sóng hấp dẫn) đi xuyên qua các điểm không gian trung gian để đến được chỗ A.
