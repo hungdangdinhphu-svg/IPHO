@@ -267,6 +267,17 @@ Bậc 2
 
 Theo tôi, HSGQG Lý nên chủ yếu mấy thứ này: Tuyến tính hệ số hằng - Thuần nhất (E.2), Tuyến tính hệ số hằng - Không thuần nhất (E.3), Phi tuyến - Vắng x (E.1.b / E.1.c)
 
+Tiếp tục là, Hệ PTVP (Systems of ODEs) và Phương pháp khử, Ma Trận.
+
+Bổ sung, Perturbation & Series: Khi PTVP không thể giải chính xác, HSGQG thường yêu cầu giải gần đúng. Bạn cần biết khai triển Taylor, chuỗi Fourier, hoặc phương pháp nhiễu (perturbation).
+
+
+Điều kiện đầu và Điều kiện biên (Initial & Boundary Conditions): Một PTVP vô nghiệm hoặc vô số nghiệm nếu không có điều kiện. Trong Vật lý, điều kiện đầu (tại t = 0) và điều kiện biên (tại vị trí giới hạn) là bắt buộc để tìm hằng số tích phân.
+
+Phân tích định tính (Qualitative Analysis): Kỹ thuật này liên quan đến việc xét giới hạn của tích phân hoặc dùng trường vectơ (vector field).
+
+
+
 ---
 
 # PHẦN D. PTVP BẬC 1: TỪNG THUẬT TOÁN
