@@ -9,10 +9,9 @@
 
 **1.2** Vệ tinh địa tĩnh thường được sử dụng làm vệ tinh viễn thông. Vệ tinh địa tĩnh chuyển động trong mặt phẳng xích đạo, dọc theo 1 đường tròn quanh tâm O của Trái Đất với vận tốc không đổi. Thời gian để vệ tinh địa tĩnh quay quanh đúng một vòng bằng chu kỳ trong chuyển động tự quay của TĐ.
 
+1.2.1 Tính tốc độ chuyển động của vệ tinh địa tĩnh S.
 
-
-
-
+1.2.2 Một trạm phát tín hiệu điện từ đặt tại điểm M. Tín hiệu truyền từ trạm M lên vệ tinh S, sau đó được truyền trở lại một máy thu cũng đặt tại M. Tính thời gian từ lúc tín hiệu được phát đi cho đến khi máy thu ghi nhận được.
 
 
 
