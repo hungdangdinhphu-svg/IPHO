@@ -5,7 +5,7 @@ IPHO
 
 Do tôi thích IPHO nên tôi đặt tên cả cái repo là IPHO, thực tế thì có cả nhiều kỳ thi khác.
 
-**Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn.**
+**Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn.** Nhưng ít ra là tôi chia sẻ cả những thứ tôi vắt óc ra nghĩ miễn phí:p
 
 # Motivation & "Meta", "General", "Purpose", "Method",... ?
 
@@ -34,6 +34,10 @@ Có 1 số ví dụ như việc tôi học Lý Thuyết Thông Tin và câu chuy
 
 Đặng Đình Phú Hưng (Hung Dinh Phu Dang)
 
+Discord : krumeie
+
 Github : https://github.com/hungdangdinhphu-svg/
 
 Repo : https://github.com/hungdangdinhphu-svg/IPHO/
+
+Nếu có vấn đề gì muốn giải quyết, có thể bao gồm cả vấn đề bản quyền, nếu có thể thì xin liên hệ với tôi trước nhé.
