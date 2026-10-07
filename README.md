@@ -30,6 +30,13 @@ Khi đến lớp 7 thì tôi có quay lại để nghiêm túc với nó, và đ
 
 Có 1 số ví dụ như việc tôi học Lý Thuyết Thông Tin và câu chuyện tôi kể ở trên cũng như tôi đã thử thách bản thân học wavelet transform khi còn ở lớp 8-9, và lợi ích để lại là khủng khiếp, vì nó rèn cho tôi khả năng có thể nhìn 1 thứ cực kỳ dị hợm (do tôi lúc đó quá nhỏ) và tách nó ra, first principles để học được. À mà Wavelet có liên quan đến giải Abel và những cuộc cách mạng hay lắm, nên học. Farewell.
 
+# Chỉ là Vật Lý...
+
+Thought experiment: https://en.wikipedia.org/wiki/Thought_experiment
+
+Experimental Thinking;
+
+
 # Author
 
 Đặng Đình Phú Hưng (Hung Dinh Phu Dang)
