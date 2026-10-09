@@ -30,7 +30,11 @@ Khi đến lớp 7 thì tôi có quay lại để nghiêm túc với nó, và đ
 
 Đúc kết lại thì bây giờ tôi vẫn học như thế, cách học vẫn vậy, đó là đi trước 5-10 năm hoặc 20-30 năm, rồi hiểu ở mức khái niệm nhưng tốc độ học tăng dần hơn nhiều do có nền tảng bây giờ của tôi lớn hơn trước rất nhiều rồi:3
 
-Có 1 số ví dụ như việc tôi học Lý Thuyết Thông Tin và câu chuyện tôi kể ở trên cũng như tôi đã thử thách bản thân học wavelet transform khi còn ở lớp 8-9, và lợi ích để lại là khủng khiếp, vì nó rèn cho tôi khả năng có thể nhìn 1 thứ cực kỳ dị hợm (do tôi lúc đó quá nhỏ) và tách nó ra, first principles để học được. À mà Wavelet có liên quan đến giải Abel và những cuộc cách mạng hay lắm, nên học. Farewell.
+Có 1 số ví dụ như việc tôi học Lý Thuyết Thông Tin và câu chuyện tôi kể ở trên cũng như tôi đã thử thách bản thân học wavelet transform khi còn ở lớp 8-9, và lợi ích để lại là khủng khiếp, vì nó rèn cho tôi khả năng có thể nhìn 1 thứ cực kỳ dị hợm (do tôi lúc đó quá nhỏ) và tách nó ra, first principles để học được. À mà Wavelet có liên quan đến giải Abel và những cuộc cách mạng hay lắm, nên học.
+
+Tôi thích chiến tranh, ý tôi là thế chiến thứ II, vì nó liên quan đến Turing và https://vi.wikipedia.org/wiki/Blitzkrieg, dầu mỏ:3
+
+Farewell.
 
 # Chỉ là Vật Lý...
 
