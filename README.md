@@ -32,7 +32,7 @@ Khi đến lớp 7 thì tôi có quay lại để nghiêm túc với nó, và đ
 
 Có 1 số ví dụ như việc tôi học Lý Thuyết Thông Tin và câu chuyện tôi kể ở trên cũng như tôi đã thử thách bản thân học wavelet transform khi còn ở lớp 8-9, và lợi ích để lại là khủng khiếp, vì nó rèn cho tôi khả năng có thể nhìn 1 thứ cực kỳ dị hợm (do tôi lúc đó quá nhỏ) và tách nó ra, first principles để học được. À mà Wavelet có liên quan đến giải Abel và những cuộc cách mạng hay lắm, nên học.
 
-Tôi thích chiến tranh, ý tôi là thế chiến thứ II, vì nó liên quan đến Turing và https://vi.wikipedia.org/wiki/Blitzkrieg, dầu mỏ:3
+Tôi thích chiến tranh, ý tôi là thế chiến thứ II, vì nó liên quan đến Turing và https://vi.wikipedia.org/wiki/Blitzkrieg, dầu mỏ:3; https://vi.wikipedia.org/wiki/Ch%E1%BB%A7_ngh%C4%A9a_Stalin
 
 Farewell.
 
