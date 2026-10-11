@@ -552,6 +552,60 @@ Sự thật: Nếu tọa độ cực có r = const (hằng số) thì nó sẽ t
 
 ---
 
+### Bổ sung.
+
+Trong Động lực học chất điểm, Phương trình ràng buộc (Constraint Equation) là linh hồn của bài toán, tôi đánh giá nó là thứ khó nhằn nhất nhưng 1 khi giải được thì coi như xong.
+
+Để viết được phương trình ràng buộc cho mọi bài toán Động lực học chất điểm (không chỉ ròng rọc) cho một HQC bất kỳ mà bạn chọn, hãy áp dụng method sau:
+
+PHƯƠNG PHÁP: "HÌNH HỌC HÓA - ĐẠO HÀM HÓA"
+
+Bước 1: Xác định loại ràng buộc (Nhận diện "xiềng xích")
+
+Trước khi viết toán, hãy nhìn vào hệ thống và tự hỏi: "Cái gì đang giới hạn chuyển động của các vật?"
+
+Có 3 loại ràng buộc phổ biến trong Động lực học chất điểm:
+
+Ràng buộc khoảng cách không đổi: Tổng khoảng cách giữa các vật là hằng số.
+
+Ràng buộc bề mặt: Vật bị "giam" trên một quỹ đạo hình học xác định.
+
+Ràng buộc tiếp xúc (kiểu như bánh xe không trượt): Vận tốc dài liên hệ với vận tốc góc.
+
+Bước 2: Chọn HQC và Hệ tọa độ 
+
+Hãy nên nhớ rằng II Newton và các định luật vật lý của Newton nó chỉ ổn với HQC Quán tính, còn nếu là HQC phi quán tính thì lực quán tính sẽ phải được thêm vào.
+
+Chọn HQC: Bạn muốn quan sát từ đâu? (Mặt đất, ròng rọc, hay một vật đang chuyển động hay gì đó?).
+
+Chọn hệ tọa độ: Tùy vào hình học bài toán mà chọn;
+
+Quy ước dấu: Chọn một chiều dương nhất quán. (Ví dụ: hướng xuống là dương);
+
+Bước 3: Viết phương trình Vị trí (Hình học thuần túy)
+
+Đây là bước quan trọng nhất. Hãy tạm quên lực đi. Chỉ dùng hình học để viết mối quan hệ giữa tọa độ của các vật.
+
+Ví dụ ròng rọc: Tổng chiều dài dây = khoảng cách từ vật 1 đến ròng rọc + khoảng cách từ vật 2 đến ròng rọc.
+
+L = (y1 - y_r) + (y2 - y_r) = hằng số
+
+Ví dụ mặt phẳng nghiêng: Vật bị giam trên mặt phẳng có góc nghiêng α. Mối quan hệ giữa tọa độ x và y là:
+
+y = x * tan(α)
+
+Ví dụ con lắc: Vật bị giam trên đường tròn bán kính L. Mối quan hệ giữa x và y là:
+
+x² + y² = L²
+
+Bước 4: Đạo hàm theo thời gian (Động học hóa)
+
+Đây là phép thuật biến Hình học thành Động học. Đạo hàm 2 lần phương trình vị trí theo thời gian (t) để biến tọa độ (y) thành vận tốc (v) và gia tốc (a).
+
+
+Well... hãy thành thạo K7 và Cộng Vận Tốc/Cộng Gia Tốc.
+
+
 ### D1. Định luật Newton và thuật toán "quét biên" (vẽ lực) **[C]** + thuật toán **[H]**
 
 - **Kiểu CHỖ:** (1 vật, 1 thời điểm, 1 hướng).
