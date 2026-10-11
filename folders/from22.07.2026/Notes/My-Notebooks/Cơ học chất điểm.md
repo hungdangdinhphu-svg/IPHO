@@ -559,6 +559,9 @@ Sự thật: Nếu tọa độ cực có r = const (hằng số) thì nó sẽ t
   - N1: tồn tại hệ quán tính (định nghĩa hệ quán tính).
   - N2: **ΣF** = d**p**/dt = m**a** (m không đổi).
   - N3: **F**_AB = −**F**_BA (hai lực đặt lên **hai vật khác nhau**). Dạng mạnh: hai lực còn cùng đường nối (lực xuyên tâm).
+
+  Bẫy kinh điển: Trong cực kỳ nhiều bài toán chỉ có thể xác định phản lực N theo II Newton, vì N không hiển nhiên có độ lớn bằng P.
+  
   - Nguyên lý chồng chất lực.
 - **Dom:** Hệ quán tính, v ≪ c, chất điểm.
 - **Pre (tại CHỖ):** (i) đang dùng hệ quán tính, hoặc đã thêm đủ lực quán tính (D9, D10); (ii) khối lượng không đổi (nếu đổi, sang D8); (iii) đã **liệt kê đầy đủ** lực.
