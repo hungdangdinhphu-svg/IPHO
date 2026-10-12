@@ -9,6 +9,10 @@ Do tôi thích IPHO nên tôi đặt tên cả cái repo là IPHO, thực tế t
 
 Backup ở Drive (12/10/2026 - DD/MM/YYYY): https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
+**Chia sẻ cá nhân:**
+
+"Cho dù bạn có nền tảng giỏi hay không, tôi tin rằng nếu bạn kiên trì đọc thật kỹ, đam mê với nó, dành nhiều thời gian, có thể 2 năm, tưởng như dài nhưng thực tế đối với tôi là khoảng hơn 3 năm, mặc dù thực tế là tôi tự mò ra hết chứ không có hướng dẫn và nguồn tài liệu được lọc ra tốt như tôi đang làm cho bạn xem, ngay tại chính Repo này. Thì bạn sẽ thay đổi thôi. Còn nếu bạn không thay đổi gì cả, chỉ có thể là do bạn đã không làm theo những gì câu này của tôi phát biểu. Dù nó không qua chứng minh chặt chẽ, nhưng về cơ bản phát biểu này khá ổn."
+
 # Motivation & "Meta", "General", "Purpose", "Method",... ?
 
 Nếu bạn nghĩ bản thân cần tham khảo một điều gì đó là "giải pháp", "tổng quát" để học các fields? Có lẽ đây là thứ bạn cần (nó rất tuyệt) :
