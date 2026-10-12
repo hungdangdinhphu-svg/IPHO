@@ -7,6 +7,8 @@ Do tôi thích IPHO nên tôi đặt tên cả cái repo là IPHO, thực tế t
 
 **Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn.** Nhưng ít ra là tôi chia sẻ cả những thứ tôi vắt óc ra nghĩ miễn phí:p
 
+Backup ở Drive (12/10/2026 - DD/MM/YYYY): https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
+
 # Motivation & "Meta", "General", "Purpose", "Method",... ?
 
 Nếu bạn nghĩ bản thân cần tham khảo một điều gì đó là "giải pháp", "tổng quát" để học các fields? Có lẽ đây là thứ bạn cần (nó rất tuyệt) :
