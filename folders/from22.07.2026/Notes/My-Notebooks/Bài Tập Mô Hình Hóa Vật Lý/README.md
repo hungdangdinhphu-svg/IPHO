@@ -7,3 +7,15 @@ Cho dù có tốn cả 2 tiếng để suy nghĩ, hãy nghĩ, dù là 1 ngày, 2
 Sau khi bạn tự giải ra được hết nó, hãy đúc kết thật kỹ càng.
 
 Đừng ảo tưởng rằng việc bản thân Pattern Recognition (dù ngầm) với việc chưa từng nghe qua 1 lần nào.
+
+---
+
+Đây là đúc kết của cá nhân tôi:
+
+1. Hãy hình dung toàn bộ hệ vật chuyển động, hình dạng vật,... ở mức chính xác **có thể chấp nhận**. Hãy hình dung nó ở ngoài đời thật, đừng hình dung bằng cách vẽ nó ra ngay.
+
+2. Sau đó hãy nhớ lại những công cụ Toán mình đã từng sử dụng (có thể là đường tròn, tam giác, đường thẳng, xấp xỉ,...).
+
+3. Bạn sẽ nhận ra rằng có thể áp dụng những công cụ Toán đó, nhưng có vẻ còn "thiếu" hay "thừa" dữ kiện nào đó? Hoặc có thể đề khá "nhiễu" (quá thực tế)?
+
+4. Hãy cứ áp dụng công cụ Toán học đó, đảm bảo nó ở mức chính xác **có thể chấp nhận được**. Bạn sẽ tự nhận ra bản thân đã thành công mô hình hóa.
