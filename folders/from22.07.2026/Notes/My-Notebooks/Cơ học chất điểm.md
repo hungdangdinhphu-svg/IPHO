@@ -605,6 +605,12 @@ Bước 4: Đạo hàm theo thời gian (Động học hóa)
 
 Well... hãy thành thạo K7 và Cộng Vận Tốc/Cộng Gia Tốc.
 
+Và hãy hiểu về việc sau:
+
++) Cho nhiều hệ trục tọa độ (các mốc khác nhau) cùng thể loại trong cùng 1 bản vẽ
+
++) 1 Bản vẽ sẽ thống nhất 1 hệ trục tọa độ.
+
 
 ### D1. Định luật Newton và thuật toán "quét biên" (vẽ lực) **[C]** + thuật toán **[H]**
 
