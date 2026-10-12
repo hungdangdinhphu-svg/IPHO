@@ -700,6 +700,8 @@ Và hãy hiểu về việc sau:
   - Trượt là so với **bề mặt kia**, không phải so với đất.
   - Coi ma sát nghỉ là tỏa nhiệt. Nếu không có trượt tương đối thì không tỏa nhiệt; ma sát nghỉ vẫn có thể sinh công dương lên vật này và công âm lên vật kia, tổng của cặp bằng 0.
 
+  Lưu ý về lực ma sát: Lực ma sát giữa m_1 và m_2 là một cặp lực - phản lực (Định luật III Newton). Khi bạn xét m_2, nó là F_ms2 hướng sang trái; Khi xét m_1, nó là F'_ms1 hướng sang phải (kéo m_1 đi theo);
+
 ---
 
 ### D4. Lực đàn hồi, lò xo **[C]**
