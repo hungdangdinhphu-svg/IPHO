@@ -12,7 +12,7 @@ Sau khi bạn tự giải ra được hết nó, hãy đúc kết thật kỹ c�
 
 Đây là đúc kết của cá nhân tôi:
 
-1. Hãy hình dung toàn bộ hệ vật chuyển động, hình dạng vật,... ở mức chính xác **có thể chấp nhận**. Hãy hình dung nó ở ngoài đời thật, đừng hình dung bằng cách vẽ nó ra ngay.
+1. Hãy hình dung toàn bộ hệ vật chuyển động, hình dạng vật,... ở mức chính xác **có thể chấp nhận**. Hãy hình dung nó ở ngoài đời thật, đừng hình dung bằng cách vẽ nó ra ngay. Nghiêm cấm tự lừa bản thân, hãy biết phân biệt những sai sót đáng quan tâm hoặc không, chắc chắn phân biệt được, đừng cứ suốt ngày nghĩ nó chỉ phụ thuộc vào trực giác.
 
 2. Sau đó hãy nhớ lại những công cụ Toán mình đã từng sử dụng (có thể là đường tròn, tam giác, đường thẳng, xấp xỉ,...).
 
