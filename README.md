@@ -11,7 +11,7 @@ Backup ở Drive (12/10/2026 - DD/MM/YYYY): https://drive.google.com/drive/folde
 
 **Chia sẻ cá nhân:**
 
-"Cho dù bạn có nền tảng giỏi hay không, tôi tin rằng nếu bạn kiên trì đọc thật kỹ, đam mê với nó, dành nhiều thời gian, có thể 2 năm, tưởng như dài nhưng thực tế đối với tôi là khoảng hơn 3 năm, mặc dù thực tế là tôi tự mò ra hết chứ không có hướng dẫn và nguồn tài liệu được lọc ra tốt như tôi đang làm cho bạn xem, ngay tại chính Repo này. Thì bạn sẽ thay đổi thôi. Còn nếu bạn không thay đổi gì cả, chỉ có thể là do bạn đã không làm theo những gì câu này của tôi phát biểu. Dù nó không qua chứng minh chặt chẽ, nhưng về cơ bản phát biểu này khá ổn."
+"Cho dù bạn có nền tảng giỏi hay không, tôi tin rằng nếu bạn kiên trì đọc thật kỹ, đam mê với nó, dành nhiều thời gian, có thể 2 năm, tưởng như dài nhưng thực tế đối với tôi là khoảng hơn 3 năm, mặc dù thực tế là tôi tự mò ra hết chứ không có hướng dẫn và nguồn tài liệu được lọc ra tốt như tôi đang làm cho bạn xem, ngay tại chính Repo này. Thì bạn sẽ thay đổi thôi. Còn nếu bạn không thay đổi gì cả, chỉ có thể là do bạn đã không làm theo những gì câu này của tôi phát biểu. Dù nó không qua chứng minh chặt chẽ, nhưng về cơ bản phát biểu này khá ổn. Chỉ dẫn tốt nhất cho bạn lúc này đó là hãy đọc toàn bộ tất cả mọi thứ trong Repo này, tất cả đều tuyệt vời, nếu thấy lạc lõng, như vô định, không định hướng, như sắp ngất, hãy cứ đọc tiếp, bạn sẽ tìm thấy thứ bạn cần, tôi thừa biết bạn sẽ bắt gặp những gì trong đây. Lời khuyên tốt là đừng bỏ cuộc, đơn giản vậy thôi. Dù là 5-7 năm, nhưng tốt hơn so với cả đời ổn định nhưng bị kìm hãm."
 
 # Motivation & "Meta", "General", "Purpose", "Method",... ?
 
