@@ -5,3 +5,5 @@ Còn nếu bạn đã lỡ được giáo viên dạy trước dạng này mà k
 Cho dù có tốn cả 2 tiếng để suy nghĩ, hãy nghĩ, dù là 1 ngày, 2 ngày, 1 tuần đi chăng nữa, làm ơn đừng đọc lời giải hay gợi ý gì hết!
 
 Sau khi bạn tự giải ra được hết nó, hãy đúc kết thật kỹ càng.
+
+Đừng ảo tưởng rằng việc bản thân Pattern Recognition (dù ngầm) với việc chưa từng nghe qua 1 lần nào.
