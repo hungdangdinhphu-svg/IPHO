@@ -8,6 +8,8 @@ Cấu trúc giữa Vật Lý và Toán học : https://github.com/hungdangdinhph
 
 Một số bài tập quan trọng tôi đã làm: https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/Notes/My-Notebooks/baitap
 
+Một số chia sẻ về Mô Hình Hóa: https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/Notes/My-Notebooks/B%C3%A0i%20T%E1%BA%ADp%20M%C3%B4%20H%C3%ACnh%20H%C3%B3a%20V%E1%BA%ADt%20L%C3%BD
+
 +) Phải pro Giải tích James Stewarts, Mathematical Methods in the Physical Sciences, 3e (Mary L. Boas);
 
 +) Phải biết cách giải hệ phương trình n ẩn n phương trình (n = m, nhưng n > 4, tức là Casio Fx580VNX không hỗ trợ, phải dùng khử Gauss)
