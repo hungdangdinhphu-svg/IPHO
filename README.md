@@ -15,6 +15,8 @@ Backup ở Drive (12/10/2026 - DD/MM/YYYY): https://drive.google.com/drive/folde
 
 "Nếu có ai đó hù dọa bạn về môn Toán, tôi nghĩ tốt hơn hết là bạn hãy mặc định bỏ qua thông tin ngu xuẩn đó đi. Khi bạn đủ giỏi Triết học và khả năng tiếp nhận thông tin của bạn đủ tốt, và có thể cách để có điều đó đơn giản là học cái Repo này. Nhưng Toán học thật sự minh bạch. Toán học vốn là 1 môn học đẹp đẽ, dù là những bài toán từ cấp 1 hoặc có lên đến Riemann Hypothesis, Langlands Program,.. Bạn chỉ cần quan tâm đến những thứ khách quan, minh bạch, thắc mắc cái gì về Toán, thì cứ làm theo những gì tôi chỉ (hãy đọc hết Repo này), rồi bạn cũng thấy nó minh bạch thôi."
 
+Tôi cảm thấy đây như kiệt tác vậy: https://whimsicalreads.com/series/geniusfundamentals/
+
 # Motivation & "Meta", "General", "Purpose", "Method",... ?
 
 Nếu bạn nghĩ bản thân cần tham khảo một điều gì đó là "giải pháp", "tổng quát" để học các fields? Có lẽ đây là thứ bạn cần (nó rất tuyệt) :
