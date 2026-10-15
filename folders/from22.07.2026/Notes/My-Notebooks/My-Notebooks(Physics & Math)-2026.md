@@ -54,7 +54,7 @@ Một số thứ chủ chốt tôi làm để học điều mới:
 
 3. Dùng .md (git) để học lý thuyết sâu, wikipedia (if any), đọc bài tập ví dụ cơ bản trước rồi tăng độ khó lên cao nhất (nếu giải được bài có độ khó cao nhất hoặc tiệm cận cao nhất, giải thêm 2-3 bài ở độ khó tầm trung, hết), còn nếu không giải được độ khó cao nhất thì giảm độ khó xuống rồi tăng dần lên.
 
-
+4. Ngắm trời, ngắm đất, ngắm những thiết bị liên quan nếu có, hoặc thường mô phỏng chúng (kiểu như https://phet.colorado.edu/), mày mò ra một đống biến thể kỳ dị, dị hợm của những thứ ta đã biết, cố gắng làm cho "completeness", rồi suy nghĩ nó với thực tế, suy tư như 1 triết gia?
 
 ---
 
