@@ -70,11 +70,55 @@ Quantization.
 
 Information bottleneck.
 
+**Trung cấp:**
 
+a) Method of types, large deviations
 
+Sanov, Csiszár.
 
+Giúp hiểu vì sao entropy xuất hiện tự nhiên trong giới hạn lớn.
 
+b) Fisher information, information geometry
 
+Fisher metric, KL divergence, Amari.
+
+Cầu nối LTTH với thống kê, học máy, hình học.
+
+c) MDL – Minimum Description Length
+
+Học máy, suy luận Bayes, chọn mô hình.
+
+Nối với Kolmogorov complexity.
+
+d) Algorithmic Information Theory
+
+Kolmogorov complexity.
+
+Solomonoff induction.
+
+Chaitin, tính ngẫu nhiên, bất khả nén.
+
+Đây là phần tốt để hiểu “bản chất thông tin” và giới hạn của toán học.
+
+e) Quantum information
+
+Von Neumann entropy.
+
+Holevo bound.
+
+Entanglement, quantum channels.
+
+Nếu muốn sang vật lý hiện đại.
+
+f) Information thermodynamics
+
+Landauer principle.
+
+Szilard engine, Maxwell’s demon.
+
+Fluctuation theorems.
+
+Nối entropy Shannon với entropy nhiệt động.
 
 
 
