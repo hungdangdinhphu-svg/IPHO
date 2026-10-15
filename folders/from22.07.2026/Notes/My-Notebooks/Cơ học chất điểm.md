@@ -611,6 +611,8 @@ Và hãy hiểu về việc sau:
 
 +) 1 Bản vẽ sẽ thống nhất 1 hệ trục tọa độ.
 
+Kết hợp: https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a/Geometry/To%C3%A0n%20b%E1%BB%99%20c%C3%B4ng%20th%E1%BB%A9c%20h%C3%ACnh%20h%E1%BB%8Dc%20(kh%C3%B4ng%20ph%E1%BA%A3i%20Gi%E1%BA%A3i%20T%C3%ADch)%20c%E1%BA%A7n%20thi%E1%BA%BFt%20cho%20HSGQG.md
+
 
 ### D1. Định luật Newton và thuật toán "quét biên" (vẽ lực) **[C]** + thuật toán **[H]**
 
