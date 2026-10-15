@@ -56,3 +56,5 @@ Khi mà tôi muốn có được nhiều lợi ích hơn đáng kể khi cày b�
 Để đạt tới VPHO hay KỲ THI CHỌN HSGQG THPT (BỘ GIÁO DỤC VÀ ĐÀO TẠO) thì bạn cần phải vượt qua cách mà thành phố/tỉnh của bạn lựa chọn học sinh đi thi. Mỗi thành phố/tỉnh thì khác nhau.
 
 Và VPHO hay KỲ THI CHỌN HSGQG THPT (BỘ GIÁO DỤC VÀ ĐÀO TẠO) thì khác hoàn toàn so với HSG Lý lớp 10,11,12 hay Olympic.
+
+Mọi người rất hay nhầm lẫn những sự thật này.
