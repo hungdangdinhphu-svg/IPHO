@@ -11,7 +11,13 @@ Nếu thắc mắc vì sao có những thứ đáng lẽ nên đưa lên đầu 
 
 Đọc phương pháp tư duy/giải tổng quát trong toán học tại : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a
 
-Lý thuyết thông tin: 
+Lý thuyết thông tin : 
+
+Triết học và mở rộng:
+
+https://fs.blog/first-principles/ ; https://en.wikipedia.org/wiki/Mentalization ; https://en.wikipedia.org/wiki/Metacognition ; https://en.wikipedia.org/wiki/Metaknowledge ; https://en.wikipedia.org/wiki/Metamemory ; https://en.wikipedia.org/wiki/Meta-emotion ; https://en.wikipedia.org/wiki/Self-regulated_learning ; https://en.wikipedia.org/wiki/Meta-learning ; https://en.wikipedia.org/wiki/Self-awareness ;
+
+https://en.wikipedia.org/wiki/Information_theory (https://en.wikipedia.org/wiki/Informatics) ; https://en.wikipedia.org/wiki/Algorithm ; https://en.wikipedia.org/wiki/Philosophy ;
 
 Các quyển sách quan trọng : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/books
 
