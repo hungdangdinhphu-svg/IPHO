@@ -120,8 +120,43 @@ Fluctuation theorems.
 
 Nối entropy Shannon với entropy nhiệt động.
 
+**Học thêm:**
 
+Cơ học thống kê qua nguyên lý entropy cực đại (Jaynes).
 
+Canonical ensemble, partition function, free energy.
+
+Mối liên hệ entropy – thông tin – quan sát.
+
+Quantum thermodynamics.
+
+Black hole entropy, holography, “it from bit” (Wheeler).
+
+Sách:
+
+Jaynes, Probability Theory: The Logic of Science.
+
+Cover & Thomas, Elements of Information Theory.
+
+MacKay, Information Theory, Inference, and Learning Algorithms.
+
+Nielsen & Chuang, Quantum Computation and Quantum Information.
+
+**Học thêm:**
+
+Philosophy of Information (Luciano Floridi).
+
+Bayesian epistemology.
+
+Information structural realism.
+
+Causality (Pearl) vs information.
+
+Semantic information: truth, meaning, representation.
+
+Algorithmic randomness và giới hạn nhận thức.
+
+Đây là chỗ Shannon không đủ. Bạn cần triết học để hỏi: “Thông tin có phải là bản chất của thực tại không?” “Ý thức có phải là xử lý thông tin không?” “Toán học có phải là công cụ nén thực tại không?”
 
 
 
