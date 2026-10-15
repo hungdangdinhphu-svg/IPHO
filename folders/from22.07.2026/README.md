@@ -50,3 +50,9 @@ Khi mà tôi muốn có được nhiều lợi ích hơn đáng kể khi cày b�
 +) Tôi nhận ra rằng khi gặp được 1 số vấn đề mà tôi không làm được. Tôi sẽ phải tổng quát nó lên để tìm ra được Dạng Tổng Quát của vấn đề đó, đảm bảo rằng tôi không "overengineered".
 
 +) Rồi sau đó tìm ra một "thuật toán" tổng quát (if any)/cách làm tổng quát (if any)/tư duy để giải Dạng Tổng Quát đó.
+
+# Hướng dẫn về các kỳ thi, và giải đáp rõ :
+
+Để đạt tới VPHO hay KỲ THI CHỌN HSGQG THPT (BỘ GIÁO DỤC VÀ ĐÀO TẠO) thì bạn cần phải vượt qua cách mà thành phố/tỉnh của bạn lựa chọn học sinh đi thi. Mỗi thành phố/tỉnh thì khác nhau.
+
+Và VPHO hay KỲ THI CHỌN HSGQG THPT (BỘ GIÁO DỤC VÀ ĐÀO TẠO) thì khác hoàn toàn so với HSG Lý lớp 10,11,12 hay Olympic.
