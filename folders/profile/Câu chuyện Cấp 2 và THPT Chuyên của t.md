@@ -123,3 +123,49 @@ Lý do thứ 2 là vì tôi thật sự thích môn Lý mặc dù tôi ghét nó
 **Khách quan 16:** 
 
 À với cả còn vụ t trượt chuyên, t có thử làm lại đề đó rồi, vào 06/10/2026, và wow, lúc t làm lại là lúc t đã học lại cơ chất điểm, và đề dễ gần chết, t tốn có 15s nhẩm ra gần hết mặt đầu tiên, bruh. Nói chung chắc t phải full điểm cái đề đó hoặc gần full, damn dễ khủng khiếp kkk https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Collection%20of%20tests/HCM-tests/Chuy%C3%AAn%20L%C3%BD%202026%20HCM/README.md
+
+**Bổ sung cuối cùng:**
+
+Trong https://whimsicalreads.com/series/geniusfundamentals/, có 1 đoạn như bên dưới, đọc xong, tôi hy vọng bạn sẽ hiểu tất cả về tôi, phải công nhận rằng con người tôi thật sự phức tạp đến mức tôi không hiểu nổi:
+
+Trong hành lang vắng vẻ, Lâm Chiêu Tây một mình bước về phía phòng đọc. Dù câu chuyện có vài chỗ được điều chỉnh, cô không hề nói dối Lục Chí Hào. Thời thơ ấu của cô, thực sự có một Ultraman mà cô vô cùng muốn có. Đó là Gauss Ultraman. Gauss có cây gậy biến hình đẹp nhất trong tất cả các Ultraman, khi giơ lên, ánh sáng xanh sẽ tuôn xuống như nước. Nhưng có một chút khác biệt so với lời kể. Thực ra, cuối cùng cô đã có được Gauss Ultraman. Đó là vì phụ huynh của cô là Lão Lâm, chứ không phải người mẹ trong sách đọc thêm. Lão Lâm đã biết cô đang lén tiết kiệm tiền, và ông vẫn rất tức giận. Nhìn lại, có lẽ ông tức giận với chính mình vì không thể thẳng thắn hỏi con gái mình muốn gì. Lão Lâm đưa cô đến trung tâm thương mại, và đối mặt với tủ kính trống rỗng, ông hỏi cô bây giờ phải làm sao. Tất cả Ultraman đều đã bị người khác mua mất. Một đứa trẻ nhỏ thì biết phải làm sao? Sau khi do dự rất lâu, vì sợ làm bố tức giận, cô đã khôn ngoan nói rằng mình không còn muốn nó nữa. Nhưng Lão Lâm không nói gì, chỉ cau mày, nắm tay cô và đứng trước tủ trưng bày. Cô bé với bím tóc và người đàn ông trẻ với khuôn mặt u ám trở thành một cảnh tượng nổi bật trước quầy hàng. Có rất nhiều người đang nhìn, và Lâm Chiêu Tây không thể chịu đựng được, nên cô bắt đầu khóc và đòi về nhà. Lão Lâm cũng nắm tay cô và bắt đầu bước đi, nhưng khi họ đi ngược dòng người để rời khỏi trung tâm thương mại đông đúc, cô đột nhiên òa khóc. Cảm giác như một phần lớn trái tim cô bị xé toạc ra, gió thổi xuyên qua lỗ hổng, như thể cô sẽ không bao giờ được ăn KFC nữa, cảm giác như cô sẽ không bao giờ có thể có được nó—vô cùng buồn. Rồi Lão Lâm dừng lại, hỏi cô, "Bây giờ con phải làm sao?" Mặc dù xung quanh vẫn còn nhiều người, thì thầm và chỉ trỏ vào cô, hoặc khuyên Lão Lâm mua gì đó để dỗ cô, nhưng tiếng ồn không ảnh hưởng đến ông. Vào khoảnh khắc đó, cô im lặng và nhận ra cảm xúc thật sự của mình bên trong. Khóc, cô hét lên với Lão Lâm, "Con không muốn về nhà. Con vẫn muốn Gauss Ultraman đó." Rồi Lão Lâm mỉm cười, thay đổi biểu cảm ngay lập tức. Suốt phần còn lại của ngày, Lão Lâm có tâm trạng tốt và vui vẻ đưa cô đến tất cả các cửa hàng đồ chơi, trung tâm thương mại và cửa hiệu nhỏ trong thành phố. Cuối cùng, họ đã mua được món đồ chơi mà cô hằng mong muốn. Cũng chính khoảnh khắc cô nhận món đồ chơi từ tay người bán hàng, Lâm Chiêu Tây nhận ra rằng khi cô nói mình không muốn nó, đó không phải là sự thật. Lão Lâm nói với cô rằng nếu muốn thứ gì đó, cô nên đấu tranh vì nó, dù bằng lời nói hay hành động. Cô phải nỗ lực để có được nó. Che giấu mong muốn thật sự vì sợ người lớn hoặc thất bại, cho đến khi chúng mục nát và biến cô thành một người tự lừa dối mình, không phải là cách hành xử đúng đắn. Trước khi cô đến thế giới này, Ultraman đã ở trong phòng làm việc của cô, được đặt ở vị trí dễ thấy nhất trên giá sách. Cô vẫn rất thích nó. Đối với trẻ con, những thứ chúng từng thực sự muốn, những thứ có giá trị tình cảm lớn, không dễ mất đi giá trị. Hơn nữa, nó thực sự có ý nghĩa lớn.
+
+Lâm Chiêu Tây đứng bên điện thoại công cộng, cắm thẻ IC vào. Vùng hoang vu rộng lớn xung quanh cô tràn ngập tiếng mưa, đã tích tụ cả ngày và cuối cùng đổ xuống. Cô thu mình trong buồng điện thoại chật hẹp và bấm một số điện thoại vô cùng, vô cùng quen thuộc. Xung quanh bị nhấn chìm bởi tiếng mưa, ranh giới giữa trời và đất mờ đi, mọi thứ trắng xóa, nhưng cô cảm thấy mình chưa bao giờ rõ ràng hơn lúc này. Những ký ức thời thơ ấu đột nhiên khiến cô nhận ra rằng khi con người còn nhỏ, họ thường vô cùng dũng cảm, nhưng khi lớn lên, họ ngày càng trở nên nhút nhát. Sự nhút nhát này đôi khi có một cái tên khác: nó được gọi là trưởng thành.
+
+"Alo?" Cuộc gọi được kết nối, và một giọng nói mang theo hơi ẩm của mưa truyền qua ống nghe, lạnh lùng và thiếu kiên nhẫn. Lâm Chiêu Tây nắm chặt ống nghe nhựa đến mức lòng bàn tay đau nhói. "Sư phụ, là con đây…"
+
+"Ồ, có chuyện gì vậy?"
+
+Cô hít một hơi thật sâu, gom hết can đảm, và cố gắng làm cho giọng mình nghe vững vàng, nói nhẹ nhàng. "Thầy cứ hỏi con làm sao biết thầy giỏi toán, làm sao biết thầy sống ở đâu, tại sao con lại làm phiền thầy mỗi ngày, đúng không? Thực ra, con có một bí mật. Nếu thầy đến dạy toán cho chúng con ở Căn cứ Ốc đảo, con sẽ nói cho thầy. Được không ạ?"
+
+Đó gần như là khoảnh khắc dũng cảm nhất trong cuộc đời cô kể từ khi đến thế giới này. Mưa đập xuống, và cô đặt tất cả những gì mình có lên một chiếc đĩa bạc, nâng cao với hy vọng, cầu nguyện rằng đại ma vương sẽ để ý và ra khỏi hang động để giúp cô giết con rồng ác. Trong khoảnh khắc đó, tâm trí cô tràn đầy nỗi buồn như vậy, nhưng giọng nói ở đầu dây bên kia lại nhẹ nhàng và thờ ơ. "Ồ, em có thể nói cho tôi bây giờ."
+
+"Con… con! Thầy phải dạy chúng con trước, rồi con sẽ nói cho thầy vào cuối…" Giọng cô thiếu tự tin.
+
+"Keo kiệt vậy sao?"
+
+"Không phải vậy đâu, Sư phụ."
+
+"Em nghĩ rằng nếu em nói cho tôi bí mật bây giờ, tôi sẽ rời đi ngay sao? Sư phụ không phải là người không có tinh thần trách nhiệm. Em phải tin vào nhân cách của người cộng tác chứ…"
+
+"Nh… Nhân cách gì chứ? Dù sao thì con không thể!"
+
+"Tại sao không?"
+
+Lão Lâm cười. "Em thực sự có bí mật sao?" Giọng điệu của bố cô đột nhiên trở nên trêu chọc, kéo dài từ ngữ như thể đó là một cuộc trò chuyện bình thường. Tại sao ông vẫn còn trò chuyện vào lúc như thế này? Nhịp tim Lâm Chiêu Tây tăng nhanh. "Sư phụ…"
+
+"Thôi nào, quay lại đi." Lão Lâm nói.
+
+Nếu có một đại ma vương thực sự trên thế giới này, thì đó nhất định là bố mẹ của bạn. Họ có thể đối xử với bạn thờ ơ, hoặc có thể quá nghiêm khắc, nhưng thường thì họ là những người sẽ chiến đấu xuyên qua gai góc và bụi rậm vì bạn khi bạn cần nhất. Chỉ là, thường thì, vì họ xuất hiện quá nhiều lần khi bạn cần, họ trở nên ít được chú ý hơn.
+
+Lâm Chiêu Tây từ từ quay người lại. Một chiếc ô đen đứng dựa vào bức màn mưa trắng xóa, mờ ảo. Người đàn ông dưới chiếc ô không cao lắm. Da ông ngăm đen, quần áo ướt và dính vào người, đôi mắt đầy vẻ mệt mỏi của thời gian. Nhưng nếu nhìn kỹ, đôi mắt đen tròn đó, sống mũi thẳng, và một lúm đồng tiền duy nhất trên một bên má—đó chẳng phải là Lão Lâm sao?
+
+Lâm Chiêu Tây đẩy cửa buồng điện thoại công cộng, lao vào mưa, và đột nhiên lao vào vòng tay của Lão Lâm, khóc không kiểm soát được. Tiếng mưa vẫn chói tai, trời và nước hòa làm một. Tuy nhiên, sự sống trồi lên từ đất, nở rộ sức sống, và Lâm Chiêu Tây cảm thấy như mình có thể nghe thấy âm thanh của sự sống đang bùng nổ.
+
+"Sư phụ, sao thầy lại đến đây?" Lâm Chiêu Tây vừa khóc vừa hỏi.
+
+"Không phải em là người nói có bí mật muốn nói với tôi sao?"
+
+"Rõ ràng là thầy đến trước mà."
+
+"Vậy sao?" Lão Lâm nhẹ nhàng xoa đầu cô, im lặng.
