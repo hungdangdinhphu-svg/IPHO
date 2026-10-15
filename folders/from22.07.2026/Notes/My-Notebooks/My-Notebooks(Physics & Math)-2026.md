@@ -44,6 +44,18 @@ Nếu ta chia đoạn $[a, b]$ thành $n$ khoảng bằng nhau, mỗi khoảng c
    
    (Trong đó $B_{2k}$ là các số Bernoulli, $f^{(2k-1)}$ là đạo hàm cấp lẻ, và $R_m$ là phần dư). 
 
+
+
+Một số thứ chủ chốt tôi làm để học điều mới:
+
+1. Biết rõ và hiểu rõ những đại lượng (vô hướng/vector,..) có ý nghĩa và định nghĩa như thế nào trong công cụ vật lý & toán; Hiểu toàn bộ ý nghĩa, first principles,...
+
+2. Visual: Lên mạng tìm hình ảnh/video trực quan
+
+3. Dùng .md (git) để học lý thuyết sâu, wikipedia (if any), đọc bài tập ví dụ cơ bản trước rồi tăng độ khó lên cao nhất (nếu giải được bài có độ khó cao nhất hoặc tiệm cận cao nhất, giải thêm 2-3 bài ở độ khó tầm trung, hết), còn nếu không giải được độ khó cao nhất thì giảm độ khó xuống rồi tăng dần lên.
+
+
+
 ---
 
 ## Giáo trình Lý Thuyết Khởi Đầu
