@@ -46,6 +46,8 @@ Tôi nhận ra nhiều thứ đáng kinh ngạc, đó là những lý thuyết r
 
 chiến tranh nó liên quan đến Turing và https://vi.wikipedia.org/wiki/Blitzkrieg, dầu mỏ:3; https://vi.wikipedia.org/wiki/Ch%E1%BB%A7_ngh%C4%A9a_Stalin; https://vi.wikipedia.org/wiki/Ch%E1%BB%A7_ngh%C4%A9a_Marx%E2%80%93Lenin
 
+Tôi nghĩ Thí Nghiệm Universe 25 khá hay
+
 Farewell.
 
 # Chỉ là Vật Lý...
