@@ -5,7 +5,7 @@ IPHO
 
 Do tôi thích IPHO nên tôi đặt tên cả cái repo là IPHO, thực tế thì có cả nhiều kỳ thi khác.
 
-**Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn.** Nhưng ít ra là tôi chia sẻ cả những thứ tôi vắt óc ra nghĩ miễn phí:p
+**Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn.**
 
 Backup ở Drive (12/10/2026 - DD/MM/YYYY): https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
