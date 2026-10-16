@@ -42,6 +42,8 @@ Khi đến lớp 7 thì tôi có quay lại để nghiêm túc với nó, và đ
 
 Có 1 số ví dụ như việc tôi học Lý Thuyết Thông Tin và câu chuyện tôi kể ở trên cũng như tôi đã thử thách bản thân học wavelet transform khi còn ở lớp 8-9, và lợi ích để lại là khủng khiếp, vì nó rèn cho tôi khả năng có thể nhìn 1 thứ cực kỳ dị hợm (do tôi lúc đó quá nhỏ) và tách nó ra, first principles để học được. À mà Wavelet có liên quan đến giải Abel và những cuộc cách mạng hay lắm, nên học.
 
+Tôi nhận ra nhiều thứ đáng kinh ngạc, đó là những lý thuyết rất trừu tượng hoặc có vẻ không liên quan có thể là ngôn ngữ chính để mô tả thứ bạn đang tiếp xúc. Kiểu như lý thuyết thông tin & Triết học & Abstract Algebra mô tả gần hết Vật Lý và Toán chẳng hạn?
+
 chiến tranh nó liên quan đến Turing và https://vi.wikipedia.org/wiki/Blitzkrieg, dầu mỏ:3; https://vi.wikipedia.org/wiki/Ch%E1%BB%A7_ngh%C4%A9a_Stalin; https://vi.wikipedia.org/wiki/Ch%E1%BB%A7_ngh%C4%A9a_Marx%E2%80%93Lenin
 
 Farewell.
