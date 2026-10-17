@@ -81,6 +81,8 @@ https://youtu.be/3d8rRx3LLTE
 
 +) Hãy hiểu sâu sắc Công suất (Tốc độ thực hiện Công), Công và Năng lượng, Mối quan hệ giữa công và năng lượng, hãy hiểu first principles và dưới dạng vector, quên vô hướng đi.
 
++) Với các định luật, nguyên lý cơ bản của Vật Lý, hãy hiểu nó dưới dạng tổng quát (như dựa trên Vector, Vi phân/Tích phân/Đạo hàm...); Còn khi áp dụng vào giải bài thì đừng dùng vector nữa (kinh nghiệm);
+
 Hãy đảm bảo bản thân vẽ hình cực kỳ kỹ ra. Đảm bảo rằng hình không thể lừa mình, vì trực giác có thể bị đánh lừa cực kỳ tinh vi. Vẽ hình dựa vào những thứ gần như chắc chắn và kiểm tra kỹ xem bản thân có "bypass" và nó có thể sai được hay không, chứ trực giác rất dễ bị lừa.
 
 Hãy thành thạo việc lập phương trình chuyển động.
