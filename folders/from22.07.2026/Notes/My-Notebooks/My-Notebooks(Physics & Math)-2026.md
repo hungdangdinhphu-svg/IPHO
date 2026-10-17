@@ -79,6 +79,8 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 https://youtu.be/3d8rRx3LLTE
 
++) Hãy hiểu sâu sắc Công suất (Tốc độ thực hiện Công), Công và Năng lượng, Mối quan hệ giữa công và năng lượng, hãy hiểu first principles và dưới dạng vector, quên vô hướng đi.
+
 Hãy đảm bảo bản thân vẽ hình cực kỳ kỹ ra. Đảm bảo rằng hình không thể lừa mình, vì trực giác có thể bị đánh lừa cực kỳ tinh vi. Vẽ hình dựa vào những thứ gần như chắc chắn và kiểm tra kỹ xem bản thân có "bypass" và nó có thể sai được hay không, chứ trực giác rất dễ bị lừa.
 
 Hãy thành thạo việc lập phương trình chuyển động.
