@@ -17,3 +17,5 @@ Một số chia sẻ về Mô Hình Hóa: https://github.com/hungdangdinhphu-svg
 +) Phải biết cách xử lý hệ phương trình n ẩn m phương trình (Với n > m hoặc n < m)
 
 +) Hiểu sâu sắc Đại Số Tuyến Tính, Đồng Nhất Thức khác với Phương Trình, Định thức, Tham số và Biến số khác nhau.
+
++) Flow Effect
