@@ -40,6 +40,7 @@ Nỗ lực trong việc đưa ra các ví dụ giải mẫu (tests) : https://gi
 
 **Một số prompts hữu ích để gửi AI & câu chuyện :**
 
++) "Dạy cho tôi hiểu toàn bộ đi VÀ PHẢI FIRST PRINCIPLES NHÉ, tôi đã đọc đi đọc lại nó rất nhiều, nó cực kỳ rời rạc, tôi chả hiểu nổi. Tôi chỉ là học sinh THPT đang chuẩn bị ôn HSGQG, tôi sợ cái này quá... :"
  
 +) "Giảng bài này cho t hiểu đi. Đưa t đủ số ví dụ và đủ phức tạp để bao phủ toàn bộ lượng lý thuyết này đi, đảm bảo t hiểu và nhớ hết :"
 
