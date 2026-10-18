@@ -1,3 +1,5 @@
+Tóm tắt: Học vẹt mấy cái nhảm mà tôi kêu, sau đó thì mọi thứ sẽ logic. Tôi ghét hóa, hết.
+
 # Cách viết cấu hình 
 
 **+) Số electron tối đa các phân lớp có thể chứa :**
