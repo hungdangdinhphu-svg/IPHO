@@ -21,7 +21,7 @@ Chịu thôi, hóa là 1 môn học có pattern tệ hại mà, chắc có cái 
 
 Xem cái ví dụ này là ra hết thôi: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^2 4d^10 5p^6
 
-**Nhớ nhé:**
+**+) Nhớ nhé:**
 
 +) Electron ở lớp ngoài cùng là ở lớp có n là lớn nhất
 
