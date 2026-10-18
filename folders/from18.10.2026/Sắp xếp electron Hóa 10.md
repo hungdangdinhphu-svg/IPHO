@@ -28,3 +28,25 @@ Xem cái ví dụ này là ra hết thôi: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4
 +) Pauli : 1 orbital chỉ chứa tối đa 2 electron, và phải ngược chiều nhau.
 
 +) Hund: Trong cùng 1 phân lớp, các electron sẽ phân bố sao cho số electron độc thân (mũi tên 1 chiều) là tối đa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
