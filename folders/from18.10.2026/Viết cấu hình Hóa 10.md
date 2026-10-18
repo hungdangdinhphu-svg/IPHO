@@ -41,6 +41,8 @@ Phân lớp p: Có 3 ô vuông (chứa tối đa 6 electron $\rightarrow$ mỗi 
 Phân lớp d: Có 5 ô vuông (chứa tối đa 10 electron $\rightarrow$ mỗi ô điền $\uparrow\downarrow$).
 
 
+1 Đống ví dụ tha hồ mà húp:
+
 
 
 
