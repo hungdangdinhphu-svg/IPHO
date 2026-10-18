@@ -1,1 +1,19 @@
+**Định luật tuần hoàn:** "Tính chất của các nguyên tố và đơn chất, cũng như thành phần và tính chất của các hợp chất tạo nên từ các nguyên tố đó biến đổi tuần hoàn theo chiều tăng dần của điện tích hạt nhân nguyên tử."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
