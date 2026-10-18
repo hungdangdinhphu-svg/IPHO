@@ -5,6 +5,9 @@ Nếu thắc mắc vì sao có những thứ đáng lẽ nên đưa lên đầu 
 
 # Chỉ dẫn tổng quát (được xem là độ ưu tiên hàng đầu về tính chính xác của thông tin, dù các files con có nói khác) :
 
+"Nature uses only the longest threads to weave her patterns, so that each small piece of her fabric reveals the organization of the entire tapestry." — Feynman
+
+
 **Các thứ chủ chốt:**
 
 Đọc phương pháp tư duy tổng quát trong việc Mô Hình Hóa và Tư duy giải Lý tại : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md
