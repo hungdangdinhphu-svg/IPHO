@@ -45,7 +45,15 @@ Phân lớp d: Có 5 ô vuông (chứa tối đa 10 electron $\rightarrow$ mỗi
 
 1 Đống ví dụ tha hồ mà húp:
 
+Ví dụ 1: Carbon ($Z = 6$) — Cấu hình: $1s^2 2s^2 2p^2$
 
+$1s$ (1 ô): [↑↓]
+
+$2s$ (1 ô): [↑↓]
+
+$2p$ (3 ô): [↑ ] [↑ ] [   ]
+
+explain: Phân lớp $p$ có 3 ô. Theo quy tắc Hund, 2 electron sẽ vào 2 ô khác nhau và đều quay lên ↑, để trống ô thứ 3.
 
 
 
