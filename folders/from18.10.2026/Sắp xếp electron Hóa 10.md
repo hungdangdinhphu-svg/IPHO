@@ -19,6 +19,8 @@ tương ứng : lớp 1 (s), lớp 2 (sp), lớp 3 (sp), 4s,3d,4p,5s,4d,5p
 
 Chịu thôi, hóa là 1 môn học có pattern tệ hại mà, chắc có cái bảng tuần hoàn là ok.
 
+Xem cái ví dụ này là ra hết thôi: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^6 5s^2 4d^10 5p^6
+
 +) Electron ở lớp ngoài cùng là ở lớp có n là lớn nhất
 
 +) Pauli : 1 orbital chỉ chứa tối đa 2 electron, và phải ngược chiều nhau.
