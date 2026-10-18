@@ -19,4 +19,8 @@ tương ứng : lớp 1 (s), lớp 2 (sp), lớp 3 (sp), 4s,3d,4p,5s,4d,5p
 
 Chịu thôi, hóa là 1 môn học có pattern tệ hại mà, chắc có cái bảng tuần hoàn là ok.
 
-+) 
++) Electron ở lớp ngoài cùng là ở lớp có n là lớn nhất
+
++) Pauli : 1 orbital chỉ chứa tối đa 2 electron, và phải ngược chiều nhau.
+
++) Hund: Trong cùng 1 phân lớp, các electron sẽ phân bố sao cho số electron độc thân (mũi tên 1 chiều) là tối đa.
