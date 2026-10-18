@@ -833,6 +833,8 @@ với dm/dt là tốc độ đổi khối lượng của vật (âm khi phóng r
 
 ### D11. Cân bằng tĩnh và nguyên lý công ảo (chất điểm) **[C], phần công ảo [EXT]**
 
+https://share.gemini.google/CUvdfOvCxM9N
+
 - **Kiểu CHỖ:** (1 hệ ở trạng thái cân bằng, một dịch chuyển ảo).
 - **Nội dung:**
   - ΣF = 0. **Ba lực** cân bằng: đồng quy, tam giác lực khép kín; định lý Lami: F₁/sin α₁ = F₂/sin α₂ = F₃/sin α₃ (α_i là góc đối diện).
