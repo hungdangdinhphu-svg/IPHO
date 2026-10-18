@@ -55,11 +55,23 @@ $2p$ (3 ô): [↑ ] [↑ ] [   ]
 
 explain: Phân lớp $p$ có 3 ô. Theo quy tắc Hund, 2 electron sẽ vào 2 ô khác nhau và đều quay lên ↑, để trống ô thứ 3.
 
+Ví dụ 3667: Iron - Sắt ($Z = 26$) — Cấu hình: $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^6$
 
+$1s$ (1 ô): [↑↓]
 
+$2s$ (1 ô): [↑↓]
 
+$2p$ (3 ô): [↑↓] [↑↓] [↑↓]
 
+$3s$ (1 ô): [↑↓]
 
+$3p$ (3 ô): [↑↓] [↑↓] [↑↓]
+
+$4s$ (1 ô): [↑↓]
+
+$3d$ (5 ô): [↑↓] [↑ ] [↑ ] [↑ ] [↑ ]
+
+Giải thích: Phân lớp $3d$ có 6 electron. 5 electron đầu tiên điền lần lượt vào 5 ô với chiều quay lên (↑), electron thứ 6 quay xuống (↓) ghép cặp vào ô đầu tiên của phân lớp $3d$.
 
 
 
