@@ -7,3 +7,7 @@ Document map (as of now):
 "from13.08.2026" folder : Nơi chứa tài liệu cho chuẩn bị kỳ thi Olympic Vật Lý TP.HCM — Khối 10
 
 "from15.10.2026" folder : Đại số trừu tượng, Abstract Algebra.
+
+(DD/MM/YYYY)
+
+"from18.10.2026" folder : Chemistry
