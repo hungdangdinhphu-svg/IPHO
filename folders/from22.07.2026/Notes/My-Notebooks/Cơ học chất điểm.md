@@ -833,6 +833,8 @@ với dm/dt là tốc độ đổi khối lượng của vật (âm khi phóng r
 
 ### D11. Cân bằng tĩnh và nguyên lý công ảo (chất điểm) **[C], phần công ảo [EXT]**
 
+https://chat.deepseek.com/share/9kzz7uc3zxscduzxt2
+
 https://share.gemini.google/CUvdfOvCxM9N
 
 - **Kiểu CHỖ:** (1 hệ ở trạng thái cân bằng, một dịch chuyển ảo).
