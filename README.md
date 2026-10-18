@@ -48,6 +48,8 @@ chiến tranh nó liên quan đến Turing và https://vi.wikipedia.org/wiki/Bli
 
 Tôi nghĩ Thí Nghiệm Universe 25 khá hay
 
+"Coding chính xác là cách làm việc với công cụ tính toán mạnh nhất hành tinh, đưa Toán học hay Vật lý, các ngành khoa học cơ bản lên cỗ máy đó." Đơn giản vậy thôi, và nó khác với các "thợ gõ code", vốn chỉ biết code.
+
 Farewell.
 
 # Chỉ là Vật Lý...
