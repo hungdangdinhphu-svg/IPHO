@@ -30,7 +30,15 @@ Xem cái ví dụ này là ra hết thôi: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4
 +) Hund: Trong cùng 1 phân lớp, các electron sẽ phân bố sao cho số electron độc thân (mũi tên 1 chiều) là tối đa.
 
 
+**+) Cách vẽ mấy cái ô vuông rác rưởi:**
 
+**+) Học vẹt đi anh bạn:**
+
+Phân lớp s: Có 1 ô vuông (chứa tối đa 2 electron $\rightarrow$ điền đủ $\uparrow\downarrow$).
+
+Phân lớp p: Có 3 ô vuông (chứa tối đa 6 electron $\rightarrow$ mỗi ô điền $\uparrow\downarrow$).
+
+Phân lớp d: Có 5 ô vuông (chứa tối đa 10 electron $\rightarrow$ mỗi ô điền $\uparrow\downarrow$).
 
 
 
