@@ -71,7 +71,7 @@ $4s$ (1 ô): [↑↓]
 
 $3d$ (5 ô): [↑↓] [↑ ] [↑ ] [↑ ] [↑ ]
 
-Giải thích: Phân lớp $3d$ có 6 electron. 5 electron đầu tiên điền lần lượt vào 5 ô với chiều quay lên (↑), electron thứ 6 quay xuống (↓) ghép cặp vào ô đầu tiên của phân lớp $3d$.
+Giải thích: Phân lớp $3d$ có 6 electron. 5 electron đầu tiên điền lần lượt vào 5 ô với chiều quay lên (↑), electron thứ 6 quay xuống (↓) ghép cặp vào ô đầu tiên của phân lớp $3d$. Ừ đúng vậy, duma nó chính là Hund đó.
 
 
 
