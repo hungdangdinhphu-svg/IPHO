@@ -175,6 +175,8 @@ Hệ quả bắt buộc biết:
 
 ### THẺ 5 — ĐỘNG LỰC HỌC VẬT RẮN & CÁC ĐỊNH LUẬT BẢO TOÀN
 
+Một số người nói với tôi rằng dL_P/dt = M_P − v_P × Mv_G mới đúng vì: Điều kiện để dL_P/dt = M_P là v_P ∥ v_G (hoặc v_P = 0 tại thời điểm đó), không phải a_P ∥ r_PG. Số hạng bổ sung là −v_P × Mv_G, không phải −M(r_PG × a_P) — hai thứ này khác nhau về bản chất (một cái là vận tốc, một cái là gia tốc), không thể thay thế cho nhau. **Tôi không quan tâm, tôi bận. Bạn tự xem xét.**
+
 **Hai phương trình nền tảng (Newton–Euler):**
 > (1) M**a**_G = Σ**F**_ngoài
 > (2) d**L**_P/dt = Σ**M**_P (mômen ngoại lực với P)
