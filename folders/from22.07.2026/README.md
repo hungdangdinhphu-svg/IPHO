@@ -59,7 +59,7 @@ Khi mà tôi muốn có được nhiều lợi ích hơn đáng kể khi cày b�
 
 VPHO: KỲ THI CHỌN HỌC SINH GIỎI TRUNG HỌC PHỔ THÔNG (BỘ GIÁO DỤC VÀ ĐẠO TẠO) là do Bộ Giáo Dục và Đào Tạo tổ chức, còn các kỳ thi HSG Lý lớp 10,11,12 (không phải Olympic) thì có 2 loại chính:
 
-1. Dạng thứ nhất là dạng khó nhất, tức là đậu kỳ thi này (có thể là 2 kỳ thi hoặc 1, tệ hơn là nhiều hơn nữa) thì sẽ được vào đội tuyển của thành phố/tỉnh của bạn, sau đó được tham gia VPHO.
+1. Dạng thứ nhất là dạng khó nhất, tức là đậu kỳ thi này (có thể là 2 kỳ thi hoặc 1, tệ hơn là nhiều hơn nữa) thì sẽ được vào đội tuyển của thành phố/tỉnh của bạn, sau đó được tham gia VPHO. Và kiến thức có vẻ gần như toàn bộ Vật Lý Đại Cương và Mở rộng, bao gồm toàn bộ kiến thức THPT.
 
 2. Dạng thứ hai là dạng Olympic, hoặc dạng kỳ thi HSG mà chỉ có một khối tham gia (kiểu như HSG Lớp 10, 11, 12, chứ không phải bao gồm cả THPT), và có vẻ chỉ do Sở Giáo Dục tổ chức. (Sở khác Bộ)
 
