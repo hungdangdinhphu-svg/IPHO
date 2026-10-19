@@ -91,7 +91,7 @@ hẹ hẹ hẹ, khử sạch góc $\varphi$ với $d_{\text{eff}}$ bằng ALG-K7
 
 
 
-
+**Đính chính từ tác giả:** vc AI chém ác quá, cơ mà nói chung thì là ở ý 2 do nó ko khai triển Taylor mà bị dính bẫy (haha AI ngu) nên là ko ra 1/2, chứ chỉnh 1 tý là ok
 
 
 
