@@ -206,6 +206,10 @@ BƯỚC 7  Xác định "bài toán đích" (7.2) để chuyển cho Vấn đề
 
 **Lưu ý trung thực:** BƯỚC 0 (diễn giải) và BƯỚC 1 (chọn hệ quy chiếu/hệ) vẫn cần phán đoán. Tôi cố gắng biến phán đoán đó thành *danh sách kiểm tra* (Phần 2), nhưng không thể chứng minh danh sách là đầy đủ.
 
+**Một quy trình tìm kiếm tốt hơn thay vì chỉ bruteforce thuần chay vốn dễ "tạch" :**
+
+Từ những thông tin mà đề yêu cầu bản thân cần cung cấp (Câu hỏi từ đề) [CHTD1] và những dữ kiện đề cho [DKDC2]. "Phân tích ngược" bằng cách chỉ quan tâm đến những công cụ/phương pháp liên quan đến [CHTD1] và [DKDC2], điều hay là nó không khó và mất nhiều thời gian đâu. Còn về phần Toán học thì tự xử đi.
+
 ---
 
 ## PHẦN 2. TIỀN XỬ LÝ (PRE-PROCESSING): ĐƯA BÀI VỀ DẠNG ÁP DỤNG ĐƯỢC CÔNG CỤ
