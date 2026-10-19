@@ -315,6 +315,8 @@ Nghiệm ω_1…ω_n là các **mode chuẩn tắc**; vector riêng cho hình d�
 
 ### THẺ 9 — KEPLER & TRƯỜNG XUYÊN TÂM
 
+Đúng ra phải là p = L²/(GMm²) (với L = mr²θ̇ là mômen động lượng toàn phần)?
+
 **Cấu trúc bài toán.** Lực **F** = f(r)ê_r. Hai bảo toàn tức thì, và chúng đủ để đóng kín:
 - **L = m r²θ̇ = const** ⟺ định luật 2 Kepler (tốc độ quét diện tích dA/dt = L/2m không đổi). Đây cũng là lý do quỹ đạo **phẳng**.
 - **E = ½m(ṙ² + r²θ̇²) + U(r) = const**
