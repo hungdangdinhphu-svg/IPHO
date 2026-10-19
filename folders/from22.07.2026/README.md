@@ -61,7 +61,7 @@ VPHO: KỲ THI CHỌN HỌC SINH GIỎI TRUNG HỌC PHỔ THÔNG (BỘ GIÁO D�
 
 1. Dạng thứ nhất là dạng khó nhất, tức là đậu kỳ thi này (có thể là 2 kỳ thi hoặc 1, tệ hơn là nhiều hơn nữa) thì sẽ được vào đội tuyển của thành phố/tỉnh của bạn, sau đó được tham gia VPHO. Và kiến thức có vẻ gần như toàn bộ Vật Lý Đại Cương và Mở rộng, bao gồm toàn bộ kiến thức THPT.
 
-2. Dạng thứ hai là dạng Olympic, hoặc dạng kỳ thi HSG mà chỉ có một khối tham gia (kiểu như HSG Lớp 10, 11, 12, chứ không phải bao gồm cả THPT), và có vẻ chỉ do Sở Giáo Dục tổ chức. (Sở khác Bộ)
+2. Dạng thứ hai là dạng Olympic, hoặc dạng kỳ thi HSG mà chỉ có một khối tham gia (kiểu như HSG Lớp 10, 11, 12, chứ không phải bao gồm cả THPT), và có vẻ chỉ do Sở Giáo Dục tổ chức. (Sở khác Bộ) Kiến thức thì chỉ ở mỗi khối 10/11/12 thôi, không nặng như trên.
 
 Để đạt tới VPHO hay KỲ THI CHỌN HSGQG THPT (BỘ GIÁO DỤC VÀ ĐÀO TẠO) thì bạn cần phải vượt qua cách mà thành phố/tỉnh của bạn lựa chọn học sinh đi thi. Mỗi thành phố/tỉnh thì khác nhau.
 
