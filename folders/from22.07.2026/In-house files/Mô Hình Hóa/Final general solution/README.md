@@ -241,6 +241,10 @@ Còn nếu như căng thẳng quá thì có thể ráng viết hết ra, rồi l
 
 Dĩ nhiên trực giác có thể hỗ cực kỳ chủ chốt cho việc này để giảm bớt gánh nặng "brute-force", nhưng hãy cực kỳ cẩn trọng vì trực giác có thể lừa bạn hoặc bỏ qua những thứ cần phải làm.
 
+**Một quy trình tìm kiếm tốt hơn thay vì chỉ bruteforce thuần chay vốn dễ "tạch" :**
+
+Từ những thông tin mà đề yêu cầu bản thân cần cung cấp (Câu hỏi từ đề) [CHTD1] và những dữ kiện đề cho [DKDC2]. "Phân tích ngược" bằng cách chỉ quan tâm đến những công cụ/phương pháp liên quan đến [CHTD1] và [DKDC2], điều hay là nó không khó và mất nhiều thời gian đâu. Còn về phần Toán học thì tự xử đi.
+
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
 #### 1.1. Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence)
