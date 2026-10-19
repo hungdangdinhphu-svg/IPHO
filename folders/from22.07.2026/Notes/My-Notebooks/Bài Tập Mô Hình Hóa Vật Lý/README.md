@@ -14,6 +14,7 @@ Sau khi bạn tự giải ra được hết nó, hãy đúc kết thật kỹ c�
 
 1. Hãy hình dung toàn bộ hệ vật chuyển động, hình dạng vật,... ở mức chính xác **có thể chấp nhận**. Hãy hình dung nó ở ngoài đời thật, đừng hình dung bằng cách vẽ nó ra ngay. Nghiêm cấm tự lừa bản thân, hãy biết phân biệt những sai sót đáng quan tâm hoặc không, chắc chắn phân biệt được, đừng cứ suốt ngày nghĩ nó chỉ phụ thuộc vào trực giác.
 
+
 Hãy biết phân biệt giữa Vật Thể, Chuyển động, Quỹ đạo.
 
 2. Sau đó hãy nhớ lại những công cụ Toán mình đã từng sử dụng (có thể là đường tròn, tam giác, đường thẳng, xấp xỉ,...).
@@ -21,3 +22,5 @@ Hãy biết phân biệt giữa Vật Thể, Chuyển động, Quỹ đạo.
 3. Bạn sẽ nhận ra rằng có thể áp dụng những công cụ Toán đó, nhưng có vẻ còn "thiếu" hay "thừa" dữ kiện nào đó? Hoặc có thể đề khá "nhiễu" (quá thực tế)?
 
 4. Hãy cứ áp dụng công cụ Toán học đó, đảm bảo nó ở mức chính xác **có thể chấp nhận được**. Bạn sẽ tự nhận ra bản thân đã thành công mô hình hóa.
+
+Nói thẳng nhé: Gần như chắc chắn ta chỉ có thể phân tích được đề bằng hình học Euclid thôi, công cụ phân tích hình học chỉ đến thế! 
