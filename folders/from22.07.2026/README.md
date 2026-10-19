@@ -72,3 +72,5 @@ Mọi người rất hay nhầm lẫn những sự thật này.
 Lưu ý: Không có cái nào gọi là "khối chuyên" hay "khối không chuyên" cả! VPHO cho phép học sinh trường chuyên lẫn không chuyên tham dự, và nhiều học sinh trường "THPT Thường" đã đạt giải cao ở VPHO rồi. Tuy vậy nhưng số lượng học sinh trường chuyên hiển nhiên đông hơn đáng kể, áp đảo luôn.
 
 Sau khi có kết quả xuất sắc ở VPHO, thì chúng ta sẽ vào TST, nếu vào được thì sẽ APHO, IPHO.
+
+Và thật ra VPHO là thi 2 ngày, chứ không phải 1 ngày. Còn về cái tôi từng nói : 'Dạng thứ nhất là dạng khó nhất, tức là đậu kỳ thi này (có thể là 2 kỳ thi hoặc 1, tệ hơn là nhiều hơn nữa) thì sẽ được vào đội tuyển của thành phố/tỉnh của bạn, sau đó được tham gia VPHO. Và kiến thức có vẻ gần như toàn bộ Vật Lý Đại Cương và Mở rộng, bao gồm toàn bộ kiến thức THPT.' thì tôi cũng không rõ nữa, nhưng ở chỗ tôi thì thi 2 ngày.
