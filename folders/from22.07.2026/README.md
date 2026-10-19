@@ -68,3 +68,5 @@ VPHO: KỲ THI CHỌN HỌC SINH GIỎI TRUNG HỌC PHỔ THÔNG (BỘ GIÁO D�
 Và VPHO hay KỲ THI CHỌN HSGQG THPT (BỘ GIÁO DỤC VÀ ĐÀO TẠO) thì khác hoàn toàn so với HSG Lý lớp 10,11,12 hay Olympic.
 
 Mọi người rất hay nhầm lẫn những sự thật này.
+
+Lưu ý: Không có cái nào gọi là "khối chuyên" hay "khối không chuyên" cả! VPHO cho phép học sinh trường chuyên lẫn không chuyên tham dự, và nhiều học sinh trường "THPT Thường" đã đạt giải cao ở VPHO rồi. Tuy vậy nhưng số lượng học sinh trường chuyên hiển nhiên đông hơn đáng kể, áp đảo luôn.
