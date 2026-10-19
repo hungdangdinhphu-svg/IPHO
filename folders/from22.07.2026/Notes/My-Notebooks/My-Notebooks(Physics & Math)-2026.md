@@ -56,6 +56,13 @@ Một số thứ chủ chốt tôi làm để học điều mới:
 
 4. Ngắm trời, ngắm đất, ngắm những thiết bị liên quan nếu có, hoặc thường mô phỏng chúng (kiểu như https://phet.colorado.edu/), mày mò ra một đống biến thể kỳ dị, dị hợm của những thứ ta đã biết, cố gắng làm cho "completeness", rồi suy nghĩ nó với thực tế, suy tư như 1 triết gia?
 
+
+Nhắc lại từ .md cũ:
+
++) **Một quy trình tìm kiếm tốt hơn thay vì chỉ bruteforce thuần chay vốn dễ "tạch" :**
+
+Từ những thông tin mà đề yêu cầu bản thân cần cung cấp (Câu hỏi từ đề) [CHTD1] và những dữ kiện đề cho [DKDC2]. "Phân tích ngược" bằng cách chỉ quan tâm đến những công cụ/phương pháp liên quan đến [CHTD1] và [DKDC2], điều hay là nó không khó và mất nhiều thời gian đâu. Còn về phần Toán học thì tự xử đi.
+
 ---
 
 ## Giáo trình Lý Thuyết Khởi Đầu
