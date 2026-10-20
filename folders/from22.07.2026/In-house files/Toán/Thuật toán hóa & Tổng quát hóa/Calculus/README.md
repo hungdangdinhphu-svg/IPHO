@@ -1,1 +1,1 @@
-well
+Nhớ đọc cái này nhé, đừng quên: https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a/Calculus/Quy%20%C6%B0%E1%BB%9Bc%20to%C3%A1n%20h%E1%BB%8Dc%20quan%20tr%E1%BB%8Dng.md
