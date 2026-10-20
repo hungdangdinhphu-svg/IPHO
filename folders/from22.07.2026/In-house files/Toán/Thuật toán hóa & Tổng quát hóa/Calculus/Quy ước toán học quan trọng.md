@@ -2,4 +2,6 @@ Giải tích (Calculus) là một môn học khác so với Algebra, Geometry. N
 
 Vấn đề là rất nhiều tài liệu hiện nay đều không ý thức được việc này, có thể chính người viết cũng vậy.
 
+**Tôi thường dùng quy ước dưới đây để viết:**
+
 
