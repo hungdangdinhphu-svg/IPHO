@@ -46,6 +46,18 @@ Quên hết chúng đi! Hãy nhìn kết quả sau khi tuân theo **Quy tắc ch
 
 dy(t)/dt = f(y(t))
 
+# Vế 1 biến thiên thì vế 2 không thể là hằng số
+
+Ta có k, m là hằng.
+
+Khi quan tâm -k * v_Bx(t), gọi đó là vế 1.
+
+Và ta có vế 2 được miêu tả như sau: Là tích của khối lượng m và gia tốc a_Bx nhưng chưa rõ là hằng số hay hàm số.
+
+**Quy tắc:** Nếu về 1 biến thiên, thì vế 2 buộc phải biến thiên, vế 2 không thể là hằng.
+
+Nên: m * a_Bx(t) = -k * v_Bx(t)
+
 # Những thứ còn lại tương tự!
 
 **Quy tắc chung:** Không dùng tham số, chỉ dùng biến độc lập và hàm. Và chỉ dùng ký hiệu Leibniz.
