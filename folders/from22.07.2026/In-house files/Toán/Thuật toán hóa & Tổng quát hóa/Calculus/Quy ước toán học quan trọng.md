@@ -30,9 +30,25 @@ ex: dy(t)/dt thay vì dy/dt;
 
 ex: dy(t) = f(t)dt
 
+# PTVP
+
+1 ví dụ đơn giản: 
+
+y' = f(y)
+
+Vậy thì rốt cuộc y' là cái gì? 
+
+Cái f(y) là hàm phụ thuộc vào y; Nhưng nó rất kỳ cục. Vì vốn dĩ đạo hàm của hàm y chắc chắn không thể là dy/dy, vậy nên nó sẽ là dy/dt;
+
+Đến đây mọi thứ càng rối hơn nữa, cái f(y) kia nhìn mâu thuẫn vậy?
+
+Quên hết chúng đi! Hãy nhìn kết quả sau khi tuân theo **Quy tắc chung** chuẩn mực:
+
+dy(t)/dt = f(y(t))
+
 # Những thứ còn lại tương tự!
 
-**Quy tắc chung:** Không dùng tham số, chỉ dùng biến độc lập và hàm.
+**Quy tắc chung:** Không dùng tham số, chỉ dùng biến độc lập và hàm. Và chỉ dùng ký hiệu Leibniz.
 
 Dùng quy tắc này cho phương trình vi phân, đạo hàm, tích phân,... Cho mọi thứ!
 
