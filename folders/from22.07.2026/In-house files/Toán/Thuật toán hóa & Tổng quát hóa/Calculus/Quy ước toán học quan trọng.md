@@ -18,7 +18,35 @@ Tôi ghét việc sử dụng tham số, tôi 'yêu' hàm số hơn.
 
 Ở đây thì: t là biến độc lập (independent variable);
 
-y(t), v(t),... là biến phụ thuộc (dependent variable) — giá trị của nó phụ thuộc vào biến độc lập t;
+y(t), v(t),... là biến phụ thuộc (dependent variable) — giá trị của nó phụ thuộc vào biến độc lập t; Bạn có thể coi nó là hàm;
 
 **Hãy ghi nhớ kỹ ý nghĩa của hàm số, và lý do tôi không dùng tham số, biến độc lập, biến phụ thuộc.**
+
+# Đạo hàm (Derivative)
+
+Chỉ sử dụng ký hiệu Leibniz! Và không dùng tham số nào cả, chỉ dùng hàm hoặc biến độc lập thôi!
+
+ex: dy(t)/dt thay vì dy/dt;
+
+ex: dy(t) = f(t)dt
+
+# Còn lại...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
