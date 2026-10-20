@@ -36,7 +36,7 @@ Các "notes"/"notebooks" được để tại : https://github.com/hungdangdinhp
 
 Các files nội bộ (in-house) toán tại : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/To%C3%A1n
 
-Ôn lại Vật Lý cấp THCS/Thi vào 10 chuyên : 
+Ôn lại Vật Lý cấp THCS/Thi vào 10 chuyên : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/THCS
 
 
 # Prompts :
