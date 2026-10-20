@@ -8,3 +8,17 @@ Vấn đề là rất nhiều tài liệu hiện nay đều không ý thức đ�
 
 Một hàm số là một quy tắc gán mỗi giá trị của một đại lượng (gọi là **biến độc lập**) cho đúng một giá trị của một đại lượng khác (gọi là **biến phụ thuộc**).
 
+Thường vật lý sẽ chỉ sử dụng biến độc lập là thời gian t, và khi giải Vật Lý, tôi thường chỉ sử dụng biến độc lập là thời gian t.
+
+Mọi đại lượng vật lý mà ta quan tâm nếu có thể phụ thuộc được vào t thì sẽ là hàm của t.
+
+y = y(t); v = v(t); x = x(t); q = q(t);...
+
+Tôi ghét việc sử dụng tham số, tôi 'yêu' hàm số hơn.
+
+Ở đây thì: t là biến độc lập (independent variable);
+
+y(t), v(t),... là biến phụ thuộc (dependent variable) — giá trị của nó phụ thuộc vào biến độc lập t;
+
+**Hãy ghi nhớ kỹ ý nghĩa của hàm số, và lý do tôi không dùng tham số, biến độc lập, biến phụ thuộc.**
+
