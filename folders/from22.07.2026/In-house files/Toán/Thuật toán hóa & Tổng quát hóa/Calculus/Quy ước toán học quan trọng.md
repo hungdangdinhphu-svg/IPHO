@@ -4,4 +4,7 @@ Vấn đề là rất nhiều tài liệu hiện nay đều không ý thức đ�
 
 **Tôi thường dùng quy ước dưới đây để viết:**
 
+# Hàm số (Function)
+
+Một hàm số là một quy tắc gán mỗi giá trị của một đại lượng (gọi là **biến độc lập**) cho đúng một giá trị của một đại lượng khác (gọi là **biến phụ thuộc**).
 
