@@ -53,8 +53,9 @@ dy(t)/dt = f(y(t))
 Dùng quy tắc này cho phương trình vi phân, đạo hàm, tích phân,... Cho mọi thứ!
 
 
+**Lưu ý:** Nếu là tự luận, ngay từ đầu bài giải, hãy viết một câu định nghĩa rõ ràng nhé.
 
-
+Ví dụ: "Gọi $y = y(t)$ là hàm số mô tả sự biến thiên của $y$ theo biến độc lập $t$..."
 
 
 
