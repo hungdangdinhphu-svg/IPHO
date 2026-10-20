@@ -30,11 +30,11 @@ ex: dy(t)/dt thay vì dy/dt;
 
 ex: dy(t) = f(t)dt
 
-# Còn lại...
+# Những thứ còn lại tương tự!
 
+**Quy tắc chung:** Không dùng tham số, chỉ dùng biến độc lập và hàm.
 
-
-
+Dùng quy tắc này cho phương trình vi phân, đạo hàm, tích phân,... Cho mọi thứ!
 
 
 
