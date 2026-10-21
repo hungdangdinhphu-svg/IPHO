@@ -63,6 +63,10 @@ Nhắc lại từ .md cũ:
 
 Từ những thông tin mà đề yêu cầu bản thân cần cung cấp (Câu hỏi từ đề) [CHTD1] và những dữ kiện đề cho [DKDC2]. "Phân tích ngược" bằng cách chỉ quan tâm đến những công cụ/phương pháp liên quan đến [CHTD1] và [DKDC2], điều hay là nó không khó và mất nhiều thời gian đâu. Còn về phần Toán học thì tự xử đi.
 
+**Vấn đề nằm ở Toán hay Vật Lý?:**
+
+Nếu thấy 1 bài Vật Lý khó, chưa chắc đã như vậy đâu, có thể đơn giản là do "hỏa lực" toán của bạn chưa đủ thôi. Hãy đảm bảo cực kỳ thành thạo toán, mà nếu là toán thì dễ mà đúng không, toán dễ mà :yum:
+
 ---
 
 ## Giáo trình Lý Thuyết Khởi Đầu
