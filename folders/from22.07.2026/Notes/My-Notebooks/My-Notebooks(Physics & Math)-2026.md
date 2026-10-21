@@ -86,6 +86,8 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 https://youtu.be/3d8rRx3LLTE
 
++) Khi là hàm thì... : Đạo hàm x để ra v, đạo hàm v để ra a; Tích phân a để ra v, tích phân v để ra x.
+
 +) Hãy hiểu sâu sắc Công suất (Tốc độ thực hiện Công), Công và Năng lượng, Mối quan hệ giữa công và năng lượng, hãy hiểu first principles và dưới dạng vector, quên vô hướng đi.
 
 +) Với các định luật, nguyên lý cơ bản của Vật Lý, hãy hiểu nó dưới dạng tổng quát (như dựa trên Vector, Vi phân/Tích phân/Đạo hàm...); Còn khi áp dụng vào giải bài thì đừng dùng vector nữa (kinh nghiệm);
