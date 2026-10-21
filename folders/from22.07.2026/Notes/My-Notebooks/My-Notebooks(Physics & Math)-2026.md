@@ -225,6 +225,10 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/Nhi%E1%BB%87t%20H%E1%BB%8Dc.md
 
+Theo tôi, Lý thuyết thông tin rất tuyệt, dù là nó có phải Nhiệt học hay không, dù là ngành khoa học cơ bản nào. https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/information%20theory
+
+Cả triết học nữa!
+
 
 ### TĨNH ĐIỆN VÀ ĐIỆN TỪ
 
