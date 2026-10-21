@@ -14,7 +14,7 @@ Nếu thắc mắc vì sao có những thứ đáng lẽ nên đưa lên đầu 
 
 Đọc phương pháp tư duy/giải tổng quát trong toán học tại : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a
 
-https://ocw.mit.edu/
+https://ocw.mit.edu/ ; https://www.youtube.com/@3blue1brown ;
 
 Lý thuyết thông tin : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/information%20theory
 
