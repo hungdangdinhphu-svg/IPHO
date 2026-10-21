@@ -61,6 +61,10 @@ One might even start thinking that "hey, if my computer can just solve all these
 >
 > **Lưu ý về độ tin cậy:** các ví dụ trong tài liệu đã được thế ngược để kiểm tra, nhưng đúng với tinh thần của bạn: *đừng tin, hãy tự thế lại.* Nếu thấy sai sót, hãy ghi lại và sửa.
 
+Tôi hay học những dạng này: D.1, D.2, D.3, E.2, E.3, E.1.b / E.1.c, G.2; D.6; **Hệ PTVP → normal modes**; G.1; G.3;
+
+Hãy cực kỳ quan tâm các dạng D và **Hệ PTVP → normal modes**.
+
 ---
 
 ## Mục lục
