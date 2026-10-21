@@ -67,6 +67,10 @@ Từ những thông tin mà đề yêu cầu bản thân cần cung cấp (Câu 
 
 Nếu thấy 1 bài Vật Lý khó, chưa chắc đã như vậy đâu, có thể đơn giản là do "hỏa lực" toán của bạn chưa đủ thôi. Hãy đảm bảo cực kỳ thành thạo toán, mà nếu là toán thì dễ mà đúng không, toán dễ mà :yum:
 
+**Note:**
+
++) Tôi thắc mắc, vì sao chỉ cần là lần đầu tiên tôi học 1 chủ đề gì đó mới trong toán hoặc khoa học cơ bản, tôi thường sẽ đưa ra những góc nhìn hoặc mẹo rất tổng quát cực kỳ mạnh để về sau có thể bám vào nó mà sống khỏe, nói chung là rất sáng tạo, nhưng trong 1 số lúc, tôi đã quên mất điều đó, vậy nên lúc tôi học lại (giống kiểu mất gốc xong r học lại từ đầu, nma chủ quan vì nghĩ bản thân từng học r) thì tôi ko nghĩ ra lại ý tưởng cũ đó nx, cực kỳ khó nhọc, mãi sau mới lục lại notebook thì ko ngờ mình từng nghĩ ra cái đó, mà cái này lặp lại bao nhiêu lần r. 
+
 ---
 
 ## Giáo trình Lý Thuyết Khởi Đầu
