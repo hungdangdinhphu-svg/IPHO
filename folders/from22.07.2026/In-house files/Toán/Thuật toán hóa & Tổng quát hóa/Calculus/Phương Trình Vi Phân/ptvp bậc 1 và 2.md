@@ -907,3 +907,5 @@ PTVP không phải là "một chương đáng sợ cần học thuộc 30 dạng
 4. **Kiểm chứng** bằng thế ngược, thứ nguyên, giới hạn.
 
 Hãy tự tay giải mọi ví dụ trên giấy trắng. *Hiểu ≠ Làm được.*
+
+Kho báu: https://chat.deepseek.com/share/ctg26acjs5hxchgoqx
