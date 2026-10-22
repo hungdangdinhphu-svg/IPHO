@@ -9,6 +9,13 @@ Nếu thắc mắc vì sao có những thứ đáng lẽ nên đưa lên đầu 
 
 Nếu bạn hỏi tại sao tôi lại cung cấp nhiều lý thuyết, và vì sao khoảng hơn ~80% là thời gian tôi dành để đọc lý thuyết? Tin tôi đi, đừng tin tưởng lý thuyết mà bạn được học thụ động. Tôi cho rằng, bạn nên cảm thấy học lý thuyết khó hơn làm bài tập (mà không làm giảm độ khó của bài tập của bạn, tức là độ khó vẫn ở kỳ thi khó đó, kiểu vẫn là VPHO, IPHO gì đó), bạn sẽ hiểu ý tôi khi bạn thật sự đọc hết những gì tôi ghi, tôi đoán vậy.
 
+Bạn có nghĩ rằng, những ngành mà trông như không liên quan lại đang là ngôn ngữ cực kỳ hiện đại và tốt để giải thích những thứ bên Vật Lý không?
+
+Kiểu như, giả sử có 1 người tên L, nói cho bạn rằng những người hiểu sâu sắc Lý Thuyết Thông Tin (Information Theory) sẽ hiểu sâu sắc Toán học, và Toán học là ngôn ngữ để mô tả sự bất định (Uncertainty) và cấu trúc (Structure). Họ có thể "thống nhất" và "kết nối" mảng Toán khổng lồ lại với nhau.  Họ giỏi Toán vì họ không học vẹt công thức, họ hiểu ý nghĩa thông tin đằng sau mỗi ký hiệu toán học.
+Nhân tiện, họ cũng sẽ hiểu cực kỳ sâu sắc Vũ trụ được tạo nên từ thông tin, và cực kỳ sâu sắc...
+
+Thế bạn có nghĩ Triết Học là nền tảng của khoa học cơ bản không? Nếu một khi bạn giỏi Triết học thật sự, bạn có thay đổi góc nhìn hoàn toàn không?
+
 **Các thứ chủ chốt:**
 
 Đọc phương pháp tư duy tổng quát trong việc Mô Hình Hóa và Tư duy giải Lý tại : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md
