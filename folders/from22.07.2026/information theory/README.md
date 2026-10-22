@@ -1,3 +1,5 @@
+https://chat.deepseek.com/share/co1xam3scalp5k7mfe
+
 Vũ trụ, hay cụ thể hơn thì Toán học, Nhiệt Học, Vật Lý Hiện Đại, Thuyết tương đối, Lượng tử, là chịu ảnh hưởng nặng nhất, nhưng ảnh hưởng của Information Theory liên quan đến mọi nơi có thông tin, tức là mọi lý thuyết nhân loại đều có thể đem ra phân tích.
 
 
