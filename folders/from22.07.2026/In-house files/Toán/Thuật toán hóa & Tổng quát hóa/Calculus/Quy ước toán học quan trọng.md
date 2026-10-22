@@ -20,7 +20,7 @@ Tôi ghét việc sử dụng tham số, tôi 'yêu' hàm số hơn.
 
 y(t), v(t),... là biến phụ thuộc (dependent variable) — giá trị của nó phụ thuộc vào biến độc lập t; Bạn có thể coi nó là hàm;
 
-**Hãy ghi nhớ kỹ ý nghĩa của hàm số, và lý do tôi không dùng tham số, biến độc lập, biến phụ thuộc.**
+**Hãy ghi nhớ kỹ ý nghĩa của hàm số, và lý do tôi không dùng tham số.**
 
 # Đạo hàm (Derivative)
 
