@@ -22,7 +22,7 @@ Do thông tin là thứ quá mức phổ biến và trừu tượng, hệ quả 
 
 
 
-Tuy lý thuyết thông tin (Information Theory) xuất phát từ bài báo A Mathematical Theory of Communication 1948 từ Informatics, nhưng nó là ngôn ngữ, công cụ cốt lõi ta có thể sử dụng để phá đảo Vật Lý và Toán học, và nó đã âm thầm làm điều này từ đó đến nay, cùng với Triết học.
+Tuy lý thuyết thông tin (Information Theory) xuất phát từ bài báo A Mathematical Theory of Communication 1948 từ Informatics, nhưng nó là ngôn ngữ, công cụ cốt lõi ta có thể sử dụng để phá đảo Vật Lý và Toán học, và nó đã âm thầm làm điều này từ đó đến nay, cùng với Triết học. Và xuất phát điểm chính thức của Vật Lý Cổ Điển do Newton xuất bản không mang tên "Vật Lý", nó mang tên "Các nguyên lý toán học của Triết học tự nhiên".
 
 
 
