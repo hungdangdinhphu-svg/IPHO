@@ -30,6 +30,8 @@ Tuy lý thuyết thông tin (Information Theory) xuất phát từ bài báo A M
 
 # IT
 
+https://vi.wikipedia.org/wiki/L%C3%BD_thuy%E1%BA%BFt_th%C3%B4ng_tin
+
 Shannon information: thông tin = mức giảm bất định. Nó không nói về ý nghĩa.
 
 Semantic information: thông tin có nội dung, sự thật, ý nghĩa — thuộc triết học thông tin.
