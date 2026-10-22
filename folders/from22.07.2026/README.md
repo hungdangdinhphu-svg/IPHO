@@ -7,6 +7,7 @@ Nếu thắc mắc vì sao có những thứ đáng lẽ nên đưa lên đầu 
 
 "Nature uses only the longest threads to weave her patterns, so that each small piece of her fabric reveals the organization of the entire tapestry." — Feynman
 
+Nếu bạn hỏi tại sao tôi lại cung cấp nhiều lý thuyết, và vì sao khoảng hơn ~80% là thời gian tôi dành để đọc lý thuyết? Tin tôi đi, đừng tin tưởng lý thuyết mà bạn được học thụ động. Tôi cho rằng, bạn nên cảm thấy học lý thuyết khó hơn làm bài tập (mà không làm giảm độ khó của bài tập của bạn, tức là độ khó vẫn ở kỳ thi khó đó, kiểu vẫn là VPHO, IPHO gì đó), bạn sẽ hiểu ý tôi khi bạn thật sự đọc hết những gì tôi ghi, tôi đoán vậy.
 
 **Các thứ chủ chốt:**
 
