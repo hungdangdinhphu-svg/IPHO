@@ -41,6 +41,8 @@ Một bài Vật lý có thể trông rất khác một bài Vật lý khác. Nh
 
 Biến tấu Vật lý không phá vỡ cấu trúc! Bạn chỉ cần nhận diện cấu trúc, rồi áp dụng phương pháp.
 
+Ở góc nhìn thực dụng hơn, dù đề thi có cố tình biến tấu rất nhiều, dù có đưa 1 bài mà chưa từng xuất hiện trước đây, thì những **CÔNG CỤ** và Cấu Trúc Toán Học (1 hoặc nhiều) chắc chắn không thể thay đổi, và việc đã hiểu cực kỳ sâu sắc về những thứ tôi đã nói, sắp nói thì sẽ khiến bản thân giải được đề đó một cách hiển nhiên, nhẹ nhàng. Thay vì phải "pattern recognition" các dạng quen thuộc, và khi ra dạng mới thì mệt mỏi đi ra khỏi "vùng thoải mái".
+
 ## Pre & Suf
 
 Điều quan trọng: Bản chất vật lý & Precondition, sufficient condition (Tôi có nêu suốt ngày) để giới hạn cấu trúc toán lại.
