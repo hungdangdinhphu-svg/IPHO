@@ -1,3 +1,31 @@
+Vũ trụ, hay cụ thể hơn thì Toán học, Nhiệt Học, Vật Lý Hiện Đại, Thuyết tương đối, Lượng tử, là chịu ảnh hưởng nặng nhất, nhưng ảnh hưởng của Information Theory liên quan đến mọi nơi có thông tin, tức là mọi lý thuyết nhân loại đều có thể đem ra phân tích.
+
+
+
+Là công cụ hiểu sâu sắc về sự "bất định", những cái "pattern" (kiểu như phát hiện ra rằng ẩn dưới 1 bài toán bất kỳ là 1 cấu trúc đẹp đẽ), và hơn thế nữa. Riêng Nhiệt học của Vật Lý có sự tương đồng gần như y chang với Lý thuyết thông tin, kiểu như entropy.
+
+
+
+Các kỳ thi học sinh giỏi quốc gia (HSGQG) Toán và Lý tập trung đo lường khả năng nhìn thấu các bất biến cấu trúc (structural invariants) dưới lớp vỏ bọc phức tạp của đề bài. Lý thuyết thông tin là công cụ toán học và trực giác hạng nặng để xử lý triệt để điều này từ gốc.
+
+
+
+Nắm và phân biệt, tự định nghĩa được, hiểu sâu sắc mọi cấu trúc "đẹp đẽ" hay "lặp lại" từ Vật Lý đến Toán là kỹ năng mà người sử dụng lý thuyết thông tin sở hữu.
+
+
+
+ex: Hệ này có bao nhiêu bậc tự do? Ràng buộc cốt lõi là gì? Độ bất định nằm ở đâu? Mối quan hệ giữa thông tin đề cung cấp và công cụ ta từng học ntn, ta có nên duyệt 1 lượt hết các công cụ ta từng học liên quan đến thông tin đề cung cấp hay ko, nếu có thì làm ntn, phân tích ra sao?
+
+
+
+Do thông tin là thứ quá mức phổ biến và trừu tượng, hệ quả là khủng khiếp.
+
+
+
+Tuy lý thuyết thông tin (Information Theory) xuất phát từ bài báo A Mathematical Theory of Communication 1948 từ Informatics, nhưng nó là ngôn ngữ, công cụ cốt lõi ta có thể sử dụng để phá đảo Vật Lý và Toán học, và nó đã âm thầm làm điều này từ đó đến nay, cùng với Triết học.
+
+
+
 # IT
 
 Shannon information: thông tin = mức giảm bất định. Nó không nói về ý nghĩa.
