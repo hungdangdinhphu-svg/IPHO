@@ -1,3 +1,5 @@
+wikipedia: https://en.wikipedia.org/wiki/Taylor_series
+
 # Taylor & Maclaurin Series cho HSGQG, TST Vật Lý
 ### Bài giảng: Từ trực giác đến thuật toán giải bài tập
 
