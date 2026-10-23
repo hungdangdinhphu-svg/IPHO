@@ -4,3 +4,5 @@ Target: Áp dụng Laplace cho những trường hợp nên dùng chúng, kiểu
 PTVP bậc 2: Tuyến tính hệ số hằng, không thuần nhất
 
 Hệ PTVP và phương pháp khử.
+
+https://chat.deepseek.com/share/y1cptveo9rh3kzof7w
