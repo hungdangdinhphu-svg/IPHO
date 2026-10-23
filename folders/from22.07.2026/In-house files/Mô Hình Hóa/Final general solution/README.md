@@ -233,6 +233,15 @@ Mọi trường hợp phải được xét.
 
 (7) Biến đổi hợp lệ — Derivation Validity
 
+**Khi đã hiểu rằng thứ duy nhất không thể "Chuẩn bị trước" chỉ có thể là vấn đề tìm kiếm, ta rút ra câu khẳng định mạnh sau:**
+
+"Nếu có sự khác biệt điểm số giữa người A (điểm thấp) và B (giỏi) trong HSGQG Lý, chắc chắn chỉ có thể đến từ 1 "đường tắt" nào đó trong vấn đề tìm kiếm. Thường thì là : Hiểu sâu lý thuyết, hoặc thuộc các pattern, dạng bài quen thuộc, hoặc có 1 "cách mò mẫm" tuyệt vời nào gần như chắc chắn tốt hơn, hoặc first principles,...
+
+Và điểm chung của "đường tắt" đó là: Có thể truyền đạt cho A thông qua lý thuyết được, và không yêu cầu A phải là người xuất chúng, đúng hơn là chỉ cần có người thầy tốt hoặc tự học và chăm chỉ.
+
+Vì nếu B điểm cao hơn A trong vấn đề tìm kiếm thuần túy và không có "đường tắt" nào, gần như bất khả thi, hay bất khả thi trong không gian đủ rộng."-Đặng Đình Phú Hưng
+
+
 **Khi đã biết rõ và cực kỳ chặt chẽ Điều kiện đủ (sufficient condition) thì đây là khá ngon để tìm ra CHỖ để dùng các CÔNG CỤ:**
 
 Sau khi chọn công cụ n, DUYỆT ĐẦY ĐỦ (kỹ kiểu như từng "pixel" nếu là Hình Ảnh, từng chữ cái nếu là Văn Bản) xem coi có chỗ nào áp dụng được không, và nếu áp dụng thì nó có vẻ có ý nghĩa gì không?
