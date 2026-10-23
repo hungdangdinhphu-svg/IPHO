@@ -1,6 +1,5 @@
 Target: Áp dụng Laplace cho những trường hợp nên dùng chúng, kiểu như:
 
-PTVP bậc 1: Tuyến tính bậc 1 (thừa số tích phân); Lưu ý: Nếu Tuyến tính bậc 1 mà hệ số thay đổi thì không được;
 
 PTVP bậc 2: Tuyến tính hệ số hằng, không thuần nhất
 
