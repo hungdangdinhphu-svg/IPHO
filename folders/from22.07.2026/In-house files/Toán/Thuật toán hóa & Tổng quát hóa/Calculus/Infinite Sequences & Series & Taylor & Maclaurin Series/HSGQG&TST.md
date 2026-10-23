@@ -1,3 +1,7 @@
+https://youtu.be/3d6DsjIBzJ4?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr
+
+$$\frac{f^{(0)}(0)}{0!} (3\text{blue}1\text{brown})^0 + \frac{f^{(1)}(0)}{1!} (3\text{blue}1\text{brown})^1 + \frac{f^{(2)}(0)}{2!} (3\text{blue}1\text{brown})^2 + \frac{f^{(3)}(0)}{3!} (3\text{blue}1\text{brown})^3 + \dots$$
+
 wikipedia: https://en.wikipedia.org/wiki/Taylor_series
 
 # Taylor & Maclaurin Series cho HSGQG, TST Vật Lý
