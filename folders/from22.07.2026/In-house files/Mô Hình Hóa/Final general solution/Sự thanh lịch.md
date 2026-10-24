@@ -1,4 +1,4 @@
-"Không biết nếu hiểu sâu sắc được những thứ thầy gửi, em có thấy mọi đề thi HSGQG Lý hay rộng hơn nữa, là cả Vật Lý, đều 'hiển nhiên' và 'dễ khủng khiếp' hay không...?" 
+"Không biết nếu hiểu sâu sắc được những thứ thầy gửi, em có thấy mọi đề thi HSGQG Lý hay rộng hơn nữa, là cả Vật Lý, đều 'hiển nhiên' và 'dễ khủng khiếp' hay không...?"-Giấu tên.
 
 # Cơ học cổ điển 
 
