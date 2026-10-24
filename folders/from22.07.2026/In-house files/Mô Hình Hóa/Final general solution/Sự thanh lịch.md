@@ -1,6 +1,6 @@
 # Cơ học cổ điển 
 
-Nguyên lý tác dụng tối thiểu (Principle of Least Action):$$\delta S = \delta \int L \, dt = 0$$
+Nguyên lý tác dụng tối thiểu (Principle of Least Action): $$\delta S = \delta \int L \, dt = 0$$
 
 # Điện từ học cổ điển
 
