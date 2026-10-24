@@ -1,3 +1,5 @@
+Đại số tuyến tính: https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+
 # Thảo luận lớn về Biến đổi đại số và hơn thế nữa
 
 
