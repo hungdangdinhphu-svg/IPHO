@@ -20,6 +20,8 @@ Tôi ghét việc sử dụng tham số, tôi 'yêu' hàm số hơn.
 
 y(t), v(t),... là biến phụ thuộc (dependent variable) — giá trị của nó phụ thuộc vào biến độc lập t; Bạn có thể coi nó là hàm;
 
+Trong Vật Lý, tôi gần như chắc chắn luôn coi t là biến độc lập, những biến khác dù có là góc theta hay gì đó thì tôi cũng cho nó phụ thuộc vào t hết. Vì t rất tuyệt, bài nào cũng có t.
+
 **Hãy ghi nhớ kỹ ý nghĩa của hàm số, và lý do tôi không dùng tham số.**
 
 # Đạo hàm (Derivative)
