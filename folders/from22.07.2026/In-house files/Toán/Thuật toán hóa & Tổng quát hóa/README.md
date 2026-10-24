@@ -31,7 +31,7 @@ ODE tuyến tính hệ số hằng (bậc 2) + số phức/phasor: https://githu
 
 Toàn bộ phần ODEs, Hệ PTVP, các dạng ODEs trong phần Toán tôi đã đưa:  https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a  & Kết hợp quyển Calculus 7e của James Stewarts
 
-Đại số tuyến tính ma trận: https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a  & Kết hợp quyển Calculus 7e của James Stewarts & https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+Đại số tuyến tính ma trận: https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a  & https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
 
 Giải tích biến phân & nguyên lý đối xứng: 
 
