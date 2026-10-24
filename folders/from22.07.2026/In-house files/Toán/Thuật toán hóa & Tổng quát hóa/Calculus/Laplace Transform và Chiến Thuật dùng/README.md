@@ -1,3 +1,7 @@
+https://www.youtube.com/watch?v=j0wJBEZdwLs&pp=ygUdTGFwbGFjZSBUcmFuc2Zvcm0gM2JsdWUxYnJvd24%3D
+
+https://www.youtube.com/watch?v=FE-hM1kRK4Y&pp=ygUdTGFwbGFjZSBUcmFuc2Zvcm0gM2JsdWUxYnJvd27SBwkJLAwBhyohjO8%3D
+
 Target: Áp dụng Laplace cho những trường hợp nên dùng chúng, kiểu như:
 
 
