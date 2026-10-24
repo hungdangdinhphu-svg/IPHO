@@ -20,3 +20,6 @@ $$S = \int \left( -\frac{1}{4} F_{\mu\nu} F^{\mu\nu} - A_\mu J^\mu \right) d^4x$
 
 Tiên đề vi trạng thái khả dĩ đẳng xác suất, entropy Boltzmann $S = k_B \ln \Omega$. Lý thuyết thông tin.
 
+# Quantum Mechanics
+
+# General Relativity
