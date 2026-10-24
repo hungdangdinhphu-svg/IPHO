@@ -15,3 +15,31 @@ Dạng vô định 0/0:
 Phân tích thành nhân tử;
 
 Nhân liên hợp (khi có căn thức), tức nhân cả tử và mẫu với...
+
+Dạng vô định vô cùng/vô cùng:
+
+Chia cả tử và mẫu cho lũy thừa cao nhất của x;
+
+Giới hạn tại vô cực (Limits at Infinity): Xem xét bậc của đa thức (Bậc tử > bậc mẫu → +/- vô cùng  ; Bậc tử = bậc mẫu → tỉ số hệ số; Bậc tử < bậc mẫu → 0).
+
+Quy tắc L'Hôpital (L'Hôpital's Rule): Nếu gặp 0/0 hoặc vô cùng/vô cùng ta có thể đạo hàm tử và đạo hàm mẫu riêng biệt rồi tính giới hạn.
+
+4. Tính liên tục (Continuity):
+
+Hàm số liên tục tại x = a nếu: lim_x->a f(x) = f(a) (Tức là: Điểm đó phải tồn tại, giới hạn phải tồn tại, và chúng phải bằng nhau).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
