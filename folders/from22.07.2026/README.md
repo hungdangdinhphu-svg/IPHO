@@ -52,7 +52,7 @@ Các files nội bộ (in-house) toán tại : https://github.com/hungdangdinhph
 
 Ôn lại Vật Lý cấp THCS/Thi vào 10 chuyên : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/THCS
 
-Tôi cố tình đơn giản hóa cực kỳ nhiều để viết ra cái này, dĩ nhiên tôi vừa vô tình và cố tình tạo ra nhiều sai sót nhỏ, để đảm bảo nó dễ đọc: https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/not-y-t-classified/vandetimkiem.png
+Tôi cố tình đơn giản hóa cực kỳ nhiều để viết ra cái này, dĩ nhiên tôi vừa vô tình và cố tình tạo ra nhiều sai sót nhỏ, để đảm bảo nó dễ đọc; Thật ra nó đều là "tái phát minh" cả đấy, tuyệt! Bạn có thể đào sâu thêm vào những tài liệu chuyên sâu và học thuật hơn về nó, thay vì chỉ nghe tôi yapping: https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/not-y-t-classified/vandetimkiem.png
 
 
 # Prompts :
