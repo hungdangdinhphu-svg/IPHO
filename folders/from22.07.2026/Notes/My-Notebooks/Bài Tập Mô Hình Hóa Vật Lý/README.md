@@ -8,6 +8,11 @@ Sau khi bạn tự giải ra được hết nó, hãy đúc kết thật kỹ c�
 
 Đừng ảo tưởng rằng việc bản thân Pattern Recognition (dù ngầm) với việc chưa từng nghe qua 1 lần nào.
 
+"cơ mà thú thật với m, vật lý thì nó chỉ khó ở bước từ hư vô ra cái hình vẽ thôi, sau khi ra đc cái hình vẽ rồi thì ngay cả đề hsgqg lý nó chả còn j khó nx, chắc cùng lắm tính nhầm th"
+
+"Cái bài trong ảnh t gửi m nó mới thật sự khó nếu m làm lần đầu trong đời, m sẽ hiểu ý t. mặc dù công cụ toán rất dễ"
+
+
 ---
 
 Đây là đúc kết của cá nhân tôi:
