@@ -2,6 +2,8 @@
 
 > *"Không biết nếu hiểu sâu sắc được những thứ thầy gửi, em có thấy mọi đề thi HSGQG Lý hay rộng hơn nữa, là cả Vật Lý, đều 'hiển nhiên' và 'dễ khủng khiếp' hay không...?"*
 
+> *"Có vẻ giống việc này: Số lượng tiên đề và định luật, những thứ nền tảng của Vật Lý cốt lõi là rất ít. Chúng ta đang được học quá nhiều thứ chỉ đúng trong những trường hợp riêng lẻ, hoặc là hệ quả. Khi nhìn vào đề thì chúng ta không biết nên xài công cụ gì, nhưng thực tế nếu chúng ta học những thứ nền tảng nhất của Vật Lý (dĩ nhiên rào cản lớn vẫn là Toán học), thì chúng ta có quá ít công cụ để thắc mắc bản thân cần dùng công cụ vật lý nào."*
+
 ## Lời nói thật trước khi bắt đầu
 
 Mình sẽ làm đúng thứ bạn yêu cầu: dựng một bộ khung khiến toàn bộ Vật Lý nhìn như hệ quả của **một** ý tưởng. Nhưng có một sự thật cần nói thẳng: **"hiểu first principles" không miễn phí "kỹ năng giải toán"**. Một đề IPhO khó không phải vì nó dùng định luật bạn chưa biết — nó khó vì nó buộc bạn *kết hợp* 3-4 nguyên lý quen thuộc theo một cách bạn chưa từng thấy, dưới áp lực thời gian, với một mô hình hoá (modelling) tinh tế. First principles cho bạn *bản đồ* — nó không đi bộ hộ bạn. Nhưng bản đồ tốt làm số bước đi giảm 10 lần, và đó chính xác là thứ tài liệu này cố làm.
