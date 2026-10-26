@@ -5,7 +5,7 @@ ok
 
 # 1
 
-link: 
+link: https://chat.deepseek.com/share/y47d5lw4rkxtd6w2ri
 
 Thought experiment: https://en.wikipedia.org/wiki/Thought_experiment
 
