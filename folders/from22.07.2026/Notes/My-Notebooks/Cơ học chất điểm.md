@@ -878,6 +878,8 @@ Nhắc lại nguyên lý ở 1.6: **mỗi định luật bảo toàn là một m
 
 ---
 
+https://chat.deepseek.com/share/p7qljqqhmovcjdao9x
+
 ### C1. Xung lượng và bảo toàn động lượng **[C]**
 
 - **Kiểu CHỖ:** (Σ, khoảng thời gian [t₁, t₂], phương e).
