@@ -38,6 +38,24 @@ Nhận diện được những thứ cốt lõi không thể/có thể bỏ qua.
 
 ## 5. Phân tích thứ nguyên (Dimensional Analysis)
 
+## 6. Bổ sung 
+
+Sanjoy Mahajan — “Street-Fighting Mathematics”
+
+“The Art of Insight in Science and Engineering” & khóa 6.055J tại MIT
+
+Quantitative reasoning
+
+Feynman — “Symmetry in Physical Law” (có thể đọc trước để lấy trực giác, rồi mới học Lagrangian hình thức sau)
+
+Với Cơ Học: Học Cơ học Lagrange + Định lý Noether ở mức sơ cấp (đừng lún sâu). Nếu Lagrangian của hệ không đổi khi dịch chuyển/xoay theo một biến nào đó (gọi là “biến tuần hoàn”/cyclic coordinate) → đại lượng liên hợp với biến đó chắc chắn bảo toàn. HSGQG không yêu cầu bạn viết lời giải bằng Lagrangian (đề thường chấm theo Newton cổ điển), nhưng hiểu Lagrangian giúp bạn NHÌN RA bất biến nhanh và chắc hơn trước khi viết lại bằng ngôn ngữ Newton để nộp bài.
+
+George Pólya — “How to Solve It”
+
+Bài tập luyện trực giác nếu thích: “200 Puzzling Physics Problems” & “200 More Puzzling Physics Problems” (Gnädig, Honyek, Vigh)
+
+
+
 
 
 ## Cuối: Kiểm tra kỹ càng.
