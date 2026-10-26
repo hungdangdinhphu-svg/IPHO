@@ -54,7 +54,9 @@ George Pólya — “How to Solve It”
 
 Bài tập luyện trực giác nếu thích: “200 Puzzling Physics Problems” & “200 More Puzzling Physics Problems” (Gnädig, Honyek, Vigh)
 
+**Ưu tiên đọc theo quy trình này:**
 
+How to Solve It (Pólya), "Symmetry in Physical Law", Street-Fighting Mathematics (Dimensional Analysis, Easy Cases, Lumping), Thought Experiment, Đọc các chương còn lại của Street-Fighting Mathematics và bắt đầu đọc The Art of Insight in Science and Engineering, The Art of Insight về Symmetry and Conservation, Proportional Reasoning,... 
 
 
 
