@@ -1,5 +1,48 @@
 
 # VẬT LÝ
+--
+
+**Tư duy (Với HSGQG Lý):**
+
+1. Input: Đảm bảo chắc chắn thu thập đủ thông tin. Với văn bản thì là từng chữ cái, ký tự, với hình ảnh thì từng "pixel". Thường làm đi làm lại bước này khi kiểm tra lại, hoặc khi bế tắc.
+
+2. Model Closure, Mô hình toán học phổ biến: 
+
+Cấu trúc chung: Số ẩn chưa biết = Số phương trình độc lập mô tả hệ;
+
+Thử liệt kê hết các ẩn, rồi đi tìm đủ số phương trình độc lập bằng cách rà qua một checklist cố định các “nguồn phương trình”;
+
+3. Nhận diện bất biến (Invariants), biết phân biệt thật/giả, quy luật.
+
+4. Xấp xỉ và giới hạn, thí nghiệm tư duy, Mô hình hóa:
+
+Taylor & Maclaurin, Thử giới hạn (limiting case) để kiểm tra đáp số;
+
+Thought experiment: https://en.wikipedia.org/wiki/Thought_experiment
+
+Giữ nguyên các quy luật tự nhiên căn bản (Nomological Possibility); 
+
+Sử dụng logic nghiêm ngặt để tổ chức lại dữ kiện (Rearranging Empirical Data); 
+
+Phép thử "Cận biên" phải được kiểm chứng lại bằng Toán học (Relation to Real Math);
+
+Phép thử "Cận biên" bằng Toán học chính là việc bạn "ép" các biến số này tiến về các giá trị cực đoan nhất (như bằng \(0\) hoặc vô cùng \(\infty \)) để xem công thức đó còn đúng với thực tế hay không.
+
+Nhận diện được những thứ cốt lõi không thể/có thể bỏ qua.
+
+--
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
