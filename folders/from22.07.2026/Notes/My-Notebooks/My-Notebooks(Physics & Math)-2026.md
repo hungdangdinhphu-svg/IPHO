@@ -56,7 +56,7 @@ Bài tập luyện trực giác nếu thích: “200 Puzzling Physics Problems�
 
 **Ưu tiên đọc theo quy trình này:**
 
-How to Solve It (Pólya), "Symmetry in Physical Law", Street-Fighting Mathematics (Dimensional Analysis, Easy Cases, Lumping), Thought Experiment, Đọc các chương còn lại của Street-Fighting Mathematics và bắt đầu đọc The Art of Insight in Science and Engineering, The Art of Insight về Symmetry and Conservation, Proportional Reasoning,... 
+How to Solve It (Pólya) chỉ đọc phần tóm tắt 4 bước + bảng câu hỏi gợi ý trước, "Symmetry in Physical Law", Street-Fighting Mathematics (Dimensional Analysis, Easy Cases, Lumping), Thought Experiment, Đọc các chương còn lại của Street-Fighting Mathematics và bắt đầu đọc The Art of Insight in Science and Engineering, The Art of Insight về Symmetry and Conservation, Proportional Reasoning,... 
 
 
 
