@@ -1,6 +1,6 @@
 
 # VẬT LÝ
---
+---
 
 **Tư duy (Với HSGQG Lý):**
 
@@ -30,7 +30,7 @@ Phép thử "Cận biên" bằng Toán học chính là việc bạn "ép" các 
 
 Nhận diện được những thứ cốt lõi không thể/có thể bỏ qua.
 
---
+---
 
 
 
