@@ -36,6 +36,12 @@ Phép thử "Cận biên" bằng Toán học chính là việc bạn "ép" các 
 
 Nhận diện được những thứ cốt lõi không thể/có thể bỏ qua.
 
+## 5. Phân tích thứ nguyên (Dimensional Analysis)
+
+
+
+## Cuối: Kiểm tra kỹ càng.
+
 ---
 
 
