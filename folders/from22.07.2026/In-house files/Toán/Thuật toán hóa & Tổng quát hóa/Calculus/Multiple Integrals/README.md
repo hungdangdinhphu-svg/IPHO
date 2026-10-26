@@ -1,3 +1,5 @@
+https://chat.deepseek.com/share/u2s34wosozw0f0x2pb
+
 # TÍCH PHÂN BỘI (MULTIPLE INTEGRALS) TRONG VẬT LÝ HSGQG
 
 > Tài liệu này được viết theo đúng tinh thần triết lý trong "Thảo luận lớn về Cách giải Đề thi HSGQG Vật Lý": không dạy "dạng bài", mà dạy **First Principles + Điều kiện Cần/Đủ + Thuật toán xử lý CHỖ**. Tích phân bội ở đây được xem như một **CÔNG CỤ (ℓ)** trong thư viện công cụ của bạn, với `Dom(ℓ)`, `Pre(ℓ)`, `Post(ℓ)` được định nghĩa rõ ràng.
