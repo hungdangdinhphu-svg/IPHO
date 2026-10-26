@@ -20,7 +20,9 @@ Phép thử "Cận biên" bằng Toán học chính là việc bạn "ép" các 
 
 ---
 
-# 2
+# 2 Phân tích thứ nguyên (Dimensional Analysis)
+
+link: 
 
 
 ---
