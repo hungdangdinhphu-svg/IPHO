@@ -12,7 +12,11 @@
 
 Cấu trúc chung: Số ẩn chưa biết = Số phương trình độc lập mô tả hệ;
 
-Thử liệt kê hết các ẩn, rồi đi tìm đủ số phương trình độc lập bằng cách rà qua một checklist cố định các “nguồn phương trình”;
+Thử liệt kê hết các ẩn, rồi đi tìm đủ số phương trình độc lập;
+
+## 2.5. Checklist, coi CÔNG CỤ là trung tâm
+
+Rà "kỹ" qua một checklist cố định các “nguồn phương trình”, các CÔNG CỤ có thể dùng.
 
 ## 3. Nhận diện bất biến (Invariants), biết phân biệt thật/giả, quy luật.
 
