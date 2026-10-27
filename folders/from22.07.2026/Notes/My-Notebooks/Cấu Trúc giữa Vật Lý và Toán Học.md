@@ -7,7 +7,7 @@ Vấn đề 1 : Chuyển Bài Vật Lý về Bài Toán, thường sẽ là Mô 
 
 Vấn đề 2 : Dùng cấu trúc Toán Học để giải.
 
-Vấn đề 2 là 1 trong vấn đề lớn, và phần này ta sẽ chỉ bàn sâu về nó.
+Vấn đề 2 là 1 trong vấn đề lớn, và phần này ta sẽ chỉ bàn sâu về nó. Vấn đề chính : Nếu không phải là một quy trình có thể thực hiện "máy móc" và phù hợp với điều kiện thi của thí sinh (không cần một cái computer, vô hạn thời gian, tốn 10 tiếng,...) thì nó đòi hỏi trực giác để giải quyết. Nhưng ta phải giải quyết vấn đề này với điều kiện thí sinh chỉ có trực giác ở mức trung bình, không phải theo cách tầm thường hay phổ biến với việc giáo dục ngày nay.
 
 ## Phát biểu về cấu trúc giữa Vật Lý và Toán
 
