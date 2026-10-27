@@ -878,6 +878,87 @@ Nhắc lại nguyên lý ở 1.6: **mỗi định luật bảo toàn là một m
 
 ---
 
+Bài toán mẫu: Một hạt khối lượng m trượt không ma sát trên một vòng dây tròn bán kính R. Vòng dây này quay đều với vận tốc góc w quanh trục thẳng đứng đi qua tâm của nó.
+
+```py
+
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
+from scipy.integrate import solve_ivp
+
+# --- Thông số bài toán ---
+g = 9.81        # Gia tốc trọng trường (m/s^2)
+R = 1.0         # Bán kính vòng dây (m)
+omega = 5.0     # Vận tốc góc quay quanh trục thẳng đứng (rad/s)
+theta_0 = np.pi / 6  # Góc lệch ban đầu (rad)
+theta_dot_0 = 0.0    # Vận tốc góc ban đầu
+
+# --- Phương trình vi phân ---
+def eom(t, y):
+    theta, theta_dot = y
+    dtheta = theta_dot
+    dtheta_dot = np.sin(theta) * (omega**2 * np.cos(theta) - g / R)
+    return [dtheta, dtheta_dot]
+
+# Giải ODE
+t_span = (0, 10)
+t_eval = np.linspace(t_span[0], t_span[1], 300)
+sol = solve_ivp(eom, t_span, [theta_0, theta_dot_0], t_eval=t_eval)
+
+theta_vals = sol.y[0]
+phi_vals = omega * t_eval  # Góc quay của vòng quanh trục Z
+
+# --- Vẽ Animation 3D ---
+fig = plt.figure(figsize=(7, 7))
+ax = fig.add_subplot(111, projection='3d')
+
+# Khởi tạo điểm cho vòng tròn trong hệ quy chiếu cục bộ
+alpha = np.linspace(0, 2 * np.pi, 200)
+ring_y_local = R * np.sin(alpha)
+ring_z_local = -R * np.cos(alpha)
+
+ring_line, = ax.plot([], [], [], color='royalblue', lw=2.5, label='Vòng dây')
+bead_scatter = ax.scatter([], [], [], color='red', s=120, label='Hạt m')
+axis_line, = ax.plot([0, 0], [0, 0], [-1.3 * R, 1.3 * R], 'k--', lw=1.2, label='Trục quay Z')
+
+ax.set_xlim([-1.3 * R, 1.3 * R])
+ax.set_ylim([-1.3 * R, 1.3 * R])
+ax.set_zlim([-1.3 * R, 1.3 * R])
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+ax.legend(loc='upper right')
+
+def update(frame):
+    phi = phi_vals[frame]
+    th = theta_vals[frame]
+    cos_p, sin_p = np.cos(phi), np.sin(phi)
+
+    # Tọa độ vòng dây xoay quanh trục Z
+    rx = -ring_y_local * sin_p
+    ry = ring_y_local * cos_p
+    rz = ring_z_local
+    ring_line.set_data(rx, ry)
+    ring_line.set_3d_properties(rz)
+
+    # Tọa độ của hạt cườm
+    bx_local = 0
+    by_local = R * np.sin(th)
+    bz_local = -R * np.cos(th)
+
+    bx = -by_local * sin_p
+    by = by_local * cos_p
+    bz = bz_local
+    bead_scatter._offsets3d = ([bx], [by], [bz])
+
+    return ring_line, bead_scatter
+
+ani = FuncAnimation(fig, update, frames=len(t_eval), interval=33, blit=False)
+plt.show()
+
+```
+
 https://chat.deepseek.com/share/p7qljqqhmovcjdao9x
 
 ### C1. Xung lượng và bảo toàn động lượng **[C]**
