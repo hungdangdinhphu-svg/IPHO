@@ -247,7 +247,7 @@ Và điểm chung của "đường tắt" đó là: Có thể truyền đạt ch
 
 Vì nếu B điểm cao hơn A trong vấn đề tìm kiếm thuần túy và không có "đường tắt" nào, gần như bất khả thi, hay bất khả thi trong không gian đủ rộng."-Đặng Đình Phú Hưng
 
-
+Và chúng ta đặc biệt quan tâm đến đoạn "Có thể truyền đạt cho A thông qua lý thuyết được", và chúng ta sẽ hạn chế (chứ không loại bỏ việc luyện đề hay thuộc lòng các pattern đáng quan tâm, nhưng phải đảm bảo rằng không đòi hỏi A bắt buộc phải 'xuất chúng' hay tương tự) các phương pháp truyền thống. Chúng ta đang nói đến một "quy trình cố định rất tổng quát", dĩ nhiên nó sẽ vẫn cần trực giác nhưng ở mức A có thể sử dụng.
 
 **Một quy trình tìm kiếm tốt hơn thay vì chỉ bruteforce thuần chay vốn dễ "tạch" :**
 
