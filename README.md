@@ -50,7 +50,7 @@ Tôi nghĩ Thí Nghiệm Universe 25 khá hay
 
 "Coding chính xác là cách làm việc với công cụ tính toán mạnh nhất hành tinh, đưa Toán học hay Vật lý, các ngành khoa học cơ bản lên cỗ máy đó." Đơn giản vậy thôi, và nó khác với các "thợ gõ code", vốn chỉ biết code.
 
-Trong cuộc sống của mình, tôi cảm thấy như vầy: Mỗi khi chạm phải 1 giới hạn mà mình chưa thể đạt tới về mặt năng lực ấy, kiểu như giới hạn về "khả năng xử lý thông tin" của bản thân? Nó khá nhiều tầng, kiểu từ random kid -> hsg -> hsg tp -> hsg tỉnh -> hsgqg -> ... -> Researcher -> issac newton...; Thì mỗi khi đối mặt với điều đấy, việc biết thừa sự thách thức của nó, thì khiến tôi thấy quyến rũ thay vì tỏ ra sợ:), và đúng là mục tiêu là vượt qua nó, thì mới thay đổi bản thân đc, tôi đoán v.
+Trong cuộc sống của mình, tôi cảm thấy như vầy: Mỗi khi chạm phải 1 giới hạn mà mình chưa thể đạt tới về mặt năng lực ấy, kiểu như giới hạn về "khả năng xử lý thông tin" của bản thân? Nó khá nhiều tầng, kiểu từ random kid -> hsg -> hsg tp -> hsg tỉnh -> hsgqg -> ... -> Researcher -> issac newton...; Thì mỗi khi đối mặt với điều đấy, việc biết thừa sự thách thức của nó, thì khiến tôi thấy quyến rũ thay vì tỏ ra sợ:), và đúng là mục tiêu là vượt qua nó, thì mới thay đổi bản thân đc, tôi đoán v. Lý do chính khiến tôi thấy nó quyến rũ chắc do như các bạn cũng biết (hoặc chưa rõ lắm) rằng khi thấy 1 cái đề bài mà nó phức tạp, thì thay vì sợ rồi ko làm, chính sự phức tạp đấy mang đền ngập tràn 1 đống thông tin để ta khai thác, và khai thác hết thì giải đc.
 
 Farewell.
 
