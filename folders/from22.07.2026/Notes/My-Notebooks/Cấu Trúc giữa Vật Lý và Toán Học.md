@@ -239,3 +239,19 @@ Tức là ta cần chuẩn bị trước ở nhà những thứ chính sau:
 **Quy Trình Và Phương Pháp cố định và xác định để giải Tổng Quát Một Dạng Vật Lý**; **Quy Trình Và Phương Pháp cố định và xác định để giải Tổng Quát Một Cấu Trúc Toán Học**; Và những thứ khác tôi có nói rồi...
 
 **Ví dụ kinh điển:** Mạch điện tuyến tính ở Kỳ thi tuyển sinh vào THPT Chuyên (Lớp 9 lên Lớp 10) thực chất là cấu trúc toán học Nodal Analysis Đại Số Tuyến Tính, well, quá kinh điển rồi nên tôi không nói nữa. Nhưng học sinh lớp 9 thi vào chuyên dĩ nhiên không thể biết được điều này, nên họ sẽ chỉ xài mỗi Ohm's Law + Kirchhoff và kỹ năng giải toán & trực giác luyện đề của mình để cố mò mẫm cách giải.
+
+
+"Nếu có sự khác biệt điểm số giữa người A (điểm thấp) và B (giỏi) trong HSGQG Lý, chắc chắn chỉ có thể đến từ 1 "đường tắt" nào đó trong vấn đề tìm kiếm. Thường thì là : Hiểu sâu lý thuyết, hoặc thuộc các pattern, dạng bài quen thuộc, hoặc có 1 "cách mò mẫm" tuyệt vời nào gần như chắc chắn tốt hơn, hoặc first principles,...
+
+Và điểm chung của "đường tắt" đó là: Có thể truyền đạt cho A thông qua lý thuyết được, và không yêu cầu A phải là người xuất chúng, đúng hơn là chỉ cần có người thầy tốt hoặc tự học và chăm chỉ.
+
+Vì nếu B điểm cao hơn A trong vấn đề tìm kiếm thuần túy và không có "đường tắt" nào, gần như bất khả thi, hay bất khả thi trong không gian đủ rộng."-Đặng Đình Phú Hưng
+
+
+
+**Một quy trình tìm kiếm tốt hơn thay vì chỉ bruteforce thuần chay vốn dễ "tạch" :**
+
+Từ những thông tin mà đề yêu cầu bản thân cần cung cấp (Câu hỏi từ đề) [CHTD1] và những dữ kiện đề cho [DKDC2]. "Phân tích ngược" bằng cách chỉ quan tâm đến những công cụ/phương pháp liên quan đến [CHTD1] và [DKDC2], điều hay là nó không khó và mất nhiều thời gian đâu. Còn về phần Toán học thì tự xử đi.
+
+Rà "kỹ" và ĐẦY ĐỦ qua một checklist cố định các “nguồn phương trình”, các CÔNG CỤ có thể dùng.
+
