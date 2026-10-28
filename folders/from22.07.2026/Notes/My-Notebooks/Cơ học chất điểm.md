@@ -961,6 +961,8 @@ plt.show()
 
 https://chat.deepseek.com/share/p7qljqqhmovcjdao9x
 
+https://share.gemini.google/eQmnEoopKNoO
+
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/baitap/Gi%E1%BA%A3ng%20B%E1%BA%A3o%20To%C3%A0n%20C%C6%A1%20Ch%E1%BA%A5t%20%C4%90i%E1%BB%83m.pdf
 
 ### C1. Xung lượng và bảo toàn động lượng **[C]**
