@@ -1,1 +1,1 @@
-
+Nỗ lực trong việc tìm ra một lượng kiến thức gốc hữu hạn đủ nhỏ, để dễ ghi nhớ và hiểu cực chắc bản chất. Sau đó suy luận với tốc độ khá cao ra được những thứ ta cần, thay vì phải ghi nhớ rời rạc hết tất cả.
