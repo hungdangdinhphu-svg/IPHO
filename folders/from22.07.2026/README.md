@@ -22,7 +22,7 @@ Bạn có bao giờ nghĩ rằng, chỉ cần hiểu sâu sắc Toán Học, th�
 
 "Tôi học xong hết Toán trước, ý là toàn bộ Giải Tích, Đại số tuyến tính, Hình học,.... và Lý thuyết thông tin, Triết học và mở rộng,  Mô Hình Hóa và Tư duy giải Lý rồi mới học Vật Lý."
 
-Thanh lịch : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/S%E1%BB%B1%20thanh%20l%E1%BB%8Bch.md ; https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/Physics.md
+Thanh lịch : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/S%E1%BB%B1%20thanh%20l%E1%BB%8Bch.md ; https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/Physics.md ; https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20V%E1%BA%ADt%20L%C3%BD%20N%E1%BB%81n%20T%E1%BA%A3ng.md
 
 Đọc phương pháp tư duy tổng quát trong việc Mô Hình Hóa và Tư duy giải Lý tại : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md
 
