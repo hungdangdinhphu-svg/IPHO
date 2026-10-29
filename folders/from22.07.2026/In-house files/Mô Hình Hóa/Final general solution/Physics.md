@@ -2,7 +2,7 @@
 
 > *"Không biết nếu hiểu sâu sắc được những thứ thầy gửi, em có thấy mọi đề thi HSGQG Lý hay rộng hơn nữa, là cả Vật Lý, đều 'hiển nhiên' và 'dễ khủng khiếp' hay không...?"*
 
-> *"Có vẻ giống việc này: Số lượng tiên đề và định luật, những thứ nền tảng của Vật Lý cốt lõi là rất ít. Chúng ta đang được học quá nhiều thứ chỉ đúng trong những trường hợp riêng lẻ, hoặc là hệ quả. Khi nhìn vào đề thì chúng ta không biết nên xài công cụ gì, nhưng thực tế nếu chúng ta học những thứ nền tảng nhất của Vật Lý (dĩ nhiên rào cản lớn vẫn là Toán học), thì chúng ta có quá ít công cụ để thắc mắc bản thân cần dùng công cụ vật lý nào."*
+> *"Có vẻ giống việc này: Số lượng tiên đề và định luật, những thứ nền tảng của Vật Lý cốt lõi là rất ít. Chúng ta đang được học quá nhiều thứ chỉ đúng trong những trường hợp riêng lẻ, hoặc là hệ quả. Khi nhìn vào đề thì chúng ta không biết nên xài công cụ gì, nhưng thực tế nếu chúng ta học những thứ nền tảng nhất của Vật Lý (dĩ nhiên rào cản lớn vẫn là Toán học), thì chúng ta có quá ít công cụ để thắc mắc bản thân cần dùng công cụ vật lý nào. Thậm chí, việc học nền tảng của Vật Lý cốt lõi là cách hiểu đúng bản chất, và do nó quá mức nền tảng, nên nếu hiểu bản chất thì có vẻ không thể lừa người giải được nữa, hoặc là cực kỳ khó nhằn."*
 
 ## Lời nói thật trước khi bắt đầu
 
