@@ -7,7 +7,7 @@ Do tôi thích IPHO nên tôi đặt tên cả cái repo là IPHO, thực tế t
 
 **Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn.**
 
-Backup ở Drive (12/10/2026 - DD/MM/YYYY): https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
+Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
 **Chia sẻ cá nhân:**
 
