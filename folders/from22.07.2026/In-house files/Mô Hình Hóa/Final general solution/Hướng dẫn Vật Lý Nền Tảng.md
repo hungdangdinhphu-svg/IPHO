@@ -424,9 +424,25 @@ Bây giờ quy trình đọc một bài va chạm/hệ phức tạp **không cò
 
 **Bước 3 — Viết $T$ và $U$.** Đây là bước duy nhất cần một chút cẩn thận hình học (tính vận tốc từng vật theo $\dot q$). Không cần vẽ lực.
 
+*Thay vì viết L, thông thường HSGQG Lý nên xài biểu thức Động năng (W_đ hoặc T) và Công của ngoại lực. Do ở HSGQG, rất nhiều bài có ma sát hoặc va chạm mất mát năng lượng, lúc đó ta cần hàm tiêu tán Rayleigh, vốn không có trong chương trình phổ thông. Đừng viết chữ L:), trừ khi thật sự cần, dù có vẻ gần như không thể xảy ra.
+
 **Bước 4 — TRƯỚC KHI viết Euler–Lagrange, hỏi về đối xứng (Chương 8).** Đối xứng nào có mặt cho bạn **ngay lập tức** một đại lượng bảo toàn — tức **một phương trình miễn phí**, bậc thấp hơn (đại số, không phải ODE bậc 2) so với phải giải Euler–Lagrange đầy đủ.
 
+*Dùng tư duy này để chọn định luật bảo toàn. Đừng viết chữ "Noether" ra giấy.
+
 **Bước 5 — Với phần còn lại (không có đối xứng tương ứng), mới áp Euler–Lagrange đầy đủ.**
+
+*Ý tôi là: Phương trình Euler-Lagrange chính là định lý động năng hay định luật II Newton viết theo tọa độ suy rộng. Bạn dùng nó ở nháp để kiểm tra dấu, nhưng khi viết vào bài, bạn viết:
+
+Độ biến thiên W_đ = A_ngoại lực (nếu cần năng lượng).
+
+Hay F_hl = ma (nếu cần gia tốc).
+
+Hoặc phương trình hướng tâm (nếu cần tìm lực liên kết).
+
+
+
+*Đúng nghĩa học cách tư duy và giảm không gian tìm kiếm, cũng như bản chất:), chứ phòng thi có ai xài Lagrange đâu.
 
 ## 9.2. Vì sao thứ tự "đối xứng trước, phương trình chuyển động sau" lại quan trọng
 
