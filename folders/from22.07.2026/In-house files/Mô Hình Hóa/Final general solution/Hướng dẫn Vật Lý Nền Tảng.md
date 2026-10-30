@@ -444,6 +444,9 @@ Hoặc phương trình hướng tâm (nếu cần tìm lực liên kết).
 
 *Đúng nghĩa học cách tư duy và giảm không gian tìm kiếm, cũng như bản chất:), chứ phòng thi có ai xài Lagrange đâu.
 
+*Tôi nghĩ nó giống như Nodal Analysis, không xài trong phòng thi vào chuyên lớp 10, nhưng nó định hướng và hiểu bản chất 1 cách khủng khiếp?
+
+
 ## 9.2. Vì sao thứ tự "đối xứng trước, phương trình chuyển động sau" lại quan trọng
 
 Nếu bạn áp Euler–Lagrange ngay (Bước 5 trước), bạn ra một hệ ODE bậc 2 — phải giải (tích phân hai lần, hoặc giải số). Nếu bạn áp Noether trước (Bước 4), với *mỗi toạ độ cyclic* (không xuất hiện tường minh trong $L$) bạn có ngay **một tích phân đầu** (first integral) — một phương trình bậc 1, thường **đại số được**, không cần giải ODE nữa. Đây chính xác là kỹ thuật "thế năng hiệu dụng" trong Thẻ 9 (Kepler) và Thẻ C5 (Đồ thị thế năng 1D) của thư viện bạn: bảo toàn $L$ (mômen động lượng) và $E$ biến bài 2D thành bài 1D $E = \tfrac12 m\dot r^2 + U_{eff}(r)$ — **giảm bậc tự do hiệu dụng bằng cách khai thác đối xứng trước khi giải**.
