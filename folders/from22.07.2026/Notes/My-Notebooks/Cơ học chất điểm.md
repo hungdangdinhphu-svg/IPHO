@@ -872,6 +872,31 @@ https://share.gemini.google/CUvdfOvCxM9N
 
 ---
 
+## PHƯƠNG TRÌNH LIÊN KẾT
+
+Phương trình liên kết. Tạo mối liên hệ giữa các ẩn số, mở đường cho phương trình động lực học, nếu không dùng được bảo toàn hay gì đó.
+
+Liên kết Holonomic (Liên kết tích phân được): Là liên kết chỉ phụ thuộc vào tọa độ vị trí và thời gian, có dạng \(f(r_1, r_2, ..., r_n, T) = 0\).
+
+Liên kết Non-holonomic (Liên kết không tích phân được): Là liên kết phụ thuộc cả vào vận tốc (vi phân tọa độ) mà không thể đưa về dạng tọa độ thuần túy, có dạng \(f(r, \dot{r}, T) = 0\).
+
+
+Phương trình Lagrange loại 1 (Dùng Nhân tử Lagrange - Lagrange Multipliers)
+
+
+
+Nguyên lý D'Alembert & Dời chỗ ảo (Virtual Work), Công thức cốt lõi: \(\sum (F_i - m_i a_i) \cdot \delta r_i = 0\).
+
+
+Ma trận liên kết và Vi phân toàn phần (Dành cho liên kết hình học phức tạp)
+
+
+Tọa độ suy rộng + Lagrangian. Chọn vị trí nêm là \(x\), vị trí vật đối với nêm là \(y\). Viết \(L = T - V\) rồi đạo hàm là ra kết quả.
+
+
+
+---
+
 ## PHẦN 5. CÁC ĐỊNH LUẬT BẢO TOÀN (c) — C1 đến C9
 
 Nhắc lại nguyên lý ở 1.6: **mỗi định luật bảo toàn là một máy khử ẩn.** Vì vậy mỗi thẻ ở đây có mục "Suf-test" dưới dạng thuật toán kiểm điều kiện, đây là nơi phép "duyệt từng pixel" trong README hiệu quả nhất.
