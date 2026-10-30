@@ -4,6 +4,8 @@
 
 > *Mục tiêu: sau khi đọc xong, bạn hiểu **vì sao** toàn bộ Cơ học Newton chỉ là một hệ quả của MỘT câu duy nhất, và vì sao việc hiểu câu đó làm giảm "Vấn đề tìm kiếm" (tìm CHỖ + CÔNG CỤ) xuống gần như bằng không đối với một lớp rất lớn các bài toán. Đây không phải là "phím tắt HSGQG" — đây là nền móng mà từ đó mọi phím tắt chỉ là hệ quả.*
 
+https://youtu.be/Q10_srZ-pbs?t=1208
+
 ---
 
 ## MỤC LỤC
