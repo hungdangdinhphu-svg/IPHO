@@ -440,7 +440,7 @@ Hay F_hl = ma (nếu cần gia tốc).
 
 Hoặc phương trình hướng tâm (nếu cần tìm lực liên kết).
 
-
+...
 
 *Đúng nghĩa học cách tư duy và giảm không gian tìm kiếm, cũng như bản chất:), chứ phòng thi có ai xài Lagrange đâu.
 
