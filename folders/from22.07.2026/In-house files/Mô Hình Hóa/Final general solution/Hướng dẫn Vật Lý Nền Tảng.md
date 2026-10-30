@@ -453,6 +453,7 @@ Lực ma sát và Hệ tiêu tán (nó chỉ áp dụng trực tiếp cho các h
 
 lol, t sẽ check coi bài có phải Lực ma sát và Hệ tiêu tán (nó chỉ áp dụng trực tiếp cho các hệ bảo toàn-lực thế), Non-holonomic constraints, va chạm và xung lực hay ko, rồi sau đó auto viết T, sau khi viết T, thì check noether đối xứng, rồi check bảo toàn, nếu ok thì khỏi giải lagrangian, còn nếu ko giòn thì lagrangian.
 
+Và sự thật là, nếu muốn giỏi noether bảo toàn đối xứng, bạn chỉ có nước học lagrangian để hiểu trọn vẹn, nếu ko, nó chỉ là ảo tưởng.
 
 ## 9.2. Vì sao thứ tự "đối xứng trước, phương trình chuyển động sau" lại quan trọng
 
