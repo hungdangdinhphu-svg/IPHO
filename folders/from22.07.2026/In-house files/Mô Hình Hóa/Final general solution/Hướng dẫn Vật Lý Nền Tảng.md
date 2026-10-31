@@ -421,11 +421,15 @@ Bây giờ quy trình đọc một bài va chạm/hệ phức tạp **không cò
 
 Xét một cái nêm khối lượng $M$, góc nghiêng $\alpha$, nằm trên sàn ngang nhẵn bóng không ma sát. Trên mặt nêm có một vật nhỏ khối lượng $m$ trượt không ma sát. Hệ có 2 bậc tự do.
 
-|\
+```txt
+
+       |\
        | \  [m]
        |  \
   [ M ]|   \
 _______|____\________ sàn ngang
+
+```
 
 Bước 1: Chọn tọa độ suy rộng và biểu diễn vector vị tríChọn $X$ là tọa độ vị trí theo phương ngang của nêm $M$ đối với sàn.Chọn $x$ là khoảng cách dịch chuyển của vật $m$ dọc theo mặt phẳng nghiêng của nêm (gốc tọa độ đặt tại đỉnh nêm).
 
