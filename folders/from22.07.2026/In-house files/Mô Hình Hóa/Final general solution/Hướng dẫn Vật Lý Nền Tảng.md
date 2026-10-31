@@ -340,6 +340,8 @@ Khớp $F=ma$ lần nữa, từ một con đường khác.
 
 ---
 
+https://share.gemini.google/rpF1xMP0WfIN
+
 # CHƯƠNG 8 — ĐỊNH LÝ NOETHER: TRÁI TIM CỦA TOÀN BỘ VẬT LÝ
 
 Đây là chương quan trọng nhất về mặt "lợi thế cực lớn". Đọc kỹ.
