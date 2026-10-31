@@ -1189,6 +1189,44 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 **Cách kiểm cụ thể:** thế năng U và ràng buộc **có đổi khi dịch chuyển / quay / dịch thời gian không?** Đây chính là "Suf" hiệu quả nhất và nhanh nhất cho C1, C4, C7.
 
++) Thực tế, viết xong cái hàm $L = T - U$ là không cần giải vội, chỉ cần đảo mắt xem coi có những thứ sau hay không là kết luận được rồi:
+
+1. Khuyết tọa độ nào ($q_k$ vắng mặt) $\implies$ Bảo toàn động lượng liên hợp đó
+
+Nếu trong biểu thức của $L$ không có mặt biến $q_k$ (ngay cả có là $\dot{q}_k$ thì cũng không tính), thì $q_k$ là tọa độ xyclic (cyclic coordinate):
+
+$$\frac{\partial L}{\partial q_k} = 0 \implies p_k = \frac{\partial L}{\partial \dot{q}_k} = \text{const}$$
+
+ex: Khuyết tọa độ dài (như $x, y, z$): Bảo toàn thành phần động lượng theo phương đó.   
+
+Khuyết tọa độ góc (như góc quay $\phi, \theta$): Bảo toàn mômen động lượng quanh trục tương ứng.
+
+2. Khuyết con chữ $t$ đứng trơ trọi $\implies$ Bảo toàn tích phân Jacobi ($h$)
+
+Nhìn khắp biểu thức $L$, nếu thời gian $t$ không xuất hiện tường minh ($\frac{\partial L}{\partial t} = 0$, nghĩa là không có mấy kiểu số hạng nhân thêm $t$, $\sin(\omega t)$, $e^{-kt}$...):
+
+$$h \equiv \sum_i \dot{q}_i \frac{\partial L}{\partial \dot{q}_i} - L = \text{const}$$
+
+Kèo thơm nhất: Nếu liên kết không phụ thuộc $t$ (hệ đứng yên hoặc không bị kéo cưỡng bức), động năng $T$ thuần nhất bậc 2 theo vận tốc $\implies h = T + U = E$ (Bảo toàn cơ năng quen thuộc).
+
+Bẫy: Nếu hệ bị ép quay đều với tốc độ góc $\omega = \text{const}$ (như hạt trượt trên thanh quay đều), $L$ vẫn không chứa $t$ tường minh nhưng xuất hiện số hạng bậc nhất theo $\dot{q}$ trong động năng $\implies$ Hàm Jacobi $h$ vẫn bảo toàn, nhưng cơ năng thông thường $E = T + U$ méo bảo toàn vì ngoại lực cưỡng bức liên tục sinh công.
+
+3. Tọa độ chỉ xuất hiện dưới dạng hiệu $(q_1 - q_2)$ $\implies$ Bảo toàn tổng động lượng
+
+Nếu tọa độ đứng riêng thì không khuyết, nhưng nhìn kỹ thấy chúng chỉ đi chung với nhau dưới dạng hiệu (ví dụ thế năng tương tác hai vật $U(x_1 - x_2)$):
+
+Khi dịch chuyển cả hệ một đoạn $\epsilon$ ($x_1 \to x_1 + \epsilon, x_2 \to x_2 + \epsilon$), hiệu $(x_1 - x_2)$ bất biến $\implies \delta L = 0$.
+
+Định lý Noether chốt luôn tổng động lượng liên hợp bảo toàn: $$P_{\text{tổng}} = p_1 + p_2 = \frac{\partial L}{\partial \dot{x}_1} + \frac{\partial L}{\partial \dot{x}_2} = \text{const}$$
+
+4. Tách biến hoàn toàn ($L = L_1 + L_2$) $\implies$ Độc lập năng lượng
+
+Nếu $L$ tách hẳn thành hai cụm không dính dáng chéo nhau:
+
+$$L(q_1, q_2, \dot{q}_1, \dot{q}_2) = L_1(q_1, \dot{q}_1) + L_2(q_2, \dot{q}_2)$$
+
+Hai chuyển động hoàn toàn tách biệt, hệ chuyển động giống như hai bài toán con độc lập, năng lượng hay tích phân chuyển động của từng phần đều được giữ nguyên riêng lẻ.
+
 **(b) Chọn công cụ khi có nhiều ứng viên (ba câu hỏi) [H]:**
 
 | Câu hỏi | Trả lời | Ưu tiên |
