@@ -482,7 +482,150 @@ Biểu thức này chính là tổng hình chiếu động lượng của cả h
 
 2. Đối xứng quay quanh trục $\implies$ Con lắc cầu (Spherical Pendulum)
 
+Xét một chất điểm khối lượng $m$ gắn vào thanh nhẹ không dãn chiều dài $l$, một đầu cố định tại gốc $O$, tự do quay theo mọi hướng trong không gian 3D dưới tác dụng của trọng trường $\vec{g} = -g\hat{z}$.
 
+Bước 1: Thiết lập tọa độ cầu
+
+Chuyển động bị ràng buộc trên mặt cầu bán kính $l$. Dùng 2 góc suy rộng: 
+
+$\theta$: Góc lệch so với phương thẳng đứng hướng xuống ($0 \le \theta \le \pi$).
+
+$\phi$: Góc phương vị quay quanh trục thẳng đứng $z$ ($0 \le \phi < 2\pi$).
+
+Tọa độ Descartes (chọn gốc $O$, trục $z$ hướng xuống theo chiều trọng lực):
+
+$$x = l\sin\theta\cos\phi$$
+
+$$y = l\sin\theta\sin\phi$$
+
+$$z = l\cos\theta$$
+
+$$\dot{x} = l\dot{\theta}\cos\theta\cos\phi - l\dot{\phi}\sin\theta\sin\phi$$
+
+$$\dot{y} = l\dot{\theta}\cos\theta\sin\phi + l\dot{\phi}\sin\theta\cos\phi$$
+
+$$\dot{z} = -l\dot{\theta}\sin\theta$$
+
+$$\dot{x}^2 + \dot{y}^2 = l^2 \left[ (\dot{\theta}\cos\theta\cos\phi - \dot{\phi}\sin\theta\sin\phi)^2 + (\dot{\theta}\cos\theta\sin\phi + \dot{\phi}\sin\theta\cos\phi)^2 \right]$$
+
+$$= l^2 \left[ \dot{\theta}^2\cos^2\theta(\cos^2\phi + \sin^2\phi) + \dot{\phi}^2\sin^2\theta(\sin^2\phi + \cos^2\phi) \right] = l^2(\dot{\theta}^2\cos^2\theta + \dot{\phi}^2\sin^2\theta)$$
+
+$$v^2 = \dot{x}^2 + \dot{y}^2 + \dot{z}^2 = l^2\dot{\theta}^2(\cos^2\theta + \sin^2\theta) + l^2\sin^2\theta\dot{\phi}^2 = l^2(\dot{\theta}^2 + \sin^2\theta\dot{\phi}^2)$$
+
+$$T = \frac{1}{2}m v^2 = \frac{1}{2}ml^2(\dot{\theta}^2 + \sin^2\theta\dot{\phi}^2)$$
+
+$$U = -mgz = -mgl\cos\theta$$
+
+$$L = T - U = \frac{1}{2}ml^2(\dot{\theta}^2 + \sin^2\theta\dot{\phi}^2) + mgl\cos\theta$$
+
+Áp dụng Noether cho phép quay:
+
+$$\phi \to \phi + \epsilon, \quad \theta \to \theta$$
+
+Hướng biến đổi: $K_\phi = 1, K_\theta = 0$.
+
+Kiểm tra sự phụ thuộc của $L$ vào $\phi$:
+
+
+Biểu thức $L$ chứa $\theta$, $\dot{\theta}$, $\dot{\phi}$ nhưng tuyệt đối không chứa tọa độ $\phi$:
+
+$$\frac{\partial L}{\partial \phi} = 0$$
+
+Theo định lý Noether:
+
+$$Q = \frac{\partial L}{\partial \dot{\phi}}K_\phi + \frac{\partial L}{\partial \dot{\theta}}K_\theta = \frac{\partial L}{\partial \dot{\phi}} \cdot 1$$
+
+$$\frac{\partial L}{\partial \dot{\phi}} = \frac{\partial}{\partial \dot{\phi}}\left[ \frac{1}{2}ml^2\sin^2\theta\dot{\phi}^2 \right] = ml^2\sin^2\theta\dot{\phi}$$
+
+$$\implies L_z \equiv ml^2\sin^2\theta\dot{\phi} = \text{const}$$
+
+Khoảng cách từ chất điểm đến trục quay $z$ là $r_\perp = l\sin\theta$. Đại lượng $L_z = m r_\perp^2 \dot{\phi}$ chính là hình chiếu mômen động lượng lên trục đối xứng $z$. Cho dù con lắc đảo góc $\theta$ loạn xạ cỡ nào, tích $m(l\sin\theta)^2\dot{\phi}$ vẫn là một hằng số.
+
+3. Tịnh tiến thời gian $\implies$ Tính bảo toàn cơ năng của con lắc cầu
+
+Xét tiếp hệ con lắc cầu ở mục 2 để chứng minh chi tiết việc không phụ thuộc thời gian sinh ra bảo toàn năng lượng mà không bỏ qua bất kỳ bước đạo hàm nào.
+
+Lagrangian của hệ:
+
+$$L(\theta, \phi, \dot{\theta}, \dot{\phi}) = \frac{1}{2}ml^2(\dot{\theta}^2 + \sin^2\theta\dot{\phi}^2) + mgl\cos\theta$$
+
+Vì môi trường và các thông số ($m, l, g$) không biến đổi theo thời gian, ta có:
+
+$$\frac{\partial L}{\partial t} = 0$$
+
+Bước 1: Tính đạo hàm toàn phần $\frac{dL}{dt}$ theo quy tắc Chain Rule
+
+$$\frac{dL}{dt} = \frac{\partial L}{\partial \theta}\dot{\theta} + \frac{\partial L}{\partial \dot{\theta}}\ddot{\theta} + \frac{\partial L}{\partial \phi}\dot{\phi} + \frac{\partial L}{\partial \dot{\phi}}\ddot{\phi} + \frac{\partial L}{\partial t}$$
+
+Bước 2: Thế phương trình Euler–Lagrange vào từng tọa độ
+
+Theo phương trình chuyển động:
+
+$$\frac{\partial L}{\partial \theta} = \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{\theta}}\right), \quad \frac{\partial L}{\partial \phi} = \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{\phi}}\right)$$
+
+Thay hai biểu thức này vào vị trí của $\frac{\partial L}{\partial \theta}$ và $\frac{\partial L}{\partial \phi}$:
+
+$$\frac{dL}{dt} = \left[ \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{\theta}}\right) \right]\dot{\theta} + \frac{\partial L}{\partial \dot{\theta}}\ddot{\theta} + \left[ \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{\phi}}\right) \right]\dot{\phi} + \frac{\partial L}{\partial \dot{\phi}}\ddot{\phi} + 0$$
+
+Bước 3: Gom nhóm theo quy tắc vi phân tích Leibniz $(u'v + uv' = (uv)')$
+
+Cụm theo $\theta$: $\left[ \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{\theta}}\right) \right]\dot{\theta} + \frac{\partial L}{\partial \dot{\theta}}\frac{d\dot{\theta}}{dt} = \frac{d}{dt}\left( \frac{\partial L}{\partial \dot{\theta}}\dot{\theta} \right)$
+
+Cụm theo $\phi$: $\left[ \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{\phi}}\right) \right]\dot{\phi} + \frac{\partial L}{\partial \dot{\phi}}\frac{d\dot{\phi}}{dt} = \frac{d}{dt}\left( \frac{\partial L}{\partial \dot{\phi}}\dot{\phi} \right)$
+
+$$\frac{dL}{dt} = \frac{d}{dt}\left( \frac{\partial L}{\partial \dot{\theta}}\dot{\theta} + \frac{\partial L}{\partial \dot{\phi}}\dot{\phi} \right)$$
+
+$$\frac{d}{dt}\left( \frac{\partial L}{\partial \dot{\theta}}\dot{\theta} + \frac{\partial L}{\partial \dot{\phi}}\dot{\phi} - L \right) = 0 \implies H \equiv \frac{\partial L}{\partial \dot{\theta}}\dot{\theta} + \frac{\partial L}{\partial \dot{\phi}}\dot{\phi} - L = \text{const}$$
+
+$p_\theta = \frac{\partial L}{\partial \dot{\theta}} = ml^2\dot{\theta}$
+
+$p_\phi = \frac{\partial L}{\partial \dot{\phi}} = ml^2\sin^2\theta\dot{\phi}$
+
+$$\sum p_i \dot{q}_i = (ml^2\dot{\theta})\dot{\theta} + (ml^2\sin^2\theta\dot{\phi})\dot{\phi} = ml^2\dot{\theta}^2 + ml^2\sin^2\theta\dot{\phi}^2 = 2T$$
+
+$$H = 2T - L = 2T - (T - U) = T + U$$
+
+$$E = \frac{1}{2}ml^2(\dot{\theta}^2 + \sin^2\theta\dot{\phi}^2) - mgl\cos\theta = \text{const}$$
+
+Cơ năng toàn phần $E$ được bảo toàn tuyệt đối theo thời gian.
+
+4. Đối xứng Gauge toàn cục $\implies$ Bảo toàn điện tích (Trường vô hướng phức Klein–Gordon)
+
+$$\mathcal{L} = \eta^{\mu\nu}(\partial_\mu \phi^*)(\partial_\nu \phi) - m^2 \phi^* \phi = (\partial_\mu \phi^*)(\partial^\mu \phi) - m^2 \phi^* \phi$$
+
+Với metric Minkowski $\eta_{\mu\nu} = \text{diag}(1, -1, -1, -1)$, quy ước lấy tổng Einstein theo chỉ số $\mu, \nu \in \{0, 1, 2, 3\}$. Ở đây, $\phi$ và $\phi^*$ được coi là hai biến trường độc lập.
+
+$$\phi \to \phi' = e^{i\epsilon}\phi \approx (1 + i\epsilon)\phi = \phi + i\epsilon\phi \implies \delta\phi = i\epsilon\phi$$
+
+$$\phi^* \to \phi'^* = e^{-i\epsilon}\phi^* \approx (1 - i\epsilon)\phi^* = \phi^* - i\epsilon\phi^* \implies \delta\phi^* = -i\epsilon\phi^*$$
+
+$$\delta(\partial_\mu \phi) = \partial_\mu(\delta\phi) = i\epsilon\partial_\mu\phi$$
+
+$$\delta(\partial_\mu \phi^*) = \partial_\mu(\delta\phi^*) = -i\epsilon\partial_\mu\phi^*$$
+
+$$\delta(\phi^*\phi) = (\delta\phi^*)\phi + \phi^*(\delta\phi) = (-i\epsilon\phi^*)\phi + \phi^*(i\epsilon\phi) = 0$$
+
+$$\delta[(\partial_\mu \phi^*)(\partial^\mu \phi)] = [\delta(\partial_\mu \phi^*)](\partial^\mu \phi) + (\partial_\mu \phi^*)[\delta(\partial^\mu \phi)] = (-i\epsilon\partial_\mu \phi^*)(\partial^\mu \phi) + (\partial_\mu \phi^*)(i\epsilon\partial^\mu \phi) = 0$$
+
+$$\epsilon j^\mu \equiv \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\delta\phi + \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi^*)}\delta\phi^*$$
+
+$$\epsilon j^\mu = (\partial^\mu\phi^*)(i\epsilon\phi) + (\partial^\mu\phi)(-i\epsilon\phi^*) = i\epsilon\left[ \phi(\partial^\mu\phi^*) - \phi^*(\partial^\mu\phi) \right]$$
+
+$$j^\mu = i\left[ \phi^*(\partial^\mu\phi) - (\partial^\mu\phi^*)\phi \right]$$
+
+$$\partial_\mu j^\mu = i\,\partial_\mu \left[ \phi^*(\partial^\mu\phi) - (\partial^\mu\phi^*)\phi \right]$$
+
+$$\partial_\mu j^\mu = i \left[ (\partial_\mu\phi^*)(\partial^\mu\phi) + \phi^*(\partial_\mu\partial^\mu\phi) - (\partial_\mu\partial^\mu\phi^*)\phi - (\partial^\mu\phi^*)(\partial_\mu\phi) \right]$$
+
+$$\partial_\mu \left( \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi^*)} \right) - \frac{\partial\mathcal{L}}{\partial\phi^*} = 0 \implies \partial_\mu(\partial^\mu\phi) - (-m^2\phi) = 0 \iff \partial_\mu\partial^\mu\phi = -m^2\phi$$
+
+$$\partial_\mu \left( \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)} \right) - \frac{\partial\mathcal{L}}{\partial\phi} = 0 \implies \partial_\mu(\partial^\mu\phi^*) - (-m^2\phi^*) = 0 \iff \partial_\mu\partial^\mu\phi^* = -m^2\phi^*$$
+
+$$\partial_\mu j^\mu = i \left[ \phi^*(-m^2\phi) - \phi(-m^2\phi^*) \right] = i \left[ -m^2\phi^*\phi + m^2\phi\phi^* \right] = 0$$
+
+$$Q = \int_{\mathbb{R}^3} j^0\, d^3x = i\int_{\mathbb{R}^3} \left[ \phi^*\left(\frac{\partial\phi}{\partial t}\right) - \left(\frac{\partial\phi^*}{\partial t}\right)\phi \right] d^3x = \text{const}$$
+
+$Q$ chính là điện tích toàn phần của hạt, không thể tự sinh ra hay mất đi. Toàn bộ sự bảo toàn điện tích này sinh ra từ việc Lagrangian bất biến khi quay một góc pha trừu tượng trong mặt phẳng phức.
 
 ---
 
