@@ -416,6 +416,72 @@ Bây giờ quy trình đọc một bài va chạm/hệ phức tạp **không cò
 
 ---
 
+
+1. Tịnh tiến không gian $\implies$ Hệ nêm trượt tự do mang khối hộp
+
+Xét một cái nêm khối lượng $M$, góc nghiêng $\alpha$, nằm trên sàn ngang nhẵn bóng không ma sát. Trên mặt nêm có một vật nhỏ khối lượng $m$ trượt không ma sát. Hệ có 2 bậc tự do.
+
+|\
+       | \  [m]
+       |  \
+  [ M ]|   \
+_______|____\________ sàn ngang
+
+Bước 1: Chọn tọa độ suy rộng và biểu diễn vector vị tríChọn $X$ là tọa độ vị trí theo phương ngang của nêm $M$ đối với sàn.Chọn $x$ là khoảng cách dịch chuyển của vật $m$ dọc theo mặt phẳng nghiêng của nêm (gốc tọa độ đặt tại đỉnh nêm).
+
+Tọa độ Descartes của từng vật trong hệ quy chiếu gắn với sàn:
+
+Đối với nêm $M$:
+
+$$x_M = X, \quad y_M = 0 \implies \dot{x}_M = \dot{X}, \quad \dot{y}_M = 0$$
+
+Đối với vật nhỏ $m$:
+
+$$x_m = X + x\cos\alpha \implies \dot{x}_m = \dot{X} + \dot{x}\cos\alpha$$
+
+$$y_m = -x\sin\alpha \implies \dot{y}_m = -\dot{x}\sin\alpha \quad \text{(chọn chiều dương } y \text{ hướng lên)}$$
+
+Bước 2: Thiết lập Lagrangian của hệ
+
+Động năng toàn phần $T = T_M + T_m$: $$T_M = \frac{1}{2}M\dot{X}^2$$
+
+$$T_m = \frac{1}{2}m\left( \dot{x}_m^2 + \dot{y}_m^2 \right) = \frac{1}{2}m \left[ (\dot{X} + \dot{x}\cos\alpha)^2 + (-\dot{x}\sin\alpha)^2 \right]$$
+
+Khai triển tường minh phần bình phương vận tốc của $m$:
+
+$$(\dot{X} + \dot{x}\cos\alpha)^2 + (-\dot{x}\sin\alpha)^2 = \dot{X}^2 + 2\dot{X}\dot{x}\cos\alpha + \dot{x}^2\cos^2\alpha + \dot{x}^2\sin^2\alpha = \dot{X}^2 + 2\dot{X}\dot{x}\cos\alpha + \dot{x}^2$$
+
+Gom lại ta được động năng tổng:
+
+$$T = \frac{1}{2}(M + m)\dot{X}^2 + \frac{1}{2}m\dot{x}^2 + m\dot{X}\dot{x}\cos\alpha$$
+
+Thế năng của hệ (chọn mốc $y=0$ tại sàn, nêm không thay đổi độ cao trọng tâm):
+
+$$U = m g y_m = -mgx\sin\alpha$$
+
+Lagrangian hoàn chỉnh:
+
+$$L = T - U = \frac{1}{2}(M + m)\dot{X}^2 + \frac{1}{2}m\dot{x}^2 + m\dot{X}\dot{x}\cos\alpha + mgx\sin\alpha$$
+
+Dịch chuyển toàn bộ hệ theo phương ngang một đoạn $\epsilon$: $$X \to X + \epsilon, \quad x \to x$$ ; Hướng biến đổi tương ứng: $K_X = 1$ và $K_x = 0$. ; Nhìn vào biểu thức $L$, biến tọa độ $X$ hoàn toàn vắng mặt (nó là tọa độ cyclic):
+
+$$\frac{\partial L}{\partial X} = 0 \implies \delta L = \frac{\partial L}{\partial X}\epsilon K_X + \frac{\partial L}{\partial \dot{X}}\epsilon \dot{K}_X = 0$$
+
+$$Q = \frac{\partial L}{\partial \dot{X}}K_X + \frac{\partial L}{\partial \dot{x}}K_x = \frac{\partial L}{\partial \dot{X}} \cdot 1 + \frac{\partial L}{\partial \dot{x}} \cdot 0 = \frac{\partial L}{\partial \dot{X}}$$
+
+$$\frac{\partial L}{\partial \dot{X}} = \frac{\partial}{\partial \dot{X}} \left[ \frac{1}{2}(M + m)\dot{X}^2 + m\dot{X}\dot{x}\cos\alpha \right] = (M + m)\dot{X} + m\dot{x}\cos\alpha$$
+
+
+$$\implies P_X = (M + m)\dot{X} + m\dot{x}\cos\alpha = \text{const}$$
+
+Biểu thức này chính là tổng hình chiếu động lượng của cả hệ lên phương ngang. Vì theo phương ngang hoàn toàn không có ngoại lực cản trở, động lượng phương ngang bắt buộc phải bất biến.
+
+2. Đối xứng quay quanh trục $\implies$ Con lắc cầu (Spherical Pendulum)
+
+
+
+---
+
 # CHƯƠNG 9 — CÁCH MỘT RESEARCHER ĐỌC MỘT BÀI TOÁN MỚI
 
 Đây là quy trình thao tác được, nối trực tiếp "Vấn đề tìm kiếm" của bạn với những gì vừa học.
