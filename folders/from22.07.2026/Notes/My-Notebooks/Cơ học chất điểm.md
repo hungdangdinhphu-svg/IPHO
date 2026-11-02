@@ -556,6 +556,8 @@ Sự thật: Nếu tọa độ cực có r = const (hằng số) thì nó sẽ t
 
 ---
 
+https://share.gemini.google/DkOlThcDlSZf
+
 ### Bổ sung.
 
 Trong Động lực học chất điểm, Phương trình ràng buộc (Constraint Equation) là linh hồn của bài toán, tôi đánh giá nó là thứ khó nhằn nhất nhưng 1 khi giải được thì coi như xong.
