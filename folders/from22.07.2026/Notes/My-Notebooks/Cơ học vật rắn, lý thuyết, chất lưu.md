@@ -29,6 +29,8 @@ Mỗi công cụ ℓ đóng gói thành thẻ: **Dom / Pre / Suf / Post / Err / 
 
 # PHẦN I — CƠ HỌC VẬT RẮN
 
+https://share.gemini.google/SQyQRQ3lytTL
+
 ---
 
 ## A. TĨNH HỌC VẬT RẮN
