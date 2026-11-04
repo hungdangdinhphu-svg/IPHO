@@ -37,6 +37,8 @@ https://share.gemini.google/SQyQRQ3lytTL
 
 ### THẺ 1 — TRỌNG TÂM / KHỐI TÂM
 
+https://share.gemini.google/XQeKWcyAB3MA
+
 **Định nghĩa.** **R**_G = (1/M)Σm_i**r**_i = (1/M)∫**r** dm.
 *Phân biệt:* **khối tâm** là khái niệm động lực học; **trọng tâm** là điểm đặt hợp lực trọng trường. Chúng trùng nhau **khi và chỉ khi g đồng nhất** — với vật kích thước rất lớn (vệ tinh dài, thanh trong trường hấp dẫn không đều) chúng lệch nhau, sinh ra **mômen thuỷ triều** (gravity-gradient torque). Đây là Pre hiếm khi được nêu nhưng có ra ở IPhO.
 
