@@ -59,6 +59,8 @@ https://share.gemini.google/XQeKWcyAB3MA
 
 ### THẺ 2 — HỆ LỰC & ĐIỀU KIỆN CÂN BẰNG
 
+https://share.gemini.google/XxOWXWcqbqCX
+
 **Ontology đúng (chỗ khác biệt giữa chất điểm và vật rắn):** lực tác dụng lên vật rắn là **vector trượt** — dời được dọc theo giá của nó mà không đổi tác dụng, nhưng **không** dời song song được.
 
 **Định lý giản lược.** Mọi hệ lực đều tương đương với một lực **F** = Σ**F**_i đặt tại điểm O tuỳ chọn, cộng một ngẫu lực **M**_O = Σ**r**_i × **F**_i. Khi đổi điểm:
