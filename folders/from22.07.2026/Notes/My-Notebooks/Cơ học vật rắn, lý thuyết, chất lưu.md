@@ -37,6 +37,8 @@ https://share.gemini.google/SQyQRQ3lytTL
 
 ### THẺ 1 — TRỌNG TÂM / KHỐI TÂM
 
+https://share.gemini.google/AKLYf8CGaGt5
+
 https://share.gemini.google/XQeKWcyAB3MA
 
 **Định nghĩa.** **R**_G = (1/M)Σm_i**r**_i = (1/M)∫**r** dm.
