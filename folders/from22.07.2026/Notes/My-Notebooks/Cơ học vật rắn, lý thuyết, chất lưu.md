@@ -113,6 +113,8 @@ Ví dụ kinh điển: thanh đặt trên ba chân, hoặc thang tựa tường 
 
 ## B. ĐỘNG HỌC & ĐỘNG LỰC HỌC VẬT RẮN
 
+https://share.gemini.google/rLsWpwOn4Wy6
+
 ### THẺ 3 — ĐỘNG HỌC VẬT RẮN
 
 **Bậc tự do.** Vật rắn tự do: 6 (3 tịnh tiến + 3 quay). Chuyển động phẳng: 3 (x_G, y_G, φ).
