@@ -14,6 +14,7 @@ Họ đôi khi bị "hallucination" như 1 con AI vậy, đưa ra những câu n
 Họ trông như cố gắng "lợi dụng" một cái "bảo hiểm duy nhất" là câu : "Dĩ nhiên, tôi có sai sót.", và dùng nó để bao biện cho mọi thứ dù họ sai hay đúng.
 Lý do tôi viết ra những thứ trên, thật ra mục đích chính của tôi không phải nói rằng mọi người không nên yêu đương. Mà là, tôi nhận ra sự tương đồng giữa vụ việc yêu đương này với nhiều vấn đề quan trọng trong cuộc sống, rằng con người nhiều khi rất "buồn cười".
 Và tôi nghĩ thứ đáng quan tâm nhất mà tôi đã đề cập nãy giờ, đó chính là thứ nhìn như "an toàn nhất" : "Dĩ nhiên, tôi có sai sót.". Tôi đánh giá nó có thể được xem là "cực kỳ nguy hiểm và tinh vi trong nhiều thứ". 
+À còn lý do có kha khá lỗi sai đáng kể, là vì AI hỗ trợ tôi viết =))
 
 Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
