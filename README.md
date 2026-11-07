@@ -7,6 +7,14 @@ Do tôi thích IPHO nên tôi đặt tên cả cái repo là IPHO, thực tế t
 
 **Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn.**
 
+Sau khi đọc câu "Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn." chắc nhiều người vẫn sẽ nhận xét và góp ý với tâm trạng mà tôi đánh giá là "toxic". Có điều, tôi có 1 thứ muốn kể:
+
+Hm... đúng là có 1 lượng lớn người lớn ngày nay đưa ra những lời khuyên đã lỗi thời và chủ quan, thiên kiến nặng nề và sai sót. Có điều, có 1 số lời khuyên tưởng như khá cực đoan nhưng thực tế không hẳn vậy, kiểu như "Tập trung học thay vì yêu đương sớm.", câu này chí mạng đến mức ngay cả những người bạn vốn có năng lực triết học, hsgqg lý, tư duy logic, xác suất,... của tôi đều không nghe. Họ không nhìn ra 1 sự thật rằng xác suất để 1 người mà họ yêu ở cấp 2/cấp 3 sau này cưới nhau rồi đẻ con vốn dĩ xấp xỉ 0%. Và sự thật là để tìm 1 người con gái phù hợp với họ, dù họ rất giỏi như tôi đã nói (những ng con trai bạn của t, t vừa kể), họ cũng rất khó và nan giải cho việc tìm 1 người con gái cỡ đó để mà hold lên lúc cưới nhau. Ừ tôi sẽ không khẳng định câu nói "Tập trung học thay vì yêu đương sớm." là đúng hay sai. Có thể nói là họ "mù quáng" đến mức khẳng định chắc nịch bản thân và "cô ấy" sẽ không bỏ nhau, dù thực tế thống kê cho thấy họ chỉ xấp xỉ 0%, và nó là sự thật. 
+Họ đôi khi bị "hallucination" như 1 con AI vậy, đưa ra những câu nói để "minh oan" cho bản thân như : "Gì, lúc ôn thi HSGQG Lý, t cũng biết thừa 'xác suất' t lọt vào vòng QG là gần như bằng 0% còn gì? Việc t yêu đương cũng vậy th, cả 2 việc đó đều mang lợi ích." Ừ, nhưng sự thật là, nếu họ trượt HSGQG Lý, năng lực của họ không biến mất, tức là có thất bại ở HSGQG hay không thì nó chắc chắn luôn làm năng lực họ tốt hơn, trừ khi họ quá cực đoan mà nghĩ xấu về bản thân quá.
+Họ trông như cố gắng "lợi dụng" một cái "bảo hiểm duy nhất" là câu : "Dĩ nhiên, tôi có sai sót.", và dùng nó để bao biện cho mọi thứ dù họ sai hay đúng.
+Lý do tôi viết ra những thứ trên, thật ra mục đích chính của tôi không phải nói rằng mọi người không nên yêu đương. Mà là, tôi nhận ra sự tương đồng giữa vụ việc yêu đương này với nhiều vấn đề quan trọng trong cuộc sống, rằng con người nhiều khi rất "buồn cười".
+Và tôi nghĩ thứ đáng quan tâm nhất mà tôi đã đề cập nãy giờ, đó chính là thứ nhìn như "an toàn nhất" : "Dĩ nhiên, tôi có sai sót.". Tôi đánh giá nó có thể được xem là "cực kỳ nguy hiểm và tinh vi trong nhiều thứ". 
+
 Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
 **Chia sẻ cá nhân:**
