@@ -16,6 +16,8 @@ Lý do tôi viết ra những thứ trên, thật ra mục đích chính của t
 Và tôi nghĩ thứ đáng quan tâm nhất mà tôi đã đề cập nãy giờ, đó chính là thứ nhìn như "an toàn nhất" : "Dĩ nhiên, tôi có sai sót.". Tôi đánh giá nó có thể được xem là "cực kỳ nguy hiểm và tinh vi trong nhiều thứ". 
 À còn lý do có kha khá lỗi sai đáng kể, là vì AI hỗ trợ tôi viết =))
 
+Cơ mà công nhận rằng t tin rằng việc bất kỳ ai thật sự "vô cảm" có vẻ như không khả thi, vì họ vẫn là người:p, trừ khi não của họ nó bị cái gì đó giống kiểu dị tật hoặc bị đập đầu hay j đó idk, hoặc do gen, mà mấy cái này khó
+
 Ngoài ra, có nhiều người tôi quen, bảo rằng lý do họ không đầu tư vào HSGQG Lý là vì cho rằng nó có thể gây lãng phí thời gian nếu không đạt giải. Mặc dù thực tế họ còn chả biết nó là gì, ý tôi là HSGQG Lý liên quan quá nhiều đến Giải Tích hay vi tích phân & toàn bộ vật lý tại THPT, tức là dù họ có đạt giải hay không thì nếu họ ở trong A00 hoặc A01 gì đó, thì môn Toán & Lý gần như xong rồi (dĩ nhiên cần luyện thêm đề để quen dạng, tốc độ), còn mỗi môn Hóa/Tiếng anh.
 
 Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
