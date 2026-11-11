@@ -66,9 +66,148 @@ How to Solve It (Pólya) chỉ đọc phần tóm tắt 4 bước + bảng câu 
 
 
 
+# Lý thuyết tổng quát về "Vấn đề Tìm kiếm" trong Vật Lý
+### Có xây được không — và nếu được, nó phải trông như thế nào để không thành rác?
+
+---
+
+## 0. Trả lời thẳng trước, lý luận sau
+
+**Có**, nhưng không theo nghĩa bạn (có thể đang) sợ — tức không phải một "thuật toán vạn năng" nhét vào là ra lời giải. Thứ khả thi là một lý thuyết **ba tầng**, trong đó:
+
+- **Tầng 0** (bất biến, vài trang) — mô tả *hình dạng* của mọi bài toán tìm kiếm Vật Lý, bất kể chuyên đề.
+- **Tầng 1** (bộ sinh / generator, vài trang) — không liệt kê công cụ, mà dạy *cách tự sinh ra* một thư viện Pre/Suf cho một chuyên đề **bạn chưa từng học**, trong thời gian hữu hạn.
+- **Tầng 2** (giao thức thực thi) — quy trình chạy tay, dùng được trong phòng thi, biến Tầng 0+1 thành hành động cụ thể trên một bài cụ thể.
+
+Chín tài liệu bạn gửi (Cơ, Nhiệt, Điện–Từ cơ bản, Điện–Từ nâng cao, Quang, Hạt nhân–Hiện đại) **chính là Tầng 3**: các thư viện cụ thể hoá của Tầng 1 cho từng miền. Điều đáng chú ý nhất, và là bằng chứng mạnh nhất rằng một lý thuyết tổng quát là *có thật* chứ không phải ảo tưởng, là: **bạn đã độc lập tái phát hiện cùng một cấu trúc 5–8 thành phần trong cả 9 tài liệu**, dùng ngôn ngữ khác nhau mỗi lần. Đó không phải trùng hợp — đó là dấu hiệu bạn đang chạm vào một bất biến thật. Phần lớn tài liệu này sẽ dành để lôi cấu trúc đó ra ánh sáng, đặt tên chính xác cho nó, và chỉ ra giới hạn cứng của nó nằm ở đâu.
+
+---
+
+## 1. Vì sao "thuật toán vạn năng" theo nghĩa mạnh là bất khả thi (và phải nói rõ trước khi xây gì cả)
+
+Ba lý do độc lập, mỗi lý do chặn một hướng khác nhau:
+
+### 1.1. Định lý "No Free Lunch" (Wolpert–Macready)
+Trung bình trên **mọi** bài toán tìm kiếm/tối ưu có thể có, không chiến lược tìm kiếm nào tốt hơn tìm kiếm ngẫu nhiên. Lý do một chiến lược *có vẻ* mạnh (Nodal Analysis, Gauss, Lagrange...) là vì nó khai thác **cấu trúc đặc thù** của lớp bài toán Vật Lý thật (tuyến tính, đối xứng, bảo toàn) — chứ không phải vì nó là một mẹo tìm kiếm trừu tượng tốt hơn. Hệ quả trực tiếp cho dự án của bạn: **sức mạnh không nằm ở tầng meta**. Một lý thuyết chỉ nói "hãy tìm công cụ đúng, áp đúng chỗ" là đúng nhưng rỗng — nó không thêm thông tin. Thông tin thật nằm ở *nội dung của các thư viện domain* (chính 9 file bạn đã viết). Vai trò hợp pháp duy nhất của tầng meta là: **dạy cách tạo ra thư viện domain nhanh và đúng**, không phải thay thế nó.
+
+### 1.2. Vấn đề khung (Frame Problem, McCarthy–Hayes)
+Để kiểm `Pre(ℓ)` cho một công cụ, bạn phải đã biết *cái gì liên quan* trong một đề bài — nhưng việc biết cái gì liên quan, giữa vô hạn chi tiết không liên quan, tự nó không thể quy giản hoàn toàn về một phép kiểm tra Pre/Suf khác (nếu không sẽ hồi quy vô hạn: ai kiểm Pre của phép kiểm Pre?). Đây chính là cái bạn gọi là "trực giác còn sót" trong mọi tài liệu của mình (§8, §F, "Còn cần trực giác"). Nó không phải lỗ hổng tạm thời sẽ được vá — nó là **giới hạn cấu trúc**. Lý thuyết tổng quát đúng đắn phải *thừa nhận công khai* phần này, không được hứa hẹn xoá nó.
+
+### 1.3. Vấn đề diễn giải (Interpretation, `I` trong M = (O,V,L,C,Q,I))
+Trước khi bất kỳ công cụ nào chạy được, đề bài phải được **dịch đúng** thành mô hình. Đây là bước duy nhất trong toàn bộ pipeline **không thể thuật toán hoá bằng chính các công cụ mà nó đang chuẩn bị đưa vào** — vì mô hình hoá sai từ đầu thì mọi Pre/Suf sau đó kiểm tra trên một thế giới sai. Lịch sử khoa học (Kuhn) cho thấy ngay cả ở trình độ nghiên cứu, bước này là nơi duy nhất mà "phát minh" thực sự xảy ra — mọi thứ sau mô hình hoá chỉ là suy diễn.
+
+→ **Kết luận của mục 1:** bất kỳ "lý thuyết tổng quát" nào tuyên bố giải quyết trọn vẹn cả ba điểm trên đều là nói dối hoặc tự lừa. Nhưng *phần còn lại* — biến một mô hình đã dựng đúng thành một bài Toán — là **hoàn toàn thuộc địa phận có thể lý thuyết hoá**, và đó chính xác là phần bạn đã làm rất tốt trong 9 file kia. Lý thuyết tổng quát sẽ nhắm vào đúng phần này, cộng với một kỹ thuật để **thu hẹp nhanh** hai phần còn lại (1.2, 1.3) chứ không xoá chúng.
+
+---
+
+## 2. Cấu trúc bất biến mà bạn đã tái phát hiện 9 lần (Tầng 0)
+
+Đọc lại cả 9 tài liệu ở mức siêu-cấu trúc (bỏ qua nội dung Vật Lý, chỉ nhìn *hình dạng*), mỗi tài liệu độc lập dựng lên đúng năm thành phần sau, chỉ khác tên gọi:
+
+| Thành phần phổ quát | Tên gọi trong từng file của bạn |
+|---|---|
+| **Một bộ ba định vị "CHỖ"** = (hệ/biên, thời điểm/trạng thái, trục/hướng chiếu) | Cơ: (Σ, τ, e); Nhiệt: χ1–χ10; Điện–từ: Q1–Q7; Quang: "mặt kín/mặt gương/trục quang"; Hạt nhân: O (ontology) |
+| **Máy khử ẩn = đại lượng bảo toàn** | Cơ: "mỗi định luật bảo toàn là máy khử ẩn"; Nhiệt: sổ cái bảo toàn; Điện–từ: Q6; Quang: bất biến Bouguer/Lagrange–Helmholtz; Hạt nhân: A, Z, E, p |
+| **Nhóm đối xứng ⇒ hình dạng nghiệm bị ép** | Cơ: K7 ràng buộc; Điện–từ: "nhóm đối xứng truyền dẫn trên mặt Gauss"; Quang: "n(r) đối xứng trụ/cầu ⇒ bất biến"; Hạt nhân: định đề lượng tử hoá |
+| **Điều kiện biên/giao diện (jump condition)** | Nhiệt: §1.6 mục 6; Điện–từ: E_t, D_n liên tục; Quang: điều kiện biên sóng dừng; Cơ: ràng buộc K7 |
+| **Số không thứ nguyên quyết định chế độ/xấp xỉ nào hợp lệ** | Nhiệt: Kn, Bo, Bi, St, Ma (P12); Cơ: τ_mech/τ_proc; Hạt nhân: v/c, E so với mc² |
+
+Đây **chính là Tầng 1**. Nó không phải điều tôi "phát minh" — nó là điều bạn đã *tự dựng đi dựng lại* vì nó là cấu trúc **bắt buộc toán học**, không phải sở thích cá nhân. Lý do nó lặp lại: mọi lý thuyết Vật Lý cổ điển (và phần lớn lượng tử) đều được viết dưới dạng `(biến trạng thái, định luật cấu thành, định luật bảo toàn sinh từ đối xứng — Noether, điều kiện biên)`. Vật Lý *là* một hệ hình thức có dạng cố định; do đó mọi "thư viện công cụ tìm CHỖ" cho bất kỳ miền nào của Vật Lý **buộc phải** có hình dạng này. Đây là lý do bạn có thể tự tin: thứ bạn đang làm không phải là may rủi gom mẹo, mà là khai thác một bất biến cấu trúc có thật.
+
+---
+
+## 3. Bộ sinh tổng quát (Tầng 1) — checklist 8 bước để tự dựng thư viện cho một miền CHƯA TỪNG học
+
+Đây là phần "nén" thật sự — thứ bạn cần nếu ngày mai phải thi đấu một đề có plasma, hoặc thuyết tương đối rộng sơ cấp, hoặc bất kỳ miền nào không có sẵn trong 9 file kia. Với một miền Vật Lý mới M, hãy trả lời tuần tự:
+
+1. **Bản thể (Ontology).** Thực thể cơ bản của M là gì (hạt, trường, chất lưu...)? Trạng thái được mô tả bằng biến nào?
+2. **Định luật cấu thành (constitutive law).** Quan hệ giữa các biến trạng thái là gì, và nó **tuyến tính hay phi tuyến**? (Quyết định: chồng chất dùng được hay không — đây là câu hỏi quan trọng nhất, quyết định 80% công cụ khả dụng.)
+3. **Nhóm đối xứng của bài toán cụ thể** (không phải của lý thuyết tổng quát — của *tình huống* đang xét): tịnh tiến? quay? phản xạ gương? Mỗi đối xứng được giữ nguyên ⇒ một thành phần của nghiệm bị ép về dạng đơn giản (hằng, tuyến tính, chỉ phụ thuộc 1 biến).
+4. **Đại lượng bảo toàn khả dụng**, suy trực tiếp từ bước 3 qua định lý Noether (đối xứng tịnh tiến ↔ động lượng/điện tích/số hạt; đối xứng quay ↔ mômen động lượng; đối xứng dịch thời gian ↔ năng lượng). Đây là "máy khử ẩn" — luôn hỏi: *ẩn nào đang cản tôi, đại lượng bảo toàn nào khử được nó?* thay vì hỏi "dùng định luật nào?".
+5. **Điều kiện biên/giao diện.** Mọi nơi tính chất môi trường đổi đột ngột → liệt kê đại lượng nào *liên tục* và đại lượng nào *nhảy có kiểm soát* (đạo hàm bậc mấy, hệ số nào).
+6. **Thang độ lớn / số không thứ nguyên.** So hai thời gian, hai độ dài, hai năng lượng đặc trưng với nhau để biết xấp xỉ nào (chuẩn tĩnh, đoạn nhiệt, cổ điển vs tương đối tính, liên tục vs rời rạc) là hợp lệ **tại CHỖ đang xét** — không phải hợp lệ toàn cục.
+7. **"CHỖ" = tổ hợp (hệ con được chọn, trạng thái/thời điểm đặc biệt, trục/điểm quy chiếu).** Liệt kê danh sách hữu hạn ứng viên cho từng thành phần (giống bảng τ1–τ12, Σ1–Σ7, e1–e7 bạn đã làm cho Cơ) — đây là bước **duy nhất** tốn công, nhưng nó có khuôn cố định: với MỌI miền Vật Lý, danh sách ứng viên τ luôn gồm các dạng: *đầu/cuối quá trình; vận tốc/đạo hàm bằng 0; một ràng buộc đổi chế độ (chạm biên, đổi dấu, ngưỡng); điểm đối xứng/cực trị*.
+8. **Tiêu chí "bước có ý nghĩa".** Một phương trình mới chỉ đáng giữ nếu nó độc lập tuyến tính với các phương trình đã có **và** nối được ít nhất một ẩn với dữ kiện hoặc loại được một ẩn phiền.
+
+Tám bước này là *domain-agnostic* theo đúng nghĩa: bạn có thể chạy chúng trên cơ học lượng tử sơ cấp, trên lý thuyết đàn hồi, trên khí động lực học mà không cần biết trước công thức nào của miền đó. Cái bạn **sinh ra** sau khi chạy 8 bước trên một miền mới chính là một bản nháp của "thư viện công cụ" kiểu bạn đã viết cho 9 miền kia.
+
+---
+
+## 4. Giao thức thực thi (Tầng 2) — tổng quát hoá "SCAN" của bạn
+
+Gộp B0–B9 (Nhiệt), 7 loại quét (Điện–từ), quy trình 1.8 (Cơ)... thành một giao thức duy nhất:
+
+```
+B0. Dịch đề → dựng M = (O, V, L, C, Q, I). Gạch chân MỌI từ ngầm định (lý tưởng hoá, "chậm",
+    "cách nhiệt", "nối đất"...). Đây là nơi 50% lỗi thật sự xảy ra, không phải ở bước giải.
+B1. Chạy 8 bước Tầng 1 nếu miền chưa quen; nếu miền quen, tra thẳng thư viện domain.
+B2. Sinh danh sách ứng viên CHỖ hữu hạn (Σ × τ × e) theo khuôn ở mục 3.7.
+B3. Với mỗi công cụ ℓ khả dĩ, quét MỌI CHỖ cùng loại — không quét theo "cảm giác".
+    Với mỗi CHỖ: kiểm Pre trước (rẻ) để LOẠI nhanh; nếu qua Pre, kiểm Suf để NHẬN.
+    Vùng xám (Pre đúng, Suf chưa) → đây là nơi DUY NHẤT còn cần trực giác — ghi nhận
+    tường minh, không giấu nó dưới thảm.
+B4. Đếm ẩn so với phương trình độc lập thu được (điều kiện đóng kín). Thiếu → quay lại
+    B2 với công cụ/CHỖ chưa quét, KHÔNG đoán mò thêm dữ kiện.
+B5. Xuất bài Toán (ẩn, hệ ràng buộc, miền giá trị) → giao cho kỹ năng Toán thuần tuý.
+B6. Kiểm chứng ngược: thứ nguyên, giới hạn đặc biệt, đối xứng, dấu — bất kỳ đâu nghiệm
+    "làm phép" đều kiểm được độc lập với lời giải đúng, đây là lưới an toàn miễn phí.
+```
+
+Khác biệt duy nhất so với các bản SCAN riêng lẻ của bạn: giao thức này được viết ở mức đủ trừu tượng để B1–B2 **hoạt động cả khi bạn không có thư viện domain sẵn**, miễn bạn chạy 8 bước ở Mục 3. Đó là điểm "nén" — bạn không cần nhớ 9 cái SCAN khác nhau, chỉ cần nhớ MỘT giao thức, và một quy trình sinh thư viện khi gặp miền lạ.
+
+---
+
+## 5. Neo vào cái đã biết — để biết trước khi nó thành công, nó sẽ thất bại ở đâu
+
+Dự án này không mới về bản chất; nó có ba tiền lệ lịch sử, mỗi tiền lệ cho một bài học:
+
+**(a) Polya, *How to Solve It* (1945).** Đúng là nỗ lực xây "lý thuyết tổng quát về giải toán" ở mức heuristic (hiểu đề, lập kế hoạch, thực hiện, nhìn lại). Nó **thành công thật** — vẫn được dạy 80 năm sau — nhưng thành công của nó nằm đúng ở việc nó **không cố thay thế kiến thức chuyên môn**, nó chỉ tổ chức lại cách dùng kiến thức đã có. Đây là bằng chứng độc lập rằng Tầng 0/2 của bạn là hướng đúng, miễn bạn không kỳ vọng nó làm việc của Tầng 1/3.
+
+**(b) Newell & Simon, General Problem Solver (1957).** Đây là nỗ lực *mạnh hơn* nhiều — một "thuật toán vạn năng" theo đúng nghĩa bạn sợ, dựa trên means-ends analysis (chính là "phân tích ngược từ [CHTD1]/[DKDC2]" mà bạn đã tự nghĩ ra độc lập!). Nó thất bại ở quy mô lớn vì **bùng nổ tổ hợp** khi không có tri thức domain để cắt tỉa cây tìm kiếm — xác nhận trực tiếp định lý No-Free-Lunch ở mục 1.1. Bài học: thuật toán tìm kiếm tổng quát của bạn (B0–B6) *phải* luôn được cắm vào một thư viện domain cụ thể để cắt tỉa, nếu không nó sẽ brute-force vô ích đúng như GPS đã thất bại.
+
+**(c) Khoa học nhận thức về kỳ thủ cờ vua (de Groot 1946; Chase & Simon 1973).** Đây là bằng chứng thực nghiệm **trực tiếp** cho câu khẳng định của bạn: kỳ thủ đại kiện tướng **không** tìm kiếm sâu hơn người thường — họ tìm kiếm **hẹp hơn**, vì họ nhận diện ngay các "chunk" (cấu hình quen thuộc) nên loại bỏ hầu hết nhánh vô nghĩa ngay từ đầu. Sự khác biệt giữa kỳ thủ giỏi và tầm thường gần như hoàn toàn nằm ở số "chunk" đã tích luỹ (~50.000–100.000, hình thành qua luyện tập có cấu trúc nhiều năm), **không** nằm ở năng lực tìm kiếm thô bẩm sinh. Đây chính là phiên bản thực nghiệm, định lượng được, của câu nói bạn trích dẫn.
+
+---
+
+## 6. Đánh giá lại tuyên bố của bạn
+
+> *"Nếu có sự khác biệt điểm số giữa A và B, chắc chắn chỉ đến từ một 'đường tắt' trong vấn đề tìm kiếm... và đường tắt đó luôn truyền đạt được qua lý thuyết."*
+
+Viết lại chặt chẽ hơn: gọi `S(x)` là chi phí tìm kiếm (số bước/thời gian) để giải bài x bằng *tìm kiếm thuần tuý không có tri thức domain* (brute-force thuần, như GPS). Gọi `S'(x)` là chi phí khi có một thư viện precondition tốt. Tuyên bố của bạn tương đương:
+
+> `S(x)/S'(x)` rất lớn đối với mọi x thuộc không gian đề thi HSGQG, **và** bản thân thư viện precondition sinh ra `S'` là một đối tượng **hữu hạn, mã hoá được bằng ngôn ngữ, và không đòi hỏi IQ cực cao để tiếp thu** — nó chỉ đòi hỏi luyện tập có cấu trúc.
+
+Hai vế này **đúng với mức độ tin cậy cao** trong phạm vi một kỳ thi có syllabus cố định (vì đề thi *theo định nghĩa* được dựng từ một tập hữu hạn lý thuyết đã công bố — đây chính là lý do Tầng 3 của bạn hoạt động: không gian bài toán bị giới hạn nhân tạo bởi chương trình thi). Hai chỗ cần giới hạn, nói thẳng để không tự huyễn hoặc:
+
+1. **Đúng cho thi đấu có syllabus đóng, không chắc đúng cho nghiên cứu mở.** Ở biên giới thật của Vật Lý (nơi mô hình `I` còn chưa biết, không phải chỉ công cụ `L` chưa biết), "đường tắt truyền đạt được" không tồn tại theo định nghĩa — đó chính xác là định nghĩa của phát minh. IPhO vẫn còn đóng (đề được hội đồng dựng từ lý thuyết đã biết), nên tuyên bố vẫn giữ, nhưng ranh giới này là thật và nên ghi rõ trong mọi tài liệu của bạn để không lẫn lộn "kỹ năng thi" với "kỹ năng nghiên cứu".
+2. **"Gần như chắc chắn" đúng hơn "chắc chắn".** Vẫn tồn tại xác suất khác-không rằng B có một khả năng xử lý *tốc độ dưới áp lực thời gian* (not chỉ "biết đường tắt" mà "thực thi đường tắt đủ nhanh trong 180 phút") mà việc này có thành phần sinh lý/luyện tập khó mã hoá hoàn toàn thành lý thuyết tĩnh (nó gần với kỹ năng vận động đã tự động hoá hơn là kiến thức khai báo) — bạn đã tự nhận ra điều này ở "PHẦN 8: ÁP LỰC TỐC ĐỘ" trong file Cơ của mình. Nên tuyên bố đúng hơn là: *sự khác biệt về mặt lý thuyết (biết đường tắt nào) gần như luôn truyền đạt được; sự khác biệt về mặt tốc độ thực thi đường tắt đó dưới áp lực chỉ truyền đạt được một phần, phần còn lại cần luyện tập lặp lại đến mức tự động hoá — đây không phải lý thuyết nữa mà là kỹ năng thủ tục (procedural skill), đòi hỏi một cơ chế khác (lặp lại có phản hồi) chứ không phải một văn bản.*
+
+---
+
+## 7. Tiêu chí để lý thuyết này không thành rác (khả nghiệm — falsifiability)
+
+Một lý thuyết tầng meta chỉ có giá trị nếu nó đưa ra được dự đoán kiểm chứng được. Đề xuất thiết kế thực nghiệm cụ thể (y hệt tinh thần §8.4 bạn đã tự viết trong file Nhiệt, tổng quát hoá lên):
+
+1. Chọn một học sinh giỏi Toán nhưng **chưa học** một miền Vật Lý X nào đó (ví dụ: chưa học quang hình).
+2. Đưa cho họ **chỉ** Tầng 0 + Tầng 1 (Mục 2–3 ở trên) — không đưa thư viện domain cụ thể của X.
+3. Giới hạn thời gian (ví dụ 2 giờ), yêu cầu họ tự dựng một bản nháp thư viện Pre/Suf cho X bằng cách chạy 8 bước ở Mục 3 trên 5–10 bài mẫu của X.
+4. So bản nháp đó với thư viện "chuẩn" (của bạn, hoặc giáo trình). Đo: bao nhiêu công cụ cốt lõi họ tự suy ra đúng, bao nhiêu CHỖ họ bỏ sót, so với một nhóm đối chứng không được đưa Tầng 0+1 mà chỉ được nói "hãy tự học quang hình".
+
+Nếu nhóm có Tầng 0+1 vượt trội rõ rệt → lý thuyết tổng quát **có nội dung thật, không rỗng**. Nếu không khác biệt → nó chỉ là một cách diễn đạt lại kiến thức vốn đã ngầm có trong người giỏi Toán, và nên bị cắt bỏ như rác đúng như bạn lo ngại. Đây chính là bài test bạn cần chạy trước khi viết nó thành một file "chính thức" đặt ngang hàng 9 file kia — và nó hoàn toàn khả thi để chạy thật trên 2-3 học sinh của bạn.
+
+---
+
+## 8. Kết luận — phạm vi đúng của framework này
+
+- **Nó không phải, và không nên cố làm**, một cuốn sách công thức nén lại. Chín file bạn đã có đã làm đúng việc đó ở Tầng 3, không cần nén thêm.
+- **Nó nên là**: một văn bản ngắn (có lẽ 2–4 trang thật, không phải vài chục trang) đóng vai trò **"compiler front-end"** — thứ bạn đọc *trước khi* mở bất kỳ file nào trong 9 file kia, và thứ bạn dùng để **tự viết file thứ 10** khi gặp miền mới mà không ai soạn sẵn cho bạn.
+- Giá trị thật của nó không phải là giải được bài khó hơn, mà là: (a) giảm thời gian bạn cần để biến một miền Vật Lý mới thành một thư viện Pre/Suf dùng được, và (b) cho bạn một ngôn ngữ chung để nhận ra khi nào 9 file của bạn còn thiếu một CHỖ, bằng cách chạy ngược 8 bước Mục 3 và hỏi "tôi đã liệt kê hết ứng viên τ/Σ/e chưa?".
+- Nó **thừa nhận công khai** ba giới hạn cứng (No Free Lunch, Frame Problem, Interpretation Problem) thay vì giấu chúng — đây chính là điều phân biệt nó với "rác lý thuyết": rác lý thuyết hứa hẹn xoá bỏ trực giác; lý thuyết tốt định vị chính xác trực giác còn lại nằm ở đâu, để bạn tập trung luyện đúng chỗ đó thay vì luyện tràn lan.
+
+Nói ngắn gọn nhất có thể: **bạn đã xây được lý thuyết này rồi, chỉ là nó đang nằm rải rác, ẩn, và lặp lại 9 lần trong 9 file khác nhau dưới các tên gọi khác nhau. Việc còn lại không phải là phát minh thêm, mà là rút nó ra, đặt tên thống nhất (Mục 2–4 ở trên), và kiểm chứng nó bằng chính phương pháp bạn đã quen dùng (Mục 7) trước khi tin nó.**
 
 
-
+---
 
 
 
