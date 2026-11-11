@@ -20,6 +20,8 @@ Cơ mà công nhận rằng t tin rằng việc bất kỳ ai thật sự "vô c
 
 Ngoài ra, có nhiều người tôi quen, bảo rằng lý do họ không đầu tư vào HSGQG Lý là vì cho rằng nó có thể gây lãng phí thời gian nếu không đạt giải. Mặc dù thực tế họ còn chả biết nó là gì, ý tôi là HSGQG Lý liên quan quá nhiều đến Giải Tích hay vi tích phân & toàn bộ vật lý tại THPT, tức là dù họ có đạt giải hay không thì nếu họ ở trong A00 hoặc A01 gì đó, thì môn Toán & Lý gần như xong rồi (dĩ nhiên cần luyện thêm đề để quen dạng, tốc độ), còn mỗi môn Hóa/Tiếng anh.
 
+Điều thú vị là, không hẳn là t thấy ghét những thứ sai sự thật, đúng hơn là, có những thứ khá lố bịch, hoặc là nó sai 1 cách tinh vi nhưng t nhận ra đc, kiểu t sẽ bị "đánh động" ấy =)),  kiểu như bị cảnh báo cái A, mặc dù cái cảnh báo đó là làm quá, nhưng nó thật sự nhiều lúc hữu ích với t, và nó ko phải theo kiểu 1 chút hữu ích, nó là 1 thứ gắn bó chặt với t r:p, kể cả việc t viết khá lỏng lẻo như hiện tại, 1 ng có năng lực họ dư sức bắt bẻ t:p, cơ mà t vẫn viết thế, ko hẳn là do t ko bt t sai ở đâu
+
 Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
 **Chia sẻ cá nhân:**
