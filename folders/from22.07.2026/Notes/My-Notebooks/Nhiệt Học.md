@@ -321,6 +321,8 @@ Tính sớm các số không thứ nguyên chi phối xấp xỉ và đánh dấ
 
 ### T01. Cấu trúc của chất; sự chuyển thể
 
+https://share.gemini.google/2ZdvcrBsP9wd
+
 **Post [CHUẨN]:**
 - Ba trạng thái khác nhau bởi cạnh tranh giữa động năng nhiệt `~kT` và năng lượng liên kết `ε`: rắn (dao động quanh vị trí cân bằng, trật tự xa), lỏng (gần nhau, không trật tự xa), khí (khoảng cách trung bình `n^{−1/3} ≫ d`).
 - Chuyển thể ở áp suất xác định, chất tinh khiết, *hai pha cùng tồn tại*: `T` không đổi; nhiệt trao đổi = nhiệt ẩn.
