@@ -24,6 +24,8 @@ Bạn có bao giờ nghĩ rằng, chỉ cần hiểu sâu sắc Toán Học, th�
 
 Thanh lịch : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/S%E1%BB%B1%20thanh%20l%E1%BB%8Bch.md ; https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/Physics.md ; https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20V%E1%BA%ADt%20L%C3%BD%20N%E1%BB%81n%20T%E1%BA%A3ng.md
 
+Lý thuyết Dây: https://en.wikipedia.org/wiki/String_theory
+
 Đọc phương pháp tư duy tổng quát trong việc Mô Hình Hóa và Tư duy giải Lý tại : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md
 
 Đọc phương pháp tư duy/giải tổng quát trong toán học tại : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a
