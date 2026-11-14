@@ -26,6 +26,8 @@ T nghĩ là tạo ra 1 thứ hoàn toàn mới, cảm giác giống vậy hơn, 
 
 Thú thật, não bộ của con người thật ra tiềm năng ko quá khác nhau đâu, nếu như đa số đông đảo mọi ng đc giáo dục đúng cách để nhận ra vẻ đẹp của khoa học, con ng đã tiến xa hơn bây h chắc cả nghìn năm  =))
 
+Trẻ con vốn dĩ rất ham học hỏi, bằng chứng là chúng luôn đặt hàng vạn câu hỏi "tại sao" khi còn nhỏ :p, cơ mà lớn lên thì khác, do nỗi sợ và đúng hơn là cách tiếp cận với giáo dục khiến họ tự ti và dần sợ hãi nó, thực tế ko chỉ riêng với việc học, thường thì thứ này nhưng mà được đặt trên 1 sự an toàn nhưng kìm hãm vĩnh viễn hay được gọi là trưởng thành với đa số mọi người:p, nên họ ko thể giỏi hơn đáng kể
+
 Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
 **Chia sẻ cá nhân:**
