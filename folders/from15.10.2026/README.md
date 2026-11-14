@@ -1,3 +1,5 @@
+Hiểu nguyên nhân Triết học đầy đủ trước, rồi hiểu đến ý nghĩa về mặt thông tin và toán học, rồi thành thạo, rồi nghiên cứu.
+
 # Đại số trừu tượng (Abstract Algebra)
 
 Cốt lõi chung cho hầu hết các hướng là:
