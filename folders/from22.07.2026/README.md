@@ -26,6 +26,8 @@ Thanh lịch : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/fro
 
 Lý thuyết Dây: https://en.wikipedia.org/wiki/String_theory
 
+Lý do tôi quăng string theory vào đây á? Thực tế tôi nghĩ tôi nghiện việc từ các tiên đề gốc sau đó tất cả mọi thứ đều xoay quanh nó, như Euclid vậy =)); Ừ, ít nhất là vào 2026, Lý Thuyết M (Dây) vẫn là thứ tổng quát nhất (dù chưa có thực nghiệm), nhưng nó làm tôi nghiện vì lý do trên =)); Với thật ra đó cũng là lý do tôi lười học General Physics, vì nó có khối lượng kiến thức rời rạc khổng lồ :p, t thường phải làm 1 vài bài toán thuần hình học hay gì đó là toán thuần logic để làm t vào trạng thái flow thì t mới lừa não t nhảy sang học general physics được đó =))
+
 Đọc phương pháp tư duy tổng quát trong việc Mô Hình Hóa và Tư duy giải Lý tại : https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/In-house%20files/M%C3%B4%20H%C3%ACnh%20H%C3%B3a/Final%20general%20solution/README.md
 
 Đọc phương pháp tư duy/giải tổng quát trong toán học tại : https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/In-house%20files/To%C3%A1n/Thu%E1%BA%ADt%20to%C3%A1n%20h%C3%B3a%20%26%20T%E1%BB%95ng%20qu%C3%A1t%20h%C3%B3a
