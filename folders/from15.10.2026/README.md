@@ -126,3 +126,13 @@ Biểu diễn nhóm hữu hạn cơ bản.
 Đại số giao hoán cơ bản: ideal, địa phương hóa, Spec, Nullstellensatz.
 
 cốt lõi là Group – Ring – Field/Galois – Module – Category/Homological, rồi mở rộng sang Representation và Commutative Algebra. Học đến đâu phải làm bài tập và chứng minh lại định lý đến đó; 
+
+# More
+
+Differential & Riemannian Geometry
+
+Algebraic & Differential Topology
+
+Algebraic Geometry
+
+Convex Geometry & Polytope Theory
