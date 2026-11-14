@@ -34,6 +34,8 @@ Chẳng hạn như định kiến xã hội áp đặt lên con người, khi c�
 
 Thật tốt khi Newton với Galileo ko dính định kiến nặng nề từ định kiến ngày trc :p, sau đó tự tay xây lại luôn, vip vc
 
+https://www.youtube.com/shorts/L_FdomaLlLg?feature=share
+
 Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
 **Chia sẻ cá nhân:**
