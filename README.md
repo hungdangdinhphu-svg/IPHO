@@ -30,6 +30,8 @@ Trẻ con vốn dĩ rất ham học hỏi, bằng chứng là chúng luôn đặ
 
 Chẳng hạn như định kiến xã hội áp đặt lên con người, khi có 1 lượng lớn tầm vài triệu hay chục triệu hay trăm triệu người đều dính phải nó, nhưng khi ta quay lại nguồn gốc, thực tế nó đã từ rất lâu, nếu những người theo những định kiến đó chứng kiến được toàn bộ cuộc đời của 1 số ít người tạo ra định kiến rồi được lan truyền tiến qua nhiều thế hệ, t nghĩ nhiều ng sẽ tự thấy nó nhảm, vì nó mất đi cái "tính đám đông" ban đầu:p?
 
+à =)), t nghĩ có 1 cái nữa liên quan đến việc này, kiểu như ở vn hay có cái gì mà "Các cụ từng nói : ....", bruh =)), đúng hơn thì chắc nên hiểu thành 1 ai đó trong quá khứ từng nghĩ ra cái giống vậy hoặc chính là cái đó, xong rồi lan truyền rồi kiểu như bị chỉnh sửa rất nhiều lần hay gì đó, idk, chắc giống v
+
 Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
 **Chia sẻ cá nhân:**
