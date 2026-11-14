@@ -32,6 +32,8 @@ Chẳng hạn như định kiến xã hội áp đặt lên con người, khi c�
 
 à =)), t nghĩ có 1 cái nữa liên quan đến việc này, kiểu như ở vn hay có cái gì mà "Các cụ từng nói : ....", bruh =)), đúng hơn thì chắc nên hiểu thành 1 ai đó trong quá khứ từng nghĩ ra cái giống vậy hoặc chính là cái đó, xong rồi lan truyền rồi kiểu như bị chỉnh sửa rất nhiều lần hay gì đó, idk, chắc giống v
 
+Thật tốt khi Newton với Galileo ko dính định kiến nặng nề từ định kiến ngày trc :p, sau đó tự tay xây lại luôn, vip vc
+
 Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
 **Chia sẻ cá nhân:**
