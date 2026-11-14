@@ -28,6 +28,8 @@ Thú thật, não bộ của con người thật ra tiềm năng ko quá khác n
 
 Trẻ con vốn dĩ rất ham học hỏi, bằng chứng là chúng luôn đặt hàng vạn câu hỏi "tại sao" khi còn nhỏ :p, cơ mà lớn lên thì khác, do nỗi sợ và đúng hơn là cách tiếp cận với giáo dục khiến họ tự ti và dần sợ hãi nó, thực tế ko chỉ riêng với việc học, thường thì thứ này nhưng mà được đặt trên 1 sự an toàn nhưng kìm hãm vĩnh viễn hay được gọi là trưởng thành với đa số mọi người:p, nên họ ko thể giỏi hơn đáng kể
 
+Chẳng hạn như định kiến xã hội áp đặt lên con người, khi có 1 lượng lớn tầm vài triệu hay chục triệu hay trăm triệu người đều dính phải nó, nhưng khi ta quay lại nguồn gốc, thực tế nó đã từ rất lâu, nếu những người theo những định kiến đó chứng kiến được toàn bộ cuộc đời của 1 số ít người tạo ra định kiến rồi được lan truyền tiến qua nhiều thế hệ, t nghĩ nhiều ng sẽ tự thấy nó nhảm, vì nó mất đi cái "tính đám đông" ban đầu:p?
+
 Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
 **Chia sẻ cá nhân:**
