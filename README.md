@@ -24,6 +24,8 @@ Ngoài ra, có nhiều người tôi quen, bảo rằng lý do họ không đầ
 
 T nghĩ là tạo ra 1 thứ hoàn toàn mới, cảm giác giống vậy hơn, cơ mà thực tế thì nó lại là 1 thứ vốn đã tồn tại, có điều để mà nói nếu đó là 1 lý thuyết tường minh và phổ biến để nói về nó thì chắc chắn ko phải, vì cái này thường nằm rất ẩn trong trực giác của những ng giỏi giang, cơ mà dù họ có là triết gia, họ cx khó nhận ra, t mất hơn 2 năm, nhưng ko phải 2 năm ngồi chơi mà vô tình nhận ra, mà là 2 năm liên tục tìm kiếm, ngày nào cx v, vì ko tìm thì ko đc, nếu như có lý thuyết nói về nó đầy đủ theo ý hiểu của t mà nó phổ biến, thì đã ko có sự phân hóa mạnh về chất lượng học sinh như ngày nay.
 
+Thú thật, não bộ của con người thật ra tiềm năng ko quá khác nhau đâu, nếu như đa số đông đảo mọi ng đc giáo dục đúng cách để nhận ra vẻ đẹp của khoa học, con ng đã tiến xa hơn bây h chắc cả nghìn năm  =))
+
 Backup ở Drive (12/10/2026 - DD/MM/YYYY), nhưng là phiên bản cũ: https://drive.google.com/drive/folders/1wBatML5wyMt1VrWMqTToiSvHYw27LD6V?usp=sharing
 
 **Chia sẻ cá nhân:**
