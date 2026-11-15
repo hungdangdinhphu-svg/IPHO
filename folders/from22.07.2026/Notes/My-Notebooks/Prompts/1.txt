@@ -1,1 +1,8 @@
+1. Giảng ghi nhớ và hiểu nội dung gốc rễ :
+
+Vào trong https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/Notes/My-Notebooks/N%E1%BB%97%20l%E1%BB%B1c%20gi%E1%BA%A3m%20ghi%20nh%E1%BB%9B, rồi lấy file cần trong đó. Sau đó đưa file .md đó cho AI rồi gõ :
+
+"Có nhiều thuật ngữ quá, hãy giúp tôi hiểu hết tận gốc toàn bộ thuật ngữ đi! Và đồng thời giảng cho tôi hiểu hết tất cả các lý thuyết này. Sau đó cung cấp đầy đủ ví dụ cơ bản cho mọi phần lý thuyết. Sau đó đưa ra 1 ví dụ tổng quát cực lớn (1 bài đủ dài và lớn để bao trọn mọi kiến thức đó), rồi giải nó cho tôi xem. Sau đó hãy đưa tôi 1 bài tập lớn (1 bài cũng đủ dài và lớn để bao trọn mọi kiến thức đó) ở độ khó trung bình, rồi độ khó khó, rồi ở mức HSGQG THPT Lý (nhưng ko vượt qua mức các kiến thức bạn vừa giảng tôi)."
+
+2. Giảng mở rộng và hiểu nội dung mở rộng & đầy đủ :
 
