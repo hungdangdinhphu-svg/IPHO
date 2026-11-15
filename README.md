@@ -122,6 +122,8 @@ Trong cuộc sống của mình, tôi cảm thấy như vầy: Mỗi khi chạm 
 
 Có vẻ ego là thứ đủ cứng đầu cho bất kỳ ai, chẳng hạn như 1 ng dù đã bị chứng minh sai bằng logic nhưng với ego xấu cao thì họ vẫn bất chấp, thực tế nếu ta tận dụng ego vào những tốt đẹp thay vì đơn thuần là disciplin trong những thứ cực kỳ nặng như Abstract Algebra & Trừu Tượng hay Nghiên cứu khoa học, với điều hướng và "fallback" đủ tốt, t nghĩ đáng q.tâm đến áp dụng "ám ảnh" và "ego nặng" vào? Kiểu như "hurted ego" ?
 
+Mặc dù việc bị tổn thương về cơ bản được quy ước là bất kỳ ai gây tổn thương lên người khác gần như chắc chắn là phạm pháp, tôi không có phản bác luật pháp. Nhưng ý của tôi là, nếu như bản thân tôi không bị tổn thương :p, tôi sẽ không tiến bộ được như bây giờ, rất khó.
+
 https://theconversation.com/is-this-the-mathocalypse-why-openais-latest-results-dump-has-left-mathematicians-in-shock-293837
 
 Categorization and Representation of Physics Problems by Experts and Novices
