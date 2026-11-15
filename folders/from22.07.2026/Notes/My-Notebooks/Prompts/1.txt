@@ -19,3 +19,10 @@ Sau đó đưa file .md đó cho AI rồi gõ :
 4. Sửa lại bài tập :
 
 "Hãy chỉnh sửa cho bài tập Vật Lý này chặt chẽ tuyệt đối và logic, hạn chế tối đa các từ ngữ 'tối nghĩa', 'lấp liếm', 'hán việt' nếu có, hãy đưa hết về ngôn ngữ chặt chẽ toán học. Và viết lại toàn bộ để đảm bảo toàn bộ bài logic, không bị thiếu các 'điều kiện', 'điều kiện biên', các điều kiện 'ngầm hiểu' không được phép tồn tại mà không được nêu rõ tường minh ra."
+
+
+
+
+
+
+
