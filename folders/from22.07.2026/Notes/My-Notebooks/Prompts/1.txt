@@ -1,3 +1,5 @@
+Nếu vẫn không hoạt động hiệu quả, tăng chế độ của AI lên cao hơn, hoặc chia nhỏ file .md ra.
+
 1. Giảng ghi nhớ và hiểu nội dung gốc rễ trong Vật Lý :
 
 Vào trong https://github.com/hungdangdinhphu-svg/IPHO/tree/main/folders/from22.07.2026/Notes/My-Notebooks/N%E1%BB%97%20l%E1%BB%B1c%20gi%E1%BA%A3m%20ghi%20nh%E1%BB%9B, rồi lấy file cần trong đó. Sau đó đưa file .md đó cho AI rồi gõ :
