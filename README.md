@@ -132,7 +132,7 @@ Categorization and Representation of Physics Problems by Experts and Novices
 
 WTF!!! https://youtu.be/eHENQFMw1Vw
 
-mặc dù thực tế vật lý vẫn tinh khiết (kiểu như M Theory, hay String Theory, hoặc Nguyên Lý Tác Dụng Dừng, Lagrangian,...), nhưng thật sự là quy mô của nó quá khổng lồ, và ta luôn bị thiếu thông tin, dẫn đến các phép xấp xỉ, dẫn đến modeling, và dẫn đến hàng tá các mẹo, lẫn các lý thuyết khổng lồ nhất ngày nay như Nhiệt Học hay Cơ học vẫn là chắp vá =)), tức là từ những thứ nhỏ lẻ đến cả lý thuyết cx chắp vá, đấy là điều bắt buộc, nếu ko thì ta sẽ luôn thiếu thông tin, ai rảnh đâu xài M Theory cho đời sống đc, chết tại chỗ vì thiếu thông tin
+mặc dù thực tế vật lý vẫn tinh khiết (kiểu như M Theory, hay String Theory, hoặc Nguyên Lý Tác Dụng Dừng, Lagrangian,...), nhưng thật sự là quy mô của vũ trụ quá khổng lồ, và ta luôn bị thiếu thông tin, dẫn đến các phép xấp xỉ, dẫn đến modeling, và dẫn đến hàng tá các mẹo, lẫn các lý thuyết khổng lồ nhất ngày nay như Nhiệt Học hay Cơ học vẫn là chắp vá =)), tức là từ những thứ nhỏ lẻ đến cả lý thuyết cx chắp vá, đấy là điều bắt buộc, nếu ko thì ta sẽ luôn thiếu thông tin, ai rảnh đâu xài M Theory cho đời sống đc, chết tại chỗ vì thiếu thông tin
 
 Các nhà vật lý quá giỏi, từ hiểu nhầm cũng giỏi cho đến xây dựng cũng giỏi, cái gì cũng giỏi, đỉnh quá =)), toán học thì thiên về trừu tượng hơn, nhưng thực tế t thấy nó cx ko quá khác với sự khắc nghiệt trong tư duy của những nhà vật lý dẫn đầu lý thuyết mới :p
 
