@@ -1,3 +1,5 @@
+https://chat.deepseek.com/share/hi57isoqujye3rk35k
+
 # GIẢI TÍCH VECTOR (VECTOR CALCULUS)
 
 > Tài liệu tổng hợp đầy đủ theo chương trình chuẩn (tương ứng Chương 16 – Stewart, *Calculus*), bao gồm lý thuyết, công thức, định lý và ví dụ minh họa cho từng phần.
