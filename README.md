@@ -124,6 +124,8 @@ Có vẻ ego là thứ đủ cứng đầu cho bất kỳ ai, chẳng hạn như
 
 Mặc dù việc bị tổn thương về cơ bản được quy ước là bất kỳ ai gây tổn thương lên người khác gần như chắc chắn là phạm pháp, tôi không có phản bác luật pháp. Nhưng ý của tôi là, nếu như bản thân tôi không bị tổn thương :p, tôi sẽ không tiến bộ được như bây giờ, rất khó.
 
+Việc bản thân tồn tại hoặc bản thân tôi nhận thức ra được những thứ này, tôi nghĩ thật sự khó khăn cho chính tôi =)), vì ngay cả tự nhận thức hay metacognition nó cũng có những cái bẫy rất tinh vi, kiểu nếu ko phát hiện ra thì sẽ bị kẹt mãi ở giới hạn vậy :p, giống như khi tôi nhận thức quá rõ về khó khăn của tôi, chưa chắc tôi đã giải được nó, mà tôi sẽ dần mất đi cảm giác tổn thương, thấy nó hiển nhiên phải xảy ra như vậy, và rồi thành ra ko giải quyết đc cái gì cả =)), còn nếu ko có tự nhận thức đủ tốt thì còn ko viết đc câu tôi đang viết .-., fck
+
 https://theconversation.com/is-this-the-mathocalypse-why-openais-latest-results-dump-has-left-mathematicians-in-shock-293837
 
 Categorization and Representation of Physics Problems by Experts and Novices
