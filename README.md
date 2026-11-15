@@ -136,6 +136,8 @@ mặc dù thực tế vật lý vẫn tinh khiết (kiểu như M Theory, hay St
 
 Các nhà vật lý quá giỏi, từ hiểu nhầm cũng giỏi cho đến xây dựng cũng giỏi, cái gì cũng giỏi, đỉnh quá =)), toán học thì thiên về trừu tượng hơn, nhưng thực tế t thấy nó cx ko quá khác với sự khắc nghiệt trong tư duy của những nhà vật lý dẫn đầu lý thuyết mới :p
 
+vật lý tiến hóa đến mức M Theory luôn r (dù chưa có bằng chứng thực nghiệm), nhưng như thế đã quá mức gần với Toán học thật sự rồi, vấn đề là ko cứu đc cảnh phải trầm cảm với việc thiếu thông tin =)), giờ đây bất kỳ ai nói rằng toán thanh lịch mà vật lý ko thì nên xem xét lại
+
 Farewell.
 
 
