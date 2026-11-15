@@ -126,6 +126,8 @@ https://theconversation.com/is-this-the-mathocalypse-why-openais-latest-results-
 
 Categorization and Representation of Physics Problems by Experts and Novices
 
+WTF!!! https://youtu.be/eHENQFMw1Vw
+
 Farewell.
 
 
