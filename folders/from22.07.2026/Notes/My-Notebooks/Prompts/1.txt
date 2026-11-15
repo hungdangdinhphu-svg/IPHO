@@ -16,5 +16,6 @@ Sau đó đưa file .md đó cho AI rồi gõ :
 
 "Có nhiều thuật ngữ quá, hãy giúp tôi hiểu hết tận gốc toàn bộ thuật ngữ đi! Và đồng thời giảng cho tôi hiểu hết tất cả các lý thuyết này. Sau đó cung cấp đầy đủ các ví dụ cơ bản cho mọi phần lý thuyết. Sau đó đưa ra 1 ví dụ tổng quát cực lớn (1 bài đủ dài và lớn để bao trọn mọi kiến thức đó), rồi giải nó cho tôi xem. Sau đó hãy đưa tôi 1 bài tập lớn (1 bài cũng đủ dài và lớn để bao trọn mọi kiến thức đó) ở độ khó trung bình, rồi độ khó khó."
 
+4. Sửa lại bài tập :
 
-
+"Hãy chỉnh sửa cho bài tập Vật Lý này chặt chẽ tuyệt đối và logic, hạn chế tối đa các từ ngữ 'tối nghĩa', 'lấp liếm', 'hán việt' nếu có, hãy đưa hết về ngôn ngữ chặt chẽ toán học. Và viết lại toàn bộ để đảm bảo toàn bộ bài logic, không bị thiếu các 'điều kiện', 'điều kiện biên', các điều kiện 'ngầm hiểu' không được phép tồn tại mà không được nêu rõ tường minh ra."
