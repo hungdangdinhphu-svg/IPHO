@@ -1,4 +1,6 @@
-https://chat.deepseek.com/share/hi57isoqujye3rk35k
+https://chat.deepseek.com/share/hi57isoqujye3rk35k|
+
+https://vi.wikipedia.org/wiki/T%C3%ADch_ph%C3%A2n_%C4%91%C6%B0%E1%BB%9Dng#/media/T%E1%BA%ADp_tin:Line_integral_of_scalar_field.gif
 
 # GIẢI TÍCH VECTOR (VECTOR CALCULUS)
 
