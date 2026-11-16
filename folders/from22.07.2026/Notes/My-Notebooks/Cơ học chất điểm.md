@@ -1069,6 +1069,8 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 ### C4. Thế năng và bảo toàn cơ năng **[C]**
 
+https://share.gemini.google/7crT4MChYIVz
+
 - **Kiểu CHỖ:** (Σ, trạng thái 1, trạng thái 2).
 - **Nội dung:**
   - Lực bảo toàn ⇔ **F** = −∇U ⇔ ∮**F**·d**r** = 0 (miền đơn liên: ∇×**F** = 0).
