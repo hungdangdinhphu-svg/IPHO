@@ -414,6 +414,8 @@ Thế $u = ax+by+c$: $u' = a + bF(u)$ → **tách biến**.
 
 ## D.7. Vi phân toàn phần và thừa số tích phân
 
+https://share.gemini.google/SfuDogrkuWs1
+
 **Nhận diện (bất biến):** viết $M(x,y)\,dx + N(x,y)\,dy = 0$.
 - **Toàn phần** (exact) nếu $\dfrac{\partial M}{\partial y} = \dfrac{\partial N}{\partial x}$ (trên miền đơn liên).
 
