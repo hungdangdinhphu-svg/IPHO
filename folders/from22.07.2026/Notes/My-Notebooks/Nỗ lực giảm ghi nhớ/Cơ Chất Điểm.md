@@ -116,6 +116,8 @@ Cộng N2 cho **nhiều vật** trong hệ Σ, dùng N3 để triệt nội lự
 
 ---
 
+https://chat.deepseek.com/share/wf30y8od6vlvhajiji
+
 ### MÁY SINH 2 — "Công thức vận chuyển" (B4) → sinh ra TOÀN BỘ D9, D10 và một phần K4/K5
 
 Chỉ cần thay số vào B4:
