@@ -2,6 +2,8 @@ https://chat.deepseek.com/share/54hc94v01fgzqq1x05
 
 https://share.gemini.google/VEYH6GcPnhqZ
 
+https://share.gemini.google/1r5TXXBxVTXM
+
 # HẠT NHÂN SINH (Generative Kernel) cho Nhiệt học HSGQG/IPhO
 
 > Mục tiêu: thay vì nhớ T01–T17 + X1–X6 (~23 "công cụ", hàng trăm công thức), chỉ cần nhớ
