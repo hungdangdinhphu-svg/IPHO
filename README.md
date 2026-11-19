@@ -142,6 +142,8 @@ Các nhà vật lý quá giỏi, từ hiểu nhầm cũng giỏi cho đến xây
 
 vật lý tiến hóa đến mức M Theory luôn r (dù chưa có bằng chứng thực nghiệm), nhưng như thế đã quá mức gần với Toán học thật sự rồi, vấn đề là ko cứu đc cảnh phải trầm cảm với việc thiếu thông tin =)), giờ đây bất kỳ ai nói rằng toán thanh lịch mà vật lý ko thì nên xem xét lại
 
+"chắc do anh ấy có ngôn ngữ tuyệt nhất anh ấy từng học là lý thuyết thông tin-mô tả chính xác mọi thứ miễn là có thông tin hoặc có quy luật trong toán hay lý đều đc, khoa học cơ bản, triết học, logic là đc,... và 1 kỹ năng nghiên cứu dựa trên vẻ đẹp của anh ấy tự tạo ra (tái phát minh gần giống các kỹ thuật từng có) hoặc phát hiện ra (như nodal analysis linear algebra dù mới lớp 9). có vẻ cx ko hẳn chỉ là information theory, mà còn cả 1 đống thứ khác nx =)), tích lũy dần nhỉ"
+
 Farewell.
 
 
