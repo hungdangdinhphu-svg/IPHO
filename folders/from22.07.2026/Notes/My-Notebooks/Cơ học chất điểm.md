@@ -716,6 +716,8 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
   Lưu ý về lực ma sát: Lực ma sát giữa m_1 và m_2 là một cặp lực - phản lực (Định luật III Newton). Khi bạn xét m_2, nó là F_ms2 hướng sang trái; Khi xét m_1, nó là F'_ms1 hướng sang phải (kéo m_1 đi theo);
 
+Nếu bạn đi bộ về phía trước, chân bạn đẩy mặt đất ra sau $\rightarrow$ ma sát hướng về phía trước (giúp bạn tiến lên). Nếu bạn đặt một cái hộp lên băng chuyền đang chạy sang phải, cái hộp chuyển động sang phải so với mặt đất, nghĩa là lực ma sát lại đang đẩy nó cùng chiều chuyển động của nó!
+
 ---
 
 ### D4. Lực đàn hồi, lò xo **[C]**
