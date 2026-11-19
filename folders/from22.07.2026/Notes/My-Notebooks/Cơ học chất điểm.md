@@ -1159,6 +1159,164 @@ Lập danh sách đầy đủ mọi lực tác dụng lên từng vật trong h�
 
 ---
 
+**Ví dụ:**
+
+```py
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+def simulate_energy_workflow():
+    # --- Tham số bài toán ---
+    m1 = 2.0  # kg (vật trượt trên nêm)
+    m2 = 0.5  # kg (vật treo thẳng đứng)
+    M = 3.0  # kg (nêm di động)
+    alpha = np.deg2rad(30.0)
+    mu = 0.1
+    g = 10.0
+
+    s1 = 0.8  # m (quãng đường trượt giai đoạn 1 trước khi chốt dừng nêm)
+    s2 = 0.4  # m (quãng đường trượt giai đoạn 2 sau khi nêm dừng)
+    H0 = 1.2  # m (độ cao ban đầu của m1)
+    z2_0 = 0.5  # m (độ cao ban đầu của m2)
+
+    # --- Giai đoạn 1: tau_0 -> tau_1^- (nêm tự do, trượt quãng đường s1) ---
+    # Thế năng ban đầu (mốc z = 0 tại mặt sàn)
+    U_tau0 = m1 * g * H0 + m2 * g * z2_0
+    K_tau0 = 0.0
+    E_tau0 = K_tau0 + U_tau0
+
+    # Công lực không thế (ma sát trượt) trên quãng đường s1
+    A_nt_1 = -mu * (m1 * g * np.cos(alpha)) * s1
+
+    # Thế năng tại tau_1^-
+    z1_tau1 = H0 - s1 * np.sin(alpha)
+    z2_tau1 = z2_0 + s1
+    U_tau1 = m1 * g * z1_tau1 + m2 * g * z2_tau1
+
+    # Từ E_tau0 + A_nt_1 = K_tau1 + U_tau1:
+    K_tau1_minus = E_tau0 + A_nt_1 - U_tau1
+
+    # Phân bố vận tốc tại tau_1^- theo liên kết động lượng ngang: m1*v*cos(alpha) = M*V_M
+    # Động năng hệ: 0.5*(m1 + m2)*v^2 + 0.5*M*(m1*cos(alpha)/M * v)^2 = K_tau1_minus
+    coeff_v2 = 0.5 * (m1 + m2) + 0.5 * M * ((m1 * np.cos(alpha)) / M) ** 2
+    v_tau1_minus = np.sqrt(K_tau1_minus / coeff_v2)
+    VM_tau1_minus = (m1 * np.cos(alpha) / M) * v_tau1_minus
+
+    # --- Sự kiện tại tau_1: nêm M bị chốt giữ dừng đột ngột (tau_1^- -> tau_1^+) ---
+    VM_tau1_plus = 0.0
+    v_tau1_plus = v_tau1_minus  # giữ liên tục tốc độ dây theo mô hình bài giải
+    loss_at_stop = 0.5 * M * (VM_tau1_minus**2)  # động năng nêm bị triệt tiêu tại chốt
+    K_tau1_plus = 0.5 * (m1 + m2) * (v_tau1_plus**2)
+    E_tau1_plus = K_tau1_plus + U_tau1
+
+    # --- Giai đoạn 2: tau_1^+ -> tau_2 (nêm cố định, trượt thêm quãng đường s2) ---
+    A_nt_2 = -mu * (m1 * g * np.cos(alpha)) * s2
+    z1_tau2 = z1_tau1 - s2 * np.sin(alpha)
+    z2_tau2 = z2_tau1 + s2
+    U_tau2 = m1 * g * z1_tau2 + m2 * g * z2_tau2
+
+    # Định lý biến thiên cơ năng cho giai đoạn 2: E_tau1_plus + A_nt_2 = E_tau2
+    E_tau2 = E_tau1_plus + A_nt_2
+    K_tau2 = E_tau2 - U_tau2
+    v_tau2 = np.sqrt(2.0 * K_tau2 / (m1 + m2))
+
+    # --- In kết quả đối chiếu ---
+    print("=== KIỂM CHỨNG ĐỊNH LÝ BIẾN THIÊN CƠ NĂNG: E_đầu + A_nt = E_sau ===")
+    print(f"[tau_0]   E(tau_0)   = {E_tau0:.4f} J (K = {K_tau0:.4f} J, U = {U_tau0:.4f} J)")
+    print(f"[GĐ 1]    A_nt_1     = {A_nt_1:.4f} J")
+    print(
+        f"[tau_1^-] E(tau_1^-) = {K_tau1_minus + U_tau1:.4f} J | E_0 + A_nt_1 = {E_tau0 + A_nt_1:.4f} J"
+    )
+    print(
+        f"          v(tau_1^-) = {v_tau1_minus:.4f} m/s, V_M(tau_1^-) = {VM_tau1_minus:.4f} m/s"
+    )
+    print(
+        f"[Sự kiện tau_1] Nêm dừng đột ngột (V_M -> 0), tiêu hao động năng nêm = {loss_at_stop:.4f} J"
+    )
+    print(f"[tau_1^+] E(tau_1^+) = {E_tau1_plus:.4f} J (K = {K_tau1_plus:.4f} J)")
+    print(f"[GĐ 2]    A_nt_2     = {A_nt_2:.4f} J")
+    print(
+        f"[tau_2]   E(tau_2)   = {E_tau2:.4f} J | E(tau_1^+) + A_nt_2 = {E_tau1_plus + A_nt_2:.4f} J"
+    )
+    print(f"          v(tau_2)   = {v_tau2:.4f} m/s")
+
+    # --- Trực quan hóa theo quãng đường trượt tích lũy s ---
+    s_g1 = np.linspace(0.0, s1, 100)
+    U_g1 = m1 * g * (H0 - s_g1 * np.sin(alpha)) + m2 * g * (z2_0 + s_g1)
+    A_nt_g1 = -mu * (m1 * g * np.cos(alpha)) * s_g1
+    E_g1 = E_tau0 + A_nt_g1
+    K_g1 = E_g1 - U_g1
+
+    s_g2 = np.linspace(s1, s1 + s2, 100)
+    ds2 = s_g2 - s1
+    U_g2 = m1 * g * (z1_tau1 - ds2 * np.sin(alpha)) + m2 * g * (z2_tau1 + ds2)
+    A_nt_g2 = A_nt_1 - mu * (m1 * g * np.cos(alpha)) * ds2
+    E_g2 = E_tau1_plus + (A_nt_g2 - A_nt_1)
+    K_g2 = E_g2 - U_g2
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4.8))
+
+    # Đồ thị 1: K, U, E theo quãng đường trượt s
+    ax1.plot(s_g1, E_g1, label="Cơ năng E (GĐ 1: nêm tự do)", linewidth=2)
+    ax1.plot(s_g1, K_g1, "--", label="Động năng K (GĐ 1)", linewidth=1.8)
+    ax1.plot(s_g1, U_g1, ":", label="Thế năng U (GĐ 1)", linewidth=1.8)
+
+    ax1.plot(s_g2, E_g2, label="Cơ năng E (GĐ 2: nêm cố định)", linewidth=2)
+    ax1.plot(s_g2, K_g2, "--", label="Động năng K (GĐ 2)", linewidth=1.8)
+    ax1.plot(s_g2, U_g2, ":", label="Thế năng U (GĐ 2)", linewidth=1.8)
+
+    ax1.axvline(
+        s1, color="red", linestyle="-.", label="Mốc tau_1 (nêm dừng đột ngột)"
+    )
+    ax1.set_title("Biến thiên K, U, E theo quãng đường s")
+    ax1.set_xlabel("Quãng đường trượt s (m)")
+    ax1.set_ylabel("Năng lượng (J)")
+    ax1.grid(True, alpha=0.3)
+    ax1.legend(fontsize=8)
+
+    # Đồ thị 2: So sánh vế trái (E_đầu + A_nt) và vế phải (E_sau) ở từng giai đoạn
+    labels = ["GĐ 1\n(tau_0 -> tau_1^-)", "GĐ 2\n(tau_1^+ -> tau_2)"]
+    lhs = [E_tau0 + A_nt_1, E_tau1_plus + A_nt_2]
+    rhs = [K_tau1_minus + U_tau1, E_tau2]
+
+    x = np.arange(len(labels))
+    width = 0.32
+    ax2.bar(x - width / 2, lhs, width, label="E_đầu + A_nt")
+    ax2.bar(x + width / 2, rhs, width, label="E_sau")
+    ax2.set_xticks(x)
+    ax2.set_xticklabels(labels)
+    ax2.set_ylim(25, 31)
+    ax2.set_title("Kiểm chứng E_đầu + A_nt = E_sau")
+    ax2.set_ylabel("Năng lượng (J)")
+    ax2.grid(True, axis="y", alpha=0.3)
+    ax2.legend()
+
+    plt.tight_layout()
+    plt.show()
+
+
+if __name__ == "__main__":
+    simulate_energy_workflow()
+
+
+```
+
+Một nêm khối lượng $M = 3\,\text{kg}$, mặt nghiêng góc $\alpha = 30^\circ$ so với phương ngang, đặt trên mặt bàn ngang nhẵn. Một vật nhỏ khối lượng $m_1 = 2\,\text{kg}$ nằm ở đỉnh nêm cách mặt bàn một đoạn theo phương thẳng đứng là $H = 1{,}2\,\text{m}$. Một vật nhỏ thứ hai khối lượng $m_2 = 1\,\text{kg}$ nối với $m_1$ bằng một sợi dây nhẹ, không dãn, vắt qua một ròng rọc nhỏ lý tưởng gắn ở đỉnh nêm (đoạn dây từ ròng rọc đến $m_1$ song song với mặt phẳng nghiêng, đoạn dây từ ròng rọc đến $m_2$ treo thẳng đứng; ban đầu $m_2$ treo lơ lửng cách mặt sàn một khoảng đủ lớn để không chạm sàn trong suốt quá trình).
+
+Giả sử ban đầu $m_1$ được giữ đứng yên tại đỉnh nêm, $m_2$ đứng yên, nêm $M$ đứng yên. Thả nhẹ cho hệ chuyển động. Khi $m_1$ trượt dọc mặt nêm được quãng đường $s_1 = 0{,}8\,\text{m}$ (chưa tới chân nêm), một chốt giữ cố định làm nêm $M$ dừng lại đột ngột trong thời gian rất ngắn, đồng thời dây vẫn giữ nguyên không đứt và $m_1$ tiếp tục trượt thêm trên mặt nêm cố định đến khi đi thêm được quãng đường $s_2 = 0{,}4\,\text{m}$. Cho biết hệ số ma sát trượt giữa $m_1$ và mặt nêm là $\mu = 0{,}1$; gia tốc trọng trường $g = 10\,\text{m/s}^2$.
+
+Yêu cầu:
+
+Phân tích hệ, lực, ràng buộc và các mốc thời gian $\tau$ theo đúng quy trình.
+
+Tính vận tốc các vật ngay trước và ngay sau khi nêm $M$ bị chốt dừng đột ngột, cũng như khi $m_1$ trượt thêm quãng đường $s_2$.
+
+
+
+---
+
 ### C7. Momen xung lượng của chất điểm, lực xuyên tâm, Kepler **[EXT]**
 
 - **Kiểu CHỖ:** (Σ, khoảng thời gian, **điểm O** hoặc trục e).
