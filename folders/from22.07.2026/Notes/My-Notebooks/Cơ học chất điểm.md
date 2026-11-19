@@ -332,6 +332,9 @@ Mỗi thẻ có: **Kiểu CHỖ · Nội dung · Pre · Suf (dấu hiệu) · Po
 
 ---
 
+Bạn có thể đang ảo giác nặng về Vector đó, hãy xem thử cái này: ![Uploading image.png…]()
+
+
 ### K1. Chuyển động thẳng đều / biến đổi đều (gia tốc hằng, một trục) **[C]**
 
 - **Kiểu CHỖ:** (1 vật, 1 khoảng thời gian hoặc 2 trạng thái, 1 trục).
