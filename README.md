@@ -52,6 +52,8 @@ Nếu có vấn đề gì muốn giải quyết, có thể bao gồm cả vấn 
 
 # YAPPING!
 
+(Cảnh báo tôi đang yapping, đừng đọc vì nó cringe)
+
 
 Sau khi đọc câu "Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn." chắc nhiều người vẫn sẽ nhận xét và góp ý với tâm trạng mà tôi đánh giá là "toxic". Có điều, tôi có 1 thứ muốn kể:
 
