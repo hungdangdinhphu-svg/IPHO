@@ -628,6 +628,8 @@ Kết hợp: https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from2
   - N2: **ΣF** = d**p**/dt = m**a** (m không đổi).
   - N3: **F**_AB = −**F**_BA (hai lực đặt lên **hai vật khác nhau**). Dạng mạnh: hai lực còn cùng đường nối (lực xuyên tâm).
 
+https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%E1%BA%A2nh%20vui%20v%E1%BA%BB/1795078008175_624727258039481647_4547468469833986719_acc0d520c365042d675c03cbbe463fe5.jpg
+
   Bẫy kinh điển: Trong cực kỳ nhiều bài toán chỉ có thể xác định phản lực N theo II Newton, vì N không hiển nhiên có độ lớn bằng P.
   
   - Nguyên lý chồng chất lực.
