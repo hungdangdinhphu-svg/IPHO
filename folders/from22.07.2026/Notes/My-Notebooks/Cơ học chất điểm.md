@@ -1086,6 +1086,11 @@ https://share.gemini.google/7crT4MChYIVz
 - **Pre (tại CHỖ):** (i) Lực **không thế** có công tổng bằng 0 hoặc được tính vào A_nt; (ii) lực liên kết không sinh công tổng cộng (N ⟂ v; T dây không dãn của cả hệ); (iii) trong khoảng đang xét **không** có va chạm không đàn hồi/dây căng đột ngột/dừng đột ngột.
 - **Suf-test ALG-C4 (thuật toán kiểm điều kiện):**
   1. Chọn Σ và hai trạng thái (τ1, hoặc τ2, τ11…).
+
+Chọn hai thời điểm/cấu hình $\tau_1$ (đầu) và $\tau_2$ (cuối) ứng với các vị trí, vận tốc đã biết hoặc cần tìm. Nếu quá trình có biến cố làm thay đổi bản chất phương trình, chia thành các đoạn nhỏ hơn.
+
+Lập danh sách đầy đủ mọi lực tác dụng lên từng vật trong hệ (không bỏ sót lực nào) rồi xếp vào từng nhóm:
+  
   2. **Quét mọi lực** lên từng vật (D1). Phân loại:
      - **Lực thế** (trọng lực, đàn hồi, hấp dẫn): đưa vào U, **không** đếm thêm công (P6).
      - **Lực không thế** (ma sát, cản, lực kéo cho trước): tính A_nt.
