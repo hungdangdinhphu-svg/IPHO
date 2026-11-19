@@ -332,7 +332,8 @@ Mỗi thẻ có: **Kiểu CHỖ · Nội dung · Pre · Suf (dấu hiệu) · Po
 
 ---
 
-Bạn có thể đang ảo giác nặng về Vector đó, hãy xem thử cái này: ![Uploading image.png…]()
+Bạn có thể đang ảo giác nặng về Vector đó, hãy xem thử cái này: <img width="1141" height="722" alt="image" src="https://github.com/user-attachments/assets/fd46c379-15b6-448f-950f-28a8708ff29b" />
+
 
 
 ### K1. Chuyển động thẳng đều / biến đổi đều (gia tốc hằng, một trục) **[C]**
