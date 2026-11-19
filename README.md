@@ -147,6 +147,186 @@ vật lý tiến hóa đến mức M Theory luôn r (dù chưa có bằng chứn
 
 "chắc do anh ấy có ngôn ngữ tuyệt nhất anh ấy từng học là lý thuyết thông tin-mô tả chính xác mọi thứ miễn là có thông tin hoặc có quy luật trong toán hay lý đều đc, khoa học cơ bản, triết học, logic là đc,... và 1 kỹ năng nghiên cứu dựa trên vẻ đẹp của anh ấy tự tạo ra (tái phát minh gần giống các kỹ thuật từng có) hoặc phát hiện ra (như nodal analysis linear algebra dù mới lớp 9). có vẻ cx ko hẳn chỉ là information theory, mà còn cả 1 đống thứ khác nx =)), tích lũy dần nhỉ"
 
+"
+[17/11/2026 20:34:43] Hưng: Trước hết là thông tin
+
+[17/11/2026 20:34:53] Hưng: bất kỳ lý thuyết nào
+
+[17/11/2026 20:35:03] Hưng: nó chỉ cần biểu diễn được qua chữ cái hoặc mã nhị phân
+
+[17/11/2026 20:35:10] Hưng: nó có thể bao gồm các môn như ngữ văn, toán, khoa học cơ bản
+
+[17/11/2026 20:35:21] Hưng: thì đều số hóa đc
+
+[17/11/2026 20:35:53] Hưng: sau khi đã pre-process... về số
+
+[17/11/2026 20:35:56] Hưng: tức dữ liệu về thuần số
+
+[17/11/2026 20:36:14] Hưng: ta có thể dùng nền này để tạo thành 1 bài toán, chứng minh cho 1 số thứ quan trọng trc hết
+
+[17/11/2026 20:36:38] Hưng: Trước hết, đáp số, hay lời giải cho 1 bài toán, hay cả 1 bài văn... đều có thể được đưa về số.
+
+[17/11/2026 20:36:58] Hưng: Vậy, nếu có 1 cái máy tính, nó có 1 cái chức năng, đó là tạo số ngẫu nhiên, kiểu random ấy
+
+[17/11/2026 20:37:21] Hưng: nếu như xây dựng 1 cách ánh xạ/mã hóa, hay đơn giản hơn là chuyển từ dữ liệu văn bản/hình ảnh <-> số như t vừa nói
+
+[17/11/2026 20:37:47] Hưng: thì việc có 1 cái máy tính chỉ cần đưa ra đúng số (mặc dù dung lượng thực tế lớn, kiểu như vài mb), thì nó đã giải quyết đc vấn đề của chúng ta
+
+[17/11/2026 20:37:54] Hưng: đơn giản là thay đổi biểu diễn đúng chứ?
+
+[17/11/2026 20:38:40] Hưng: dĩ nhiên, xác suất nó random trúng con số để chuyển dữ liệu số về dữ liệu lời giải mà ta cần điền vào bài thi là tiến về 0%
+
+[17/11/2026 20:39:15] Hưng: tức là về cơ bản, dù là dùng cách nào, như dùng não người để tư duy, hay dùng máy tính random bừa đáp án, hay dùng AI, thì đều là đang đưa ra nỗ lực giải quyết 1 bài toán
+
+[17/11/2026 20:39:20] Hưng: là bài toán tìm kiếm hay search problem
+
+[17/11/2026 20:39:54] Hưng: vậy, nếu như sự khác biệt giữa năng lực tư duy của máy tính, AI, con người với người
+
+[17/11/2026 20:39:58] Hưng: chỉ là vấn đề tìm kiếm?
+
+[17/11/2026 20:40:07] Hưng: ừ không phải IF, mà nó là fact
+
+[17/11/2026 20:40:08] Hưng: for real
+
+[17/11/2026 20:40:15] Hưng: thế thì
+
+[17/11/2026 20:40:25] Hưng: hãy cùng xem 1 bài toán tìm kiếm t tự nghĩ ra
+
+[17/11/2026 20:40:30] Hưng: để chứng minh cho 1 thứ lớn lao hơn
+
+[17/11/2026 20:40:38] Hưng: Cho 1 tỷ cái hộp.
+
+[17/11/2026 20:40:47] Hưng: Và 1 thằng được giải học sinh giỏi cấp quốc gia môn vật lý.
+
+[17/11/2026 20:40:56] Hưng: Trong 1 tỷ cái hộp đó, chỉ có 1 hộp có cục vàng.
+
+[17/11/2026 20:41:03] Hưng: Cho thời gian giới hạn tìm là 45 phút.
+
+[17/11/2026 20:41:22] Hưng: Dĩ nhiên, xác suất giữa 1 người có trí tuệ tầm trung và thằng hsg đó tìm được cục vàng xấp xỉ 0%.
+
+[17/11/2026 20:41:48] Hưng: Vậy thì suy ra, bắt buộc nếu muốn tìm được, phải có 1 cái mẹo, hay 1 cách làm gì đó đúng ko? kiểu như đường tắt? (nếu ko thì tiến về 0% xác suất)
+
+[17/11/2026 20:43:02] Hưng: lách luật bản chất là đường tắt
+
+[17/11/2026 20:43:11] Hưng: dù m có đi cửa sau
+
+[17/11/2026 20:43:16] Hưng: thực tế
+
+[17/11/2026 20:43:18] Hưng: đúng hơn là
+
+[17/11/2026 20:43:22] Hưng: chắc chắn phải tìm 1 cách lách luật
+
+[17/11/2026 20:43:31] Hưng: và cách mà những thằng lách luật đó dùng, chính là tư duy của hsg
+
+[17/11/2026 20:43:41] Hưng: bài toán tìm kiếm 1 tỷ cái hộp và bài toán trên trường, như nhau
+
+[17/11/2026 20:43:44] Hưng: đm
+
+[17/11/2026 20:43:48] Hưng: t đang modeling th
+
+[17/11/2026 20:44:09] Hưng: đó là đường của người khôn:p, vì vốn dĩ bài toán ko bắt mọi ng đi theo cách đó
+
+[17/11/2026 20:44:25] Hưng: bây h nhé
+
+[17/11/2026 20:44:28] Hưng: tưởng tượng
+
+[17/11/2026 20:44:59] Hưng: 1 tỷ cái hộp, số 1 tỷ được viết (biểu diễn) như sau: 1,000,000,000
+
+
+
+Giả sử bảng chữ cái chỉ có 10 từ (thực ra hình như tiếng anh là 23, cơ mà thôi cứ giả bộ đi, vì t lười đổi quy ước), thì giả sử chữ A được coi là số 0, B là 1, C là 2,...
+
+
+
+Thì chữ ABC được ghi lại là 012 đúng chứ?
+
+[17/11/2026 20:45:17] Hưng: Tức 1,000,000,000 biểu diễn được tối đa 10 từ
+
+[17/11/2026 20:45:46] Hưng: vậy thì
+
+[17/11/2026 20:45:52] Hưng: giả sử bảng chữ cái của chúng ta
+
+[17/11/2026 20:45:54] Hưng: mở rộng lên
+
+[17/11/2026 20:46:00] Hưng: kiểu như 1 bàn phím laptop tiêu chuẩn?
+
+[17/11/2026 20:46:04] Hưng: có thêm dấu "="
+
+[17/11/2026 20:46:08] Hưng: dấu "+", "-"
+
+[17/11/2026 20:46:12] Hưng: sin, cos,....
+
+[17/11/2026 20:46:36] Hưng: thì tức là, việc tìm ra 1 lời giải cho 1 bài toán, thực chất chính là vấn đề tìm kiếm.
+
+[17/11/2026 20:46:42] Hưng: hãy nhớ kỹ cái từ "vấn đề tìm kiếm".
+
+[17/11/2026 20:46:53] Hưng: "bài toán trên lớp thực tế là vấn đề tìm kiếm".
+
+[17/11/2026 20:47:16] Hưng: bất kỳ vấn đề nào trên trường học, nếu như ko giải quyết đc bằng sự chăm chỉ thuần, kiểu như cày từ vựng tiếng anh, đều là bài toán tìm kiếm.
+
+[17/11/2026 20:48:33] Hưng: bây h nhé
+
+[17/11/2026 20:48:39] Hưng: m nhớ lại kỳ thi tuyển sinh vào 10 hcm ko?
+
+[17/11/2026 20:48:44] Hưng: bài khó nhất là bài hình học
+
+[17/11/2026 20:48:48] Hưng: nơi mà m phải tìm ra tam giác
+
+[17/11/2026 20:48:49] Hưng: tìm ra góc
+
+[17/11/2026 20:48:55] Hưng: tìm ra những thứ cần thiết
+
+[17/11/2026 20:49:06] Hưng: để chứng minh 2 đường thẳng song song qua 4 tam giác đồng dạng kèm thales đảo?
+
+[17/11/2026 20:49:18] Hưng: thực tế đại số và mọi vấn đề khác cx như v
+
+[17/11/2026 20:49:44] Hưng: giải tích cx v
+
+[17/11/2026 20:49:53] Hưng: nó chính là vấn đề tìm kiếm.
+
+[17/11/2026 20:50:37] Hưng: Một khi đã là vấn đề tìm kiếm, thì nếu như không tồn tại bất kỳ đường tắt hay cách lách luật nào (kiểu như mẹo, hay cách tư duy ngầm,...), thì sẽ không thể tồn tại Học sinh nào giỏi cả, biết vì sao mà đúng ko?
+
+[17/11/2026 20:51:16] Hưng: "mọi ng bị lệch vào thiên kiến và cảm xúc đủ nhiều để ko nhận ra, thật ra não của ai cx gần như như nhau:p, vậy mà chỉ khoảng 45 ng mà đã có những ng xuất sắc hơn vượt trội
+
+ko thấy vô lý à?"
+
+[17/11/2026 20:51:56] Hưng: thế, nếu bắt buộc phải tồn tại 1 đường tắt nào đó, thì nó sẽ có thể được viết ra thành lời, thành chữ, thành lý thuyết, và truyền đạt lại được.
+
+[17/11/2026 20:52:09] Hưng: ko có đa dạng hóa
+
+[17/11/2026 20:52:23] Hưng: cùng 1 bài toán, khác cách nhìn
+
+[17/11/2026 20:53:01] Hưng: đm, ý t là giả sử nó có não và một môi trường tiêu chuẩn cho việc học
+
+[17/11/2026 20:53:40] Hưng: yes
+
+[17/11/2026 20:53:56] Hưng: đảm bảo vấn đề khả giải nhé:p
+
+[17/11/2026 20:59:07] Hưng: các vấn đề liên quan đến việc nản khi học, thật ra đơn giản là do chưa thử bao h
+
+[17/11/2026 20:59:09] Hưng: giả sử nhé
+
+[17/11/2026 20:59:17] Hưng: nếu m đc tiếp cận đúng cách
+
+[17/11/2026 20:59:21] Hưng: nhận ra vẻ đẹp của toán học
+
+[17/11/2026 20:59:27] Hưng: hơn hẳn mấy thứ rách khác như mạng xã hội
+
+[17/11/2026 20:59:32] Hưng: như những nhà toán học ngày xưa, hoặc như t
+
+[17/11/2026 20:59:38] Hưng: thì s?
+
+[17/11/2026 21:01:43] Hưng: m có nghĩ việc tìm ra cách tiếp cận đúng đắn với tri thức, thì nó cx là 1 vấn đề tìm kiếm ko?
+
+[17/11/2026 21:01:59] Hưng: ừ
+
+[17/11/2026 21:02:05] Hưng: có cách giải quyết cho m
+
+[17/11/2026 21:02:10] Hưng: nma t lười
+
+[17/11/2026 21:02:13] Hưng: th t đi học tiếp, hết h r 
+"
+
 Farewell.
 
 
