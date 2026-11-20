@@ -337,6 +337,8 @@ ko thấy vô lý à?"
 
 vì sao lại xảy ra các cuộc xung đột lớn thay vì 2 bên cân bằng sẵn từ đầu, ý tôi là tại sao lại có định kiến thay vì ban đầu ko có cái nào?"
 
+"may quá chúng ta có định lý noether chứ nếu ko thì vật lý hết cứu"
+
 Farewell.
 
 
