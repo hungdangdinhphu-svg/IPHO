@@ -7,6 +7,8 @@ Do tôi thích IPHO nên tôi đặt tên cả cái repo là IPHO, thực tế t
 
 **Hiển nhiên, có thể có lỗi sai, và thậm chí là lỗi sai lớn.**
 
+Tuy nhiên, tôi chọn việc ghi đè (tức là nếu có lỗi sai, khả năng cao tôi sẽ không xóa, mà tôi chỉ ghi thêm phần nội dung bổ sung vào bên cạnh) thay vì xóa đi lỗi sai. Tôi nghĩ đó là điều tôi thấy nên làm.
+
 ---
 
 # Motivation & "Meta", "General", "Purpose", "Method",... ?
