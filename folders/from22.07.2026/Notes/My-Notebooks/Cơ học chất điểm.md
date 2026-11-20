@@ -635,6 +635,8 @@ Kết hợp: https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from2
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%E1%BA%A2nh%20vui%20v%E1%BA%BB/1795078008175_624727258039481647_4547468469833986719_acc0d520c365042d675c03cbbe463fe5.jpg
 
   Bẫy kinh điển: Trong cực kỳ nhiều bài toán chỉ có thể xác định phản lực N theo II Newton, vì N không hiển nhiên có độ lớn bằng P.
+
+  Trong các bài tĩnh học cơ bản trên mặt phẳng nghiêng, hãy nhớ rằng sẽ là vô lý nếu vector phản lực N có độ lớn là lớn hơn so với vector trọng lực P, nó chỉ có thể bằng hoặc nhỏ hơn nhé.
   
   - Nguyên lý chồng chất lực.
 - **Dom:** Hệ quán tính, v ≪ c, chất điểm.
