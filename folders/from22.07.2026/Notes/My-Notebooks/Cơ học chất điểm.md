@@ -1055,7 +1055,7 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 - **Kiểu CHỖ:** (Σ, trạng thái 1, trạng thái 2).
 - **Nội dung:**
   - dA = **F**·d**r**; P = **F**·**v** = dA/dt; P̄ = A/Δt.
-  - **ΔK = A_tổng** (công của **mọi** lực tác dụng lên từng vật, kể cả nội lực).
+  - **ΔK = A_tổng** (công của **mọi** lực tác dụng lên từng vật, kể cả NỘI LỰC!).
   - **König:** K = ½MV_cm² + K' (K' trong hệ khối tâm).
   - Nội lực: A_int = ∫**F**₁₂·d(**r**₁ − **r**₂) (chỉ phụ thuộc dịch chuyển **tương đối**).
 - **Công đặc biệt:**
