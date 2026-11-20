@@ -333,6 +333,10 @@ ko thấy vô lý à?"
 
 "[17/11/2026 20:33:55] Hưng: hm... thực tế thì, kiểu nó luôn tồn tại 1 thứ khá phổ biến, kiểu như 1 ng giỏi trong Toán sẽ thường giỏi trong nhiều thứ khác, ko phải toàn bộ ai cũng v; Có điều, t nghĩ nó liên quan đến t, kiểu như, những thứ m nói dĩ nhiên đúng, cơ mà theo t nó ko tạo thêm thông tin gì mới với t, đồng nghĩa với việc t bt trước r, vì nó khá dễ để được suy ra, như m vừa làm. Có 1 cái vấn đề với ngôn ngữ là, nếu t nói chính xác những j t đang nghĩ, m ko thể hiểu vì nó sẽ tràn ngập thuật ngữ, giống kiểu như Toán học vậy, tràn ngập những thuật ngữ chuyên ngành mà mọi ng nhìn vào sẽ mệt, mặc dù nó giúp duy trì tính chính xác tuyệt đối, nên t đơn giản hóa bớt là nỗ lực truyền tải của t, nhưng những thứ mà t cố tình loại bỏ trong câu nói hoặc overhyped, m có thể thấy, m đều nhận ra"
 
+"ý t là, nó thật sự có thể lan rộng kinh khủng như vậy, chứng tỏ ngay cả những ng như tôi hoặc những ng đàn ông khác ngày nay đều tôn trọng bình đẳng giới nếu bị comeback về quá khứ (và ko nhớ gì về thời hiện đại) và theo giáo dục ngày xưa chắc chắn sẽ hùa theo, hoặc gần như chắc chắn?
+
+vì sao lại xảy ra các cuộc xung đột lớn thay vì 2 bên cân bằng sẵn từ đầu, ý tôi là tại sao lại có định kiến thay vì ban đầu ko có cái nào?"
+
 Farewell.
 
 
