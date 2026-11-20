@@ -256,6 +256,10 @@ Dĩ nhiên trực giác có thể hỗ cực kỳ chủ chốt cho việc này �
 
 Từ những thông tin mà đề yêu cầu bản thân cần cung cấp (Câu hỏi từ đề) [CHTD1] và những dữ kiện đề cho [DKDC2]. "Phân tích ngược" bằng cách chỉ quan tâm đến những công cụ/phương pháp liên quan đến [CHTD1] và [DKDC2], điều hay là nó không khó và mất nhiều thời gian đâu. Còn về phần Toán học thì tự xử đi.
 
+### Vấn đề về "ảo giác" do các thông tin sai lệch hoặc quá nhiều ẩn ý
+
+Từ đề bài thi kém chất lượng, bài kiểm tra, bài tập không được viết chặt chẽ. Từ việc học theo thầy cô vốn có thiên kiến hoặc có nhiều subtext ngầm, vì thế nên xảy ra tình trạng hiểu nhầm từ gốc, như kiểu việc ngay cả HSG Lý khi tôi đi khảo sát, đa số đều phân tích lực trên mặt phẳng nghiêng dựa trên pattern recognition thay vì nhận ra F = ma phối hợp với III Newton chặt chẽ đến như thế nào, từ đó khi tôi đổi bài toán sang các chất điểm rắn tuyệt đối cấu tạo nên vật rắn tuyệt đối và yêu cầu phân tích lực và đều giải sai và ảo giác nặng nề; các em ấy đã ảo tưởng rằng tác dụng 1 lực F lên 1 hạt thì hạt cuối cùng sẽ vẫn chịu lực F đó, chứ ko hiểu gì cả =)) ví dụ: https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/%E1%BA%A2nh%20vui%20v%E1%BA%BB/ae18787b-38b2-4c56-bef9-6155e4249f92.jpg ; yea, nếu bạn ko mắc phải lỗi này thì tốt th =)), t ko hiểu sao cơ bản mà nhiều ng sai như v
+
 ### PHẦN 1: TÂM THẾ VÀ NGUYÊN TẮC CỐT LÕI
 
 #### 1.1. Triệt tiêu "Ảo tưởng Hiểu biết" (Illusion of Competence)
