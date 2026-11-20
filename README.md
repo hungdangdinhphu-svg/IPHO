@@ -329,6 +329,8 @@ ko thấy vô lý à?"
 
 "Trong khoa học, việc tự tái phát minh lại một chân lý đã có sẵn không làm tăng thêm kho tàng tri thức của nhân loại, nhưng nó lại chứng minh một thứ còn quan trọng hơn đối với một người trẻ: cỗ máy tạo ra lý thuyết trong đầu họ thực sự hoạt động."
 
+"Nếu mà bắt buộc phải dùng máy tính (laptop) khi học, nhưng ko tập trung học đc, nên thử rút dây chuột hoặc vứt cái con chuột vào thùng rác, chuyển sang xài touchpad, nói chung sẽ ko thể chơi game fps hay game sâu được, và dễ tập trung hơn, nhưng đừng lướt tiktok hay gì đó giống shorts"
+
 "[17/11/2026 20:33:55] Hưng: hm... thực tế thì, kiểu nó luôn tồn tại 1 thứ khá phổ biến, kiểu như 1 ng giỏi trong Toán sẽ thường giỏi trong nhiều thứ khác, ko phải toàn bộ ai cũng v; Có điều, t nghĩ nó liên quan đến t, kiểu như, những thứ m nói dĩ nhiên đúng, cơ mà theo t nó ko tạo thêm thông tin gì mới với t, đồng nghĩa với việc t bt trước r, vì nó khá dễ để được suy ra, như m vừa làm. Có 1 cái vấn đề với ngôn ngữ là, nếu t nói chính xác những j t đang nghĩ, m ko thể hiểu vì nó sẽ tràn ngập thuật ngữ, giống kiểu như Toán học vậy, tràn ngập những thuật ngữ chuyên ngành mà mọi ng nhìn vào sẽ mệt, mặc dù nó giúp duy trì tính chính xác tuyệt đối, nên t đơn giản hóa bớt là nỗ lực truyền tải của t, nhưng những thứ mà t cố tình loại bỏ trong câu nói hoặc overhyped, m có thể thấy, m đều nhận ra"
 
 Farewell.
