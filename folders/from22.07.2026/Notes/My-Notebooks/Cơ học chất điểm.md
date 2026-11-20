@@ -1161,7 +1161,7 @@ Lập danh sách đầy đủ mọi lực tác dụng lên từng vật trong h�
 
 ---
 
-**Ví dụ:**
+**Ví dụ 1:**
 
 ```py
 
@@ -1315,7 +1315,25 @@ Phân tích hệ, lực, ràng buộc và các mốc thời gian $\tau$ theo đ�
 
 Tính vận tốc các vật ngay trước và ngay sau khi nêm $M$ bị chốt dừng đột ngột, cũng như khi $m_1$ trượt thêm quãng đường $s_2$.
 
+**Ví dụ 2:**
 
+Xét bài toán cơ học trong hệ quy chiếu gắn với mặt đất (được coi là hệ quy chiếu quán tính) và trong trường trọng lực đều có gia tốc trọng trường $\vec{g}$ hướng thẳng đứng từ trên xuống dưới, với độ lớn $g = \text{const}$:
+
+Một băng chuyền có bề mặt phẳng, cứng tuyệt đối (không biến dạng), đặt nghiêng một góc $\alpha$ cố định ($0 < \alpha < \frac{\pi}{2}$) so với mặt phẳng nằm ngang. Phần mặt phẳng nghiêng phía trên của băng chuyền chuyển động tịnh tiến thẳng đều dọc theo đường dốc chính hướng xuống dưới với vector vận tốc $\vec{v}_0$ không đổi (độ lớn $v_0 > 0$).
+
+Đặt một vật rắn nhỏ có khối lượng $m$ lên bề mặt băng chuyền. Coi vật chỉ chuyển động tịnh tiến (không lăn, không lật) và bỏ qua mọi lực cản của môi trường không khí.
+
+Tương tác tiếp xúc giữa vật và bề mặt băng chuyền tuân theo định luật ma sát khô Coulomb với hệ số ma sát trượt không đổi là $\mu > 0$.
+
+Trước thời điểm $t = 0$ ($t < 0$), vật được giữ đứng yên so với mặt đất ($\vec{v}(t) = \vec{0}$) nhờ một sợi dây nhẹ, không dãn, nằm căng dọc theo đường dốc chính của mặt phẳng nghiêng và buộc cố định đầu trên vào giá đỡ đứng yên so với đất.
+
+Tại thời điểm $t = 0$, sợi dây bị cắt đứt tức thời sao cho quá trình cắt không truyền bất kỳ xung lượng nào cho vật, tức là điều kiện đầu về vận tốc ngay sau khi cắt dây là $\vec{v}(0^+) = \vec{0}$.
+
+Điều kiện biên không gian: Chiều dài phần mặt phẳng nghiêng của băng chuyền đủ lớn để vật chưa rời khỏi băng chuyền trước khi đạt tới trạng thái vận tốc bằng vận tốc của băng chuyền.
+
+Gọi $t_1 > 0$ là thời điểm đầu tiên kể từ lúc cắt dây mà vector vận tốc của vật so với mặt đất bằng vector vận tốc của băng chuyền: $\vec{v}(t_1) = \vec{v}_0$.
+
+Hãy tính công cơ học $A_{\text{ms}}$ của lực ma sát trượt $\vec{F}_{\text{ms}}$ tác dụng lên vật (xét trong hệ quy chiếu gắn với mặt đất) trên khoảng thời gian từ $t = 0^+$ đến $t = t_1$.
 
 ---
 
