@@ -385,6 +385,16 @@ Richard Feynman : "I have a friend who’s an artist and has sometimes taken a v
 
 "ừm, và tớ cũng hơi buồn nhưng cũng thấy vui vui, idk"
 
+"cậu vẫn thích xem pirate nhỉ?"
+
+"đúng là như vậy:)"
+
+"bây giờ nhìn lại, từng block trong minecraft cấu tạo nên cả thế giới, với M-Theory/String Theory, tớ ko bt nên miêu tả ra sao, kiểu như khi tớ biết rằng màn hình laptop toàn là những pixels, thì tớ đã nghĩ đến cách tính diện tích của 1 hình tổng quát 2D, yea nó có thể coi là tích phân gần đúng, dù thực tế lúc đó tớ chưa từng học integral hay calculus"
+
+"thay vì quyết định trạng thái của 1 thứ gì đó bằng thời điểm hiện tại, tớ chọn nhìn tổng thể bao nhiêu năm tháng đã qua, như việc cậu thấy cặp đôi minecraft cậu yêu thích đã thay đổi ở thời điểm hiện tại, nhưng nhìn từ quá khứ đến hiện tại cậu sẽ thấy 1 cảm xúc đặc biệt"
+
+"tớ cũng vậy, kiểu như trong tiệc chia tay với lớp tớ, tớ đã chia tay 1 cách rất tệ với ng bạn thân của tớ ở thcs, nhưng tớ ko phải là ko quan tâm đến chuyện đó, mà là tớ ko thật sự quan tâm nó lắm, vì đã bao nhiêu năm đồng hành mà chỉ vì vài phút giây đó mà đối phương giận tớ vĩnh viễn về sau thì ko nhất thiết phải yêu cầu họ quay trở lại với mình, dù họ có giận tớ vĩnh viễn về sau vì chuyện cỏn con đó hay ko thì tớ vẫn thấy vui vì..."
+
 "hãy vui vì mọi thứ đã xảy ra."
 
 "cảm ơn cậu."
