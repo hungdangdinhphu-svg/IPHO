@@ -343,7 +343,51 @@ vì sao lại xảy ra các cuộc xung đột lớn thay vì 2 bên cân bằng
 
 Richard Feynman : "I have a friend who’s an artist and has sometimes taken a view which I don’t agree with very well. He’ll hold up a flower and say “look how beautiful it is,” and I’ll agree. Then he says “I as an artist can see how beautiful this is but you as a scientist take this all apart and it becomes a dull thing,” and I think that he’s kind of nutty. First of all, the beauty that he sees is available to other people and to me too, I believe. Although I may not be quite as refined aesthetically as he is … I can appreciate the beauty of a flower. At the same time, I see much more about the flower than he sees. I could imagine the cells in there, the complicated actions inside, which also have a beauty. I mean it’s not just beauty at this dimension, at one centimeter; there’s also beauty at smaller dimensions, the inner structure, also the processes. The fact that the colors in the flower evolved in order to attract insects to pollinate it is interesting; it means that insects can see the color. It adds a question: does this aesthetic sense also exist in the lower forms? Why is it aesthetic? All kinds of interesting questions which the science knowledge only adds to the excitement, the mystery and the awe of a flower. It only adds. I don’t understand how it subtracts."
 
+"Hưng, cậu có bao h nhìn lại quá khứ ko?"
 
+"Tớ nghĩ là rất nhiều, dù tớ chưa trưởng thành nhưng tớ hy vọng tớ sẽ không bao giờ thất lạc chính mình của hồi còn là con nít cho tới suốt cuộc đời"
+
+"ý cậu là muốn giữ lại toàn bộ quá khứ của mình để hoài niệm và vẫn muốn giữ được sự hồn nhiên?"
+
+"yea, tớ thấy có nhiều ng cho rằng lớn lên thì sẽ trông trông trưởng thành hơn hay j j đó hơn, kiểu cái tạo hình giống kiểu ngầu ngầu lớn tuổi gì đó idk"
+
+"nhưng tớ ko thích thế, ý tớ là tớ muốn chọn tất cả thay vì chỉ theo 1 hướng"
+
+"có vẻ đó là lý do cậu muốn làm toán nhỉ, kiểu giữ được lại sự hồn nhiên và trong trẻo để sáng tạo?"
+
+"cậu nói đúng là như vậy, từ lúc tớ còn xem redhood với meuchannel cho đến lúc tớ tầm 15t, tớ nhận ra bản thân đã thay đổi kha khá, và tớ đã kịp thời ngăn chặn sự thay đổi đó"
+
+"ý cậu là, không phải cứ là con nít, mà ko phải cứ càng ngày càng tiến tới phong cách điềm đạm như 1 giáo sư mà là giữ hết tất cả?"
+
+"yea, cậu nói đúng"
+
+"vì sao cậu lại ngăn chặn, tớ nghĩ cậu đã làm đúng, ít nhất là với chính cậu và với tớ, nhưng tớ nghĩ dù cậu chưa nói hoàn chỉnh nhưng tớ nghĩ tớ đã ngầm hiểu được phần lớn ẩn ý của cậu?"
+
+"tớ đoán là cậu thật sự hiểu rồi"
+
+"tớ nhận ra bản thân đã dần trở nên khép kín hơn, kiểu như nerd ấy, ừ và tớ dần khá ko thích (coi thường kha khá) những câu chuyện vụn vặt và game, kiểu v, những chuyện mà ba mẹ hay nói là 'vô bổ'"
+
+"cậu nghĩ sao?"
+
+"tớ nghĩ là nên giữ hết, tớ vẫn sẽ tập trung và phấn đấu để học hoàn chỉnh Lagrangian"
+
+"yo, nhưng thực tế là cậu học hết euler-lagrange với nguyên lý t/d dừng rồi đúng ko?"
+
+"yea:)), đó là câu nói của tớ ngày trc"
+
+"cậu cũng thích xem minecraft nhỉ"
+
+"yea, tớ nghĩ minecraft là niềm vui hơn 1 thập kỷ qua của tớ rồi, từ 1.12.2 redhoodvn cho đến ngày nay"
+
+"tớ cũng nhận ra hơn 9 năm, cặp đôi đó vẫn vui cười như ngày nào, nhưng cũng ko còn được như trước nữa"
+
+"ý cậu là trông trưởng thành hơn hả"
+
+"ừm, và tớ cũng hơi buồn nhưng cũng thấy vui vui, idk"
+
+"hãy vui vì mọi thứ đã xảy ra."
+
+"cảm ơn cậu."
 
 Farewell.
 
