@@ -397,6 +397,8 @@ Richard Feynman : "I have a friend who’s an artist and has sometimes taken a v
 
 "hãy vui vì mọi thứ đã xảy ra."
 
+"tớ nhận ra rằng, dù là ở bất kỳ thời điểm nào, tớ đều muốn quay về quá khứ và dù là ngay tại thời điểm đó trong quá khứ, tớ chỉ muốn đến tương lai, nhưng khi đã đến tương lai rồi, tớ chả còn muốn ở tương lai nữa, nhưng tớ nhận ra rằng ngay tại thời điểm hiện tại là 1 niềm vui, và vốn dĩ được sinh ra đã là niềm vui"
+
 "cảm ơn cậu."
 
 https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300014
