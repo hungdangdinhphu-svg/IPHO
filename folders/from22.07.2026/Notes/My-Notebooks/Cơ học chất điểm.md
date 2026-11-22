@@ -432,6 +432,8 @@ Bạn có thể đang ảo giác nặng về Vector đó, hãy xem thử cái n�
 
 Tọa độ cực polar coordinates $(r(t), \theta(t))$ là một hệ tọa độ tổng quát trên mặt phẳng, còn K4 trong ảnh là một bài toán/mô hình chuyển động bị ràng buộc (quỹ đạo tròn có bán kính $R$ không đổi, nên chỉ còn 1 biến vị trí độc lập là góc $\theta(t)$).
 
+**Lưu ý quan trọng:** Đừng có quen tay mà tự ý chèn thêm dấu vector vào quỹ đạo cong, hãy biết phân biệt giữa tốc độ/vận tốc. Vector chỉ cho tuyến tính.
+
 - **Kiểu CHỖ:** (1 vật, thời điểm/khoảng, hệ (t, n)).
 - **Nội dung:**
   - ω = θ̇; v = ωR; T = 2π/ω; f = 1/T.
