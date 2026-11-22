@@ -430,6 +430,8 @@ Bạn có thể đang ảo giác nặng về Vector đó, hãy xem thử cái n�
 
 ### K4. Chuyển động tròn (đều và biến đổi đều) **[C]**
 
+Tọa độ cực polar coordinates $(r(t), \theta(t))$ là một hệ tọa độ tổng quát trên mặt phẳng, còn K4 trong ảnh là một bài toán/mô hình chuyển động bị ràng buộc (quỹ đạo tròn có bán kính $R$ không đổi, nên chỉ còn 1 biến vị trí độc lập là góc $\theta(t)$).
+
 - **Kiểu CHỖ:** (1 vật, thời điểm/khoảng, hệ (t, n)).
 - **Nội dung:**
   - ω = θ̇; v = ωR; T = 2π/ω; f = 1/T.
