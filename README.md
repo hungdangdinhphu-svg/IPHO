@@ -405,6 +405,22 @@ Richard Feynman : "I have a friend who’s an artist and has sometimes taken a v
 
 https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300014
 
+"Khi đứng trước các vấn đề như, một con người không thể trở thành chuyên gia hoàn chỉnh cho hầu như toàn bộ Toán học cốt lõi ngày nay, cậu nghĩ gì?"
+
+"Tớ nghĩ cậu nên hiểu rằng, các ý tưởng gốc, các kỹ thuật cốt lõi ít hơn nhiều nhưng tạo ra toàn bộ những hệ quả sau này, việc chọn học như thế nào và những thứ gì còn phụ thuộc vào người học?"
+
+"Cậu nghĩ cậu học nổi không?"
+
+"Trước hết, M-Theory ít ra 2026 vẫn là đỉnh cao của vật lý, yea, với M-Theory và General Physics hay Vật Lý Lý Thuyết, cả đống người đều học được hết"
+
+"Còn về toán, tớ nghĩ nên tìm cách thử"
+
+"Vì sao cậu lại tìm cách thử, đó có phải bằng chứng cho sự ngạo mạn của cậu không?"
+
+"Dù phải hay không thì tớ học vì niềm vui mà"
+
+"Kiểu như cậu sống có 1 lần thôi, idk"
+
 Farewell.
 
 
