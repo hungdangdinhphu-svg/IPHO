@@ -66,6 +66,8 @@ Với hệ quay tốc độ **ω** (có thể suy từ A3 cho hệ cơ sở bấ
 
 > m**a**' = **F** − m**a**₀ − 2m**ω**×**v**' − m**ω**×(**ω**×**r**') [− m(dω/dt)×**r**' nếu ω đổi]
 
+https://share.gemini.google/X80o3gRUmd0p
+
 **Đây là SEED, không phải D9/D10 riêng** — D9 là trường hợp ω=0, D10 là trường hợp a₀=0. Chỉ cần nhớ **một** công thức vận chuyển này.
 
 ### B5. Thế năng là tích phân ngược của lực bảo toàn
