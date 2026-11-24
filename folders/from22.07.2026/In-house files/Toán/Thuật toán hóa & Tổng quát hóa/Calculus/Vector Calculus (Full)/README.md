@@ -1,3 +1,29 @@
+
+**1. Div (Divergence) là gì, trả về cái gì, vì sao?**
+
+Là gì: Mức độ tỏa ra hay hút vào của trường vectơ tại đúng một điểm.
+
+Trả về cái gì: Một số vô hướng (một con số thực, có thể dương, âm hoặc $0$) tại mỗi điểm.
+
+Vì sao: Một vectơ ở một điểm chỉ cho biết mũi tên trỏ đi đâu; muốn biết xung quanh điểm đó mũi tên đang bung ra xa hay dồn lại gần, bạn phải so sánh giá trị thành phần của nó giữa hai phía đối diện dọc theo từng trục (tức là lấy đạo hàm riêng $\frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}$).
+
+$> 0$: Tỏa ra nhiều hơn hút vào (có "nguồn").$< 0$: Hút vào nhiều hơn tỏa ra (có "bể hút").$= 0$: Cân bằng, vào bao nhiêu ra bấy nhiêu.
+
+**2. Curl là gì, trả về cái gì, vì sao?**
+
+Là gì: Mức độ xoáy vòng cục bộ của trường vectơ quanh một điểm.
+
+Trả về cái gì: Một vectơ (trong không gian 3D) tại mỗi điểm.
+
+Vì sao: Nếu đặt một cái chong chóng nhỏ xíu tại một điểm trong dòng chảy của trường vectơ, dòng chảy có thể làm nó quay. Để mô tả độ mạnh của vòng xoáy lẫn mặt phẳng/trục quay trong không gian 3D, một con số là không đủ — cần một vectơ (hướng của vectơ curl chỉ trục quay theo quy tắc nắm tay phải, độ dài cho biết độ mạnh của độ xoáy). Trong 3D nó có dạng:
+
+$$\operatorname{curl}\mathbf{F} = \left(\frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z},\ \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x},\ \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y}\right)$$
+
+Vì sao lại là hiệu chéo (như $\frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y}$)? Vì để tạo thành một vòng quay trong mặt phẳng $(x, y)$, tốc độ dòng chảy theo $y$ phải thay đổi khi dịch sang $x$, trừ đi cách dòng chảy theo $x$ thay đổi khi dịch lên $y$.
+
+
+---
+
 https://share.gemini.google/Y1KH5IGOdjg3
 
 https://chat.deepseek.com/share/hi57isoqujye3rk35k
