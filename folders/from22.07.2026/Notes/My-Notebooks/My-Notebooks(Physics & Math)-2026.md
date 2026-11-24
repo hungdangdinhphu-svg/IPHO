@@ -14,6 +14,8 @@ Cấu trúc chung: Số ẩn chưa biết = Số phương trình độc lập m�
 
 Thử liệt kê hết các ẩn, rồi đi tìm đủ số phương trình độc lập;
 
+Từ linear algebra.
+
 ## 2.5. Checklist, coi CÔNG CỤ là trung tâm
 
 Rà "kỹ" qua một checklist cố định các “nguồn phương trình”, các CÔNG CỤ có thể dùng.
