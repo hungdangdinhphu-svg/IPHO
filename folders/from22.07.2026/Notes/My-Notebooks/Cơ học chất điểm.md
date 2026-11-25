@@ -1311,15 +1311,16 @@ if __name__ == "__main__":
 
 ```
 
-Một nêm khối lượng $M = 3\,\text{kg}$, mặt nghiêng góc $\alpha = 30^\circ$ so với phương ngang, đặt trên mặt bàn ngang nhẵn. Một vật nhỏ khối lượng $m_1 = 2\,\text{kg}$ nằm ở đỉnh nêm cách mặt bàn một đoạn theo phương thẳng đứng là $H = 1{,}2\,\text{m}$. Một vật nhỏ thứ hai khối lượng $m_2 = 1\,\text{kg}$ nối với $m_1$ bằng một sợi dây nhẹ, không dãn, vắt qua một ròng rọc nhỏ lý tưởng gắn ở đỉnh nêm (đoạn dây từ ròng rọc đến $m_1$ song song với mặt phẳng nghiêng, đoạn dây từ ròng rọc đến $m_2$ treo thẳng đứng; ban đầu $m_2$ treo lơ lửng cách mặt sàn một khoảng đủ lớn để không chạm sàn trong suốt quá trình).
+Một nêm cứng có tiết diện là tam giác vuông, khối lượng $M = 3\text{ kg}$, mặt nghiêng hợp với phương ngang một góc $\alpha = 30^\circ$, chiều cao đỉnh nêm so với mặt bàn là $H = 1{,}5\text{ m}$, đặt trên một mặt bàn nằm ngang, nhẵn. Một vật nhỏ $m_1 = 4\text{ kg}$ đặt tại đỉnh nêm, nối với một vật nhỏ thứ hai $m_2 = 1\text{ kg}$ (coi $m_1, m_2$ là các chất điểm) bằng một sợi dây nhẹ, không giãn, chịu lực căng đủ lớn để không đứt, vắt qua một ròng rọc lý tưởng (khối lượng và kích thước không đáng kể, không ma sát) gắn cố định tại đỉnh nêm. Trong suốt quá trình chuyển động, đoạn dây từ ròng rọc đến $m_1$ luôn song song với mặt phẳng nghiêng, còn vật $m_2$ trượt không ma sát dọc theo mặt bên thẳng đứng của nêm sao cho đoạn dây từ ròng rọc đến $m_2$ luôn có phương thẳng đứng. Ban đầu, chiều dài đoạn dây thẳng đứng đủ lớn để $m_2$ không chạm mặt bàn và cũng không va chạm với ròng rọc khi đi lên.
 
-Giả sử ban đầu $m_1$ được giữ đứng yên tại đỉnh nêm, $m_2$ đứng yên, nêm $M$ đứng yên. Thả nhẹ cho hệ chuyển động. Khi $m_1$ trượt dọc mặt nêm được quãng đường $s_1 = 0{,}8\,\text{m}$ (chưa tới chân nêm), một chốt giữ cố định làm nêm $M$ dừng lại đột ngột trong thời gian rất ngắn, đồng thời dây vẫn giữ nguyên không đứt và $m_1$ tiếp tục trượt thêm trên mặt nêm cố định đến khi đi thêm được quãng đường $s_2 = 0{,}4\,\text{m}$. Cho biết hệ số ma sát trượt giữa $m_1$ và mặt nêm là $\mu = 0{,}1$; gia tốc trọng trường $g = 10\,\text{m/s}^2$.
+Tại thời điểm ban đầu $t = 0$, hệ đứng yên ($m_1$ được giữ ở đỉnh nêm, $m_2$ treo lơ lửng, nêm $M$ đứng yên). Thả nhẹ cho hệ chuyển động tự do. Khi $m_1$ trượt dọc theo mặt nghiêng của nêm được quãng đường $s_1 = 0{,}8\text{ m}$ (tại thời điểm $\tau_1$, khi $m_1$ chưa tới chân nêm), nêm $M$ va chạm hoàn toàn không đàn hồi với một chốt chặn cứng gắn cố định trên mặt bàn làm nêm dừng lại đột ngột trong khoảng thời gian rất ngắn $\Delta t \to 0$ và đứng yên hẳn (không nảy lại, không bị lật). Sau va chạm, $m_1$ tiếp tục trượt trên mặt nêm cố định đến khi đi thêm được quãng đường $s_2 = 0{,}4\text{ m}$ (tại thời điểm $\tau_2$). Biết hệ số ma sát nghỉ cực đại và hệ số ma sát trượt giữa $m_1$ và mặt nêm bằng nhau và bằng $\mu = 0{,}1$; gia tốc trọng trường $g = 10\text{ m/s}^2$.
 
 Yêu cầu:
 
-Phân tích hệ, lực, ràng buộc và các mốc thời gian $\tau$ theo đúng quy trình.
+Phân tích hệ vật, các lực tác dụng, phương trình liên kết động học và diễn biến vật lý qua các mốc thời gian $\tau_1, \tau_2$ theo đúng quy trình.
 
-Tính vận tốc các vật ngay trước và ngay sau khi nêm $M$ bị chốt dừng đột ngột, cũng như khi $m_1$ trượt thêm quãng đường $s_2$.
+Xác định vectơ vận tốc (hoặc độ lớn vận tốc trong hệ quy chiếu gắn với mặt bàn) của các vật $m_1, m_2, M$ ngay trước và ngay sau thời điểm $\tau_1$ khi nêm bị chốt chặn dừng đột ngột, cũng như tại thời điểm $\tau_2$ khi $m_1$ đi hết quãng đường $s_2$.
+
 
 **Ví dụ 2:**
 
