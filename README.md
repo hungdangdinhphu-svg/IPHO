@@ -421,7 +421,7 @@ https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300014
 
 "Kiểu như cậu sống có 1 lần thôi, idk"
 
-Kiểu như, tôi nhận ra rằng, càng hạn chế được cái "sự tiện nghi và tốc độ trong việc hành động 1 việc gì đó trên thiết bị điện tử" càng dễ tập trung học hơn. Kiểu như, thay vì dùng chuột + laptop/pc để học (vốn dễ sao nhãng), thì hãy xài TV để xem 3blue1brown =)), đấy, có thể thấy đây là lý do cho thấy dùng điện thoại để học rất vô lý (hay rất khó tập trung)
+Kiểu như, tôi nhận ra rằng, càng hạn chế được cái "sự tiện nghi và tốc độ trong việc hành động 1 việc gì đó trên thiết bị điện tử" càng dễ tập trung học hơn. Kiểu như, thay vì dùng chuột + laptop/pc để học (vốn dễ sao nhãng), thì hãy xài TV để xem 3blue1brown =)), đấy, có thể thấy đây là lý do cho thấy dùng điện thoại để học rất vô lý (hay rất khó tập trung); Dĩ nhiên, nên dùng laptop (KO CÓ CHUỘT, CHỈ XÀI TOUCHPAD THÔI) + TV là combo tốt nhất r, nên dùng TV nhiều nhất có thể nhé
 
 Farewell.
 
