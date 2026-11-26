@@ -425,6 +425,8 @@ Kiểu như, tôi nhận ra rằng, càng hạn chế được cái "sự tiện
 
 t nghĩ nó cũng là lý do cho thấy trường lớp giúp học sinh học tốt hơn thay vì tự học ở nhà =)), dĩ nhiên, học ở nhà về thường xuyên là tốt hơn trên trường do có internet, nhưng do tâm lý của học sinh phổ biến ngày nay nên chỉ có số ít mới tự học nổi :p
 
+Hồi còn nhỏ tuổi hơn (do lúc viết câu này tôi vẫn là kid lỏ), tôi có nghĩ rằng, nếu như trong một môi trường mà phụ huynh đổi pass wifi, cấm 4G/3G/5G các kiểu, xong rồi phụ huynh giám sát liên tục việc học của con cái, và bt cách giáo dục đúng cách (kiểu như xem 3b1b và nhận ra vẻ đẹp của toán chẳng hạn), thì chỉ sau 1 tháng, dù vất vả, nhưng t tin cuộc đời của đứa nhóc đó sẽ thay đổi thật:p
+
 Farewell.
 
 
