@@ -1,3 +1,5 @@
+*Các vấn đề về lỗi hiển thị xuất hiện đầy rẫy, muốn khắc phục, hãy lấy file .md này rồi phân tích ngược hoặc dùng cách hiển thị khác ko phải github để tương thích
+
 # GIÁO TRÌNH PTVP TỪ A → Z (BẢN CHUẨN HÓA THEO QUY ƯỚC CỦA BẠN)
 
 > **Quy ước bắt buộc xuyên suốt giáo trình:**
