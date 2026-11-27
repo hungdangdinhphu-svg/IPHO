@@ -60,6 +60,14 @@ Lý do nổi bật của việc giải Phương trình vi phân rất thường 
 
 Vì ptvp là mối quan hệ giữa ẩn là hàm ta cần tìm với đạo hàm của chính ẩn đó. Mở rộng đến Hệ PTVP, hệ ptvp là mối quan hệ giữa các ẩn là các hàm ta cần tìm với các đạo hàm của chính các ẩn đó.
 
+Thực tế, chính vì việc đạo hàm của ẩn (hàm) phụ thuộc vào ẩn (hàm số) mà ta đang cần tìm, nên giải ptvp có cấu trúc có thể khai thác như sau:
+
++) Trong Vật Lý, trục thời gian (t) hay biến độc lập t tỏ ra cực kỳ thường xuyên xuất hiện dưới dạng 1 biến độc lập duy nhất trong toàn bộ bài, từ đó mọi biến khác đều là biến phụ thuộc vào biến độc lập thời gian t duy nhất, hay gọi là hàm của thời gian t.
+
++) Và vì do gần như chắc chắn mọi bài Vật Lý trong đời ta giải, đều tuân thủ việc một hàm bất kỳ đều phụ thuộc vào t, ta có thể biểu diễn 1 mặt phẳng đồ thị 2D giữa hàm ta quan tâm và t. Kiểu như x(t), hay v(t), a(t), hoặc có thể viết kiểu như v(x(t)), a(v(x(t))) thay vì v(x) hay a(v) hay a(x) hay gì gì đó, tức là các kỹ thuật trong tích phân, đạo hàm, giải ptvp,... đều hoạt động tốt và không gặp xung đột, thực tế, có thể tinh tế thấy rằng do ta sống trong một thế giới với các bài toán vật lý với trục thời gian t cực kỳ thường xuyên tỏ ra rất mạnh mẽ như tôi đã nói, ta có thể loại bỏ hoàn toàn tham số, thậm chí cơ học cổ điển, điện động lực học mạch kín, hay nhiệt động lực học cân bằng thực chất đều quy về Hệ phương trình vi phân thường (ODE) chứ không phải đạo hàm riêng.
+
+
+
 
 # Phương trình vi phân (PTVP) bậc 1 và bậc 2: từ bản chất đến thuật toán
 
