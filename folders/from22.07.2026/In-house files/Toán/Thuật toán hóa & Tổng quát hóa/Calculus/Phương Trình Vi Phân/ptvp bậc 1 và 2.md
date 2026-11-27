@@ -66,7 +66,27 @@ Thực tế, chính vì việc đạo hàm của ẩn (hàm) phụ thuộc vào 
 
 +) Và vì do gần như chắc chắn mọi bài Vật Lý trong đời ta giải, đều tuân thủ việc một hàm bất kỳ đều phụ thuộc vào t, ta có thể biểu diễn 1 mặt phẳng đồ thị 2D giữa hàm ta quan tâm và t. Kiểu như x(t), hay v(t), a(t), hoặc có thể viết kiểu như v(x(t)), a(v(x(t))) thay vì v(x) hay a(v) hay a(x) hay gì gì đó, tức là các kỹ thuật trong tích phân, đạo hàm, giải ptvp,... đều hoạt động tốt và không gặp xung đột, thực tế, có thể tinh tế thấy rằng do ta sống trong một thế giới với các bài toán vật lý với trục thời gian t cực kỳ thường xuyên tỏ ra rất mạnh mẽ như tôi đã nói, ta có thể loại bỏ hoàn toàn tham số, thậm chí cơ học cổ điển, điện động lực học mạch kín, hay nhiệt động lực học cân bằng thực chất đều quy về Hệ phương trình vi phân thường (ODE) chứ không phải đạo hàm riêng.
 
++) Dĩ nhiên, đồ thị 2D ta hoàn toàn có thể không nhất thiết cứ phải biểu diễn hàm ta quan tâm với t, mà có thể đổi sang hàm ta quan tâm (biến phụ thuộc vào thời gian t) với 1 hàm ta quan tâm nào đó khác (vẫn chắc chắn phụ thuộc vào biến thời gian t)
 
++) Nhưng vì các bài toán giải ptvp phổ biến gần như chắc chắn đạo hàm của 1 hàm luôn phụ thuộc vào chính hàm đó, thành ra, ta có thể tính ra mọi giá trị đạo hàm tương ứng với giá trị của hàm đó trong đồ thị giữa hàm đó và thời gian t, để tôi làm rõ hơn:
+
+Ta có 1 đồ thị biểu diễn hàm ta quan tâm là y(t) với t, thì chắc chắn đạo hàm của hàm y(t) sẽ được tính ra bởi chính giá trị của y(t), mà ta về cơ bản "biết" mọi giá trị y(t) có thể đạt được (hiển nhiên), kiểu như:
+
+Từ âm vô cực đến dương vô cực trên trục y(t). Từ tức là áp dụng để tính mọi giá trị y'(t) đạt được cũng sẽ dựa trên y(t) như vậy, kiểu như :
+
+dy(t)/dt = -k * y(t) với k > 0
+
+Thì y'(t) = -k * y(t) => ta sẽ cho giá trị y(t) biến thiên khắp trục của nó, từ khoảng âm vô cực đến dương vô cực => -k * y(t) cũng sẽ biến thiên;
+
+Ex: tại y(t) = 5 (ta tự đặt trong vô số các giá trị khả thi trên trục y(t)) => y'(t) = ... Sau đó thực hiện bước đó cho toàn bộ trục y(t), tức vô số phép tính, và vì với mọi thời điểm trên trục t thì điều này hoàn toàn hợp lý, ta mở rộng nó thành 1 trường độ dốc nơi mà mỗi điểm (y(t),t) trên mặt phẳng đều trả về giá trị độ dốc được tính như trên, và có thể khẳng định rằng toàn bộ mặt phẳng tại mọi điểm đều tính được độ dốc (hay y'(t))
+
+Vậy là ta đã có 1 trường độ dốc, hay còn có thể hiểu là trong ngữ cảnh đồ thị y(t) - t hay đồ thị của hàm y(t) theo thời gian t thì tại mọi điểm trong mặt phẳng 2D (đồ thị) đó đều tính được độ dốc. Lý do ta tính "thừa" nhiều như vậy là vì ta còn chưa quan tâm đến điều kiện đầu, hằng số c;
+
+Sau khi cho thêm điều kiện đầu, thì nó sẽ tuân thủ theo trường độ dốc của ta, "vẽ" ra một hàm số duy nhất, và đó chính là nghiệm (hàm số) y(t).
+
+Điều thú vị là trong gần như mọi bài vật lý ta gặp trên đời, chúng ta hiển nhiên không quay ngược thời gian được, tức khi ta quan tâm đến đồ thị của hàm số ta quan tâm với t, ta sẽ chỉ chứng kiến 1 đồ thị đi sang phải mà không quay đầu lại như đồ thị pha nào đó =)), cơ mà ý tôi không phải là chỉ suốt ngày dùng cái y(t) - t đâu nhá!
+
+Good luck. Nghe có vẻ khó vậy thôi chứ thật ra nó rất đẹp và không khó, dĩ nhiên giai đoạn đầu thì sẽ mệt mỏi với việc hiểu mấy cái này do chưa tưởng tượng được.
 
 
 # Phương trình vi phân (PTVP) bậc 1 và bậc 2: từ bản chất đến thuật toán
