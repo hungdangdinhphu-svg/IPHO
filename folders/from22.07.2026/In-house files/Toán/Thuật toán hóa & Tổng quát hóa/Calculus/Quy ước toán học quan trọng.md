@@ -71,7 +71,9 @@ Dùng quy tắc này cho phương trình vi phân, đạo hàm, tích phân,... 
 
 Ví dụ: "Gọi $y = y(t)$ là hàm số mô tả sự biến thiên của $y$ theo biến độc lập $t$..."
 
+**Bổ sung về nền tảng:**
 
+Tôi hứng thú với Non-standard Analysis, nên dùng cái này nếu bạn học vật lý, theo tôi =))
 
 
 
