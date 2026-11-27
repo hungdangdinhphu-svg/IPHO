@@ -53,7 +53,12 @@ I basically solve all kinds of differential equations for living: modelling soft
 One might even start thinking that "hey, if my computer can just solve all these equations, why even bother studying them?". And the reason is very simple: by applying knowledge of certain types of DE's and by using more advanced solvers, one can increase performance and accuracy of these solvers by orders of magnitude. Which might make a huge difference: physics simulation in your game becomes more stable, your rendering algorithm can run your effects 60fps instead of 5fps, you can render your image in higher resolution on the same hardware, etc. My idea is, don't think of your computer as a replacement for your knowledge. Think of it as of an incredibly powerful tool, that still fully depends on your skill.
 
 
+
 ```
+
+Lý do nổi bật của việc giải Phương trình vi phân rất thường xuyên không tầm thường như việc chỉ đơn giản tích phân là vì:
+
+Vì ptvp là mối quan hệ giữa ẩn là hàm ta cần tìm với đạo hàm của chính ẩn đó. Mở rộng đến Hệ PTVP, hệ ptvp là mối quan hệ giữa các ẩn là các hàm ta cần tìm với các đạo hàm của chính các ẩn đó.
 
 
 # Phương trình vi phân (PTVP) bậc 1 và bậc 2: từ bản chất đến thuật toán
