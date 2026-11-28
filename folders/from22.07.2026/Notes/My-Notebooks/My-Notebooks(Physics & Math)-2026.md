@@ -18,7 +18,7 @@ Từ linear algebra.
 
 ## 2.5. Checklist, coi CÔNG CỤ là trung tâm
 
-Rà "kỹ" qua một checklist cố định các “nguồn phương trình”, các CÔNG CỤ có thể dùng.
+Rà "kỹ" qua một checklist cố định các “nguồn phương trình”, các CÔNG CỤ có thể dùng. Ta có thể quan tâm đến những biến xuất hiện như thế nào, trong các định luật gốc, và trong bài toán.
 
 ## 3. Nhận diện bất biến (Invariants), biết phân biệt thật/giả, quy luật.
 
