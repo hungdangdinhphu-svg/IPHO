@@ -29,3 +29,5 @@ Hãy biết phân biệt giữa Vật Thể, Chuyển động, Quỹ đạo.
 4. Hãy cứ áp dụng công cụ Toán học đó, đảm bảo nó ở mức chính xác **có thể chấp nhận được**. Bạn sẽ tự nhận ra bản thân đã thành công mô hình hóa.
 
 Nói thẳng nhé: Gần như chắc chắn ta chỉ có thể phân tích được đề bằng hình học Euclid thôi, công cụ phân tích hình học chỉ đến thế! 
+
+Hầu như quy trình trên xài cho mọi vấn đề vật lý, cơ mà nếu động đến các vấn đề vật lý khó hơn thì dĩ nhiên quy trình sẽ thay đổi, cơ mà cốt lõi vẫn sẽ là đảm bảo ta có thể modeling từ vấn đề thực tế vũ trụ -> cấu trúc lý tưởng toán học, nếu nói về việc không cần modeling thì thường sẽ là kiểu các dạng vật lý mà ta có thể đo đạc đầy đủ thông tin, chứ nếu ta xét trong một hệ vĩ mô, chừng nào con người chưa đo được thông tin đầy đủ từ vi mô đến vĩ mô của hệ đó, chừng đó còn modeling.
