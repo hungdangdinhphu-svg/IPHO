@@ -431,6 +431,8 @@ có nhiều ng cứ nói rằng nào mà phải cố gắng lắm j j đó:p, ý
 
 idk, trong lớp học, nếu t nhớ không sai thì nó trông như vầy, có 1 đứa hỏi về lực hấp dẫn rằng, nếu vật A bị lực hấp dẫn của trái đất kéo về phía trái đất, thì sao trái đất không bị kéo lại gần vật A, thầy có trả lời cái gì mà bảo là hình như thầy hỏi ngược lại đứa đó là thế em có thấy trên trái đất có rất nhiều vật khác ngoài A hay không, sau đó thầy bảo cái này phức tạp nên để sau thầy giảng (mặc dù đây là lớp ôn thi hsg và chuyên, có cả hsgqg), t thấy nó có vẻ chả khó, chỉ đơn giản là F = ma thôi mà ? thầy có nghĩ sâu xa quá ko nhỉ? Cơ mà ý tưởng của thầy thì đúng là có, t nghĩ thầy có vẻ đang nghĩ đến 1 hình cầu khá lý tưởng, rồi 1 chất điểm trên hình cầu đó, với tư duy đối xứng t dư sức nghĩ ra cái thầy t đang nghĩ, t thấy nó giống modeling khá đơn giản
 
+"Ta biết rằng, khi tên lửa (trên lý thuyết, đã qua modeling rất nhiều) đi lên với gia tốc = vector0, thì F = ma, và vậy thì làm sao để ta biết cần làm gì để tên lửa vẫn đi lên, chứ không đứng im tại chỗ, ý tôi là công thức II Newton cho ta tận 2 trường hợp?": Trả lời : "Khi gia tốc bằng \(\vec{0}\) (\(\vec{F}_{\text{hợp}} = m\vec{0} = \vec{0}\)), định luật II Newton không tự phân biệt giữa đứng yên và chuyển động thẳng đều đi lên; để tên lửa đi lên và duy trì chuyển động đó, ta phải tạo ra vận tốc hướng lên trước rồi mới cân bằng lực."
+
 Farewell.
 
 
