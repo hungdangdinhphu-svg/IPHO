@@ -1008,6 +1008,8 @@ https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Not
 
 https://github.com/hungdangdinhphu-svg/IPHO/blob/main/folders/from22.07.2026/Notes/My-Notebooks/baitap/image.png
 
+Rất là Ok: https://chat.deepseek.com/share/dtt66wfhuqv2een3fh
+
 ### C1. Xung lượng và bảo toàn động lượng **[C]**
 
 - **Kiểu CHỖ:** (Σ, khoảng thời gian [t₁, t₂], phương e).
