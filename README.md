@@ -429,6 +429,8 @@ Hồi còn nhỏ tuổi hơn (do lúc viết câu này tôi vẫn là kid lỏ),
 
 có nhiều ng cứ nói rằng nào mà phải cố gắng lắm j j đó:p, ý là t thấy trừ khi họ thật sự đặc biệt nghiêm trọng thì họ vẫn có thể học toán tốt đc nếu đc dạy đúng-t đoán v, cơ mà ngay cả t cũng bị bạo lực gđ th:p, ko bt 1 ngày nào đó t có chết trc khi t đủ tuổi để trốn khỏi nhà hay ko =))
 
+idk, trong lớp học, nếu t nhớ không sai thì nó trông như vầy, có 1 đứa hỏi về lực hấp dẫn rằng, nếu vật A bị lực hấp dẫn của trái đất kéo về phía trái đất, thì sao trái đất không bị kéo lại gần vật A, thầy có trả lời cái gì mà bảo là hình như thầy hỏi ngược lại đứa đó là thế em có thấy trên trái đất có rất nhiều vật khác ngoài A hay không, sau đó thầy bảo cái này phức tạp nên để sau thầy giảng (mặc dù đây là lớp ôn thi hsg và chuyên, có cả hsgqg), t thấy nó có vẻ chả khó, chỉ đơn giản là F = ma thôi mà ? thầy có nghĩ sâu xa quá ko nhỉ? Cơ mà ý tưởng của thầy thì đúng là có, t nghĩ thầy có vẻ đang nghĩ đến 1 hình cầu khá lý tưởng, rồi 1 chất điểm trên hình cầu đó, với tư duy đối xứng t dư sức nghĩ ra cái thầy t đang nghĩ, t thấy nó giống modeling khá đơn giản
+
 Farewell.
 
 
